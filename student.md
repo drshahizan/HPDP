@@ -13,33 +13,53 @@ Don't forget to hit the :star: if you like this repo.
 | No | Name | ID |  Github |
 | ----- | ----- | ------ | :------: |
 | 1 | BERNICE LIM JING XUAN | BerniceLimJX | [:octocat:](https://github.com/BerniceLimJX) |
-| 2 | CAMILY TANG JIA LEI | camilytang | [:octocat:](https://github.com/camilytang) |
-| 3 | CHAI YU TONG | Yutongchai | [:octocat:](https://github.com/Yutongchai) |
-| 4 | CHEN PYNG HAW | pynghaw | [:octocat:](https://github.com/pynghaw) |
-| 5 | GOH JING YANG | jingyang26 | [:octocat:](https://github.com/jingyang26) |
-| 6 | JASLENE YU | jaslene-u | [:octocat:](https://github.com/jaslene-u) |
-| 7 | JOSEPH LAU YEO KAI | josephlau2003 | [:octocat:](https://github.com/josephlau2003) |
-| 8 | KEK JESSLYN | Jesslyn19 | [:octocat:](https://github.com/Jesslyn19) |
-| 9 | KOH LI HUI | kohlihui | [:octocat:](https://github.com/kohlihui) |
-| 10 | LEE SOON DER | LeeSoonDer | [:octocat:](https://github.com/LeeSoonDer) |
-| 11 | LIM JING YONG | Jingyong14 | [:octocat:](https://github.com/Jingyong14) |
-| 12 | LOO JIA CHANG | 	jcl03 | [:octocat:](https://github.com/jcl03) |
-| 13 | LOW JIE SHENG | jiesheng4616 | [:octocat:](https://github.com/jiesheng4616) |
-| 14 | LOW YING XI | lowyingxi | [:octocat:](https://github.com/lowyingxi) |
-| 15 | MARCUS JOEY SAYNER | xmqrz| [:octocat:](https://github.com/xmqrz) |
-| 16 | MUHAMMAD DANIAL BIN AHMAD SYAHIR | daniallllllll | [:octocat:](https://github.com/daniallllllll) |
-| 17 | NEO ZHENG WENG | zw-weng | [:octocat:](https://github.com/zw-weng) |
-| 18 | NG SHU YU | ShuYu03 | [:octocat:](https://github.com/ShuYu03) |
-| 19 | NICOLE LIM TZE YEE | nicolelimty | [:octocat:](https://github.com/nicolelimty) |
-| 20 | SOH HAN WEI | wei2030 | [:octocat:](https://github.com/wei2030) |
-| 21 | TAN JUN YUAN | TanJunYuan03 | [:octocat:](https://github.com/TanJunYuan03) |
-| 22 | TIEW CHUAN RONG | tiewrong | [:octocat:](https://github.com/tiewrong) |
-| 23 | TIEW CHUAN SHEN | tiewshen | [:octocat:](https://github.com/tiewshen) |
-| 24 | WONG JUN JI | jjwong2003 | [:octocat:](https://github.com/jjwong2003) |
-| 25 | WONG KHAI SHIAN NICHOLAS | nicholas0377 | [:octocat:](https://github.com/nicholas0377) |
-| 26 | WONG QIAO YING | alovey1014 | [:octocat:](https://github.com/alovey1014) |
-| 27 | YEOH CHONG YI | yChongyi | [:octocat:](https://github.com/yChongyi) |
-| 28 | YONG WERN JIE | Wernjie0713 | [:octocat:](https://github.com/Wernjie0713) |
+Certainly! Here's the updated table with the Github column including the GitHub icon and a placeholder link to a GitHub profile using the ":octocat:" emoji:
+
+| No. | Name                                     | ID          | Github                         |
+|-----|------------------------------------------|-------------|--------------------------------|
+| 1   | Abdul Muhaimin Bin Abdul Razak           |             | [:octocat:](https://github.com/your_id) |
+| 2   | Alieya Zawanie Binti A Zaini            |             | [:octocat:](https://github.com/your_id) |
+| 3   | Aliya Zarena Binti Zainulanuar           |             | [:octocat:](https://github.com/your_id) |
+| 4   | Alya Balqiss Binti Azahar               |             | [:octocat:](https://github.com/your_id) |
+| 5   | Alya Damia Binti Huzaimy                |             | [:octocat:](https://github.com/your_id) |
+| 6   | Ang Yi Qin                              |             | [:octocat:](https://github.com/your_id) |
+| 7   | Fauzan Aqil Bin Azman                   |             | [:octocat:](https://github.com/your_id) |
+| 8   | Fong Khah Kheh                          |             | [:octocat:](https://github.com/your_id) |
+| 9   | Hafizulshah Bin Sharom                  |             | [:octocat:](https://github.com/your_id) |
+| 10  | Ikmal Bin Khairulezuan                  |             | [:octocat:](https://github.com/your_id) |
+| 11  | Izzat Haqeemi Bin Hairudin              |             | [:octocat:](https://github.com/your_id) |
+| 12  | Kee Shin Pearl                          |             | [:octocat:](https://github.com/your_id) |
+| 13  | Lau Yee Chi                             |             | [:octocat:](https://github.com/your_id) |
+| 14  | Liew Yvonne                             |             | [:octocat:](https://github.com/your_id) |
+| 15  | Ling Wan Yin                            |             | [:octocat:](https://github.com/your_id) |
+| 16  | Loo Zhi Yuan                            |             | [:octocat:](https://github.com/your_id) |
+| 17  | Mohamad Azri Hadif Bin Mohammad Rizal  |             | [:octocat:](https://github.com/your_id) |
+| 18  | Muhammad Adam Fahmi Bin Mohd Taufiq     |             | [:octocat:](https://github.com/your_id) |
+| 19  | Muhammad Amir Jamil Bin Jamlus          |             | [:octocat:](https://github.com/your_id) |
+| 20  | Muhammad Ashraaf Bin Saleh              |             | [:octocat:](https://github.com/your_id) |
+| 21  | Muhammad Farhan Bin Ibrahim             |             | [:octocat:](https://github.com/your_id) |
+| 22  | Muhammad Fikri Bin Sharunazim           |             | [:octocat:](https://github.com/your_id) |
+| 23  | Muhammad Harith Hakim Bin Othman        |             | [:octocat:](https://github.com/your_id) |
+| 24  | Muhammad Hasan Bin Che Abdullah         |             | [:octocat:](https://github.com/your_id) |
+| 25  | Muhammad Hazim Bin Salman               |             | [:octocat:](https://github.com/your_id) |
+| 26  | Muhammad Iqmal Bin Sis                  |             | [:octocat:](https://github.com/your_id) |
+| 27  | Muhammad Izzuddin Bin Shabrin           |             | [:octocat:](https://github.com/your_id) |
+| 28  | Muhammad Naquib Bin Zakaria             |             | [:octocat:](https://github.com/your_id) |
+| 29  | Nadia Syafiqah Binti Zulkipli           |             | [:octocat:](https://github.com/your_id) |
+| 30  | Ng Suang Joo                            |             | [:octocat:](https://github.com/your_id) |
+| 31  | Ng Zi Xing                              |             | [:octocat:](https://github.com/your_id) |
+| 32  | Nik Amirul Ariff Bin Amran              |             | [:octocat:](https://github.com/your_id) |
+| 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |             | [:octocat:](https://github.com/your_id) |
+| 34  | Nur Shuhada Safiah Binti Ayob           |             | [:octocat:](https://github.com/your_id) |
+| 35  | Nurunnajwa Binti Zulkifli               |             | [:octocat:](https://github.com/your_id) |
+| 36  | Sam Chia Yun                            |             | [:octocat:](https://github.com/your_id) |
+| 37  | Sarah Wardina Binti Rafidin             |             | [:octocat:](https://github.com/your_id) |
+| 38  | Soo Wan Ying                            |             | [:octocat:](https://github.com/your_id) |
+| 39  | Umar Haziq Bin Muhamad Norhisham        |             | [:octocat:](https://github.com/your_id) |
+| 40  | Wan Amirul Hafiq Bin Wan Huzaini        |             | [:octocat:](https://github.com/your_id) |
+| 41  | Yasmeen Natasha Binti Hafiz Shahrel     |             | [:octocat:](https://github.com/your_id) |
+| 42  | Yew Rui Xiang                            |             | [:octocat:](https://github.com/your_id) |
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
