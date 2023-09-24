@@ -10,6 +10,10 @@ Don't forget to hit the :star: if you like this repo.
 # About Us
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
+## 🔥 Important things
+1. 🧑‍💻 [Student Information](student.md)
+
+
 ### 📚 Course: High Performance Data Processing 
 - [Python for beginners](https://github.com/drshahizan/python-tutorial)
 - [Web scraping and Python web framework](https://github.com/drshahizan/python-web)
