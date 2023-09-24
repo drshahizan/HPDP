@@ -1,9 +1,9 @@
-<a href="https://github.com/drshahizan/python-tutorial/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/python-tutorial" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/python-tutorial/network/members"><img src="https://img.shields.io/github/forks/drshahizan/python-tutorial" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/python-tutorial/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/python-tutorial" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/python-tutorial/issues"><img src="https://img.shields.io/github/issues/drshahizan/python-tutorial" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/python-tutorial/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/Python_Tutorial?color=2b9348"></a>
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fpython-tutorial&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
+<a href="https://github.com/drshahizan/HPDP/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/HPDP" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/network/members"><img src="https://img.shields.io/github/forks/drshahizan/HPDP" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/HPDP" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/issues"><img src="https://img.shields.io/github/issues/drshahizan/HPDP" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/Python_Tutorial?color=2b9348"></a>
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 Don't forget to hit the :star: if you like this repo.
 
@@ -15,14 +15,14 @@ The information on this Github is part of the materials for the subject High Per
 
 
 ### 📚 Course: High Performance Data Processing 
-- [Python for beginners](https://github.com/drshahizan/python-tutorial)
+- [Python for beginners](https://github.com/drshahizan/HPDP)
 - [Web scraping and Python web framework](https://github.com/drshahizan/python-web)
 - [Exploratory data analysis](https://github.com/drshahizan/Python_EDA)
 - [Big data processing](https://github.com/drshahizan/Python-big-data)
-- [Case Study](https://github.com/drshahizan/python-tutorial/blob/main/case-study.md)
+- [Case Study](https://github.com/drshahizan/HPDP/blob/main/case-study.md)
 
 <p align="left">
-<img src="https://github.com/drshahizan/python-tutorial/blob/main/images/python-applications.png"  height="300" />
+<img src="https://github.com/drshahizan/HPDP/blob/main/images/python-applications.png"  height="300" />
 </p>
 
 ## Notes
@@ -97,7 +97,7 @@ Learn skills or discover useful resources with these repositories.
 
 ### Top 20 Pandas Functions for 80% of Your Data Science Tasks!!!
 
-As Data scientists, we all know how essential it is to have a solid understanding of pandas - Python's go-to library for data manipulation and analysis. [Amazing article](https://github.com/drshahizan/python-tutorial/blob/main/images/20_Pandas_Functions.pdf).
+As Data scientists, we all know how essential it is to have a solid understanding of pandas - Python's go-to library for data manipulation and analysis. [Amazing article](https://github.com/drshahizan/HPDP/blob/main/images/20_Pandas_Functions.pdf).
 
 🎯 pd.read_csv()
 
@@ -142,7 +142,7 @@ As Data scientists, we all know how essential it is to have a solid understandin
 ### Others
 - [The only Performance Metrics article you will ever need!](https://medium.com/@MLdebanjan/the-only-performance-metrics-article-you-will-ever-need-135cf5e693e2)
 - [Analysing Data with ChatGPT (Data Analysis and ML)](https://youtu.be/Dw0irOIJYnA)
-- [ChatGPT: Use Case 1 - Generating Datasets](https://github.com/drshahizan/python-tutorial/blob/main/cheatsheet/ChatGPT_Use_Case_1_Generating_Datasets.pdf)
+- [ChatGPT: Use Case 1 - Generating Datasets](https://github.com/drshahizan/HPDP/blob/main/cheatsheet/ChatGPT_Use_Case_1_Generating_Datasets.pdf)
 
 ## Dataset
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
@@ -161,7 +161,7 @@ As Data scientists, we all know how essential it is to have a solid understandin
 - [CERN Open Data Portal](http://opendata.cern.ch/)
 
 ## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/python-tutorial/issues) for any improvements, suggestions or errors in the content.
+Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
