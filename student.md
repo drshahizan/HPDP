@@ -8,12 +8,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## Student Information: Section 01
-
-| No | Name | ID |  Github |
-| ----- | ----- | ------ | :------: |
-| 1 | BERNICE LIM JING XUAN | BerniceLimJX | [:octocat:](https://github.com/BerniceLimJX) |
-Certainly! Here's the updated table with the Github column including the GitHub icon and a placeholder link to a GitHub profile using the ":octocat:" emoji:
+## Student Information
 
 | No. | Name                                     | ID          | Github                         |
 |-----|------------------------------------------|-------------|--------------------------------|
