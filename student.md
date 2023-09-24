@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Student Information
 
 | No. | Name                                     | ID          | Github                         |
-|-----|------------------------------------------|-------------|--------------------------------|
+|-----|------------------------------------------|-------------|:--------------------------------:|
 | 1   | Abdul Muhaimin Bin Abdul Razak           |             | [:octocat:](https://github.com/your_id) |
 | 2   | Alieya Zawanie Binti A Zaini            |             | [:octocat:](https://github.com/your_id) |
 | 3   | Aliya Zarena Binti Zainulanuar           |             | [:octocat:](https://github.com/your_id) |
