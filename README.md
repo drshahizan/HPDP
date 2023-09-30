@@ -17,7 +17,7 @@ Welcome to the High-Performance Data Processing (HPDP) class! We are thrilled to
    Please fill in 🧑‍💻 your details in the provided Google Sheets document [here](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?usp=sharing).
 
 2. **Create a GitHub Account:**
-   Ensure you have a GitHub account by signing up at [GitHub](https://github.com/login).
+   Ensure you have a GitHub :octocat: account by signing up at [GitHub](https://github.com/login).
 
 3. **Access Teaching Materials:**
    All teaching materials will be available on my GitHub account. Please follow [this link](https://github.com/drshahizan) to access the materials.
