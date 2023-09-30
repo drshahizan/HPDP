@@ -12,6 +12,7 @@ The information on this Github is part of the materials for the subject High Per
 
 ## 🔥 Important things
 1. 🧑‍💻 [Student Information](student.md)
+2. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
 
 
 ### 📚 Course: High Performance Data Processing 
