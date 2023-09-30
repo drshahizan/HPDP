@@ -32,10 +32,8 @@ Please be sure to complete these tasks before our first class, as they are essen
 
 Looking forward to an amazing and productive class!
 
-Best regards,
-[Your Name]
-
 ## 🔥 Important things
+1. [Student information](student.md)
 2. [AWS Academy Cloud Foundations](https://awsacademy.instructure.com/courses/60317)
 3. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
 
