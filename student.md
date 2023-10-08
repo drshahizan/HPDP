@@ -27,7 +27,7 @@
 | 13  | Lau Yee Chi                             |             | [:octocat:](https://github.com/your_id) |
 | 14  | Liew Yvonne                             |Yvonneee24   | [:octocat:](https://github.com/Yvonneee24) |
 | 15  | Ling Wan Yin                            |             | [:octocat:](https://github.com/your_id) |
-| 16  | Loo Zhi Yuan                            |             | [:octocat:](https://github.com/your_id) |
+| 16  | Loo Zhi Yuan                            |lzy0007      | [:octocat:](https://github.com/your_id) |
 | 17  | Mohamad Azri Hadif Bin Mohammad Rizal  |             | [:octocat:](https://github.com/your_id) |
 | 18  | Muhammad Adam Fahmi Bin Mohd Taufiq     |             | [:octocat:](https://github.com/your_id) |
 | 19  | Muhammad Amir Jamil Bin Jamlus          |             | [:octocat:](https://github.com/your_id) |
