@@ -15,7 +15,7 @@
 | 1   | Abdul Muhaimin Bin Abdul Razak          |Muhaimin005             | [:octocat:](https://github.com/Muhaimin005) |
 | 2   | Alieya Zawanie Binti A Zaini            |             | [:octocat:](https://github.com/your_id) |
 | 3   | Aliya Zarena Binti Zainulanuar           |             | [:octocat:](https://github.com/your_id) |
-| 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/your_id) |
+| 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/aly4blqss) |
 | 5   | Alya Damia Binti Huzaimy                |             | [:octocat:](https://github.com/your_id) |
 | 6   | Ang Yi Qin                              |  yiqin0209           | [:octocat:](https://github.com/yiqin0209) |
 | 7   | Fauzan Aqil Bin Azman                   |             | [:octocat:](https://github.com/your_id) |
@@ -43,7 +43,7 @@
 | 29  | Nadia Syafiqah Binti Zulkipli           |             | [:octocat:](https://github.com/your_id) |
 | 30  | Ng Suang Joo                            |             | [:octocat:](https://github.com/your_id) |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |
-| 32  | Nik Amirul Ariff Bin Amran              |             | [:octocat:](https://github.com/your_id) |
+| 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |
 | 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |             | [:octocat:](https://github.com/your_id) |
 | 34  | Nur Shuhada Safiah Binti Ayob           |             | [:octocat:](https://github.com/your_id) |
 | 35  | Nurunnajwa Binti Zulkifli               |             | [:octocat:](https://github.com/your_id) |
