@@ -39,7 +39,7 @@
 | 25  | Muhammad Hazim Bin Salman               |             | [:octocat:](https://github.com/your_id) |
 | 26  | Muhammad Iqmal Bin Sis                  |             | [:octocat:](https://github.com/your_id) |
 | 27  | Muhammad Izzuddin Bin Shabrin           |             | [:octocat:](https://github.com/your_id) |
-| 28  | Muhammad Naquib Bin Zakaria             |             | [:octocat:](https://github.com/your_id) |
+| 28  | Muhammad Naquib Bin Zakaria             |nqbzkr01     | [:octocat:](https://github.com/nqbzkr01) |
 | 29  | Nadia Syafiqah Binti Zulkipli           |             | [:octocat:](https://github.com/your_id) |
 | 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |
