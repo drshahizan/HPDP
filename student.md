@@ -46,7 +46,7 @@
 | 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |
 | 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |             | [:octocat:](https://github.com/your_id) |
 | 34  | Nur Shuhada Safiah Binti Ayob           |ShuhadaSafiah            | [:octocat:](https://github.com/ShuhadaSafiah) |
-| 35  | Nurunnajwa Binti Zulkifli               |             | [:octocat:](https://github.com/your_id) |
+| 35  | Nurunnajwa Binti Zulkifli               |Nurunnajwa12             | [:octocat:](https://github.com/Nurunnajwa12) |
 | 36  | Sam Chia Yun                            |             | [:octocat:](https://github.com/your_id) |
 | 37  | Sarah Wardina Binti Rafidin             |             | [:octocat:](https://github.com/your_id) |
 | 38  | Soo Wan Ying                            |wying1      | [:octocat:](https://github.com/wying1) |
