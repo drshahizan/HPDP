@@ -30,7 +30,7 @@
 | 16  | Loo Zhi Yuan                            |lzy0007      | [:octocat:](https://github.com/your_id) |
 | 17  | Mohamad Azri Hadif Bin Mohammad Rizal  |             | [:octocat:](https://github.com/your_id) |
 | 18  | Muhammad Adam Fahmi Bin Mohd Taufiq     |             | [:octocat:](https://github.com/your_id) |
-| 19  | Muhammad Amir Jamil Bin Jamlus          |             | [:octocat:](https://github.com/your_id) |
+| 19  | Muhammad Amir Jamil Bin Jamlus          | AmirJamilJamlus            | [:octocat:](https://github.com/your_id) |
 | 20  | Muhammad Ashraaf Bin Saleh              |AshraafSaleh| [:octocat:](https://github.com/AshraafSaleh) |
 | 21  | Muhammad Farhan Bin Ibrahim             |             | [:octocat:](https://github.com/your_id) |
 | 22  | Muhammad Fikri Bin Sharunazim           |             | [:octocat:](https://github.com/your_id) |
