@@ -24,7 +24,7 @@
 | 10  | Ikmal Bin Khairulezuan                  |Ikkha02      | [:octocat:](https://github.com/Ikkha02) |
 | 11  | Izzat Haqeemi Bin Hairudin              |             | [:octocat:](https://github.com/your_id) |
 | 12  | Kee Shin Pearl                          |             | [:octocat:](https://github.com/your_id) |
-| 13  | Lau Yee Chi                             |             | [:octocat:](https://github.com/your_id) |
+| 13  | Lau Yee Chi                             |faustinalyc             | [:octocat:](https://github.com/faustinalyc) |
 | 14  | Liew Yvonne                             |Yvonneee24   | [:octocat:](https://github.com/Yvonneee24) |
 | 15  | Ling Wan Yin                            |             | [:octocat:](https://github.com/your_id) |
 | 16  | Loo Zhi Yuan                            |lzy0007      | [:octocat:](https://github.com/your_id) |
