@@ -14,9 +14,9 @@
 | 0   | Mohd Shahizan Othman          | drshahizan            | [:octocat:](https://github.com/drshahizan) |
 | 1   | Abdul Muhaimin Bin Abdul Razak          |Muhaimin005             | [:octocat:](https://github.com/Muhaimin005) |
 | 2   | Alieya Zawanie Binti A Zaini            |             | [:octocat:](https://github.com/your_id) |
-| 3   | Aliya Zarena Binti Zainulanuar           |             | [:octocat:](https://github.com/your_id) |
+| 3   | Aliya Zarena Binti Zainulanuar          |al1yaz       | [:octocat:](https://github.com/al1yaz) |
 | 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/aly4blqss) |
-| 5   | Alya Damia Binti Huzaimy                |             | [:octocat:](https://github.com/your_id) |
+| 5   | Alya Damia Binti Huzaimy                |alydmia      | [:octocat:](https://github.com/alydmia) |
 | 6   | Ang Yi Qin                              |  yiqin0209           | [:octocat:](https://github.com/yiqin0209) |
 | 7   | Fauzan Aqil Bin Azman                   |FauzanAqil26           | [:octocat:](https://github.com/FauzanAqil26) |
 | 8   | Fong Khah Kheh                          |khahkhehhh             | [:octocat:](https://github.com/your_id) |
@@ -40,7 +40,7 @@
 | 26  | Muhammad Iqmal Bin Sis                  |             | [:octocat:](https://github.com/your_id) |
 | 27  | Muhammad Izzuddin Bin Shabrin           |             | [:octocat:](https://github.com/your_id) |
 | 28  | Muhammad Naquib Bin Zakaria             |nqbzkr01     | [:octocat:](https://github.com/nqbzkr01) |
-| 29  | Nadia Syafiqah Binti Zulkipli           |             | [:octocat:](https://github.com/your_id) |
+| 29  | Nadia Syafiqah Binti Zulkipli           |nadiamel     | [:octocat:](https://github.com/nadiamel) |
 | 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |
 | 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |
