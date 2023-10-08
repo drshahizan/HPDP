@@ -41,7 +41,7 @@
 | 27  | Muhammad Izzuddin Bin Shabrin           |             | [:octocat:](https://github.com/your_id) |
 | 28  | Muhammad Naquib Bin Zakaria             |             | [:octocat:](https://github.com/your_id) |
 | 29  | Nadia Syafiqah Binti Zulkipli           |             | [:octocat:](https://github.com/your_id) |
-| 30  | Ng Suang Joo                            |             | [:octocat:](https://github.com/your_id) |
+| 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |
 | 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |
 | 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |             | [:octocat:](https://github.com/your_id) |
