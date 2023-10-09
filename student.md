@@ -53,7 +53,7 @@
 | 39  | Umar Haziq Bin Muhamad Norhisham        |             | [:octocat:](https://github.com/your_id) |
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        |Hafiq02             | [:octocat:](https://github.com/Hafiq02) |
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     |             | [:octocat:](https://github.com/your_id) |
-| 42  | Yew Rui Xiang                            |             | [:octocat:](https://github.com/your_id) |
+| 42  | Yew Rui Xiang                           |yruixiang   | [:octocat:](https://github.com/yruixiang) |
 | 43  | Mikhail Bin Yassin                       |mikhaiIy    | [:octocat:](https://github.com/mikhaiIy) |
 
 ## Contribution 🛠️
