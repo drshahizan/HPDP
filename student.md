@@ -36,7 +36,7 @@
 | 22  | Muhammad Fikri Bin Sharunazim           |             | [:octocat:](https://github.com/your_id) |
 | 23  | Muhammad Harith Hakim Bin Othman        |             | [:octocat:](https://github.com/your_id) |
 | 24  | Muhammad Hasan Bin Che Abdullah         |             | [:octocat:](https://github.com/your_id) |
-| 25  | Muhammad Hazim Bin Salman               |             | [:octocat:](https://github.com/your_id) |
+| 25  | Muhammad Hazim Bin Salman               |hazimSalman             | [:octocat:](https://github.com/your_id) |
 | 26  | Muhammad Iqmal Bin Sis                  |             | [:octocat:](https://github.com/your_id) |
 | 27  | Muhammad Izzuddin Bin Shabrin           |izzuddin125             | [:octocat:](https://github.com/izzuddin125) |
 | 28  | Muhammad Naquib Bin Zakaria             |nqbzkr01     | [:octocat:](https://github.com/nqbzkr01) |
