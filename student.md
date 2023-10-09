@@ -44,7 +44,7 @@
 | 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |
 | 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |
-| 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |             | [:octocat:](https://github.com/your_id) |
+| 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |nurkhuzairiezakwan             | [:octocat:](https://github.com/nurkhuzairiezakwan) |
 | 34  | Nur Shuhada Safiah Binti Ayob           |ShuhadaSafiah            | [:octocat:](https://github.com/ShuhadaSafiah) |
 | 35  | Nurunnajwa Binti Zulkifli               |Nurunnajwa12             | [:octocat:](https://github.com/Nurunnajwa12) |
 | 36  | Sam Chia Yun                            |ChiayunSam   | [:octocat:](https://github.com/ChiayunSam) |
