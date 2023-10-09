@@ -13,7 +13,7 @@
 |-----:|------------------------------------------|-------------|:--------------------------------:|
 | 0   | Mohd Shahizan Othman          | drshahizan            | [:octocat:](https://github.com/drshahizan) |
 | 1   | Abdul Muhaimin Bin Abdul Razak          |Muhaimin005             | [:octocat:](https://github.com/Muhaimin005) |
-| 2   | Alieya Zawanie Binti A Zaini            |             | [:octocat:](https://github.com/your_id) |
+| 2   | Alieya Zawanie Binti A Zaini            |AlieyaZawanie             | [:octocat:](https://github.com/AlieyaZawanie) |
 | 3   | Aliya Zarena Binti Zainulanuar          |al1yaz       | [:octocat:](https://github.com/al1yaz) |
 | 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/aly4blqss) |
 | 5   | Alya Damia Binti Huzaimy                |alydmia      | [:octocat:](https://github.com/alydmia) |
