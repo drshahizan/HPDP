@@ -51,7 +51,7 @@
 | 37  | Sarah Wardina Binti Rafidin             |             | [:octocat:](https://github.com/your_id) |
 | 38  | Soo Wan Ying                            |wying1       | [:octocat:](https://github.com/wying1) |
 | 39  | Umar Haziq Bin Muhamad Norhisham        |             | [:octocat:](https://github.com/your_id) |
-| 40  | Wan Amirul Hafiq Bin Wan Huzaini        |             | [:octocat:](https://github.com/your_id) |
+| 40  | Wan Amirul Hafiq Bin Wan Huzaini        |Hafiq02             | [:octocat:](https://github.com/Hafiq02) |
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     |             | [:octocat:](https://github.com/your_id) |
 | 42  | Yew Rui Xiang                            |             | [:octocat:](https://github.com/your_id) |
 | 43  | Mikhail Bin Yassin                       |mikhaiIy    | [:octocat:](https://github.com/mikhaiIy) |
