@@ -23,7 +23,7 @@
 | 9   | Hafizulshah Bin Sharom                  |Hafizulshah  | [:octocat:](https://github.com/Hafizulshah) |
 | 10  | Ikmal Bin Khairulezuan                  |Ikkha02      | [:octocat:](https://github.com/Ikkha02) |
 | 11  | Izzat Haqeemi Bin Hairudin              |IzzatHaqeemi| [:octocat:](https://github.com/IzzatHaqeemi) |
-| 12  | Kee Shin Pearl                          |             | [:octocat:](https://github.com/your_id) |
+| 12  | Kee Shin Pearl                          |shinpearll   | [:octocat:](https://github.com/shinpearll) |
 | 13  | Lau Yee Chi                             |faustinalyc             | [:octocat:](https://github.com/faustinalyc) |
 | 14  | Liew Yvonne                             |Yvonneee24   | [:octocat:](https://github.com/Yvonneee24) |
 | 15  | Ling Wan Yin                            |WanYin0704   | [:octocat:](https://github.com/WanYin0704) |
