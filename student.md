@@ -45,7 +45,7 @@
 | 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |<a href="https://www.linkedin.com/in/ng-zi-xing-a3a466270" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |<a href="www.linkedin.com/in/amirul-amran-480072226" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
-| 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |nurkhuzairiezakwan             | [:octocat:](https://github.com/nurkhuzairiezakwan) |
+| 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |nurkhuzairiezakwan             | [:octocat:](https://github.com/nurkhuzairiezakwan) |<a href="https://www.linkedin.com/in/khuzairie" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 34  | Nur Shuhada Safiah Binti Ayob           |ShuhadaSafiah            | [:octocat:](https://github.com/ShuhadaSafiah) |
 | 35  | Nurunnajwa Binti Zulkifli               |Nurunnajwa12             | [:octocat:](https://github.com/Nurunnajwa12) |
 | 36  | Sam Chia Yun                            |ChiayunSam   | [:octocat:](https://github.com/ChiayunSam) | <a href="https://www.linkedin.com/in/sam-chia-yun-b92a37271/"><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
