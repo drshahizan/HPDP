@@ -15,7 +15,7 @@
 | 1   | Abdul Muhaimin Bin Abdul Razak          |Muhaimin005             | [:octocat:](https://github.com/Muhaimin005) |
 | 2   | Alieya Zawanie Binti A Zaini            |AlieyaZawanie             | [:octocat:](https://github.com/AlieyaZawanie) |
 | 3   | Aliya Zarena Binti Zainulanuar          |al1yaz       | [:octocat:](https://github.com/al1yaz) |
-| 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/aly4blqss) |
+| 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/aly4blqss) | <a href="https://www.linkedin.com/in/alyabalqiss" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 5   | Alya Damia Binti Huzaimy                |alydmia      | [:octocat:](https://github.com/alydmia) |
 | 6   | Ang Yi Qin                              |  yiqin0209           | [:octocat:](https://github.com/yiqin0209) | <a href = "linkedin.com/in/ang-yi-qin-696396225"> <img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 7   | Fauzan Aqil Bin Azman                   |FauzanAqil26           | [:octocat:](https://github.com/FauzanAqil26) |
