@@ -53,7 +53,7 @@
 | 39  | Umar Haziq Bin Muhamad Norhisham        |  umarhaziq           | [:octocat:](https://github.com/your_id) |
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        |Hafiq02             | [:octocat:](https://github.com/Hafiq02) | <a href="https://www.linkedin.com/in/amirul-hafiq/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     |yasmeennatasha| [:octocat:](https://github.com/yasmeennatasha) | <a href="https://www.linkedin.com/in/yasmeen-natasha-hafiz-shahrel" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
-| 42  | Yew Rui Xiang                           |yruixiang   | [:octocat:](https://github.com/yruixiang) |
+| 42  | Yew Rui Xiang                           |yruixiang   | [:octocat:](https://github.com/yruixiang) | <a href="https://www.linkedin.com/in/rui-xiang-yew-011049268/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 43  | Mikhail Bin Yassin                       |mikhaiIy    | [:octocat:](https://github.com/mikhaiIy) | <a href="https://www.linkedin.com/in/mikhailyassin" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
