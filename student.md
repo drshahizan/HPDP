@@ -54,7 +54,7 @@
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        |Hafiq02             | [:octocat:](https://github.com/Hafiq02) | <a href="https://www.linkedin.com/in/amirul-hafiq/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     |yasmeennatasha| [:octocat:](https://github.com/yasmeennatasha) |
 | 42  | Yew Rui Xiang                           |yruixiang   | [:octocat:](https://github.com/yruixiang) |
-| 43  | Mikhail Bin Yassin                       |mikhaiIy    | [:octocat:](https://github.com/mikhaiIy) |
+| 43  | Mikhail Bin Yassin                       |mikhaiIy    | [:octocat:](https://github.com/mikhaiIy) | <a href="https://www.linkedin.com/in/mikhailyassin" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
