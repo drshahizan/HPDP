@@ -49,7 +49,7 @@
 | 35  | Nurunnajwa Binti Zulkifli               |Nurunnajwa12             | [:octocat:](https://github.com/Nurunnajwa12) |
 | 36  | Sam Chia Yun                            |ChiayunSam   | [:octocat:](https://github.com/ChiayunSam) |
 | 37  | Sarah Wardina Binti Rafidin             |sarahwardina| [:octocat:](https://github.com/sarahwardina) |
-| 38  | Soo Wan Ying                            |wying1       | [:octocat:](https://github.com/wying1) |
+| 38  | Soo Wan Ying                            |soowanying     | [:octocat:](https://github.com/soowanying) |
 | 39  | Umar Haziq Bin Muhamad Norhisham        |  umarhaziq           | [:octocat:](https://github.com/your_id) |
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        |Hafiq02             | [:octocat:](https://github.com/Hafiq02) |
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     |yasmeennatasha| [:octocat:](https://github.com/yasmeennatasha) |
