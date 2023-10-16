@@ -34,7 +34,7 @@
 | 20  | Muhammad Ashraaf Bin Saleh              |AshraafSaleh| [:octocat:](https://github.com/AshraafSaleh) |<a href="https://www.linkedin.com/in/muhammadashraafsaleh" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 21  | Muhammad Farhan Bin Ibrahim             |farhanibrhim             | [:octocat:](https://github.com/farhanibrhim) | <a href="https://www.linkedin.com/in/farhanibrhim/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 22  | Muhammad Fikri Bin Sharunazim           |fkrshrnzm             | [:octocat:](https://github.com/fkrshrnzm) |
-| 23  | Muhammad Harith Hakim Bin Othman        |harithothman             | [:octocat:](https://github.com/harithothman) |
+| 23  | Muhammad Harith Hakim Bin Othman        |harithothman             | [:octocat:](https://github.com/harithothman) | <a href="https://https://www.linkedin.com/in/harith-hakim-705364235/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 24  | Muhammad Hasan Bin Che Abdullah         |Hasan-Che    | [:octocat:](https://github.com/Hasan-Che) | <a href="https://www.linkedin.com/in/hasan-che-abdullah-811262218" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 25  | Muhammad Hazim Bin Salman               |hazimSalman             | [:octocat:](https://github.com/your_id) |
 | 26  | Muhammad Iqmal Bin Sis                  |Miqmal      | [:octocat:](https://github.com/Miqmal) | <a href="[https://www.linkedin.com/in/drshahizan](https://www.linkedin.com/in/muhammad-iqmal18/)" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
