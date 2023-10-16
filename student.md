@@ -42,7 +42,7 @@
 | 28  | Muhammad Naquib Bin Zakaria             |nqbzkr01     | [:octocat:](https://github.com/nqbzkr01) |
 | 29  | Nadia Syafiqah Binti Zulkipli           |nadiamel     | [:octocat:](https://github.com/nadiamel) |
 | 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |
-| 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |
+| 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |<a href="https://www.linkedin.com/in/ng-zi-xing-a3a466270" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 32  | Nik Amirul Ariff Bin Amran              |NickimiyO    | [:octocat:](https://github.com/NickimiyO) |<a href="www.linkedin.com/in/amirul-amran-480072226" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 33  | Nur Khuzairie Zakwan Bin Mohd Zamri     |nurkhuzairiezakwan             | [:octocat:](https://github.com/nurkhuzairiezakwan) |
 | 34  | Nur Shuhada Safiah Binti Ayob           |ShuhadaSafiah            | [:octocat:](https://github.com/ShuhadaSafiah) |
