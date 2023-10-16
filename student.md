@@ -20,7 +20,7 @@
 | 6   | Ang Yi Qin                              |  yiqin0209           | [:octocat:](https://github.com/yiqin0209) | <a href = "linkedin.com/in/ang-yi-qin-696396225"> <img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 7   | Fauzan Aqil Bin Azman                   |FauzanAqil26           | [:octocat:](https://github.com/FauzanAqil26) |
 | 8   | Fong Khah Kheh                          |khahkhehhh             | [:octocat:](https://github.com/khahkhehhh) |
-| 9   | Hafizulshah Bin Sharom                  |Hafizulshah  | [:octocat:](https://github.com/Hafizulshah) |
+| 9   | Hafizulshah Bin Sharom                  |Hafizulshah  | [:octocat:](https://github.com/Hafizulshah) | <a href="https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 10  | Ikmal Bin Khairulezuan                  |Ikkha02      | [:octocat:](https://github.com/Ikkha02) |
 | 11  | Izzat Haqeemi Bin Hairudin              |IzzatHaqeemi| [:octocat:](https://github.com/IzzatHaqeemi) |
 | 12  | Kee Shin Pearl                          |shinpearll   | [:octocat:](https://github.com/shinpearll) |
