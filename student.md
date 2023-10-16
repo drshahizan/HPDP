@@ -31,7 +31,7 @@
 | 17  | Mohamad Azri Hadif Bin Mohammad Rizal  |azkatsuragi| [:octocat:](https://github.com/azkatsuragi) |
 | 18  | Muhammad Adam Fahmi Bin Mohd Taufiq     |adamochie    | [:octocat:](https://github.com/adamochie) |
 | 19  | Muhammad Amir Jamil Bin Jamlus          | AmirJamilJamlus            | [:octocat:](https://github.com/your_id) |
-| 20  | Muhammad Ashraaf Bin Saleh              |AshraafSaleh| [:octocat:](https://github.com/AshraafSaleh) |
+| 20  | Muhammad Ashraaf Bin Saleh              |AshraafSaleh| [:octocat:](https://github.com/AshraafSaleh) |<a href="https://www.linkedin.com/in/muhammadashraafsaleh" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 21  | Muhammad Farhan Bin Ibrahim             |farhanibrhim             | [:octocat:](https://github.com/farhanibrhim) | <a href="https://www.linkedin.com/in/farhanibrhim/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 22  | Muhammad Fikri Bin Sharunazim           |fkrshrnzm             | [:octocat:](https://github.com/fkrshrnzm) |
 | 23  | Muhammad Harith Hakim Bin Othman        |harithothman             | [:octocat:](https://github.com/harithothman) |
