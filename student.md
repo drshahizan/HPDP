@@ -40,7 +40,7 @@
 | 26  | Muhammad Iqmal Bin Sis                  |Miqmal      | [:octocat:](https://github.com/Miqmal) | <a href="https://www.linkedin.com/in/muhammad-iqmal18/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 27  | Muhammad Izzuddin Bin Shabrin           |izzuddin125             | [:octocat:](https://github.com/izzuddin125) | <a href="https://www.linkedin.com/in/muhammad-izzuddin-shabrin/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 28  | Muhammad Naquib Bin Zakaria             |nqbzkr01     | [:octocat:](https://github.com/nqbzkr01) |
-| 29  | Nadia Syafiqah Binti Zulkipli           |nadiamel     | [:octocat:](https://github.com/nadiamel) |
+| 29  | Nadia Syafiqah Binti Zulkipli           |nadiamel     | [:octocat:](https://github.com/nadiamel) |<a href="https://www.linkedin.com/in/nadia-syafiqah-zulkipli" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 30  | Ng Suang Joo                            |SuangJoo             | [:octocat:](https://github.com/SuangJoo) |<a href="https://www.linkedin.com/in/ng-suang-joo-389335212" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 31  | Ng Zi Xing                              |ngzxing      | [:octocat:](https://github.com/ngzxing) |<a href="https://www.linkedin.com/in/ng-zi-xing-a3a466270" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 32  | Nik Amirul Ariff Bin Amran              |NikAmirulAriff   | [:octocat:](https://github.com/NikAmirulAriff) |<a href="https://www.linkedin.com/in/amirul-amran"><img src="./images/linkedin.png" width="24px" height="24px" ></a>|
