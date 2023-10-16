@@ -32,7 +32,7 @@
 | 18  | Muhammad Adam Fahmi Bin Mohd Taufiq     |adamochie    | [:octocat:](https://github.com/adamochie) |
 | 19  | Muhammad Amir Jamil Bin Jamlus          | AmirJamilJamlus            | [:octocat:](https://github.com/your_id) |
 | 20  | Muhammad Ashraaf Bin Saleh              |AshraafSaleh| [:octocat:](https://github.com/AshraafSaleh) |
-| 21  | Muhammad Farhan Bin Ibrahim             |farhanibrhim             | [:octocat:](https://github.com/farhanibrhim) |
+| 21  | Muhammad Farhan Bin Ibrahim             |farhanibrhim             | [:octocat:](https://github.com/farhanibrhim) | <a href="https://www.linkedin.com/in/farhanibrhim/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 22  | Muhammad Fikri Bin Sharunazim           |fkrshrnzm             | [:octocat:](https://github.com/fkrshrnzm) |
 | 23  | Muhammad Harith Hakim Bin Othman        |harithothman             | [:octocat:](https://github.com/harithothman) |
 | 24  | Muhammad Hasan Bin Che Abdullah         |Hasan-Che    | [:octocat:](https://github.com/Hasan-Che) | <a href="https://www.linkedin.com/in/hasan-che-abdullah-811262218" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
