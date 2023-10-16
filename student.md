@@ -17,7 +17,7 @@
 | 3   | Aliya Zarena Binti Zainulanuar          |al1yaz       | [:octocat:](https://github.com/al1yaz) |
 | 4   | Alya Balqiss Binti Azahar               |aly4blqss     | [:octocat:](https://github.com/aly4blqss) | <a href="https://www.linkedin.com/in/alyabalqiss" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 5   | Alya Damia Binti Huzaimy                |alydmia      | [:octocat:](https://github.com/alydmia) |
-| 6   | Ang Yi Qin                              |  yiqin0209           | [:octocat:](https://github.com/yiqin0209) | <a href = "linkedin.com/in/ang-yi-qin-696396225"> <img src="./images/linkedin.png" width="24px" height="24px" ></a> |
+| 6   | Ang Yi Qin                              |  yiqin0209           | [:octocat:](https://github.com/yiqin0209) | <a href = "https://www.linkedin.com/in/ang-yi-qin-696396225"> <img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 7   | Fauzan Aqil Bin Azman                   |FauzanAqil26           | [:octocat:](https://github.com/FauzanAqil26) |<a href="https://www.linkedin.com/in/fauzan-aqil-azman-126077203/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 8   | Fong Khah Kheh                          |khahkhehhh             | [:octocat:](https://github.com/khahkhehhh) |
 | 9   | Hafizulshah Bin Sharom                  |Hafizulshah  | [:octocat:](https://github.com/Hafizulshah) | <a href="https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
