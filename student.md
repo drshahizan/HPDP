@@ -22,7 +22,7 @@
 | 8   | Fong Khah Kheh                          |khahkhehhh             | [:octocat:](https://github.com/khahkhehhh) |<a href="https://www.linkedin.com/in/fong-khah-kheh-0a539625a" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 9   | Hafizulshah Bin Sharom                  |Hafizulshah  | [:octocat:](https://github.com/Hafizulshah) | <a href="https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 10  | Ikmal Bin Khairulezuan                  |Ikkha02      | [:octocat:](https://github.com/Ikkha02) |
-| 11  | Izzat Haqeemi Bin Hairudin              |IzzatHaqeemi| [:octocat:](https://github.com/IzzatHaqeemi) |
+| 11  | Izzat Haqeemi Bin Hairudin              |IzzatHaqeemi| [:octocat:](https://github.com/IzzatHaqeemi) | <a href="https://www.linkedin.com/in/izzat-haqeemi-bin-hairudin-76a207269" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 12  | Kee Shin Pearl                          |shinpearll   | [:octocat:](https://github.com/shinpearll) | <a href="https://www.linkedin.com/in/kee-shinpearl/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 13  | Lau Yee Chi                             |faustinalyc             | [:octocat:](https://github.com/faustinalyc) |[:octocat:](https://github.com/faustinalyc) |  <a href="https://www.linkedin.com/in/lauyeechi0915" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 14  | Liew Yvonne                             |Yvonneee24   | [:octocat:](https://github.com/Yvonneee24) | <a href="https://www.linkedin.com/in/liew-yvonne-a69180225/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
