@@ -37,7 +37,7 @@
 | 23  | Muhammad Harith Hakim Bin Othman        |harithothman             | [:octocat:](https://github.com/harithothman) | <a href="https://https://www.linkedin.com/in/harith-hakim-705364235/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 24  | Muhammad Hasan Bin Che Abdullah         |Hasan-Che    | [:octocat:](https://github.com/Hasan-Che) | <a href="https://www.linkedin.com/in/hasan-che-abdullah-811262218" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 25  | Muhammad Hazim Bin Salman               |hazimSalman             | [:octocat:](https://github.com/your_id) |
-| 26  | Muhammad Iqmal Bin Sis                  |Miqmal      | [:octocat:](https://github.com/Miqmal) | <a href="[https://www.linkedin.com/in/drshahizan](https://www.linkedin.com/in/muhammad-iqmal18/)" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
+| 26  | Muhammad Iqmal Bin Sis                  |Miqmal      | [:octocat:](https://github.com/Miqmal) | <a href="https://www.linkedin.com/in/muhammad-iqmal18/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 27  | Muhammad Izzuddin Bin Shabrin           |izzuddin125             | [:octocat:](https://github.com/izzuddin125) | <a href="https://www.linkedin.com/in/muhammad-izzuddin-shabrin/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 28  | Muhammad Naquib Bin Zakaria             |nqbzkr01     | [:octocat:](https://github.com/nqbzkr01) |
 | 29  | Nadia Syafiqah Binti Zulkipli           |nadiamel     | [:octocat:](https://github.com/nadiamel) |
