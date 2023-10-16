@@ -9,8 +9,8 @@
 
 ## Student Information
 
-| No. | Name                                     | ID          | Github                         |
-|-----:|------------------------------------------|-------------|:--------------------------------:|
+| No. | Name                                     | ID          | Github                         | Linked in |
+|-----:|------------------------------------------|-------------|:--------------------------------:| :--------------------------------:|
 | 0   | Mohd Shahizan Othman          | drshahizan            | [:octocat:](https://github.com/drshahizan) |
 | 1   | Abdul Muhaimin Bin Abdul Razak          |Muhaimin005             | [:octocat:](https://github.com/Muhaimin005) |
 | 2   | Alieya Zawanie Binti A Zaini            |AlieyaZawanie             | [:octocat:](https://github.com/AlieyaZawanie) |
