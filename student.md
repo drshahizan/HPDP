@@ -48,7 +48,7 @@
 | 34  | Nur Shuhada Safiah Binti Ayob           |ShuhadaSafiah            | [:octocat:](https://github.com/ShuhadaSafiah) |<a href="www.linkedin.com/in/nur-shuhada-safiah-ayob-932105242" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 35  | Nurunnajwa Binti Zulkifli               |Nurunnajwa12             | [:octocat:](https://github.com/Nurunnajwa12) |
 | 36  | Sam Chia Yun                            |ChiayunSam   | [:octocat:](https://github.com/ChiayunSam) | <a href="https://www.linkedin.com/in/sam-chia-yun-b92a37271/"><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
-| 37  | Sarah Wardina Binti Rafidin             |sarahwardina| [:octocat:](https://github.com/sarahwardina) |
+| 37  | Sarah Wardina Binti Rafidin             |sarahwardina| [:octocat:](https://github.com/sarahwardina) |  <a href="https://www.linkedin.com/in/sarahwardina" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 38  | Soo Wan Ying                            |soowanying     | [:octocat:](https://github.com/soowanying) |<a href="https://my.linkedin.com/in/wan-ying-soo-814b52293" ><img src="./images/linkedin.png" width="24px" height="24px" ></a>
 | 39  | Umar Haziq Bin Muhamad Norhisham        |  umarhaziq           | [:octocat:](https://github.com/your_id) |
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        |Hafiq02             | [:octocat:](https://github.com/Hafiq02) | <a href="https://www.linkedin.com/in/amirul-hafiq/" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
