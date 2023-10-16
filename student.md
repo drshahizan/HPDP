@@ -26,7 +26,7 @@
 | 12  | Kee Shin Pearl                          |shinpearll   | [:octocat:](https://github.com/shinpearll) |
 | 13  | Lau Yee Chi                             |faustinalyc             | [:octocat:](https://github.com/faustinalyc) |
 | 14  | Liew Yvonne                             |Yvonneee24   | [:octocat:](https://github.com/Yvonneee24) |
-| 15  | Ling Wan Yin                            |WanYin0704   | [:octocat:](https://github.com/WanYin0704) |
+| 15  | Ling Wan Yin                            |WanYin0704   | [:octocat:](https://github.com/WanYin0704) | <a href="https://www.linkedin.com/in/lingwanyin" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 16  | Loo Zhi Yuan                            |lzy0007      | [:octocat:](https://github.com/lzy0007) |
 | 17  | Mohamad Azri Hadif Bin Mohammad Rizal  |azkatsuragi| [:octocat:](https://github.com/azkatsuragi) |
 | 18  | Muhammad Adam Fahmi Bin Mohd Taufiq     |adamochie    | [:octocat:](https://github.com/adamochie) |
