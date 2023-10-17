@@ -10,7 +10,7 @@
 ## Student Information
 
 | No. | Name                                     | ID          | Github                         | Linked in | Portfolio |
-|-----:|------------------------------------------|-------------|:--------------------------------:| :--------------------------------:|--------------------------------:|
+|-----:|------------------------------------------|-------------|:--------------------------------:| :--------------------------------:|:--------------------------------:|
 | 0   | Mohd Shahizan Othman          | drshahizan            | [:octocat:](https://github.com/drshahizan) | <a href="https://www.linkedin.com/in/drshahizan" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> | <a href="./portfolio/"><img src="./images/portfolio.png" width="24px" height="24px"></a>|
 | 1   | Abdul Muhaimin Bin Abdul Razak          |Muhaimin005             | [:octocat:](https://github.com/Muhaimin005) |<a href="https://www.linkedin.com/in/abdul-muhaimin-65390b23b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
 | 2   | Alieya Zawanie Binti A Zaini            |AlieyaZawanie             | [:octocat:](https://github.com/AlieyaZawanie) |<a href="https://www.linkedin.com/in/alieya-zaini" ><img src="./images/linkedin.png" width="24px" height="24px" ></a> |
