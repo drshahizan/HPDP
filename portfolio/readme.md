@@ -41,9 +41,9 @@ To update your portfolio information, follow these steps:
 
 3. Add the following code snippet to incorporate a link to your portfolio in the form of an icon:
    ```html
-   <a href="./portfolio/BakungaBronson"><img src="./images/portfolio.png" width="24px" height="24px"></a>
+   <a href="./portfolio/your_folder"><img src="./images/portfolio.png" width="24px" height="24px"></a>
    ```
-   Make sure to replace `BakungaBronson` with your own `github_id`.
+   Make sure to replace `your_folder` with your own `github_id`.
 
 ## Deadline ⏰
 
