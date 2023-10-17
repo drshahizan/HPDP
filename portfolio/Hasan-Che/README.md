@@ -15,7 +15,7 @@
  class WhoAmI:
  	user = 'Muhammad Hasan Bin Che Abdullah' #long name, I know...
          code = [Javascript, HTML, CSS, Python, Java]
-         tools = [React, Vue, Node, Jupyter Notebook, Styled-Components, Docker]
+         tools = [React, Vue, Node, Jupyter, Styled-Components, Docker]
 		current_work = 'Planting Grapes'
          pronouns = 'He/Him'
 		hobbies = [
