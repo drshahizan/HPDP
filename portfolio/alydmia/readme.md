@@ -59,9 +59,9 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 ## Contact Information
 
-- **GitHub**: [github.com/your-username](https://github.com/alydmia)
-- **LinkedIn**: [linkedin.com/in/your-username](https://www.linkedin.com/in/alya-damia-huzaimy-555638224)
-- **Email**: [your.email@example.com](mailto:alyadamia@graduate.utm.my)
+- **GitHub**: [github.com/alydmia](https://github.com/alydmia)
+- **LinkedIn**: [linkedin.com/in/alya-damia-huzaimy-555638224](https://www.linkedin.com/in/alya-damia-huzaimy-555638224)
+- **Email**: [alyadamia@graduate.utm.my](mailto:alyadamia@graduate.utm.my)
 
 ---
 
