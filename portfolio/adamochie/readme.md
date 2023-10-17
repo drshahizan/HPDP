@@ -102,6 +102,11 @@
 - [adamochie/Student-Performance-Data-Analysis](https://github.com/adamochie/Student-Performance-Data-Analysis) - Student Performance Data Analysis (R)
 - [adamochie/Vending-Machine-System](https://github.com/adamochie/Vending-Machine-System) - Vending Machine System (ASSEMBLY)
 
+## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="50px" height="50px"> Badges and Certification
+
+- [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/badges/d19f4fed-c43e-4bbd-8c82-122aebb459a0/public_url) 
+- [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/badges/f05dd396-31b0-4674-83f4-b754d4151a4c/public_url)
+
 ## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="50px" height="50px"> For More Information, Please Check Out or Connect Me Via
 
 <p align="center">
