@@ -1,14 +1,9 @@
 <div align="center">
-  <img src="fikri.jpg" alt="Adam">
+  <img src="Video_Resume_by_Adam.gif" alt="Adam">
   <h1>Muhammad Adam Fahmi</h1>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Ariel&color=%2338C2FF&size=50&center=true&vCenter=true&height=60&width=600&lines=Heyyy!+I'm+Adam+<:;I+am+HIMMMMMMMMM!!!;Welcome+to+my+profile!" alt="Title"></img>
-</div>
-
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=adamochie&label=Profile%20views&color=0e75b6&style=flat" alt="adamochie" /> </p>
-
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> About me
 - 🧙‍♂️ My full name is **Muhammad Adam Fahmi Bin Mohd Taufiq**
