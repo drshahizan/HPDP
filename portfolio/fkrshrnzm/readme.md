@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="fikri.jpg" alt="Your Name" width="150" height="150">
+  <img src="fikri.jpg" alt="Your Name" width="500" height="500">
   <h1>MUHAMMAD FIKRI BIN SHARUNAZIM</h1>
 </div>
 
@@ -16,9 +16,9 @@ In sports, I am a strong team worker and very good working under pressure and I 
 During free time, I would be enjoy listening to music, jogging, playing badminton and volleyball. My career goal is to become a leader in my organization, helping transform it into an organization that respects all its stakeholders while at the same time being the best son I can be.
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/muhammad-fikri19/"><img src="linkedin-icon.png" alt="LinkedIn" width="30" height="30"></a>&nbsp;
-  <a href="https://github.com/fkrshrnzm"><img src="github-icon.png" alt="GitHub" width="30" height="30"></a>&nbsp;
-  <a href="mailto:muhdfikri619@gmail.com"><img src="email-icon.png" alt="Email" width="30" height="30"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/muhammad-fikri19/"><img src="linkedin-icon.png" alt="LinkedIn" width="80" height="80"></a>&nbsp;
+  <a href="https://github.com/fkrshrnzm"><img src="github-icon.png" alt="GitHub" width="80" height="80"></a>&nbsp;
+  <a href="mailto:muhdfikri619@gmail.com"><img src="email-icon.png" alt="Email" width="80" height="80"></a>&nbsp;
 </div>
 
 ---
@@ -26,126 +26,90 @@ During free time, I would be enjoy listening to music, jogging, playing badminto
 ## <div align="center">Education</div>
 
 <div align="center">
-  <img src="MOZAC.png" alt="Sekolah Menengah Sains Muzaffar Syah, Melaka" width="75" height="75">
+  <img src="MOZAC.png" alt="Sekolah Menengah Sains Muzaffar Syah, Melaka" width="150" height="150">
 </div>
 
 
 
-### <div align="center">[Sekolah Menengah Sains Muzaffar Syah, Melaka]</div>
+### <div align="center">Sekolah Menengah Sains Muzaffar Syah, Melaka</div>
 
-- Bachelor of Science in [Your Major], [Year of Graduation]
-- Relevant Coursework: Data Engineering, Database Systems, Cloud Computing, etc.
+- Cyber Brigade in 2017 until 2019.
+- Achieved 10A in PT3.
+- Achieved 8A, 1B+ in SPM.
 
 <div align="center">
-  <img src="KMM.png" alt="Kolej Matrikulasi Melaka" width="75" height="75">
+  <img src="KMM.png" alt="Kolej Matrikulasi Melaka" width="150" height="150">
 </div>
 
 
 
-### <div align="center">[Kolej Matruikulasi Melaka]</div>
+### <div align="center">Kolej Matruikulasi Melaka</div>
 
-- Bachelor of Science in [Your Major], [Year of Graduation]
-- Relevant Coursework: Data Engineering, Database Systems, Cloud Computing, etc.
+- Held the position as the Practicum Monitor.
+- Become a leader in Computer Science peer study.
+- Managed to achieved CGPA 4.0 in both semester.
 
 <div align="center">
-  <img src="UTM.png" alt="Universiti Teknologi Malaysia, Johor" width="75" height="75">
+  <img src="UTM.png" alt="Universiti Teknologi Malaysia, Johor" width="150" height="150">
 </div>
 
 
 
-### <div align="center">[Universiti Teknologi Malaysia, Johor]</div>
+### <div align="center">Universiti Teknologi Malaysia, Johor</div>
 
-- Bachelor of Science in [Your Major], [Year of Graduation]
-- Relevant Coursework: Data Engineering, Database Systems, Cloud Computing, etc.
+- Entrepreneurship Exco of Sekretariat Rakan Muda UTMJB in session 2021/2022.
+- Technical Exco of Sekretariat Rakan Muda UTMJB in session 2022/2023.
+- 3rd year student of Bachelor of Computer Science (Data Engineering).
+- Current CGPA 3.92.
 ---
 
-## <div align="center">Skills</div>
+## <div align="center">Skills and Passions</div>
 
-<div align="center">
-  <img src="python-icon.png" alt="Python" width="40" height="40">&nbsp;
-  <img src="sql-icon.png" alt="SQL" width="40" height="40">&nbsp;
-  <img src="spark-icon.png" alt="Spark" width="40" height="40">&nbsp;
-  <img src="aws-icon.png" alt="AWS" width="40" height="40">&nbsp;
-  <img src="docker-icon.png" alt="Docker" width="40" height="40">&nbsp;
-  <img src="tableau-icon.png" alt="Tableau" width="40" height="40">&nbsp;
-</div>
+As a well-rounded individual, I believe in the importance of balancing work and play. When I'm not immersed in the world of data science, you can find me pursuing my hobbies, which include listening to music, hiking, and jogging. Not only do these activities help me to manage stress and maintain a healthy lifestyle, but they also allow me to develop valuable skills, such as problem-solving and perseverance.
 
----
+I am proficient in :
+- C++
+- Java
+- HTML
+- CSS
+- Bootstrap
+- SQL
+- Microsoft Excel
+- KNIME
+- R Programming
 
-## <div align="center">Projects</div>
-
-### <div align="center">[Project Title 1]</div>
-
-- **Description:** Brief description of the project.
-- **Tools/Technologies Used:** List the tools and technologies employed.
-- **GitHub Repository:** [Link to GitHub Repository](https://github.com/your-username/project-repo)
-
-### <div align="center">[Project Title 2]</div>
-
-- **Description:** Brief description of the project.
-- **Tools/Technologies Used:** List the tools and technologies employed.
-- **GitHub Repository:** [Link to GitHub Repository](https://github.com/your-username/project-repo)
-
-### <div align="center">[Project Title 3]</div>
-
-- **Description:** Brief description of the project.
-- **Tools/Technologies Used:** List the tools and technologies employed.
-- **GitHub Repository:** [Link to GitHub Repository](https://github.com/your-username/project-repo)
-
----
-
-## <div align="center">Experience</div>
-
-### <div align="center">[Company Name], [Location]</div>
-
-**Data Engineering Intern**, [Start Date] - [End Date]
-
-- Brief description of your role and responsibilities.
-
-### <div align="center">[Company Name], [Location]</div>
-
-**Data Analyst Intern**, [Start Date] - [End Date]
-
-- Brief description of your role and responsibilities.
+Not only that, I am also capable of using some editing software such as :
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe Premiere Pro
+- Canva
 
 ---
 
 ## <div align="center">Certifications</div>
 
-- [Certification Name], [Issuing Organization], [Year]
-- [Certification Name], [Issuing Organization], [Year]
-
----
-
-## <div align="center">Blog Posts/Articles</div>
-
-- [Title of Blog Post](https://www.your-blog-link.com)
-- [Title of Blog Post](https://www.your-blog-link.com)
-
----
-
-## <div align="center">Professional Memberships</div>
-
-- Member, [Professional Organization]
-- Member, [Professional Organization]
+- [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/badges/d19f4fed-c43e-4bbd-8c82-122aebb459a0/public_url) 
+- [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/badges/f05dd396-31b0-4674-83f4-b754d4151a4c/public_url)
 
 ---
 
 ## <div align="center">Languages</div>
 
-- English (Fluent)
-- [Additional Language(s), if applicable]
+- English (Proficient)
+- Malay (Fluent)
 
 ---
 
 ## <div align="center">Personal Projects</div>
 
-- List any personal projects or contributions to open-source projects.
+- [Car Booking System](https://fkrshrnzm.000webhostapp.com/index.php)
+- [Intellect Playschool Pulai Mutiara, JB](https://intellectplayschool.000webhostapp.com/)
 
 ---
 
 ## <div align="center">References</div>
 
-Available upon request.
+Available upon request but you can contact via email to:
+[MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ](mailto:adamfahmi.taufiq02@gmail.com)
 
 
