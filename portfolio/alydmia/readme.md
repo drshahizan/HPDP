@@ -1,60 +1,51 @@
-<p align="center">
-  <img src="header.png" alt="Header Image">
-</p>
-
-<h1 align="center">👋 Hi, I'm ALYA DAMIA HUZAIMY</h1>
+<h1 align="center">Your Name</h1>
 
 <p align="center">
-  Welcome to my GitHub portfolio! I'm passionate about [Your Interests] and enjoy working on exciting projects.
-</p>
-
-<h2 align="center">🚀 Projects</h2>
-
-<p align="center">
-  Here are some of my notable projects:
-</p>
-
-<div align="center">
-  <a href="link-to-project1">
-    <img src="project1-screenshot.png" alt="Project 1" width="300">
-  </a>
-  <a href="link-to-project2">
-    <img src="project2-screenshot.png" alt="Project 2" width="300">
-  </a>
-</div>
-
-<div align="center">
-  <i>Click project images for more details.</i>
-</div>
-
-<h2 align="center">🛠️ Skills</h2>
-
-<p align="center">
-  Here are some of my technical skills:
+  <i>Introduction</i>
 </p>
 
 <p align="center">
-  <b>Languages:</b> Skill 1, Skill 2, Skill 3
+  Briefly introduce yourself, your background, and your interests.
+</p>
+
+---
+
+<h2 align="center">Projects</h2>
+
+### Project 1: [Project Name](link-to-project)
+- Description: Describe your project, its purpose, and the technologies used.
+- ![Project 1 Screenshot](project1-screenshot.png) <!-- You can upload a screenshot to your repository -->
+
+### Project 2: [Project Name](link-to-project)
+- Description: Provide a brief description of your second project, similar to the format above.
+- ![Project 2 Screenshot](project2-screenshot.png) <!-- You can upload a screenshot to your repository -->
+
+---
+
+<h2 align="center">Skills</h2>
+
+<p align="center">
+  List your technical skills or areas of expertise.
 </p>
 
 <p align="center">
-  <b>Frameworks:</b> Skill 4, Skill 5
+  <i>Languages:</i> Skill 1, Skill 2, Skill 3
 </p>
-
-<h2 align="center">📬 Contact</h2>
 
 <p align="center">
-  Feel free to connect with me on these platforms:
+  <i>Frameworks:</i> Skill 4, Skill 5
 </p>
 
-<div align="center">
-  <a href="link-to-github">
-    <img src="github-icon.png" alt="GitHub" width="30">
-  </a>
-  <a href="link-to-linkedin">
-    <img src="linkedin-icon.png" alt="LinkedIn" width="30">
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="email-icon.png" alt="Email" width="30">
-  </a>
-</div>
+---
+
+<h2 align="center">Contact</h2>
+
+<p align="center">
+  You can reach me through the following links:
+</p>
+
+<p align="center">
+  <a href="link-to-github"><img src="github-icon.png" width="30" alt="GitHub"></a>
+  <a href="link-to-linkedin"><img src="linkedin-icon.png" width="30" alt="LinkedIn"></a>
+  <a href="mailto:your.email@example.com"><img src="email-icon.png" width="30" alt="Email"></a>
+</p>
