@@ -4,7 +4,7 @@
 
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=adamochie&label=Profile%20views&color=0e75b6&style=flat" alt="adamochie" /> </p>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> About me
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> About Adam 
 - 🧙‍♂️ My full name is **Muhammad Adam Fahmi Bin Mohd Taufiq**
 - :school: I'm currently a 3rd year student at **UTM Skudai**
 - 🍰 My Birthday is on **22 Nov 2002**
