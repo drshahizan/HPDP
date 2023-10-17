@@ -128,9 +128,11 @@
   
   <a href="https://profile-summary-for-github.herokuapp.com/user/adamochie" target="_blank">
     <img align="center" alt="Adam | GitHub" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png" />
-  </a> &nbsp;&nbsp;
-  
-<p>
+  </a> &nbsp;&nbsp;  
+</p>
+
+<br>
+<br>
   
 <div align="center">
   <p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=adamochie&show_icons=true&locale=en" alt="adamochie" />&nbsp;&nbsp;&nbsp;<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></p> 
