@@ -42,7 +42,7 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 - **B.S. in Computer Science** - Your University, Graduation Year
 - **Online Courses and Certifications** -
-                                        - ((image.ico)] AWS Cloud Foundation)
+                                        - (image.ico) AWS Cloud Foundation
 
 ---
 
