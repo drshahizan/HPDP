@@ -1,15 +1,8 @@
-<div style="text-align:center;">
-  <h1>ALYA DAMIA BINTI HUZAIMY</h1>
-  <a href="https://github.com/alydmia">
-    <img src="icons8-github-50.png" alt="GitHub Logo">
-  </a>
-  <a href="https://www.linkedin.com/in/alya-damia-huzaimy-555638224">
-    <img src="icons8-linkedin-48.png" alt="LinkedIn Logo">
-  </a>
-  <a href="mailto:alyadamia@graduate.utm.my">
-    <img src="icons8-gmail-48.png" alt="Email Logo">
-  </a>
-</div>
+<h1 align='center'> ALYA DAMIA BINTI HUZAIMY </h1>
+
+[![GitHub Logo](icons8-github-50.png)](https://github.com/alydmia)
+[![LinkedIn Logo](icons8-linkedin-48.png)](https://www.linkedin.com/in/alya-damia-huzaimy-555638224)
+[![Email Logo](icons8-gmail-48.png)](mailto:alyadamia@graduate.utm.my)
 
 
 ---
