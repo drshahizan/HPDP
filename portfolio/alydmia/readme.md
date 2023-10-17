@@ -1,13 +1,8 @@
-|                                   |
-| --------------------------------- |
-| # ALYA DAMIA BINTI HUZAIMY        |
-|                                   |
-| [![GitHub Logo](icons8-github-50.png)](https://github.com/alydmia) |
-| [![LinkedIn Logo](icons8-linkedin-48.png)](https://www.linkedin.com/in/alya-damia-huzaimy-555638224) |
-| [![Email Logo](icons8-gmail-48.png)](mailto:alyadamia@graduate.utm.my) |
-|                                   |
+# ALYA DAMIA BINTI HUZAIMY
 
-
+[![GitHub Logo](icons8-github-50.png)](https://github.com/alydmia)
+[![LinkedIn Logo](icons8-linkedin-48.png)](https://www.linkedin.com/in/alya-damia-huzaimy-555638224)
+[![Email Logo](icons8-gmail-48.png)](mailto:alyadamia@graduate.utm.my)
 
 ---
 
