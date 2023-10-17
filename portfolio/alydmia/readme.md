@@ -2,7 +2,7 @@
   <img src="header.png" alt="Header Image">
 </p>
 
-<h1 align="center">👋 Hi, I'm Your Name</h1>
+<h1 align="center">👋 Hi, I'm ALYA DAMIA HUZAIMY</h1>
 
 <p align="center">
   Welcome to my GitHub portfolio! I'm passionate about [Your Interests] and enjoy working on exciting projects.
