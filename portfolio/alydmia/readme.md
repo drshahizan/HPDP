@@ -42,7 +42,7 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 - **B.S. in Computer Science** - Universiti Teknologi Malaysia, 2025
 - **Online Courses and Certifications** -
-- ![Alt Text](aws.png) AWS cloud Foundation
+- ![Alt Text](aws1.png) AWS cloud Foundation
 
 
 ---
