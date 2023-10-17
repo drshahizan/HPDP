@@ -30,7 +30,7 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 ## Skills
 
-- Programming Languages: Python,, Java, C++
+- Programming Languages: Python, Java, C++
 - Web Development: HTML, CSS,
 - Databases: SQL, MongoDB
 - Version Control: Git
