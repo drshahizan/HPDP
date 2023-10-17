@@ -131,19 +131,16 @@
   </a> &nbsp;&nbsp;
   
 <p>
-
+  
 <div align="center">
-  :bowtie: Thanks for watching my profile! Have a nice day! 🤟 <br/>
-  &copy; 2023 Adam Fahmi
+  <p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=adamochie&show_icons=true&locale=en" alt="adamochie" />&nbsp;&nbsp;&nbsp;<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></p> 
 </div>
 
 <br>
 
 <div align="center">
-  <p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=adamochie&show_icons=true&locale=en" alt="adamochie" />&nbsp;&nbsp;&nbsp;<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></p>
-  
+  :bowtie: Thanks for watching my profile! Have a nice day! 🤟 <br/>
+  &copy; 2023 Adam Fahmi
 </div>
-
-
 
 ---
