@@ -35,7 +35,7 @@ Ensure proper organization by placing your portfolio within the designated 'Port
 
 To update your portfolio information, follow these steps:
 
-1. Open the file [`student.md`](https://github.com/drshahizan/BDM/blob/main/student.md) on GitHub.
+1. Open the file [`student.md`](../student.md) on GitHub.
 
 2. Click on the pencil ✏️ icon to edit the file. Navigate to your information section.
 
