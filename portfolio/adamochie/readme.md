@@ -1,6 +1,5 @@
 <div align="center">
   <img src="Video_Resume_by_Adam.gif" alt="Adam">
-  <h1>Muhammad Adam Fahmi</h1>
 </div>
 
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=adamochie&label=Profile%20views&color=0e75b6&style=flat" alt="adamochie" /> </p>
