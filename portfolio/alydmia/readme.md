@@ -30,11 +30,11 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 ## Skills
 
-- Programming Languages: Python, JavaScript, Java, C++
-- Web Development: HTML, CSS, React, Node.js
+- Programming Languages: Python,, Java, C++
+- Web Development: HTML, CSS,
 - Databases: SQL, MongoDB
 - Version Control: Git
-- Other: Data Analysis, Machine Learning, Agile/Scrum
+- Other: Data Analysis, Machine Learning
 
 ---
 
@@ -59,9 +59,9 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 ## Contact Information
 
-- **GitHub**: [github.com/your-username](https://github.com/your-username)
-- **LinkedIn**: [linkedin.com/in/your-username](https://www.linkedin.com/in/your-username)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **GitHub**: [github.com/your-username](https://github.com/alydmia)
+- **LinkedIn**: [linkedin.com/in/your-username](https://www.linkedin.com/in/alya-damia-huzaimy-555638224)
+- **Email**: [your.email@example.com](mailto:alyadamia@graduate.utm.my)
 
 ---
 
