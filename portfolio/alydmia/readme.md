@@ -1,6 +1,6 @@
 # Your Name
 
-[![GitHub Logo](github.png)](https://github.com/your-username)
+[![GitHub Logo](github-logo-2.png)](https://github.com/your-username)
 [![LinkedIn Logo](linkedin-logo.png)](https://www.linkedin.com/in/your-username)
 [![Email Logo](email-logo.png)](mailto:your.email@example.com)
 
