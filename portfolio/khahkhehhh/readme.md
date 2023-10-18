@@ -1,4 +1,4 @@
-<p align="center"><img align="center" alt="Coding" width="200" src=""IMG_1300.JPG"">
+<p align="center"><img align="center" alt="Coding" width="140" height="180" src="https://github.com/drshahizan/HPDP/blob/main/portfolio/khahkhehhh/rsz_photo_2021-09-25_15-23-14.jpg">
 <summary><b>🛠️ About Me</b></summary>
 <br>
 Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data into valuable insights and building data pipelines that make a difference 💡🔌
@@ -66,7 +66,11 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 
 <details open>
 <summary><b> Projects </b></summary>
+  <br>
 
+- [Intellect Playschool Management System Project](https://vvintellect.com/index.php) - Program registration & Assessment
+
+- [Car booking System](https://khahkhehutm.000webhostapp.com/cbs/)
 
 </details>
 <br>
