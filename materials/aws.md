@@ -17,11 +17,7 @@ AWS Academy is a global program that offers educational institutions a comprehen
 | :-: | ----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
 |  1  | [Cloud Foundations](#cloud-foundations) | <a href="https://awsacademy.instructure.com/courses/60317" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
 |  2  | [Cloud Architecting](#cloud-architecting) | <a href="https://awsacademy.instructure.com/courses/60318" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
-|  3  | [Data Engineering](#data-engineering)                                                                 | <a href="https://awsacademy.instructure.com/courses/60401" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
-
-4. [AWS Academy Cloud Foundations](https://awsacademy.instructure.com/courses/60317)
-5. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
-6. [AWS Academy Data Engineering](https://awsacademy.instructure.com/courses/60401)
+|  3  | [Data Engineering](#data-engineering) | <a href="https://awsacademy.instructure.com/courses/60401" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
 
 ### Cloud Foundations
 
