@@ -95,6 +95,7 @@
 - [adamochie/Game-Breaker-JAVA-OOP](https://github.com/adamochie/Game-Breaker-JAVA-OOP) - Game Breaker (java)
 - [adamochie/car-booking-system](https://github.com/adamochie/car-booking-system) - Simple Car Booking System (HTML, PHP, BOOTSTRAP, phpMyAdmin, more)
 - [adamochie/intellectplayschool_proj](https://github.com/adamochie/intellectplayschool_proj) - Intellect Playschool Management System - attendance module (HTML, PHP, BOOTSTRAP, mySQL)
+- [adamochie/KonohaCinemaBookingSys](https://github.com/adamochie/KonohaCinemaBookingSys) - Konoha Cinema Booking System (C)
 - [adamochie/Ticket-Bus-System](https://github.com/adamochie/Ticket-Bus-System) - Ticket Bus Management System (CPP)
 - [adamochie/Healthcare-Appointment-System](https://github.com/adamochie/Healthcare-Appointment-System) - Healthcare Booking System (CPP)
 - [adamochie/Data-analysis-UTM-Students-Survey](https://github.com/adamochie/Data-analysis-UTM-Students-Survey) - Data analysis UTM Students Survey (R, Excel)
