@@ -10,28 +10,6 @@
 # About Us
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
-## Essential Preparations for a Successful Start in High-Performance Data Processing Class 🚀
-Welcome to the High-Performance Data Processing (HPDP) class! We are thrilled to embark on this exciting learning journey together. Before our first class, there are a few important steps you need to take:
-
-1. **Complete Information Form:**
-   Please fill in 🧑‍💻 your details in the provided Google Sheets document [here](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?usp=sharing).
-
-2. **Create a GitHub Account:**
-   Ensure you have a GitHub :octocat: account by signing up at [GitHub](https://github.com/login).
-
-3. **Access Teaching Materials:**
-   All teaching materials will be available on my GitHub account. Please follow [this link](https://github.com/drshahizan) to access the materials.
-
-4. **Fork and Star Repository:**
-   To kick off our first meeting, please fork and star the repository available [here](https://github.com/drshahizan/learn-github). We will be using this repository extensively.
-
-5. **GitHub Usage for Course:**
-   Throughout this course, we will utilize GitHub for sharing materials, submitting tasks, projects, and more. Make sure you have a meaningful GitHub username associated with your account.
-
-Please be sure to complete these tasks before our first class, as they are essential for our learning and collaboration.
-
-Looking forward to an amazing and productive class!
-
 ## 🔥 Important things
 1. [Essential Preparations for a Successful Start in High-Performance Data Processing Class](./materials/essentials.md)
 2. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
