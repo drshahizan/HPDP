@@ -1,4 +1,4 @@
-<p align="center"><img align="center" alt="Coding" width="400" src="profilepic.jpg">
+<p align="center"><img align="center" alt="Coding" width="200" src="profilepic.jpg">
 <h1 align="center">Hi, I am Ng Suang Joo</h1>
 <h3 align="center">3rd-year student of Data Engineering at Universiti Teknologi Malaysia</h3>
 
