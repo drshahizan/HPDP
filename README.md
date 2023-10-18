@@ -20,8 +20,9 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Submission
 | No | Module | Description | File |
-| :-----: | ------ | ------ | :-----: | 
+| -----: | ------ | ------ | :-----: | 
 | 1 | Task 1 | Portfolio Creation | <a href="./portfolio/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
+| 1 | Task 2 | AWS Certification | <a href="./portfolio/readme.md" ><img src="./images/aws.svg" width="24px" height="24px" ></a> | 
 
 ### 📚 Course: High Performance Data Processing 
 - [Python for beginners](https://github.com/drshahizan/HPDP)
