@@ -1,4 +1,6 @@
 <p align="center"><img align="center" alt="Coding" width="140" height="180" src="https://github.com/drshahizan/HPDP/blob/main/portfolio/khahkhehhh/rsz_photo_2021-09-25_15-23-14.jpg">
+
+  
 <summary><b>🛠️ About Me</b></summary>
 <br>
 Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data into valuable insights and building data pipelines that make a difference 💡🔌
@@ -10,6 +12,8 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 
 </details>
 <br>
+
+
 <details open>
 <summary><b>📧 Connect with me</b></summary>
 <br>
@@ -27,6 +31,8 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 
 </details>
 <br>
+
+
 <details open>
 <summary><b>💻 Languages and Tools</b></summary>
 <br>
@@ -42,20 +48,17 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" height="50"/> </a>&nbsp
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" height="50"/> </a>&nbsp
 
-
 </details>
 <br>
 
 <details open>
-
   <summary><b>🏆 Certifications and Awards</b></summary>
   <br>
 <img src="https://images.credly.com/size/680x680/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png" height="60"/>
-<a href='https://www.credly.com/earner/earned/badge/5340493d-8394-46de-a8ca-2560f3821f8b' styles="color:white;">🎖️Microsoft Certified: Azure AI Fundamentals</a><br>
+<a href='https://www.credly.com/badges/5340493d-8394-46de-a8ca-2560f3821f8b/public_url' styles="color:white;">🎖️Microsoft Certified: Azure AI Fundamentals</a><br>
 
 <img src="https://images.credly.com/size/680x680/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png" height="60"/>
-<a href='https://www.credly.com/earner/earned/badge/f5234c02-a60a-4307-a7d5-f25b4fe30ffd'>🎖️AWS Academy Graduate - AWS Academy Cloud Foundations</a><br><br>
-
+<a href='https://www.credly.com/badges/f5234c02-a60a-4307-a7d5-f25b4fe30ffd/public_url'>🎖️AWS Academy Graduate - AWS Academy Cloud Foundations</a><br><br>
 
 <p>
     <img align="left" alt="image" src="https://github.com/drshahizan/HPDP/assets/146555942/08e7a07b-abf9-4940-b56d-76b987f5504e" height="60" />
@@ -74,6 +77,7 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 
 </details>
 <br>
+
   
 <details open>
 <summary><b>📊 GitHub Statistics</b></summary>
