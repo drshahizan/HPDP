@@ -1,10 +1,11 @@
 
-
-## 🎊 Hii and Welcome 
-Welcome to my GitHub. My name is Lau Yee Chi. I am studying Computer Science in Data Engineering at Universiti Teknologi Malaysia. I have a passion for big data and machine learning, and I'm enthusiastic about having interesting findings from the big data. In my free time, you can often find me capturing around since photography is my hobby.
 <p align="center">
     <img  alt="self pic" src="https://github.com/drshahizan/HPDP/blob/main/portfolio/faustinalyc/photo_2023-10-18_23-03-22.jpg" width="280" height="380">
 </p>
+
+## 🎊 Hii and Welcome 
+Welcome to my GitHub. My name is Lau Yee Chi. I am studying Computer Science in Data Engineering at Universiti Teknologi Malaysia. I have a passion for big data and machine learning, and I'm enthusiastic about having interesting findings from the big data. In my free time, you can often find me capturing around since photography is my hobby.
+
 
 
 
