@@ -33,11 +33,12 @@ Please be sure to complete these tasks before our first class, as they are essen
 Looking forward to an amazing and productive class!
 
 ## 🔥 Important things
-1. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
-2. [Student information](student.md)
-3. [AWS Academy Cloud Foundations](https://awsacademy.instructure.com/courses/60317)
-4. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
-5. [AWS Academy Data Engineering](https://awsacademy.instructure.com/courses/60401)
+1. [Essential Preparations for a Successful Start in High-Performance Data Processing Class](./materials/essentials.md)
+2. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
+3. [Student information](student.md)
+4. [AWS Academy Cloud Foundations](https://awsacademy.instructure.com/courses/60317)
+5. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
+6. [AWS Academy Data Engineering](https://awsacademy.instructure.com/courses/60401)
 
 ### 📚 Course: High Performance Data Processing 
 - [Python for beginners](https://github.com/drshahizan/HPDP)
