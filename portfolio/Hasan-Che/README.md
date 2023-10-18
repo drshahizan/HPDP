@@ -26,7 +26,7 @@
 		hobbies = [
 				'Collecting Books',
 				'Watching YouTube',
-				'Taking pictures with my potato camera'
+				'Taking pictures with my potato camera',
 				'Ruining my sleep schedule...'
 			]
 	
