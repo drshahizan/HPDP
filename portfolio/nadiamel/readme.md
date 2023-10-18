@@ -11,10 +11,12 @@ Welcome to my profile! I'm a third-year degree student, passionate about learnin
 🌏**Country**: Malaysia
 
 ## Interests ✨
-♥ Coding and Development
-♥ Photography
-♥ Travelling
+♥ Coding and Development  
+♥ Photography  
+♥ Travelling  
 ♥ Cooking and Baking
 
 ## Skills :dart:
 As a student in the 21st century, I understand the value of always upgrading my skill set in order to take on new challenges. As a result, I've developed essential skills like **critical thinking and problem-solving**. These skills enable me to effectively deal with the day-to-day difficulties and complexities that we face in our ever-changing world. In addition, I've developed my **agility and adaptability**, allowing me to favorably respond to shifting conditions. Aside from this, I am proud of my exceptional **communication abilities**, which I regard as a crucial life ability. Effective communication not only facilitates information exchange but also encourages a deeper understanding of the messages shared. Finally, my passion for **teamwork and collaboration** shines through since I actually enjoy working with others to achieve common goals.
+
+
