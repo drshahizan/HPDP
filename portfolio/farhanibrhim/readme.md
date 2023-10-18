@@ -48,3 +48,8 @@
 <p align="left">
   <a href="https://github.com/farhanibrhim?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
 </p>
+
+##  Badges and Certification
+
+- [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/badges/44a5b514-b842-42d8-9d92-1385361adce8?source=linked_in_profile) 
+- [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/badges/01d73496-890f-48da-8bc5-ff5570d8c0d0/public_url)
