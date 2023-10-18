@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img  alt="self pic" src="https://github.com/drshahizan/HPDP/blob/main/portfolio/faustinalyc/photo_2023-10-18_23-03-22.jpg" width="280" height="380">
+    <img  alt="self pic" src="https://github.com/drshahizan/HPDP/blob/main/portfolio/faustinalyc/photo_2023-10-18_23-45-14.jpg" width="280" height="380">
 </p>
 
 ## 🎊 Hii and Welcome 
