@@ -40,8 +40,8 @@ I’m a third-year Data Engineering student at Universiti Teknologi Malaysia(UTM
 ![](https://github-profile-trophy.vercel.app/?username=izzuddin125&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
 
 ## My Certificates
-- [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/badges/44a5b514-b842-42d8-9d92-1385361adce8?source=linked_in_profile) 
-- [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/badges/01d73496-890f-48da-8bc5-ff5570d8c0d0/public_url)
+- [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/earner/earned/badge/13761e24-8c79-4ccb-9d67-93ed3b3105b3) 
+- [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/earner/earned/badge/b2da9bad-39ab-435f-bba8-1ad343ade856)
 
 ## ✍️ Random Dev Quote
 <div style="text-align: center;">
