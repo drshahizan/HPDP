@@ -4,7 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=suangjoo&label=Profile%20views&color=0e75b6&style=flat" alt="suangjoo" /> </p>
 
-- 🍼 Born: **14 January 2002**
+- 🍼 Date of Birth: **14 January 2002**
 
 - 🌱 I’m currently taking courses such as **Data Analytics Programming, Artificial Intelligence, High Performance Data Processing, Business Intelligence, and Database Programming**
 
