@@ -44,7 +44,8 @@
 
 # Projects
 [![CPP-Project](https://github-readme-stats.vercel.app/api/pin/?username=farhanibrhim&repo=CPP-Appointment-Booking-System&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/farhanibrhim/CPP-Appointment-Booking-System) 
-[![Playschool Management Website](https://github-readme-stats.vercel.app/api/pin/?username=farhanibrhim&repo=Playschool-Management-System&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/farhanibrhim/Playschool-Management-System)
+[![Playschool Management Website](https://github-readme-stats.vercel.app/api/pin/?username=farhanibrhim&repo=Playschool-Management-System&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/farhanibrhim/Playschool-Management-System) 
+[![Car Booking System](https://github-readme-stats.vercel.app/api/pin/?username=farhanibrhim&repo=Car-Booking-System&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/farhanibrhim/Car-Booking-System) 
 
 <p align="left">
   <a href="https://github.com/farhanibrhim?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
