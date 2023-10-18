@@ -15,10 +15,10 @@ AWS Academy is a global program that offers educational institutions a comprehen
 
 | No  | Course                                                                                                |                                                             Link                                                             |
 | :-: | ----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
-|  1  | [Machine Learning for Natural Language Processing](#machine-learning-for-natural-language-processing) | <a href="https://awsacademy.instructure.com/courses/48679" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> |
-|  2  | [Data Engineering](#data-engineering)                                                                 | <a href="https://awsacademy.instructure.com/courses/48680" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> |
-|  3  | [Lab Project - Cloud Data Pipeline Builder](#lab-project---cloud-data-pipeline-builder)               | <a href="https://awsacademy.instructure.com/courses/48696" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> |
-|  4  | [Lab Project - Cloud Web Application Builder](#lab-project---cloud-web-application-builder)           | <a href="https://awsacademy.instructure.com/courses/48698" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> |
+|  1  | [Machine Learning for Natural Language Processing](#machine-learning-for-natural-language-processing) | <a href="https://awsacademy.instructure.com/courses/48679" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+|  2  | [Data Engineering](#data-engineering)                                                                 | <a href="https://awsacademy.instructure.com/courses/48680" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+|  3  | [Lab Project - Cloud Data Pipeline Builder](#lab-project---cloud-data-pipeline-builder)               | <a href="https://awsacademy.instructure.com/courses/48696" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+|  4  | [Lab Project - Cloud Web Application Builder](#lab-project---cloud-web-application-builder)           | <a href="https://awsacademy.instructure.com/courses/48698" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
 
 ### Machine Learning for Natural Language Processing
 
@@ -46,16 +46,16 @@ There is not a single page that summarizes how to enroll in different AWS badges
 
 | No  | Training Course                     |                                                  Link                                                  |
 | --- | ----------------------------------- | :----------------------------------------------------------------------------------------------------: |
-| 1   | Cloud Essentials                    | <a href="https://bit.ly/awscloudess" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> |
-| 2   | Media & Entertainment               | <a href="https://bit.ly/awsmebadge" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>  |
-| 3   | Architecting                        | <a href="https://bit.ly/architect23" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> |
-| 4   | AWS for Games                       |   <a href="https://go.aws/3l6fYf7" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
-| 5   | Serverless                          |   <a href="https://go.aws/3UZpFs0" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
-| 6   | Object Storage                      |   <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
-| 7   | Block Storage                       |   <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
-| 8   | File Storage                        |   <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
-| 9   | Storage Data Migration              |   <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
-| 10  | Data Protection & Disaster Recovery |   <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>   |
+| 1   | Cloud Essentials                    | <a href="https://bit.ly/awscloudess" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+| 2   | Media & Entertainment               | <a href="https://bit.ly/awsmebadge" ><img src="../images/aws.svg" width="24px" height="24px" ></a>  |
+| 3   | Architecting                        | <a href="https://bit.ly/architect23" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+| 4   | AWS for Games                       |   <a href="https://go.aws/3l6fYf7" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
+| 5   | Serverless                          |   <a href="https://go.aws/3UZpFs0" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
+| 6   | Object Storage                      |   <a href="https://go.aws/3JVneTS" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
+| 7   | Block Storage                       |   <a href="https://go.aws/3JVneTS" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
+| 8   | File Storage                        |   <a href="https://go.aws/3JVneTS" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
+| 9   | Storage Data Migration              |   <a href="https://go.aws/3JVneTS" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
+| 10  | Data Protection & Disaster Recovery |   <a href="https://go.aws/3JVneTS" ><img src="../images/aws.svg" width="24px" height="24px" ></a>   |
 
 
 ## Contribution 🛠️
@@ -65,5 +65,3 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-
-
