@@ -18,7 +18,7 @@
 
 -   Have a look 👁️: https://vvintellect.com/index.php
 
--   Tools: HTML, CSS, PHP, Bootstrap, Sublime
+-   Tools: HTML, CSS, PHP, Bootstrap, JavaScript, Sublime
 <div class="container mt-3">
 <h3 align="left">Badges🏆</h3> 
 
