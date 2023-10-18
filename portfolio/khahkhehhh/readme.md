@@ -19,15 +19,15 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 <br>
 <a href="mailto:fongkheh@graduate.utm.my">
   <img src="https://static.vecteezy.com/system/resources/thumbnails/020/964/377/small_2x/gmail-mail-icon-for-web-design-free-png.png" alt="Gmail" width="50" height="50">
-</a>&nbsp
+</a> &nbsp
   
 <a href="https://www.linkedin.com/in/fong-khah-kheh-0a539625a/" target="_blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="50" width="50" />
-</a>&nbsp
+</a> &nbsp
   
 <a href="https://instagram.com/khahkhehhh__" target="_blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="50" width="50" />
-</a>&nbsp
+</a> &nbsp
 
 </details>
 <br>
@@ -73,7 +73,7 @@ Hi there, My name is Fong Khah Kheh! 👋 I'm all about transforming raw data in
 
 - [Intellect Playschool Management System Project](https://vvintellect.com/index.php) - Program registration & Assessment
 
-- [Car booking System](https://khahkhehutm.000webhostapp.com/cbs/)
+- [Car booking System](https://github.com/khahkhehhh/Car-Booking-System)
 
 </details>
 <br>
