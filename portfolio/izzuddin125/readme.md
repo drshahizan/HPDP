@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="paq.jpg" alt="paq" width="350px" height="350px">
+  <img src="dinsem.jpg" alt="paq" width="350px" height="350px">
 </div>
 
 # Hey 👋, I'm Muhammad Izzuddin Bin Shabrin!  
