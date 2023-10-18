@@ -5,6 +5,11 @@
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-c14438?style=social&logo=Telegram&logoColor=red&link=https://t.me/muhdhasanchea)](https://t.me/muhdhasanchea)
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/hasan-che-abdullah-811262218/)](https://www.linkedin.com/in/hasan-che-abdullah-811262218/)
 
+<!-- Selfie -->
+<div align="center">
+  <img src="selfie.jpg" alt="hasan">
+</div>
+
 <div align="center">
   <h4><samp>I'm just a uni student trying to make cool stuff and get hired 😐.
   Hopefully by the time you read this, this page will look ❤️‍🔥 & I'll have finally mastered the way of the 🐍 </samp></h4>
