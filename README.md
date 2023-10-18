@@ -18,6 +18,11 @@ The information on this Github is part of the materials for the subject High Per
 5. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
 6. [AWS Academy Data Engineering](https://awsacademy.instructure.com/courses/60401)
 
+## Submission
+| No | Module | Description | File |
+| :-----: | ------ | ------ | :-----: | 
+| 1 | Task 1 | Portfolio Creation | <a href="./portfolio/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
+
 ### 📚 Course: High Performance Data Processing 
 - [Python for beginners](https://github.com/drshahizan/HPDP)
 - [Web scraping and Python web framework](https://github.com/drshahizan/python-web)

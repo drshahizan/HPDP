@@ -7,11 +7,11 @@
 
 <!-- Selfie -->
 <div align="center">
-  <img src="Selfie.jpg" alt="hasan">
+  <img src="Selfie.jpeg" alt="hasan" width="250px" height="270px">
 </div>
 
 <div align="center">
-  <h4><samp>I'm just a uni student trying to make cool stuff and get hired 😐.
+  <h4><samp>I'm a data engineering student trying to make cool stuff and get hired 😐.
   Hopefully by the time you read this, this page will look ❤️‍🔥 & I'll have finally mastered the way of the 🐍 </samp></h4>
 </div>
 
@@ -20,7 +20,7 @@
  class WhoAmI:
  	user = 'Muhammad Hasan Bin Che Abdullah' #long name, I know...
          code = [Javascript, HTML, CSS, Python, Java]
-         tools = [React, Vue, Node, Jupyter, Styled-Components, Docker]
+         tools = [React, Vue, Node, Jupyter, Styled-Components]
 		current_work = 'Planting Grapes'
          pronouns = 'He/Him'
 		hobbies = [
