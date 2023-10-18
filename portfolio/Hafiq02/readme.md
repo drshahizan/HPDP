@@ -1,8 +1,8 @@
-# John Doe - Professional Portfolio 🚀
+# WanAmirul Hafiq Bin Wan Huzaini - Professional Portfolio 🚀
 
 ## Introduction 🌟
 
-I am a highly motivated and dedicated professional with a strong background in [Your Field/Industry]. I am passionate about [mention your beliefs and values], and I thrive in dynamic and challenging environments. This portfolio provides a glimpse into my qualifications, skills, and experiences.
+I am a highly motivated and dedicated professional with a strong background in computer science. I am passionate about [mention your beliefs and values], and I thrive in dynamic and challenging environments. This portfolio provides a glimpse into my qualifications, skills, and experiences.
 
 ## Table of Contents 📜
 
