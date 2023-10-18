@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="image.jpg" alt="soowanying" width="310px" height="270px">
+</div>
+
 # 👋 I'm Soo Wan Ying!
 
 Welcome to my corner of the digital world! I'm a passionate data engineering enthusiast currently exploring the data streams at **Universiti Teknologi Malaysia (UTM)**. With a deep love for technology and a knack for data-driven solutions, I'm on an exciting journey through the world of computer science.
