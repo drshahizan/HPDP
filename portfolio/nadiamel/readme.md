@@ -1,4 +1,4 @@
-<div style="text-align:center;">
+<div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/87573002/6018ea29-2ad8-4235-89d3-b0a5ce545682" width="800" height="400">
 </div>
 
