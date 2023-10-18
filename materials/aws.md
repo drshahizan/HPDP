@@ -23,9 +23,12 @@ AWS Academy is a global program that offers educational institutions a comprehen
 5. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
 6. [AWS Academy Data Engineering](https://awsacademy.instructure.com/courses/60401)
 
-### Machine Learning for Natural Language Processing
+### Cloud Foundations
 
-AWS Academy Machine Learning for Natural Language Processing (NLP) is a follow-up course to AWS Academy Machine Learning Foundations. The course is at an intermediate technical level (similar to the AWS Academy Architecting, Operations, and Developing courses) and is appropriate for students who are pursuing careers that require machine learning (ML) knowledge.
+This introductory course is intended for students who seek an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
+
+### Cloud Architecting
+This intermediate-level course covers the fundamentals of building IT infrastructure on AWS and helps students gain the skills they need to pursue the AWS Certified Solutions Architect – Associate certification. This course contains approximately 40 hours of content delivered through lectures, hands-on labs, and project work. We recommend that students take AWS Academy Cloud Foundations or equivalent before taking this course.
 
 ### Data Engineering
 
