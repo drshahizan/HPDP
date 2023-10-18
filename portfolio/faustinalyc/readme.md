@@ -1,3 +1,6 @@
+## 🎊 Hii and Welcome 
+Welcome to my GitHub. My name is Lau Yee Chi. I am studying Computer Science in Data Engineering at Universiti Teknologi Malaysia. I have a passion for big data and machine learning, and I'm enthusiastic about having interesting findings from the big data. In my free time, you can often find me capturing around since photography is my hobby.
+
 ## 👩‍💻About Me
 
 - 👋 Hi, I’m @Lau Yee Chi
