@@ -1,5 +1,5 @@
 ![Background Banner](https://github.com/drshahizan/HPDP/assets/87573002/6018ea29-2ad8-4235-89d3-b0a5ce545682)
-<img src="https://github.com/drshahizan/HPDP/assets/87573002/6018ea29-2ad8-4235-89d3-b0a5ce545682" width="900" height="500">
+<img src="https://github.com/drshahizan/HPDP/assets/87573002/6018ea29-2ad8-4235-89d3-b0a5ce545682" width="900" height="450">
 # Nadia Syafiqah Portfolio 
 Welcome to my profile! I'm a third-year degree student, passionate about learning, exploring, and making a difference. Here's a glimpse into my journey.
 
