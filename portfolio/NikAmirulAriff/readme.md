@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="photoDP.png" alt="Amirul">
+  <img src="photoDP.jpeg" alt="Amirul">
 </div>
 
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=adamochie&label=Profile%20views&color=0e75b6&style=flat" alt="adamochie" /> </p>
