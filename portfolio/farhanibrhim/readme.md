@@ -1,6 +1,6 @@
 <!-- Intro -->
 <div align="center">
-  <img src="paq.jpg" alt="paq">
+  <img src="paq.jpg" alt="paq" width="350px" height="350px">
 </div>
 
 <h3 align="center">
