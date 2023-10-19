@@ -26,6 +26,5 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yvonneee24&show_icons=true&locale=en" alt="yvonneee24" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yvonneee24&" alt="yvonneee24" /></p>
 
 
