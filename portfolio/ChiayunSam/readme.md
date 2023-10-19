@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="My pic.JPG" alt="ChiayunSam" width="310px" >
-</div>
+
+  <img src="My pic.jpg" alt="ChiayunSam" width="310px" >
+
 
 ### Hi there 👋 I am Sam Chia Yun!
 
@@ -14,8 +14,8 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 - ⚡ Fun fact: 183cm Scorpio ESTJ
 <br>
 My resume video:- https://www.youtube.com/watch?v=fCX52x4Aqa8
-<br>
-
+<br></br>
+  
 ## 🏫 Education Background
 
 ### Universiti Teknologi Malaysia (UTM)
@@ -24,11 +24,11 @@ My resume video:- https://www.youtube.com/watch?v=fCX52x4Aqa8
 ### Pahang Matriculation College(KMPh)
 - August 2020 - May 2021
 
-### SMK Mahsuri Langkawi Kedah
+### SMK Mahsuri Langkawi
 - Jan 2018 - Nov 2019
 
 <br>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yvonneee24&show_icons=true&locale=en" alt="yvonneee24" /></p>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ChiayunSam&label=Profile%20views&color=0e75b6&style=flat" alt="ChiayunSam" /> </p>
 <br> </br>
 <h3 align="left">Connect with me:</h3>
