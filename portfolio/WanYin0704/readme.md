@@ -37,7 +37,7 @@
 - [Intellect Playschool](https://github.com/WanYin0704/Intellect-Playschool-Management-System) (_Attendance module_) ==> **_CSS, PHP, HTML, JavaScript, phpMyAdmin, etc_**
 - [Car Booking System](https://github.com/WanYin0704/Car-Booking-System) ==> **_CSS, PHP, HTML, JavaScript, phpMyAdmin, etc_**
 - [Burger Delivery System](https://github.com/WanYin0704/Burger-Delivery-System) ==> **_Java_**
-- [UTM Course Registration](https://github.com/WanYin0704/UTM-Course-Registration) ==> **_C++_**
+- [UTM Course Registration System](https://github.com/WanYin0704/UTM-Course-Registration-System) ==> **_C++_**
 - [Vending Machine Stimulation Program](https://github.com/WanYin0704/Vending-Machine-Stimulation-Program) ==> **_Assembly_**
 - [SpineHealth](https://github.com/WanYin0704/SpineHealth) ==> **_Figma_**
 - [Data Analysis](https://github.com/WanYin0704/Data-Analysis) ==> **_R, Excel_**  
