@@ -11,7 +11,7 @@
 <p align="center">3rd Year Data Engineering Student | Coding Enthusiast | Universiti Teknologi Malaysia</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nurunnajwa-zulkifli/">LinkedIn</a> •
+  <a href="https://www.linkedin.com/in/nurunnajwa-zulkifli">LinkedIn</a> •
   <a href="https://www.kaggle.com/nurunnz">Kaggle</a>•
   <a href="mailto:nurunnajwa@graduate.utm.my">Email</a>
 </p>
