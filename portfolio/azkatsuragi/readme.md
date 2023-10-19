@@ -3,10 +3,16 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=F5F5F5&size=24&center=true&vCenter=true&width=1000&lines=Hi,+Welcome+to+my+page!;A+spirited+coder,+and+ambitious+learner;A+smooth+sail+never+made+a+skilled+sailor;Welcome+to+my+coding+altar!)](https://git.io/typing-svg)
 
-<p>
-  Hello, my name is Mohamad Azri Hadif bin Mohammad Rizal and I goes by Azri. I'm currently in my 3rd years of bachelor degree in Computer Science major in Data Engineering.
-</p>
-
+<table>
+  <tr>
+    <td>
+      <p> Hello, my name is Mohamad Azri Hadif bin Mohammad Rizal and I goes by Azri. I'm currently in my 3rd years of bachelor degree in Computer Science major in Data Engineering.</p>
+    </td>
+    <td>
+      <img src="azkatsuragi/photo_2023">
+    </td>
+  </tr>
+</table>
 # My Stats
 <table>
   <tr>
