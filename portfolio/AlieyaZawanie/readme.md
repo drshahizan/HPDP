@@ -1,6 +1,6 @@
 <p align="center">
 <div align="center">
-  <img src="PhotoDP.jpeg" alt="alie" width="500px" height="350px">
+  <img src="rsz_photo6231277465620295376.jpg" alt="alie" width="350px" height="350px">
 </div>
 </p>
 
