@@ -10,7 +10,6 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 - 💬 Birth Date: 24th August 2002
 - 🌱 Third-year student in Bachelor of Computer Science **(Data Engineering)**, UTM.
 - 📝 I've honed my skills in C++, Java, HTML, and PHP.
-- 👨‍💻 Project that I worked with: [Intellect Playschool Website](https://intellectplayschooljb.000webhostapp.com/IntellectPlayschool2/)
 - 📫 Email: liewyvonne@graduate.utm.my
 
 <br>
