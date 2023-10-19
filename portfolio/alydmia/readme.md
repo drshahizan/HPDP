@@ -15,17 +15,14 @@ I am a passionate software developer with a love for clean and efficient code. M
 
 ## Projects
 
-### Project 1: Project Name
+### Project 1: Intellect Playschool
 
-Description of your project. What was the problem, and how did you solve it? What technologies did you use? Include any relevant links or images.
+Intellect Playschool, a learning center in Johor Bahru, uses Facebook for marketing since October 2019. They face issues with a manual data system that's becoming outdated and causes data loss if staff are absent. We propose creating a secure, user-friendly database system to manage data efficiently and solve the problem of unorganized information, making it easier for staff to work and promote the playschool in the community..
 
-### Project 2: Project Name
+### Project 2: Knime Project
 
-Description of your project. What was the problem, and how did you solve it? What technologies did you use? Include any relevant links or images.
+In our data work, we begin by cleaning, reducing, and transforming the data for optimal use. This preparation is essential before diving into the dataset. We scrutinize the data for issues like missing values and noisy information. This dataset focuses on a bank's marketing campaign, exploring factors like age, occupation, marital status, education, and clients' interest in term deposits. The main goal is to predict if clients are likely to open term deposit accounts, offering valuable insights into customer behavior and marketing success. Our approach involves employing classification, association rules, and linear regression in data mining to evaluate the campaign's effectiveness. This enables us to efficiently analyze large datasets, uncover anomalies, patterns, and connections, and predict outcomes essential for our analysis.
 
-### Project 3: Project Name
-
-Description of your project. What was the problem, and how did you solve it? What technologies did you use? Include any relevant links or images.
 
 ---
 
