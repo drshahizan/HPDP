@@ -11,6 +11,7 @@
 I'm a student with a strong passion for data science and software development. I enjoy solving real-world problems and creating software solutions. This portfolio showcases my journey and the projects I've worked on
 
 ## 🚀 Projects
+- http://intellectps.com/
 
 ## 💼 Skills
 ### 🌐 Web Development:
