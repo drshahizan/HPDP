@@ -36,7 +36,7 @@ I am currently focused on enhancing my skills in:
 
 ### 👩‍💼 Role
 
-I am the Head of Sponsorship and Entrepreneurship at **PERSAKA**, the computer science society of Universiti Teknologi Malaysia. I am also an active secretariate under HEWI, Persatuan Mahasiswa Islam Malaysia.
+I am the Head of Sponsorship and Entrepreneurship at **PERSAKA**, the computer science society of Universiti Teknologi Malaysia. I am also an active secretariate under Hal Ehwal Mahasiswi (HEWI), Persatuan Mahasiswa Islam UTM.
 
 ---
 <details open> 
