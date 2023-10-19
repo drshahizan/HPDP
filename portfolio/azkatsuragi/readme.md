@@ -45,13 +45,11 @@
 ### Languange
 <table style="width:100%">
   <tr>
-    <th>Language</th>
-    <td>Front End</td>
+    <th>Front End</th>
     <td>Back End</td>
   </tr>
   <tr>
     <th><p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,css,html,php,py" /></a></p></th>
-    <td><p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,css,html,php,py" /></a></p></td>
     <td><p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,css,html,php,py" /></a></p></td>
   </tr>
 </table>
