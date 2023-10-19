@@ -6,9 +6,9 @@
 <table>
   <tr>
     <td>
-    <td>
       <img src="photo_2023-10-19_12-59-39.jpg">
     </td>
+    <td>
       <h3>About Me</h3>
       <p> I'm a passionate Data Engineer with a love for two seemingly contrasting worlds - dancing and sipping tea. When I'm not optimizing data pipelines or wrangling with code, you can often find me gracefully twirling on the dance floor or enjoying a soothing cup of tea.</p>
       <h3>Why I'm Here</h3>
