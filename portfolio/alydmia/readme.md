@@ -5,7 +5,7 @@
 
 ## About Me
 
-I am a passionate software developer with a love for clean and efficient code. My goal is to create meaningful and elegant solutions to complex problems. I am experienced in a wide range of programming languages and technologies, and I am always eager to learn and take on new challenges.
+I am a passionate in devoloping with a love for clean and efficient code. My goal is to create meaningful and elegant solutions to complex problems. I am experienced in a wide range of programming languages and technologies, and I am always eager to learn and take on new challenges.
 
 ---
 
