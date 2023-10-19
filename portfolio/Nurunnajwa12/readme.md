@@ -8,7 +8,8 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nurunnajwazulkifli/">LinkedIn</a> •
-  <a href="https://www.kaggle.com/nurunnz">Kaggle</a>
+  <a href="https://www.kaggle.com/nurunnz">Kaggle</a>•
+  <a href="mailto:nurunnajwa@graduate.utm.my">Email</a>
 </p>
 
 ---
