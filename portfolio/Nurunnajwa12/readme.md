@@ -65,13 +65,21 @@ I am the Head of Sponsorship and Entrepreneurship at **PERSAKA**, the computer s
       <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
     </a>
 </details>
+
+---
+
 <details open> 
-  <summary><h2>🧰 Data Playground </h2></summary>
+  <summary><h2>🧰 My Data Playground </h2></summary>
 
   <ul>
     <li><a href="https://mavenanalytics.io/data-playground">Maven Analytics Data Playground</a></li>
     <li><a href="https://onyxdata.co.uk/data-dna-dataset-challenge/">Data DNA Dataset Challenge by Onyx Data</a></li>
   </ul>
+</details>
+
+---
+  <details open> 
+  <summary><h2>🔧 Projects </h2></summary>
 
   <p>I actively participate in dashboard challenges on LinkedIn. Check out my work:</p>
 
@@ -100,20 +108,18 @@ I am the Head of Sponsorship and Entrepreneurship at **PERSAKA**, the computer s
       <a href="https://www.cplusplus.com/"><img alt="C++" src="https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white"></a>
       <a href="https://www.java.com/"><img alt="Java" src="https://staging.shields.io/badge/JAVA-007396?logo=javalogo&color=E95420&logoColor=white"></a>
     <a href="https://www.r-project.org/"><img alt="R" src="https://img.shields.io/badge/R-%23276DC3.svg?logo=R&logoColor=white"></a>
-      <a href="https://www.php.net/"><img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4.svg?logo=php&logoColor=white"></a>
       <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=white"></a>
-      <a href="https://www.javascript.com/"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
-      <a href="https://en.wikipedia.org/wiki/HTML"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>  
-      <a href="https://en.wikipedia.org/wiki/CSS"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
       <a href="https://en.wikipedia.org/wiki/SQL"><img alt="SQL" src="https://custom-icon-badges.demolab.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
   </p>
-    
-  <h3>🧰 Frameworks and Libraries</h3>
 
-  <p>
-      <a href="https://getbootstrap.com/"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3.svg?logo=bootstrap&logoColor=white"></a>
-      <a href="https://www.kaggle.com/"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF.svg?logo=kaggle&logoColor=white"></a>
-  </p>
+  <h3>🗄️ Web Development</h3>
+    <p>
+       <a href="https://www.php.net/"><img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4.svg? logo=php&logoColor=white"></a>
+       <a href="https://www.javascript.com/"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
+       <a href="https://en.wikipedia.org/wiki/HTML"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>  
+       <a href="https://en.wikipedia.org/wiki/CSS"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
+    </p>
+
 
   <h3>🗄️ Databases and Cloud Hosting</h3>
 
