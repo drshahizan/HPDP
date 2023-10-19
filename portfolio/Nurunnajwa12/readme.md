@@ -1,6 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff0080&height=80&section=header"/>
 
 <p align="center">
+  <img src="https://github.com/drshahizan/HPDP/assets/89633522/56f75800-a3c6-4e9a-810b-3dc7491d43fe" alt="Nurun's Profile Picture" width="200">
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=440&size=32&pause=1000&color==21ffe1&center=true&vCenter=true&repeat=false&width=500&lines=Nurunnajwa+binti+Zulkifli" alt="Typing SVG" /></a>
 </p>
 
