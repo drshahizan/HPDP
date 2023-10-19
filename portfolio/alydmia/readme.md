@@ -1,4 +1,4 @@
-# ![Alt Text](alya.png) 
+# ![Alt Text](aws1.png) 
 # ALYA DAMIA BINTI HUZAIMY
 
 [![GitHub Logo](icons8-github-50.png)](https://github.com/alydmia)
