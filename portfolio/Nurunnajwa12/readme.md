@@ -24,6 +24,13 @@ I am a passionate data engineering student at  with a keen interest in coding an
 - Databases: MySQL, Oracle
 - Platforms: Kaggle
 
+### 🌱 Current Learning
+
+I am currently focused on enhancing my skills in:
+
+- **Python**
+- **Oracle Database**
+
 ---
 
 ### 👩‍💼 Role
