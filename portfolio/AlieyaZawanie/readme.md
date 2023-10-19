@@ -1,36 +1,32 @@
 <p align="center">
-
+<div align="center">
+  <img src="PhotoDP.jpeg" alt="alie" width="500px" height="350px">
+</div>
 </p>
 
 <h1 align="center">Alieya Zawanie Zaini</h1>
 
-<h3 align="center">I'm currently pursuing degree in Computer Science (Data Engineering)r</h3>
+<h3 align="center">I'm currently pursuing degree in Computer Science (Data Engineering)</h3>
 
 
 ## About Me
-I'm a student with a strong passion for data science and software development. I enjoy solving real-world problems and creating software solutions. This portfolio showcases my journey and the projects I've worked on
+I'm Alieya Zawanie, a student at UTM, residing in Perak, with a strong passion for data science and software development. I enjoy solving real-world problems and creating software solutions. This portfolio showcases my journey and the projects I've worked on.
 
 ## 🚀 Projects
 - http://intellectps.com/
 
 ## 💼 Skills
-### 🌐 Web Development:
-- HTML5, CSS3, JavaScript, Bootstrap
+#### Web Development: HTML5, CSS3, JavaScript, Bootstrap
 
-### 💻 Programming:
-- C, C++, Java, Python, PHP, Anaconda
+#### Programming: C, C++, Java, Python, PHP, Anaconda
 
-### 📊 Databases:
-- MySQL, MariaDB, SQL,Oracle
+#### Databases: MySQL, MariaDB, SQL,Oracle
 
-### 🌍 Cloud Services:
-- AWS
+#### Cloud Services: AWS
 
-### 📈 Data Analysis:
-- R, Power BI
+#### Data Analysis: R, Power BI
 
-### 🎨 Design:
-- Canva
+#### Design: Canva
 
 
 
