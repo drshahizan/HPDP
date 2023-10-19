@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=440&size=32&pause=1000&color==21ffe1&center=true&vCenter=true&repeat=false&width=500&lines=Nurunnajwa+binti+Zulkifli" alt="Typing SVG" /></a>
 </p>
 
-<p align="center">Data Engineering Student | Coding Enthusiast | Universiti Teknologi Malaysia</p>
+<p align="center">3rd Year Data Engineering Student | Coding Enthusiast | Universiti Teknologi Malaysia</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nurunnajwazulkifli/">LinkedIn</a> •
