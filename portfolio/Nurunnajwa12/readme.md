@@ -24,8 +24,8 @@ I am a passionate data engineering student at  with a keen interest in coding an
 
 ### 💻 Tech Stack
 
-- Languages: Python, C++, Java, HTML, CSS, JavaScript
-- Tools: Git, Power BI, Canva, CapCut
+- Languages: C++, Java, HTML, CSS, JavaScript, Python
+- Tools:  Power BI, Canva, CapCut
 - Databases: MySQL, Oracle
 - Platforms: Kaggle
 
