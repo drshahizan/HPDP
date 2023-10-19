@@ -1,4 +1,6 @@
 <p align="center">
+  
+<img src="https://github.com/drshahizan/HPDP/assets/92329710/ae862ec4-abdd-425e-bc4d-537d435236e8" alt="profile" width="250" height="300">
 
 </p>
 
@@ -27,18 +29,53 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 - **Tech Stack:** PHP, HTML, Bootstrap, JavaScript, MySQL
 
 ## 💻 Languages and Tools
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+**Languages**
+- Python
+- Java
+- C++
+- C#
+- PHP
+
+**Database**
+- MySQL
+
+**Web Development**
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+**Cloud**
+- AWS
+- Azure
+
+**Tools**
+- Figma
+- PowerBI
+- Tableau
+
 
 ## 🎓 Education
 
-- **Bachelor of Science in IT: Software Application Development (2023)**
-  - UTAS, Oman
-  - Graduated with a CGPA of 3.59, earning a place on the dean's list four times.
+**Sekolah Agama Menengah Bestari**
+- 2017 - 2018
+- Achieved 9A 2B in SPM
+
+**UITM Dengkil**
+- Foundation of Science
+- 2019 - 2020
+- Achieved 4.00 CGPA in both semester
+
+**Universiti Teknologi Malaysia**
+- 2021 - 2025
+- 3rd year student of Bachelor of Computer Science (Data Engineering)
+- Current CGPA 3.78
+
 
 ## 🏆 Certifications
 
 - **Data Science Certification (2023)**
-- **Data Science with Python, Simplilearn
+- **Data Science with Python, Simplilearn**
 
 ## 📫 Contact Me
 
