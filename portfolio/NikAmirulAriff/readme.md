@@ -32,13 +32,9 @@
 
 ## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="50px" height="50px"> Projects
 
-### 👷 Check out what I'm currently working on
+### 👷 My projects
+-[NikAmirulAriff/Food-Nexus-Datathon](https://github.com/NikAmirulAriff/Food-Nexus-Datathon) - Food Nexus Datathon (Finalist)
 
--  No ongoing project..
-
-### 🌱 My Past projects
--
--
 -
 
 ### 🥇: Badges and Certification
