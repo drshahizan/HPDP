@@ -21,6 +21,11 @@
 - https://www.credly.com/badges/98a40a2e-5597-4172-bb1d-a31cc94afa65/public_url
 - https://www.credly.com/badges/74dfc069-0d94-4fb7-b1bf-677d0c91b06b/public_url
 
+# My Repositories
+<p align="left">
+  <a href="https://github.com/azkatsuragi?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
+</p>
+
 # My Stats
 <table>
   <tr>
