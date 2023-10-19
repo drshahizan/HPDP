@@ -9,16 +9,15 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 ## 📚 About Me
 - 💬 Birth Date: 24th August 2002
 - 🌱 Third-year student in Bachelor of Computer Science **(Data Engineering)**, UTM.
+- 📝 I've honed my skills in C++, Java, HTML, and PHP.
 - 👨‍💻 Project that I worked with: [Intellect Playschool Website](https://intellectplayschooljb.000webhostapp.com/IntellectPlayschool2/)
-- 📫 How to reach me: https://www.linkedin.com/in/liew-yvonne-a69180225/
-- 🤝 Email: liewyvonne@graduate.utm.my
+- 📫 Email: liewyvonne@graduate.utm.my
   
 <br> 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/liew-yvonne-a69180225/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
-<a href="https://www.youtube.com/channel/UCceCa6945s0RgeOVlTTtL1g" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="ang yi qin" height="30" width="40" /></a> 
 </p>
 <br> 
 <h3 align="left">Languages and Tools:</h3>
@@ -40,7 +39,17 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 - Jan 2018 - Nov 2019
 - SPM: 10A's
 
+<br>
 
+## 👨‍💻 Project
+
+### 🏫 [Intellect Playschool Website](https://intellectplayschooljb.000webhostapp.com/IntellectPlayschool2/)
+
+-  This project is used in a kindsergarden for an easier management for teachers and also parents. It includes registration, attendance, announcement and payment. HTML, PHP, CSS and javascript is used to build this website.
+
+<br>
+
+## 📈GitHub Stats
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yvonneee24&show_icons=true&locale=en" alt="yvonneee24" /></p>
 
 
