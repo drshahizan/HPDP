@@ -6,13 +6,13 @@
 <table>
   <tr>
     <td>
+    <td>
+      <img src="photo_2023-10-19_12-59-39.jpg">
+    </td>
       <h3>About Me</h3>
       <p> I'm a passionate Data Engineer with a love for two seemingly contrasting worlds - dancing and sipping tea. When I'm not optimizing data pipelines or wrangling with code, you can often find me gracefully twirling on the dance floor or enjoying a soothing cup of tea.</p>
       <h3>Why I'm Here</h3>
       <p>I believe that my technical expertise in data engineering can bring a unique perspective to any team or project. I'm eager to collaborate, learn, and contribute to the ever-evolving data landscape. So, whether it's optimizing ETL pipelines or perfecting a dance move, I'm always up for the challenge. Let's connect and explore how we can make data-driven magic happen, one dance step and one sip at a time.</p>
-    </td>
-    <td>
-      <img src="photo_2023-10-19_12-59-39.jpg">
     </td>
   </tr>
 </table>
