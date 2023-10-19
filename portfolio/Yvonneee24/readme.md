@@ -26,6 +26,12 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 
 <br>
 
+## 🎖️Achievements and Skills
+- [AWS Academy Cloud Foundations](https://www.linkedin.com/posts/liew-yvonne-a69180225_microsoft-certified-azure-data-fundamentals-activity-7035634854285201408-rzZF?utm_source=share&utm_medium=member_desktop)
+- [Microsoft Certified: Azure Data Fundamentals](https://www.linkedin.com/posts/liew-yvonne-a69180225_aws-academy-graduate-aws-academy-cloud-activity-6865665254207164416-ztH-?utm_source=share&utm_medium=member_desktop)
+
+<br>
+
 ## 🏫 Education Background
 
 ### Universiti Teknologi Malaysia (UTM)
