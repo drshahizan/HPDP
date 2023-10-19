@@ -9,7 +9,7 @@
       <p> Hello, my name is Mohamad Azri Hadif bin Mohammad Rizal and I goes by Azri. I'm currently in my 3rd years of bachelor degree in Computer Science major in Data Engineering.</p>
     </td>
     <td>
-      <img src="azkatsuragi/photo_2023">
+      <img src="portfolio/azkatsuragi/photo_2023-10-19_12-59-39.jpg">
     </td>
   </tr>
 </table>
