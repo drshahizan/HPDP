@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="My pic.JPG" alt="yvonne" width="310px" >
+  <img src="My pic.JPG" alt="ChiayunSam" width="310px" >
 </div>
 
 ### Hi there 👋 I am Sam Chia Yun!
