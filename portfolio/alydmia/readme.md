@@ -48,18 +48,6 @@ Description of your project. What was the problem, and how did you solve it? Wha
 
 ---
 
-## Work Experience
-
-### Software Engineer Intern - Company Name (Dates)
-
-- Description of your work and accomplishments during the internship.
-
-### Junior Developer - Company Name (Dates)
-
-- Description of your responsibilities and achievements in your role.
-
----
-
 ## Contact Information
 
 - **GitHub**: [github.com/alydmia](https://github.com/alydmia)
