@@ -14,9 +14,6 @@ The information on this Github is part of the materials for the subject High Per
 1. [Essential Preparations for a Successful Start in High-Performance Data Processing Class](./materials/essentials.md)
 2. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
 3. [Student information](student.md)
-4. [AWS Academy Cloud Foundations](https://awsacademy.instructure.com/courses/60317)
-5. [AWS Academy Cloud Architecting](https://awsacademy.instructure.com/courses/60318)
-6. [AWS Academy Data Engineering](https://awsacademy.instructure.com/courses/60401)
 
 ## Submission
 | No | Module | Description | File |
