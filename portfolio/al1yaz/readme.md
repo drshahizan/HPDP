@@ -36,7 +36,7 @@ Welcome to my projects portfolio. Here, you can find a list of the projects I've
   
 - **User Manual Documentation**: [User Manual](https://docs.google.com/document/d/1oGkXA4DNBD1JjGRjqmqG3kjhgIao8iBsLioF0qyzG6g/edit?usp=sharing)
 
-## Connect with me 🔗
+## Connect with me 👩🏻‍💻
 <p>
   <a href="https://linkedin.com/in/aliya-zarena-239469270" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
   <a href="https://www.youtube.com/c/AliyaZarena" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40" /></a>
