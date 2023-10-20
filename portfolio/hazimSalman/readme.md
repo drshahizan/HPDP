@@ -64,8 +64,8 @@ List your technical and soft skills here:
 ## Contact
 
 - ✉️ **Email:** hazimsalman123@gmail.com
-- 🔗 **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/hazimsalman)
-- 🐱 **GitHub:** [Your GitHub Profile](https://github.com/hazimSalman)
+- 🔗 **LinkedIn:** [hazimsalman](https://www.linkedin.com/in/hazimsalman)
+- 🐱 **GitHub:** [hazimSalman](https://github.com/hazimSalman)
 
 ## Certifications
 
