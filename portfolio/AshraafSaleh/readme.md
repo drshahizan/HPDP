@@ -2,7 +2,7 @@
 <div align="center">
   <h1>Welcome to My Portfolio</h1>
 
-<img src="WhatsApp Image 2023-10-20 at 17.05.35.jpeg" width="300" alt="Image Alt Text">
+<img src="Acap.jpeg" width="300" alt="Image Alt Text">
 </div>
 
 
