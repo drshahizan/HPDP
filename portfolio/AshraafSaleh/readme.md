@@ -2,7 +2,7 @@
 <div align="center">
   <h1>Welcome to My Portfolio</h1>
 
-<img src="Acap.jpeg" width="300" height="350" alt="Image Alt Text">
+<img src="Acap.jpeg" width="300" alt="Image Alt Text">
 </div>
 
 
