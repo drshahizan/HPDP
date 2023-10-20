@@ -44,6 +44,10 @@ As a student in the 21st century, I understand the value of always upgrading my 
 <img src="https://github.com/drshahizan/HPDP/assets/87573002/f469208f-c3ec-425a-8730-657241f8fb92" width="150" height="150" style="display: inline-block;">
 
 # Highlight Projects 🗂️
+<a href="https://github.com/nadiamel/School-Leave-Application-Management-System#school-leave-application-management-system">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nadiamel&repo=School-Leave-Application-Management-System&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="School-Leave-Application-Management-System" />
+</a>
+
 
 
 
