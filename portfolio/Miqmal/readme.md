@@ -3,7 +3,7 @@
 - 👋 Hi, I'm Muhammad Iqmal.
 - 🎓 I'm a 3rd-year Computer Science student specializing in Data Engineering at Universiti Teknologi Malaysia.
 - 🏡 I currently reside in Kuching, Sarawak.
-- 💻 I'm passionate about coding and software development.
+- 💻 I'm passionate about coding and data manipulation.
 - 🌱 I'm constantly learning and exploring new technologies.
 - 🤝 I enjoy collaborating with others and working on exciting projects.
 - 📊 Data engineering and data-driven applications fascinate me.
