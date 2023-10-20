@@ -97,6 +97,15 @@ Universiti Teknologi Malaysia
 
 ## Contact
 
+<a href="https://www.linkedin.com/in/hazimsalman/" target="_blank">
+    <img align="center"  | Linkedin" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
+</a> &nbsp;&nbsp;
+
+<a href="https://github.com/hazimSalman/" target="_blank">
+    <img align="center"  | Github" width="24px" src="https://freebiesupply.com/logos/github-logo/" />
+</a> &nbsp;&nbsp;
+
+
 - ✉️ **Email   ->** hazimsalman123@gmail.com
   
 - 🔗 **LinkedIn->** [hazimsalman](https://www.linkedin.com/in/hazimsalman)
