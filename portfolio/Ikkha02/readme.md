@@ -12,6 +12,9 @@ Introduction about Myself
   <a href="https://eportfolio.utm.my/user/ikmal-bin-khairulezuan">
     <img src="https://img.shields.io/badge/-ePortfolio-yellowgreen?style=for-the-badge"/>
   </a>
+  <a href="hhttps://www.instagram.com/ikmal_ikkha/" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>
   <a href="https://www.youtube.com/channel/UCCWRT7-KiO4CsW5S3gdSXnA">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
