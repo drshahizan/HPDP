@@ -18,4 +18,4 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&pause=1000&color=C1F71B&background=5FFF7600&vCenter=true&multiline=true&random=true&width=435&lines=love+is+like+data...;messy+at+times%2C;+but+beautiful+when+properly+structured)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&pause=1000&color=C1F71B&background=5FFF7600&vCenter=true&multiline=true&random=false&width=435&lines=love+is+like+data...;messy+at+times%2C;+but+beautiful+when+properly+structured)](https://git.io/typing-svg)
