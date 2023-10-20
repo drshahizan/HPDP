@@ -34,7 +34,7 @@ As a student in the 21st century, I understand the value of always upgrading my 
 
 ![KNIME](https://img.shields.io/badge/KNIME-Apps-blue?style=for-the-badge&logo=knime)
 ![Oracle](https://img.shields.io/badge/Oracle-red?style=for-the-badge&logo=oracle)
-![Anaconda Apps](https://img.shields.io/badge/Anaconda-green?style=for-the-badge&logo=anaconda)
+![Anaconda Apps](https://img.shields.io/badge/Anaconda-green?style=for-the-badge&logo=anaconda)  
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter)
 ![Power BI](https://img.shields.io/badge/Power%20BI-yellow?style=for-the-badge&logo=powerbi)
 ![Tableau](https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau)
