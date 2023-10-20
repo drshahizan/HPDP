@@ -10,13 +10,13 @@
 <br>
 
 ## Me Currently
-- 💻 Working on [Terraria Mod](https://github.com/Hafizulshah/Terraria-Mod)
-
 - 🎓 Learning **Data Engineering at UTM Skudai**
 
 - 💡 Current CGPA : **3.64**
 
 - 📫 How to reach me **hafizulshah@graduate.utm.my**
+
+- 💻 Working on [Terraria Mod](https://github.com/Hafizulshah/Terraria-Mod)
 
 <br>
 
