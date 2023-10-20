@@ -10,8 +10,12 @@
 
 <h1 align="center">Hi 👋, I'm MUHAMMAD HARITH HAKIM BIN OTHMAN</h1>
 
+<br><br><br><br>
+
 ## <div align="center">About Me</div>
 <h4 align="center">I am a student from UNIVERSITI TEKNOLOGI MALAYSIA majoring in BACHELOR OF COMPUTER SCIENCE in DATA ENGINEERING. I am a person with a vision and mission who is willing to sacrifice to achieve any success and excellence that will benefit me in the future. I have and have mastered a variety of distinct skill sets. Among them are soft skills and hard skills. I am a friendly, easy-going, team player, persevered, hardworking, and like to work in groups. I hope that everything that I will enjoy in the future can benefit everyone.</h4>
+
+<br><br>
 
 ## <div align="center">Skill and Experience</div>
 
@@ -26,13 +30,17 @@
 - 3rd year student of Bachelor of Computer Science (Data Engineering).
 - Current CGPA 3.75.
 
+<br><br>
+
 ## <div align="center">Certifications</div>
 
 - [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/earner/earned/badge/e24f1980-eba7-4705-ab31-7a8e3abdc39f)
 - [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/earner/earned/badge/2d87511d-ecb4-4965-b5a6-3b123c2580be)
+  
+<br><br>
 
+<div align="center">Contact Me!</div>
 
-<br><br><br><br>
 - 📫 How to reach me **harithothman97@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
