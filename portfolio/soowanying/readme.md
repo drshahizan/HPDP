@@ -11,6 +11,12 @@ Welcome to my corner of the digital world! I'm a passionate data engineering ent
 - 🎂 Born on December 31st, 2002, and constantly learning and growing.
 - 🎓 I'm a third-year student pursuing a Bachelor of Computer Science in **Data Engineering** at UTM.
 - 📧 Feel free to get in touch: [Email](mailto:sooying@graduate.utm.my) | [LinkedIn](https://www.linkedin.com/in/wan-ying-soo-814b52293/)
+
+## 👨‍💻 Project
+
+- 🏫 [Scoliosis Mobile Application](https://www.youtube.com/watch?v=a3k0dmp5k98) 
+- 🏫 [Intellect Playschool Website](https://intellectplayschooljb.000webhostapp.com/IntellectPlayschool2/)
+
   
 ## 💻 Languages and Tools
 
@@ -27,8 +33,8 @@ I'm well-versed in a variety of languages and tools, including:
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="20"/> MySQL
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="20"/> PHP
 
-
-
+## 🎖️Achievements and Skills
+-  [AWS Academy Cloud Foundations](https://www.credly.com/badges/6722e0b5-9949-4729-988f-99d9ae7634a4/public_url)
 
 ## 📊 GitHub Stats
 
