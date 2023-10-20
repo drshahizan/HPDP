@@ -27,6 +27,7 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 ### Project 1: PreSchool Website System
 - **Description:** Using PHP, the system able to bring a new experience for customer especially for teachers and parents to cope with their task such as payment, student attendance, school activities.
 - **Tech Stack:** PHP, HTML, Bootstrap, JavaScript, MySQL
+- <a href="https://seedintellect.com/index.php">Intellect Playschool</a>
 
 ## 💻 Languages and Tools
 **Languages**
@@ -53,6 +54,7 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 - Figma
 - PowerBI
 - Tableau
+- Knime
 
 
 ## 🎓 Education
@@ -64,7 +66,7 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 **UITM Dengkil**
 - Foundation of Science
 - 2019 - 2020
-- Achieved 4.00 CGPA in both semester
+- Managed to achieved 4.00 CGPA
 
 **Universiti Teknologi Malaysia**
 - 2021 - 2025
@@ -74,8 +76,11 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 
 ## 🏆 Certifications
 
-- **Data Science Certification (2023)**
-- **Data Science with Python, Simplilearn**
+- <a href="https://www.credly.com/badges/0d876742-3d1e-48b1-9727-d8980d93702a/linked_in_profile">**AWS Academy Cloud Data Pipeline Builder**</a>
+- <a href="https://www.credly.com/badges/595120ba-073f-4d4d-a0c7-750e9b8a30c0/linked_in_profile">**AWS Academy Cloud Web Application Builder**</a>
+- <a href="https://www.credly.com/badges/8c01a255-3ab0-444a-abef-7d6bcee05220/linked_in_profile">**AWS Academy Data Engineering**</a>
+- <a href="https://www.credly.com/badges/bdd24b0c-c564-4b8d-a0dd-1f96bb3b103f/linked_in_profile">**AWS Academy Machine Learning for Natural Language Processing**</a>
+- <a href="https://www.credly.com/badges/845e427a-c311-47ea-8982-accf5e6a0918/linked_in_profile">**AWS Academy Cloud Foundations**</a>
 
 ## 📫 Contact Me
 
