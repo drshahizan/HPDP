@@ -1,5 +1,5 @@
 <div align="center">
-<img src="RuiXiang.jpeg" alt="RuiXiang" width="310px" height="270px">
+<img src="RuiXiang.jpeg" alt="RuiXiang" width="200px" height="270px">
 </div>
 
 ### Hi there 👋 I am Yew Rui Xiang 👋
