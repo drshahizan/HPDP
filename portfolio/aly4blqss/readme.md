@@ -11,11 +11,16 @@
 <p align="center">In addition to my academic and creative endeavors, I have actively participated in various extracurricular activities and event planning. These experiences have not only improved my social and leadership skills but have also enabled me to apply my technical knowledge in practical situations, further solidifying my passion for data engineering.</p>
 <br>
 
-### Education
+## Education
+- Bachelor of Data Engineering, Universiti Teknologi Malaysia
+- Foundation in Engineering, Kolej Mara Kuala Nerang
+- MRSM Transkrian
 
-### Projects
+## Projects
+- [Car Booking System](https://dreamridecbs.000webhostapp.com)
+- [Intellect Playschool Management System](https://www.tsintellect.com)
 
-### Skills
+## Skills
 #### Languages
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -31,4 +36,9 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-### Certification
+## Certification
+🏅[Microsoft Certified: Azure Data Fundamentals](https://www.credly.com/badges/8c40861a-c2d4-41a7-828a-0b8228e37024)
+
+## Contact Information
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alyabalqiss) 
+
