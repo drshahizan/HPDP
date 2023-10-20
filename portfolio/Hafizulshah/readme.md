@@ -53,6 +53,7 @@
 - Replacing keyboards for laptops
 - Replacing CMOS battery for desktops
 - Replacing power and volume buttons for smartphones
+- Setting up windows on new disk
 
 <br>
 
