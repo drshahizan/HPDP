@@ -5,6 +5,6 @@
 
 Hi there! I'm Mikhail Bin Yassin, from Sabah, Malaysia. 
 
-Currently pursuing a Bachelor of Computer Science in Data Engineering at Universiti Teknologi Malaysia.
+Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Universiti Teknologi Malaysia.
 
 ---
