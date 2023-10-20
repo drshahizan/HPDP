@@ -41,7 +41,7 @@ techniques, and technologies. This enthusiasm stems from the realization that as
 
 
 
-### Project 1: [Car Booking System](https://hazimutm.000webhostapp.com/cbs/)
+### [Car Booking System](https://hazimutm.000webhostapp.com/cbs/)
 
 ![Project Image](carpack.png) 
 
@@ -56,35 +56,34 @@ techniques, and technologies. This enthusiasm stems from the realization that as
 
 <div align="center">
   
-### Project 2: [Intellect Playschool](https://intellectps.com/)
+### [Intellect Playschool](https://intellectps.com/)
 
 ![Project Image](Ips.png)
 
-**Description:** Briefly describe your project.
-
 </div>
+
+**Description:** The website for Intellect Playschool serves as a vital bridge between our school and the parents, offering a convenient and informative platform to keep parents closely involved in their child's early education. It provides a window into our classroom activities, events, and curriculum, enabling parents to stay up-to-date with their child's progress. Additionally, the website offers a valuable resource for educational materials, ideas, and tips, helping parents continue their child's learning journey at home. With easy access to communication tools, event calendars, and relevant information, our website strengthens the partnership between our school and parents, creating a supportive and nurturing environment for our young learners.
   
 - **Technologies Used:** 
-  - ⚙️ Programming Language: JavaScript
-  - 🌐 Frontend: React
-  - 🌐 Backend: Node.js
-- **Links:** Provide links to the project, such as GitHub repository or live demo.
+  - ⚙️ Programming Language: html, css, Javascript, MySql and PHP 
+  - 🌐 Web Framework: Xampp
+  - 🛢️ Database: Mariadb
+
+<div align="center">
   
-
-
 ## Skills
+
+</div>
 
 List your technical and soft skills here:
 
 - 💻 Programming
 - 🌐 Web Development
 - 📊 Data Analysis
-  
-## Education
-
-
 
 <div align="center">
+  
+## Education
   
 <img src="utm.jpg" width="200" alt="utm.jpg">
   
@@ -98,9 +97,11 @@ Universiti Teknologi Malaysia
 
 ## Contact
 
-- ✉️ **Email:** hazimsalman123@gmail.com
-- 🔗 **LinkedIn:** [hazimsalman](https://www.linkedin.com/in/hazimsalman)
-- 🐱 **GitHub:** [hazimSalman](https://github.com/hazimSalman)
+- ✉️ **Email   ->** hazimsalman123@gmail.com
+  
+- 🔗 **LinkedIn->** [hazimsalman](https://www.linkedin.com/in/hazimsalman)
+  
+- 🐱 **GitHub  ->** [hazimSalman](https://github.com/hazimSalman)
 
 ## Certifications
 
