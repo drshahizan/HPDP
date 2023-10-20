@@ -5,40 +5,43 @@
 </p>
 
 <h1 align="center"> Aliya Zarena Zainulanuar</h1>
+I'm a third-year student of data engineering, where my motivation quote is "Turning Data into Wisdom: Where Analysis Meets Innovation." This quote reflects my passion for working with data and turning it into valuable insights through analysis and innovative solutions. I'm dedicated to harnessing the power of data to drive informed decisions and create positive impacts.
 
-<h2>👋 Aboutn me:</h2>
 
+##👋 About me
 <p>🌱 I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
-
-<p>📫 Reach out to me at <a href="mailto:aliya.zainul@gmail.com">aliya.zainul@gmail.com</a></p>
-
+<p>📫Feel free to reach out to me at [aliya.zainul@gmail.com](mailto:aliya.zainul@gmail.com) to discuss any opportunities, collaborations, or simply to connect!</p>
 <p >📄 Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
 
-<h3 align="center">Connect with me:</h3>
+
+## Interests and Goals
+- **Data Engineering**: I have a strong interest in data engineering, and I'm constantly improving my skills in data acquisition, transformation, and storage to build efficient data pipelines.
+
+- **Data Analysis**: I enjoy diving into data, uncovering patterns, and extracting meaningful insights that can drive informed decision-making.
+
+- **Innovation**: I'm passionate about finding creative and innovative solutions to real-world problems by leveraging data and technology.
+
+Let's turn data into wisdom together!
+
+
+## Connect with me 🔗
 
 <p align="center">
   <a href="https://linkedin.com/in/aliya-zarena-239469270" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
   <a href="https://www.youtube.com/c/AliyaZarena" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40" /></a>
 </p>
 
-<h3 align="center">Languages and Tools:</h3>
 
-<p align="center">
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="40" height="40" /></a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" /></a>
-  <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure" width="40" height="40" /></a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40" /></a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" /></a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40" /></a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40" /></a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" /></a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" /></a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40" /></a>
-  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle" width="40" height="40" /></a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" /></a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" /></a>
-</p>
+## My Projects 📁
+Welcome to my projects portfolio. Here, you can find a list of the projects I've worked on, along with brief descriptions and links to their respective repositories or more detailed documentation.
+
+ ### Project 1: [Intellect Playschool Management System]
+
+- **Description**: There will be four types of users in this management system, three of whom are active users (Administrator, Parent, and Staff), and one of whom is a Public User. This system has 8 features including registration, payment, announcement, staff salary, student attendance, staff attendance, account and manage activity modules.
+- **Skills/Technologies Used**: MySQL, FileZilla Client, HTML Language
+- **Website**: [https://tsintellect.com/](https://tsintellect.com/)
+
+
 
 
 
