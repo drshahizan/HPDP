@@ -1,6 +1,9 @@
 <div align="center">
   <img src="WhatsApp Image 2021-10-17 at 10.56.17.jpeg" alt="yiqin" width="310px" >
-</div>
+</div> 
+ <p align="left"> <img src="https://komarev.com/ghpvc/?username=yiqin0209&label=Profile%20views&color=0e75b6&style=flat" alt="yiqin0209" /> </p>
+ <br>
+ 
 ### Hi there 👋 I am Ang Yi Qin!
 
 I'm a data engineering enthusiast navigating the data streams at **Universiti Teknologi Malaysia (UTM)**. 🚀
@@ -12,13 +15,17 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 - 🤝 Email: angqin@graduate.utm.my
 - 🌱 Portfolio: https://eportfolio.utm.my/user/ang-yi-qin
 
+<br>
+
 ## 👨‍💻 Project
 
 ### 🏫 [Intellect Playschool Website](https://intellectplayschooljb.000webhostapp.com/IntellectPlayschool2/)
 
 -  The Intellect Playschool Website is designed to ease parents, teachers, and admin to manage their tasks and announcements. It is created and designed using HTML, CSS, Java, and MySQL.
 
-### 🏫 [Scoliosis Mobile Application](https://www.youtube.com/watch?v=a3k0dmp5k98)
+<br>
+
+### 🏫 [Scoliosis Mobile Application](https://www.youtube.com/watch?v=a3k0dmp5k98) 
 
 -  Scoliosis, a lateral curvature of the spine, affects millions of individuals worldwide. Early detection, monitoring, and proactive management are crucial in ensuring optimal spinal health. The Scoliosis Mobile Application is a groundbreaking solution designed to address these needs, providing users with a powerful tool to manage their scoliosis condition effectively.
 
