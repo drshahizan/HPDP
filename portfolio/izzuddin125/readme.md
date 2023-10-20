@@ -8,7 +8,7 @@
 <a href="https://github.com/izzuddin125" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://instagram.com/izzddnshb_" target="_blank">
+<a href="https://www.instagram.com/ikmal_ikkha/" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/muhammad-izzuddin-shabrin/" target="_blank">
