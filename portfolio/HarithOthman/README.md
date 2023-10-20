@@ -2,8 +2,11 @@
 <!--![banner](https://github.com/aly4blqss/aly4blqss/assets/121602362/642bf7e9-b9ee-4b54-afc4-05d1aaf94166)
 ![CHISATO](https://github.com/harithothman/harithothman/assets/118237681/3262d033-7d7c-49f4-8e63-0066c9c24ec8)-->
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=21ffe1&size=24&center=true&vCenter=true&width=1000&lines=Welcome+To+HARITH's+Page!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=21ffe1&size=24&center=true&vCenter=true&width=1000&lines=Welcome+To+HARITH's+Portfolio!)](https://git.io/typing-svg)
 
+<div align="center">
+  <img src="HARITH HAKIM.jpg" alt="Your Name" width="500" height="500">
+</div>
 
 <h1 align="center">Hi 👋, I'm MUHAMMAD HARITH HAKIM BIN OTHMAN</h1>
 <h3 align="center">I am a DATA ENGINEERING STUDENT from UNIVERISITI TEKNOLOGI MALAYSIA</h3>
