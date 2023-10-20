@@ -7,6 +7,7 @@
 <h1 align="center">Hi 👋, I'm Hafizulshah bin Sharom</h1>
 <h3 align="center">Bachelor Of Computer Science (Data Engineering) With Honours</h3>
 <h3 align="center">Welcome to my GitHub profile. This is where I will be uploading and sharing my previous projects and experiences</h3>
+<h3 align="center">I am very passionate in programming and is eager to learn new things every single day. Not only the software, I am also passionate about the hardware</h3>
 <br>
 
 ## Me Currently
@@ -42,3 +43,17 @@
 - **Description:** I have created some mods for a video game named Terraria that works on TModLoader on Steam (Terraria ver 1.4). Currently, the only working mod is the SoulSword mod (Sword : Working | Armor Sets : In Progress)
 - **Language:** C#
 - **[Link](https://github.com/Hafizulshah/Terraria-Mod)**
+
+<br>
+
+## Honorable mentions (Experience)
+### I have experiences with fixing electronics. Some of the major ones are
+- Replacing laptop monitors
+- Installing and replacing RAM and SSD for both laptops and desktops
+- Replacing keyboards for laptops
+- Replacing CMOS battery for desktops
+- Replacing power and volume buttons for smartphones
+
+<br>
+
+Feel free to contact me via email included above 👍👋
