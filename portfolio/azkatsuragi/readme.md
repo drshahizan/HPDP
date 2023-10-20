@@ -41,17 +41,6 @@
   </tr>
 </table>
 
-# Programming
-### Languange
-<table style="width:100%">
-  <tr>
-    <th>Front End</th>
-    <td>Back End</td>
-  </tr>
-  <tr>
-    <th><p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,css,html,php,py" /></a></p></th>
-    <td><p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,css,html,php,py" /></a></p></td>
-  </tr>
-</table>
-
+# Technology Stack
+<p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=css,html,py,cpp,php" /></a>
 
