@@ -11,8 +11,7 @@
 
 ## About Me
 
-I am a dedicated and driven student currently pursuing a degree in data engineering at Universiti Teknologi Malaysia. My journey in the field of data engineering has not only equipped me with the technical skills and knowledge but has also ignited a deep passion for programming. As a student, I have found great joy in the art of coding, and I am continually exploring new programming languages, 
-techniques, and technologies. This enthusiasm stems from the realization that as a data engineer, I have the power to shape and transform the world by harnessing the potential of data
+  I am a dedicated and ambitious student currently pursuing a Bachelor's degree in Data Engineering at Universiti Teknologi Malaysia. My educational journey within the realm of data engineering has not only furnished me with robust technical expertise and knowledge but has also ignited a profound enthusiasm for software development. As a diligent scholar, I derive immense satisfaction from the craft of coding, and I persistently delve into emerging programming languages, methodologies, and cutting-edge technologies. This passion emanates from the profound realization that, as a data engineer, I possess the capacity to shape and revolutionize the world by harnessing the full potential of data. My journey in the field of data engineering aligns with my unwavering commitment to achieving excellence and making a meaningful impact in this ever-evolving domain.
 
 ## 🛠️ Languages and Tools
 
