@@ -1,6 +1,9 @@
 # 🧑‍🔬Mikhail Bin Yassin
 
+<-Quote Section->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=227190&background=5FFF7600&multiline=true&random=false&width=500&height=100&lines=love+is+like+data...;messy+at+times%2C;+but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
 
+<-Introduction Section->
 **`Future Data Engineer (Bachelor of Computer Science(Data Engineering))`**
 
 Hi there! I'm Mikhail Bin Yassin, from Sabah, Malaysia. 
@@ -18,9 +21,3 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&color=227190&background=5FFF7600&multiline=true&random=false&width=500&height=100&lines=love+is+like+data...;messy+at+times%2C;+but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
-
-
-
-
----
