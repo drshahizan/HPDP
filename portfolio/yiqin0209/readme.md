@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="WhatsApp Image 2021-10-17 at 10.56.17.jpeg" alt="yiqin" width="310px" >
+  <img src="image.jpeg" alt="yiqin" width="310px" >
 </div> 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=yiqin0209&label=Profile%20views&color=0e75b6&style=flat" alt="yiqin0209" /> </p>
  <br>
