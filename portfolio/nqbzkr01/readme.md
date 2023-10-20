@@ -29,6 +29,13 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 - **Tech Stack:** PHP, HTML, Bootstrap, JavaScript, MySQL
 - <a href="https://seedintellect.com/index.php">Intellect Playschool</a>
 
+
+### Project 2: Car Booking System
+- **Description:** Using PHP, it is a car booking system, also known as a car rental system, is a software application or platform designed to facilitate the process of renting and reserving vehicles, typically cars, for a specified period.
+- **Tech Stack:** PHP, HTML, Bootstrap, JavaScript, MySQL
+- <a href="https://domanial-relationsh.000webhostapp.com/index.php">Car Booking System</a>
+
+
 ## 💻 Languages and Tools
 **Languages**
 - Python
