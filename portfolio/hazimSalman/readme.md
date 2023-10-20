@@ -52,33 +52,14 @@ Embrace the beauty of simplicity and elegance in design, just like a 🌹 in ful
 
 ## Education
 
-### University Name
+### Universiti Teknologi Malaysia
 
-- 🎓 **Degree:** Your degree
-- 📅 **Date:** Graduation date
-
-### Another University
-
-- 🎓 **Degree:** Another degree
-- 📅 **Date:** Graduation date
-
-## Experience
-
-### Job Title
-
-- 🏢 **Company:** Company name
-- 📅 **Date:** Employment dates
-- 📋 **Description:** Describe your responsibilities and achievements.
-
-### Another Job Title
-
-- 🏢 **Company:** Another company
-- 📅 **Date:** Employment dates
-- 📋 **Description:** Describe your responsibilities and achievements.
+- 🎓 **Degree:** Data Engineering
+- 🖥️ **Faculty:** Faculty of Computing
 
 ## Contact
 
-- ✉️ **Email:** your@email.com
+- ✉️ **Email:** hazimsalman123@gmail.com
 - 🔗 **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
 - 🐱 **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
 - 🌐 **Website:** [Your Portfolio Website](https://www.yourportfolio.com)
