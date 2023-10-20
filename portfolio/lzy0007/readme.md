@@ -1,3 +1,5 @@
+[<img src="loo_selfintro.gif" alt="Hi There, I am LOO ZHI YUAN" title="Hi There, I am LOO ZHI YUAN"/>](https://lzy0007.github.io)
+
 <p align="center"><img align="center" alt="Coding" width="200" src="profilepic_loo.png">
 <h1 align="center">Hi there, I am Loo Zhi Yuan 👋</h1>
 
@@ -23,6 +25,35 @@
 	- Be someone meaningful!
 
 <br> <br>
+
+## 🏫 Education Background
+### Universiti Teknologi Malaysia (UTM)
+#### Bachelor of Computer Science (Data Engineering)
+- Oktober 2021 - Now
+- CGPA: 3.94
+
+### Universiti Teknologi Malaysia (UTM)
+#### Foundation in Physical Science
+- July 2020 - July 2021
+- CGPA: 4.00
+
+### SMK Kulim, Kedah
+- Jan 2015 - Nov 2019
+- SPM: 6A's
+
+## 📁 Project
+1. [Intellect Qalil IQ Playschool Website] (https://intellectplayschoolsystem.000webhostapp.com/)
+
+   This is a project that I had involve as a group to develop a management system for the Intellect Qalil IQ Playschool kindergarten which located at Mutiara Rini, Skudai, Johor. Our main objective is to replace the old and outdated kindergaten system in more efficient way. In this project, I have perform my knowledge in HTML, CSS, Javascript, PHP, MySQL and more.
+
+2. [Car Booking Website](https://loocbs.000webhostapp.com/)
+   
+    I have develop a system that working as a online car booking system. In this system, I have make the traditional car booking system into a more easier and efficient system. In this project, I have perform my knowledge in HTML, CSS, Javascript, PHP, MySQL and more. 
+
+## 🎖️Achievements and Skills
+- [AWS Academy Cloud Foundations](https://www.credly.com/badges/e2e9351a-8229-40f1-b58a-b7c7e332c884/public_url)
+- [Microsoft Certified: Azure Data Fundamentals](https://www.credly.com/badges/6edd095b-0cea-477e-b49d-a8ee45072637/public_url)
+
 
 ## ⚡Languages and Tools:
 
