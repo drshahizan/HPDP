@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center"> Aliya Zarena Zainulanuar</h1>
-I'm a third-year student of data engineering, where my motivation quote is "Turning Data into Wisdom: Where Analysis Meets Innovation." This quote reflects my passion for working with data and turning it into valuable insights through analysis and innovative solutions. I'm dedicated to harnessing the power of data to drive informed decisions and create positive impacts.
+<p align ="center">I'm a third-year student of data engineering, where my motivation quote is "Turning Data into Wisdom: Where Analysis Meets Innovation." This quote reflects my passion for working with data and turning it into valuable insights through analysis and innovative solutions. I'm dedicated to harnessing the power of data to drive informed decisions and create positive impacts.</p>
 
 
 ##👋 About me
