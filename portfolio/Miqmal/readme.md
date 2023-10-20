@@ -1,4 +1,6 @@
-![It's Me!](drshahizan/HPDP/portfolio/Miqmal/iqmal.jpg)
+<p align="center">
+  <img src="portfolio/Miqmal/iqmal.jpg" alt="iqmal" width="200">
+</p>
 
 
 ## About Me 👨‍💻
