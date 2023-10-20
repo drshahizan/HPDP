@@ -38,6 +38,12 @@
 - A project that self implementation the common [machine learning algorithm](https://github.com/ngzxing/ml_implement) *from scratch for better understanding by python* 
 - A [web management application](https://github.com/ngzxing/IntellectKindergarten_Managamenet_System) that help the Intellect Kindergarten to manage their dialy routine by using pure **php, css, bootstrap, html, JavaScript and mysql** 
 
+## 🎖️Achievements and Skills
+
+- [Tensorflow Advanced Technique](https://coursera.org/share/6508e9be84a55367e3626bffafe8ecfd)
+- [DeepLearning.AI TensorFlow Developer](https://www.coursera.org/account/accomplishments/professional-cert/CLG5JYF24E65?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof)
+- [Deep Learning](https://coursera.org/share/3f84fca10ff1319a6b3af3be087460a7)
+
 ## 📫 How to reach me 
 **ngxing@graduate.utm.my**
 
