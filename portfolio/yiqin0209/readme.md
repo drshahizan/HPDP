@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="" alt="yvonne" width="310px" >
+  <img src="WhatsApp Image 2021-10-17 at 10.56.17.jpeg" alt="yiqin" width="310px" >
 </div>
 ### Hi there 👋 I am Ang Yi Qin!
 
