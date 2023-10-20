@@ -28,9 +28,12 @@ Welcome to my projects portfolio. Here, you can find a list of the projects I've
 
  ### Project 1: **[Intellect Playschool Management System]*
 
-- **Description**: There will be four types of users in this management system, three of whom are active users (Administrator, Parent, and Staff), and one of whom is a Public User. This system has 8 features including registration, payment, announcement, staff salary, student attendance, staff attendance, account and manage activity modules.
+- **Description**: Develop a system where it consists 8 features including registration, payment, announcement, staff salary, student attendance, staff attendance, account and manage activity modules.
+  
 - **Skills/Technologies Used**: MySQL, FileZilla Client, HTML Language
+  
 - **Website**: [https://tsintellect.com/](https://tsintellect.com/)
+  
 - **User Manual Documentation**: [User Manual](https://docs.google.com/document/d/1oGkXA4DNBD1JjGRjqmqG3kjhgIao8iBsLioF0qyzG6g/edit?usp=sharing)
 
 ## Connect with me 🔗
