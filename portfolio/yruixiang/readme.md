@@ -1,4 +1,4 @@
-<img src="RuiXiang.jpg" alt="RuiXiang" width="310px" >
+<img src="RuiXiang.jpeg" alt="RuiXiang" width="310px" >
 ### Hi there 👋 I am Yew Rui Xiang 👋
 
 🔭 I am presently a student at the <b> University Teknologi Malaysia </b>, where I am dedicated to pursuing a Bachelor's degree in Data Engineering. My fervor for learning and conducting research is a prominent aspect of my academic journey. 
@@ -54,6 +54,7 @@
 	<a href="https://www.java.com/en/" target="_blank" rel="noreferrer"> <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem-640x400.jpg" alt="java" width="40" height="40"/> </a>
 </span>
 
+<br><br>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yruixiang&" alt="yruixiang" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yruixiang&show_icons=true&locale=en" alt="yruixiang" /></p>
