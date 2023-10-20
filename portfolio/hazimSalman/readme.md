@@ -1,5 +1,4 @@
 # Your Name
-![profpic](goodpic2.jpg)
 MUHAMMAD HAZIM BIN SALMAN
 
 ## About Me
