@@ -13,16 +13,15 @@ Feel free to customize this list by adding or removing languages as needed. You 
 
 ## Projects
 
-### Project 1: Project Name
+### Project 1: Car booking System
 
-![Project Image](project-image.jpg) 
+![Project Image](carpack.png) 
 
-- **Description:** Briefly describe your project.
+- **Description:** A car booking system is a software solution that enables customers to easily reserve and rent vehicles for a specified period. It provides a user-friendly interface for browsing available cars, checking their availability, and making bookings. Users can typically create accounts, input personal and payment details, and receive pricing information. These systems are commonly used by car rental agencies and car-sharing services, streamlining the process of vehicle rental for both providers and customers.
 - **Technologies Used:** 
-  - ⚙️ Programming Language: Python
-  - 🌐 Web Framework: Flask
-  - 🛢️ Database: PostgreSQL
-- **Links:** Provide links to the project, such as GitHub repository or live demo.
+  - ⚙️ Programming Language: html, css, Javascript, MySql and PHP 
+  - 🌐 Web Framework: Xampp
+  - 🛢️ Database: Mariadb
 
 ### Project 2: Project Name
 
@@ -35,8 +34,6 @@ Feel free to customize this list by adding or removing languages as needed. You 
   - 🌐 Backend: Node.js
 - **Links:** Provide links to the project, such as GitHub repository or live demo.
 
-<!-- Repeat the above structure for each project -->
-
 ## Skills
 
 List your technical and soft skills here:
@@ -44,12 +41,7 @@ List your technical and soft skills here:
 - 💻 Programming
 - 🌐 Web Development
 - 📊 Data Analysis
-- ...
-
-## Beauty ✨
-
-Embrace the beauty of simplicity and elegance in design, just like a 🌹 in full bloom.
-
+  
 ## Education
 
 ### Universiti Teknologi Malaysia
@@ -69,8 +61,3 @@ Embrace the beauty of simplicity and elegance in design, just like a 🌹 in ful
 - 📜 Certification 1
 - 📜 Certification 2
 - 📜 Certification 3
-- ...
-
-## Interests
-
-- Hobbies or interests outside of work
