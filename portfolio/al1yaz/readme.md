@@ -11,17 +11,13 @@
 ## About me 👋 
 <p>:star: I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
 <p>:star: Feel free to reach out to me at **aliya.zainul@gmail.com** to discuss any opportunities, collaborations, or simply to connect!</p>
-<p>:star: Explore my professional experiences <a(https://drive.google.com/file/d/1MnrDZKqPV__4iiYM-kVpurnPkkv57lnz/view?usp=sharing)>here</a></p>
+<p>:star: Explore my professional experiences <a href="[https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing](https://drive.google.com/file/d/1MnrDZKqPV__4iiYM-kVpurnPkkv57lnz/view?usp=sharing)">here</a></p>
 
-
-## Interests and Goals
-- **Data Engineering**: I have a strong interest in data engineering, and I'm constantly improving my skills in data acquisition, transformation, and storage to build efficient data pipelines.
-
-- **Data Analysis**: I enjoy diving into data, uncovering patterns, and extracting meaningful insights that can drive informed decision-making.
-
-- **Innovation**: I'm passionate about finding creative and innovative solutions to real-world problems by leveraging data and technology.
-
-Let's turn data into wisdom together!
+## Software Skills ✨
+- **Cloud Services**: AWS
+- **Database**: MySQL, Oracle, SQL
+- **Data Analysis/Mining**: KNIME, POWER BI, R Programming, Tableau
+- **Programming Language**: C++, Python, JavaScript, HTML, Bootstrap, CSS3
 
 ## My Projects 📁
 Welcome to my projects portfolio. Here, you can find a list of the projects I've worked on, along with brief descriptions and links to their respective repositories or more detailed documentation.
