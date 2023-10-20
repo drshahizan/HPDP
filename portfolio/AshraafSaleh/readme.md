@@ -76,9 +76,9 @@ List your technical and soft skills here:
 
 ## Contact
 
-- ✉️ **Email:** hazimsalman123@gmail.com
-- 🔗 **LinkedIn:** [hazimsalman](https://www.linkedin.com/in/hazimsalman)
-- 🐱 **GitHub:** [hazimSalman](https://github.com/hazimSalman)
+- ✉️ **Email:** mashraafsaleh@gmail.com
+- 🔗 **LinkedIn:** [MuhammadAshraaf](https://www.linkedin.com/in/muhammadashraafsaleh)
+- 🐱 **GitHub:** [MuhammadAshraaf](https://github.com/AshraafSaleh)
 
 ## Certifications
 
