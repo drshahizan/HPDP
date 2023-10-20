@@ -1,8 +1,9 @@
 
 <div align="center">
 
-<img src="gif1.gif" width="200" alt="gif1.gif">
+![gif](gif1.gif)
 
+![gif](haziq.jpg)
 # Welcome to My Portfolio
 MUHAMMAD HAZIM BIN SALMAN
 
