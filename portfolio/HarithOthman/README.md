@@ -5,8 +5,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=21ffe1&size=24&center=true&vCenter=true&width=1000&lines=Welcome+To+HARITH's+Page!)](https://git.io/typing-svg)
 
 
-![HARITH HAKIM](https://github.com/drshahizan/HPDP/assets/118237681/f9227728-0b92-4e24-956a-9ff8642fcb02)
-
 <h1 align="center">Hi 👋, I'm MUHAMMAD HARITH HAKIM BIN OTHMAN</h1>
 <h3 align="center">I am a DATA ENGINEERING STUDENT from UNIVERISITI TEKNOLOGI MALAYSIA</h3>
 
