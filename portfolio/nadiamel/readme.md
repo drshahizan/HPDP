@@ -40,7 +40,8 @@ As a student in the 21st century, I understand the value of always upgrading my 
 ![Tableau](https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau)
 
 # Certificate and Awards :trophy:
-<img src="https://github.com/drshahizan/HPDP/assets/87573002/e896c556-c668-45a6-993b-ad3004a78b09" width="150" height="150">
+<p style="display: inline-block; vertical-align: middle;">• AWS Academy Graduate - AWS Academy Cloud Foundations</p>
+<img src="https://github.com/drshahizan/HPDP/assets/87573002/f469208f-c3ec-425a-8730-657241f8fb92" width="150" height="150" style="display: inline-block;">
 
 
 
