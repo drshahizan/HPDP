@@ -79,6 +79,14 @@ List your technical and soft skills here:
 - 🎓 **Degree:** Data Engineering
 - 🖥️ **Faculty:** Faculty of Computing
 </div>
+<div>
+<img src="utm.jpg" width="400" alt="Yan.jpg">
+
+### SMKA YAN 
+
+- 🎓 **Course:** Science Islamic
+- 🖥️ **Results:** 9A
+</div>
 
 ## Contact
 
