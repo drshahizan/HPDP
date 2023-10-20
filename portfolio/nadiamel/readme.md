@@ -43,7 +43,7 @@ As a student in the 21st century, I understand the value of always upgrading my 
 <p style="display: inline-block; vertical-align: middle;">• AWS Academy Graduate - AWS Academy Cloud Foundations</p>
 <img src="https://github.com/drshahizan/HPDP/assets/87573002/f469208f-c3ec-425a-8730-657241f8fb92" width="150" height="150" style="display: inline-block;">
 
-
+# Highlight Projects 🗂️
 
 
 
