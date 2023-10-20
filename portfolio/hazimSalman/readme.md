@@ -73,13 +73,13 @@ techniques, and technologies. This enthusiasm stems from the realization that as
   
 ## Skills
 
-</div>
+
 
 List your technical and soft skills here:
 
-- 💻 Programming
-- 🌐 Web Development
-- 📊 Data Analysis
+💻 Programming 🌐 Web Development 📊 Data Analysis
+  
+</div>
 
 <div align="center">
   
