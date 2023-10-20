@@ -68,6 +68,11 @@
 - **Language:** C#
 - **[Link](https://github.com/Hafizulshah/Terraria-Mod)**
 
+### Snakes game using C++ console
+- **Description:** Traditional snake game made using C++ console with an extra options to customize the snake's and fruit's skin
+- **Language:** C++
+- **[Link](https://github.com/Hafizulshah/Snakes_CPP)**
+- 
 <br>
 
 ## Honorable mentions (Experience) 📡
