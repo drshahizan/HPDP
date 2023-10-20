@@ -18,12 +18,13 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/mikhaiIy?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
       <a href="https://github.com/mikhaiIy">
          <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=mikhaiiy&label=Profile%20views&color=0e75b6&style=flat" alt="mikhaiiy"/></a>
-  
    </p>
- 
    
 ---
+### 🧰 Languages and Tools
 
-
+<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 
 ---
