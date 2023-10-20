@@ -72,7 +72,8 @@ List your technical and soft skills here:
   
 ## Education
 <div>
-<img src="utm.jpg" width="200" alt="utm.jpg">
+<img src="utm.jpg" width="400" alt="utm.jpg">
+
 ### Universiti Teknologi Malaysia
 
 - 🎓 **Degree:** Data Engineering
