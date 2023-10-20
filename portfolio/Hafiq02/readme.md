@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="kacak.jpg" alt="Saya" width="350px" height="350px">
+  <img src="Kacak.jpg" alt="Saya" width="350px" height="350px">
 </div>
 
 <h3 align="center">
