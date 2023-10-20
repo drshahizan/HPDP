@@ -26,7 +26,7 @@ Let's turn data into wisdom together!
 ## My Projects 📁
 Welcome to my projects portfolio. Here, you can find a list of the projects I've worked on, along with brief descriptions and links to their respective repositories or more detailed documentation.
 
- ### Project 1: **[Intellect Playschool Management System]*
+ ### Project 1: *[Intellect Playschool Management System]*
 
 - **Description**: Develop a system where it consists 8 features including registration, payment, announcement, staff salary, student attendance, staff attendance, account and manage activity modules.
   
