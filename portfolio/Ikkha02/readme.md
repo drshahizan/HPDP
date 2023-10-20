@@ -2,7 +2,7 @@
 Introduction about Myself
 
 <div id="header" align="center">
-<a href="./portfolio/your_folder"><img src="./images/portfolio.png" width="24px" height="24px"></a>
+<a href="./portfolio/yIkkha02"><img src="./ikmal.jpg" width="24px" height="24px"></a>
 </div>
 
 <div id="badges" align="center">
