@@ -34,7 +34,7 @@
 
 ### Project 1: [Car Booking System](https://hazimutm.000webhostapp.com/cbs/)
 
-![Project Image](carpack.png) 
+![Project Image](carbook.png) 
 
 
 - **Description:** A car booking system is a software solution that enables customers to easily reserve and rent vehicles for a specified period. It provides a user-friendly interface for browsing available cars, checking their availability, and making bookings. Users can typically create accounts, input personal and payment details, and receive pricing information. These systems are commonly used by car rental agencies and car-sharing services, streamlining the process of vehicle rental for both providers and customers.
