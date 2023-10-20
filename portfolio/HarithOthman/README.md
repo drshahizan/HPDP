@@ -31,14 +31,6 @@
 - [AWS Academy Graduate - AWS Cloud Foundations](https://www.credly.com/earner/earned/badge/e24f1980-eba7-4705-ab31-7a8e3abdc39f)
 - [Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/earner/earned/badge/2d87511d-ecb4-4965-b5a6-3b123c2580be)
 
-## <div align="center">Video Resume</div>
-
-<div align="center">
-  <img src="fikri.jpg" alt="Your Name" width="500" height="500">
-  <h1>MUHAMMAD HARITH HAKIM BIN OTHMAN VID-RESUME</h1>
-</div>
-
-
 
 <br><br><br><br>
 - 📫 How to reach me **harithothman97@gmail.com**
