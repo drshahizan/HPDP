@@ -1,4 +1,4 @@
-![It's Me!](path/to/your/iqmal.jpg)
+![It's Me!](HPDP/portfolio/Miqmal/iqmal.jpg)
 
 
 ## About Me 👨‍💻
