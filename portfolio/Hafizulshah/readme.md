@@ -14,6 +14,8 @@
 
 - 🎓 Learning **Data Engineering at UTM Skudai**
 
+- 💡 Current CGPA : **3.64**
+
 - 📫 How to reach me **hafizulshah@graduate.utm.my**
 
 <br>
@@ -35,3 +37,8 @@
 - **Description:** A web-based car booking system made for a course project during my 3rd semester in UTM
 - **Language:** HTML, PHP, JavaScript, CSS, MySQL
 - **[Link](https://carrentalcbs.000webhostapp.com/index.php)**
+
+### Terraria Mods
+- **Description:** I have created some mods for a video game named Terraria that works on TModLoader on Steam (Terraria ver 1.4). Currently, the only working mod is the SoulSword mod (Sword : Working | Armor Sets : In Progress)
+- **Language:** C#
+- **[Link](https://github.com/Hafizulshah/Terraria-Mod)**
