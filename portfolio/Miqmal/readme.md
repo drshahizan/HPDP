@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/drshahizan/HPDP/main/assets/104277576/2c25b614-8cb1-4e1d-b2fd-3552b55dd825" alt="iqmal" width="200">
-</p>
+![It's Me!](path/to/your/iqmal.jpg)
 
 
 ## About Me 👨‍💻
