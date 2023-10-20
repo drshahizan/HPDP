@@ -70,8 +70,4 @@ List your technical and soft skills here:
 
 ## Certifications
 
-- 📜 <img src="cloudbadge.png" width="200" alt="Image Alt Text">
-
-
-- 📜 Certification 2
-- 📜 Certification 3
+ <img src="cloudbadge.png" width="80" alt="Image Alt Text">
