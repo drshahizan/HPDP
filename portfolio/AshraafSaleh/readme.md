@@ -3,7 +3,7 @@
   <h1>Welcome to My Portfolio</h1>
 </div>
 
-<div>
+<div align="center">
   <p style="font-family: Arial, Helvetica, sans-serif;">MUHAMMAD ASHRAAF BIN SALEH</p>
 </div>
 
