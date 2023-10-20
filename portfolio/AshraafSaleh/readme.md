@@ -80,7 +80,7 @@ List your technical and soft skills here:
 - 🖥️ **Faculty:** Faculty of Computing
 </div>
 <div>
-<img src="utm.jpg" width="400" alt="Yan.jpg">
+<img src="Yan.jpg" width="400" alt="Yan.jpg">
 
 ### SMKA YAN 
 
