@@ -1,7 +1,8 @@
 
 <div align="center">
 
-  
+<img src="gif1.gif" width="200" alt="gif1.gif">
+
 # Welcome to My Portfolio
 MUHAMMAD HAZIM BIN SALMAN
 
@@ -63,12 +64,13 @@ List your technical and soft skills here:
 - 📊 Data Analysis
   
 ## Education
-<div>
+<div align="center">
 <img src="utm.jpg" width="200" alt="utm.jpg">
+  
 ### Universiti Teknologi Malaysia
 
-- 🎓 **Degree:** Data Engineering
-- 🖥️ **Faculty:** Faculty of Computing
+🎓**Degree:** Data Engineering
+🖥️ **Faculty:** Faculty of Computing
 </div>
 
 ## Contact
@@ -79,4 +81,4 @@ List your technical and soft skills here:
 
 ## Certifications
 
- <img src="cloudbadge.png" width="80" alt="Image Alt Text">
+ [<img src="cloudbadge.png" width="80" alt="Image Alt Text">](https://www.credly.com/badges/0560cafe-08a5-4d6a-a41a-64a2e85e03ff)
