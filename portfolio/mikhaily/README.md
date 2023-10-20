@@ -16,8 +16,10 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
       <a href="https://github.com/mikhaiIy/Simple-View-Counter">
          <img alt="views" title="GitHub profile views" src="https://freshidea.com/jonah/app/DenverCoder1-profile-views"/></a>
    </p>
-
+   
 ---
 
 <!-- Quotes section -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=3000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=75&lines=life+is+like+data...;messy+at+times%2C;but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
+
+---
