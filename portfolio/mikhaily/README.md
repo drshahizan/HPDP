@@ -1,9 +1,7 @@
 # 🧑‍🔬Mikhail Bin Yassin
 
 <!-- Quotes section -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=70&lines=life+is+like+data...)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=70&lines=messy+at+times%2C)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=70&lines=but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=70&lines=life+is+like+data...)](https://git.io/typing-svg)[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=70&lines=messy+at+times%2C)](https://git.io/typing-svg)[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=4000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=70&lines=but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
 <!-- Introduction section -->
 **`Future Data Engineer (Bachelor of Computer Science(Data Engineering))`**
 
