@@ -1,4 +1,4 @@
-![github banner](https://github.com/drshahizan/HPDP/assets/121602362/326c6767-6a1e-478f-aff8-bdeebe8a3132)
+![github banner](https://github.com/drshahizan/HPDP/assets/121602362/6dac87a4-850b-4544-8f9a-696206ed9a95)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=21ffe1&size=24&center=true&vCenter=true&width=1000&lines=Welcome+To+Alya's+Page!)](https://git.io/typing-svg)
 
