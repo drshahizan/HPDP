@@ -64,7 +64,7 @@ I am currently focused on enhancing my skills in:
 <p align="center">
   <strong>Universiti Teknologi Malaysia</strong> <em>(2021-2025)</em><br>
   <em>Location:</em> Skudai, Johor<br>
-  <em>Major:</em> Bachelor of Science in Computer (Data Engineering)<br>
+  <em>Major:</em> Bachelor of Computer Science (Data Engineering)<br>
   <em>Positions:</em><br>
   - Head of Entrepreneurship and Sponsorship at PERSAKA (Persatuan Mahasiswa Sains Komputer)<br>
   - Multimedia Unit of HEWI, Persatuan Mahasiswa Islam (PMIUTM)
