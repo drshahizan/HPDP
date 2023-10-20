@@ -56,4 +56,4 @@
 
 <br>
 
-Feel free to contact me via email included above 👍👋
+### **Feel free to contact me via Email or LinkedIn included above 👍👋**
