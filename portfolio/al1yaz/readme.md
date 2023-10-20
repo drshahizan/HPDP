@@ -1,18 +1,18 @@
-<h1 align="center"> Aliya Zarena Zainulanuar</h1>
-
 <p align="center">
 <div align="center">
   <img src="formalpic.png" alt="aliyazarena" width="350px" height="350px">
 </div>
 </p>
 
-<h2 align="center">👋 Hi, I'm Aliya Zainul</h2>
+<h1 align="center"> Aliya Zarena Zainulanuar</h1>
 
-<p align="center">🌱 I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
+<h2>👋 Aboutn me:</h2>
 
-<p align="center">📫 Reach out to me at <a href="mailto:aliya.zainul@gmail.com">aliya.zainul@gmail.com</a></p>
+<p>🌱 I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
 
-<p align="center">📄 Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
+<p>📫 Reach out to me at <a href="mailto:aliya.zainul@gmail.com">aliya.zainul@gmail.com</a></p>
+
+<p >📄 Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
 
 <h3 align="center">Connect with me:</h3>
 
