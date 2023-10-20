@@ -1,5 +1,11 @@
+
+<div align="center">
+  
 # Your Name
 MUHAMMAD HAZIM BIN SALMAN
+
+</div>
+
 
 ## About Me
 
