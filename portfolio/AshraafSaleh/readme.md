@@ -7,7 +7,7 @@
 
 
 <div align="center">
-  <p style="font-family: Arial, Helvetica, sans-serif;">MUHAMMAD ASHRAAF BIN SALEH</p>
+  <h3 style="font-family: Arial, Helvetica, sans-serif;">MUHAMMAD ASHRAAF BIN SALEH</h3>
 </div>
 
 
