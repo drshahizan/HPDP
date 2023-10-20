@@ -72,7 +72,12 @@
 - **Description:** Traditional snake game made using C++ console with an extra options to customize the snake's and fruit's skin
 - **Language:** C++
 - **[Link](https://github.com/Hafizulshah/Snakes_CPP)**
-  
+
+### Vending Machine System
+- **Description:** A group project of vending machine system using assembly language
+- **Language:** Assembly
+- **[Link](https://github.com/Hafizulshah/Vending_Machine)**
+
 <br>
 
 ## Honorable mentions (Experience) 📡
