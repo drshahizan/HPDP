@@ -1,12 +1,8 @@
 
-<div align="center">
-
-  
+<div align="center"> 
 # Welcome to My Portfolio
-MUHAMMAD HAZIM BIN SALMAN
-
+MUHAMMAD ASHRAAF BIN SALEH
 </div>
-
 
 ## About Me
 
