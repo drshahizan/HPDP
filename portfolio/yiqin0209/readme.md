@@ -10,6 +10,17 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 - 🌱 Third-year student in Bachelor of Computer Science **(Data Engineering)**, UTM.
 - 📫 How to reach me: https://www.linkedin.com/in/ang-yi-qin-696396225/
 - 🤝 Email: angqin@graduate.utm.my
+- 🌱 Portfolio: https://eportfolio.utm.my/user/ang-yi-qin
+
+## 👨‍💻 Project
+
+### 🏫 [Intellect Playschool Website](https://intellectplayschooljb.000webhostapp.com/IntellectPlayschool2/)
+
+-  The Intellect Playschool Website is designed to ease parents, teachers, and admin to manage their tasks and announcements. It is created and designed using HTML, CSS, Java, and MySQL.
+
+### 🏫 [Scoliosis Mobile Application](https://www.youtube.com/watch?v=a3k0dmp5k98)
+
+-  Scoliosis, a lateral curvature of the spine, affects millions of individuals worldwide. Early detection, monitoring, and proactive management are crucial in ensuring optimal spinal health. The Scoliosis Mobile Application is a groundbreaking solution designed to address these needs, providing users with a powerful tool to manage their scoliosis condition effectively.
 
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=yiqin0209&label=Profile%20views&color=0e75b6&style=flat" alt="yiqin0209" /> </p>
 <br> </br>
