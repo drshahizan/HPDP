@@ -7,6 +7,9 @@ Hi there! I'm Mikhail Bin Yassin, from Sabah, Malaysia.
 
 Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Universiti Teknologi Malaysia.
 
+<!-- Quotes section -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=3000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=75&lines=life+is+like+data...;messy+at+times%2C;but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
+
 <!-- Social badges section -->
  <p align="left"> 
       <a href="https://github.com/mikhaiIy?tab=followers">
@@ -19,7 +22,6 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
    
 ---
 
-<!-- Quotes section -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=3000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=75&lines=life+is+like+data...;messy+at+times%2C;but+beautiful+when+properly+structured.)](https://git.io/typing-svg)
+
 
 ---
