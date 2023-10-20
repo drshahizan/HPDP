@@ -18,7 +18,7 @@
 
 ---
 
-### 🚀 About Me
+## 🚀 About Me
 
 I am a passionate data engineering student at  with a keen interest in coding and technology. I love exploring new ideas and solving real-world problems through programming.
 
@@ -36,8 +36,6 @@ I am currently focused on enhancing my skills in:
 - **Python**
 - **Oracle Database**
 
----
-
 ### 📚 Education
 
 - **SMK Tun Aminah** *(2018-2019)*  
@@ -54,6 +52,7 @@ I am currently focused on enhancing my skills in:
   *Positions:*
     - Head of Entrepreneurship and Sponsorship at PERSAKA (Persatuan Mahasiswa Sains Komputer)  
     - Multimedia Unit of HEWI, Persatuan Mahasiswa Islam (PMIUTM)  
+
 ---
 <details open> 
   <summary><h2>📘 My Top Open Source Projects</h2></summary>
