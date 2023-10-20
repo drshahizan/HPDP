@@ -9,6 +9,8 @@
 </div>
 
 <h1 align="center">Hi 👋, I'm MUHAMMAD HARITH HAKIM BIN OTHMAN</h1>
+
+## <div align="center">About Me</div>
 <h3 align="center">I am a student from UNIVERSITI TEKNOLOGI MALAYSIA majoring in BACHELOR OF COMPUTER SCIENCE in DATA ENGINEERING. I am a person with a vision and mission who is willing to sacrifice to achieve any success and excellence that will benefit me in the future. I have and have mastered a variety of distinct skill sets. Among them are soft skills and hard skills. I am a friendly, easy-going, team player, persevered, hardworking, and like to work in groups. I hope that everything that I will enjoy in the future can benefit everyone.</h3>
 
 - 📫 How to reach me **harithothman97@gmail.com**
