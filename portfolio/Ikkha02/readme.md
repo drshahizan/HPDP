@@ -41,9 +41,9 @@ My motto in life is "There is nothing impossible without effort". I believe in m
 
 ---
 
-#### :computer: Assignment & Projects
+#### :computer: Projects
 
-##### High Performance Data Processing (HPDP)
+
 
 ---
 
