@@ -15,20 +15,27 @@
 
 - 💡 Current CGPA : **3.64**
 
-- 📫 How to reach me **hafizulshah@graduate.utm.my**
-
-- 💻 Working on [Terraria Mod](https://github.com/Hafizulshah/Terraria-Mod)
+- 💻 Working on [Terraria Mod](https://github.com/Hafizulshah/Terraria-Mod) and mastering Python
 
 <br>
 
 ## Connect  with me 🔗
 <p align="left">
-<a href="https://linkedin.com/in/https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" height="30" width="40" /></a>
+<a href="mailto:hafizulshah@graduate.utm.my">
+  <img align="center" src="https://static.vecteezy.com/system/resources/thumbnails/020/964/377/small_2x/gmail-mail-icon-for-web-design-free-png.png" alt="Gmail" width="50" height="50">
+<a href="https://linkedin.com/in/https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://my.linkedin.com/in/hafizulshah-sharom-5b3b2423b" height="50" width="40" /></a>
 </p>
 
 <br>
 
-## Languages and Tools 🔧
+## Language Mastery
+- Bahasa Melayu
+- English
+
+<br>
+
+## Programming Languages and Development Tools 🔧
 <p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <b> AWS</b>
 <br>
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <b> BootStrap</b>
