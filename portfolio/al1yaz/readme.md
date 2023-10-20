@@ -13,11 +13,13 @@
 :star: Feel free to reach out to me at **aliya.zainul@gmail.com** to discuss any opportunities, collaborations, or simply to connect!
 <p>:star: Explore my professional experiences <a href="[https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing](https://drive.google.com/file/d/1MnrDZKqPV__4iiYM-kVpurnPkkv57lnz/view?usp=sharing)">here</a></p>
 
+
 ## Software Skills ✨
 - **Cloud Services**: AWS
 - **Database**: MySQL, Oracle, SQL
 - **Data Analysis/Mining**: KNIME, POWER BI, R Programming, Tableau
 - **Programming Language**: C++, Python, JavaScript, HTML, Bootstrap, CSS3
+  
 
 ## My Projects 📁
 Welcome to my projects portfolio. Here, you can find a list of the projects I've worked on, along with brief descriptions and links to their respective repositories or more detailed documentation.
