@@ -6,17 +6,18 @@ In addition to my data interests, I have a strong affinity for videography. I've
 
 Beyond academics, I am an active participant in various events and activities, which has helped me develop my social skills and expand my professional network. I am enthusiastic about collaborating with both individuals and companies, as I believe my knowledge can add significant value to your organization.</p>
 
-
+<br>
 
 ## 📊 Projects:
-
+<a href='https://github.com/IzzatHaqeemi/Tableau-Mini-Project/tree/main' styles="color:white;">-[AirBnb Analysis Project]</a><br>
+<a href='https://github.com/IzzatHaqeemi/PowerBi-Tutorials-And-Mini-Projects'>-[Job Satisfaction Survey Analaysis]</a>
 
 <br>
 
 
 ## 🏆Certifications:
-<a href='https://www.credly.com/badges/8c40861a-c2d4-41a7-828a-0b8228e37024' styles="color:white;">-🎖️[Microsoft Certified: Azure AI Fundamentals]</a><br>
-<a href='https://www.credly.com/badges/94ba700a-cbe6-43a4-969e-44dfdbd5a329'>-🎖️[AWS Academy Graduate - AWS Academy Cloud Foundations]</a>
+<a href='https://www.credly.com/badges/8c40861a-c2d4-41a7-828a-0b8228e37024' styles="color:white;">-[Microsoft Certified: Azure AI Fundamentals]</a><br>
+<a href='https://www.credly.com/badges/94ba700a-cbe6-43a4-969e-44dfdbd5a329'>-[AWS Academy Graduate - AWS Academy Cloud Foundations]</a>
 
 <br>
 
