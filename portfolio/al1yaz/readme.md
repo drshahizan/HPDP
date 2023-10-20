@@ -10,7 +10,7 @@
 
 ## About me 👋 
 <p>🌱 I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
-<p>📫Feel free to reach out to me at [aliya.zainul@gmail.com](mailto:aliya.zainul@gmail.com) to discuss any opportunities, collaborations, or simply to connect!</p>
+<p>📫Feel free to reach out to me at **aliya.zainul@gmail.com** to discuss any opportunities, collaborations, or simply to connect!</p>
 <p >📄 Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
 
 
