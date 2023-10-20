@@ -32,7 +32,7 @@
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySql-%23777BB4.svg?style=for-the-badge&logo=MySql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySql-%23777BB4.svg?style=for-the-badge&logo=MySql&logoColor=black)
 
 ## My Projects
 
