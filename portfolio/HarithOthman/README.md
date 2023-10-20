@@ -39,7 +39,7 @@
   
 <br><br>
 
-<div align="center">Contact Me!</div>
+## <div align="center">Contact Me!</div>
 
 - 📫 How to reach me **harithothman97@gmail.com**
 
