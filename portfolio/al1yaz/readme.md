@@ -8,7 +8,7 @@
 <p align ="center">I'm a third-year student of data engineering, where my motivation quote is "Turning Data into Wisdom: Where Analysis Meets Innovation." This quote reflects my passion for working with data and turning it into valuable insights through analysis and innovative solutions. I'm dedicated to harnessing the power of data to drive informed decisions and create positive impacts.</p>
 
 
-##👋 About me
+## About me 👋 
 <p>🌱 I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
 <p>📫Feel free to reach out to me at [aliya.zainul@gmail.com](mailto:aliya.zainul@gmail.com) to discuss any opportunities, collaborations, or simply to connect!</p>
 <p >📄 Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
