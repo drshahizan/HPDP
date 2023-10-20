@@ -29,7 +29,14 @@ I'm a data engineering enthusiast navigating the data streams at **Universiti Te
 
 -  Scoliosis, a lateral curvature of the spine, affects millions of individuals worldwide. Early detection, monitoring, and proactive management are crucial in ensuring optimal spinal health. The Scoliosis Mobile Application is a groundbreaking solution designed to address these needs, providing users with a powerful tool to manage their scoliosis condition effectively.
 
-  <p align="left"> <img src="https://komarev.com/ghpvc/?username=yiqin0209&label=Profile%20views&color=0e75b6&style=flat" alt="yiqin0209" /> </p>
+<br>
+
+## 🎖️Achievements and Skills
+-  [AWS Academy Cloud Foundations](https://www.credly.com/badges/08c52db7-d979-4268-9582-42fd0b701463/print)
+
+<br>
+
+  
 <br> </br>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
