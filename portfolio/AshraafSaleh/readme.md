@@ -85,7 +85,7 @@ List your technical and soft skills here:
 ### SMKA YAN 
 
 - 🎓 **Course:** Science Islamic
-- 🖥️ **Results:** 9A
+- 🗞️ **Results:** 9A
 </div>
 
 ## Contact
