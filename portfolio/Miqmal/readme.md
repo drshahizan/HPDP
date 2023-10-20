@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="portfolio/Miqmal/iqmal.jpg" alt="iqmal" width="200">
+  <img src="iqmal.jpg" alt="iqmal" width="200">
 </p>
 
 
