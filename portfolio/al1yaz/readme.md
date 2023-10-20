@@ -25,7 +25,6 @@ Let's turn data into wisdom together!
 
 
 ## Connect with me 🔗
-
 <p align="center">
   <a href="https://linkedin.com/in/aliya-zarena-239469270" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
   <a href="https://www.youtube.com/c/AliyaZarena" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40" /></a>
