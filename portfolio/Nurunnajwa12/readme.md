@@ -38,20 +38,39 @@ I am currently focused on enhancing my skills in:
 
 ### 📚 Education
 
-- **SMK Tun Aminah** *(2018-2019)*  
-  *Location:* Batu Pahat, Johor  
-  *SPM Results:* 8A  
+<p align="center">
+<img src="https://github.com/drshahizan/HPDP/assets/89633522/8623fb94-f14e-4052-ab3a-8f2838c43d58" alt="SMK Tun Aminah" width="400">
+</p>
 
-- **Kolej Matrikulasi Johor** *(2020-2021)*  
-  *Location:* Tangkak, Johor  
-  *CGPA:* 3.92  
+<p align="center">
+  <strong>SMK Tun Aminah</strong> <em>(2018-2019)</em><br>
+  <em>Location:</em> Batu Pahat, Johor<br>
+  <em>SPM Results:</em> 8A
+</p>
+  
+<p align="center">
+<img src="https://github.com/drshahizan/HPDP/assets/89633522/d2bc8ee9-f5b7-45e8-8151-f5f069388cc0" alt="KMJ Picture" width="400">
+</p>
 
-- **Universiti Teknologi Malaysia** *(2021-2025)*  
-  *Location:* Skudai, Johor  
-  *Major:* Bachelor of Science in Computer (Data Engineering)  
-  *Positions:*
-    - Head of Entrepreneurship and Sponsorship at PERSAKA (Persatuan Mahasiswa Sains Komputer)  
-    - Multimedia Unit of HEWI, Persatuan Mahasiswa Islam (PMIUTM)  
+<p align="center">
+  <strong>Kolej Matrikulasi Johor</strong> <em>(2020-2021)</em><br>
+  <em>Location:</em> Tangkak, Johor<br>
+  <em>CGPA:</em> 3.92
+</p>
+
+<p align="center">
+<img src="https://github.com/drshahizan/HPDP/assets/89633522/8017e2e8-993c-4638-92fc-1754f2bac201" alt="UTM" width="400">
+</p>
+
+<p align="center">
+  <strong>Universiti Teknologi Malaysia</strong> <em>(2021-2025)</em><br>
+  <em>Location:</em> Skudai, Johor<br>
+  <em>Major:</em> Bachelor of Science in Computer (Data Engineering)<br>
+  <em>Positions:</em><br>
+  - Head of Entrepreneurship and Sponsorship at PERSAKA (Persatuan Mahasiswa Sains Komputer)<br>
+  - Multimedia Unit of HEWI, Persatuan Mahasiswa Islam (PMIUTM)
+</p>
+
 
 ---
 <details open> 
@@ -160,6 +179,12 @@ I am currently focused on enhancing my skills in:
 - [Microsoft Certified: Azure Data Fundamentals](https://www.credly.com/badges/d04c878f-6773-432a-a01f-e855a4ab7561/linked_in_profile)
 - [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/985d2f79-221a-41f1-8bc7-97e58709cd6c/linked_in_profile)
 - [AWS Academy Graduate - AWS Academy Cloud Foundations](https://www.credly.com/badges/6830bbcc-2520-4c69-864b-f0d058d3f00a?source=linked_in_profile)
+- [Introduction to Machine Learning Certification by Kaggle](https://www.kaggle.com/learn/certification/nurunnz/intro-to-machine-learning)
+- [Python Certification by Kaggle](https://www.kaggle.com/learn/certification/nurunnz/python)
+- [Introduction to Programming Certification by Kaggle](https://www.kaggle.com/learn/certification/nurunnz/intro-to-programming)
+
+
+
 
 ---
 
