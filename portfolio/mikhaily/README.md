@@ -16,11 +16,10 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
          <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/mikhaiIy?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
       <a href="https://github.com/mikhaiIy?tab=repositories&sort=stargazers">
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/mikhaiIy?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-      <a href="https://github.com/mikhaiIy">
-         <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=mikhaiiy&label=Profile%20views&color=0e75b6&style=flat" alt="mikhaiiy"/></a>
    </p>
-     <p><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mikhailbinyassin@gmail.com' target='_blank' rel='noreferrer'><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a></p>
+   
 ---
+
 <details> 
   <summary><h2>🛠️ Some...things I know</h2></summary>
   <h3>👨‍💻 Programming and Markup Languages</h3>
@@ -120,6 +119,12 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
     <a href="#"><img alt="W3Schools" src="https://img.shields.io/badge/W3Schools-04AA6D?style=for-the-badge&logo=W3Schools&logoColor=white"></a>
   </p>
 </details>
+
+---
+<p>
+ <a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mikhailbinyassin@gmail.com' target='_blank' rel='noreferrer'><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
+  
 
 
 
