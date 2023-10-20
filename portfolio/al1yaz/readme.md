@@ -9,9 +9,9 @@
 
 
 ## About me 👋 
-<p>🌱 I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
-<p>📫Feel free to reach out to me at **aliya.zainul@gmail.com** to discuss any opportunities, collaborations, or simply to connect!</p>
-<p >📄 Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
+<p>:star: I’m currently on a journey of learning <b>Alteryx Designer</b> and the <b>Python</b> language.</p>
+<p>:star: Feel free to reach out to me at **aliya.zainul@gmail.com** to discuss any opportunities, collaborations, or simply to connect!</p>
+<p>:star: Explore my professional experiences <a href="https://drive.google.com/drive/folders/1jek4rnPNroJZWvw2bvfY4rggrgo7Jlv7?usp=sharing">here</a></p>
 
 
 ## Interests and Goals
@@ -35,6 +35,12 @@ Welcome to my projects portfolio. Here, you can find a list of the projects I've
 - **Website**: [https://tsintellect.com/](https://tsintellect.com/)
   
 - **User Manual Documentation**: [User Manual](https://docs.google.com/document/d/1oGkXA4DNBD1JjGRjqmqG3kjhgIao8iBsLioF0qyzG6g/edit?usp=sharing)
+
+## Certifications 📃
+- [AWS Cloud Foundation](https://github.com/drshahizan/HPDP/files/13053385/AWS-AliyaZarena.pdf)
+
+- [ESC VIDEO EDITING WORKSHOP](https://github.com/drshahizan/HPDP/files/13053389/E-CERTIFICATE.ESC.VIDEO.EDITING.WORKSHOP.-.ALIYA.ZARENA.BINTI.ZAINULANUAR.pdf)
+
 
 ## Connect with me 👩🏻‍💻
 <p>
