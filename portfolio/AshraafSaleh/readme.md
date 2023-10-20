@@ -47,16 +47,20 @@
   - 🌐 Web Framework: Xampp
   - 🛢️ Database: Mariadb
 
-### Project 2: Project Name
+### [Intellect Playschool]([https://intellectps.com/](https://intellectplayschool.com/))
 
-![Project Image](project-image.jpg)
+![Project Image](IntellectPlay.png)
 
-- **Description:** Briefly describe your project.
+</div>
+
+**Description:** The website for Intellect Playschool serves as a vital bridge between our school and the parents, offering a convenient and informative platform to keep parents closely involved in their child's early education. It provides a window into our classroom activities, events, and curriculum, enabling parents to stay up-to-date with their child's progress. Additionally, the website offers a valuable resource for educational materials, ideas, and tips, helping parents continue their child's learning journey at home. With easy access to communication tools, event calendars, and relevant information, our website strengthens the partnership between our school and parents, creating a supportive and nurturing environment for our young learners.
+  
 - **Technologies Used:** 
-  - ⚙️ Programming Language: JavaScript
-  - 🌐 Frontend: React
-  - 🌐 Backend: Node.js
-- **Links:** Provide links to the project, such as GitHub repository or live demo.
+  - ⚙️ Programming Language: html, css, Javascript, MySql and PHP 
+  - 🌐 Web Framework: Xampp
+  - 🛢️ Database: Mariadb
+
+<div align="center">
 
 ## Skills
 
