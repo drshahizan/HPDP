@@ -26,7 +26,7 @@ Let's turn data into wisdom together!
 ## My Projects 📁
 Welcome to my projects portfolio. Here, you can find a list of the projects I've worked on, along with brief descriptions and links to their respective repositories or more detailed documentation.
 
- ### Project 1: [Intellect Playschool Management System]
+ ### Project 1: **[Intellect Playschool Management System]*
 
 - **Description**: There will be four types of users in this management system, three of whom are active users (Administrator, Parent, and Staff), and one of whom is a Public User. This system has 8 features including registration, payment, announcement, staff salary, student attendance, staff attendance, account and manage activity modules.
 - **Skills/Technologies Used**: MySQL, FileZilla Client, HTML Language
