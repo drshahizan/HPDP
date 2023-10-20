@@ -38,10 +38,22 @@ I am currently focused on enhancing my skills in:
 
 ---
 
-### 👩‍💼 Role
+### 📚 Education
 
-I am the Head of Sponsorship and Entrepreneurship at **PERSAKA**, the computer science society of Universiti Teknologi Malaysia. I am also an active secretariate under Hal Ehwal Mahasiswi (HEWI), Persatuan Mahasiswa Islam UTM.
+- **SMK Tun Aminah** *(2018-2019)*  
+  *Location:* Batu Pahat, Johor  
+  *SPM Results:* 8A  
 
+- **Kolej Matrikulasi Johor** *(2020-2021)*  
+  *Location:* Tangkak, Johor  
+  *CGPA:* 3.92  
+
+- **Universiti Teknologi Malaysia** *(2021-2025)*  
+  *Location:* Skudai, Johor  
+  *Major:* Bachelor of Science in Computer (Data Engineering)  
+  *Positions:*
+    - Head of Entrepreneurship and Sponsorship at PERSAKA (Persatuan Mahasiswa Sains Komputer)  
+    - Multimedia Unit of HEWI, Persatuan Mahasiswa Islam (PMIUTM)  
 ---
 <details open> 
   <summary><h2>📘 My Top Open Source Projects</h2></summary>
