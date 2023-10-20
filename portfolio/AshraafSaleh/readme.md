@@ -1,7 +1,7 @@
 
 <div align="center"> 
 # Welcome to My Portfolio
-MUHAMMAD ASHRAAF BIN SALEH
+<span style="font-family: Arial, Helvetica, sans-serif">MUHAMMAD ASHRAAF BIN SALEH</span>
 </div>
 
 ## About Me
