@@ -1,4 +1,7 @@
-<img src="RuiXiang.jpeg" alt="RuiXiang" width="900px" >
+<div align="center">
+<img src="RuiXiang.jpeg" alt="RuiXiang" width="310px" height="270px">
+</div>
+
 ### Hi there 👋 I am Yew Rui Xiang 👋
 
 🔭 I am presently a student at the <b> University Teknologi Malaysia </b>, where I am dedicated to pursuing a Bachelor's degree in Data Engineering. My fervor for learning and conducting research is a prominent aspect of my academic journey. 
