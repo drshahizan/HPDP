@@ -77,7 +77,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
   </p>
 
   <h3>💻 Software and Tools</h3>
-  <h5>IDEs</h5>
+  <p><b>IDEs</b></p>
   <p>
     <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
     <a href="#"><img alt="Atom" src="https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white"></a>
@@ -89,7 +89,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
     <a href="#"><img alt="WebStorm" src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white"></a>
   </p>
 
-   <h5>Design</h5>
+   <h5><b>Design</b></h5>
   <p>
       <a href="#"><img alt="Adobe Creative Cloud" src="https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white"></a>
       <a href="#"><img alt="Adobe After Affect" src="https://img.shields.io/badge/Adobe%20after%20affects-CF96FD?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=393665"></a>
@@ -102,7 +102,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
       <a href="#"><img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></a>
   </p>
   <p>
-   <h5>Applications</h5>
+   <h5><b>Applications</b></h5>
       <a href="#"><img alt="Discord" src="https://img.shields.io/badge/-Discord-5865F2.svg?logo=discord&logoColor=white"></a>
       <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white"></a>
       <a href="#"><img alt="GitHub Desktop" src="https://img.shields.io/badge/GitHub%20Desktop-8034A9.svg?logo=github&logoColor=white"></a>
