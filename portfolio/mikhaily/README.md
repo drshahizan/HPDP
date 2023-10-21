@@ -16,6 +16,12 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
          <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/mikhaiIy?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
       <a href="https://github.com/mikhaiIy?tab=repositories&sort=stargazers">
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/mikhaiIy?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+      <br><br>
+   <a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mikhailbinyassin@gmail.com' target='_blank' rel='noreferrer'><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+ <a href='https://www.linkedin.com/in/mikhailbinyassin/' target='_blank' rel='noreferrer'><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+ <a href='https://leetcode.com/mikhaiIy/' target='_blank' rel='noreferrer'><img alt="LeetCode" src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></a>
+  <a href="https://discord.com/users/729631503331360779"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+ 
    </p>
    
 ---
@@ -112,11 +118,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 ---
 <p>
- <a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mikhailbinyassin@gmail.com' target='_blank' rel='noreferrer'><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
- <a href='https://www.linkedin.com/in/mikhailbinyassin/' target='_blank' rel='noreferrer'><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
- <a href='https://leetcode.com/mikhaiIy/' target='_blank' rel='noreferrer'><img alt="LeetCode" src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></a>
-  <a href="https://discord.com/users/729631503331360779"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
- 
+
  
 </p>
   
