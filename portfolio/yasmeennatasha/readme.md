@@ -33,10 +33,10 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Certifications
-🏅 AWS Academy Graduate - AWS Academy Cloud Foundations
- <img src="awscloudfoundationscert.jpg" alt="awscloudfoundationscert" width="270px" height="200px">
-🏅 Microsoft Certified: Azure Data Fundamentals
- <img src="azuredatacert-1.png" alt="azuredatacert" width="270px" height="200px">
+- AWS Academy Graduate: AWS Academy Cloud Foundations
+ <br><img src="awscloudfoundationscert.jpg" alt="awscloudfoundationscert" width="270px" height="200px">
+- Microsoft Certified: Azure Data Fundamentals
+ <br><img src="azuredatacert-1.png" alt="azuredatacert" width="270px" height="200px">
   
  
   
