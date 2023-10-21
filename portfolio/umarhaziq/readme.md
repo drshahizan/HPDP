@@ -1,8 +1,7 @@
 <p align="center">
-<div align="center">
-  <img src=DSC_7958_ED (5)(4).jpg" alt="marss" width="350px" height="350px">
-</div>
+  <img src="(https://github.com/drshahizan/HPDP/assets/142962241/09e4d0ea-eefa-4393-bce1-38d9f0ff310a)" alt="Marsss" width="600">
 </p>
+
 
 ## <p align="center">Hello there! I'm Umar Haziq</p>
 <p align="center">  
