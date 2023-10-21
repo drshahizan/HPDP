@@ -42,7 +42,7 @@
 - SPM: 6A's
 
 ## 📁 Project
-1. [Intellect Qalil IQ Playschool Website] (https://intellectplayschoolsystem.000webhostapp.com/)
+1. [Intellect Qalil IQ Playschool Website](https://intellectplayschoolsystem.000webhostapp.com/)
 
    This is a project that I had involve as a group to develop a management system for the Intellect Qalil IQ Playschool kindergarten which located at Mutiara Rini, Skudai, Johor. Our main objective is to replace the old and outdated kindergaten system in more efficient way. In this project, I have perform my knowledge in HTML, CSS, Javascript, PHP, MySQL and more.
 
