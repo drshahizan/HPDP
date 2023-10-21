@@ -25,7 +25,7 @@ I am a passionate data engineering student at Universiti Teknologi Malaysia  wit
 ### 💻 Tech Stack
 
 - Languages: C++, Java, HTML, CSS, JavaScript, Python
-- Tools:  Visual Studio Code, Sublime, Google Colab, Jupjyter Notebook, Power BI
+- Tools:  Visual Studio Code, Sublime, Google Colab, Jupyter Notebook, Power BI
 - Databases: MySQL, Oracle
 
 ### 🌱 Current Learning
