@@ -34,7 +34,6 @@ During free time, I would be enjoy listening to music, jogging, playing badminto
 ### <div align="center">Sekolah Menengah Sains Muzaffar Syah, Melaka</div>
 
 - Cyber Brigade in 2017 until 2019.
-- Achieved 10A in PT3.
 - Achieved 8A, 1B+ in SPM.
 
 <div align="center">
