@@ -101,6 +101,7 @@
 - [adamochie/Data-analysis-UTM-Students-Survey](https://github.com/adamochie/Data-analysis-UTM-Students-Survey) - Data analysis UTM Students Survey (R, Excel)
 - [adamochie/Student-Performance-Data-Analysis](https://github.com/adamochie/Student-Performance-Data-Analysis) - Student Performance Data Analysis (R)
 - [adamochie/Vending-Machine-System](https://github.com/adamochie/Vending-Machine-System) - Vending Machine System (ASSEMBLY)
+- [adamochie/Printer-System-using-DEEDS](https://github.com/adamochie/Printer-System-using-DEEDS) - Printer System (DEEDS)
 
 ## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="50px" height="50px"> Badges and Certification
 
