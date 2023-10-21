@@ -23,11 +23,10 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
   <a href="https://discord.com/users/729631503331360779"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
  
    </p>
-   
+
 ---
 <h2>💻 GitHub Profile Stats</h2>
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mikhaiIy&theme=transparent&hide_border=true&currStreakNum=EBDCDC&ring=EBEBEB&sideNums=EBEBEB&sideLabels=287BEB&dates=EBEBEB&currStreakLabel=287BEB" alt="GitHub Streak" /></a>
-
 <details> 
   <summary><h2>🛠️ Some...things I know</h2></summary>
   <h3>👨‍💻 Programming and Markup Languages</h3>
@@ -51,7 +50,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
       <a href="#"><img alt="PL/SQL" src="https://img.shields.io/badge/PLSQL-F80000?style=for-the-badge&logo=oracle&logoColor=black"></a>
   </p>
 
-
+#
   <h3>🧰 Frameworks and Libraries</h3>
 
   <p>
@@ -69,7 +68,8 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
       <a href="#"><img alt="PowerBI" src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white"></a>
       
   </p>
-
+  
+#
   <h3>🗄️ Databases and Cloud Hosting</h3>
 
   <p>
@@ -80,8 +80,9 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
       <a href="#"><img alt="Oracle" src ="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black"></a>
   </p>
   
+  #
   <h3>💻 Software and Tools</h3>
-  <p><b>IDEs</b></p>
+  <h5><b>IDEs</b></h5>
   <p>
     <a href="#"><img alt="Atom" src="https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white"></a>
     <a href="#"><img alt="CLion" src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white"></a>
@@ -91,7 +92,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
     <a href="#"><img alt="Replit" src="https://img.shields.io/badge/replit-667881?style=for-the-badge&logo=replit&logoColor=white"></a>
     <a href="#"><img alt="WebStorm" src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white"></a>
   </p>
-
+  
    <h5><b>Design</b></h5>
   <p>
       <a href="#"><img alt="Adobe Creative Cloud" src="https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white"></a>
@@ -105,15 +106,24 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
       <a href="#"><img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></a>
   </p>
   <p>
+   
    <h5><b>Applications</b></h5>
       <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white"></a>
       <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"></a>
       <a href="#"><img alt="Trello" src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"></a>
    
   </p>
+  
+#
   <h3>📚 Education</h3>
   <p>
     <a href=""><img alt="Khan Academy" src="https://img.shields.io/badge/Khan%20Academy-14BF96?style=for-the-badge&logo=Khan%20Academy&logoColor=white"></a>
     <a href="#"><img alt="W3Schools" src="https://img.shields.io/badge/W3Schools-04AA6D?style=for-the-badge&logo=W3Schools&logoColor=white"></a>
   </p>
 </details>
+
+<details>
+ <summary><h2>📂My Past Project</h2></summary>
+</details>
+
+#
