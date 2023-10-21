@@ -25,8 +25,12 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
    </p>
 
 ---
-<h2>💻 GitHub Profile Stats</h2>
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mikhaiIy&theme=transparent&hide_border=true&currStreakNum=EBDCDC&ring=EBEBEB&sideNums=EBEBEB&sideLabels=287BEB&dates=EBEBEB&currStreakLabel=287BEB" alt="GitHub Streak" /></a>
+<details>
+ <summary><h2>💻 GitHub Profile Stats</h2></summary>
+ <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mikhaiIy&theme=transparent&hide_border=true&currStreakNum=EBDCDC&ring=EBEBEB&sideNums=EBEBEB&sideLabels=287BEB&dates=EBEBEB&currStreakLabel=287BEB" alt="GitHub Streak" /></a>
+</details>
+
+
 <details> 
   <summary><h2>🛠️ Some...things I know</h2></summary>
   <h3>👨‍💻 Programming and Markup Languages</h3>
@@ -124,6 +128,14 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 <details>
  <summary><h2>📂My Past Project</h2></summary>
+</details>
+
+<details>
+ <summary><h2>🏆Licences & Certifications</h2></summary>
+ 
+- 🎖️[AWS Academy Graduate - AWS Academy Cloud Foundations](https://www.credly.com/badges/5b93c137-c38f-4c56-988b-5fdee0fa9bb2/public_url)
+- 🎖️[Microsoft Certified: Azure AI Fundamentals](https://www.credly.com/badges/33877240-597b-45f2-8211-6306b1bf45b8/public_url)
+
 </details>
 
 #
