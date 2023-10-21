@@ -20,7 +20,7 @@
 
 ## 🚀 About Me
 
-I am a passionate data engineering student at  with a keen interest in coding and technology. I love exploring new ideas and solving real-world problems through programming.
+I am a passionate data engineering student at Universiti Teknologi Malaysia  with a keen interest in coding and technology. I love exploring new ideas and solving real-world problems through programming.
 
 ### 💻 Tech Stack
 
