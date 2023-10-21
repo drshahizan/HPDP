@@ -37,6 +37,6 @@
  <br><img src="awscloudfoundationscert.jpg" alt="awscloudfoundationscert" width="270px" height="200px">
 - Microsoft Certified: Azure Data Fundamentals
  <br><img src="azuredatacert-1.png" alt="azuredatacert" width="270px" height="200px">
-  
- 
-  
+
+ ## Connect with Me
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yasmeen-natasha-hafiz-shahrel)   
