@@ -34,9 +34,9 @@
 
 ## Certifications
 🏅 AWS Academy Graduate - AWS Academy Cloud Foundations
- <img src="awscloudfoundationscert.png" alt="awscloudfoundationscert" width="1056px" height="816px">
+ <img src="awscloudfoundationscert.PNG" alt="awscloudfoundationscert" width="270px" height="200px">
 🏅 Microsoft Certified: Azure Data Fundamentals
- <img src="azuredatacert-1.png" alt="azuredatacert" width="1056px" height="816px">
+ <img src="azuredatacert-1.png" alt="azuredatacert" width="270px" height="200px">
   
  
   
