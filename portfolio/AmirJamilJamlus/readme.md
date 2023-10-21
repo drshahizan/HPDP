@@ -1,4 +1,4 @@
-<p align="center"><img align="center" alt="Coding" width="200" src="photo.jpg">
+<p align="center"><img align="center" alt="Coding" width="200" src="ajFormalrmvbckgrd.jpg">
 
 <h1 align="center">Hi 👋, I'm Amir Jamil Jamlus</h1>
 <h3 align="center">A passionate Data Engineering student from Malaysia.</h3>
