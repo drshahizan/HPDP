@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/142962241/09e4d0ea-eefa-4393-bce1-38d9f0ff310a" alt="Marsss" width="600" height="500px>
+  <img src="https://github.com/drshahizan/HPDP/assets/142962241/09e4d0ea-eefa-4393-bce1-38d9f0ff310a" alt="Marsss" width="400" height="400px">
 </p>
 
 
