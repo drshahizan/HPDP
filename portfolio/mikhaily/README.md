@@ -32,7 +32,7 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 
 <details> 
-  <summary><h2>🛠️ Some...things I know</h2></summary>
+  <summary><h2>🛠️ A few things I know</h2></summary>
   <h3>👨‍💻 Programming and Markup Languages</h3>
 
   <p>
