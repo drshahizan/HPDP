@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/146691908/bd7cf9a8-d92c-45cc-9fe5-89a566a16804" alt="Shuhada's Profile Picture" width="600">
+<div align="center">
+  <img src=DSC_7958_ED(5)(4).jpg" alt="alie" width="350px" height="350px">
+</div>
 </p>
-
 
 ## <p align="center">Hello there! I'm Umar Haziq</p>
 <p align="center">  
