@@ -1,3 +1,7 @@
+<div align="left" style="padding-left:500px">
+  <img src="PhotoMikhail.htm" alt="mikhaily" width="150px">
+</div>
+
 # 🧑‍🔬Mikhail Bin Yassin
 
 <!-- Introduction section -->
@@ -26,8 +30,19 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 ---
 <details>
- <summary><h2>💻 GitHub Profile Stats</h2></summary>
- <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mikhaiIy&theme=transparent&hide_border=true&currStreakNum=EBDCDC&ring=EBEBEB&sideNums=EBEBEB&sideLabels=287BEB&dates=EBEBEB&currStreakLabel=287BEB" alt="GitHub Streak" /></a>
+ <summary><h2>📊 Github Stats and Activity</h2></summary>
+
+ <h3>🔥 Streak Stats</h3>
+ <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+      <img title="🔥 I am still beginner, don't kecam please" alt="mikhaily's streak" src="https://streak-stats.demolab.com/?user=mikhaiIy&theme=monokai-metallian&hide_border=true"/>
+    </a><br></br>
+
+<h3>💻 GitHub Profile Stats</h3>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="mikhaily's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=mikhaiIy&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="mikhaily's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=mikhaiIy&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
+  <br/>
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="mikhaily's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=mikhaiIy&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+
 </details>
 
 
@@ -128,6 +143,11 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 <details>
  <summary><h2>📂My Past Project</h2></summary>
+ <p align="left">
+    <a href="https://github.com/mikhaiIy/Car-Booking-System"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mikhaiIy&repo=Car-Booking-System&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="readme-typing-svg"></a>
+    <a href="https://github.com/mikhaiIy/Kindergarden-Management-System"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mikhaiIy&repo=Kindergarden-Management-System&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="github-readme-streak-stats"></a>
+    <a href="https://github.com/mikhaiIy/SDT-Assignment"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=mikhaiIy&repo=SDT-Assignment&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="custom-icon-badges"></a>
+  </p>
 </details>
 
 <details>
@@ -139,3 +159,5 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 </details>
 
 #
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mikhaiiy&label=Profile%20views&color=0e75b6&style=flat" alt="mikhaiiy" /> </p>
