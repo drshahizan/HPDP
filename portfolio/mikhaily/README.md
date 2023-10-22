@@ -1,5 +1,5 @@
 <div align="left">
-  <img src="mikhaily.jpg" alt="mikhaily" width="150px">
+  <img src="mikhaily.jpg" alt="mikhaily" width="350px">
 </div>
 
 # 🧑‍🔬Mikhail Bin Yassin
