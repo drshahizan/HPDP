@@ -18,8 +18,8 @@
 </table>
 
 # My Badges
-- https://www.credly.com/badges/98a40a2e-5597-4172-bb1d-a31cc94afa65/public_url
-- https://www.credly.com/badges/74dfc069-0d94-4fb7-b1bf-677d0c91b06b/public_url
+- [AWS](https://www.credly.com/badges/98a40a2e-5597-4172-bb1d-a31cc94afa65/public_url)
+- [Azure](https://www.credly.com/badges/74dfc069-0d94-4fb7-b1bf-677d0c91b06b/public_url)
 
 # My Repositories
 <p align="left">
