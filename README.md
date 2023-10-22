@@ -50,7 +50,7 @@ The information on this Github is part of the materials for the subject High Per
 | 6.   | Data Platforms Architecture: Governance and Operations | <a href="./materials/data_platform.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a>|
 | 7.   | Creating Data Products to Monetize Data             | <a href="./materials/data_product.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 | 8.   | Revolutionizing Data and Machine Learning with DataOps and MLOps | <a href="./materials/dataops.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 9.   | Data Science for Beginners - A Curriculum | <a href="[./materials/dataops.md](https://github.com/microsoft/Data-Science-For-Beginners/tree/main)" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 9.   | Data Science for Beginners - A Curriculum | <a href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 
 ### 2. Case Study
 | No. | Content                                             | File |
