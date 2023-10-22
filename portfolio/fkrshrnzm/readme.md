@@ -67,21 +67,37 @@ During free time, I would be enjoy listening to music, jogging, playing badminto
 As a well-rounded individual, I believe in the importance of balancing work and play. When I'm not immersed in the world of data science, you can find me pursuing my hobbies, which include listening to music, hiking, and jogging. Not only do these activities help me to manage stress and maintain a healthy lifestyle, but they also allow me to develop valuable skills, such as problem-solving and perseverance.
 
 I am proficient in :
-- C++
-- Java
-- HTML
-- CSS
-- Bootstrap
-- SQL
-- Microsoft Excel
-- KNIME
-- R Programming
+<br><br>
+<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <b> C++</b>
+<br>
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <b> Java</b>
+<br>
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <b> HTML</b>
+<br>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <b> CSS</b>
+<br>
+<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <b> BootStrap</b>
+<br>
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <b> MySQL</b>
+<br>
+<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <b> PHP</b>
+<br>
+<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <b> AWS</b>
+<br>
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <b> Python</b> 
+<br><br>
+
 
 Not only that, I am also capable of using some editing software such as :
-- Adobe Photoshop
-- Adobe Illustrator
-- Adobe Premiere Pro
-- Canva
+<br><br>
+<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <b> Adobe Photoshop</b>
+<br>
+<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <b> Adobe Illustrator</b>
+<br>
+<a href="https://www.adobe.com/in/products/premiere.html" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Adobe_Premiere_Pro_Logo.svg" alt="premiere pro" width="40" height="40"/> </a> <b> Adobe Premiere Pro</b>
+<br>
+<a href="https://www.canva.com/create/logos/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg" alt="canva" width="40" height="40"/> </a> <b> Canva</b>
+<br>
 
 ---
 
