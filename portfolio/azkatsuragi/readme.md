@@ -51,7 +51,7 @@
 
 # Connect With Me
 <div align="center">
-  <a href="https://www.linkedin.com/in/azri-hadif/">LinkedIn</a>&nbsp;
+  <a href="https://www.linkedin.com/in/azrihadif/">LinkedIn</a>&nbsp;
   <a href="https://github.com/azkatsuragi">GitHub</a>&nbsp;
   <a href="mailto:mohamadazrihadif@gmail.com">Email</a>&nbsp;
 </div>
