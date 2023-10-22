@@ -34,9 +34,6 @@ The information on this Github is part of the materials for the subject High Per
 </p>
 
 ## Notes
-- [Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners/tree/main)
-
-  ## Notes
 
 ### 1. Data
 
