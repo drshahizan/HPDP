@@ -22,17 +22,6 @@ The information on this Github is part of the materials for the subject High Per
 | 2 | Task 2 | AWS Certification | <a href="./materials/aws.md" ><img src="./images/aws.svg" width="24px" height="24px" ></a> | 
 | 3. | Assignment 1 | Data analysis using Google Sheets | <a href="./assignment/ass1.md" ><img src="./images/google-sheets.png" width="24px" height="24px" ></a> | 
 
-### 📚 Course: High Performance Data Processing 
-- [Python for beginners](https://github.com/drshahizan/HPDP)
-- [Web scraping and Python web framework](https://github.com/drshahizan/python-web)
-- [Exploratory data analysis](https://github.com/drshahizan/Python_EDA)
-- [Big data processing](https://github.com/drshahizan/Python-big-data)
-- [Case Study](https://github.com/drshahizan/HPDP/blob/main/case-study.md)
-
-<p align="left">
-<img src="https://github.com/drshahizan/HPDP/blob/main/images/python-applications.png"  height="300" />
-</p>
-
 ## Notes
 
 ### 1. Data
