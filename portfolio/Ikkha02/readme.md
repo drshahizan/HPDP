@@ -77,8 +77,6 @@ My motto in life is "There is nothing impossible without effort". I believe in m
 
 #### 📊 My GitHub Statistics
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ikkha02&show_icons=true&locale=en&layout=compact" alt="ikkha0" /></p>
-
 <p align='center'>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ikkha02&show_icons=true&locale=en" alt="Ikmal" /></p>
 
 <p align='center'><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Ikkha02&" alt="Ikmal" /></p>
