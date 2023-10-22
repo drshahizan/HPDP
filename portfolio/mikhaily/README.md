@@ -5,7 +5,7 @@
 # 🧑‍🔬Mikhail Bin Yassin
 
 <!-- Introduction section -->
-**`Future Data Engineer (Bachelor of Computer Science(Data Engineering))`**
+**`Future Data Engineer (Bachelor of Computer Science - Data Engineering)`**
 
 Hi there! I'm Mikhail Bin Yassin, from Sabah, Malaysia. 
 
