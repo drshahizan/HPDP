@@ -47,7 +47,7 @@ The "Intellect Playschool Kindergarten Website" was more than just a project; it
 
 
 
-### 🚀 Project 2
+### 🚀 Project 2: Temalah Cove Resort Website
 
 **📄 Project Description:** 
 During my semester break, I embarked on a thrilling adventure in web development by creating the "Temalah Cove Resort Website." 🌴 Located in the serene coastal town of Sedili, Johor, Temalah Cove is a hidden gem that needed an online presence to showcase its natural beauty and charm.
