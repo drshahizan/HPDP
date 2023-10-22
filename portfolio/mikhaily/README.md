@@ -1,4 +1,4 @@
-<div align="left" style="padding-left:500px">
+<div align="left">
   <img src="PhotoMikhail.htm" alt="mikhaily" width="150px">
 </div>
 
