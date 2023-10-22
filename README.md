@@ -15,7 +15,7 @@ The information on this Github is part of the materials for the subject High Per
 2. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
 3. [Student information](student.md)
 
-## Submission
+## Assignment
 | No | Module | Description | File |
 | -----: | ------ | ------ | :-----: | 
 | 1 | Task 1 | Portfolio Creation | <a href="./portfolio/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
