@@ -55,7 +55,6 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 
 **Cloud**
 - AWS
-- Azure
 
 **Tools**
 - Figma
@@ -68,17 +67,14 @@ I am 3rd year student at Universiti Teknologi Malaysia and passionate about data
 
 **Sekolah Agama Menengah Bestari**
 - 2017 - 2018
-- Achieved 9A 2B in SPM
 
 **UITM Dengkil**
 - Foundation of Science
 - 2019 - 2020
-- Managed to achieved 4.00 CGPA
 
 **Universiti Teknologi Malaysia**
 - 2021 - 2025
 - 3rd year student of Bachelor of Computer Science (Data Engineering)
-- Current CGPA 3.78
 
 
 ## 🏆 Certifications
