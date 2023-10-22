@@ -56,13 +56,16 @@
   </p>
 </details>
 
-## Badges and Certification
+<details> 
+  
+<summary><h2>Badges and Certification</h2></summary>
+
 - [![AWS Academy Graduate - AWS Cloud Foundations](https://images.credly.com/size/110x110/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png)](https://www.credly.com/badges/9e7da22a-bf50-458f-8d21-33779933cab1/public_url) [AWS Cloud Foundations](https://www.credly.com/badges/9e7da22a-bf50-458f-8d21-33779933cab1/public_url)
 
 - [![Microsoft Certified - Azure Fundamentals](https://images.credly.com/size/110x110/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png)](https://www.credly.com/badges/7d2b1720-5f7a-45db-bdfe-6491b4f0e2b9/public_url) [Azure Fundamentals](https://www.credly.com/badges/7d2b1720-5f7a-45db-bdfe-6491b4f0e2b9/public_url)
 
 - [![Microsoft Certified - Azure Data Fundamentals](https://images.credly.com/size/110x110/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png)](https://www.credly.com/badges/ac8f79b8-b713-4712-ab96-d1ebacbc94fb/public_url) [Azure Data Fundamentals](https://www.credly.com/badges/ac8f79b8-b713-4712-ab96-d1ebacbc94fb/public_url)
-
+</details>
 
 
 <!--# Projects
