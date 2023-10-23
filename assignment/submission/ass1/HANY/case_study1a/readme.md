@@ -7,7 +7,7 @@
 
 # Assignment 1a: Examination results
 
-### Group Name: BYTE NAVIGATORS
+### Group Name: HANY
 
 
 ## Contribution 🛠️
