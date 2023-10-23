@@ -7,7 +7,7 @@
 
 # Assignment 1b: Sales performance
 
-### Group Name: XXX
+### Group Name: ATONG (ATG)
 
 
 ## Contribution 🛠️
