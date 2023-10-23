@@ -15,7 +15,7 @@
 | ALIYA ZARENA BINTI ZAINULANUAR            |A21EC0013        |Documnetation  |
 | MUHAMMAD FIKRI BIN SHARUNAZIM             |A21EC0075        |Preprocessing  |
 | MUHAMMAD IQMAL BIN SIS                    |A21EC0080        |Visualizing    |
-| ANG YI QIN                                |A21EC0163        |Coding          |
+| ANG YI QIN                                |A21EC0163        |Visualizing         |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
