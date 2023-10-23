@@ -39,7 +39,7 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | 6. | KHUCHIN |  <a href="submission/ass1/KHUCHIN/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 7. | ByteNav |  <a href="submission/ass1/ByteNav/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 7. | 3H |  <a href="submission/ass1/3H/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-| 7. | HPDP BEST |  <a href="submission/ass1/HPDP%20BEST/readme.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 7. | HPDP BEST |  <a href="submission/ass1/HPDP%20BEST/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 
 
 ### 3. Academic Integrity
