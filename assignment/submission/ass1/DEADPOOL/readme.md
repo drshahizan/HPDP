@@ -13,7 +13,7 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | UMAR HAZIQ BIN MUHAMAD NORHISHAM            | A21EC0235     |  DATA PREPROCESSING DASHBOARD ASM1  |
-| Student 2              |      |      |
+| SAM CHIA YUN              | A21EC0127     |      |
 | Student 3              |      |      |
 | Student 4              |      |      |
 
