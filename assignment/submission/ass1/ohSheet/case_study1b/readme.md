@@ -21,8 +21,8 @@
 ## Getting Started <a name = "getting_started"></a>
 
 ### Data Pre-processing
-1. Select Dataset2.txt.
-2. Open Google Sheet. Press 'Import' to upload the dataset.
+1. To import the .txt file type data into Google Sheet, first select Dataset2.txt.
+2. Open Google Sheet. Press 'Import' to upload the dataset. 
 3. Select Dataset2.txt. Drag the file into the Google Drive folder.
 4. Press 'Import data'.
 
