@@ -7,8 +7,9 @@
 
 # Assignment 1b: Sales performance
 
-### Group Name: XXX
+### Group Name: DEADPOOL
 
+XXXX
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
