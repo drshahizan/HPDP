@@ -8,7 +8,10 @@
 # Assignment 1b: Sales performance
 
 ### Group Name: ATONG (ATG)
+1.Click on File>>Import>>Upload button. Then, select the dataset file named 'Dataset2'.
 ![image](https://github.com/drshahizan/HPDP/assets/108865725/77014f96-9705-45a8-8987-58a23f55ee10)
+
+2.This is the preview of the result of importing the dataset.
 ![image](https://github.com/drshahizan/HPDP/assets/108865725/9a9187b8-b08c-4185-bcb1-bf7aef32994c)
 
 
