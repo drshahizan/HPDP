@@ -31,12 +31,13 @@ The information on this Github is part of the materials for the subject High Per
 | 1.   | Charting Your Path in Data and Machine Learning     | <a href="https://github.com/drshahizan/BDM/blob/main/materials/de_ds.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 | 2.   | Navigating the Data Science Landscape               | <a href="https://github.com/drshahizan/BDM/blob/main/materials/ds_landscape.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 | 3.   | Database Types                                      | <a href="https://github.com/drshahizan/BDM/blob/main/materials/db_type.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 4.   | The Data Journey: From Raw to Refined               | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_journey.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 5.   | The Data to MLOps Journey: An End-to-End Process   | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_mlops.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 6.   | Data Platforms Architecture: Governance and Operations | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_platform.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a>|
-| 7.   | Creating Data Products to Monetize Data             | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_product.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 8.   | Revolutionizing Data and Machine Learning with DataOps and MLOps | <a href="https://github.com/drshahizan/BDM/blob/main/materials/dataops.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 9.   | Data Science for Beginners - A Curriculum | <a href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 4.   | Navigating the Database Landscape | <a href="https://github.com/drshahizan/BDM/blob/main/materials/choose_db.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 5.   | The Data Journey: From Raw to Refined               | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_journey.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 6.   | The Data to MLOps Journey: An End-to-End Process   | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_mlops.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 7.   | Data Platforms Architecture: Governance and Operations | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_platform.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a>|
+| 8.   | Creating Data Products to Monetize Data             | <a href="https://github.com/drshahizan/BDM/blob/main/materials/data_product.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 9.   | Revolutionizing Data and Machine Learning with DataOps and MLOps | <a href="https://github.com/drshahizan/BDM/blob/main/materials/dataops.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 10.   | Data Science for Beginners - A Curriculum | <a href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 
 ### 2. Case Study
 | No. | Content                                             | File |
