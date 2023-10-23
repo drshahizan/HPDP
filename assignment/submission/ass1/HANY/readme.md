@@ -7,7 +7,7 @@
 
 # Assignment 1: Data analysis using Google Sheets
 
-### Group Name: Sample
+### Group Name: HANY
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
