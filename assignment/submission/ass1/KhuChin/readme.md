@@ -14,7 +14,7 @@
 | :---------------------------------------- | :-------------: | ------------- |
 | Muhammad Ashraaf Bin Saleh              |A21EC0068      |   Preprocessing   |
 | Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |   Data Dashboard   |
-| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   Data Task   |
+| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   Documentation   |
 | Ikmal Bin Khairulezuan              |A21EC0186      |   Results Analyser   |
 
 ### 📂 Folder content:
