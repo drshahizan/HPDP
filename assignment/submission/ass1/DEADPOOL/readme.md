@@ -14,8 +14,8 @@
 | :---------------------------------------- | :-------------: | ------------- |
 | UMAR HAZIQ BIN MUHAMAD NORHISHAM            | A21EC0235     |  DATA PREPROCESSING DASHBOARD ASM1  |
 | SAM CHIA YUN              | A21EC0127     |      |
-| Student 3              |      |      |
-| Student 4              |      |      |
+| MUHAMMAD IZZUDDIN BIN SHABRIN             | A21EC0083     |      |
+| KEE SHIN PEARL             | A21EC0190     |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
