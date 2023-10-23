@@ -12,12 +12,11 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MIKHAIL BIN YASSIN              |  A21EC0053 |      |
-| FAUZAN AQIL BIN AZMAN             |    A21EC0174  |   
-   | YASMEEN NATASHA BINTI HAFIZ SHAHREL   |     A21EC0147       |      |   
-   | MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ   
-|      A21EC0061     |       |     |
-
+| MIKHAIL BIN YASSIN                       |  A21EC0053       |               |
+| FAUZAN AQIL BIN AZMAN                    |    A21EC0174     |               |
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL      |     A21EC0147    |               |   
+| MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |                |     
+   
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
 * [💻 Google Sheets 1a]()
