@@ -17,32 +17,34 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 
 ## 📚 Project Description
 
-### 1. Reading the Case Study
-📖 Begin by thoroughly reading the provided case study and the following instructions to gain a clear understanding of the task at hand.
-
-### 2. Team Collaboration
-🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment.
-
-### 3. Academic Integrity
-🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
-
-### 4. Assignment Objective
-📊 The primary objective of this assignment is to process and visualize data using Google Sheets. You will work on two distinct case studies: one involving exam results and the other concerning sales performance.
+### 1. Introduction
+📊 Begin by thoroughly reading the provided case study and the following instructions to gain a clear understanding of the task at hand. The primary objective of this assignment is to process and visualize data using Google Sheets. You will work on two distinct case studies: one involving **Examination results** and the other concerning **Sales performance**. The case study information is as follows:
 
 | No | Case Study | Instruction | Dataset |
 |:----:|---------|:-------------:|:------:|
 | 1.  | Examination results | <a href="../images/Ass1a.pdf" ><img src="../images/document.png" width="24px" height="24px"></a> | <a href="https://raw.githubusercontent.com/drshahizan/dataset/main/GS/Dataset1.txt" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
 | 2.  | Sales performance | <a href="../images/Ass1b.pdf" ><img src="../images/document.png" width="24px" height="24px"></a> | <a href="https://raw.githubusercontent.com/drshahizan/dataset/main/GS/Dataset2.txt" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
 
+### 2. Team Collaboration
+🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=1112504187). Please update your group information:
 
-### 5. Submission Requirements
+| No | Group |  File |
+| -----: |  ------ | :-----: | 
+| 1. | Sample  |  <a href="submission/ass1/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
+| 2. |   |  <a href="submission/ass1/" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
+| 3. |   |  <a href="submission/ass1/" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
+
+### 3. Academic Integrity
+🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
+
+### 4. Submission Requirements
 📝 Prepare a comprehensive document that outlines the step-by-step process for creating the case study. This document should include details about the formulas used. Additionally, you must submit a Google Sheets file containing the results of the case study's execution.
 
-These detailed instructions are provided to ensure that the assignment is completed successfully and in adherence to academic standards.
+The deadline for submission is **October 26, 2023, at 3:30 PM**. Late submissions will not be accepted and will be disregarded.
 
 ## File and Folder Structure 
 
-1. You must place your file in the submission folder. Within the [`submission/ass1/`](./submission/ass1/) folder, create a folder called your group. Name the default file as `readme.md`. You can refer to the [documentation template here](./submission/ass1/Sample/readme.md). Suggested folder structure for this project:
+You must place your file in the submission folder. Within the [`submission/ass1/`](./submission/ass1/) folder, create a folder called your group. Name the default file as `readme.md`. You can refer to the [documentation template here](./submission/ass1/Sample/readme.md). Suggested folder structure for this project:
 
 ```html
 assignment/your_group/
@@ -54,15 +56,6 @@ assignment/your_group/
     └── 📄 google_sheets
 
 ```
-
-## Submission
-
-| No | Group |  File |
-| -----: |  ------ | :-----: | 
-| 1. | Sample  |  <a href="submission/ass1/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-| 2. |   |  <a href="submission/ass1/" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-| 3. |   |  <a href="submission/ass1/" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
