@@ -13,9 +13,9 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | ALIYA ZARENA BINTI ZAINULANUAR            |A21EC0013        |     |
-| MUHAMMAD FIKRI BIN SHARUNAZIM             | A21E0075    |      |
-| MUHAMMAD IQMAL BIN SIS                    |A21EC0080     |      |
-| ANG YI QIN                                |A21EC0163     |      |
+| MUHAMMAD FIKRI BIN SHARUNAZIM             |A21E0075         |      |
+| MUHAMMAD IQMAL BIN SIS                    |A21EC0080        |      |
+| ANG YI QIN                                |A21EC0163        |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
