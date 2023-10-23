@@ -19,7 +19,6 @@
  The primary objective of this assignment is to process and visualize data using Google Sheets. In this case study, we are required to create a dashboard for sales performance. 
 
 ## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Data Pre-processing
 1. Select Dataset2.txt.
