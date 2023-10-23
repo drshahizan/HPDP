@@ -13,10 +13,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|IZZAT HAQEEMI BIN HAIRUDIN                |A21EC0033      |      |
-| Student 2              |MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL     |      |
-| Student 3              |NG SUANG JOO     |      |
-| Student 4              |NG ZI XING      |      |
+| IZZAT HAQEEMI BIN HAIRUDIN                |A21EC0033      |      |
+| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL               |    |      |
+| NG SUANG JOO              |    |      |
+| NG ZI XING             |      |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
