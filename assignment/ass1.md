@@ -42,6 +42,7 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | 9. | 3H |  <a href="submission/ass1/3H/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 10. | HANY |  <a href="submission/ass1/HANY/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 11. | ByteNav |  <a href="submission/ass1/ByteNav/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 12. | SEK KITO  |  <a href="https://github.com/drshahizan/HPDP/tree/main/assignment/submission/ass1/SEK%20KITO/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 
 ### 3. Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
