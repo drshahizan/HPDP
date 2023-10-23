@@ -7,7 +7,7 @@
 
 # Assignment 1a: Examination results
 
-### Group Name: XXX
+### Group Name: ATONG (ATG)
 
 
 ## Contribution 🛠️
