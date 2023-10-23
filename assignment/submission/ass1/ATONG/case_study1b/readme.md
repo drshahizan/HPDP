@@ -8,6 +8,8 @@
 # Assignment 1b: Sales performance
 
 ### Group Name: ATONG (ATG)
+![image](https://github.com/drshahizan/HPDP/assets/108865725/77014f96-9705-45a8-8987-58a23f55ee10)
+![image](https://github.com/drshahizan/HPDP/assets/108865725/9a9187b8-b08c-4185-bcb1-bf7aef32994c)
 
 
 ## Contribution 🛠️
