@@ -7,7 +7,7 @@
 
 # Assignment 1b: Sales performance
 
-### Group Name: XXX
+### Group Name: BYTE NAVIGATORS
 
 
 ## Contribution 🛠️
