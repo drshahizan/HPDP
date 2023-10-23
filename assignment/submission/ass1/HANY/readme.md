@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              |      |      |
-| Student 2              |      |      |
-| Student 3              |      |      |
-| Student 4              |      |      |
+| ALYA BALQISS BINTI AZAHAR|A21EC0158        |     |
+| MUHAMMAD HARITH HAKIM BIN OTHMAN            | A21EC0205     |      |
+| NADIA SYAFIQAH BINTI ZULKIPLI            |A21EC0098      |      |
+| LIEW YVONNE            |A21EC0045      |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
