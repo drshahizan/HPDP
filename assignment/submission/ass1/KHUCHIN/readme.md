@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Muhammad Ashraaf Bin Saleh              |A21EC0068      |      |
-| Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |      |
-| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |      |
-| Ikmal Bin Khairulezuan              |A21EC0186      |      |
+| Muhammad Ashraaf Bin Saleh              |A21EC0068      |   1   |
+| Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |   2   |
+| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   1   |
+| Ikmal Bin Khairulezuan              |A21EC0186      |   2   |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
