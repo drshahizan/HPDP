@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MUHAMMAD FARHAN BIN IBRAHIM | A21EC0072   |      |
-| FONG KHAH KHEH              | A21EC0026   |      |Sales performance	
-| LING WAN YIN                | A21EC0047   |      |Sales performance	
-| SARAH WARDINA BINTI RAFIDIN | A21EC0128   |      |
+| MUHAMMAD FARHAN BIN IBRAHIM | A21EC0072   |DOCUMENTATION      |
+| FONG KHAH KHEH              | A21EC0026   |PREPROCESSING      |	
+| LING WAN YIN                | A21EC0047   |ANALYSIS      |	
+| SARAH WARDINA BINTI RAFIDIN | A21EC0128   | DATA VISUALISATION     |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
