@@ -7,7 +7,7 @@
 
 # Assignment 1a: Examination results
 
-### Group Name: XXX
+### Group Name: (3H) HAHAHA
 
 
 ## Contribution 🛠️
