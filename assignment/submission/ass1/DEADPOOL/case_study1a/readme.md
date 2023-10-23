@@ -7,8 +7,9 @@
 
 # Assignment 1a: Examination results
 
-### Group Name: XXX
+### Group Name: DEADPOOL
 
+XXXXXX
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
