@@ -7,7 +7,7 @@
 
 # Assignment 1: Data analysis using Google Sheets
 
-### Group Name: ATONG
+### Group Name: ATONG (ATG)
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
