@@ -73,7 +73,7 @@ _Figure 4_
 ----
 
 ## 2. Perform data processing
-### i. Convert the Academic, Sports, Co-Curriculum, Tent 1 and Tent 2 data values to two decimal places.
+### i. Convert the Academic, Sports, Co-Curriculum, Test 1 and Test 2 data values to two decimal places.
 
 
 ![Screenshot (982)](https://github.com/drshahizan/HPDP/assets/89633522/5635183f-4dba-429d-90e4-f607bdcb4993)
