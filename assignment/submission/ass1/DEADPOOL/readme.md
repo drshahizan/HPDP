@@ -13,9 +13,9 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | UMAR HAZIQ BIN MUHAMAD NORHISHAM            | A21EC0235     |  DATA PREPROCESSING DASHBOARD ASM1  |
-| SAM CHIA YUN              | A21EC0127     |      |
-| MUHAMMAD IZZUDDIN BIN SHABRIN             | A21EC0083     |      |
-| KEE SHIN PEARL             | A21EC0190     |      |
+| SAM CHIA YUN              | A21EC0127     | DATA TRANSFORMATION     |
+| MUHAMMAD IZZUDDIN BIN SHABRIN             | A21EC0083     |   VISUALIZATION   |
+| KEE SHIN PEARL             | A21EC0190     | DOCUMENTATION     |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
