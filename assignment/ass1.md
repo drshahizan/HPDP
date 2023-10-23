@@ -38,9 +38,9 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | 5. | ATG |  <a href="submission/ass1/ohSheet/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 6. | KHUCHIN |  <a href="submission/ass1/KHUCHIN/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 7. | GanTheGang |  <a href="submission/ass1/ganthegang/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-| 7. | ByteNav |  <a href="submission/ass1/ByteNav/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-| 7. | 3H |  <a href="submission/ass1/3H/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-| 7. | HPDP BEST |  <a href="submission/ass1/HPDP%20BEST/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 8. | ByteNav |  <a href="submission/ass1/ByteNav/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 9. | 3H |  <a href="submission/ass1/3H/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 10. | HANY |  <a href="submission/ass1/HANY/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 
 
 ### 3. Academic Integrity
