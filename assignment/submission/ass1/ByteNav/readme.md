@@ -12,9 +12,9 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| LOO ZHI YUAN            |A21EC0197      |Data Preprocessing      |
-| SOO WAN YING              |A21EC0227      |Documentation      |
-| LAU YEE CHI              |A21EC0042      |Visualization      |
+| LOO ZHI YUAN            |A21EC0197      |1|
+| SOO WAN YING              |A21EC0227      |2      |
+| LAU YEE CHI              |A21EC0042      |2     |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
