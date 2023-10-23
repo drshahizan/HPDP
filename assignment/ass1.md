@@ -36,7 +36,7 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | 3. |  GPS |  <a href="submission/ass1/" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 4. | sheemart |  <a href="submission/ass1/sheemart/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 5. | ATG |  <a href="submission/ass1/ohSheet/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-| 6. | KhuChin |  <a href="submission/ass1/KHUCHIN/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 6. | KhuChin |  <a href="submission/ass1/KhuChin/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 7. | GanTheGang |  <a href="submission/ass1/ganthegang/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 8. | ATONG |  <a href="submission/ass1/ATONG/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 9. | 3H |  <a href="submission/ass1/3H/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
