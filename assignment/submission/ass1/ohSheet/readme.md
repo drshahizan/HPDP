@@ -12,10 +12,13 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              |   A21E0053   |      |
-| Student 2              |      |      |
-| Student 3              |      |      |
-| Student 4              |      |      |
+| Student 1              |  A21EC0053
+    |   MIKHAIL BIN YASSIN    |
+| Student 2              |    FAUZAN AQIL BIN AZMAN  |   A21EC0174
+   |
+| Student 3              |   YASMEEN NATASHA BINTI HAFIZ SHAHREL   |   A21EC0147
+   |
+| Student 4              |  MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ    |   A21EC0061   |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)

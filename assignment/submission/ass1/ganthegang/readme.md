@@ -11,11 +11,11 @@
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
-| :----------------------------------------| :-------------: | ------------- |
-| ALIEYA ZAWANIE BINTI A ZAINI             | A21EC0156     | 1     |
-| YEW RUI XIANG                            | A21EC0141     |  2    |
-| WAN AMIRUL HAFIQ BIN WAN HUZAINI         | A21EC0141     | 1     |
-| ABDUL MUHAIMIN BIN ABDUL RAZAK           | A21EC0002     |2      |
+| :---------------------------------------- | :-------------: | ------------- |
+| Student 1              |      |      |
+| Student 2              |      |      |
+| Student 3              |      |      |
+| Student 4              |      |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)

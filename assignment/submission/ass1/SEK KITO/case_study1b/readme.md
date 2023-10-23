@@ -7,7 +7,7 @@
 
 # Assignment 1b: Sales performance
 
-### Group Name: (3H) HAHAHA
+### Group Name: XXX
 
 
 ## Contribution 🛠️
