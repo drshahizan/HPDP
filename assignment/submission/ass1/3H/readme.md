@@ -13,10 +13,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| IZZAT HAQEEMI BIN HAIRUDIN                |A21EC0033      |      |
-| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL     |A21EC0054    |      |
-| NG SUANG JOO              |A21EC0102    |      |
-| NG ZI XING             |      |      |
+| IZZAT HAQEEMI BIN HAIRUDIN                |A21EC0033      | Data-Anlysis      |
+| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL     |A21EC0054    | Data-Visualization     |
+| NG SUANG JOO              |A21EC0102    | Documentation     |
+| NG ZI XING             | A21EC0213     | Data-Preprocessing  |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
