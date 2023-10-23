@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| HAFIZULSHAH BIN SHAROM | A21EC0027 |      |
-| ALYA DAMIA BINTI HUZAIMY | A21EC0159 |      |
-| MUHAMMAD HASAN BIN CHE ABDULLAH | A21EC0077 |      |
-| NIK AMIRUL ARIFF BIN AMRAN | A21EC0214 |      |
+| HAFIZULSHAH BIN SHAROM | A21EC0027 | DOCUMENTATION |
+| ALYA DAMIA BINTI HUZAIMY | A21EC0159 | ANALYSIS |
+| MUHAMMAD HASAN BIN CHE ABDULLAH | A21EC0077 | PREPROCESSING |
+| NIK AMIRUL ARIFF BIN AMRAN | A21EC0214 | VISUALISATION |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
