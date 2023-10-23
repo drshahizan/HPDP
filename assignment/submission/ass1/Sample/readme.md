@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              |SAM CHIA YUN      | A21EC0127     |
-| Student 2              |MUHAMMAD IZZUDDIN BIN SHABRIN      | A21EC0083      |
-| Student 3              |UMAR HAZIQ BIN MUHAMAD NORHISHAM      | A21EC0235     |
-| Student 4              |KEE SHIN PEARL      | A21EC0190      |
+| Student 1              |SAM CHIA YUN      |  |
+| Student 2              |MUHAMMAD IZZUDDIN BIN SHABRIN      | |
+| Student 3              |UMAR HAZIQ BIN MUHAMAD NORHISHAM      |      |
+| Student 4              |KEE SHIN PEARL      |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
