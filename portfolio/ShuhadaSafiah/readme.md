@@ -2,40 +2,45 @@
   <img src="https://github.com/drshahizan/HPDP/assets/146691908/bd7cf9a8-d92c-45cc-9fe5-89a566a16804" alt="Shuhada's Profile Picture" width="600">
 </p>
 
+## Hello, I'm Shuhada Safiah 👋
 
-## <p align="center">Hey there, I'm Shuhada!</p>
-<p align="center">  
-I'm a passionate and driven third-year student pursuing a Bachelor's degree in Computer Science with a focus on Data Engineering. As a tech enthusiast, I'm constantly exploring and learning about the latest trends in the world of data and technology.
-</p>
+📍 **Birthplace:** Tumpat, Kelantan
 
-### 💼 Current Role
-- 🌐 Vice Secretary at Google Developer Student Clubs UTM (GDSC UTM): As GDSC UTM member, I'm dedicated to fostering a vibrant tech community by organizing workshops, hackathons, and events to inspire fellow students and enthusiasts in the field of technology.
+📚 **Education:**
+- Secondary School: SMS Pasir Puteh
+  - Achieved 9A's in SPM
 
-### 🚀 What Drives Me
-I'm enthusiastic about harnessing the power of data and technology to solve real-world problems. My journey in computer science is driven by the thrill of unlocking insights from data and creating innovative solutions that make a positive impact on our society.
+- Foundation: UiTM Dengkil
+  - Majored in Engineering
+  - Maintained a CGPA of 4.00
 
-### 💡 Interests
-- Data Engineering
-- Machine Learning
-- Web Development
-- Open Source Projects
-- Community Building
+- Degree: Bachelor of Computer Science (Data Engineering)
+  - Currently in the third year of my program
 
-### 🌟 Get to Know Me
-- 📷 [Instagram](https://www.instagram.com/invites/contact/?i=19x59w0l2qil5&utm_content=1l2wh10)
-- 📧 [Email](mailto:shuhadasafiah07@gmail.com)
+🌟 **Current Roles and Achievements:**
+- 📢 Multimedia and Publicity Exco (Executive Committee Member) for Jawatankuasa Kolej Mahasiswa Kolej Tun Dr. Ismail for the academic year 22/23.
 
-### 🌟 Let's Connect
-I'm always open to collaboration, learning from others, and contributing to exciting projects. Feel free to connect with me and explore the wonderful world of technology together!
+- 🌐 Vice Secretary of Google Developer Student Clubs UTM for the academic year 23/24.
 
+💻 **Programming Languages:**
 <p align="center">
-  <a href="https://my.linkedin.com/in/nur-shuhada-safiah-ayob-932105242">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/ShuhadaSafiah">
-    <img src="https://img.shields.io/badge/GitHub-Follow-9cf" alt="GitHub">
-  </a>
+  <img src="https://img.shields.io/badge/C++-blue" alt="C++">
+  <img src="https://img.shields.io/badge/C-orange" alt="C">
+  <img src="https://img.shields.io/badge/Java-red" alt="Java">
+  <img src="https://img.shields.io/badge/HTML-orange" alt="HTML">
+  <img src="https://img.shields.io/badge/R-green" alt="R">
+  <!-- Add more languages here -->
 </p>
 
-<p align="center">Looking forward to sharing knowledge and experiences with the tech community! ✨</p>
+🚀 **What Drives Me:**
+I'm passionate about technology and data-driven solutions. My goal is to harness the power of data to create innovative solutions that have a positive impact on our society.
+
+I'm always open to collaboration, learning, and contributing to exciting projects. Feel free to connect with me and explore the world of technology together!
+
+📧 **Contact:**
+- Email: nurshuhadasafiah@graduate.utm.my
+
+Looking forward to sharing knowledge and experiences with the tech community! ✨
+
+
 
