@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              |SAM CHIA YUN      |  |
-| Student 2              |MUHAMMAD IZZUDDIN BIN SHABRIN      | |
-| Student 3              |UMAR HAZIQ BIN MUHAMAD NORHISHAM      |      |
-| Student 4              |KEE SHIN PEARL      |      |
+| Student 1              |    |  |
+| Student 2              |   | |
+| Student 3              |    |      |
+| Student 4              |     |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
