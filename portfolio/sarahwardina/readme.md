@@ -1,6 +1,6 @@
 <p align="center">
 <div align="center">
-<img src="image.jpeg" alt="IMG_20220504_222220_155 Small" width="200px" height="270px">
+<img src="IMG_20220504_222220_155 Small" alt="IMG_20220504_222220_155 Small" width="200px" height="270px">
 
 </div>
 </p> 
