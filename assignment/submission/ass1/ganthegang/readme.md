@@ -14,7 +14,7 @@
 | :---------------------------------------- | :-------------: | ------------- |
 | ALIEYA ZAWANIE BINTI A ZAINI         |  A21EC0156    |   DOCUMENTATION   |
 | ABDUL MUHAIMIN BIN ABDUL RAZAK              |    A21EC0002  |   DATA PROCESSSING   |
-| WAN AMIRUL HAFIQ BIN WAN HUZAINI             |   A21EC0141   |   DATA PROCESSING   |
+| WAN AMIRUL HAFIQ BIN WAN HUZAINI             |   A21EC0141   |   ANALYSIS   |
 | YEW RUI XIANG             |    A21EC0149  |   DATA CLEANING   |
 
 ### 📂 Folder content:
