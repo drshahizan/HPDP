@@ -7,7 +7,7 @@
 
 # Assignment 1: Data analysis using Google Sheets
 
-### Group Name: Sample
+### Group Name: SEK KITO
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
