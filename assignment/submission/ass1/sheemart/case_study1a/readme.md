@@ -73,7 +73,7 @@ _Figure 4_
 ----
 
 ## 2. Perform data processing
-### i. Convert the Academic, Sports, Co-Curriculum, Test 1 and Test 2 data values to two decimal places.
+#### i. Convert the Academic, Sports, Co-Curriculum, Test 1 and Test 2 data values to two decimal places.
 
 
 ![Screenshot (982)](https://github.com/drshahizan/HPDP/assets/89633522/5635183f-4dba-429d-90e4-f607bdcb4993)
@@ -83,8 +83,30 @@ _Figure 5_
 
 </div>
 
-- Click **Ctrl+ Shift** and click on Academics table, Sports, Co-Curriculum, Test 1 and Test 2. Then, click on **increase decimal place** button on the ribon one time. 
+- Click **Ctrl+ Shift** and click on Academics table, Sports, Co-Curriculum, Test 1 and Test 2. Then, click on **increase decimal place** button on the ribon one time.
 
+-----
+
+#### ii.	Please provide a new value for columns B (Academic) through F (Test 2), with the new maximum value of 3.33 for each column. Please update the values in columns G (P1) to K (PS) (refer to Table 2 and Figure 2). Values are displayed to two decimal places.
+
+
+![Screenshot (990)](https://github.com/drshahizan/HPDP/assets/89633522/12207198-cad7-42df-a7c6-686799208c3f)
+<div align="center">
+  
+_Figure 6_
+
+</div>
+
+- Add column P1, P2, P3, P4 and P5
+- For column P1, use formula =(B2/61)*3.33. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
+- Continue to calculate the value of P2 until P5 by using
+  P2 = (C2/61)*3.33
+  P3 = (D2/10)*3.33
+  P4 = (E2/15)*3.33
+  P5 = (F2/15)*3.33
+- Press Ctrl + D to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+  
 
 
 
