@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| ALYA BALQISS BINTI AZAHAR             |A21EC0158      |      |
-| MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     |      |
-|NADIA SYAFIQAH BINTI ZULKIPLI|      | A21EC0098     |
-| LIEW YVONNE              |A21EC0045      |      |
+| ALYA BALQISS BINTI AZAHAR             |A21EC0158      | DOCUMENTATION     |
+| MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | ANALYSIS     |
+|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | PREPROCESSING     |
+| LIEW YVONNE              |A21EC0045      | VISUALISATION     |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
