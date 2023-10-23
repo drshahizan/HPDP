@@ -7,7 +7,7 @@
 
 # Assignment 1b: Sales performance
 
-### Group Name: GPS (GroupPalingSolid)
+### Group Name: HANY
 
 
 ## Contribution 🛠️
