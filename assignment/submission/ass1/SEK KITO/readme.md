@@ -11,7 +11,7 @@
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
-| :---------------------------------------- | :-------------: | ------------- |
+| :---------------------------------------- | :-------------: | :-------------: |
 | HAFIZULSHAH BIN SHAROM | A21EC0027 | DOCUMENTATION |
 | ALYA DAMIA BINTI HUZAIMY | A21EC0159 | ANALYSIS |
 | MUHAMMAD HASAN BIN CHE ABDULLAH | A21EC0077 | PREPROCESSING |
