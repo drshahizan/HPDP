@@ -16,29 +16,29 @@
 3. To provide new value for columns B through F, at column G,
 enter the formula: "=(B2/61*3.33)"
 and fill the remaining rows by Ctrl + Enter, the same procedure for column H, I, J, and K with different formula, and make sure to change them to 2 decimal places like step 2
-<p align="center"><img align="center" alt="Coding" width="400" src="g.png"> </p>
-<p align="center"><img align="center" alt="Coding" width="400" src="h.png"> </p>
-<p align="center"><img align="center" alt="Coding" width="400" src="i.png"> </p>
-<p align="center"><img align="center" alt="Coding" width="400" src="j.png"> </p>
-<p align="center"><img align="center" alt="Coding" width="400" src="k.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="g.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="h.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="i.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="j.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="k.png"> </p>
 4. For another 3 new column which are B1, B2, and B3 that want to find the highest, second highest, and third highest value from column G to K, in the new column,
 enter:
 B1: "=large(G2:K2,1)"
-<p align="center"><img align="center" alt="Coding" width="400" src="b1.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="b1.png"> </p>
 B2: "=large(G2:K2,2)"
-<p align="center"><img align="center" alt="Coding" width="400" src="b2.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="b2.png"> </p>
 B3: "=large(G2:K2,3)"
-<p align="center"><img align="center" alt="Coding" width="400" src="b3.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="b3.png"> </p>
 5. To know the total points, at Column O (TM), enter:"=SUM(L2:N2)" which sum the column L to N.
 <p align="center"><img align="center" alt="Coding" width="400" src="tm.png"> </p>
 6. To calculate the percentage in column O (TM), in column P, enter:"=O2*10", and make sure to change them to 2 decimal places like step 2
-<p align="center"><img align="center" alt="Coding" width="400" src="percent.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="percent.png"> </p>
 7. To know the grade of each record, at column Q row 2, 
 enter:"=IF(P2 >= 90, "A+", IF(P2 >= 80, "A", IF(P2 >= 75, "A-", IF(P2 >= 70, "B+", IF(P2 >= 65, "B", IF(P2 >= 60, "B-", IF(P2 >= 55, "C+", IF(P2 >= 50, "C", IF(P2 >= 45, "C-", IF(P2 >= 40, "D+", IF(P2 >= 35, "D", IF(P2 >= 30, "D-", "E"))))))))))))"
-<p align="center"><img align="center" alt="Coding" width="400" src="grade.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="grade.png"> </p>
 8. To categorize the grades as PASS or FAIL, at Column R, 
 enter:"= IF(AND(P2>=65, P2<=100), "PASS", "FAIL")"
-<p align="center"><img align="center" alt="Coding" width="400" src="status.png"> </p>
+<p align="center"><img align="center" alt="Coding" width="200" src="status.png"> </p>
 
   
 ## Contribution 🛠️
