@@ -10,12 +10,12 @@
 ### Group Name: Sample
 ### Group Members
 
-| Name                                     | Matrix Number |
-| ---------------------------------------- | ------------- |
-| Student 1              |      |
-| Student 2              |      |
-| Student 3              |      |
-| Student 4              |      |
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | ------------- |
+| Student 1              |      |      |
+| Student 2              |      |      |
+| Student 3              |      |      |
+| Student 4              |      |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
