@@ -11,7 +11,7 @@
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
-| :---------------------------------------- | :-------------: | ------------- |
+| :---------------------------------------- | :-------------: | :-------------: |
 | ALYA BALQISS BINTI AZAHAR             |A21EC0158      | DOCUMENTATION     |
 | MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | ANALYSIS     |
 |NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | PREPROCESSING     |
