@@ -31,7 +31,7 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | No | Group |  File |
 | -----: |  ------ | :-----: | 
 | 0. | Sample  |  <a href="submission/ass1/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-| 2. | ohSheet |  <a href="submission/ass1/ohSheet/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
+| 2. | ohSheet |  <a href="submission/ass1/ohSheet/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 3. |  GPS |  <a href="submission/ass1/" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 4. | sheemart |  <a href="submission/ass1/ohSheet/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 
