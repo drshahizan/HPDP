@@ -14,7 +14,7 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | IZZAT HAQEEMI BIN HAIRUDIN                |A21EC0033      |      |
-| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL               |    |      |
+| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL     |A21EC0054    |      |
 | NG SUANG JOO              |    |      |
 | NG ZI XING             |      |      |
 
