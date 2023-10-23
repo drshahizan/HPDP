@@ -7,15 +7,15 @@
 
 # Assignment 1: Data analysis using Google Sheets
 
-### Group Name: Sample
+### Group Name: GPS (GroupPalingSolid)
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              |      |      |
-| Student 2              |      |      |
-| Student 3              |      |      |
-| Student 4              |      |      |
+| MUHAMMAD FARHAN BIN IBRAHIM | A21EC0072   |      |
+| FONG KHAH KHEH              | A21EC0026   |      |
+| LING WAN YIN                | A21EC0047   |      |
+| SARAH WARDINA BINTI RAFIDIN | A21EC0128   |      |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
