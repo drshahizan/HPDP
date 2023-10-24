@@ -213,7 +213,7 @@ Figure 20: The Red Font
 10. Click on 'Format', choose 'Conditional Formatting' and follow the steps below.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=250>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=300>
 </p>
 <div align="center">  
 Figure 21:  Percentage greater than 65 will be coloured in Green
