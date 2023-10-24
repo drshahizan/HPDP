@@ -30,3 +30,55 @@ Google Sheet : https://docs.google.com/spreadsheets/d/1NeqlqmzfCoZzOjti6SplwZSnE
 
 ---
 
+## 1. Import dataset into Google Sheet
+
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/96f95fff-a9e4-4864-a031-bf3dc30c80ad">
+</p>
+
+<div align="center">
+  
+_Figure 1: Import the data_
+
+</div>
+
+
+- After opening Google Sheet, click on **File** and choose **Import**.
+
+
+![Screenshot (979)](https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043)
+
+<div align="center">
+  
+_Figure 2: Choose your data_
+
+</div>
+
+- Choose** Browse **and choose 'Dataset2.txt' as our dataset.
+
+  
+![Screenshot (980)](https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d)
+
+<div align="center">
+  
+_Figure 3: Import data_
+
+</div>
+
+- Choose '**Replace in current sheet**' as Import location and '**Detect automatically**' as separator type. Check on the checkboard. Then, click Import Data.
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/969f848b-a9a4-4910-aea6-ec1981f67d99">
+</p>
+
+<div align="center">
+
+_Figure 4: Database imported successfully_
+
+</div>
+
+- The database has imported successfully.
+  
+----
+
