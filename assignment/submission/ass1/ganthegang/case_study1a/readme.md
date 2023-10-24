@@ -132,7 +132,7 @@ Figure 11: As for the column ‘Sports’, which is named P5 under the H column,
 
 3. Round off every new column by clicking on the Format ribbon, then choose 'Number'".
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submissionass1/ganthegang/case_study1a/11.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/11.png" width=500>
 </p>
 <div align="center">  
 Figure 12: Rounding off to two decimal places
@@ -160,7 +160,7 @@ Figure 14: For the second-highest value for H2, use the formula above. After tha
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/14.png" width=400>
 </p>
 <div align="center">  
-For the second-highest value for H3, use the formula above. After that, click on column N2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+Figure 15: For the second-highest value for H3, use the formula above. After that, click on column N2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 </div>
 <br>
 
@@ -178,7 +178,7 @@ Figure 16: Calculate Total Value For The Top Three Highest Value
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/16.png" width=400>
 </p>
 <div align="center">  
-Figure 16: To Calculate the percentage
+Figure 17: To Calculate the percentage
 </div>
 <br>
 
@@ -187,7 +187,7 @@ Figure 16: To Calculate the percentage
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/17.png" width=400>
 </p>
 <div align="center">  
-Figure 16: Formula To determine grades.
+Figure 18: Formula To determine grades.
 </div>
 <br>
 
@@ -196,7 +196,7 @@ Figure 16: Formula To determine grades.
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/18.png" width=400>
 </p>
 <div align="center">  
-Figure 16: Formula To Determine Status
+Figure 19: Formula To Determine Status
 </div>
 <br>
 
@@ -206,7 +206,7 @@ Figure 16: Formula To Determine Status
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/19.png" width=400>
 </p>
 <div align="center">  
-Figure 16: Formula for column Percent
+Figure 20: Formula for column Percent
 </div>
 <br>
 
