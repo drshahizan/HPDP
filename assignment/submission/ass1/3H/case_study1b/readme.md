@@ -8,7 +8,11 @@
 # Assignment 1b: Sales performance
 
 ### Group Name: (3H) HAHAHA
-1. Import dataset to ....
+1. Import the Dataset1.txt into Google Sheets, on the left upper menu bar, choose **"File" -> "Import"**.
+<p align="center">
+  <img src="https://github.com/drshahizan/HPDP/assets/142320760/4e2ac1b6-db4b-49d4-8f50-1fd58ef1e8ea" alt="Image Description">
+</p> 
+
 2. Contain nine column
 3. Monthly Sales
    - Click insert and choose pivot table
