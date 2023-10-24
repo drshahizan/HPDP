@@ -143,7 +143,7 @@ _Figure 7: The output of the data_
 
 <div align="center">
   
-_Figure 8_
+_Figure 8: Output of B1,B2,B3_
 
 </div>
 
