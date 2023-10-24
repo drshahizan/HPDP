@@ -105,8 +105,18 @@
 9. Slicer: Sales Year, Sales Region, Sales Products, Customer, Sales Person
     - Click Data
     - Click add a slicer
+      
+      ![image](https://github.com/drshahizan/HPDP/assets/101933666/7342938a-cba8-44b4-9842-65ed27c53b7f)
+      
     - Select data range from dataset2 sheet
     - Column: click sales year
+
+      ![image](https://github.com/drshahizan/HPDP/assets/101933666/bcfacdcb-9819-48b3-9315-5722731d9740)
+
+      ![image](https://github.com/drshahizan/HPDP/assets/101933666/466fbcc4-195d-4b91-ac5d-95ed380d5cfe)
+
+
+
 
      Copy paste the slicer and change the column with sales region, sales products, customer and sales person
 10. Dashboard
