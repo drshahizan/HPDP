@@ -25,7 +25,7 @@
 + [Dashboard](#dashboard)
   
 ## Dataset Information <a name = "dataset_info"></a>
-This dataset is called dataset1.txt. This dataset has five columns that contain information about Id_No, Academic, Sports, Co-Curriculum, Test_1 and Test_2. Table 1 shows the full marks for the data
+This dataset is called dataset2.txt. This dataset has nine columns that contain information about Customers, Products, SalesPerson, SalesRegion, SalesYear, SalesMonth, SalesQtr. Table 1 shows the full marks for the data
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
