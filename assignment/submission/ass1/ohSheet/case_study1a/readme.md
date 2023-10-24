@@ -28,6 +28,14 @@
 The main goal of this project is to utilize Google Sheets to process and present data, with a specific focus on a case study related to examination results. The project involves tasks such as calculating statistics, creating charts, and generating meaningful insights from the examination results. Overall, the project emphasizes practical data manipulation and visualization skills within the context of educational assessment.
 
 ## Importing and Preprocessing Data <a name = "preprocess"></a>
+1. Download the Dataset1.txt file.
+2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
+3. Choose the file and click 'Import data'.
+4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
+5. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select cell B through cell F.
+6. Choose 'Format' and click 'Number'.
+7. Select 'Custom number format' and apply the two decimal values.
+8. Create 
 
 ## Obtaining Grade and Status <a name = "grade_status"></a>
 
