@@ -228,10 +228,19 @@ _Figure 11_
 ## Output of the data
 
 ![Screenshot (999)](https://github.com/drshahizan/HPDP/assets/89633522/7ea7fe5f-8751-4618-bced-3e65edc646f7)
+<div align="center">
+  
+_Figure 12 : Final ouput of the sheet_
+
+</div>
 
 
 ![Screenshot (1000)](https://github.com/drshahizan/HPDP/assets/89633522/6ce1a2c2-dda4-4827-825a-1d44bc148259)
+<div align="center">
+  
+_Figure 13 : Final ouput of the sheet_
 
+</div>
 
 # 3. Create Dashboard in Google Sheet.
 
