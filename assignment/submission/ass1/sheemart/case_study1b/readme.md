@@ -22,7 +22,7 @@
 
 - [Table of content](#Table-of-content)
 - [1. Import dataset into Google Sheet](#1-Import-dataset-into-Google-Sheet)
-- [2. Create "TempData"](#2-Create-"TempData")
+- [2. Create "TempData"](#2-Create-TempData)
 - [3. Create Pivot Table](#3-Create-Pivot-Table)
 - [4. Create Chart](#4-Create-Chart)
 - [5. Create Slicer](#5-Create-Slicer)
