@@ -8,7 +8,32 @@
 # Assignment 1b: Sales performance
 
 ### Group Name: (3H) HAHAHA
-
+1. Import dataset to ....
+2. Contain nine column
+3. Monthly Sales
+   - Click insert and choose pivot table
+   - Select the data range from the dataset2 sheet
+   - Insert the pivot table into new sheet name as Real
+   - Click create
+   - In Pivot table editor,
+     + Rows: click/drag Month Index and Sales Month
+     + Values: click/drag Sales and Target
+     + Close Pivot table editor
+   - Click insert and choose chart
+   - In Chart editor;
+     + Chart type: Stacked area chart
+     + Stacking: Standard
+     + Data range: select the column of your pivot table
+     + X-axis: Sales Month
+     + Series: Sum of Target and Sum of Month
+     + Tick use column M as an label
+     + Close Chart editor
+5. Region
+6. Customer
+7. Salesperson
+8. Sales Trend
+9. Slicer: Sales Year, Sales Region, Sales Products, Customer, Sales Person
+10. Dashboard
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
