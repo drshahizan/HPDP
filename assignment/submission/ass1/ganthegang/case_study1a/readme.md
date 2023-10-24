@@ -43,7 +43,7 @@ Figure 1: To import Dataset
 2. Select on the 'Upload' and click on 'Browse.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/2.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/2.png" width=400>
 </p>
 
 <div align="center">
@@ -56,7 +56,7 @@ Figure 2: Browse To Import The Dataset
 3. Select the 'Dataset1.txt' and then press 'OK'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/3.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/3.png" width=400>
 </p>
 
 <div align="center">
@@ -67,7 +67,7 @@ Figure 3: Select The Dataset
 
 4. After the file has been loaded into Google Sheets, click on 'Import Data'. 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=300>
 </p>
 
 <div align="center">
