@@ -26,6 +26,7 @@
 
 We work with a dataset called dataset2.txt. This dataset contain nine columns. Customer, product, and salespeson are some of the column use
 
-Source code : https://docs.google.com/spreadsheets/d/1NeqlqmzfCoZzOjti6SplwZSnEMmr9rE3DAy8bdw6gSY/edit#gid=1654905438
+Google Sheet : https://docs.google.com/spreadsheets/d/1NeqlqmzfCoZzOjti6SplwZSnEMmr9rE3DAy8bdw6gSY/edit#gid=1654905438
 
 ---
+
