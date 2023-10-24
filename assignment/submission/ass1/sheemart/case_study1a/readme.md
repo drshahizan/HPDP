@@ -91,22 +91,45 @@ _Figure 5_
 
 
 ![Screenshot (990)](https://github.com/drshahizan/HPDP/assets/89633522/12207198-cad7-42df-a7c6-686799208c3f)
+
 <div align="center">
   
 _Figure 6_
 
 </div>
 
-- Add column P1, P2, P3, P4 and P5
-- For column P1, use formula =(B2/61)*3.33. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
-- Continue to calculate the value of P2 until P5 by using
+- **Add** column P1, P2, P3, P4 and P5
+- For **column P1**, use formula =*(B2/61)*3.33*. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
+- **Continue** to calculate the value of P2 until P5 by using
   -  P2 = (C2/61)*3.33
   -  P3 = (D2/10)*3.33
   -  P4 = (E2/15)*3.33
   -  P5 = (F2/15)*3.33
-- Press Ctrl + D to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+- Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+----
+
+#### iii. Determine the top three values based on the values in columns G to K. Fill in the highest value in column L (B1), the second highest value in column M (B2), and the third highest value in column N (B3)
 
   
+![Screenshot (991)](https://github.com/drshahizan/HPDP/assets/89633522/3f5306b5-44ce-469a-85a0-bb60c787a227)
+
+<div align="center">
+  
+_Figure 7_
+
+</div>
+
+- **Add** column B1, B2 AND B3.
+- For **column B1**, use formula *=LARGE(UNIQUE(G2:K2),1)*
+- The reason behind this formula is to find the first highest mark of P1 until P5 in column L (B1).
+- **Continue** to calculate the value of B2 until B3 by using
+  - B2 = LARGE(UNIQUE(G2:K2),2)
+  - B3 = LARGE(UNIQUE(G2:K2),3)
+- Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+------
+
 
 
 
