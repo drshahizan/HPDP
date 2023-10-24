@@ -224,7 +224,7 @@ Figure 20:  Percentage greater than 65 will be coloured in Green
 16. Select column 'Status, and press right-click to create a filter to filter "Pass" only.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/23.png" width=350>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/23.png" width=200>
 </p>
 <div align="center"> 
 Figure 21: Pass Filtering
