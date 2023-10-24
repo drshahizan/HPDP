@@ -60,7 +60,11 @@ The main goal of this project is to utilize Google Sheets to process and present
    
    For each column, click enter after filling out the formula to autofill the entire column. 
 
-9. 
+9. Create three new columns named B1 (Column L), B2 (Column M), and B3 (Column N) to determine the top three values based on the values on columns G to K. The new columns represent information as below:
+
+   Column L (B1): The highest value
+   Column M (B2): The second highest value
+   Column N (B3): The third highest value
 
 
 ## Obtaining Grade and Status <a name = "grade_status"></a>
