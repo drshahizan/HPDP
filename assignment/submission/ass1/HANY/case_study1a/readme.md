@@ -9,6 +9,25 @@
 
 ### Group Name: HANY
 
+# Importing a Dataset into Google Sheets
+Before you can create a dashboard or begin analyzing your data, you must first import your dataset into Google Sheets, as shown in Figure 1. 
+
+![image-mh](https://github.com/drshahizan/HPDP/assets/87573002/6a513be3-564f-488d-a4fa-24d6a9d0beca)
+![Import1](https://github.com/drshahizan/HPDP/assets/87573002/41a51e7f-2c87-4307-933c-9f8d00eed17d)
+<center>**Figure 1:** Importing dataset.</center>
+
+  1. Navigate to the **File** menu, and then choose for the **Import** option.
+  2. Explore your directory to locate by clicking **Browse**.
+  3. Choose for the file named **Dataset1.txt**.
+  4. Click on **Open** to bring the data into Google Sheets.
+
+     
+
+
+
+
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
