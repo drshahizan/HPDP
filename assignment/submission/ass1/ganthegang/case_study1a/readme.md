@@ -1,4 +1,4 @@
-<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
+![image](https://github.com/drshahizan/HPDP/assets/133087111/6b605ee3-a07b-42ce-a5e4-6242ae005fab)<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/network/members"><img src="https://img.shields.io/github/forks/drshahizan/BDM" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/BDM" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/BDM"><img src="https://img.shields.io/github/issues/drshahizan/BDM" alt="Issues Badge"/></a>
@@ -32,7 +32,7 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
 ## Data Import and Data Preprocessing <a name = "preprocessing"></a>
 1. In the ribbon 'File', click on "Import" to upload the “Dataset1.txt”.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/1.png">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/1.png" width=300>
 </p>
 
 <div align="center">
@@ -43,7 +43,7 @@ Figure 1: To import Dataset
 2. Select on the 'Upload' and click on 'Browse.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/2.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/2.png" width=300>
 </p>
 
 <div align="center">
@@ -129,7 +129,6 @@ Figure 11: As for the column ‘Sports’, which is named P5 under the H column,
 </div>
 <br>
 
-<be>
 
 3. Round off every new column by clicking on the Format ribbon, then choose 'Number'".
 <p align="center">
@@ -147,8 +146,8 @@ Figure 12: Rounding off to two decimal places
 <div align="center">  
 Figure 13: For the highest values for column H1, use the formula as shown. After that, click on column L1, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 </div>
+<be>
 
-<br>
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/13.png" width=400>
 </p>
@@ -181,6 +180,7 @@ Figure 16: Calculate Total Value For The Top Three Highest Value
 <div align="center">  
 Figure 16: To Calculate the percentage
 </div>
+<br>
 
 7. The formula is used as follows to determine grades based on the respective marks.
 <p align="center">
