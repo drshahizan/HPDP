@@ -210,10 +210,10 @@ Figure 20: The Red Font
 </div>
 <be>
 
-15. Click on 'Format' ,choose 'Conditional Formatting' and follow the steps below.
+15. Click on 'Format', choose 'Conditional Formatting' and follow the steps below.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=250>
 </p>
 <div align="center">  
 Figure 20:  Percentage greater than 65 will be coloured in Green
@@ -224,7 +224,7 @@ Figure 20:  Percentage greater than 65 will be coloured in Green
 16. Select column 'Status, and press right-click to create a filter to filter "Pass" only.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/20.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/23.png" width=350>
 </p>
 <div align="center"> 
 Figure 21: Pass Filtering
