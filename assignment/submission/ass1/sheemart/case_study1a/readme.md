@@ -27,11 +27,14 @@
 
 We work with a dataset called dataset1.txt. This dataset has five column that contain information about Id_no, Academic, Sports, Co-curiculum, Test_1 and Test_2.
 
+Source code : (https://docs.google.com/spreadsheets/d/1QnBDqq86TcZbKna6d90OCFNhZcOz8nY8N5COSs3UppM/edit#gid=158907566)
+
 ---
 
 ## 1. Import dataset into Google Sheet
 
-![Screenshot (978)](https://github.com/drshahizan/HPDP/assets/89633522/904d2f0a-9d3e-4670-8a20-74eff83f6af3)
+![Screenshot (978)](https://github.com/drshahizan/HPDP/assets/89633522/96f95fff-a9e4-4864-a031-bf3dc30c80ad)
+
 <div align="center">
   
 _Figure 1_
@@ -42,8 +45,8 @@ _Figure 1_
 - After opening Google Sheet, click on **File** and choose **Import**.
 
 
-![Screenshot (979)](https://github.com/drshahizan/HPDP/assets/89633522/b9da0112-a0ad-418d-a16c-2a9295e1569b)
-<div align="center">
+![Screenshot (979)](https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043)
+
   
 _Figure 2_
 
@@ -52,7 +55,8 @@ _Figure 2_
 - Choose** Browse **and choose 'Dataset1.txt' as our dataset.
 
   
-![Screenshot (980)](https://github.com/drshahizan/HPDP/assets/89633522/d0b48741-7eb7-48f8-bfcc-ebd7c5d60f28)
+![Screenshot (980)](https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d)
+
 <div align="center">
   
 _Figure 3_
@@ -61,7 +65,10 @@ _Figure 3_
 
 - Choose '**Replace in current sheet**' as Import location and '**Detect automatically**' as separator type. Check on the checkboard. Then, click Import Data.
 
-![Screenshot (981)](https://github.com/drshahizan/HPDP/assets/89633522/8e000844-ef78-4fa8-9e54-28d732bc53b8)
+  
+![Screenshot (981)](https://github.com/drshahizan/HPDP/assets/89633522/8cc5a7e5-f0f7-44e6-8911-d34385360f96)
+
+
 <div align="center">
   
 _Figure 4_
@@ -76,8 +83,8 @@ _Figure 4_
 #### i. Convert the Academic, Sports, Co-Curriculum, Test 1 and Test 2 data values to two decimal places.
 
 
-![Screenshot (982)](https://github.com/drshahizan/HPDP/assets/89633522/5635183f-4dba-429d-90e4-f607bdcb4993)
-<div align="center">
+![Screenshot (982)](https://github.com/drshahizan/HPDP/assets/89633522/2ae18c09-70d7-4de1-975e-141a90cbd05f)
+
   
 _Figure 5_
 
@@ -89,8 +96,8 @@ _Figure 5_
 
 #### ii.	Please provide a new value for columns B (Academic) through F (Test 2), with the new maximum value of 3.33 for each column. Please update the values in columns G (P1) to K (PS) (refer to Table 2 and Figure 2). Values are displayed to two decimal places.
 
+![Screenshot (988)](https://github.com/drshahizan/HPDP/assets/89633522/6de5b0fb-cd84-40e8-a426-26ef9bb014e1)
 
-![Screenshot (990)](https://github.com/drshahizan/HPDP/assets/89633522/12207198-cad7-42df-a7c6-686799208c3f)
 
 <div align="center">
   
@@ -107,16 +114,24 @@ _Figure 6_
   -  P5 = *(F2/15)*3.33*
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
+  ![Screenshot (1001)](https://github.com/drshahizan/HPDP/assets/89633522/b37b0731-9fc3-402c-816f-8ab3adb82158)
+
+<div align="center">
+  
+_Figure 7: The output of the data_
+
+</div>
+
 ----
 
 #### iii. Determine the top three values based on the values in columns G to K. Fill in the highest value in column L (B1), the second highest value in column M (B2), and the third highest value in column N (B3)
 
-  
-![Screenshot (991)](https://github.com/drshahizan/HPDP/assets/89633522/3f5306b5-44ce-469a-85a0-bb60c787a227)
+
+![Screenshot (10000)](https://github.com/drshahizan/HPDP/assets/89633522/69a28f08-53d2-4773-812a-66d4b58ea695)
 
 <div align="center">
   
-_Figure 7_
+_Figure 8_
 
 </div>
 
@@ -132,11 +147,12 @@ _Figure 7_
 
 #### iv. Compute total points by combining the data from column L to N. The total mark value is entered in column O (TM).
 
-![Screenshot (992)](https://github.com/drshahizan/HPDP/assets/89633522/f0070eda-9c0d-4cc4-9ebd-113cae3ce38a)
+![Screenshot (993)](https://github.com/drshahizan/HPDP/assets/89633522/190c0f40-3524-4b60-8e9a-ca9841b97f5d)
+
 
 <div align="center">
   
-_Figure 8_
+_Figure 9 : Output of TM_
 
 </div>
 
@@ -150,12 +166,13 @@ _Figure 8_
 
 #### V. Please calculate the percentage value for data in the column O. In column P, enter percentage value (Percent). Check that the percentage value is within two decimal places.
 
-![Screenshot (994)](https://github.com/drshahizan/HPDP/assets/89633522/f76ccea7-bea6-44cd-ac5f-a9bfdffe7dee)
+
+![Screenshot (995)](https://github.com/drshahizan/HPDP/assets/89633522/c6152175-33ab-4475-806d-6115dd9a4a20)
 
 
 <div align="center">
   
-_Figure 9_
+_Figure 10 : Output of Percentage_
 
 </div>
 
@@ -176,12 +193,12 @@ _Table 3_
 
 </div>
 
+![Screenshot (1002)](https://github.com/drshahizan/HPDP/assets/89633522/76216ecc-40f8-4757-b831-ccd0d9387ff1)
 
-![Screenshot (995)](https://github.com/drshahizan/HPDP/assets/89633522/da04d28a-7b5f-4298-8740-81d5efb3fa82)
 
 <div align="center">
   
-_Figure 10_
+_Figure 10: Output of Grade_
 
 </div>
 
@@ -190,12 +207,12 @@ _Figure 10_
 - The reason behind this formula is to find the grade based on the mark given.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
-![Screenshot (997)](https://github.com/drshahizan/HPDP/assets/89633522/9d24b756-fd72-4f14-b99f-6e0bc1e9b783)
+  
 
 
 <div align="center">
   
-_Figure 10_
+_Figure 11: Output of status_
 
 </div>
 
