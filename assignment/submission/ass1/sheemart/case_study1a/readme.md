@@ -130,6 +130,37 @@ _Figure 7_
 
 ------
 
+#### iv. Compute total points by combining the data from column L to N. The total mark value is entered in column O (TM).
+
+![Screenshot (992)](https://github.com/drshahizan/HPDP/assets/89633522/f0070eda-9c0d-4cc4-9ebd-113cae3ce38a)
+
+<div align="center">
+  
+_Figure 8_
+
+</div>
 
 
+- **Add** column **TM**.
+- For **column TM**, use formula *=SUM(L2,M2,N2)1)*
+- The reason behind this formula is to find the total of COLUMN  L2, M2 and N2.
+- Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
+------
+
+#### V. Please calculate the percentage value for data in the column O. In column P, enter percentage value (Percent). Check that the percentage value is within two decimal places.
+
+![Screenshot (992)](https://github.com/drshahizan/HPDP/assets/89633522/97b8e33e-d27f-4113-be5c-3e51e42c0577)
+
+<div align="center">
+  
+_Figure 8_
+
+</div>
+
+- **Add** column **Percentage**.
+- For **column Percentage**, use formula *=ROUND(O2*10, 2)*
+- The reason behind this formula is to find the percentage of of column TM within two decimal places.
+- Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+  -------
