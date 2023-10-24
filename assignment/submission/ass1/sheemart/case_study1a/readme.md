@@ -318,9 +318,7 @@ _Figure 16 : Create pivot table_
 
 </div>
 
-- Choose pivot table on the Insert ribbon. Choose the respective dataset 
-  for Data range and choose new sheet for 'Insert to' section. Click on 
-  the button create.
+- **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for '**Insert to**' section. Click on the button create.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa">
@@ -332,8 +330,24 @@ _Figure 17 : Output of pivot table_
 
 </div>
 
-- Drag and drop Percent into the Rows section. Set the order to 'Ascending' and sort by 'Percent'. Tick on the 'Show totals'.
 
+![Screenshot (1010)](https://github.com/drshahizan/HPDP/assets/89633522/ffe72b0a-85b6-4e7d-ad82-c011c516dc9d)
+
+<div align="center">
+  
+_Figure 18 : Setup of chart_
+
+</div>
+
+- **Customize** the setup by using the information below
+    - **Chart type** : Scorecard chart
+    - **Data range** : A1:A6905.A2:A6903
+    - **Combine ranges** : Horizontally
+    - **Key Value** : Percent and choose either 'min', 'average' and 'max'
+    - **Tick** on 'Aggregate' and choose Min at the dropdown.
+
+- **Drag and drop Percent **into the Rows section. Set the order to  'Ascending' and sort by 'Percent'. Tick on the 'Show 
+    totals'.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5">
@@ -345,9 +359,18 @@ _Figure 18 : Change of scoreboard title_
 
 </div>
 
+- By click on Customize, please choose Chart & axis titles. Enter either 'Min' , 'Average' or 'Max' for the title text
 
-- 
+  <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/65d190e2-025c-4b2f-9d8e-65015c0480c5">
+</p>
+<div align="center">
+  
+_Figure 18 : Output of Min, Average and Max_
 
+</div>
+
+-----------------
 
 
 
