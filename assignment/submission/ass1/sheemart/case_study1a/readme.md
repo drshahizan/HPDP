@@ -350,7 +350,7 @@ _Figure 18 : Setup of chart_
     totals'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5"  width="500">
 </p>
 
 <div align="center">
@@ -362,7 +362,7 @@ _Figure 18 : Change of scoreboard title_
 - By click on Customize, please choose Chart & axis titles. Enter either 'Min' , 'Average' or 'Max' for the title text
 
   <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/65d190e2-025c-4b2f-9d8e-65015c0480c5">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/65d190e2-025c-4b2f-9d8e-65015c0480c5"  height="300">
 </p>
 <div align="center">
   
