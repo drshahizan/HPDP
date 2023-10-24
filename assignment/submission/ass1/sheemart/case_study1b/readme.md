@@ -90,7 +90,7 @@ _Figure 4: Database imported successfully_
 - The database has been imported successfully.
   
 ----
-## 2. Create "TempData"
+## 2. Create TempData
 
 We then created a temporary dataset called "TempData". The purpose of this temporary data is to allow us to work with the exact copy of the Dataset2.txt without applying permanent changes to the original dataset. This allows us to preprocess, transform and also add columns to the copy of the dataset without affecting the original dataset.
 
