@@ -46,8 +46,9 @@ _Figure 1: Import the data_
 
 - After opening Google Sheet, click on **File** and choose **Import**.
 
-
-![Screenshot (979)](https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043)
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/73b7f84c-2493-4f09-a9bd-63f06f0d1b3a">
+</p>
 
 <div align="center">
   
@@ -57,8 +58,9 @@ _Figure 2: Choose your data_
 
 - Choose** Browse **and choose 'Dataset2.txt' as our dataset.
 
-  
-![Screenshot (980)](https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d)
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/225bac12-557e-4e84-802c-01aa98711cf7">
+</p>
 
 <div align="center">
   
