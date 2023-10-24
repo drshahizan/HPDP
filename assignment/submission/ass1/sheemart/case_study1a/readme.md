@@ -168,6 +168,15 @@ _Figure 9_
 
  #### vi. Based on Table 3, assist a grade, Column Q is for grade, and column R is for status.
 
+ ![Screenshot (996)](https://github.com/drshahizan/HPDP/assets/89633522/f08923f8-c81f-40e4-bfc6-2a8d49176fc1)
+
+ <div align="center">
+  
+_Table 3_
+
+</div>
+
+
 ![Screenshot (995)](https://github.com/drshahizan/HPDP/assets/89633522/da04d28a-7b5f-4298-8740-81d5efb3fa82)
 
 <div align="center">
