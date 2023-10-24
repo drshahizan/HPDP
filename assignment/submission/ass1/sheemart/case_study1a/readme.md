@@ -208,6 +208,7 @@ _Figure 10: Output of Grade_
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
   
+![Screenshot (1003)](https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff)
 
 
 <div align="center">
@@ -227,11 +228,12 @@ _Figure 11: Output of status_
 
  #### vii. If the status is Pass, please colour column P with Green, You should colour the Pass line with light red.
 
- ![Screenshot (998)](https://github.com/drshahizan/HPDP/assets/89633522/4f9163de-3b0d-4478-b97a-5ac97d0476b7)
+![Screenshot (100039)](https://github.com/drshahizan/HPDP/assets/89633522/4e6d702f-5d90-4bff-ba16-bed7bb3ee6b2)
+
 
 <div align="center">
   
-_Figure 11_
+_Figure 12: Green colour with Pass status and Light Red for pass line_
 
 </div>
 
@@ -244,18 +246,18 @@ _Figure 11_
 
 ## Output of the data
 
-![Screenshot (999)](https://github.com/drshahizan/HPDP/assets/89633522/7ea7fe5f-8751-4618-bced-3e65edc646f7)
-<div align="center">
+![Screenshot (999)](https://github.com/drshahizan/HPDP/assets/89633522/33d3ef01-ccd6-4dca-9d19-3ca09cf7366e)
+
   
-_Figure 12 : Final ouput of the sheet_
+_Figure 13 : Final ouput of the sheet_
 
 </div>
 
 
-![Screenshot (1000)](https://github.com/drshahizan/HPDP/assets/89633522/6ce1a2c2-dda4-4827-825a-1d44bc148259)
-<div align="center">
+![Screenshot (1000)](https://github.com/drshahizan/HPDP/assets/89633522/536afc26-de8a-4fdb-9f42-36733e62b7b8)
+
   
-_Figure 13 : Final ouput of the sheet_
+_Figure 14 : Final ouput of the sheet_
 
 </div>
 
