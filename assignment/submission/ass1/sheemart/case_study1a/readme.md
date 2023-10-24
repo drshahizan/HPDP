@@ -150,11 +150,12 @@ _Figure 8_
 
 #### V. Please calculate the percentage value for data in the column O. In column P, enter percentage value (Percent). Check that the percentage value is within two decimal places.
 
-![Screenshot (992)](https://github.com/drshahizan/HPDP/assets/89633522/97b8e33e-d27f-4113-be5c-3e51e42c0577)
+![Screenshot (994)](https://github.com/drshahizan/HPDP/assets/89633522/f76ccea7-bea6-44cd-ac5f-a9bfdffe7dee)
+
 
 <div align="center">
   
-_Figure 8_
+_Figure 9_
 
 </div>
 
@@ -164,3 +165,58 @@ _Figure 8_
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
   -------
+
+ #### vi. Based on Table 3, assist a grade, Column Q is for grade, and column R is for status.
+
+![Screenshot (995)](https://github.com/drshahizan/HPDP/assets/89633522/da04d28a-7b5f-4298-8740-81d5efb3fa82)
+
+<div align="center">
+  
+_Figure 10_
+
+</div>
+
+- **Add** column **Grade**.
+- For **column Grade**, use formula *=IF(P2 >= 90, "A+", IF(P2 >= 80, "A", IF(P2 >= 75, "A-", IF(P2 >= 70, "B+", IF(P2 >= 65, "B", IF(P2 >= 60, "B-", IF(P2 >= 55, "C+", IF(P2 >= 50, "C", IF(P2 >= 45, "C-", IF(P2 >= 40, "D+", IF(P2 >= 35, "D", IF(P2 >= 30, "D-", "E"))))))))))))*
+- The reason behind this formula is to find the grade based on the mark given.
+- Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+![Screenshot (997)](https://github.com/drshahizan/HPDP/assets/89633522/9d24b756-fd72-4f14-b99f-6e0bc1e9b783)
+
+
+<div align="center">
+  
+_Figure 10_
+
+</div>
+
+  
+- **Add** column **Status**.
+- For **column Status**, use formula *=IF(OR(Q2="B", Q2="B+", Q2="A", Q2="A-", Q2="A+"), "Pass", "Fail")*
+- The reason behind this formula is to find the statsu based on the mark and grades given.
+- Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+
+------
+
+ #### vii. If the status is Pass, please colour column P with Green, You should colour the Pass line with light red.
+
+ ![Screenshot (998)](https://github.com/drshahizan/HPDP/assets/89633522/4f9163de-3b0d-4478-b97a-5ac97d0476b7)
+
+<div align="center">
+  
+_Figure 11_
+
+</div>
+
+- **Choose** *Fill color* on the ribon.
+- **Selec**t respective line to fill in the colour.
+-  Fill in *green colour* for *column P with status Pass*.
+-  Fill in *light red* for *Pass line*
+
+----
+
+# 3. Create Dashboard in Google Sheet.
+
+
+ 
