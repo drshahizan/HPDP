@@ -12,14 +12,25 @@
 2. Contain nine column
 3. Monthly Sales
    - Click insert and choose pivot table
+   ![image](https://github.com/drshahizan/HPDP/assets/101933666/7a31e6db-0e2d-41e2-acf0-822fd94994c3)
+
      + Select the data range from the dataset2 sheet
      + Insert the pivot table into new sheet name as Dashboard
      + Click create
+   
+      ![image](https://github.com/drshahizan/HPDP/assets/101933666/7b8f9d63-6469-4b63-a72d-a8978cc930df)
      * In Pivot table editor;
        + Rows: click/drag Month Index and Sales Month
        + Values: click/drag Sales and Target
        + Close Pivot table editor
+
+       ![image](https://github.com/drshahizan/HPDP/assets/101933666/780d5648-e3af-485e-9dc7-531fe73c82e7)
+       ![image](https://github.com/drshahizan/HPDP/assets/101933666/c95d3400-ff8b-40c9-868f-a6d855cc4d99)
+
    - Click insert and choose chart
+  
+        ![image](https://github.com/drshahizan/HPDP/assets/101933666/30d5175c-540c-4305-bfe3-35c33bf1831f)
+
      * In Chart editor;
        + Chart type: Stacked area chart
        + Stacking: Standard
@@ -27,6 +38,11 @@
        + X-axis: Sales Month
        + Series: Sum of Target and Sum of Month
        + Close Chart editor
+      
+         ![image](https://github.com/drshahizan/HPDP/assets/101933666/5442a30c-0f1e-4c04-a7e2-481fc10b5c25)
+         
+   ![image](https://github.com/drshahizan/HPDP/assets/101933666/025716d2-40fe-48ee-85ba-359430ab594d)
+
 5. Region
    - Click insert and choose pivot table
      + Select the data range from the dataset2 sheet
