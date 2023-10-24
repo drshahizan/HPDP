@@ -47,8 +47,9 @@ _Figure 1: Import the data_
 
 - After opening Google Sheet, click on **File** and choose **Import**.
 
-
-![Screenshot (979)](https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043)
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043">
+</p>
 
 <div align="center">
   
@@ -58,9 +59,10 @@ _Figure 2: Choose your data_
 
 - Choose** Browse **and choose 'Dataset1.txt' as our dataset.
 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d">
+</p>
   
-![Screenshot (980)](https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d)
-
 <div align="center">
   
 _Figure 3: Import data_
@@ -92,7 +94,7 @@ _Figure 4: Database imported successfully_
 
 <div align="center">
   
-_Figure 5_
+_Figure 5 : Convert the value to two decimal places_
 
 </div>
 
