@@ -202,7 +202,8 @@ Figure 19: Formula To Determine Status
 
  
 9. If the status is Pass for each ID, column P will be filled with green data, and if the status is Fail, it will be filled with red data. Hold down the shift key as you click on H1, H2, and H3, fill in all the row numbers that need to be highlighted beneath the name box, and then select the red font colour. 
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/22.png" width=400>
+<p align="center">
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/22.png" width=300>
 </p>
 <div align="center">  
 Figure 20: The Red Font
@@ -212,7 +213,7 @@ Figure 20: The Red Font
 15. Click on 'Format' ,choose 'Conditional Formatting' and follow the steps below.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=300>
 </p>
 <div align="center">  
 Figure 20:  Percentage greater than 65 will be coloured in Green
@@ -223,30 +224,30 @@ Figure 20:  Percentage greater than 65 will be coloured in Green
 16. Select column 'Status, and press right-click to create a filter to filter "Pass" only.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/20.png" width=200>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/20.png" width=300>
 </p>
 <div align="center"> 
-Figure 22: Pass Filtering
+Figure 21: Pass Filtering
     
 </div> 
 <br>
 
 17. By pressing and holding the "Shift" key while selecting all the rows, colour all the columns with the status "Pass" with a light red.
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/26.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/26.png" width=500>
 </p>
 <div align="center"> 
-Figure 23: Colour the whole record with rows of status 'Pass' with the light red font.
+Figure 22: Colour the whole record with rows of status 'Pass' with the light red font.
 </div>  
 <br>
 <p align="center">
   
-21. Remove the filter.
+18. Remove the filter.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png" width=200>
 </p>
 <div align="center"> 
-Figure 26: Removing the filter
+Figure 23: Removing the filter
 </div>  
 <br>      
 
