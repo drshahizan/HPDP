@@ -515,7 +515,7 @@ _Figure 45: Total record scorecard, Pass rate scorecard and Fail rate scorecard 
 </p>
 <div align="center">
     
-_Figure 46: Doughnut chart setup_
+_Figure 46: Dashboard_
 </div>  
 <br>
 
