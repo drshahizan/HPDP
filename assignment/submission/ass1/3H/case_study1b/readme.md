@@ -12,27 +12,64 @@
 2. Contain nine column
 3. Monthly Sales
    - Click insert and choose pivot table
-   - Select the data range from the dataset2 sheet
-   - Insert the pivot table into new sheet name as Real
-   - Click create
-   - In Pivot table editor,
-     + Rows: click/drag Month Index and Sales Month
-     + Values: click/drag Sales and Target
-     + Close Pivot table editor
+     + Select the data range from the dataset2 sheet
+     + Insert the pivot table into new sheet name as Dashboard
+     + Click create
+     * In Pivot table editor;
+       + Rows: click/drag Month Index and Sales Month
+       + Values: click/drag Sales and Target
+       + Close Pivot table editor
    - Click insert and choose chart
-   - In Chart editor;
-     + Chart type: Stacked area chart
-     + Stacking: Standard
-     + Data range: select the column of your pivot table
-     + X-axis: Sales Month
-     + Series: Sum of Target and Sum of Month
-     + Tick use column M as an label
-     + Close Chart editor
+     * In Chart editor;
+       + Chart type: Stacked area chart
+       + Stacking: Standard
+       + Data range: select the pivot table of Monthly Sales
+       + X-axis: Sales Month
+       + Series: Sum of Target and Sum of Month
+       + Close Chart editor
 5. Region
-6. Customer
-7. Salesperson
+   - Click insert and choose pivot table
+     + Select the data range from the dataset2 sheet
+     + Insert the pivot table into exisitng sheet name as Dashboard
+     + Click create
+     * In Pivot table editor;
+       + Rows: click/drag Sales Region
+       + Values: click/drag Sales
+       + Close Pivot table editor
+   - Click insert and choose chart
+     * In Chart editor;
+       + Chart type: 3D pie chart
+       + Data range: select the pivot table of region
+       + Label: Sales Region
+       + Values: Sum of Sales
+       + Close Chart editor
+6. Salesperson
+   - Click insert and choose pivot table
+     + Select the data range from the dataset2 sheet
+     + Insert the pivot table into existing sheet name as Dashboard
+     + Click create
+     * In Pivot table editor;
+       + Rows: click/drag Sales Person
+       + Columns: click/drag Product
+       + Values: click/drag Sales
+       + Close Pivot table editor
+   - Click insert and choose chart
+     * In Chart editor;
+       + Chart type: Stacked column chart
+       + Stacking: Standard
+       + Data range: select the pivot table of salesperson
+       + X-axis: Sales Person
+       + Series: Cooking Oil, Flour, Milk, Sugar
+       + Close Chart editor
+7. Customer
 8. Sales Trend
 9. Slicer: Sales Year, Sales Region, Sales Products, Customer, Sales Person
+    - Click Data
+    - Click add a slicer
+    - Select data range from dataset2 sheet
+    - Column: click sales year
+
+     Copy paste the slicer and change the column with sales region, sales products, customer and sales person
 10. Dashboard
 
 ## Contribution 🛠️
