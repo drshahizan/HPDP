@@ -89,13 +89,13 @@ Figure 5: Selecting The Data
 
 ## Data Processing <a name = "processing"></a>
 
-1. The following formulas are inserted to obtain the value for the new column names 'P1', 'P2', 'P3', 'P4', and 'P5'.
+1. The following formulas are inserted to obtain the value for the new column names 'P1', 'P2', 'P3', 'P4', and 'P5'. For every column, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/6.png" width=300>
 </p>
 
 <div align="center">  
-Figure 7: By adding the formula shown in the image above, you may get a new value for all the data in the Academic column to the "Test_2" column, which is named P1 under the G column. After that, click on column G2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+Figure 7: By adding the formula shown in the image above, you may get a new value for all the data in the Academic column to the "Test_2" column, which is named P1 under the G column.
 </div>
 <br>
 
@@ -103,7 +103,7 @@ Figure 7: By adding the formula shown in the image above, you may get a new valu
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/7.png" width=300>
 </p>
 <div align="center">  
-Figure 8: As for the column ‘Sports’, which is named P2 under the H column, with the formula shown in the image below. After that, click on column H2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+Figure 8: As for the column ‘Sports’, which is named P2 under the H column, with the formula shown in the image above.
 </div>
 <br>
 
@@ -111,21 +111,21 @@ Figure 8: As for the column ‘Sports’, which is named P2 under the H column, 
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/8.png" width=300>
 </p>
 <div align="center">  
-Figure 9: As for the column ‘Co-curriculum’, which is named P3 under the I column, with the formula shown in the image below. After that, click on column I2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+Figure 9: As for the column ‘Co-curriculum’, which is named P3 under the I column, with the formula shown in the image above.
 </div>   
 <br>
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/9.png" width=300>
 </p>
 <div align="center">  
-Figure 10: As for the column ‘Test_1’, which is named P4 under the J column, with the formula shown in the image below. After that, click on column J2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+Figure 10: As for the column ‘Test_1’, which is named P4 under the J column, with the formula shown in the image above.
 </div>
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/10.png" width=300>
 </p>
 <div align="center">  
-Figure 11: As for the column ‘Sports’, which is named P5 under the H column, with the formula shown in the image below. After that, click on column H2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+Figure 11: As for the column ‘Sports’, which is named P5 under the H column, with the formula shown in the image above. 
 </div>
 <br>
 
