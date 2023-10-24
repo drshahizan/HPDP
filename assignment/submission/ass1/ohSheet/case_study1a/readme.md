@@ -12,22 +12,14 @@
 ## Table of Contents
 + [About](#about)
 + [Getting Started](#getting_started)
-+ [Data Preprocessing](#usage)
 + [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
- The primary objective of this assignment is to process and visualize data using Google Sheets.
+The main goal of this project is to utilize Google Sheets to process and present data, with a specific focus on a case study related to examination results. The project involves tasks such as calculating statistics, creating charts, and generating meaningful insights from the examination results. Overall, the project emphasizes practical data manipulation and visualization skills within the context of educational assessment.
 
 ## Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Data Preprocessing
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
 
 ### Installing
 
