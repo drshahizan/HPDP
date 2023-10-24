@@ -21,6 +21,7 @@
 ## 🌟Table of content
 
 - [Table of content](#Table-of-content)
+- [Dataset Information](#Dataset-Information)
 - [1. Import dataset into Google Sheet](#1-Import-dataset-into-Google-Sheet)
 - [2. Create TempData](#2-Create-TempData)
 - [3. Create Pivot Table](#3-Create-Pivot-Table)
