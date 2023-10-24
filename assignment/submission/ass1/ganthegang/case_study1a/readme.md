@@ -78,7 +78,7 @@ Figure 4: Import Dataset
 
 5. Press To select all the data in the Academic column at once and move it to the Test_2 column, use Ctrl + Shift  and select in Academic, Sports, Co-Curriculum, Test 1 and Test 2.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submissionass1/ganthegang/case_study1a/5.pmg" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submissionass1/ganthegang/case_study1a/5.png" width=500>
 </p>
 
 <div align="center">
