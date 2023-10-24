@@ -147,6 +147,7 @@ Figure 12: Rounding off to two decimal places
 <div align="center">  
 Figure 13: For the highest values for column H1, use the formula as shown. After that, click on column L1, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 </div>
+
 <br>
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/13.png" width=400>
@@ -162,6 +163,7 @@ Figure 14: For the second-highest value for H2, use the formula above. After tha
 <div align="center">  
 For the second-highest value for H3, use the formula above. After that, click on column N2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 </div>
+<br>
 
 5. To get the total values for the top three highest values, use the formula as shown below. Click on column O2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
    <p align="center">
@@ -169,8 +171,8 @@ For the second-highest value for H3, use the formula above. After that, click on
 </p>
 <div align="center">  
 Figure 16: Calculate Total Value For The Top Three Highest Value
- 
-</div> 
+</div>
+<br>
 
 6. To calculate the percentage, use the formula shown below.
 <p align="center">
