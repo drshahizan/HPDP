@@ -100,10 +100,10 @@ _Figure 6_
 - Add column P1, P2, P3, P4 and P5
 - For column P1, use formula =(B2/61)*3.33. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
 - Continue to calculate the value of P2 until P5 by using
-  P2 = (C2/61)*3.33
-  P3 = (D2/10)*3.33
-  P4 = (E2/15)*3.33
-  P5 = (F2/15)*3.33
+  -  P2 = (C2/61)*3.33
+  -  P3 = (D2/10)*3.33
+  -  P4 = (E2/15)*3.33
+  -  P5 = (F2/15)*3.33
 - Press Ctrl + D to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
   
