@@ -56,7 +56,7 @@ _Figure 2: Choose your data_
 
 </div>
 
-- Choose **Browse** and choose 'Dataset2.txt' as our dataset.
+- Choose** Browse **and choose 'Dataset2.txt' as our dataset.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/225bac12-557e-4e84-802c-01aa98711cf7">
@@ -80,7 +80,30 @@ _Figure 4: Database imported successfully_
 
 </div>
 
-- The database has imported successfully.
+- The database has been imported successfully.
   
 ----
+## 2. Create "TempData"
+
+We then created a temporary dataset called "TempData". The purpose of this temporary data is to allow us to work with the exact copy of the Dataset2.txt without applying permanent changes to the original dataset. This allows us to preprocess, transform and also add columns to the copy of the dataset without affecting the original dataset.
+
+------
+<p align="center">
+<img width="789" alt="image" src="https://github.com/drshahizan/HPDP/assets/146797903/e8d96153-193c-4b3f-bc2f-2e0b903f9084">
+</p>
+
+<div align="center">
+    
+_Figure 5: Creation of TempData_
+
+</div>
+- We then began preprocessing the data, because the decimal place wasnt consistent. We then fixed the issue using Google Sheet provided tool "Increase decimal place" to make sure the decimal place becomes cosistent.
+
+<p align="center">
+<img width="196" alt="image" src="https://github.com/drshahizan/HPDP/assets/146797903/0b6581db-f385-4b28-b37a-82ea26ed3b0d">
+</p>
+
+_Figure 6: Google Sheet provided tool_
+
+-Then we observed the provided data set 
 
