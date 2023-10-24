@@ -101,10 +101,10 @@ _Figure 6_
 - **Add** column P1, P2, P3, P4 and P5
 - For **column P1**, use formula =*(B2/61)*3.33*. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
 - **Continue** to calculate the value of P2 until P5 by using
-  -  P2 = (C2/61)*3.33
-  -  P3 = (D2/10)*3.33
-  -  P4 = (E2/15)*3.33
-  -  P5 = (F2/15)*3.33
+  -  P2 = *(C2/61)*3.33*
+  -  P3 = *(D2/10)*3.33*
+  -  P4 = *(E2/15)*3.33*
+  -  P5 = *(F2/15)*3.33*
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
 ----
@@ -219,13 +219,25 @@ _Figure 11_
 </div>
 
 - **Choose** *Fill color* on the ribon.
-- **Selec**t respective line to fill in the colour.
+- **Select** respective line to fill in the colour.
 -  Fill in *green colour* for *column P with status Pass*.
 -  Fill in *light red* for *Pass line*
 
 ----
 
+## Output of the data
+
+![Screenshot (999)](https://github.com/drshahizan/HPDP/assets/89633522/7ea7fe5f-8751-4618-bced-3e65edc646f7)
+
+
+![Screenshot (1000)](https://github.com/drshahizan/HPDP/assets/89633522/6ce1a2c2-dda4-4827-825a-1d44bc148259)
+
+
 # 3. Create Dashboard in Google Sheet.
+
+
+
+
 
 
  
