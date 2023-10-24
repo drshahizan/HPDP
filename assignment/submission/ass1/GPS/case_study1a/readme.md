@@ -470,7 +470,7 @@ _Figure 41: Avg percent scorecard setup_
 </p>
 <div align="center">
     
-_Figure 42: Column chart_
+_Figure 42: Column chart setup_
 </div>  
 <br>
 
@@ -505,7 +505,7 @@ _Figure 44: Doughnut chart setup_
 </p>
 <div align="center">
     
-_Figure 45: Total record scorecard, Pass rate scorecard and Fail rate scorecard_
+_Figure 45: Total record scorecard, Pass rate scorecard and Fail rate scorecard setup_
 </div>  
 <br>
 
