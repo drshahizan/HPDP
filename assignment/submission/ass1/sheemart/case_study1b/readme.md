@@ -56,7 +56,7 @@ _Figure 2: Choose your data_
 
 </div>
 
-- Choose** Browse **and choose 'Dataset2.txt' as our dataset.
+- Choose **Browse** and choose 'Dataset2.txt' as our dataset.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/225bac12-557e-4e84-802c-01aa98711cf7">
