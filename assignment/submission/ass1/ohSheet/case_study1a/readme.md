@@ -29,13 +29,39 @@ The main goal of this project is to utilize Google Sheets to process and present
 
 ## Importing and Preprocessing Data <a name = "preprocess"></a>
 1. Download the Dataset1.txt file.
+   
 2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
+
 3. Choose the file and click 'Import data'.
+   
 4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
-5. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select cell B through cell F.
+   
+5. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select column B through column F.
+
 6. Choose 'Format' and click 'Number'.
+   
 7. Select 'Custom number format' and apply the two decimal values.
-8. Create 
+   
+8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be name as below:
+
+Academic: P1 (Column G)
+Sports: P2 (Column H)
+Co-Curriculum: P3 (Column I)
+Test_1: P4 (Column J)
+Test_2: P5 (Column K)
+
+To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
+
+Column P1: '=(B2/61)*3.33
+Column P2: '=(C2/10)*3.33
+Column P3: '=(D2/15)*3.33
+Column P4: '=(E2/10)*3.33
+Column P5: '=(F2/10)*3.33
+
+For each column, click enter after filling out the formula to autofill the entire column. 
+
+9. 
+
 
 ## Obtaining Grade and Status <a name = "grade_status"></a>
 
