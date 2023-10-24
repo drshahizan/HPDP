@@ -233,7 +233,7 @@ Figure 22: Pass Filtering
 
 17. By pressing and holding the "Shift" key while selecting all the rows, colour all the columns with the status "Pass" with a light red.
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/24.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/26.png" width=300>
 </p>
 <div align="center"> 
 Figure 23: Colour the whole record with rows of status 'Pass' with the light red font.
@@ -243,7 +243,7 @@ Figure 23: Colour the whole record with rows of status 'Pass' with the light red
   
 21. Remove the filter.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png" width=100>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png" width=200>
 </p>
 <div align="center"> 
 Figure 26: Removing the filter
