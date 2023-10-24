@@ -115,12 +115,12 @@ _Figure 6 : Add column P1 in on the sheet_
 </div>
 
 - **Add** column P1, P2, P3, P4 and P5
-- For **column P1**, use formula =*(B2/61)*3.33*. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
+- For **column P1**, use formula =(B2/61)*3.33. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
 - **Continue** to calculate the value of P2 until P5 by using
-  -  P2 = *(C2/61)*3.33*
-  -  P3 = *(D2/10)*3.33*
-  -  P4 = *(E2/15)*3.33*
-  -  P5 = *(F2/15)*3.33*
+  -  P2 = (C2/61)*3.33
+  -  P3 = (D2/10)*3.33
+  -  P4 = (E2/15)**3.33
+  -  P5 = (F2/15)*3.33
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
 <p align="center">
@@ -148,11 +148,14 @@ _Figure 8_
 </div>
 
 - **Add** column B1, B2 AND B3.
-- For **column B1**, use formula *=LARGE(UNIQUE(G2:K2),1)*
+- For **column B1**, use formula
+
+-   *=LARGE(UNIQUE(G2:K2),1)*
+  
 - The reason behind this formula is to find the first highest mark of P1 until P5 in column L (B1).
 - **Continue** to calculate the value of B2 until B3 by using
-  - B2 = LARGE(UNIQUE(G2:K2),2)
-  - B3 = LARGE(UNIQUE(G2:K2),3)
+  - B2 = *LARGE(UNIQUE(G2:K2),2)*
+  - B3 = *LARGE(UNIQUE(G2:K2),3)*
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
 ------
@@ -172,7 +175,10 @@ _Figure 9 : Output of TM_
 
 
 - **Add** column **TM**.
-- For **column TM**, use formula *=SUM(L2,M2,N2)1)*
+- For **column TM**, use formula
+  
+   *=SUM(L2,M2,N2)1)*
+  
 - The reason behind this formula is to find the total of COLUMN  L2, M2 and N2.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
@@ -191,7 +197,10 @@ _Figure 10 : Output of Percentage_
 </div>
 
 - **Add** column **Percentage**.
-- For **column Percentage**, use formula *=ROUND(O2*10, 2)*
+- For **column Percentage**, use formula
+  
+  *=ROUND(O2*10, 2)*
+  
 - The reason behind this formula is to find the percentage of of column TM within two decimal places.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
@@ -220,9 +229,13 @@ _Figure 10: Output of Grade_
 </div>
 
 - **Add** column **Grade**.
-- For **column Grade**, use formula *=IF(P2 >= 90, "A+", IF(P2 >= 80, "A", IF(P2 >= 75, "A-", IF(P2 >= 70, "B+", IF(P2 >= 65, "B", IF(P2 >= 60, "B-", IF(P2 >= 55, "C+", IF(P2 >= 50, "C", IF(P2 >= 45, "C-", IF(P2 >= 40, "D+", IF(P2 >= 35, "D", IF(P2 >= 30, "D-", "E"))))))))))))*
+- For **column Grade**, use formula
+  
+- *=IF(P2 >= 90, "A+", IF(P2 >= 80, "A", IF(P2 >= 75, "A-", IF(P2 >= 70, "B+", IF(P2 >= 65, "B", IF(P2 >= 60, "B-", IF(P2 >= 55, "C+", IF(P2 >= 50, "C", IF(P2 >= 45, "C-", IF(P2 >= 40, "D+", IF(P2 >= 35, "D", IF(P2 >= 30, "D-", "E"))))))))))))*
+  
 - The reason behind this formula is to find the grade based on the mark given.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff">
