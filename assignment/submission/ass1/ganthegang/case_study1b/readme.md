@@ -9,6 +9,23 @@
 
 ### Group Name: XXX
 
+### Group Members
+
+| Name                                     | Matrix Number | Photo |
+| :---------------------------------------- | :-------------: | ------------- |
+| ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156   |      |
+| YEW RUI XIANG               | A21EC0149   |      |	
+| WAN AMIRUL HAFIQ BIN WAN HUZAINI      | A21EC0141   |      |	
+| ABDUL MUHAIMIN BIN ABDUL RAZAK | A21EC0002   |      |
+
+## Table of Contents
++ [Dataset Information](#dataset_info)
++ [Data Import and Data Preprocessing](#preprocessing)
++ [Data Processing](#processing)
++ [Dashboard](#dashboard)
+  
+## Dataset Information <a name = "dataset_info"></a>
+This dataset is called dataset1.txt. This dataset has five columns that contain information about Id_No, Academic, Sports, Co-Curriculum, Test_1 and Test_2. Table 1 shows the full marks for the data
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
