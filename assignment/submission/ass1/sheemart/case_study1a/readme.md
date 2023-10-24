@@ -27,7 +27,7 @@
 
 We work with a dataset called dataset1.txt. This dataset has five column that contain information about Id_no, Academic, Sports, Co-curiculum, Test_1 and Test_2.
 
-Source code : (https://docs.google.com/spreadsheets/d/1QnBDqq86TcZbKna6d90OCFNhZcOz8nY8N5COSs3UppM/edit#gid=158907566)
+Google Sheet : (https://docs.google.com/spreadsheets/d/1QnBDqq86TcZbKna6d90OCFNhZcOz8nY8N5COSs3UppM/edit#gid=158907566)
 
 ---
 
