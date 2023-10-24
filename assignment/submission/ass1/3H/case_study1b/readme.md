@@ -9,10 +9,6 @@
 
 ### Group Name: (3H) HAHAHA
 
-# Assignment 1a: Examination results
-
-### Group Name: 3H (HAHAHA)
-
 ### Group Members
 
 | Name                                     | Matrix Number | 
