@@ -52,6 +52,11 @@
        + Rows: click/drag Sales Region
        + Values: click/drag Sales
        + Close Pivot table editor
+      
+         ![image](https://github.com/drshahizan/HPDP/assets/101933666/3ae79d02-b246-4dee-9532-1d6099ef70c6)
+         ![image](https://github.com/drshahizan/HPDP/assets/101933666/b20fb4f7-51f6-4e29-a8d1-673e97a416ab)
+
+
    - Click insert and choose chart
      * In Chart editor;
        + Chart type: 3D pie chart
@@ -59,6 +64,12 @@
        + Label: Sales Region
        + Values: Sum of Sales
        + Close Chart editor
+      
+         ![image](https://github.com/drshahizan/HPDP/assets/101933666/4664f187-7fa6-4296-a159-263818d42252)
+         
+      ![image](https://github.com/drshahizan/HPDP/assets/101933666/ec5611a9-542b-4369-8d29-ba8f925271b5)
+
+
 6. Salesperson
    - Click insert and choose pivot table
      + Select the data range from the dataset2 sheet
@@ -69,6 +80,12 @@
        + Columns: click/drag Product
        + Values: click/drag Sales
        + Close Pivot table editor
+
+         ![image](https://github.com/drshahizan/HPDP/assets/101933666/075c4167-f485-40fa-9507-35c9c6f7c2d1)
+         
+       ![image](https://github.com/drshahizan/HPDP/assets/101933666/1d425ce5-5223-43d6-b10c-4a47c22e68ff)
+
+
    - Click insert and choose chart
      * In Chart editor;
        + Chart type: Stacked column chart
@@ -77,6 +94,12 @@
        + X-axis: Sales Person
        + Series: Cooking Oil, Flour, Milk, Sugar
        + Close Chart editor
+      
+         ![image](https://github.com/drshahizan/HPDP/assets/101933666/ad40f920-aeff-4b28-a039-bfcb69c9f1ea)
+         
+   ![image](https://github.com/drshahizan/HPDP/assets/101933666/56f3826a-dd2d-4540-b394-2248151f2a79)
+
+
 7. Customer
 8. Sales Trend
 9. Slicer: Sales Year, Sales Region, Sales Products, Customer, Sales Person
