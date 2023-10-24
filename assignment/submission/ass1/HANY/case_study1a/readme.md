@@ -14,7 +14,7 @@ Before you can create a dashboard or begin analyzing your data, you must first i
 
 <div style="text-align: center;">
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/6a513be3-564f-488d-a4fa-24d6a9d0beca" width="50" height="150">
-  <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" width="200" height="200">
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" width="500" height="500">
   Figure 1: Importing dataset.
 </div>
 
