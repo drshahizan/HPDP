@@ -44,21 +44,21 @@ The main goal of this project is to utilize Google Sheets to process and present
    
 8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be name as below:
 
-Academic: P1 (Column G)
-Sports: P2 (Column H)
-Co-Curriculum: P3 (Column I)
-Test_1: P4 (Column J)
-Test_2: P5 (Column K)
+   Academic: P1 (Column G)
+   Sports: P2 (Column H)
+   Co-Curriculum: P3 (Column I)
+   Test_1: P4 (Column J)
+   Test_2: P5 (Column K)
 
-To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
-
-Column P1: '=(B2/61)*3.33
-Column P2: '=(C2/10)*3.33
-Column P3: '=(D2/15)*3.33
-Column P4: '=(E2/10)*3.33
-Column P5: '=(F2/10)*3.33
-
-For each column, click enter after filling out the formula to autofill the entire column. 
+   To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
+   
+   Column P1: '=(B2/61)*3.33
+   Column P2: '=(C2/10)*3.33
+   Column P3: '=(D2/15)*3.33
+   Column P4: '=(E2/10)*3.33
+   Column P5: '=(F2/10)*3.33
+   
+   For each column, click enter after filling out the formula to autofill the entire column. 
 
 9. 
 
