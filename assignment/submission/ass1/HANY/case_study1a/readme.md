@@ -16,15 +16,23 @@ Before you can create a dashboard or begin analyzing your data, you must first i
   2. Explore your directory to locate by clicking **Browse**.
   3. Choose for the file named **Dataset1.txt**.
   4. Click on **Open** to bring the data into Google Sheets.
-     
+ 
 <div align="center">
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/166e8597-288a-47e4-8ca9-54a2f43ab6a7">
 
   <br><br>
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" style="width: 1000px; height: 600px;">
 
-  **Figure 1: Importing dataset.**  
+  **Figure 1: Importing dataset.**   
 </div>
+
+  5. Select **Import Data**.
+
+<div align="center">
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/7bc4178d-c5ff-4ab0-9978-4432d0b85dd2">
+</div>
+
+7. 
 
 
 
