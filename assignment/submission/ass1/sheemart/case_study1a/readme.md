@@ -295,7 +295,65 @@ _Figure 14 : Final ouput of the sheet_
 
 # 3. Create Dashboard in Google Sheet.
 
+#### i. Create minimum, maximum and average.
 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/3c455373-496c-458e-8e50-2756f5eaa05c">
+</p>
+
+
+<div align="center">
+  
+_Figure 15 : Choose pivot table_
+
+</div>
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ef3f09fe-5da6-424c-91f5-2d91272a362a">
+</p>
+
+<div align="center">
+  
+_Figure 16 : Create pivot table_
+
+</div>
+
+- Choose pivot table on the Insert ribbon. Choose the respective dataset 
+  for Data range and choose new sheet for 'Insert to' section. Click on 
+  the button create.
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa">
+</p>
+
+<div align="center">
+  
+_Figure 17 : Output of pivot table_
+
+</div>
+
+- Drag and drop Percent into the Rows section. Set the order to 'Ascending' and sort by 'Percent'. Tick on the 'Show totals'.
+
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5">
+</p>
+
+<div align="center">
+  
+_Figure 18 : Change of scoreboard title_
+
+</div>
+
+
+- 
+
+
+
+
+
+
+  
 
 
 
