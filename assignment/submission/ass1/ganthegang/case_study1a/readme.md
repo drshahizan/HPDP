@@ -67,7 +67,7 @@ Figure 3: Select The Dataset
 
 4. After the file has been loaded into Google Sheets, click on 'Import Data'. 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=400>
 </p>
 
 <div align="center">
@@ -76,14 +76,14 @@ Figure 4: Import Dataset
 
 </div>
 
-5. Press To select all the data in the Academic column at once and move it to the Test_2 column, use Ctrl + Shift  and select in Academic, Sports, Co-Curriculum, Test 1 and Test 2.
+5. Press To select all the data in the Academic column at once and move it to the Test_2 column, use Ctrl + Shift  and select Academic, Sports, Co-Curriculum, Test 1 and Test 2.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submissionass1/ganthegang/case_study1a/5.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/5.png" width=300>
 </p>
 
 <div align="center">
   
-Figure 6: Selecting The Data
+Figure 5: Selecting The Data
 
 </div>
 
