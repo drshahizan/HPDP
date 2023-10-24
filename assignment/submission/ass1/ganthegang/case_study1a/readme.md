@@ -243,7 +243,7 @@ Figure 23: Colour the whole record with rows of status 'Pass' with the light red
   
 21. Remove the filter.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png.png" width=100>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png" width=100>
 </p>
 <div align="center"> 
 Figure 26: Removing the filter
