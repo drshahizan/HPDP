@@ -497,21 +497,21 @@ _Figure 44: Doughnut chart setup_
 <br>
 
 20. Repeat step 11-13 to create total record scorecard, pass rate scorecard and fail rate scorecard.
-<div>
+<p align="center">
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/totalrecord.png" width="200">
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/maxpass.png" width="200">
     
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/minpass.png" width="200">
-</div>
+</p>
 <div align="center">
     
-_Figure 45: Total record scorecard, Pass rate scorecard and Fail rate_ scorecard
+_Figure 45: Total record scorecard, Pass rate scorecard and Fail rate scorecard_
 </div>  
 <br>
 
 21. The dashboard as is in the image below is created.
  <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=200>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=800>
 </p>
 <div align="center">
     
