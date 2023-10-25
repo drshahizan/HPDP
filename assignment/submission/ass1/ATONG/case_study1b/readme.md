@@ -93,7 +93,7 @@
     
 ### Region 
 
-10. Repeat **Step 7** 
+10. Repeat [**Step 7**](#monthly-sales) 
 
 11. Select Row and Value.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
