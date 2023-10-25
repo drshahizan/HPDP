@@ -30,17 +30,18 @@
 ## 2. Data Preprocessing 
 ### 2.1 Importing a Dataset into Google Sheets 
 
-Before you can create a dashboard or begin analyzing your data, you must first import your dataset into Google Sheets, as shown in Figure 1. 
+Before you can create a dashboard or begin analyzing your data, you must first import your dataset into Google Sheets, as shown in Figure 1 and Figure 2. 
   1. Navigate to the **File** menu, and then choose for the **Import** option.
   2. Explore your directory to locate by clicking **Browse**.
   3. Choose for the file named **Dataset1.txt**.
   4. Click on **Open** to bring the data into Google Sheets.
 <div align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/87573002/166e8597-288a-47e4-8ca9-54a2f43ab6a7" style="width: 500px; height: 200px;">
-  <br>
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/166e8597-288a-47e4-8ca9-54a2f43ab6a7" style="width: 500px; height: 200px;">  
+    
+**Figure 1: Importing dataset.**   
+  <br><br>
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" style="width: 700px; height: 350px;">  
-  
-  **Figure 1: Importing dataset.**   
+**Figure 2: Inserting file.**   
 </div>
 
   5. Choose **Import Data** and ensure that the **Import location** is set to "Create a new spreadsheet".
