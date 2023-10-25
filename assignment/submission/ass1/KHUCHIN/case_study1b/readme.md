@@ -75,7 +75,7 @@ _Figure 1.3: Data queries in spreadsheet_
 
 - Now we will create a new sheet and transfer our data into that so that we can use it freely. This serve as a precaution so that if anything happen it does not affect the original database. We will use this new sheet to sort and add new column for later use. You can name the sheet however you like but we will go with "Sorting".
 - In order to create new sheet in the same spreadsheet. We can just click on the **+** button at the bottom of the screen.
-<p align="center">
+<p align="center" width="350" height="350">
 <img src="ss4.png">
 </p>
 
