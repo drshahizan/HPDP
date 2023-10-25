@@ -54,6 +54,7 @@ Figure 2: The (Column Number/61)*3.33 was used in order to obtain the value for 
 <div align="center">  
 Figure 3: The (Column Number/10)*3.33 was used in order to obtain the value for column P2
 </div>
+<br>
 
 3. Formula (Column Number/15)*3.33 was used in order to calculate the value for P3. P3 represents Co-Curriculum score.
 <p align="center">
@@ -63,6 +64,17 @@ Figure 3: The (Column Number/10)*3.33 was used in order to obtain the value for 
 <div align="center">  
 Figure 4: The (Column Number/15)*3.33 was used in order to obtain the value for column P3
 </div>
+<br>
+
+4. Formula (Column Number/10)*3.33 was used in order to calculate the value for P4. P4 represents Test 1 mark.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic7.jpg" width=300 length=300 >
+</p>
+
+<div align="center">  
+Figure 5: The (Column Number/10)*3.33 was used in order to obtain the value for column P4
+</div>
+<br>
 
 
 
