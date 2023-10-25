@@ -33,7 +33,7 @@ This dataset is called dataset2.txt. This dataset has nine columns that contain 
 ## Data Import and Data Preprocessing <a name = "preprocessing"></a>
 1. In the ribbon 'File', click on "Import" to upload the “Dataset1.txt”.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/1.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/Screenshot 2023-10-25 013533.png" width=300>
 </p>
 
 <div align="center">
