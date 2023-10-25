@@ -21,7 +21,7 @@
 + [Dataset Information](#dataset_info)
 + [Data Import and Data Preprocessing](#preprocessing)
 + [Data Processing](#processing)
-+ [Dashboard](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/GPS/case_study1a/readme.md#dashboard)
++ [Dashboard](##Dashboard)
 + [Contributions](#contribution)
 
 ## Dataset Information <a name = "dataset_info"></a>
