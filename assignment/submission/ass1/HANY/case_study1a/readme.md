@@ -123,7 +123,7 @@ The following data processing processes must be completed:
 </div> 
 
 ### 3.3. Determine the Top Three Values
-   7. Determine the maximum values from the data in columns G to K using the formula shown in **Figure 10**.
+   7. Determine the maximum values from the data in columns G to K using the formula shown in **Figure 10**. Then, named the new columns, L to N as **B1**, **B2** and **B3**.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/a04b939b-2e90-4f16-9122-46b637491ca5" style="width: 145px; height: 30px;">
    <br>
@@ -135,7 +135,7 @@ The following data processing processes must be completed:
    **Figure 10: Shows the formula used to find the highest value of the columns.**
    </div>  
    
-   8. in new column, L to N,
+   8. The following outcomes of the data values is shown in **Figure 11**. Make sure that the values of column **B1** to **B3** is two decimal places.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/56527951-b23e-46a5-9bd6-60a7b6a2ddf7" style="width: 250px; height: 350px;">
    </div>   
