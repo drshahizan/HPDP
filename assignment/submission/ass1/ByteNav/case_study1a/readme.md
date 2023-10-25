@@ -21,6 +21,15 @@
 + [Data Preprocessing](#dataset_preprocessing)
 + [Data Processing](#dataset_processing)
 + [Create Dashboard](#create_dashboard)
+  +[Pass and Fail Views](#passfail_dashboard)
+  +[Total Number of Records](#total_dashboard)
+  +[Pass Percentage](#pass_dashboard)
+  +[Fail Percentage](#fail_dashboard)
+  +[Maximum Value](#max_dashboard)
+  +[Minimum Value](#min_dashboard)
+  +[Average Value](#avg_dashboard)
+  +[Number of Students and Grades](#numstu_grades_dashboard)
+  +[Total Number of Grades](#grade_dashboard)
 + [Dashboard](#dashboard)
 + [Contributions](#contribution)
 
@@ -118,7 +127,7 @@
 2. Insert new chart into the "Dashboard" spreadsheet
    
    Insert the new chart by clicking the "Insert" at the menu on top. Then, choose "Chart" to insert it.
-<p align="center"><img align="center" alt="Table" width="200" src="insertchart.png"></p> 
+<p align="center"><img align="center" alt="Table" width="200" src="insert_chart.png"></p> 
 <p align="center"> <em> Figure 26: Insert new chart</em> </p> 
 
 ### Pass and Fail views by using Doughnut chart <a name = "passfail_dashboard"> </a>
