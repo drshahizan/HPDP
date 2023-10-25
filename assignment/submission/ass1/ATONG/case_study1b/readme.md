@@ -24,10 +24,10 @@
    * [Importing Datasets](#importing-datasets)
    * [Table of Contents](#table-of-contents)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
-      - [Monthly Sales](#monthly-sales)
-      - [Region](#region)
-      - [Salesperson](#salesperson)
-      - [Trend](#trend)
+      - [Pivot Table for Monthly Sales](#pivot-table-for-monthly-sales)
+      - [Pivot Table for Region](#pivot-table-for-region)
+      - [Pivot Table for Salesperson](#pivot-table-for-salesperson)
+      - [Pivot Table for Trend](#pivot-table-for-trend)
    * [Chart <a name = "chart"></a>](#chart)
       - [Chart for Monthly Sales](#chart-for-monthly-sales)
       - [Chart for Region](#chart-for-region)
@@ -76,7 +76,7 @@
 
 
 ## Pivot Table
-### Monthly Sales
+### Pivot Table for Monthly Sales
 
 7. Select all columns ( BY CLICK ON CTRL + SHIFT + RIGHT CLICK + DOWN CLICK) and click on **insert » pivot table » new sheet**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511)
@@ -97,7 +97,7 @@
 
 
     
-### Region 
+### Pivot Table for Region 
 
 10. Repeat [**Step 7**](#monthly-sales) 
 
@@ -106,7 +106,7 @@
 
 
 
-### Salesperson
+### Pivot Table for Salesperson
 12. Repeat [**Step 7**](#monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
@@ -120,7 +120,7 @@
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac)
 
 
-### Trend
+### Pivot Table for Trend
 16. Repeat [**Step 7**](#monthly-sales) 
 17. Select **Rows** and **Values**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6)
@@ -155,10 +155,14 @@
 ### Chart for Salesperson
 25. Select the **Customer** pivot table. Then repeat [Step 19](#chart-for-monthly-sales).
 26. Choose ** Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05)
+
 
 ### Chart for Trend
 27. Select the **Customer** pivot table. Then repeat [Step 19](#chart-for-monthly-sales).
 28. Choose **Smooth Line Chart**, then customize it before arranging it into the **Dashboard** sheet.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/a70a694e-37e2-4e57-98cf-e5ed8d3389a5)
+
 
 
 
