@@ -44,6 +44,7 @@ This dataset is named sales performance data.txt. This dataset contains a few co
 2. Then, go to **Upload >> Browse** and select sales performance data.txt file then import the dataset in a new spreadsheet
     ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/browse%20data.png)
 3. In this dataset, we created one new column named **MONTH INDEX** which we use to sort the month as we assign values from 1 to 12 to the month.For example, Jan = 1, Feb = 2, and so on.<br>
+    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/month%20index.png)
    <p align = "center">We use the formula:</p>
    <p align ="center">=IF(H2="Jan", 1, IF(H2="Feb", 2, IF(H2="Mar", 3, IF(H2="Apr", 4, IF(H2="May", 5, IF(H2="Jun", 6, IF(H2="Jul", 7, IF(H2="Aug", 8, IF(H2="Sept", 9, IF(H2="Oct", 10, IF(H2="Nov", 11, IF(H2="Dec", 12, 0)))))))))))) </p>
   
