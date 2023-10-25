@@ -117,9 +117,9 @@
   + Data range: D8:D331
   + Label: SALES PERSON
 <p align="center"><img align="center" alt="editor" width="400" src="person.png"></p>
-<p align="center"> <em> Figure 22: Chart editor for person</em> </p> 
+<p align="center"> <em> Figure 22: Chart editor for sales person</em> </p> 
 <p align="center"><img align="center" alt="editor" width="400" src="persondone.png"></p>
-<p align="center"> <em> Figure 23: Pie chart for person</em> </p>
+<p align="center"> <em> Figure 23: Pie chart for sales person</em> </p>
 
 6. Repeat step 1, and select **"Area chart"**, and make the following changes:
   + Stacking: None
@@ -129,7 +129,7 @@
 <p align="center"><img align="center" alt="editor" width="400" src="salestrend.png"></p>
 <p align="center"> <em> Figure 24: Chart editor for sales trend</em> </p> 
 <p align="center"><img align="center" alt="editor" width="500" src="salestrenddone.png"></p>
-<p align="center"> <em> Figure 25: Area pie chart for sales trend</em> </p>
+<p align="center"> <em> Figure 25: Area chart for sales trend</em> </p>
 
 ## Dashboard  <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="500" src="dashboard.gif"></p>  
