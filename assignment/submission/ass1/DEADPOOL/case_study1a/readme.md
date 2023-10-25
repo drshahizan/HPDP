@@ -76,6 +76,16 @@ Figure 5: The (Column Number/10)*3.33 was used in order to obtain the value for 
 </div>
 <br>
 
+5. Formula (Column Number/10)*3.33 was used in order to calculate the value for P5. P5 represents Test 2 mark.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic8.jpg" width=300 length=300 >
+</p>
+
+<div align="center">  
+Figure 6: The (Column Number/10)*3.33 was used in order to obtain the value for column P5
+</div>
+<br>
+
 
 
 ## Contribution 🛠️
