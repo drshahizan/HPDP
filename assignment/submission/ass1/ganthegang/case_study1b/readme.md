@@ -31,7 +31,7 @@ This dataset is called dataset2.txt. This dataset has nine columns that contain 
 **Source**: https://docs.google.com/spreadsheets/d/1PwFHJ20W3lQG4J2shN3Iz5JEFXkT9LxH4tVYx5kTJpY/edit?pli=1#gid=335153237
 
 ## Data Import and Data Preprocessing <a name = "preprocessing"></a>
-1. In the ribbon 'File', click on "Import" to upload the “Dataset1.txt”.
+1. In the ribbon 'File', click on "Import" to upload the “Dataset2.txt”.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/Screenshot 2023-10-25 013533.png" width=300>
 </p>
@@ -54,10 +54,10 @@ Figure 2: Browse To Import The Dataset
 </div>
 
 
-3. Select the 'Dataset1.txt' and then press 'OK'.
+3. Select the 'Dataset2.txt' and then press 'OK'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/3.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/3.png" width=400>
 </p>
 
 <div align="center">
@@ -68,7 +68,7 @@ Figure 3: Select The Dataset
 
 4. After the file has been loaded into Google Sheets, click on 'Import Data'. 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/4.png" width=400>
 </p>
 
 <div align="center">
@@ -77,9 +77,9 @@ Figure 4: Import Dataset
 
 </div>
 
-5. Select the Academic column and  to the Test_2 column, press Ctrl + Shift, select Academic, Sports, Co-Curriculum, Test 1, and Test 2 and round off every new column by clicking on the Format ribbon, then choose 'Number'.
+5. After the file load it should look like Figure 5 below.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/5.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/5.png" width=300>
 </p>
 
 <div align="center">
