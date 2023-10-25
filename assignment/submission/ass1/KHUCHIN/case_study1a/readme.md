@@ -20,7 +20,7 @@ One dataset has been chosen for data analysis based on the case study that was g
 ## Analysis of the dataset
 
 <div id="Google_Sheet_Dashboard" align="center">
-<img src="assignment/submission/ass1/KHUCHIN/case_study1a/Google Sheet Dashboard.png" width="480" height="270"/>
+<img src="https://github.com/drshahizan/HPDP/assignment/submission/ass1/KHUCHIN/case_study1a/Google Sheet Dashboard.png" width="480" height="270"/>
 </div>
 
 Based on the dataset, which has a total of 112K records, we may conduct an analysis in which the lowest overall percent that a student receives is 14.82 and the maximum is 98.57, with an 83.75 gap between the two. The overall percentage for students is 69.36. In terms of grading, we may look at the distribution of grades based on the top three highest grades in the dataset, which have high percentages, while the top three lowest grades stand out:
