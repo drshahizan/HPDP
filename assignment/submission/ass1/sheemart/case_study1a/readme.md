@@ -292,6 +292,8 @@ _Figure 14 : Final ouput of the sheet_
 
 </div>
 
+-------
+
 # 3. Create Dashboard in Google Sheet.
 
 #### i. Create minimum, maximum and average.
@@ -435,19 +437,82 @@ _Figure 21 : Fill in different colour for each grade_
 _Figure 21 :Output for grading chart_
 
 </div>
+-----------------
 
+#### iii. Show the total number of records. Please display Pass and Fail in the form of a percentage and the number of records.
+
+<p align="center">
+<img width="176" alt="Screenshot 2023-10-25 204900" src="https://github.com/drshahizan/HPDP/assets/89633522/37b9efcd-f280-4286-9e5d-70f5b588f697">
+</p>
+
+<div align="center">
+    
+_Figure 22_
+
+</div>
+
+<p align="center">
+<img width="147" alt="Screenshot 2023-10-25 205008" src="https://github.com/drshahizan/HPDP/assets/89633522/310f1788-cced-4cf0-a7fc-00252d129bdb">
+</p>
+
+<div align="center">
+    
+_Figure 23_
 
 </div>
 
 
------------------
+-In the pivot table, place 'Status' in the rows section. In the columns section, add 'id_no' (number of students), and summarize it by count, which is the default setting. Additionally, include 'Id_no (percent)' and display it as a percentage of grades.
 
-#### iii. Show the total number of records. Please display Pass and Fail in the form of a percentage and the number of records.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/901dafcc-9485-4b88-ba51-b0275e727013">    
+</p>
+
+<div align="center">
+    
+_Figure 24 : Result of pivot table of total record, fail percentage and pass percentage_
+</div>
 
 ------------------
 
 #### iv. Create Pass and Fail views in the form of pie chart as well.
 
+<p align="center">
+<img width="233" alt="Screenshot 2023-10-25 210737" src="https://github.com/drshahizan/HPDP/assets/89633522/49999457-6518-45e2-b130-d0fdee4753e0">
+</p>
+
+<div align="center">
+    
+_Figure 25 : Doughnut chart setup_
+
+</div>
+
+-Place the 'Status' field in the Label section and select the option to use row 6 as headers. Also, check the box for using column K as labels.
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/7e105f35-6b3a-49dd-a5ea-b2a2719601be">    
+</p>
+
+<div align="center">
+    
+_Figure 26 : Doughnut chart output_
+
+</div>
+
+------------
+
+# 4. Final Result
+
+
+<p align="center">
+    <img width="808" alt="Screenshot 2023-10-25 210849" src="https://github.com/drshahizan/HPDP/assets/89633522/8c059463-bd43-4daa-bdd7-55afedad5025">
+</p>
+
+<div align="center">
+    
+_Figure 27 : Final Result_
+
+</div>
 
 
 
