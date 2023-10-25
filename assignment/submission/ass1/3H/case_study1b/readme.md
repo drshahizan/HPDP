@@ -51,6 +51,7 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
 <p align="center">=IF(H2="Jan", 1, IF(H2="Feb", 2, IF(H2="Mar", 3, IF(H2="Apr", 4, IF(H2="May", 5, IF(H2="Jun", 6, IF(H2="Jul", 7, IF(H2="Aug", 8, IF(H2="Sept", 9, IF(H2="Oct", 10, IF(H2="Nov", 11, IF(H2="Dec", 12, 0))))))))))))</p> 
 
 <br>
+## Pivot Table <a name = "pivot_table"></a>
 
 2. Inserting Pivot Table
    - Click insert and choose pivot table
@@ -244,6 +245,8 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
      Copy paste the slicer and change the column with sales region, sales products, customer and sales person
 
 <br>
+
+## Dashboard <a name = "dashboard"></a>
 
 12. Dashboard
     
