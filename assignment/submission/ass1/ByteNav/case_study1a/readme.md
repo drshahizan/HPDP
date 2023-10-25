@@ -104,6 +104,13 @@
 <p align="center"> <em> Figure 23: The columns colour in red </em> </p> 
 
 ## Dashboard <a name = "dashboard"> </a>
+1. Create and rename **"Dashboard"** at new spreadsheet.
+<p align="center"><img align="center" alt="Table" width="200" src="createnewsheet.png"></p> 
+<p align="center"> <em> Figure 24: Create new speardsheet through "+" button </em> </p> 
+
+<p align="center"><img align="center" alt="Table" width="200" src="rename_dashboard.png"></p> 
+<p align="center"> <em> Figure 25: Rename the spreadsheet to "Dashboard" </em> </p> 
+
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
 <p align="center"> <em> Figure x: Dashboard </em> </p> 
 
