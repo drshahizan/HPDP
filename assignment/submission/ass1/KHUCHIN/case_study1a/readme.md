@@ -18,7 +18,7 @@ One dataset has been chosen for data analysis based on the case study that was g
 ## Data preprocessing
 
 ### Import dataset to Google Sheets
-1. Import the dataset (Dataset1.txt) to Google Sheets <a href=”https://docs.google.com/spreadsheets/d/1q5UVmeU4xmzsocV9yqeHlnukuoOLkBJZTEqH96sb3oc/edit?usp=sharing“>Dataset 1</a> by clicking File on the upper left corner tab and select Import.
+1. Import the dataset (Dataset1.txt) to Google Sheets <a href=”https://docs.google.com/spreadsheets/d/1q5UVmeU4xmzsocV9yqeHlnukuoOLkBJZTEqH96sb3oc/edit?usp=sharing“>Dataset_1</a> by clicking File on the upper left corner tab and select Import.
 <div align="center">
   <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DP1.png" alt="Image description">
 </div>
@@ -29,7 +29,7 @@ One dataset has been chosen for data analysis based on the case study that was g
   <img src="https://github.com/drshahizan/HPDP/assets/118237589/930d3b47-d949-4e3e-b009-d7a1d859e3de" alt="Image description">
 </div>
 
-6. The new column (P1-P5) must be calculated for each column based on the marks for each categories (refer table below). For example column P1 is taken from column B. All the marks received by students must be divided by the max mark (from table below) and multiply by 3.33:
+6. The new column (P1-P5) must be calculated for each column based on the marks for each categories (refer table below). For example column P1 is taken from column B. All the marks received by students must be divided by the max mark (from the table below) and multiply by 3.33:
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/assets/118237589/ea1f8809-23da-4b1b-83fa-60c3ec258483">
 </div>
