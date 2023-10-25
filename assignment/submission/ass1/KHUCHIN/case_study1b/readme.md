@@ -22,3 +22,8 @@
 <p align="center"><img align="center" alt="Table" width="500" src="dashboard.jpeg"></p>  
 ------
 
+## 📕 Dataset Information
+
+We were given a dataset called dataset2.txt. This dataset contain a total of nine columns from which customer, salesperson, sales and year are some of the column in the dataset. Our task is the design a functional dashboard using GoogleSheet.  
+
+Google Sheet : https://docs.google.com/spreadsheets/d/1FlDUjFDf7Puj6r3DAkL6wJ7Qjqy3FoYLm4cm6SP8fyc/edit?usp=sharing
