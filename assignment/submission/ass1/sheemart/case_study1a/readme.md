@@ -275,14 +275,15 @@ _Figure 12: Green colour with Pass status and Light Red for pass line_
 
 ## Output of the data
 
+<p align="center">
   <img src="https://github.com/drshahizan/HPDP/assets/89633522/33d3ef01-ccd6-4dca-9d19-3ca09cf7366e"  width = "400">
+</p>
 
 <div align="center">
   
 _Figure 13 : Final ouput of the sheet_
 
 </div>
-
 
 ![Screenshot (1000)](https://github.com/drshahizan/HPDP/assets/89633522/536afc26-de8a-4fdb-9f42-36733e62b7b8)
 
@@ -376,8 +377,11 @@ _Figure 18 : Output of Min, Average and Max_
 
 #### ii. Display grading results as charts and table.
 
+
 <p align="center"> 
+    
 <img width="155" alt="Screenshot 2023-10-25 201251" src="https://github.com/drshahizan/HPDP/assets/89633522/076ae197-a861-49b7-936b-af6e9001f672">
+
 </p>
 
 <div align="center">
