@@ -141,35 +141,35 @@
 
     Result Displayed:
       ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
-    <br>
+    <br></br>
 ### Chart for Monthly Sales
 19. Click **Insert » Chart**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67)
-<br>
+<br><br>
 20. Choose the **stacked area chart**, then customize it before arranging it into **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/37a18e02-18d4-4231-b0df-d6815f0204d6)
-<br>
+<br></br>
 ### Chart for Region
-21. Select the **Region** pivot table. <br>
+21. Select the **Region** pivot table. <br></br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 22. Customize it before arranging it into the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853)
-<br>
+<br></br>
 ### Chart for Customer
-23. Select the **Customer** pivot table. <br>
+23. Select the **Customer** pivot table. <br></br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 24. Choose **Pie Chart**, then customize it before arranging it into the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/522ec5b3-5e37-4c72-b5f2-045f15885c85)
-<br>
+<br></br>
 ### Chart for Salesperson
-25. Select the **Customer** pivot table. <br>
+25. Select the **Customer** pivot table. <br></br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 26. Choose ** Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05)
-<br>
+<br></br>
 
 ### Chart for Trend
-27. Select the **Customer** pivot table. <br>
+27. Select the **Customer** pivot table. <br></br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 28. Choose **Smooth Line Chart**, then customize it before arranging it into the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/a70a694e-37e2-4e57-98cf-e5ed8d3389a5)
@@ -177,7 +177,7 @@
 
 
 
-<br><br>
+<br><br></br></br>
 
 ## Adding Slicer
 29. Click on **Insert** » **Add Slicer**.
