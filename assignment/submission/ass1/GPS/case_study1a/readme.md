@@ -273,7 +273,7 @@ _Figure 23: **Green** colour filled cells with value **greater than or equal to 
 </p>
 <div align="center">
     
-_Figure 20: Create a filter_
+_Figure 24: Create a filter_
 </div>  
 <br><br>
 
@@ -283,7 +283,7 @@ _Figure 20: Create a filter_
 </p>
 <div align="center"> 
     
-_Figure 24: Filtering requirement_
+_Figure 25: Filtering requirement_
 </div>  
 <br>
 
@@ -293,7 +293,7 @@ _Figure 24: Filtering requirement_
 </p>
 <div align="center"> 
 
-_Figure 25a: Selecting the cells with records of status **"Pass"** to fill with **light red**_
+_Figure 26a: Selecting the cells with records of status **"Pass"** to fill with **light red**_
 </div>  
 <br>
 <p align="center">
@@ -301,7 +301,7 @@ _Figure 25a: Selecting the cells with records of status **"Pass"** to fill with 
 </p>
 <div align="center"> 
 
-_Figure 25b: Selecting the remaining cells with records of status **"Pass"** to fill with **light red**_
+_Figure 26b: Selecting the remaining cells with records of status **"Pass"** to fill with **light red**_
 </div>  
 <br>
 
@@ -311,7 +311,7 @@ _Figure 25b: Selecting the remaining cells with records of status **"Pass"** to 
 </p>
 <div align="center"> 
 
-_Figure 26: Select **"Remove filter"**_
+_Figure 27: Select **"Remove filter"**_
 </div>  
 <br>      
 
@@ -321,7 +321,7 @@ _Figure 26: Select **"Remove filter"**_
 </p>
 <div align="center"> 
 
-_Figure 27: Dataset1_
+_Figure 28: Dataset1_
 </div>  
 <br>   
 
@@ -332,7 +332,7 @@ _Figure 27: Dataset1_
 </p>
 <div align="center"> 
 
-_Figure 28: **"Insert" > "Pivot Table"**_
+_Figure 29: **"Insert" > "Pivot Table"**_
 </div>  
 <br>
 
@@ -341,7 +341,7 @@ _Figure 28: **"Insert" > "Pivot Table"**_
 </p>
 <div align="center"> 
     
-_Figure 29: Creating **"Pivot Table"** requirement_
+_Figure 30: Creating **"Pivot Table"** requirement_
 </div>  
 <br>
 
@@ -351,7 +351,7 @@ _Figure 29: Creating **"Pivot Table"** requirement_
 </p>
 <div align="center"> 
     
-_Figure 30: Rename the sheet as **"Dashboard"**_
+_Figure 31: Rename the sheet as **"Dashboard"**_
 </div>  
 <br> 
 
@@ -361,7 +361,7 @@ _Figure 30: Rename the sheet as **"Dashboard"**_
 </p>
 <div align="center">
 
-_Figure 31: Placing of **"Percent"** under the **"Values"** in the **"Pivot table editor"** pane_
+_Figure 32: Placing of **"Percent"** under the **"Values"** in the **"Pivot table editor"** pane_
 </div>  
 <br>     
 
@@ -370,7 +370,7 @@ _Figure 31: Placing of **"Percent"** under the **"Values"** in the **"Pivot tabl
 </p>
 <div align="center">
     
-_Figure 32: Select summarization by **"MIN"** Percent_
+_Figure 33: Select summarization by **"MIN"** Percent_
 </div>  
 <br> 
 
@@ -380,7 +380,7 @@ _Figure 32: Select summarization by **"MIN"** Percent_
 </p>
 <div align="center"> 
     
-_Figure 33: Check **"Existing sheet"** in the **"Create pivot table"**_
+_Figure 34: Check **"Existing sheet"** in the **"Create pivot table"**_
 </div>  
 <br> 
 
@@ -390,7 +390,7 @@ _Figure 33: Check **"Existing sheet"** in the **"Create pivot table"**_
 </p>
 <div align="center">
     
-_Figure 34: Click **"Edit"**_
+_Figure 35: Click **"Edit"**_
 </div>  
 <br>
 
@@ -399,7 +399,7 @@ _Figure 34: Click **"Edit"**_
 </p>
 <div align="center"> 
     
-_Figure 35: Pivot table setup representing **MAX** Percent_
+_Figure 36: Pivot table setup representing **MAX** Percent_
 </div>  
 <br> 
 
@@ -409,7 +409,7 @@ _Figure 35: Pivot table setup representing **MAX** Percent_
 </p>
 <div align="center">
     
-_Figure 36: Pivot table setup representing **AVERAGE** Percent_
+_Figure 37: Pivot table setup representing **AVERAGE** Percent_
 </div>  
 <br>   
 
@@ -419,7 +419,7 @@ _Figure 36: Pivot table setup representing **AVERAGE** Percent_
 </p>
 <div align="center">
     
-_Figure 37: Pivot table setup representing **COUNT of Grade**_
+_Figure 38: Pivot table setup representing **COUNT of Grade**_
 </div>  
 <br> 
 
@@ -430,7 +430,7 @@ _Figure 37: Pivot table setup representing **COUNT of Grade**_
 </p>
 <div align="center">
     
-_Figure 38: Pivot table setup representing **COUNT of Status**_
+_Figure 39: Pivot table setup representing **COUNT of Status**_
 </div>  
 <br> 
 
@@ -440,7 +440,7 @@ _Figure 38: Pivot table setup representing **COUNT of Status**_
 </p>
 <div align="center">
     
-_Figure 39: Pivot Tables_
+_Figure 40: Pivot Tables_
 </div>  
 <br>     
 
@@ -450,7 +450,7 @@ _Figure 39: Pivot Tables_
 </p>
 <div align="center">
     
-_Figure 40: Selection of **"Scorecard chart"**_
+_Figure 41: Selection of **"Scorecard chart"**_
 </div>  
 <br>  
 
@@ -460,7 +460,7 @@ _Figure 40: Selection of **"Scorecard chart"**_
 </p>
 <div align="center">
     
-_Figure 41: Data range_
+_Figure 42: Data range_
 </div>  
 <br> 
 
@@ -472,7 +472,7 @@ _Figure 41: Data range_
 </p>
 <div align="center">
 
-_Figure 42: Max percent scorecard setup_
+_Figure 43: Max percent scorecard setup_
 </div>  
 <br>    
 
@@ -482,7 +482,7 @@ _Figure 42: Max percent scorecard setup_
 </p>
 <div align="center">
     
-_Figure 43: Avg percent scorecard setup_
+_Figure 44: Avg percent scorecard setup_
 </div>  
 <br>  
 
@@ -492,7 +492,7 @@ _Figure 43: Avg percent scorecard setup_
 </p>
 <div align="center">
     
-_Figure 44: Selection of **"Column chart"**_ 
+_Figure 45: Selection of **"Column chart"**_ 
 </div>  
 <br>
 
@@ -501,7 +501,7 @@ _Figure 44: Selection of **"Column chart"**_
 </p>
 <div align="center">
     
-_Figure 45: Column chart setup_
+_Figure 46: Column chart setup_
 </div>  
 <br>
 
@@ -513,7 +513,7 @@ _Figure 45: Column chart setup_
 </p>
 <div align="center">
     
-_Figure 46: Selection of **"Table chart"**_
+_Figure 47: Selection of **"Table chart"**_
 </div>  
 <br>
 
@@ -522,7 +522,7 @@ _Figure 46: Selection of **"Table chart"**_
 </p>
 <div align="center">
     
-_Figure 47: Table chart setup_
+_Figure 48: Table chart setup_
 </div>  
 <br>
 
@@ -532,7 +532,7 @@ _Figure 47: Table chart setup_
 </p>
 <div align="center">
     
-_Figure 48: Selection of **"Doughnut chart"**_
+_Figure 49: Selection of **"Doughnut chart"**_
 </div>  
 <br>
 
@@ -541,7 +541,7 @@ _Figure 48: Selection of **"Doughnut chart"**_
 </p>
 <div align="center">
     
-_Figure 49: Doughnut chart setup_
+_Figure 50: Doughnut chart setup_
 </div>  
 <br>
 
@@ -554,7 +554,7 @@ _Figure 49: Doughnut chart setup_
 </p>
 <div align="center">
     
-_Figure 50: Total record scorecard, Pass rate scorecard and Fail rate scorecard setup_
+_Figure 51: Total record scorecard, Pass rate scorecard and Fail rate scorecard setup_
 </div>  
 <br>
 
@@ -564,7 +564,7 @@ _Figure 50: Total record scorecard, Pass rate scorecard and Fail rate scorecard 
 </p>
 <div align="center">
     
-_Figure 51: Scorecards with the actual record for Pass and Fail Scorecards_
+_Figure 52: Scorecards with the actual record for Pass and Fail Scorecards_
 </div>  
 <br>
 
@@ -574,7 +574,7 @@ _Figure 51: Scorecards with the actual record for Pass and Fail Scorecards_
 </p>
 <div align="center">
     
-_Figure 52: Setup of the Scorecard_
+_Figure 53: Setup of the Scorecard_
 </div>  
 <br>
 
@@ -583,7 +583,7 @@ _Figure 52: Setup of the Scorecard_
 </p>
 <div align="center">
     
-_Figure 53: Customization of the Scorecard_
+_Figure 54: Customization of the Scorecard_
 </div>  
 <br>
 
@@ -593,7 +593,7 @@ _Figure 53: Customization of the Scorecard_
 </p>
 <div align="center">
     
-_Figure 51: Dashboard_
+_Figure 55: Dashboard_
 </div>  
 <br>
 
