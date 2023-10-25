@@ -5,11 +5,11 @@
 <a href="https://github.com/drshahizan/BDM/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/BDM?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2BDM&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Assignment 1a: Examination results
+# Assignment 1a: Academic Results
 
-### Group Name: XXX
-
-
+### Group Name: SEK KITO
+### [Documentation Link](https://docs.google.com/document/d/19OMbCZvjxZH2yj1RjKaR3UYLrw6OnyOj6NSj9G_4gu0/edit?usp=sharing)
+### [Google Sheet](https://docs.google.com/spreadsheets/d/1oE_Kf6Efi-YBFRdvLeD_Qhg_aoKmGmEj-iw0WvOA7Os/edit?usp=sharing)
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
@@ -17,6 +17,3 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-
-
-
