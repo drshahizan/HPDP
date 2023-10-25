@@ -68,7 +68,7 @@
 <p align="center"><img align="center" alt="Table" width="200" src="totalpoint.png"></p>  
 <p align="center"> <em> Figure 12: The total point was calculated for each row </em> </p> 
 
-4. Multiply the value in column O with 10 to calculate the percentage in column p.
+4. Multiply the value in column O with 10 to calculate the percentage in column P.
 <p align="center"><img align="center" alt="Equation" width="200" src="percentage.png"></p>
 <p align="center"> <em> Figure 13: Function used to calculate percentafe </em> </p> 
 <p align="center"><img align="center" alt="Table" width="200" src="percentagedone.png"></p>
@@ -95,9 +95,17 @@
 <p align="center"><img align="center" alt="Table" width="400" src="conditionalformat.png"></p> 
 <p align="center"> <em> Figure 21: Data after conditional formatting </em> </p> 
 
+8. Use **"Text color"** to colour the column L, M and N (B1, B2, B3) into red colour.
+<p align="center">
+  <img src="textcolor.png" width="200" />
+</p>
+<p align="center"> <em> Figure 22: Text color to colour the columns </em> </p> 
+<p align="center"><img align="center" alt="Table" width="400" src="redcolor_column.png"></p> 
+<p align="center"> <em> Figure 23: The columns colour in red </em> </p> 
+
 ## Dashboard <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
-<p align="center"> <em> Figure 22: Dashboard </em> </p> 
+<p align="center"> <em> Figure x: Dashboard </em> </p> 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
