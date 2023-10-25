@@ -1,4 +1,4 @@
-<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
+![image](https://github.com/drshahizan/HPDP/assets/95710157/9a56465a-03ef-4648-901c-01b43266e2e6)<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/network/members"><img src="https://img.shields.io/github/forks/drshahizan/BDM" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/BDM" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/BDM"><img src="https://img.shields.io/github/issues/drshahizan/BDM" alt="Issues Badge"/></a>
@@ -97,15 +97,18 @@
 <p align="center"> <em> Figure 21: Data after conditional formatting </em> </p> 
 
 8. Use **"Text color"** to colour the column L, M and N (B1, B2, B3) into red colour.
+   
+   Use "CTRL + Shift + ↓(Downward Arrow)" to select the whole column, repeat this step on column L, M and L. Then, change the text colour into red colour.
+
 <p align="center">
   <img src="textcolor.png" width="200" />
 </p>
 <p align="center"> <em> Figure 22: Text color to colour the columns </em> </p> 
 <p align="center"><img align="center" alt="Table" width="400" src="redcolor_column.png"></p> 
 <p align="center"> <em> Figure 23: The columns colour in red </em> </p> 
-Use "CTRL + Shift + ↓(Downward Arrow)" to select the whole column, repeat this step on column L, M and L. Then, change the text colour into red colour.
-
+   
 ## Create Dashboard <a name = "create_dashboard"> </a>
+### Pass and Fail views by using Doughnut chart <a name = "passfail_dashboard"> </a>
 1. Create and rename **"Dashboard"** at new spreadsheet.
 <p align="center"><img align="center" alt="Table" width="200" src="createnewsheet.png"></p> 
 <p align="center"> <em> Figure 24: Create new speardsheet through "+" button </em> </p> 
@@ -113,6 +116,27 @@ Use "CTRL + Shift + ↓(Downward Arrow)" to select the whole column, repeat this
 <p align="center"><img align="center" alt="Table" width="200" src="rename_dashboard.png"></p> 
 <p align="center"> <em> Figure 25: Rename the spreadsheet to "Dashboard" </em> </p> 
 
+2. Insert new chart into the "Dashboard" spreadsheet
+   
+   Insert the new chart by clicking the "Insert" at the menu on top. Then, choose "Chart" to insert it.
+<p align="center"><img align="center" alt="Table" width="200" src="insertchart.png"></p> 
+<p align="center"> <em> Figure 26: Insert new chart</em> </p> 
+<br></br>
+
+3. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Data range: R3:R111521 (Dataset1!R3:R111521)
+
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_passfail.png"></p> 
+<p align="center"> <em> Figure 27: Setup the Pass and Fail views chart</em> </p> 
+
+4. Tick the "Aggregate" section
+<p align="center"><img align="center" alt="Table" width="200" src="aggregate.png"></p> 
+<p align="center"> <em> Figure 28: Tick the "Aggregate" section</em> </p> 
+
+5. Result of **"Pass and Fail views Doughnut chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="passfailviews.png"></p> 
+<p align="center"> <em> Figure 29: Tick the "Final result for Pass and Fail views Doughnut chart" section</em> </p> 
 
 ## Dashboard <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
