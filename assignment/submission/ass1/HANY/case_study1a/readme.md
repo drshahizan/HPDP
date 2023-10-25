@@ -14,7 +14,7 @@
 | :---------------------------------------- | :-------------: | :-------------: |
 | ALYA BALQISS BINTI AZAHAR             |A21EC0158      | DOCUMENTATION     |
 | MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | ANALYSIS     |
-|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | PREPROCESSING     |
+|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | DOCUMENTATION     |
 | LIEW YVONNE              |A21EC0045      | VISUALISATION     |
 
 ## Table of Contents
