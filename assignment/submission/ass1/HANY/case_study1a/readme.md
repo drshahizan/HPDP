@@ -38,7 +38,7 @@
 
 
 ## 1. Introduction 
-**CASE STUDY 1: Examination Results** involves working with a dataset named dataset1.txt, which contains valuable information about students' examination results. The objective of this case study is to use the dataset to carry out a series of data processing tasks. These steps are necessary to enhance the analysis and visualization of examination results using Google Sheets' features. This case study provides an opportunity to explore and analyze student examination results, from data processing to visualization, ultimately assisting in making informed decisions and improvements in academic performance evaluation.
+**CASE STUDY 1: Examination Results** involves working with a dataset named [Dataset1.txt](https://docs.google.com/spreadsheets/d/1MN7NgsUQqE91JiYOJ1nSrjs41kqkYe8twM3xC_PYFrw/edit?usp=sharing), which contains valuable information about students' examination results. The objective of this case study is to use the dataset to carry out a series of data processing tasks. These steps are necessary to enhance the analysis and visualization of examination results using Google Sheets' features. This case study provides an opportunity to explore and analyze student examination results, from data processing to visualization, ultimately assisting in making informed decisions and improvements in academic performance evaluation.
 
 ## 2. Data Importation 
 ### 2.1 Importing a Dataset into Google Sheets 
