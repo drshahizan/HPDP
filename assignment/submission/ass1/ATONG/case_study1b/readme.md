@@ -12,54 +12,68 @@
   ![image](https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c)
 
 2. Click **Upload >> Browse >> Dataset2.txt**.
-   ![image](https://github.com/drshahizan/HPDP/assets/108865725/fecc1ad7-c176-483e-bcba-6d40c0103533)
+   ![image](https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3)
 
   
 
 3. Click “Replace current sheet”, and then import data.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/3dd5b852-0b5f-4f09-892e-df25ae8bacc9)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/777f009c-e01d-4ed4-9b8c-443f5d83cdbc)
+
 
 
 4. Use format **=MONTH(DATEVALUE(H2:H324&1))** to give value of month based on sales month.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/bddeec00-afad-4cc3-a51b-053287957d4b)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/92522e8f-e41b-432d-887b-8ae1a74e2b68)
+
 
 
 5. For those **"#VALUE!"**, we need to correct it by clicking **Ctrl+F**, then type Sept. Then click the three button.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/284480b6-5a67-442c-be91-d9b0ad419856)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/917370da-89a3-4e41-98de-e7d76904b14a)
+
 
 
 6. Type the replace with *Sep*, and click *"replace all"* first, then the *"done"* button.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/9d88a5e6-d647-4d69-92ee-14637f2ac276)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/f4a3501c-75a8-4958-b91a-8dd940d3ced8)
 
 
-Result Displayed:![image](https://github.com/drshahizan/HPDP/assets/108865725/63cbcecb-38db-478f-8f66-e736a558361d)
+
+Result Displayed:
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/f998bec5-ad76-4235-9d22-c4753a79b640)
+
 
 
 ## Pivot Table
 ### Monthly Sales
 
 7. Select all columns ( BY CLICK ON CTRL + SHIFT + RIGHT CLICK + DOWN CLICK) and click on **insert» pivot table »new sheet**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/62b8f7e3-2470-4512-a0e4-e88feae41edc)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/8ae1b20f-6606-4734-8c1c-c4576f68b369)
+
 
 
 8. Choose the Rows variables and value column.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/329f30fa-2622-48af-a808-748845b6c80c)
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/44bea597-ab68-44c4-900c-d2d58262bf8a)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/81335fcf-de6a-4cfd-98ff-08258eb610f1)
+
+
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/39e758b5-dbf8-447b-a0e0-63fb8ae2a041)
+
 
 
 9. Produce graph by clicking **insert » chart» stacked column chart**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/b61adca4-fba6-43d4-a7fd-8ff982e8a19d)
-
-
-10. Result Displayed: ![image](https://github.com/drshahizan/HPDP/assets/108865725/afdc8f3f-2bef-4836-ab36-bd627fdd8cec)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/86d299a0-d7cf-4ab8-a665-6e2eb1f3eba4)
 
 
 
-Customize the chart according to your preferences by clicking **Format > Theme > Customize**.
+10. Result Displayed:
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e84f6bc3-f690-4cbd-b431-b32572251924)
+
+11. Customize the chart according to your preferences by clicking **Format > Theme > Customize**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/4ca4e252-0f0e-4619-a812-67f45f12ac43)
+
+    
 ### Region 
 
-Repeat **Step 7** 
-Select Row and Value.
+12. Repeat **Step 7** 
+
+13. Select Row and Value.
 
 
 Then click **insert»chart**.
