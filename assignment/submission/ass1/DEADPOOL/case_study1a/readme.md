@@ -30,7 +30,7 @@ This dataset describes exam outcomes, allowing us to determine if students passe
 
 <div align="center">
   
-Figure 1: To import Dataset
+Figure 1: Import Dataset to Google Sheet
 </div>
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
