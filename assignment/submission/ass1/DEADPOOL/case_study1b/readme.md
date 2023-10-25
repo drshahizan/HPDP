@@ -19,7 +19,7 @@
 
 <br>
 
-### **Table of Content**
+## **Table of Content**
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
      * [Dataset Information](#dataset-information)
@@ -35,7 +35,7 @@
 
 <br>
 
-### Dataset Information 
+## Dataset Information 
 This dataset is named Dataset2.txt. This dataset contains a few columns of data which are Customer, Products, Sales Person, Sales Region, Target, Sales, Sales Year, Sales Month and Sales QTR.
 
 **Importing Data**
@@ -53,7 +53,7 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 <br>
 
-### Pivot Table
+## Pivot Table
 
 #### How to create Pivot table
 
@@ -63,6 +63,11 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
    
 #### Monthly Sales
 
+1. Create a new pivot table
+2. In the pivot table editor, select:
+   * for rows, add **MONTH INDEX** and **SALES MONTH** column.
+   * for values, add **SALES** and **TARGET** column. For both columns, summarize by **SUM**
+3. 
 
 #### Region
 #### Customer
@@ -74,7 +79,7 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 
 
-### Dashboard
+## Dashboard
 
 
 
