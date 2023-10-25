@@ -21,6 +21,7 @@
 1. [Introduction](#introduction)
 2. [Data Preprocessing](#data-preprocessing)
     - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
+    - [Section Title](#section-anchor)
 
 
 
@@ -49,7 +50,7 @@ Before you can create a dashboard or begin analyzing your data, you must first i
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/7bc4178d-c5ff-4ab0-9978-4432d0b85dd2" style="width: 400px; height: 250px;">
 </div>
 
-
+## Section Title {#section-anchor}
 
 
 
