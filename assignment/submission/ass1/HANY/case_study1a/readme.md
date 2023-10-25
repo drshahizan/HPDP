@@ -49,6 +49,8 @@ Before you can create a dashboard or begin analyzing your data, you must first i
   5. Choose **Import Data** and ensure that the **Import location** is set to "Create a new spreadsheet".
 <div align="center">
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/7bc4178d-c5ff-4ab0-9978-4432d0b85dd2" style="width: 400px; height: 250px;">
+    
+**Figure 3: Creating new spreadsheet by importing the data.**  
 </div>
 
 
