@@ -20,8 +20,8 @@
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Data Importation](#2-data-importation)
-   - 2.1. [Import Dataset](#-2.1.-import-dataset)
-   - 2.2. [Enhance Dataset Appearance](#-2.2.-enhance-dataset-appearance)
+   - 2.1. [Import Dataset](#2.1-import-dataset)
+   - 2.2. [Enhance Dataset Appearance](#2.2-enhance-dataset-appearance)
 3. [Data Processing](#4-data-preprocessing)
 4. [Data Visualisation](#5-data-visualisation)
 5. [Contribution](#6-contribution)
@@ -42,7 +42,7 @@ To get started with creating a dashboard or begin conducting data analysis, star
   5. Click on the **Import Data** to proceed with the data import.
      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/8a868c00-c4f0-4aff-9435-08960dd59ff3" width="500"></div>
 
-### 2.1. Enhance Dataset Appearance
+### 2.2. Enhance Dataset Appearance
   1. Navigate to the **Format** menu and select **Alternating colors**.
       <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/da806f8e-d874-40d7-8bd2-4f7bfe377af7" width="500"></div>
   2. Choose the color theme according to preferred appearance.
