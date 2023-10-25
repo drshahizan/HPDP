@@ -93,7 +93,7 @@ Top Three Lowest Grades:
 2. D- → 1,029 
 3. D → 1,681
 
-The percentage of students who pass is 63.30%, or 70,594 students, and the percentage of students who fail is 36.70%, or 40,925 students. Approximately half of the students passed the examination, while the remaining students did not meet the required standard to pass the examination.
+The percentage of students who pass is 63.30% or 70,594 students, and the percentage of students who fail is 36.70%, or 40,925 students. Approximately half of the students passed the examination, while the remaining students did not meet the required standard to pass the examination. We can conclude that half of the students who take the examination have passed the exam and most of them get A grade.
 
 
 ## Contribution 🛠️
