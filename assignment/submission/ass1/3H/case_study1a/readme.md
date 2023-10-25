@@ -1,4 +1,4 @@
-<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
+<img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/network/members"><img src="https://img.shields.io/github/forks/drshahizan/BDM" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/BDM" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/BDM"><img src="https://img.shields.io/github/issues/drshahizan/BDM" alt="Issues Badge"/></a>
@@ -7,8 +7,9 @@
 
 # Assignment 1a: Examination results
 
-### Group Name: (3H) HAHAHA
+## Group Name: (3H) HAHAHA
 
+## Data Preprocessing
 1. Import the Dataset1.txt into Google Sheets, on the left upper menu bar, choose **"File" -> "Import"**.
 <p align="center"><img align="center" alt="Coding" width="400" src="afterimport.png"></p>   
 
@@ -51,6 +52,194 @@ enter:<b>"=IF(P2 >= 90, "A+", IF(P2 >= 80, "A", IF(P2 >= 75, "A-", IF(P2 >= 70, 
 8. To categorize the grades as PASS or FAIL, at Column R, 
 enter:<b>"= IF(AND(P2>=65, P2<=100), "PASS", "FAIL")"</b>
 <p align="center"><img align="center" alt="Coding" width="200" src="status.png"> </p>
+
+## Data Visualization
+![dashboard](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/3H/case_study1a/images/1a_dashboard.jpg)
+
+create a new sheet by shift + F11 named dashboard for deign the dashboard
+
+### i. Determine the min, maximum, and average values
+
+1. select the chart logo at the top right corner
+
+   <p align="center"><img align="center" alt="Coding" width="40" src="images/1a_1.jpg"> </p>
+
+2. select scorecard chart as chart type
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_12.jpg"> </p>
+
+3. select the data range at sheet with name "Dataset1" and range from "P1:P11520" which is where the "Percentage" column located
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_3.jpg"> </p>
+
+4. tick aggregate and select the function as "Min", make sure you select the option of "Use first row as headers"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_4.jpg"> </p>
+
+5. for the chart "Average", repeat the step from 1 ~ 4, but select the aggregate function as Max
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_5.jpg"> </p>
+
+6. for the chart "Max", repeat the step from 1 ~ 4, but select the aggregate function as Average
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_6.jpg"> </p>
+
+7. For design the chart, select the customize tab
+   
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_7.jpg"> </p>
+
+7. Select Chart Type, can design the chart color and font
+
+   <p align="center"><img align="center" alt="Coding"  src="images/1a_i_8.jpg"> </p>
+
+8. Select Key Value, can design the the value
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_i_9.jpg"> </p>
+
+9. select chat&axis title, to set the the chart title
+
+    <p align="center"><img align="center" alt="Coding" src="images/1a_i_10.jpg"> </p>
+
+### ii. Display grading results as charts and tables.
+
+#### Grades Column Chart
+1. select column chart as chart type
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_1.jpg"> </p>
+
+2. select the data range at sheet with name "Dataset1" and range from "P1:P11520" which is where the "Grade" column located
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_2.jpg"> </p>
+
+3. make sure tick the aggregate and "use row 1 as headers"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_3.jpg"> </p>
+
+4. select the "chart title" option and set the chart tite as "Grading"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_4.jpg"> </p>
+
+5. select the "horizontal axis title" option and set the title as "Grade"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_5.jpg"> </p> 
+
+6. select the "vertical axis title" option and set the title as "Num. of Students"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_6.jpg"> </p> 
+
+7. to ensure the bar chart sorting according to the order, should make sure to sorting the sheet according to the percenatage
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_7.jpg"> </p> 
+
+#### Grades Table Chart
+
+1. To ensure the table will have a "total row" at the last row, we have to create a new column in the original dataset with the following formula
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_8.jpg"> </p>
+
+2. To prevent this added column affect the appearance of the original dataset, we can set the font color same as the background (white) and set the
+   following conditional formating for the added column:
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_9.jpg"> </p> 
+
+3. Back to the dashboard sheet, create a new table chart
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_10.jpg"> </p>
+
+4. set the dataset range as follow image where is the Grades column located, and make sure tick the aggregate
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_11.jpg"> </p> 
+
+5. To add the "total row", click the add series and add the data range which is where the added column located
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_12.jpg"> </p>
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_13.jpg"> </p>
+
+6. select the combine ranges as vertically
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_14.jpg"> </p>
+
+7. ensure to tick the first column as header option
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_ii_15.jpg"> </p> 
+
+### iii. Show the total number of records. Please display Pass and Fail in the form of a percentage and the number of records.
+
+#### Total Number scorecard chart
+
+1. create a new scorecard chart
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iii_4.jpg"> </p>
+
+2. add the data range and key value as where the total value located in statistics sheet
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iii_5.jpg"> </p>
+
+3. go to customize -> key value, set the scale factor as 1000 and select number format as custom to set the suffix as K
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iii_6.jpg"> </p>
+
+#### Fail and Pass scorecard chart
+
+1. This scorecard card is consist of two score card stacked together to show the percentage and the actual number:
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_1.jpg"> </p>
+   
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_2.jpg"> </p>
+   
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_3.jpg"> </p> 
+
+2. to set up the fail value scorecord, set the data range as where the fail value located in the statistics sheet:
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_4.jpg"> </p> 
+
+3. go to customize and follow the following setting to add the suffix %
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_5.jpg"> </p>
+
+4. set the title as "Fail"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_10.jpg"> </p>
+
+5. to set up the number scorecard, create new one score card and set the data range as where the fail percentage located at statistics sheet
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_6.jpg"> </p>
+
+6. go to customize -> key value to set the suffix as "records"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_7.jpg"> </p>
+
+7. set the border of the number scorecard same as the background color of the percentage scorecard then statck them together
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_11.jpg"> </p>
+
+8. repeat step 1 ~ 7 to set up the pass scorecard except reset the data range as where pass value and percentage locateed and title as "Pass"
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_8.jpg"> </p>
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iv_9.jpg"> </p>
+
+
+### iv. Create Pass and Fail views in the form of pie charts as well.
+
+#### Status Doughnut chart
+1. To ease the following process create a new sheet named "Statistics" and set the formula as stated:
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iii_1.jpg"> </p> 
+
+   a. B4 : = COUNT(Dataset1!P1:P111520)
+   b. B2 : = COUNTIF(Dataset1!R1:R111520, "FAIL")
+   c. B3 : = B4-B2
+   d. C2 : = B2/B4*100
+   e. C3 : = 100-C2
+
+2. back to dashboard sheet, create a doughnut chart:
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iii_2.jpg"> </p>
+
+3. select the data range as where status column located, and follow the following setting
+
+   <p align="center"><img align="center" alt="Coding" src="images/1a_iii_3.jpg"> </p>
 
 
   
