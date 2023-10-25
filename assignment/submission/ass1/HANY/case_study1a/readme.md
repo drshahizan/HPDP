@@ -8,8 +8,27 @@
 # Assignment 1a: Examination results
 
 ### Group Name: HANY
+### Group Members
 
-# Importing a Dataset into Google Sheets
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | :-------------: |
+| ALYA BALQISS BINTI AZAHAR             |A21EC0158      | DOCUMENTATION     |
+| MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | ANALYSIS     |
+|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | PREPROCESSING     |
+| LIEW YVONNE              |A21EC0045      | VISUALISATION     |
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Data Preprocessing](#data-preprocessing)
+    - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
+
+
+
+## 1. Introduction 
+**CASE STUDY 1: Examination Results** involves working with a dataset named dataset1.txt, which contains valuable information about students' examination results. This dataset comprises five columns that provide insights into various aspects of student performance, including **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2**. 
+
+## 2. Data Preprocessing 
+### 2.1 Importing a Dataset into Google Sheets 
 
 Before you can create a dashboard or begin analyzing your data, you must first import your dataset into Google Sheets, as shown in Figure 1. 
   1. Navigate to the **File** menu, and then choose for the **Import** option.
