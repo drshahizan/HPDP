@@ -19,9 +19,14 @@
 | NG ZI XING | A21EC0213   |      
 
 ## Table of Contents
-+ [Dataset Information](#dataset_info)
-+ [Pivot Table](#pivot_table)
-+ [Visualization and Dashboard](#dashboard)
+- [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
+      + [Group Name: (3H) HAHAHA](#group-name-3h-hahaha)
+      + [Group Members](#group-members)
+   * [Table of Contents](#table-of-contents)
+   * [Dataset Information <a name = "dataset_info"></a>](#dataset-information)
+   * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
+   * [Dashboard <a name = "dashboard"></a>](#dashboard)
+   * [Contribution 🛠️](#contribution-)
   
 ## Dataset Information <a name = "dataset_info"></a>
 This dataset is called dataset1.txt. This dataset has five columns that contain information about Id_No, Academic, Sports, Co-Curriculum, Test_1 and Test_2. Table 1 shows the full marks for the data
