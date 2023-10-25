@@ -72,7 +72,7 @@
 
 
 
-   Result Displayed:
+   Result of Monthly Sales Pivot Table:
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f998bec5-ad76-4235-9d22-c4753a79b640" width="700"></div>
 
 
@@ -107,7 +107,8 @@
 ### Pivot Table for Customer
 12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where converting from datasets into pivot table.
   
-13. Edit the pivot table by choosing **Rows** and **Values**. As shown in the figure below, *"CUSTOMER"* is selected as the row value and *"PRODUCTS"* as the **Value** item.
+13. Edit the pivot table by choosing **Rows** and **Values**. As shown in the figure below, *"CUSTOMER"* is selected as the row value and *"PRODUCTS"* as the **Value** item. <br>
+Result of Customer Pivot Table:
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11" width="700"></div>
 
 
@@ -125,7 +126,7 @@
 <br></br>
 ### Pivot Table for Trend
 16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where converting from datasets into pivot table.
-17. In creating Trend Pivot Table, we will select the *"SALES YEAR*, *SALES MONTH*, and *MONTH"* as the **Rows** items. 
+17. In creating Trend Pivot Table, we will select the "*SALES YEAR*, *SALES MONTH*, and *MONTH*" as the **Rows** items. 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6" width="700"></div>
 
      Here, we can see that selecting *"SALES"* as the **Values** item is needed in order to create and analyze the trend chart in next step later.
@@ -137,45 +138,51 @@
 
 ## Chart
 
-18. Copy all the pivot tables by using **Ctrl + Shift** and select. <br>
-    **PASTE** it into a sheet named **"dashboard"**.
+18.   Before proceeding to create charts, we need to copy all the pivot tables by using **Ctrl + C** from each sheets. Next, proceed to **PASTE** it into a new sheet named **"Dashboard"**.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9" width="700"></div>
 
-    Result Displayed:
+    Result of arranging all pivot table in **DASHBOARD** sheet:
       <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882" width="700"></div>
     <br></br>
+    
 ### Chart for Monthly Sales
-19. Click **Insert » Chart**.
+19. Click **Insert >> Chart** option from the menu above in order to produce a chart based on the pivot tables.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67" width="700"></div>
 <br><br>
-20. Choose the **stacked area chart**, then customize it before arranging it into **Dashboard** sheet.
+20. As for the chart type, we need to choose the **Stacked Area Chart** , then customize it before arranging it.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/37a18e02-18d4-4231-b0df-d6815f0204d6" width="700"></div>
 <br></br>
+
 ### Chart for Region
-21. Select the **Region** pivot table. <br>
-    Then repeat [Step 19](#chart-for-monthly-sales).
-22. Customize it before arranging it into the **Dashboard** sheet.
+21. Select any rows from the **Region** pivot table before proceeding to repeat the [Step 19: Create Chart](#chart-for-monthly-sales). Choose **Pie Chart** since these datas are suitable being presented in this type of chart.
+    
+23. We continue to customize the chart such as by changing the position of legend and change the color of pie chart in order to make the chart more outstanding and attractive.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853" width="700"></div>
 <br></br>
+
 ### Chart for Customer
-23. Select the **Customer** pivot table. <br>
-    Then repeat [Step 19](#chart-for-monthly-sales).
-24. Choose **Pie Chart**, then customize it before arranging it into the **Dashboard** sheet.
+23. Select the **Customer** pivot table before proceeding to repeat the [Step 19: Create Chart](#chart-for-monthly-sales).
+    
+24. Choose **Pie Chart** under **Chart Editor >> Setup** option, then customize it where the highlight of key points from the chart can be emphasized later.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/522ec5b3-5e37-4c72-b5f2-045f15885c85" width="700"></div>
 <br></br>
+
 ### Chart for Salesperson
-25. Select the **Customer** pivot table. <br>
-    Then repeat [Step 19](#chart-for-monthly-sales).
-26. Choose **Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
+25. Select the **Customer** pivot table before proceeding to repeat the [Step 19: Create Chart](#chart-for-monthly-sales).
+    
+27. In **Chart Editor >> Setup** option, we need to choose **Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05" width="700"></div>
 <br></br>
 
 ### Chart for Trend
-27. Select the **Customer** pivot table. <br>
-    Then repeat [Step 19](#chart-for-monthly-sales).
-28. Choose **Smooth Line Chart**, then customize it before arranging it into the **Dashboard** sheet.
+27. Select the **Customer** pivot table before proceeding to repeat the [Step 19: Create Chart](#chart-for-monthly-sales).
+    
+29. Choose **Smooth Line Chart** to create a line chart. Then, we add on the data labels into the line by clicking **Chart Editor >> Customize** menu under **Series**. 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/a70a694e-37e2-4e57-98cf-e5ed8d3389a5" width="700"></div>
 
+<br>
+ > [!IMPORTANT]
+> Make sure the data and labelling in each your chart are clear and oustanding in order to ease the analyst to preview the charts including able to absorb the data being presented.
 
 
 
