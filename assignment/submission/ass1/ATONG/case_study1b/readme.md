@@ -28,7 +28,7 @@
       - [Pivot Table for Customer](#pivot-table-for-customer)
       - [Pivot Table for Salesperson](#pivot-table-for-salesperson)
       - [Pivot Table for Trend](#pivot-table-for-trend)
-   * [Create A Chart <a name = "chart"></a>](#Create-A-Chart)
+   * [Create Chart <a name = "chart"></a>](#Create-Chart)
       - [Chart for Monthly Sales](#chart-for-monthly-sales)
       - [Chart for Region](#chart-for-region)
       - [Chart for Customer](#chart-for-customer)
@@ -136,7 +136,7 @@ Result of Customer Pivot Table:
 
 <br></br>
 
-## Create A Chart
+## Create Chart
 
 18.   Before proceeding to create charts, we need to copy all the pivot tables by using **Ctrl + C** from each sheets. Next, proceed to **PASTE** it into a new sheet named **"Dashboard"**.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9" width="700"></div>
