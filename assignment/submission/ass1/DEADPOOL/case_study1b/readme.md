@@ -74,7 +74,7 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
    * X-axis = SALES MONTH
    * Series = Sum of sales and Sum of target
    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/setup%20chart%20monthly.png)
-4. Then customize your chart as you see fit at the customize tab. For example, change the chart title to Monthly Sales.
+4. Then customize your chart as you see fit at the customize tab. For example, change the chart title to Region, make a legend for the pie chart, make the pie chart 3d or change the color of slices in the pie chart
 
 #### Region
 
