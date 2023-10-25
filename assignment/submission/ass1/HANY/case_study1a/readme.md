@@ -178,25 +178,37 @@ The following data processing processes must be completed:
    </div>
 
 ### 3.6. Grade Assignment
-<div align="center">
+   13. Assign the **Grade** and **Status** for the marks according to the given formula. 
+   <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4ac87301-d137-4eb6-bf62-7c35ffe7ab35" style="width: 1745px; height: 56px;">
-   <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/340ed0cb-bb6c-4e4e-8efc-70457454c0bf" style="width: 100px; height: 400px;">
-   <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/c45c123d-7bf6-4714-ac22-582bfbacad45" style="width: 1608px; height: 66px;">
    <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/dca3f4a6-3bde-465a-a56d-603062ab749c" style="width: 100px; height: 400px;">
-</div>
+   
+   **Figure 16: Display the formula used to assign Status and Grade respectively.**
+   </div>
+
+   14. As illustrated in **Figure 17**, the results of the assignment for **Grade** and **Status** will be placed in columns Q and R.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/340ed0cb-bb6c-4e4e-8efc-70457454c0bf" style="width: 100px; height: 400px;"><img src="https://github.com/drshahizan/HPDP/assets/106257072/dca3f4a6-3bde-465a-a56d-603062ab749c" style="width: 100px; height: 400px;">
+
+   **Figure 17: Shows the Grade and Status column.**
+   </div>
    
 ### 3.7. Differentiate Status Based on Color
-<div align="center">
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/07cde0aa-0d21-454a-9499-3e812f133c48" style="width: 400px; height: 350px;">
+   15. Click **Format** to differentiate the **Status**. Then, select **Conditional formatting**.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/2eaf0e9b-ef89-4b9c-aa02-f9d2016a5a41" style="width: 400px; height: 350px;">
+      
+  **Figure 18: Shows the format for conditional formatting.**
    <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/289e4c45-cd95-435b-b8a1-e532c7a763fa" style="width: 450px; height: 500px;">
-   <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/1c153a4b-0327-4c73-aec0-f62dbcb1c9a1" style="width: 450px; height: 500px;">
-
-</div>
+   </div>
+   
+   16. Change the color of the formating style to green for "Status=Pass" and red for "Status=Fail" as illustrated in **Figure 19** below.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/7d456488-3016-42b8-8ec7-ad0b8f04edbb" style="width: 450px; height: 500px;"> <img src="https://github.com/drshahizan/HPDP/assets/87573002/b0b57aee-2441-4a12-b664-0ff3c6c4002a" style="width: 450px; height: 500px;">
+   
+   **Figure 19: Shows the setting for the colour formatting.**
+   </div>
 
 ## 4. Data Visualisation
 <div align="center">
