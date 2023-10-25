@@ -46,7 +46,7 @@
   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c" width="400"></div>
 
 2. Click **Upload >> Browse >> Dataset2.txt**.
-   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3" width="400"></div>
+   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3" width="600"></div>
 
   
 
