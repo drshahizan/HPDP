@@ -189,10 +189,10 @@ Result of arranging all pivot table in **DASHBOARD** sheet:
 29. Select any rows from the pivot table. For instance, if a region slicer is about to created, we click on the value from **"Region pivot table"** then continue click on **Insert** >> **Add a Slicer**.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/d8a7ccd8-9122-473d-89c7-0774e950178e" width="700"></div>
 
-30. Select the appropriate range as below: *TempData!A1:J324*. Therefore, all datasets will be selected and linked to the slicer.
+30. Select the appropriate range: *TempData!A1:J324*. Therefore, all datasets will be selected and linked to the slicer.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/13a216b7-329c-4c38-9623-4555fe535071" width="700"></div>
 
-    Otherwise, can click **Insert** >> **Add a Slicer** directly to create a slicer. Make sure to select the right variable as the **Column** variable<br></br>
+    Otherwise, we can click **Insert** >> **Add a Slicer** directly to create a slicer. Make sure to select the right variable as the **Column** variable.<br></br>
       <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/37aa9a49-7f70-4973-97f2-134964097e85" width="700"></div>
       
 31. Repeat the [Step 29: Add Slicer](#adding-slicer) to add another slicers for each pivot tables that will linked to all charts in the dashboard.
@@ -201,7 +201,7 @@ Result of arranging all pivot table in **DASHBOARD** sheet:
 <br><br>
 
 ## Dashboard
-   **Dashboard** successfully created.    
+   **Dashboard** successfully created!    
    <br>
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/5b5f1532-708b-467e-a0a3-652a55dba72e" width="800"></div>
 
