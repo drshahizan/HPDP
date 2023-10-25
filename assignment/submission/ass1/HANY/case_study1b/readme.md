@@ -111,21 +111,22 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/a2d3339e-ed45-4851-9ab6-053172e671d6" width="500"></div>
   7. To generate the chart, select the related pivot table. Then, go to the **Insert** menu and select **Chart**.
       <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/80bb4dbd-9230-46c2-8b89-5f7898192b46" width="500">
-      
-**Charts**
-   - Monthly Sales
+ 
+      **Charts Created**
+   
+      - Monthly Sales
         <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/7a093daf-5f92-48b4-a58e-a505155fc3a5">
 
-   - Sales Region
+      - Sales Region
         <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/e7ab2edc-d427-4561-840e-f61523fcc5b0">
 
-   - Customer
+      - Customer
         <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/8fd5a737-dbae-4af6-93a5-40ca0e3509e4">
 
-   - Sales Person
+      - Sales Person
         <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/5f49c498-f7ca-4efb-85e8-4a4b6d9bbd80">
 
-   - Sales Trend
+      - Sales Trend
         <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/5e088608-f376-4e56-8d1e-0e0581af390d">
 
         
