@@ -23,6 +23,13 @@ One dataset has been chosen for data analysis based on the case study that was g
   <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DP1.png" alt="Image description">
 </div>
 
+### Remove redundant data
+2. Remove redundant data in the Google Sheet by selecting the redundant data and use the keyboard shortcut ctrl+shift+del
+
+### Changing decimal places
+3. Since we want our dataset to be two decimal places, we will use the decrease decimal places tab on the upper Google Sheet tab.
+4. Click the  decrease decimal places tab until we get two decimal places
+
 ### Creating Column
 5. Creating a new column P1 to P5 based on the guide below:
 <div align="center">
