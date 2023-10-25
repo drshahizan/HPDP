@@ -5,7 +5,7 @@
 ## Dataset 2 Report
 
 </div>
-
+<div align="center">
 ### :octocat: Group Name: KhuChin
 ### Group Members
 
@@ -15,6 +15,8 @@
 | Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |
 | Nur Shuhada Safiah Binti Ayob              |A21EC0114      |
 | Ikmal Bin Khairulezuan              |A21EC0186      |
+
+</div>
 
 ------
 ## 📑 KhuChin Dataset2 Dashboard
