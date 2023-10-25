@@ -27,6 +27,7 @@
       + [Total Points](#total-points)
       + [Grades](#grades)
       + [Status](#status)
+      + [Color the pass record](#color-the-pass-record)
    * [Data Visualization](#data-visualization)
       + [i. Determine the min, maximum, and average values](#i-determine-the-min-maximum-and-average-values)
       + [ii. Display grading results as charts and tables.](#ii-display-grading-results-as-charts-and-tables)
@@ -91,6 +92,17 @@ enter:<b>"=IF(P2 >= 90, "A+", IF(P2 >= 80, "A", IF(P2 >= 75, "A-", IF(P2 >= 70, 
 8. To categorize the grades as PASS or FAIL, at Column R, 
 enter:<b>"= IF(AND(P2>=65, P2<=100), "PASS", "FAIL")"</b>
 <p align="center"><img align="center" alt="Coding" width="200" src="status.png"> </p>
+
+### Color the pass record
+
+9. To color the pass record, select the status column, right click and select the conditional formating
+   <p align="center"><img align="center" alt="Coding" width="200" src="images/1a_p_1.jpg"> </p>
+
+10. set up the color rule as follow with the condition of once it is passed, the color will be red
+    <p align="center"><img align="center" alt="Coding" width="200" src="images/1a_p_2.jpg"> </p>
+
+11. same for the percentage column to set up the conditional formatiing with the following rules
+    <p align="center"><img align="center" alt="Coding" width="200" src="images/1a_p_3.jpg"> </p>
 
 ## Data Visualization
 ![dashboard](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/3H/case_study1a/1a_dashboard.jpg)
