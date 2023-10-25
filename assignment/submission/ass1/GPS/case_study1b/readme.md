@@ -12,15 +12,34 @@
 ## Dataset information
 This dataset is called Dataset2.txt. This dataset has nine columns which are CUSTOMER, PRODUCTS, SALES PERSON, Sales Region, Target, SALES, SALES YEAR, SALES MONTH	and SALES QTR.
 
+**Source**: https://docs.google.com/spreadsheets/d/1vUogP0glv5RVHAp1kRcJCLvHPztVrFxzTwvV4YZCsiE/edit?usp=sharing 
+
 ### Importing data :
-1. Import the Dataset2.txt into Google Sheets, on the left upper menu bar, choose "File" -> "Import".
+ 1. Import the Dataset2.txt into Google Sheets, on the left upper menu bar, choose "File" -> "Import".
 <p align="center">
   <img src="images/1.png" alt="Image Description">
 </p> 
 2. Then, click "Import data"
 <p align="center">
   <img src="images/2.png" alt="Image Description">
-</p>  
+</p>
+3. Add a new column named "Month Index" and insert a formula =IF(H2="Jan", 1, IF(H2="Feb", 2, IF(H2="Mar", 3, IF(H2="Apr", 4, IF(H2="May", 5, IF(H2="Jun", 6, IF(H2="Jul", 7, IF(H2="Aug", 8, IF(H2="Sept", 9, IF(H2="Oct", 10, IF(H2="Nov", 11, IF(H2="Dec", 12, 0)))))))))))) to sort the "SALES MONTH" due to "SALES MONTH" format data is in text.
+<p align="center">
+  <img src="images/3.png" alt="Image Description">
+</p>
+
+## Charts
+### Monthly sales chart
+
+### Sales region
+
+### Customer
+
+### Salesperson
+
+### Sales Trend
+
+## Slicer
 
 
 ## Contribution 🛠️
