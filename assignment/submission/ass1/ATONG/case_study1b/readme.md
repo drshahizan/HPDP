@@ -127,7 +127,7 @@
 17. Select **Rows** and **Values**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6)
 
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3" width="400"></div>
 
 
 
@@ -137,42 +137,42 @@
 
 18. Copy all the pivot tables by using **Ctrl + Shift** and select. <br>
     **PASTE** it into a sheet named **"dashboard"**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9" width="400"></div>
 
     Result Displayed:
-      ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
+      <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
     <br></br>
 ### Chart for Monthly Sales
 19. Click **Insert » Chart**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67" width="400"></div>
 <br><br>
 20. Choose the **stacked area chart**, then customize it before arranging it into **Dashboard** sheet.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/37a18e02-18d4-4231-b0df-d6815f0204d6)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/37a18e02-18d4-4231-b0df-d6815f0204d6" width="400"></div>
 <br></br>
 ### Chart for Region
 21. Select the **Region** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 22. Customize it before arranging it into the **Dashboard** sheet.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853" width="400"></div>
 <br></br>
 ### Chart for Customer
 23. Select the **Customer** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 24. Choose **Pie Chart**, then customize it before arranging it into the **Dashboard** sheet.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/522ec5b3-5e37-4c72-b5f2-045f15885c85)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/522ec5b3-5e37-4c72-b5f2-045f15885c85" width="400"></div>
 <br></br>
 ### Chart for Salesperson
 25. Select the **Customer** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 26. Choose ** Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05" width="400"></div>
 <br></br>
 
 ### Chart for Trend
 27. Select the **Customer** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 28. Choose **Smooth Line Chart**, then customize it before arranging it into the **Dashboard** sheet.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/a70a694e-37e2-4e57-98cf-e5ed8d3389a5)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/a70a694e-37e2-4e57-98cf-e5ed8d3389a5" width="400"></div>
 
 
 
@@ -181,14 +181,14 @@
 
 ## Adding Slicer
 29. Click on **Insert** » **Add Slicer**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/d8a7ccd8-9122-473d-89c7-0774e950178e)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/d8a7ccd8-9122-473d-89c7-0774e950178e" width="400"></div>
 
 31. Select the appropriate range as below. <br>
     Therefore, all datasets will be selected and linked to the chart.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/13a216b7-329c-4c38-9623-4555fe535071)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/13a216b7-329c-4c38-9623-4555fe535071" width="400"></div>
 
     Otherwise, click one of the pivot tables then choose your column. <br>
-      ![image](https://github.com/drshahizan/HPDP/assets/108865725/37aa9a49-7f70-4973-97f2-134964097e85) <br>
+      <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/37aa9a49-7f70-4973-97f2-134964097e85) <br>
       For example, if a customer slicer is about to be created, click on **Customer Pivot Table**, then choose the column of **Customer**.
 
 32. Repeat the [steps](#adding-slicer) to add slicers for each pivot tables.
