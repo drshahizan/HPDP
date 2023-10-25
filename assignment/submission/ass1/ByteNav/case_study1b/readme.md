@@ -87,31 +87,45 @@
 <p align="center"><img align="center" alt="googlesheet" width="400" src="insertchart.png"></p>
 <p align="center"> <em> Figure 15: Insert chart</em> </p> 
 
-2. Select **"Line chart"**, and adjust the data range from K11 to M22.
+2. Select **"Line chart"**, and make the following changes:
+  + Data range: K11:M22
+  + X-axis: K11:M22
+  + Series: Sum for L11:M22, and M11:M22
 <p align="center"><img align="center" alt="editor" width="400" src="monthlysalesandtarget.png"></p>
 <p align="center"> <em> Figure 16: Chart editor for monthly sales and target</em> </p> 
 <p align="center"><img align="center" alt="editor" width="400" src="monthlysalesandtargetdone.png"></p>
 <p align="center"> <em> Figure 17: Line chart for monthly sales and target</em> </p> 
 
-3. Repeat step 1, and select **"Column chart"**, and adjust the data range from A8 to A331.
+3. Repeat step 1, and select **"Column chart"**, and make the following changes:
+  + Stacking: None
+  + Data range: A8:A331
+  + X-axis: CUSTOMER
 <p align="center"><img align="center" alt="editor" width="400" src="customer.png"></p>
 <p align="center"> <em> Figure 18: Chart editor for customer</em> </p> 
 <p align="center"><img align="center" alt="editor" width="400" src="customerdone.png"></p>
 <p align="center"> <em> Figure 19: Column chart for customer</em> </p>
 
-4. Repeat step 1, and select **"3D pie chart"**, and adjust the data range from D8 to D331.
+4. Repeat step 1, and select **"3D pie chart"**, and make the following changes:
+  + Data range: D8:D331
+  + Label: Sales Region
 <p align="center"><img align="center" alt="editor" width="400" src="region.png"></p>
 <p align="center"> <em> Figure 20: Chart editor for sales region</em> </p> 
 <p align="center"><img align="center" alt="editor" width="400" src="regiondone.png"></p>
 <p align="center"> <em> Figure 21: 3D pie chart for sales region</em> </p>
 
-5. Repeat step 1, and select **"Pie chart"**, and adjust the data range from D8 to D331.
+5. Repeat step 1, and select **"Pie chart"**, and make the following changes:
+  + Data range: D8:D331
+  + Label: SALES PERSON
 <p align="center"><img align="center" alt="editor" width="400" src="person.png"></p>
 <p align="center"> <em> Figure 22: Chart editor for person</em> </p> 
 <p align="center"><img align="center" alt="editor" width="400" src="persondone.png"></p>
 <p align="center"> <em> Figure 23: Pie chart for person</em> </p>
 
-6. Repeat step 1, and select **"Area chart"**, and adjust the data range from K8 to L22.
+6. Repeat step 1, and select **"Area chart"**, and make the following changes:
+  + Stacking: None
+  + Data range: K8:L22
+  + X-axis: K8:K22
+  + Series: Sum for L8:L22 
 <p align="center"><img align="center" alt="editor" width="400" src="salestrend.png"></p>
 <p align="center"> <em> Figure 24: Chart editor for sales trend</em> </p> 
 <p align="center"><img align="center" alt="editor" width="500" src="salestrenddone.png"></p>
