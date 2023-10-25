@@ -18,8 +18,9 @@
 | NURUNNAJWA BINTI ZULKIFLI | A21EC0121 |                  |
 
 ------
-## 🌟Table of content
-
+## 🌟sheemart Dashboard
+<a name = "sheemart Dashboard"> </a>
+<p align="center"><img align="center" alt="Table" width="500" src="dashboard_gif.gif"></p>  
 ------
 
 ## Dataset Information
