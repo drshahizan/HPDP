@@ -138,13 +138,25 @@ The following data processing processes must be completed:
    8. The following outcomes of the data values is shown in **Figure 11**. Make sure that the values of column **B1** to **B3** is two decimal places.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/56527951-b23e-46a5-9bd6-60a7b6a2ddf7" style="width: 250px; height: 350px;">
+      
+   **Figure 11: Display the values for column B1 to B3.**
    </div>   
 
 ### 3.4. Total Points Calculation
+   9. Calculate the total points by combining the data from columns L to N using the formula used in **Figure 12** below.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/1b51f0f3-53cf-4683-b2a2-31a73d57ec13" style="width: 145px; height: 30px;">
+   
+   **Figure 12: Shows the formula to calculate total point of selected columns L to N.**
    <br>
+   </div>
+   
+   10. The outcomes of the formula used must be inserted to a new column O, named **TM**. Then, make sure that the decimal places is set to two decimal places as shown in **Figure 13**.
+   
+   <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4070a62b-459e-44ee-8f04-4b12b1a33946" style="width: 100px; height: 400px;">
+      
+   **Figure 13: Display the new column named TM.**
    <br>
 </div> 
 
