@@ -42,8 +42,8 @@ This dataset is named sales performance data.txt. This dataset contains a few co
 1. In Google Sheet, go to the upper left menu and choose **File >> Import**
    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/import%20data.png)
 3. Then, go to **Upload >> Browse** and select sales performance data.txt file
-   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/browse%20data.png)
-   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/choose%20data.png)
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/browse%20data.png)![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/choose%20data.png)
+   
 5. 
 
 <br>
