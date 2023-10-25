@@ -8,8 +8,16 @@
 # Assignment 1b: Sales performance
 
 ### Group Name: DEADPOOL
+### Group Members
 
-XXXX
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | ------------- |
+| UMAR HAZIQ BIN MUHAMAD NORHISHAM            | A21EC0235     |  DATA PREPROCESSING DASHBOARD ASM1  |
+| SAM CHIA YUN              | A21EC0127     | DATA TRANSFORMATION     |
+| MUHAMMAD IZZUDDIN BIN SHABRIN             | A21EC0083     |   VISUALIZATION   |
+| KEE SHIN PEARL             | A21EC0190     | DOCUMENTATION     |
+
+### Table of Content
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
