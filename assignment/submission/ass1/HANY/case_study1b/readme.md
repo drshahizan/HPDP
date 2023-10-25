@@ -65,11 +65,16 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
      - **'MONTH()':** Extracts the month from the given date. It takes the date value and returns the month as a number.
   5. Notice that some values in the column could not be converted to numbers due to the non-standard format of the word **"Sept"**. To resolve this, the word needs to be replaced with **"Sep"**.
      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/d7719e5d-337f-41c8-ad17-e17e4ee2c796" width="500"></div>
-  7. Press **CTRL + F** and type in **"Sept"** in the search bar. Press the three-dotted menu.
-  8. Input **"Sep"** into the **Replace with** field and proceed to click on **Replace all**.
-  9. Next, sort the dataset by ascending order according to the NUMERICAL MONTH column.
-  10. Go to the **Format** menu, hover over **Sort range**, and then select **Advanced range sorting options**.
-  11. Check the box labeled **Data has header row** and choose the **NUMERICAL MONTH** column in the dropdown menu. Opt for the **A-Z** sorting order.
+  6. Press **CTRL + F** and type in **"Sept"** in the search bar. Press the three-dotted menu.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/699636d8-f8c6-4609-b74e-7e020ef4aecb" width="500"></div>
+  7. Input **"Sep"** into the **Replace with** field and proceed to click on **Replace all**.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/a9c3639b-5c18-4086-99f5-a0411f5f4989)" width="500"></div>
+  8. Next, sort the dataset by ascending order according to the NUMERICAL MONTH column.
+  9. Go to the **Format** menu, hover over **Sort range**, and then select **Advanced range sorting options**.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/2c06cb45-eb23-4985-8443-2487561e4e7a" width="500"></div>
+  10. Check the box labeled **Data has header row** and choose the **NUMERICAL MONTH** column in the dropdown menu. Opt for the **A-Z** sorting order.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/323a127e-0469-442d-86d3-1b2dd8337829" width="500"></div>
+
 
 ## 4. Data Visualisation
   1. Navigate to the **Insert** menu and select **Pivot table**.
