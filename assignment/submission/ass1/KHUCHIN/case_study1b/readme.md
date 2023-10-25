@@ -47,7 +47,7 @@ _Figure 1: Opening the import pop-up screen_
 
 - Then we will see a pop-up and we can click on **Upload**. From there you can just drag the database from your explorer file or browse through your files.
 <p align="center">
-<img src="ss2.png">
+<img src="ss2.png"  width="350" height="270">
 </p>
 
 <div align="center">
