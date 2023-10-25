@@ -27,6 +27,66 @@
 ## Dataset Information <a name = "dataset_info"></a>
 This dataset is called dataset2.txt. This dataset has nine columns that contain information about Customers, Products, SalesPerson, SalesRegion, SalesYear, SalesMonth, SalesQtr. Table 1 shows the full marks for the data
 
+
+**Source**: https://docs.google.com/spreadsheets/d/1PwFHJ20W3lQG4J2shN3Iz5JEFXkT9LxH4tVYx5kTJpY/edit?pli=1#gid=335153237
+
+## Data Import and Data Preprocessing <a name = "preprocessing"></a>
+1. In the ribbon 'File', click on "Import" to upload the “Dataset1.txt”.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/1.png" width=300>
+</p>
+
+<div align="center">
+  
+Figure 1: To import Dataset
+</div>
+
+2. Select the 'Upload' and click on 'Browse.
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/2.png" width=300>
+</p>
+
+<div align="center">
+  
+Figure 2: Browse To Import The Dataset
+
+</div>
+
+
+3. Select the 'Dataset1.txt' and then press 'OK'.
+
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/3.png" width=400>
+</p>
+
+<div align="center">
+  
+Figure 3: Select The Dataset
+
+</div>
+
+4. After the file has been loaded into Google Sheets, click on 'Import Data'. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=400>
+</p>
+
+<div align="center">
+  
+Figure 4: Import Dataset
+
+</div>
+
+5. Select the Academic column and  to the Test_2 column, press Ctrl + Shift, select Academic, Sports, Co-Curriculum, Test 1, and Test 2 and round off every new column by clicking on the Format ribbon, then choose 'Number'.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/5.png" width=300>
+</p>
+
+<div align="center">
+  
+Figure 5: Selecting The Data
+
+</div>
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
