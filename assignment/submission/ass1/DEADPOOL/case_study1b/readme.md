@@ -80,14 +80,13 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 1. Create a new pivot table.
 2. In the pivot table editor, select:
-   * for rows, add **MONTH INDEX** and **SALES MONTH** column. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20rows.png)
-   * for values, add **SALES** and **TARGET** column. For both columns, summarize by **SUM**. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20values.png)
+   * for rows, add **SALES REGION**column. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20rows.png)
+   * for values, add **SALES** column. Make sure **SALES** column is summarised by **SUM**. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20values.png)
 3. To create the chart, go to **Insert >> Chart**. In the chart editor, setup the chart as below:
-   * Chart type = Stacked area chart
-   * Stacking = Standard
-   * Data range = B1 : D13
-   * X-axis = SALES MONTH
-   * Series = Sum of sales and Sum of target
+   * Chart type = Pie chart
+   * Data range = A1 : B5
+   * Label = SALES REGION
+   * Series = Sum of sales
    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/setup%20chart%20monthly.png)
 4. Then customize your chart as you see fit at the customize tab. For example, change the chart title to Monthly Sales.
 
