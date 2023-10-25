@@ -80,7 +80,7 @@
 ## Pivot Table
 ### Pivot Table for Monthly Sales
 
-7. Select all columns by using **Ctrl and Shift**, <br>
+7. Select all columns by using **Ctrl and Shift**, <br></br?
    then click on **insert » pivot table » new sheet**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511)
 
@@ -105,14 +105,14 @@
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
 
 
-<br>
+<br></br>
 ### Pivot Table for Customer
 12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
 
-<br>
+<br></br>
 ### Pivot Table for SalesPerson
     
 15. Copy the dataset and select the pivot table. Then choose the row and column.
