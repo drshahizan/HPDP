@@ -15,6 +15,23 @@ Google Sheets is a spreadsheet tool that is part of Google's free, web-based Goo
 
 One dataset has been chosen for data analysis based on the case study that was given which is the Examination Result dataset. The dataset contains six columns which are Id_no, Academic, Sports, Co-Curriculum, Test_1, and Test_2. By doing this case study, we will show how to make data analysis based on the dataset that has been given based on the case study to turn it from raw data to valuable data.
 
+## Analysis of the dataset
+
+Based on the dataset, which has a total of 112K records, we may conduct an analysis in which the lowest overall percent that a student receives is 14.82 and the maximum is 98.57, with an 83.75 gap between the two. The overall percentage for students is 69.36. In terms of grading, we may look at the distribution of grades based on the top three highest grades in the dataset, which have high percentages, while the top three lowest grades stand out:
+
+Top Three Highest Grades:
+1. A → 23,214 Students
+2. B+ → 13,851 Students
+3. B → 13,515
+
+Top Three Lowest Grades:
+1. E → 712
+2. D- → 1,029 
+3. D → 1,681
+
+The percentage of students who pass is 63.30%, or 70,594 students, and the percentage of students who fail is 36.70%, or 40,925 students. Approximately half of the students passed the examination, while the remaining students did not meet the required standard to pass the examination.
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
