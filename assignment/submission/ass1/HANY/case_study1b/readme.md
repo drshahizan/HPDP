@@ -78,13 +78,17 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
 
 ## 4. Data Visualisation
   1. Navigate to the **Insert** menu and select **Pivot table**.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/c1acb990-2d7c-4002-bb8d-8f7c646c3437" width="500"></div>
   2. Click on the header of the first column (CUSTOMER), and press **CTRL + SHIFT + RIGHT ARROW KEY** and **CTRL + SHIFT + DOWN ARROW KEY** to highlight all the columns and rows that contain data without including any blank cells.
   3. Proceed to create the pivot table by clicking on **Create**.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/f867e3ce-ea55-4c79-96b0-ccafee7f962c" width="500"></div>
   4. Subsequently, add relevant headers into the **Row, Columns, Values,** and **Filters** field to generate the desired data analysis.
-  5. Repeat the step of creating the pivot table for each data anaysis. The following are the inputs for respective data analysis.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/97207e71-40dd-49cd-a89f-64dcbb2cb4e2" width="500"></div>
+     
      - Monthly Sales
        - Row: NUMERICAL MONTH, SALES MONTH
        - Values: Target, SALES
+  5. Repeat the step of creating the pivot table for each data anaysis. The following are the inputs for respective data analysis.
      - Region
        - Row: Sales Region
        - Values: PRODUCTS
@@ -98,13 +102,24 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
      - Sales Trend
        - Row: SALES YEAR, NUMERICAL MONTH, SALES MONTH
        - Values: SALES
-  7. Once all the pivot tables are created, duplicate and transfer them into a new new sheet named **"Dashboard"**.
-  8. To generate the chart, select the related pivot table. Then, go to the **Insert** menu and select **Chart**.
-  9. Repeat the process of generating the desired charts and customise the result according to preferred appearance.
-  10. Next, to add a slicer, select the related pivot table, navigate to the **Data** menu and select **Add a slicer**.
-  11. Click on the slicer. From the **Choose a column** dropdown menu, choose the appropriate header to act as the slicer.
-  12. Repeat this process until all desired slicers are created.
+  6. Once all the pivot tables are created, duplicate and transfer them into a new new sheet named **"Dashboard"**.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/a2d3339e-ed45-4851-9ab6-053172e671d6" width="500"></div>
+  7. To generate the chart, select the related pivot table. Then, go to the **Insert** menu and select **Chart**.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/80bb4dbd-9230-46c2-8b89-5f7898192b46" width="500">
+  8. Repeat the process of generating the desired charts and customise the result according to preferred appearance.
+  9. Next, to add a slicer, select the related pivot table, navigate to the **Data** menu and select **Add a slicer**.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/c1de707f-5f76-4c0e-a2f2-d0ec04cf6b8e" width="500"></div>
+  10. Click on the slicer. From the **Choose a column** dropdown menu, choose the appropriate header to act as the slicer.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/b6eb97c9-8f65-42e5-8e8d-dcdb7ed13c50" width="500"></div>
+  11. Repeat this process until all desired slicers are created. The slicers added include:
+      - SALES YEAR
+      - Sales Region
+      - PRODUCTS
+      - CUSTOMER
+      - SALES PERSON
   13. After generating all the charts and slicers, it is time to enhance and organize the dashboard to improve its visual appearance.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/9c450150-a396-4368-9780-c1c4126bcd28" width="800"></div>
+
       
 ## 5. Contribution
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
