@@ -466,7 +466,7 @@ _Figure 42: Data range_
 
 12. Perform customization for the scorecard like putting the title for the scorecard, selecting the font size and colour.
     
-13. Repeat step 10-12 to create scorecard representing **"Max percent scorecard"**.
+13. Repeat step 10 & 12 to create scorecard representing **"Max percent scorecard"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/maxscore.png" width=200>
 </p>
@@ -476,7 +476,7 @@ _Figure 43: Max percent scorecard setup_
 </div>  
 <br>    
 
-14. Repeat step 10-12 to create scorecard representing **"Avg percent scorecard"**.
+14. Repeat step 10 & 12 to create scorecard representing **"Avg percent scorecard"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/avgscore.png" width=200>
 </p>
@@ -545,7 +545,7 @@ _Figure 50: Doughnut chart setup_
 </div>  
 <br>
 
-19. Repeat step 10-12 to create total record scorecard, pass rate scorecard and fail rate scorecard.
+19. Repeat step 10 & 12 to create total record scorecard, pass rate scorecard and fail rate scorecard.
 <p align="center">
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/totalrecord.png" width="200">
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/maxpass.png" width="200">
