@@ -6,8 +6,8 @@
 
 </div>
 <div align="center">
-### :octocat: Group Name: KhuChin
-### Group Members
+:octocat: <h2>Group Name: KhuChin</h2>
+Group Members
 
 | Name                                     | Matrix Number |
 | :---------------------------------------- | :-------------: |
