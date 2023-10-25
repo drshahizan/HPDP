@@ -22,6 +22,7 @@
 ## Table of Contents
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
+       - [Monthly Sales](#monthly-sales)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
    * [Dashboard <a name = "dashboard"></a>](#dashboard)
    * [Contribution 🛠️](#contribution-)
