@@ -46,33 +46,33 @@
   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c" width="400"></div>
 
 2. Click **Upload >> Browse >> Dataset2.txt**.
-   ![image](https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3)
+   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3" width="400"></div>
 
   
 
 3. Click “Replace current sheet”, and then import data.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/777f009c-e01d-4ed4-9b8c-443f5d83cdbc)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/777f009c-e01d-4ed4-9b8c-443f5d83cdbc" width="400"></div>
 
 
 
 4. Use format **"=MONTH(DATEVALUE(H2:H324&1))"** to give value of month based on sales month.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/92522e8f-e41b-432d-887b-8ae1a74e2b68)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/92522e8f-e41b-432d-887b-8ae1a74e2b68" width="400"></div>
 
 
 
 5. For those **"#VALUE!"**, correct it by clicking **Ctrl+F**, then type Sept.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/917370da-89a3-4e41-98de-e7d76904b14a)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/917370da-89a3-4e41-98de-e7d76904b14a" width="400"></div>
 
 
 
 6. Type the replace with *Sep*, and click **"replace all"** first, then the **"done"** button.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/99d00787-c3f6-45e9-a60b-d714722adc8a)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/99d00787-c3f6-45e9-a60b-d714722adc8a" width="400"></div>
 
 
 
 
    Result Displayed:
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/f998bec5-ad76-4235-9d22-c4753a79b640)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f998bec5-ad76-4235-9d22-c4753a79b640" width="400"></div>
 
 
 <br><br>
@@ -82,16 +82,16 @@
 
 7. Select all columns by using **Ctrl and Shift**, <br></br>
    then click on **insert » pivot table » new sheet**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511" width="400"></div>
 
 
 
 
 8. Choose the **Rows** variables.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/81335fcf-de6a-4cfd-98ff-08258eb610f1)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/81335fcf-de6a-4cfd-98ff-08258eb610f1" width="400"></div>
 
 9. Choose the **Value** Column.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/39e758b5-dbf8-447b-a0e0-63fb8ae2a041)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/39e758b5-dbf8-447b-a0e0-63fb8ae2a041" width="400"></div>
 
 
 
@@ -102,7 +102,7 @@
 10. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
 
 11. Select Row and Value.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb" width="400"></div>
 
 
 <br></br>
@@ -110,16 +110,16 @@
 12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11" width="400"></div>
 
 <br></br>
 ### Pivot Table for SalesPerson
     
-15. Copy the dataset and select the pivot table. Then choose the row and column.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969)
+14. Copy the dataset and select the pivot table. Then choose the row and column.
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969" width="400"></div>
 
-16. Select the value to sum the sales by each salesperson.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac)
+15. Select the value to sum the sales by each salesperson.
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac" width="400"></div>
 
 <br></br>
 ### Pivot Table for Trend
