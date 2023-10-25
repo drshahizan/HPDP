@@ -11,15 +11,26 @@
 ### 🍀Group Name: sheemart
 ### 🌼Group Members
 
-| Name                                     | Matrix Number | Photo |
-| :---------------------------------------- | :-------------: | ------------|
-| MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202 |              |
-| MUHAMMAD NAQUIB BIN ZAKARIA | A20BE0161 |              |
-| MUHAMMAD HAZIM BIN SALMAN | A21EC0078 |              |
-| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 |                  |
+| Name                                     | Matrix Number | 
+| :---------------------------------------- |--------------|
+| MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202 |              
+| MUHAMMAD NAQUIB BIN ZAKARIA | A20BE0161 |              
+| MUHAMMAD HAZIM BIN SALMAN | A21EC0078 |              
+| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 |                  
 
 ------
 ## 🌟Table of content
+
+| Step | Description |
+| --- | --- |
+| [Dataset Information](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#dataset-information) | Information about the dataset |
+| [1. Import Dataset into Google Sheet](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#1-import-dataset-into-google-sheet) | Instructions for importing the dataset into Google Sheet |
+| [2. Perform Data Processing](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#2-perform-data-processing) | Steps for processing the data |
+| [3. Create Dashboard in Google Sheet](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#3-create-dashboard-in-google-sheet) | Guide for creating a dashboard in Google Sheet |
+| [4. Final Result](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#4-final-result) | Final outcome of the case study |
+
+
+
 
 ------
 
