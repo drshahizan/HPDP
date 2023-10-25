@@ -87,7 +87,7 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
    * Data range = A1 : B5
    * Label = SALES REGION
    * Series = Sum of sales
-   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/setup%20chart%20monthly.png)
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/region%20chart%20setup.png)
 4. Then customize your chart as you see fit at the customize tab. For example, change the chart title to Monthly Sales.
 
    
