@@ -9,6 +9,19 @@
 
 ### Group Name: GPS (GroupPalingSolid)
 
+## Dataset information
+This dataset is called Dataset2.txt. This dataset has nine columns which are CUSTOMER, PRODUCTS, SALES PERSON, Sales Region, Target, SALES, SALES YEAR, SALES MONTH	and SALES QTR.
+
+### Importing data :
+1. Import the Dataset2.txt into Google Sheets, on the left upper menu bar, choose "File" -> "Import".
+<p align="center">
+  <img src="images/1.png" alt="Image Description">
+</p> 
+2. Then, click "Import data"
+<p align="center">
+  <img src="images/2.png" alt="Image Description">
+</p>  
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
