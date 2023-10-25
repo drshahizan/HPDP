@@ -42,7 +42,12 @@ To get started with creating a dashboard or begin conducting data analysis, star
 
 ## 3. Enhance Dataset Appearance
   1. Navigate to the **Format** menu and select **Alternating colors**.
+      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/da806f8e-d874-40d7-8bd2-4f7bfe377af7" width="500"></div>
   2. Choose the color theme according to preferred appearance.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/5349797f-f3ac-4931-871e-aedf8c241bc8" width="500"></div>
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/fe250ee2-d5e5-4f63-9ace-c17bd9cb236e" width="500"></div>
+
+
 
 ## 4. Data Preprocessing
 In order to facilitate accurate sorting of data in the pivot table in Google Sheets, it is necessary to create an additional column that aligns with column that contains month name to ensure that the data is sorted chronologically by month, as Google Sheets typically defaults to alphabetical sorting.
