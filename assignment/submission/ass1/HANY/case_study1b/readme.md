@@ -20,11 +20,10 @@
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Data Importation](#2-data-importation)
-   - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
-3. [Enhance Dataset Appearance](#enhance-dataset-appearance)
-4. [Data Processing](#data-preprocessing)
-5. [Data Visualisation](#data-visualisation)
-6. [Contribution](#contribution)
+3. [Enhance Dataset Appearance](#3-enhance-dataset-appearance)
+4. [Data Processing](#4-data-preprocessing)
+5. [Data Visualisation](#5-data-visualisation)
+6. [Contribution](#6-contribution)
 
 ## 1. Introduction
 **CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [Dataset2.txt](https://docs.google.com/spreadsheets/d/1rKwc9vmwvVDqHaBCEf31vlPtSSHoVWJi3Tsy18F0rDk/edit?usp=sharing).
