@@ -264,11 +264,12 @@ The following data processing processes must be completed:
       
    **Figure 26: Displays the setup of chart editor.**
    <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/2a0eee56-1129-431f-a2d8-4a84df58f827" style="width: 350px; height: 400px;">
-   <br>
 
    **Figure 27: Customization of the chart editor.**
    <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/05b16016-153b-45ca-80cc-5db09dad5b16" style="width: 200px; height: 100px;">
    <br>
 
@@ -276,17 +277,19 @@ The following data processing processes must be completed:
    </div>
 
    7. To get an average result, repeat steps 4-5 with the **Average** option, as shown in **Figures 29 and 30**. **Figure 31** illustrates the outcome of the presented average value.
-   <div alignment="center">
+   <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/9997c395-c404-4076-9fc8-5a00a38b7e02" style="width: 300px; height: 500px;">
    <br>
 
    **Figure 29: Displays the setup of chart editor.**
    <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/31b0f553-47c0-4d27-9297-335c04a5394a" style="width: 350px; height: 400px;">
    <br>
 
    **Figure 30: Customization of the chart editor.**
    <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/1e3d96f7-1ca1-4175-a2f0-37c01239f4ca" style="width: 200px; height: 100px;">
    <br>
 
