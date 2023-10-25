@@ -43,7 +43,7 @@
 
 ## Importing Datasets
 1. Import Dataset2.txt into Google Sheets. **[File » Import]**
-  <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c)
+  <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c" width="400"></div>
 
 2. Click **Upload >> Browse >> Dataset2.txt**.
    ![image](https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3)
