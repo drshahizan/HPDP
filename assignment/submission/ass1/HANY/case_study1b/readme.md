@@ -18,8 +18,8 @@
 | LIEW YVONNE              |A21EC0045      | VISUALISATION     |
 
 ## Table of Contents
-1. [Introduction](#1.introduction)
-2. [Data Importation](#2.-data-importation)
+1. [Introduction](#1-introduction)
+2. [Data Importation](#2-data-importation)
    - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
 3. [Enhance Dataset Appearance](#enhance-dataset-appearance)
 4. [Data Processing](#data-preprocessing)
