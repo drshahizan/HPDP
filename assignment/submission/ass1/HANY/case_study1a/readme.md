@@ -31,6 +31,7 @@
    - 3.7. [Differentiate Status Based on Color](#differentiate-status-based-on-color)
 4. [Data Visualisation](#data-visualisation)
    - 4.1. [Creating Dashboard](#creating-dashboard)
+5. [Contribution](#contribution)
 
 
 
@@ -72,6 +73,12 @@ Before you can create a dashboard or begin analyzing your data, you must first i
 
 ## 3. Data Processing 
 ### 3.1 Decimal Places Adjustment
+### 3.2. Transformation of Value
+### 3.3. Determine the Top Three Values
+### 3.4. Total Points Calculation
+### 3.5. Percentage Value Calculation
+### 3.6. Grade Assignment
+### 3.7. Differentiate Status Based on Color
 
 
 
