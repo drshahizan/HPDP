@@ -11,6 +11,10 @@
 
 ## Introduction
 
+Google Sheets is a spreadsheet tool that is part of Google's free, web-based Google Docs Editors suite. Google Sheets is accessible as a web app, a mobile app for Android and iOS, and a desktop app for Google's ChromeOS. The software supports Microsoft Excel file formats. Many people, organizations, and corporations use Google Sheets as it provides many variety of features that Google Sheets has capabilities to make many kinds of data management and analytical jobs. Users can use the application to create and edit files online while interacting with other users in real-time. Edits are documented by the user who made them, as well as a revision history. 
+
+One dataset has been chosen for data analysis based on the case study that was given which is the Examination Result dataset. The dataset contains six columns which are Id_no, Academic, Sports, Co-Curriculum, Test_1, and Test_2. By doing this case study, we will show how to make data analysis based on the dataset that has been given based on the case study to turn it from raw data to valuable data.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
