@@ -333,8 +333,9 @@ _Figure 17 : Output of pivot table_
 </div>
 
 <p align="center">
-![Screenshot (1010)](https://github.com/drshahizan/HPDP/assets/89633522/ffe72b0a-85b6-4e7d-ad82-c011c516dc9d)
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ffe72b0a-85b6-4e7d-ad82-c011c516dc9d height="400">
 </p>
+
 
 <div align="center">
   
@@ -383,7 +384,7 @@ _Figure 20 : Output of Min, Average and Max_
 
 <p align="center"> 
     
-<img width="155" alt="Screenshot 2023-10-25 201251" src="https://github.com/drshahizan/HPDP/assets/89633522/076ae197-a861-49b7-936b-af6e9001f672">
+<img width="155" alt="Screenshot 2023-10-25 201251" src="https://github.com/drshahizan/HPDP/assets/89633522/076ae197-a861-49b7-936b-af6e9001f672" height="400">
 
 </p>
 
@@ -396,7 +397,7 @@ _Figure 21 : Create pivot table of grading results_
 - Include the "Grade" field in the Rows section, arranging it in ascending order and sorting the data by grades. Enable the option to display totals. For the Values section, incorporate the "Id_No" (numerical) data.
 
  <p align="center"> 
-<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b">
+<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b" height="400">
  </p>
  
 <div align="center">
@@ -409,7 +410,7 @@ _Figure 22 : Output of table of grade and num_
 
 
 <p align="center"> 
-<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6">
+<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6" >
  </p>
     
 
@@ -421,14 +422,20 @@ _Figure 23 : Choose column chart for grading_
 
 </div>
 
-<p align="center">
+<p align="center"> 
     
-![image](https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4)
+<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4" >
 
 </p>
 
+<p align="center">
+    
+</p>
+
 <div align="center"> 
+    
 _Figure 24 : Fill in different colour for each grade_
+
 </div>
 
 -  Selecting the right chart type is important. Column charts are excellent for comparing values across different categories, making them suitable for various analytical purposes.

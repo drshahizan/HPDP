@@ -84,7 +84,7 @@ The main goal of this project is to utilize Google Sheets to process and present
 
     '=(O2/9.99)*100'
 
-   Click enter after filling out the formula to autofill the entire column.
+    Click enter after filling out the formula to autofill the entire column.
 
 
 

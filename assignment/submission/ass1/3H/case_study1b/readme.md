@@ -257,7 +257,7 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
 
 <p align="center"><strong><em><u>UNFILTERED</u></em></strong></p>
     <p align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/142320760/93b7be45-f5d0-410b-9d36-2c291f5f64d4" alt="Image Description">
+  <img src="https://github.com/drshahizan/HPDP/assets/142320760/f5d0e74d-3cc6-4638-886b-fd725cc4408c" alt="Image Description">
 
 
  - **Slicer** : We can filter the charts based on specific criteria, providing a flexible view of the data.
@@ -272,7 +272,7 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
 <br>
 
 <p align="center"><strong><em><u>FILTERED</u></em></strong></p>
-  <img src="https://github.com/drshahizan/HPDP/assets/142320760/f53768b8-842d-44c6-8f97-15a077a5352b" alt="Image Description">
+  <img src="https://github.com/drshahizan/HPDP/assets/142320760/092d288a-6e01-4707-8c84-7d63117235ec" alt="Image Description">
 </p>
 
   - **Salesperson Performance** : We can filter the charts based on specific criteria, providing a flexible view of the data.
