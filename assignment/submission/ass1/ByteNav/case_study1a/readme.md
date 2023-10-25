@@ -178,7 +178,7 @@
 <p align="center"><img align="center" alt="Table" width="200" src="editchart_fail.png"></p> 
 <p align="center"> <em> Figure 33: Setup the fail Percentage chart</em> </p> 
 
-10. Result of **"Fail Percentage Scorecard chart"** dashboard
+12. Result of **"Fail Percentage Scorecard chart"** dashboard
 <p align="center"><img align="center" alt="Table" width="200" src="fail.png"></p> 
 <p align="center"> <em> Figure 34: Final result for Fail Percentage Scorecard chart</em> </p> 
 
