@@ -166,7 +166,7 @@ Figure 13: Sales region pie chart
 </div>
 <be>
 
-## Customer
+### Customer
 
 7. Next to create another table for customers, click on empty cells and click ‘Insert’ at the ribbon and select ‘Pivot Table’. Then the pop-up window ‘create pivot table’ will appear. Select data range by clicking the square icon on the right then select the dataset on the first sheet. Next on the Insert select the ‘Existing Sheet’ and below that make sure to select the empty cell location and press ‘Create’.
 
@@ -196,7 +196,7 @@ Figure 16: Pivot table editor for customer.
   <br>
   <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/18.png" width=400>
-</p>
+</p></div>
 <div align="center">  
 Figure 17: Pivot Table Customer
 </div>
@@ -211,53 +211,172 @@ Figure 17: Pivot Table Customer
      - Close Chart editor
 
 <p align="center">
-<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/19.png" width=300>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/19.png" width=500>
 </p>
 <div align="center">  
 Figure 18: Pie chart for Customer
 </div>
-<br>
+<be>
+  
+### Sales Trend
 
-10. Click on 'Format', choose 'Conditional Formatting' and follow the steps below.
+10. Click Insert then choose pivot table and Select the data range from the dataset2 sheet. Insert the pivot table into the existing sheet name as Dashboard then click Create in the Pivot table editor;
+In the Pivot table editor;
+
+      - Rows: click/drag Sales Year, Sales Month
+      - Values: click/drag Sales
+      - Close the Pivot table editor
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/20.png" width=300>
 </p>
 <div align="center">  
-Figure 21:  Percentage greater than 65 will be coloured in Green
+Figure 19:  Pivot editor for Sales Trend
+  
+</div>
+<be>
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/21.png" width=300>
+</p>
+<div align="center">  
+Figure 20:  Pivot Table for Sales Trend
   
 </div>
 <br>
 
-11. Select column 'Status, and press right-click to create a filter to filter "Pass" only.
+11. Click Insert and select Chart
+
+    In Chart editor;
+      - Chart type: 3D pie chart
+      - Data range: select the pivot table of the region
+      - Label: Sales Month`
+      - Values: Sum of Sales
+      - Close Chart editor
+
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/23.png" width=200>
+     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/22.png" width=300>
 </p>
 <div align="center"> 
-Figure 22: Pass Filtering
-    
+Figure 21: Chart editor for sale trend
 </div> 
 <br>
-
-12. By pressing and holding the "Shift" key while selecting all the rows, colour all the columns with the status "Pass" with a light red.
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/26.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/saLETREND.png" width=700>
 </p>
 <div align="center"> 
-Figure 23: Colour the whole record with rows of status 'Pass' with the light red font.
+Figure 22: Sale Trend Smooth line graph
+</div>  
+<br>
+
+### Monthly Sales
+
+12. Click Insert and choose pivot table
+        In the Pivot table editor;
+              - Rows: click/drag Sales Month
+              - Values: click/drag Sales and Target
+              - Close the Pivot table editor
+
+  
+
+    <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/23.png" width=500>
+</p>
+<div align="center"> 
+Figure 23: Pivot table editor for Monthly sales
+</div>  
+<br>
+<p align="center">
+
+  <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/24.png" width=500>
+</p>
+<div align="center"> 
+Figure 24: Pivot table for Monthly sales
 </div>  
 <br>
 <p align="center">
   
-13. Remove the filter.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png" width=200>
+12. Click Insert and choose Chart
+
+      In Chart editor;
+          - Chart type: Stacked area chart
+          - Stacking: Standard
+          - Data range: select the pivot table of Monthly Sales
+          - X-axis: Sales Month
+          - Series: Sum of Target and Sum of Month
+          - Close Chart editor
+
+  
+
+    <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/26.png" width=500>
 </p>
 <div align="center"> 
-Figure 24: Removing the filter
+Figure 25: Chart editor for Monthly sales
 </div>  
-<br>      
+<br>
+   <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/30.png" width=500>
+</p>
+<div align="center"> 
+Figure 26: Graph for Monthly sales
+</div>  
+<br>
+
+### Sales Person
+
+12. Click Insert and choose pivot table then select the data range from the dataset2 sheet and insert the pivot table into the existing sheet name as Dashboard. Click Create
+      In the Pivot table editor;
+          - Rows: click/drag Sales Person
+          - Columns: click/drag Product
+          - Values: click/drag Sales
+          - Close the Pivot table editor
+
+
+  
+
+    <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/28.png" width=500>
+</p>
+<div align="center"> 
+Figure 27: Pivot Table editor for Sales Person.
+</div>  
+<br>
+   <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/29.png" width=500>
+</p>
+<div align="center"> 
+Figure 28: Table for Sales Person
+</div>  
+<br>
+
+12. Click Insert and choose chart
+
+    In Chart editor;
+        - Chart type: Stacked column chart
+        - Stacking: Standard
+        - Data range: select the pivot table of the salesperson
+        - X-axis: Sales Person
+        - Series: Cooking Oil, Flour, Milk, Sugar
+        - Close Chart editor
+
+
+    <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/31.png" width=500>
+</p>
+<div align="center"> 
+Figure 27: Chart editor for Sales Person.
+</div>  
+<br>
+   <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/32.png" width=500>
+</p>
+<div align="center"> 
+Figure 28: Chart for Sales Person
+</div>  
+<br>
+  
 
 ## Data Visualization <a name = "dashboard"></a>
 <p align="center">
