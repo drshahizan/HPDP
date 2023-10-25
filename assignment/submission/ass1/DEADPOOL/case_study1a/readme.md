@@ -32,6 +32,17 @@ This dataset describes exam outcomes, allowing us to determine if students passe
   
 Figure 1: Import Dataset to Google Sheet
 </div>
+
+## Data Processing <a name = "processing"></a>
+
+1. The following formulas are inserted to obtain the value for the new column names 'P1', 'P2', 'P3', 'P4', and 'P5'. For every column, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
+1. Formula (Column Number/61)*3.33 was used in order to calculate the value for 'P1', 'P2', 'P3', 'P4', and 'P5'. To fill the values of the columns to the last row, press Ctrl+C for each column, Ctrl+Space for each column, and Ctrl+V for each column.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/dataset%20pic3.jpg" width=300>
+</p>
+
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
