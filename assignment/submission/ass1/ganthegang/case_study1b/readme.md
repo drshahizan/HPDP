@@ -297,7 +297,7 @@ Figure 24: Pivot table for Monthly sales
 <br>
 <p align="center">
   
-12. Click Insert and choose Chart
+13. Click Insert and choose Chart
 
       In Chart editor;
           - Chart type: Stacked area chart
@@ -326,7 +326,7 @@ Figure 26: Graph for Monthly sales
 
 ### Sales Person
 
-12. Click Insert and choose pivot table then select the data range from the dataset2 sheet and insert the pivot table into the existing sheet name as Dashboard. Click Create
+14. Click Insert and choose pivot table then select the data range from the dataset2 sheet and insert the pivot table into the existing sheet name as Dashboard. Click Create
       In the Pivot table editor;
           - Rows: click/drag Sales Person
           - Columns: click/drag Product
@@ -351,7 +351,7 @@ Figure 28: Table for Sales Person
 </div>  
 <br>
 
-12. Click Insert and choose chart
+15. Click Insert and choose chart
 
     In Chart editor;
         - Chart type: Stacked column chart
@@ -377,10 +377,32 @@ Figure 28: Chart for Sales Person
 </div>  
 <br>
   
+16.  Create Slicer: Sales Year, Sales Region, Sales Products, Customer, Sales Person
+         - Click Data at ribbon then select Slicer
+
+<p align="center">
+   <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/slicer 1.png" width=300>
+</p>
+
+<br>
+   <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/slicer2.png" width=300>
+</p>
+<div align="center"> 
+Figure 29: Slicer editor
+</div>  
+<br>
+   <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/slicer3.png" width=800>
+</p>
+<div align="center"> 
+Figure 30: Slicer for Sales Year, Products, Sales Region, Customer, Sales Person.
+</div>  
+<br>
 
 ## Data Visualization <a name = "dashboard"></a>
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/27.png" width=1000>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/Screenshot 2023-10-26 025000.png" width=1000>
 </p>
 
 1. Create **"New sheet"** with name **"dashboard"** in another sheet by pressing the "+" button at the bottom left corner.
@@ -392,169 +414,7 @@ Figure 25: Creating a new sheet for the dashboard
 </div>
 <br>
 
-2. Three scorecards for viewing the minimum, maximum and average of the percentage score of students are created by selecting "Insert">"Chart". 
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/29.png" width=300>
-</p>
-<div align="center"> 
-Figure 26: Inserting chart
-</div>
-<br>
 
-3. For each scorecard chart, the "Chart type" is selected with **"Scorecard chart"** and the "Data range" is filled with the value **"Dataset1!P2:P111520"** which consists of the values in the column P in "Dataset1" sheet. Then the aggregate checkbox is enabled and a different aggregated function is selected.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/30.png" width=200>
-</p>
-<div align="center"> 
-Figure 27: Setup of scorecard with "Min" score
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/31.png" width=200>
-</p>
-<div align="center"> 
-Figure 28: Setup of scorecard with "Max" score
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/32.png" width=200>
-</p>
-<div align="center"> 
-Figure 29: Setup of scorecard with "Average" score
-</div>  
-<br>
-
-4. In the next steps, a column chart is created by selecting **"Column chart"** as the chart type with the data range values of **"Dataset1!Q2:Q111520"**. Check the "Aggregated" to obtain the counts of students for each grade.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/33.png" width=200>
-</p>
-<div align="center"> 
-Figure 30: Setup "Grading" column chart
-</div>  
-<br>
-
-5. Create a title for the horizontal and vertical axis with the value of **"Grade"** and **"Number of Students"** respectively by selecting the "Customize">"Chart & axis title". Select each axis and fill in the corresponding title text.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/34.png" width=200>
-</p>
-<div align="center"> 
-Figure 31: Customize "Grading" column chart
-</div>  
-<br>
-
-6. Despite having a column chart, a pivot table with a count of each grade is also created. For each grade, the count is made on column Q, Dataset 1 sheet. The "COUNIF()" function is used to obtain the aggregated value of the sum for each grade. The function is shown in Figure 24 and is modified by substituting the "A+" for the other grades.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/35.png" width=500>
-</p>
-<div align="center"> 
-Figure 32: Function for obtaining the count of grade "A+"
-</div>  
-<br>
-
-7. Within the pivot table, the total count is counted by using the below formula.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/36.png" width=400>
-</p>
-<div align="center"> 
-Figure 33: Function for obtaining the total count
-</div>  
-<br>  
-
-8. For visualizing the number of pass/fail students, a chart with a chart type of **"Doughnut chart"** is created. The data range is set to **"Dataset1!R2:R111520"**
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/37.png" width=200>
-</p>
-<div align="center"> 
-Figure 34: Setup of "Pass/Fail" doughnut chart
-</div>  
-<br>
-
-9. The doughnut chart is customized with **maximize** the chart style and **75%** of the pie chart hole.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/38.png" width=200>
-</p>
-<div align="center"> 
-Figure 35: Customize chart style of "Pass/Fail" doughnut chart
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/39.png" width=200>
-</p>
-<div align="center"> 
-Figure 36: Customize pie chart of "Pass/Fail" doughnut chart
-</div>  
-<br>
-
-10. A scorecard chart with data range of **"Dataset1!A2:A111520"** and apply aggregrated function of **count** is setup to show the total record of students.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/40.png" width=200>
-</p>
-<div align="center"> 
-Figure 37: Setup of "Total record" scorecard chart
-</div>  
-<br>
-
-11. At the N13, N14, N20, and N21 sheet position, the percentage of pass, count of pass, percentage of fail and count of fail students is calculated using the below function.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/41.png" width=400>
-</p>
-<div align="center"> 
-Figure 38: Function of percentage of pass
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/42.png" width=400>
-</p>
-<div align="center"> 
-Figure 39: Function of the count of pass
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/43.png" width=400>
-</p>
-<div align="center"> 
-Figure 40: Function of the percentage of fail
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/44.png" width=400>
-</p>
-<div align="center"> 
-Figure 41: Function of the count of fail
-</div>  
-<br>
-
-12. Those of each record are used to create a corresponding scorecard chart with data range on each respective sheet position.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/45.png" width=200>
-</p>
-<div align="center"> 
-Figure 42: Scorecard chart for the percentage of passes, count of passes, percentage of failed and count of failed students
-</div>  
-<br>
-
-13. At the end, all the chart is customized to make it look good. For each chart, the chart title is specified and designed with different styles or colours. The title of the dashboard is also placed in the upper position.
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/46.png" width=500>
-</p>
-<div align="center"> 
-Figure 43: Example of customised key value color for "Min" scorecard chart
-</div>  
-<br>
-
-<p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/47.png" width=500>
-</p>
-<div align="center"> 
-Figure 44: Example of customised chart title for "Grading" column chart
-</div>  
-<br>
 
 
 ## Contribution 🛠️
