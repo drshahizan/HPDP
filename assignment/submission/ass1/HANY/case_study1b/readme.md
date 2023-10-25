@@ -11,11 +11,11 @@
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
-| :---------------------------------------- | :-------------: | :-------------: |
-| ALYA BALQISS BINTI AZAHAR             |A21EC0158      | DOCUMENTATION     |
+| :---------------------------------------- | :-------------: | :---------------------: |
+| ALYA BALQISS BINTI AZAHAR             |A21EC0158      | VISUALISATION & DOCUMENTATION     |
 | MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | ANALYSIS     |
-|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | PREPROCESSING     |
-| LIEW YVONNE              |A21EC0045      | VISUALISATION     |
+|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | DOCUMENTATION     |
+| LIEW YVONNE              |A21EC0045      | PREPROCESSING     |
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
@@ -88,20 +88,25 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
      - Monthly Sales
        - Row: NUMERICAL MONTH, SALES MONTH
        - Values: Target, SALES
+       <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/22e25c3a-89ee-417a-aa91-e1bf3bceb0a0" width="200"></div>
   5. Repeat the step of creating the pivot table for each data anaysis. The following are the inputs for respective data analysis.
      - Region
        - Row: Sales Region
        - Values: PRODUCTS
+        <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/72d8ccad-aed5-40ee-8763-11679fa047df" width="200"></div>
      - Customer
        - Row: Customer
        - Values: PRODUCTS
+       <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/7cd4ae1c-7899-4466-beb5-ae937f15c2ec" width="200"></div>
      - Sales Person
        - Row: SALES PERSON
        - Column: PRODUCTS
        - Values: SALES
+       <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/15a54441-2d08-4ecc-93a0-1c9e8b52c8fc" width="200"></div>
      - Sales Trend
        - Row: SALES YEAR, NUMERICAL MONTH, SALES MONTH
        - Values: SALES
+       <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/d7ff05c4-676c-4545-a2ef-bd906866ec1b" width="200"></div>
   6. Once all the pivot tables are created, duplicate and transfer them into a new new sheet named **"Dashboard"**.
      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/a2d3339e-ed45-4851-9ab6-053172e671d6" width="500"></div>
   7. To generate the chart, select the related pivot table. Then, go to the **Insert** menu and select **Chart**.
