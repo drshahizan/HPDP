@@ -154,7 +154,7 @@ Result of arranging all pivot table in **DASHBOARD** sheet:
 <br></br>
 
 ### Chart for Region
-21. Select any rows from the **Region** pivot table before proceeding to repeat the [Step 19: Create Chart](#chart-for-monthly-sales). Choose **Pie Chart** since these datas are suitable being presented in this type of chart.
+21. Select any rows from the **Region** pivot table before proceeding to repeat the [Step 19: Create Chart](#chart-for-monthly-sales).<br> Choose **Pie Chart** since these datas are suitable being presented in this type of chart.
     
 23. We continue to customize the chart such as by changing the position of legend and change the color of pie chart in order to make the chart more outstanding and attractive.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853" width="700"></div>
@@ -180,7 +180,6 @@ Result of arranging all pivot table in **DASHBOARD** sheet:
 29. Choose **Smooth Line Chart** to create a line chart. Then, we add on the data labels into the line by clicking **Chart Editor >> Customize** menu under **Series**. 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/a70a694e-37e2-4e57-98cf-e5ed8d3389a5" width="700"></div>
 
-<br>
  > [!IMPORTANT]
 > Make sure the data and labelling in each your chart are clear and oustanding in order to ease the analyst to preview the charts including able to absorb the data being presented.
 
