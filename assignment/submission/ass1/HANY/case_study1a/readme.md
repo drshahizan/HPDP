@@ -72,12 +72,19 @@ Before you can create a dashboard or begin analyzing your data, you must first i
 </div>
 
 ## 3. Data Processing
+The following data processing processes must be completed:
 
 ### 3.1 Decimal Places Adjustment
+   1. Choose the columns labeled **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2** simultaneously as shown in Figure 5 below.
+   2. Click the "Increase decimal places" option to convert the data values in the selected columns to two decimal places.
 <div align="center">
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/b164435f-fc04-43cc-bd0b-d808210dda6f">
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/de86e86e-6b78-4ce8-9018-1b8efbf57924" style="width: 500px; height: 450px;">
    <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/60cba0d6-cbce-45fb-beb2-789d92819a64" style="width: 400px; height: 350px;">
+   
+   **Figure 5: Shows the selected data columns that need to be converted.**  
+</div>
+   
+   
       
 ### 3.2. Transformation of Value
 <div align="center">
