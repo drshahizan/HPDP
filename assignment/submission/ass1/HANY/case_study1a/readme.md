@@ -25,8 +25,6 @@
 
 
 ## 1. Introduction 
-
-## Dataset Information <a name = "dataset_info"></a>
 **CASE STUDY 1: Examination Results** involves working with a dataset named dataset1.txt, which contains valuable information about students' examination results. This dataset comprises five columns that provide insights into various aspects of student performance, including **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2**. 
 
 ## 2. Data Preprocessing 
