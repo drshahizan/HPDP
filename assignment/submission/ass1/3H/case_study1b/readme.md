@@ -20,8 +20,8 @@
 
 ## Table of Contents
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
-      + [Group Name: (3H) HAHAHA](#group-name-3h-hahaha)
-      + [Group Members](#group-members)
+      * [Group Name: (3H) HAHAHA](#group-name-3h-hahaha)
+      * [Group Members](#group-members)
    * [Table of Contents](#table-of-contents)
    * [Dataset Information <a name = "dataset_info"></a>](#dataset-information)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
