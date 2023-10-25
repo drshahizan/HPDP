@@ -8,7 +8,16 @@
 # Assignment 1a: Examination results
 
 ## Group Name: (3H) HAHAHA
+### Group Members
 
+| Name                                     | Matrix Number | 
+| :---------------------------------------- | :-------------: |
+| IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033	   |    
+| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL	              | A21EC0054   |     
+| NG SUANG JOO     | A21EC0102   |   
+| NG ZI XING | A21EC0213   |  
+
+## Table of Contents
 - [Assignment 1a: Examination results](#assignment-1a-examination-results)
    * [Data Preprocessing](#data-preprocessing)
       + [Import Data from .txt](#import-data-from-txt)
