@@ -21,6 +21,17 @@
 This dataset describes exam outcomes, allowing us to determine if students passed or failed. There are five factors that go into determining a student's grade: co-curriculum, athletics, academics, tests 1 and 2
 
 **Deadpool Google Sheet**: https://docs.google.com/spreadsheets/d/1-a6XEi_X0BPA2ugBbEKP3aqwfWSL5TKOPjdZvjvMh68/edit#gid=1538304567
+
+## Data Import  <a name = "importing data"></a>
+1. Download and import dataset1 to google sheet.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/dataset%20pic1.png" width=300>
+</p>
+
+<div align="center">
+  
+Figure 1: To import Dataset
+</div>
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
