@@ -105,17 +105,19 @@
 
 
 
-### Pivot Table for Salesperson
+### Pivot Table for Customer
 12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
+
+### Pivot Table for SalesPerson
     
-14. **NOTE THIS IS FOR PIVOT BY SALESPERSON:** <br>
+15. **NOTE THIS IS FOR PIVOT BY SALESPERSON:** <br>
     Copy the dataset and select the pivot table. Then choose the row and column.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969)
 
-15. Select the value to sum the sales by each salesperson.
+16. Select the value to sum the sales by each salesperson.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac)
 
 
