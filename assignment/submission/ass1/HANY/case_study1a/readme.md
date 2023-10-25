@@ -257,7 +257,7 @@ The following data processing processes must be completed:
    **Figure 25: Shows the value of Min.**
     </div>
     
-   6. Next, display the maximum value by repeating step 4-5 with **Max** option as shown in **Figures 26 and 27** below. Then, it will be displayed as shown in **Figure 28**.
+   6. Next, determine the maximum value by repeating step 4-5 with **Max** option as shown in **Figures 26 and 27** below. Then, it will be displayed as shown in **Figure 28**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/acd7b8a3-590d-476a-9a2c-db28a9d2b1ea" style="width: 300px; height: 500px;"> 
    <br>
@@ -296,8 +296,10 @@ The following data processing processes must be completed:
    **Figure 31: Display the value of Average.**
    </div>
          
-### 4.2 Grading Results
-#### Table
+### 4.2. Grading Results
+• Display grading results as tables.
+
+   8. 
    <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/a31e3d4b-9c3c-42a8-904e-d820aeb6eee7" style="width: 100px; height: 300px;">
          <br>
@@ -309,7 +311,7 @@ The following data processing processes must be completed:
          <br>
    </div>
 
-#### Column Charts
+• Display grading results as charts.
    <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
          <br>
@@ -326,7 +328,8 @@ The following data processing processes must be completed:
    </div>
 
 ### 4.3 Total Numbers of Records, Pass, and Fail
-#### Total Records
+• Total Records
+
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
       <br>
@@ -334,7 +337,7 @@ The following data processing processes must be completed:
       <br>
    </div>
 
-#### Total Numbers of Pass 
+• Total Numbers of Pass 
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
       <br>
@@ -362,7 +365,7 @@ The following data processing processes must be completed:
       <br>
    </div>
 
-#### Total Numbers of Fail
+• Total Numbers of Fail
 <div align="center">
    **for percentage
    <br>
