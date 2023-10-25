@@ -132,6 +132,7 @@ Before you can create a dashboard or begin analyzing your data, you must first i
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/1c153a4b-0327-4c73-aec0-f62dbcb1c9a1" style="width: 450px; height: 500px;">
 
+</div>
 
 ## 4. Data Visualisation
 
