@@ -20,7 +20,7 @@
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
-* [💻 Google Sheets 1a]()
+* [💻 Google Sheets 1a](https://docs.google.com/spreadsheets/d/1PpckpMOpWeiq1vO_xwkCBOgIXrA6l4On/edit?usp=sharing&ouid=104034350686855225306&rtpof=true&sd=true)
 * [📖 Report 1b](./case_study1b/readme.md)
 * [💻 Google Sheets 1b](https://docs.google.com/spreadsheets/d/1zduKcHnKgeTR4biIZwAw2ob--STk9VGIUaV9tGmO7bE/edit?usp=sharing)
 
