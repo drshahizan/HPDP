@@ -204,19 +204,27 @@ The following data processing processes must be completed:
 
 #### Column Charts
    <div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 200px; height: 350px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
          <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 350px; height: 30px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 500px; height: 350px;">
          <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 150px; height: 30px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 300px; height: 350px;">
          <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 150px; height: 300px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 300px; height: 350px;">
          <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 150px; height: 300px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 300px; height: 350px;">
          <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 150px; height: 300px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 300px; height: 350px;">
          <br>
    </div>
+
+### 4.3 Total Records, Pass and Fail Numbers
+#### 4.4 Total Records
+   <div align="center">
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/dc6c336e-4670-4127-864a-4e0e92cddb73" style="width: 350px; height: 150px;">
+
 
 
 
