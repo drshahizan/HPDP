@@ -20,7 +20,8 @@
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Data Importation](#2-data-importation)
-   - 2.1. [Enhance Dataset Appearance](#2.1-enhance-dataset-appearance)
+   - 2.1. [Import Dataset](#2.1.-import-dataset)
+   - 2.2. [Enhance Dataset Appearance](#2.2.-enhance-dataset-appearance)
 3. [Data Processing](#4-data-preprocessing)
 4. [Data Visualisation](#5-data-visualisation)
 5. [Contribution](#6-contribution)
@@ -29,6 +30,7 @@
 **CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [Dataset2.txt](https://docs.google.com/spreadsheets/d/1rKwc9vmwvVDqHaBCEf31vlPtSSHoVWJi3Tsy18F0rDk/edit?usp=sharing).
 
 ## 2. Data Importation
+### 2.1. Import Dataset
 To get started with creating a dashboard or begin conducting data analysis, start by importing the dataset into Google Sheets, as illustrated in Figure 1. 
   1. Navigate to the **File** menu, and select the **Import** option.
      <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/a4d8fddf-5f74-495e-8548-70efcea68bd1" width="500"></div>
