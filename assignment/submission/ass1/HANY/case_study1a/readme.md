@@ -18,20 +18,20 @@
 | LIEW YVONNE              |A21EC0045      | VISUALISATION     |
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Data Importation](#data-importation)
-   - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
-3. [Data Processing](#data-preprocessing)
-   - 3.1. [Decimal Places Adjustment](#decimal-places-adjustment)
-   - 3.2. [Transformation of Value](#transformation-of-value)
-   - 3.3. [Determine the Top Three Values](#determine-the-top-three-values)
-   - 3.4. [Total Points Calculation](#total-points-calculation)
-   - 3.5. [Percentage Value Calculation](#percentage-value-calculation)
-   - 3.6. [Grade Assignment](#grade-assignment)
-   - 3.7. [Differentiate Status Based on Color](#differentiate-status-based-on-color)
-4. [Data Visualisation](#data-visualisation)
-   - 4.1. [Creating Dashboard](#creating-dashboard)
-5. [Contribution](#contribution)
+1. [Introduction](#1.-introduction)
+2. [Data Importation](#2.-data-importation)
+   - 2.1. [Importing a Dataset into Google Sheets](#2.1.-importing-a-dataset-into-google-sheets)
+3. [Data Processing](#3.-data-preprocessing)
+   - 3.1. [Decimal Places Adjustment](#3.1.-decimal-places-adjustment)
+   - 3.2. [Transformation of Value](#3.2.-transformation-of-value)
+   - 3.3. [Determine the Top Three Values](#3.3.-determine-the-top-three-values)
+   - 3.4. [Total Points Calculation](#3.4.-total-points-calculation)
+   - 3.5. [Percentage Value Calculation](#3.5.-percentage-value-calculation)
+   - 3.6. [Grade Assignment](#3.6.-grade-assignment)
+   - 3.7. [Differentiate Status Based on Color](#3.7.-differentiate-status-based-on-color)
+4. [Data Visualisation](#4.-data-visualisation)
+   - 4.1. [Creating Dashboard](#4.1.-creating-dashboard)
+5. [Contribution](#5.-contribution)
 
 
 
@@ -41,7 +41,7 @@
 **CASE STUDY 1: Examination Results** involves working with a dataset named [Dataset1.txt](https://docs.google.com/spreadsheets/d/1MN7NgsUQqE91JiYOJ1nSrjs41kqkYe8twM3xC_PYFrw/edit?usp=sharing), which contains valuable information about students' examination results. The objective of this case study is to use the dataset to carry out a series of data processing tasks. These steps are necessary to enhance the analysis and visualization of examination results using Google Sheets' features. This case study provides an opportunity to explore and analyze student examination results, from data processing to visualization, ultimately assisting in making informed decisions and improvements in academic performance evaluation.
 
 ## 2. Data Importation 
-### 2.1 Importing a Dataset into Google Sheets 
+### 2.1. Importing a Dataset into Google Sheets 
 
 Before you can create a dashboard or begin analyzing your data, you must first import your dataset into Google Sheets, as shown in Figure 1 and Figure 2. 
   1. Navigate to the **File** menu, and then choose for the **Import** option.
@@ -74,7 +74,7 @@ Before you can create a dashboard or begin analyzing your data, you must first i
 ## 3. Data Processing
 The following data processing processes must be completed:
 
-### 3.1 Decimal Places Adjustment
+### 3.1. Decimal Places Adjustment
    1. Choose the columns labeled **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2** simultaneously as shown in Figure 5 below.
    2. Click the "Increase decimal places" option to convert the data values in the selected columns to two decimal places.
 <div align="center">
@@ -85,16 +85,35 @@ The following data processing processes must be completed:
 </div>
       
 ### 3.2. Transformation of Value
-   3. By using the formula shown in Figure 6, compute the new value for column B (**Academic**) through F (**Test2**) which the new maximum value is 3.33 for each column.
-<div align="center">
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/48eda989-2b75-49cd-bd9b-cc7bcb50323d" style="width: 145px; height: 30px;">
+   3. By using the formula shown in **Figure 6**, compute the new value for column B (**Academic**) through F (**Test2**) which the new maximum value is 3.33 for each column.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/48eda989-2b75-49cd-bd9b-cc7bcb50323d" style="width: 145px; height: 30px;"> 
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/f89b3483-e386-4e57-a103-8498065c9ce6" style="width: 145px; height: 30px;">
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/53bd2a16-914d-4bd6-9f9b-4f2ec16bf9aa" style="width: 145px; height: 30px;">
+
+**Figure 6: Shows the formula used for column B to F.**
    <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 350px;">
-</div>
+   </div> 
+
+   4. Enter the formula in the new columns, G to K, starting from the second row, following the format illustrated in **Figure 7**. Then, named the column as **P1**, **P2**, **P3**, **P4** and **P5** simultaneously.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/6e3bc94f-70ef-4c43-8184-fcabd0332d3d" style="width: 800px; height: 350px;"> 
+   <br>
+      
+   **Figure 7: Illustrates the correct placement for entering the formula.**
+   <br>
+   </div> 
+
+   6. Apply the C2 formula for E2 and F2 simultaneously. The outcomes for these columns are displayed in **Figure 8** below.
+   
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 400px;">
+   
+   **Figure 8: Display the values for column P1 to P5.**
+   <br>
+</div> 
 
 ### 3.3. Determine the Top Three Values
 <div align="center">
