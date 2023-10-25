@@ -97,6 +97,7 @@
 
 ## Dashboard <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
+<p align="center"> <em> Figure 22: Dashboard </em> </p> 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
