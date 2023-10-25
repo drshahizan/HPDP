@@ -93,9 +93,6 @@
 
 
 
-9. Produce graph by clicking **insert » chart» stacked column chart**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/86d299a0-d7cf-4ab8-a665-6e2eb1f3eba4)
-
 
     
 ### Pivot Table for Region 
