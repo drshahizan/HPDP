@@ -134,7 +134,7 @@
 
 ## Chart
 
-18. Copy all the pivot tables [CLICK CTRL+SHIFT] and select.
+18. Copy all the pivot tables by using **Ctrl + Shift** and select.
     **PASTE** it into a sheet named **"dashboard"**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9)
 
