@@ -53,18 +53,21 @@ To get started with creating a dashboard or begin conducting data analysis, star
 In order to facilitate accurate sorting of data in the pivot table in Google Sheets, it is necessary to create an additional column that aligns with column that contains month name to ensure that the data is sorted chronologically by month, as Google Sheets typically defaults to alphabetical sorting.
   1. Locate the column containing **"SALES MONTH"** (cell H).
   2. **Insert** a new column named **"NUMERICAL MONTH"**.
-  3. In the first cell of the "NUMERICAL MONTH" (under the header), type in the formula **=MONTH(DATEVALUE(H2&1))**
+  3. In the first cell of the "NUMERICAL MONTH" (under the header), type in the formula **=MONTH(DATEVALUE(H2&1))**. Then auto fill in for the rest of the columns.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/4c14b5a9-f856-4c50-a2ef-eb541f09cc5b" width="500"></div>
+     
      - This formula is used to extract the month from the date provided in cell H2.
      - **'H2&1'**: Concatenates the value in cell **H2** with the number 1.
        - The number 1 in the formula acts as a placeholder and does not represent the actual day of the month. It is simply added to help convert the text in cell H2 into a date format that can be recognised by the **DATEVALUE()** function.
      - **'DATEVALUE()':** Converts a tect representation of a date into a date value.
      - **'MONTH()':** Extracts the month from the given date. It takes the date value and returns the month as a number.
-  4. Notice that some values in the column could not be converted to numbers due to the non-standard format of the word **"Sept"**. To resolve this, the word needs to be replaced with **"Sep"**.
-  5. Press **CTRL + F** and type in **"Sept"** in the search bar. Press the three-dotted menu.
-  6. Input **"Sep"** into the **Replace with** field and proceed to click on **Replace all**.
-  7. Next, sort the dataset by ascending order according to the NUMERICAL MONTH column.
-  8. Go to the **Format** menu, hover over **Sort range**, and then select **Advanced range sorting options**.
-  9. Check the box labeled **Data has header row** and choose the **NUMERICAL MONTH** column in the dropdown menu. Opt for the **A-Z** sorting order.
+  5. Notice that some values in the column could not be converted to numbers due to the non-standard format of the word **"Sept"**. To resolve this, the word needs to be replaced with **"Sep"**.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/d7719e5d-337f-41c8-ad17-e17e4ee2c796" width="500"></div>
+  7. Press **CTRL + F** and type in **"Sept"** in the search bar. Press the three-dotted menu.
+  8. Input **"Sep"** into the **Replace with** field and proceed to click on **Replace all**.
+  9. Next, sort the dataset by ascending order according to the NUMERICAL MONTH column.
+  10. Go to the **Format** menu, hover over **Sort range**, and then select **Advanced range sorting options**.
+  11. Check the box labeled **Data has header row** and choose the **NUMERICAL MONTH** column in the dropdown menu. Opt for the **A-Z** sorting order.
 
 ## 5. Data Visualisation
   1. Navigate to the **Insert** menu and select **Pivot table**.
