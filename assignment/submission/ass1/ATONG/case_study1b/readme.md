@@ -100,7 +100,7 @@
     
 ### Pivot Table for Region 
 
-10. Repeat [**Step 7**](#monthly-sales) 
+10. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
 
 11. Select Row and Value.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
@@ -108,7 +108,7 @@
 
 
 ### Pivot Table for Salesperson
-12. Repeat [**Step 7**](#monthly-sales) 
+12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
@@ -122,7 +122,7 @@
 
 
 ### Pivot Table for Trend
-16. Repeat [**Step 7**](#monthly-sales) 
+16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
 17. Select **Rows** and **Values**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6)
 
