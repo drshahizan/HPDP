@@ -35,7 +35,7 @@ Google Sheet : (https://docs.google.com/spreadsheets/d/1QnBDqq86TcZbKna6d90OCFNh
 
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/96f95fff-a9e4-4864-a031-bf3dc30c80ad">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/96f95fff-a9e4-4864-a031-bf3dc30c80ad"  width = "400">
 </p>
 
 <div align="center">
@@ -48,7 +48,7 @@ _Figure 1: Import the data_
 - After opening Google Sheet, click on **File** and choose **Import**.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ab5caf43-26f0-4553-a10e-e53e97b2f043" width = "400">
 </p>
 
 <div align="center">
@@ -60,7 +60,7 @@ _Figure 2: Choose your data_
 - Choose** Browse **and choose 'Dataset1.txt' as our dataset.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d98a6b2b-0750-4eff-bc2b-75d20c3ccd3d"  width = "400">
 </p>
   
 <div align="center">
@@ -72,7 +72,7 @@ _Figure 3: Import data_
 - Choose '**Replace in current sheet**' as Import location and '**Detect automatically**' as separator type. Check on the checkboard. Then, click Import Data.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/8cc5a7e5-f0f7-44e6-8911-d34385360f96" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/8cc5a7e5-f0f7-44e6-8911-d34385360f96"  width = "400">
 </p>
 
 <div align="center">
@@ -89,7 +89,7 @@ _Figure 4: Database imported successfully_
 #### i. Convert the Academic, Sports, Co-Curriculum, Test 1 and Test 2 data values to two decimal places.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/2ae18c09-70d7-4de1-975e-141a90cbd05f" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/2ae18c09-70d7-4de1-975e-141a90cbd05f" width = "400">
 </p>
 
 <div align="center">
@@ -105,7 +105,7 @@ _Figure 5 : Convert the value to two decimal places_
 #### ii.	Please provide a new value for columns B (Academic) through F (Test 2), with the new maximum value of 3.33 for each column. Please update the values in columns G (P1) to K (PS) (refer to Table 2 and Figure 2). Values are displayed to two decimal places.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/6de5b0fb-cd84-40e8-a426-26ef9bb014e1" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/6de5b0fb-cd84-40e8-a426-26ef9bb014e1" width = "400">
 </p>
 
 <div align="center">
@@ -124,7 +124,7 @@ _Figure 6 : Add column P1 in on the sheet_
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/b37b0731-9fc3-402c-816f-8ab3adb82158" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/b37b0731-9fc3-402c-816f-8ab3adb82158" width = "400">
 </p>
 
 <div align="center">
@@ -138,7 +138,7 @@ _Figure 7: The output of the data_
 #### iii. Determine the top three values based on the values in columns G to K. Fill in the highest value in column L (B1), the second highest value in column M (B2), and the third highest value in column N (B3)
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/69a28f08-53d2-4773-812a-66d4b58ea695" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/69a28f08-53d2-4773-812a-66d4b58ea695" width = "400">
 </p>
 
 <div align="center">
@@ -163,7 +163,7 @@ _Figure 8: Output of B1,B2,B3_
 #### iv. Compute total points by combining the data from column L to N. The total mark value is entered in column O (TM).
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/190c0f40-3524-4b60-8e9a-ca9841b97f5d" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/190c0f40-3524-4b60-8e9a-ca9841b97f5d" width = "400">
 </p>
 
 <div align="center">
@@ -186,7 +186,7 @@ _Figure 9 : Output of TM_
 #### V. Please calculate the percentage value for data in the column O. In column P, enter percentage value (Percent). Check that the percentage value is within two decimal places.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/c6152175-33ab-4475-806d-6115dd9a4a20" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/c6152175-33ab-4475-806d-6115dd9a4a20" width = "400">
 </p>
 
 <div align="center">
@@ -208,7 +208,7 @@ _Figure 10 : Output of Percentage_
  #### vi. Based on Table 3, assist a grade, Column Q is for grade, and column R is for status.
 
 <p align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/89633522/f08923f8-c81f-40e4-bfc6-2a8d49176fc1" height = "300" width = "300">
+  <img src="https://github.com/drshahizan/HPDP/assets/89633522/f08923f8-c81f-40e4-bfc6-2a8d49176fc1"  width = "400">
 </p>
 
  <div align="center">
@@ -218,7 +218,7 @@ _Table 3_
 </div>
 
  <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/76216ecc-40f8-4757-b831-ccd0d9387ff1" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/76216ecc-40f8-4757-b831-ccd0d9387ff1" width = "400">
 </p>
 
 <div align="center">
@@ -237,7 +237,7 @@ _Figure 10: Output of Grade_
 
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff"  width = "400">
 </p>
 
 <div align="center">
@@ -257,7 +257,7 @@ _Figure 11: Output of status_
  #### vii. If the status is Pass, please colour column P with Green, You should colour the Pass line with light red.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/4e6d702f-5d90-4bff-ba16-bed7bb3ee6b2" height = "300" width = "300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/4e6d702f-5d90-4bff-ba16-bed7bb3ee6b2"  width = "400">
 </p>
 
 <div align="center">
@@ -275,7 +275,7 @@ _Figure 12: Green colour with Pass status and Light Red for pass line_
 
 ## Output of the data
 
-  <img src="https://github.com/drshahizan/HPDP/assets/89633522/33d3ef01-ccd6-4dca-9d19-3ca09cf7366e" height = "300" width = "300">
+  <img src="https://github.com/drshahizan/HPDP/assets/89633522/33d3ef01-ccd6-4dca-9d19-3ca09cf7366e"  width = "400">
 
 <div align="center">
   
@@ -322,7 +322,7 @@ _Figure 16 : Create pivot table_
 - **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for '**Insert to**' section. Click on the button create.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="500" >
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="400" >
 </p>
 
 <div align="center">
@@ -352,7 +352,7 @@ _Figure 18 : Setup of chart_
     totals'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" >
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" height="400">
 </p>
 
 <div align="center">
@@ -364,7 +364,7 @@ _Figure 18 : Change of scoreboard title_
 - By click on Customize, please choose Chart & axis titles. Enter either 'Min' , 'Average' or 'Max' for the title text
 
   <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/65d190e2-025c-4b2f-9d8e-65015c0480c5"  height="300">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/65d190e2-025c-4b2f-9d8e-65015c0480c5"  height="400">
 </p>
 <div align="center">
   
@@ -400,9 +400,11 @@ _Figure 19 : Output of table of grade and num_
 
 - The table above show the result of table of grade and num.
 
-<p align="center">
+
+<p align="center"> 
+<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6">
+ </p>
     
-![image](https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6)
 
 </p>
 
