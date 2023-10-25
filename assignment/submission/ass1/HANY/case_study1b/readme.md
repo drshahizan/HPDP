@@ -22,9 +22,9 @@
 2. [Data Importation](#2-data-importation)
    - 2.1. [Import Dataset](#21-import-dataset)
    - 2.2. [Enhance Dataset Appearance](#22-enhance-dataset-appearance)
-3. [Data Processing](#4-data-preprocessing)
-4. [Data Visualisation](#5-data-visualisation)
-5. [Contribution](#6-contribution)
+3. [Data Processing](#3-data-preprocessing)
+4. [Data Visualisation](#4-data-visualisation)
+5. [Contribution](#5-contribution)
 
 ## 1. Introduction
 **CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [Dataset2.txt](https://docs.google.com/spreadsheets/d/1rKwc9vmwvVDqHaBCEf31vlPtSSHoVWJi3Tsy18F0rDk/edit?usp=sharing).
