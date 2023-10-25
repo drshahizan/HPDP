@@ -10,12 +10,12 @@
 ### Group Name: GPS (GroupPalingSolid)
 ### Group Members
 
-| Name                                     | Matrix Number | Photo |
-| :---------------------------------------- | :-------------: | ------------- |
-| MUHAMMAD FARHAN BIN IBRAHIM | A21EC0072   |      |
-| FONG KHAH KHEH              | A21EC0026   |      |	
-| LING WAN YIN                | A21EC0047   |      |	
-| SARAH WARDINA BINTI RAFIDIN | A21EC0128   |      |
+| Name                                     | Matrix Number |
+| :---------------------------------------- | :-------------: |
+| MUHAMMAD FARHAN BIN IBRAHIM | A21EC0072   | 
+| FONG KHAH KHEH              | A21EC0026   |  	
+| LING WAN YIN                | A21EC0047   |  	
+| SARAH WARDINA BINTI RAFIDIN | A21EC0128   | 
 
 ## Table of Contents
 + [Dataset Information](#dataset_info)
