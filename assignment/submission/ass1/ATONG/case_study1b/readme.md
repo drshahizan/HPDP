@@ -101,7 +101,7 @@
 
 
 ### Salesperson
-12. Repeat **Step 7** again.
+12. Repeat [**Step 7**](#monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
@@ -115,7 +115,7 @@
 
 
 ### Trend
-16. Repeat **Step 7** again.
+16. Repeat [**Step 7**](#monthly-sales) 
 17. Select **Rows** and **Values**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6)
 
