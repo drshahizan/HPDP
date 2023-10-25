@@ -21,7 +21,7 @@
 + [Dataset Information](#dataset_info)
 + [Data Import and Data Preprocessing](#preprocessing)
 + [Data Processing](#processing)
-+ [Dashboard](#dashboard)
++ [Dashboard](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/GPS/case_study1a/readme.md#dashboard)
 + [Contributions](#contribution)
 
 ## Dataset Information <a name = "dataset_info"></a>
@@ -587,6 +587,7 @@ _Figure 53: Customization of the Scorecard_
 </div>  
 <br>
 
+## Dashboard
 23. The dashboard as is in the image below is created.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=800>
