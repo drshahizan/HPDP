@@ -199,7 +199,7 @@
 ## Dashboard
    **Dashboard** successfully created.    
    <br>
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/5b5f1532-708b-467e-a0a3-652a55dba72e)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/5b5f1532-708b-467e-a0a3-652a55dba72e" width="800"></div>
 
 
 
