@@ -122,7 +122,7 @@ Figure 9:   Pivot table
 
 3. On the right side click on ‘Rows’ and ‘Add, and select ‘Sales Region’ 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/9.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/9.png" width=300>
 </p>
 <div align="center">  
 Figure 10: Creating a table for sales region
@@ -280,7 +280,7 @@ Figure 22: Sale Trend Smooth line graph
   
 
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/23.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/23.png" width=300>
 </p>
 <div align="center"> 
 Figure 23: Pivot table editor for Monthly sales
@@ -289,7 +289,7 @@ Figure 23: Pivot table editor for Monthly sales
 <p align="center">
 
   <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/24.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/24.png" width=300>
 </p>
 <div align="center"> 
 Figure 24: Pivot table for Monthly sales
@@ -310,14 +310,14 @@ Figure 24: Pivot table for Monthly sales
   
 
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/26.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/26.png" width=300>
 </p>
 <div align="center"> 
 Figure 25: Chart editor for Monthly sales
 </div>  
 <br>
    <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/30.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/30.png" width=300>
 </p>
 <div align="center"> 
 Figure 26: Graph for Monthly sales
@@ -337,14 +337,14 @@ Figure 26: Graph for Monthly sales
   
 
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/28.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/28.png" width=300>
 </p>
 <div align="center"> 
 Figure 27: Pivot Table editor for Sales Person.
 </div>  
 <br>
    <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/29.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/29.png" width=300>
 </p>
 <div align="center"> 
 Figure 28: Table for Sales Person
@@ -363,14 +363,14 @@ Figure 28: Table for Sales Person
 
 
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/31.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/31.png" width=300>
 </p>
 <div align="center"> 
 Figure 27: Chart editor for Sales Person.
 </div>  
 <br>
    <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/32.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/32.png" width=300>
 </p>
 <div align="center"> 
 Figure 28: Chart for Sales Person
