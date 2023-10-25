@@ -9,7 +9,17 @@
 
 ### Group Name: GPS (GroupPalingSolid)
 
-## Dataset information
+## Table of Contents
++ [Dataset Information](#dataset_info)
++ [Importing data](#import_data)
++ [Monthly Sales](#monthly_sales)
++ [Sales Region](#sales_region)
++ [Customer](#customer)
++ [Salesperson](#salesperson)
++ [Sales trend](#sales_trend)
++ [Slicer](#slicer)
+
+## Dataset information <a name = "dataset_info"></a>
 This dataset is called Dataset2.txt. This dataset has nine columns which are CUSTOMER, PRODUCTS, SALES PERSON, Sales Region, Target, SALES, SALES YEAR, SALES MONTH	and SALES QTR.
 
 **Source**: https://docs.google.com/spreadsheets/d/1vUogP0glv5RVHAp1kRcJCLvHPztVrFxzTwvV4YZCsiE/edit?usp=sharing
@@ -18,7 +28,7 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
   <img src="images/0.png" alt="Image Description">
 </p> 
 
-### Importing data :
+### Importing data : <a name = "import_data"></a>
  1. Import the Dataset2.txt into Google Sheets, on the left upper menu bar, choose "File" -> "Import".
 <p align="center">
   <img src="images/1.png" alt="Image Description">
@@ -33,7 +43,7 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
 </p>
 
 ## Charts
-### Monthly sales chart
+### Monthly sales chart<a name = "monthly_sales"></a>
 1. First of all, select all columns that we just imported click on "Insert" and click on "Pivot Table"
 <p align="center">
   <img src="images/4.png" alt="Image Description">
@@ -73,11 +83,11 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
   <img src="images/11.png" alt="Image Description">
 </p>
 
-### Sales region
+### Sales region<a name = "sales_region"></a>
 
-### Customer
+### Customer<a name = "customer"></a>
 
-### Salesperson
+### Salesperson<a name = "sales_person"></a>
 1. Do the same steps in Monthly sales charts from step 1 until step 3. However, this time choose "Sales Product" and "PRODUCTS" as Rows. Then, choose "Sales". 
 <p align="center">
   <img src="images/12.png" alt="Image Description">
@@ -115,7 +125,7 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
 </p>
 
 
-### Sales Trend
+### Sales Trend<a name = "sales_trend"></a>
 1. Do the same steps in Monthly sales charts from step 1 until step 3. However, this time choose "Sales Product" and "PRODUCTS" as Rows. Then, choose "Sales". 
 <p align="center">
   <img src="images/20.png" alt="Image Description">
@@ -144,7 +154,7 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
   <img src="images/25.png" alt="Image Description">
 </p>
 
-## Slicer
+## Slicer<a name = "slicer"></a>
 1. First of all, Slicers provide buttons that you can click to filter tables or PivotTables. In addition to quick filtering, slicers also indicate the current filtering state, which makes it easy to understand what exactly is currently displayed. The image below is what we called Slicer.
 <p align="center">
   <img src="images/26.png" alt="Image Description">
