@@ -6,7 +6,7 @@
 
 </div>
 
-### :octocat:Group Name: KhuChin
+### :octocat: Group Name: KhuChin
 ### Group Members
 
 | Name                                     | Matrix Number |
@@ -16,5 +16,9 @@
 | Nur Shuhada Safiah Binti Ayob              |A21EC0114      |
 | Ikmal Bin Khairulezuan              |A21EC0186      |
 
-
+------
+## 🌟KhuChin Dataset2 Dashboard
+<a name = "KhuChin Dashboard"> </a>
+<p align="center"><img align="center" alt="Table" width="500" src=""></p>  
+------
 
