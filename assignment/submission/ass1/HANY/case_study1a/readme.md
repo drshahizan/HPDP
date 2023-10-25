@@ -83,10 +83,9 @@ The following data processing processes must be completed:
    
    **Figure 5: Shows the selected data columns that need to be converted.**  
 </div>
-   
-   
       
 ### 3.2. Transformation of Value
+   3. By using the formula shown in Figure 6, compute the new value for column B (**Academic**) through F (**Test2**) which the new maximum value is 3.33 for each column.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/48eda989-2b75-49cd-bd9b-cc7bcb50323d" style="width: 145px; height: 30px;">
    <br>
