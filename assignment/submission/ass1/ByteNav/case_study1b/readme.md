@@ -20,6 +20,7 @@
 ### Table of Contents
 + [Import Dataset](#dataset_import)
 + [Data Processing](#data_processing)
++ [Create Dashboard](#create_dashboard)
 + [Dashboard](#dashboard)
 + [Contributions](#contribution)
 
@@ -80,9 +81,45 @@
 <p align="center"> <em> Figure 13: Use QUERY function to select column H and calculate the sum of columns F and E, grouped by column H </em> </p> 
 <p align="center"><img align="center" alt="function" width="400" src="sumofsalesandtarget.png"></p> 
 <p align="center"> <em> Figure 14: The calculated sum of sales and target</em> </p> 
+   
+## Create Dashboard  <a name = "create_dashboard"> </a>
+1. Click on the **"Insert"** menu and select **"chart"**.
+<p align="center"><img align="center" alt="googlesheet" width="400" src="insertchart.png"></p>
+<p align="center"> <em> Figure 15: Insert chart</em> </p> 
+
+2. Select **"Line chart"**, and adjust the data range from K11 to M22.
+<p align="center"><img align="center" alt="editor" width="400" src="monthlysalesandtarget.png"></p>
+<p align="center"> <em> Figure 16: Chart editor for monthly sales and target</em> </p> 
+<p align="center"><img align="center" alt="editor" width="400" src="monthlysalesandtargetdone.png"></p>
+<p align="center"> <em> Figure 17: Line chart for monthly sales and target</em> </p> 
+
+3. Repeat step 1, and select **"Column chart"**, and adjust the data range from A8 to A331.
+<p align="center"><img align="center" alt="editor" width="400" src="customer.png"></p>
+<p align="center"> <em> Figure 18: Chart editor for customer</em> </p> 
+<p align="center"><img align="center" alt="editor" width="400" src="customerdone.png"></p>
+<p align="center"> <em> Figure 19: Column chart for customer</em> </p>
+
+4. Repeat step 1, and select **"3D pie chart"**, and adjust the data range from D8 to D331.
+<p align="center"><img align="center" alt="editor" width="400" src="region.png"></p>
+<p align="center"> <em> Figure 20: Chart editor for sales region</em> </p> 
+<p align="center"><img align="center" alt="editor" width="400" src="regiondone.png"></p>
+<p align="center"> <em> Figure 21: 3D pie chart for sales region</em> </p>
+
+5. Repeat step 1, and select **"Pie chart"**, and adjust the data range from D8 to D331.
+<p align="center"><img align="center" alt="editor" width="400" src="person.png"></p>
+<p align="center"> <em> Figure 22: Chart editor for person</em> </p> 
+<p align="center"><img align="center" alt="editor" width="400" src="persondone.png"></p>
+<p align="center"> <em> Figure 23: Pie chart for person</em> </p>
+
+6. Repeat step 1, and select **"Area chart"**, and adjust the data range from K8 to L22.
+<p align="center"><img align="center" alt="editor" width="400" src="salestrend.png"></p>
+<p align="center"> <em> Figure 24: Chart editor for sales trend</em> </p> 
+<p align="center"><img align="center" alt="editor" width="500" src="salestrenddone.png"></p>
+<p align="center"> <em> Figure 25: Area pie chart for sales trend</em> </p>
 
 ## Dashboard  <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="500" src="dashboard.gif"></p>  
+<p align="center"> <em> Gif 3: The completed dashboard  </em> </p> 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
