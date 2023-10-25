@@ -25,7 +25,7 @@
    * [Table of Contents](#table-of-contents)
       - [Monthly Sales](#monthly-sales)
       - [Region](#region)
-      - [Customer](#customer)
+      - [Salesperson](#salesperson)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
    * [Dashboard <a name = "dashboard"></a>](#dashboard)
    * [Contribution 🛠️](#contribution-)
@@ -112,10 +112,13 @@
 
 
 
-### Customer
-
+### Salesperson
 16. Repeat **Step 7** again.
-17. 
+17. Edit the pivot table by choosing **row** and **value**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
+18. Select **row** and **column**.
+  ![image](https://github.com/drshahizan/HPDP/assets/108865725/18f0af21-70d8-4b94-a497-75b0455c1ee7)
+
 
 
 ## Dashboard
