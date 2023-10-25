@@ -17,7 +17,47 @@
 | MUHAMMAD IZZUDDIN BIN SHABRIN             | A21EC0083     |   VISUALIZATION   |
 | KEE SHIN PEARL             | A21EC0190     | DOCUMENTATION     |
 
+<br>
+
 ### Table of Content
+- [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
+   * [Table of Contents](#table-of-contents)
+     * [Dataset Information](#dataset-information)
+     * [Pivot Table](#pivot-table)
+       * [Monthly sales](#monthly-sales)
+       * [Region](#region)
+       * [Customer](#customer)
+       * [Salesperson](#salesperson)
+       * [Sales trend](#sales-trend)
+     * [Dashboard](#dashboard)
+     * [Contribution 🛠️](#contribution)
+
+<br>
+
+### Dataset Information 
+
+<br>
+
+### Pivot Table
+
+#### Monthly Sales
+#### Region
+#### Customer
+#### Salesperson
+#### Sales Trend
+
+
+
+
+
+
+### Dashboard
+
+
+
+
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
