@@ -17,8 +17,10 @@
 | MUHAMMAD IZZUDDIN BIN SHABRIN             | A21EC0083     |   VISUALIZATION   |
 | KEE SHIN PEARL             | A21EC0190     | DOCUMENTATION     |
 
+## Dataset Information <a name = "dataset_info"></a>
+This dataset describes exam outcomes, allowing us to determine if students passed or failed. There are five factors that go into determining a student's grade: co-curriculum, athletics, academics, tests 1 and 2
 
-
+**Deadpool Google Sheet**: https://docs.google.com/spreadsheets/d/1-a6XEi_X0BPA2ugBbEKP3aqwfWSL5TKOPjdZvjvMh68/edit#gid=1538304567
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
