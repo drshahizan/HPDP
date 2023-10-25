@@ -85,16 +85,24 @@ https://github.com/drshahizan/HPDP/assets/106257072/b164435f-fc04-43cc-bd0b-d808
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/48eda989-2b75-49cd-bd9b-cc7bcb50323d" style="width: 145px; height: 30px;">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/f89b3483-e386-4e57-a103-8498065c9ce6" style="width: 145px; height: 30px;">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/53bd2a16-914d-4bd6-9f9b-4f2ec16bf9aa" style="width: 145px; height: 30px;">
-   
-
-
-
-
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 350px;">
 
 ### 3.3. Determine the Top Three Values
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/a04b939b-2e90-4f16-9122-46b637491ca5" style="width: 145px; height: 30px;">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/d73e6421-d145-4e5b-840b-19a6574f92a6" style="width: 145px; height: 30px;">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/91afc21c-d2e8-49a9-8f5a-507c1fff9493" style="width: 145px; height: 30px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/56527951-b23e-46a5-9bd6-60a7b6a2ddf7" style="width: 250px; height: 350px;">
+   
+
 ### 3.4. Total Points Calculation
+
 ### 3.5. Percentage Value Calculation
+
 ### 3.6. Grade Assignment
+
 ### 3.7. Differentiate Status Based on Color
 
 
