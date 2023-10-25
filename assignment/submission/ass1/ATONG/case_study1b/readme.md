@@ -140,7 +140,7 @@
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9" width="400"></div>
 
     Result Displayed:
-      <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
+      <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882" width="400"></div>
     <br></br>
 ### Chart for Monthly Sales
 19. Click **Insert » Chart**.
