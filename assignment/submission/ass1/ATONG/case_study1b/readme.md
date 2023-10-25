@@ -24,7 +24,7 @@
    * [Importing Datasets](#importing-datasets)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
       - [Pivot Table for Monthly Sales](#pivot-table-for-monthly-sales)
-      - [Pivot Table for Region](#pivot-table-for-region)]
+      - [Pivot Table for Region](#pivot-table-for-region)
       - [Pivot Table for Customer](#pivot-table-for-customer)
       - [Pivot Table for Salesperson](#pivot-table-for-salesperson)
       - [Pivot Table for Trend](#pivot-table-for-trend)
