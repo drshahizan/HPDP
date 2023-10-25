@@ -176,15 +176,84 @@
    + Data range: E33
   
 <p align="center"><img align="center" alt="Table" width="200" src="editchart_fail.png"></p> 
-<p align="center"> <em> Figure 33: Setup the fail Percentage chart</em> </p> 
+<p align="center"> <em> Figure 33: Setup the Fail Percentage chart</em> </p> 
 
 12. Result of **"Fail Percentage Scorecard chart"** dashboard
 <p align="center"><img align="center" alt="Table" width="200" src="fail.png"></p> 
 <p align="center"> <em> Figure 34: Final result for Fail Percentage Scorecard chart</em> </p> 
 
+### Maximum Value by using Scorecard chart <a name = "max_dashboard"> </a>
+13. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Scorecard chart
+   + Data range: U6:U8, P2:P111725 (Dataset1!U6:U8,Dataset1!P2:P111725)
+   + Combine ranges: Horizontally
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_max.png"></p> 
+<p align="center"> <em> Figure 35: Setup the Maximum Value chart</em> </p> 
+
+14. Result of **"Maximum Value Scorecard chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="max.png"></p> 
+<p align="center"> <em> Figure 36: Final result for Maximum Value Scorecard chart</em> </p> 
+
+### Minimum Value by using Scorecard chart <a name = "min_dashboard"> </a>
+15. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Scorecard chart
+   + Data range: R4
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_max.png"></p> 
+<p align="center"> <em> Figure 37: Setup the Minimum Value chart</em> </p> 
+
+16. Result of **"Minimum Value Scorecard chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="min.png"></p> 
+<p align="center"> <em> Figure 38: Final result for Minimum Value Scorecard chart</em> </p> 
+
+### Average Value by using Scorecard chart <a name = "avg_dashboard"> </a>
+17. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Scorecard chart
+   + Data range: R6
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_avg.png"></p> 
+<p align="center"> <em> Figure 37: Setup the Average Value chart</em> </p> 
+
+18. Result of **"Average Value Scorecard chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="avg.png"></p> 
+<p align="center"> <em> Figure 38: Final result for Average Value Scorecard chart</em> </p> 
+
+### Number of Students and Grades by using Column chart <a name = "numstu_grades_dashboard"> </a>
+19. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Column chart
+   + Data range: K10:L23
+   + Stacking: None
+   + X-axis: Grade
+   + Series: Total
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_numstu_grades.png"></p> 
+<p align="center"> <em> Figure 39: Setup the Number of Students and Grades chart</em> </p> 
+
+20. Result of **"Number of Students and Grades Column chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="numstu_grades.png"></p> 
+<p align="center"> <em> Figure 40: Final result for Number of Students and Grades Column chart</em> </p> 
+
+### Total Number of Grades table <a name = "grade_dashboard"> </a>
+21. Use formula in Figure 41 and Figure 42 to link to total number of grades to the table on dashboard.
+<p align="center"><img align="center" alt="Table" width="200" src="dashboard_table_formula1.png"></p> 
+<p align="center"> <em> Figure 41: Formula to retrieve the grades</em> </p> 
+<p align="center"><img align="center" alt="Table" width="200" src="dashboard_table_formula2.png"></p> 
+<p align="center"> <em> Figure 42: Formula to retrieve the total number of grades</em> </p> 
+
+   Repeat the step in Figure 42 for every grades such as. A+, A, A-, B+, B and more.
+
+22. Result of **"Total Number of Grades table"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="dashboard_table.png"></p> 
+<p align="center"> <em> Figure 43: Final result for Total Number of Grades table</em> </p> 
+
 ## Dashboard <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
-<p align="center"> <em> Figure x: Dashboard </em> </p> 
+<p align="center"> <em> Figure 44: Dashboard </em> </p> 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
