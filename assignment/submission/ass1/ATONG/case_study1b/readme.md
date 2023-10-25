@@ -42,30 +42,31 @@
 
 
 ## Importing Datasets
-1. Import Dataset2.txt into Google Sheets. **[File » Import]**
+1. We need to import our Dataset2.txt into Google Sheets by clicking on the **File** then choose the **Import** button
   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c" width="700"></div>
 
-2. Click **Upload >> Browse >> Dataset2.txt**.
+2. Since the Dataset2.txt in our own device, then we need to click  on **Upload >> Browse >> Dataset2.txt** in order to insert the dataset into sheets.
    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3" width="700"></div>
 
-  
+ > [!IMPORTANT]
+> Please make sure you selecting the correct dataset and click on *Done* button in order to successfully importing the dataset.
 
-3. Click “Replace current sheet”, and then import data.
+3. Click “Replace current sheet” for the *Import location* option, and then import data.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/777f009c-e01d-4ed4-9b8c-443f5d83cdbc" width="700"></div>
 
 
 
-4. Use format **"=MONTH(DATEVALUE(H2:H324&1))"** to give value of month based on sales month.
+4. Use format *"=MONTH(DATEVALUE(H2:H324&1))"* to give value of each rows of months based on *SALES MONTH* column.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/92522e8f-e41b-432d-887b-8ae1a74e2b68" width="700"></div>
 
 
 
-5. For those **"#VALUE!"**, correct it by clicking **Ctrl+F**, then type Sept.
+5. For those rows that consists the result of *"#VALUE!"*, we need to fix and correct it by clicking **Ctrl+F**. Then type "Sept" as the null value is month of September.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/917370da-89a3-4e41-98de-e7d76904b14a" width="700"></div>
 
 
 
-6. Type the replace with *Sep*, and click **"replace all"** first, then the **"done"** button.
+6. Next, we need to replace with the correct format which is *Sep*. Following with clicking the **"Replace All"** first, then the **"Done"** button.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/99d00787-c3f6-45e9-a60b-d714722adc8a" width="700"></div>
 
 
