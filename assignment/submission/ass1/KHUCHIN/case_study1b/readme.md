@@ -19,6 +19,6 @@
 ------
 ## 📑 KhuChin Dataset2 Dashboard
 <a name = "KhuChin Dashboard"> </a>
-<p align="center"><img align="center" alt="Table" width="500" src="dashboard.png"></p>  
+<p align="center"><img align="center" alt="Table" width="500" src="dashboard.jpeg"></p>  
 ------
 
