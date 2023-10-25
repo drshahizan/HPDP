@@ -22,7 +22,6 @@
 ## Table of Contents
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Importing Datasets](#importing-datasets)
-   * [Table of Contents](#table-of-contents)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
       - [Pivot Table for Monthly Sales](#pivot-table-for-monthly-sales)
       - [Pivot Table for Region](#pivot-table-for-region)
