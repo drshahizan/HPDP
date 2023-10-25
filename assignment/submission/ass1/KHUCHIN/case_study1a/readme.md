@@ -51,13 +51,70 @@ One dataset has been chosen for data analysis based on the case study that was g
 
 9. Get the top three highest value from the row by using simple formula as shown in the pictures below:
 
-<div class="center-images">
+<div align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/118237589/0911bd5e-4a5c-4804-82bb-017498677259" alt="Image 1">
     <img src="https://github.com/drshahizan/HPDP/assets/118237589/b37210a4-d4de-426e-8326-7f65ee782056" alt="Image 2">
     <img src="https://github.com/drshahizan/HPDP/assets/118237589/769ed382-82f9-41d1-acb3-2e6c230da1f0" alt="Image 3">
   </div>
 
 10. The rest are calculated the same way as in Step 8.
+
+### Total Marks
+11. Total marks are calculated by finding the sum value of top three highest mark from before:
+
+<div align="center">
+<img src="https://github.com/drshahizan/HPDP/assets/118237589/4f5b6c79-e1ca-4b11-8baf-5b2c7a9f2e18">
+</div>
+
+12. The rest are calculated the same way as in Step 8.
+
+### Calculating Percentage
+
+13. Percentage of the marks are calculated to determine the grade of students. Percentage is calculated as below:
+    
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/4383a63c-8d12-46be-8b06-5b66a6d9c138">
+</div>
+
+14. As always the rest are calculated the same way as in Step 8.
+
+### Creating Grade and Status (Pass or Fail)
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/6d68f4f9-3f51-4433-9b1e-fff413da5bc6">
+</div>
+
+
+
+15. First create a range of the score for each grade in ascending order.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/95f820d7-d24e-4a43-8a0e-dc8667f70760">
+</div>
+
+16. Then link the previous range of score using th VLOOKUP formula to automatically set the grade for each percentage.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/e13162bb-0c74-4807-92af-a298945a8288">
+</div>
+
+17. Do the same for status Pass or Fail follow step 15.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/de80c17d-b232-4c9e-9c6d-868182a93f68">
+</div>
+
+18. Follow step 16.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/905b9b10-18e9-4da0-88ab-d5b83426fa3d">
+</div>
+
+19. 
+
+
+
 
 
 ## Analysis of the dataset
