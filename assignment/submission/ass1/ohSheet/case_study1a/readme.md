@@ -52,11 +52,11 @@ The main goal of this project is to utilize Google Sheets to process and present
 
    To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
    
-   Column P1: '=(B2/61)*3.33 <br>
-   Column P2: '=(C2/10)*3.33 <br>
-   Column P3: '=(D2/15)*3.33 <br>
-   Column P4: '=(E2/10)*3.33 <br>
-   Column P5: '=(F2/10)*3.33 
+   Column P1: '=(B2/61)*3.33' <br>
+   Column P2: '=(C2/10)*3.33' <br>
+   Column P3: '=(D2/15)*3.33' <br>
+   Column P4: '=(E2/10)*3.33' <br>
+   Column P5: '=(F2/10)*3.33' 
    
    For each column, click enter after filling out the formula to autofill the entire column. 
 
@@ -65,6 +65,27 @@ The main goal of this project is to utilize Google Sheets to process and present
    Column L (B1): The highest value <br>
    Column M (B2): The second highest value <br>
    Column N (B3): The third highest value
+
+   The formula to get the values for each column is:
+
+   Column B1: '=LARGE($G2:$K2,1)' <br>
+   Column B2: '=LARGE($G2:$K2,2)' <br>
+   Column B3: '=LARGE($G2:$K2,3)'
+
+   For each column, click enter after filling out the formula to autofill the entire column.
+
+10. Create a new column named TM (Column O) to calculate the total points by combining the data from columns L to N. The formula to calculate the total mark value is:
+
+    '=SUM(L2:N2)'
+    
+    Click enter after filling out the formula to autofill the entire column.
+
+11. Create a new column named Percent (Column P) to calculate the percentage value for the data in Column O (TM). The formula to calculate the percentage is:
+
+    '=(O2/9.99)*100'
+
+   Click enter after filling out the formula to autofill the entire column.
+
 
 
 ## Obtaining Grade and Status <a name = "grade_status"></a>
