@@ -87,10 +87,10 @@
 
 
 
-8. Choose the Rows variables and value column.
+8. Choose the **Rows** variables.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/81335fcf-de6a-4cfd-98ff-08258eb610f1)
 
-
+9. Choose the **Value** Column.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/39e758b5-dbf8-447b-a0e0-63fb8ae2a041)
 
 
