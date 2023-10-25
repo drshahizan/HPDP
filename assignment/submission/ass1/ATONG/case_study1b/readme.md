@@ -205,7 +205,14 @@ Result of arranging all pivot table in **DASHBOARD** sheet:
    **Dashboard** successfully created!    
    <br>
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/5b5f1532-708b-467e-a0a3-652a55dba72e" width="800"></div>
+    <br>
+    For example, we select *Loh Yew Chong* from the **SALESPERSON* slicer, and analyze all the charts in order to know the information related with *Loh Yew Chong* only.
+<br>
+<div align="center"><img src="https://github.com/drshahizan/HPDP/assets/121778984/2a933bf7-c5ef-46cd-b121-061c23541947" width="800"></div>
 
+<br><br>
+Here is the result after selecting the option.
+<div align="center"><img src="https://github.com/drshahizan/HPDP/assets/121778984/72a4bd27-6695-4ff5-b40f-4c195aa80d55" width="800"></div>
 
 
 
