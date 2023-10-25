@@ -32,7 +32,7 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
 ## Data Import and Data Preprocessing <a name = "preprocessing"></a>
 1. In the ribbon 'File', click on "Import" to upload the “Dataset1.txt”.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/1.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/1.png" width=300>
 </p>
 
 <div align="center">
@@ -43,7 +43,7 @@ Figure 1: To import Dataset
 2. Select on the 'Upload' and click on 'Browse.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/2.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/2.png" width=300>
 </p>
 
 <div align="center">
@@ -56,7 +56,7 @@ Figure 2: Browse To Import The Dataset
 3. Select the 'Dataset1.txt' and then press 'OK'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/3.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/3.png" width=400>
 </p>
 
 <div align="center">
@@ -67,7 +67,7 @@ Figure 3: Select The Dataset
 
 4. After the file has been loaded into Google Sheets, click on 'Import Data'. 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/4.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/4.png" width=400>
 </p>
 
 <div align="center">
@@ -78,7 +78,7 @@ Figure 4: Import Dataset
 
 5. Select the Academic column and  to the Test_2 column, press Ctrl + Shift, select Academic, Sports, Co-Curriculum, Test 1, and Test 2 and round off every new column by clicking on the Format ribbon, then choose 'Number'.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/5.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/5.png" width=300>
 </p>
 
 <div align="center">
@@ -91,7 +91,7 @@ Figure 5: Selecting The Data
 
 1. The following formulas are inserted to obtain the value for the new column names 'P1', 'P2', 'P3', 'P4', and 'P5'. For every column, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/6.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/6.png" width=300>
 </p>
 
 <div align="center">  
@@ -100,7 +100,7 @@ Figure 7: By adding the formula shown in the image above, you may get a new valu
 <br>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/7.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/7.png" width=300>
 </p>
 <div align="center">  
 Figure 8: As for the column ‘Sports’, which is named P2 under the H column, with the formula shown in the image above.
@@ -108,21 +108,21 @@ Figure 8: As for the column ‘Sports’, which is named P2 under the H column, 
 <br>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/8.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/8.png" width=300>
 </p>
 <div align="center">  
 Figure 9: As for the column ‘Co-curriculum’, which is named P3 under the I column, with the formula shown in the image above.
 </div>   
 <br>
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/9.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/9.png" width=300>
 </p>
 <div align="center">  
 Figure 10: As for the column ‘Test_1’, which is named P4 under the J column, with the formula shown in the image above.
 </div>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/10.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/10.png" width=300>
 </p>
 <div align="center">  
 Figure 11: As for the column ‘Sports’, which is named P5 under the H column, with the formula shown in the image above. 
@@ -132,7 +132,7 @@ Figure 11: As for the column ‘Sports’, which is named P5 under the H column,
 
 3. Round off every new column by clicking on the Format ribbon, then choose 'Number'".
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/11.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/11.png" width=500>
 </p>
 <div align="center">  
 Figure 12: Rounding off to two decimal places
@@ -141,7 +141,7 @@ Figure 12: Rounding off to two decimal places
 
 4. Next, get the top three highest values from the column P1 to P5 column. For each column, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row. 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/12.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/12.png" width=400>
 </p>
 <div align="center">  
 Figure 13: For the highest values for column H1, use the formula as shown. 
@@ -149,7 +149,7 @@ Figure 13: For the highest values for column H1, use the formula as shown.
 <be>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/13.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/13.png" width=400>
 </p>
 <div align="center">  
 Figure 14: For the second-highest value for H2, use the formula above. 
@@ -157,7 +157,7 @@ Figure 14: For the second-highest value for H2, use the formula above.
 <br>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/14.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/14.png" width=400>
 </p>
 <div align="center">  
 Figure 15: For the third-highest value for H3, use the formula above.
@@ -166,7 +166,7 @@ Figure 15: For the third-highest value for H3, use the formula above.
 
 5. To get the total values for the top three highest values, use the formula as shown below. Click on column O2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
    <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/15.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/15.png" width=400>
 </p>
 <div align="center">  
 Figure 16: Calculate Total Value For The Top Three Highest Value
@@ -175,7 +175,7 @@ Figure 16: Calculate Total Value For The Top Three Highest Value
 
 6. To calculate the percentage, use the formula shown below.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/16.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/16.png" width=400>
 </p>
 <div align="center">  
 Figure 17: To Calculate the percentage
@@ -184,7 +184,7 @@ Figure 17: To Calculate the percentage
 
 7. The formula is used as follows to determine grades based on the respective marks.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/17.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/17.png" width=400>
 </p>
 <div align="center">  
 Figure 18: Formula To determine grades.
@@ -193,7 +193,7 @@ Figure 18: Formula To determine grades.
 
 8. To determine whether each ID passes or fails, we need to use the formula below. After that, click on column P2, press Ctrl+C and press Ctrl+space, then Ctrl+V to fill the value of the columns to the last row.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/18.png" width=400>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/18.png" width=400>
 </p>
 <div align="center">  
 Figure 19: Formula To Determine Status
@@ -203,7 +203,7 @@ Figure 19: Formula To Determine Status
  
 9. If the status is Pass for each ID, column P will be filled with green data, and if the status is Fail, it will be filled with red data. Hold down the shift key as you click on H1, H2, and H3, fill in all the row numbers that need to be highlighted beneath the name box, and then select the red font colour. 
 <p align="center">
-<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/22.png" width=300>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/22.png" width=300>
 </p>
 <div align="center">  
 Figure 20: The Red Font
@@ -213,7 +213,7 @@ Figure 20: The Red Font
 10. Click on 'Format', choose 'Conditional Formatting' and follow the steps below.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/20.png" width=300>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/20.png" width=300>
 </p>
 <div align="center">  
 Figure 21:  Percentage greater than 65 will be coloured in Green
@@ -224,7 +224,7 @@ Figure 21:  Percentage greater than 65 will be coloured in Green
 11. Select column 'Status, and press right-click to create a filter to filter "Pass" only.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/23.png" width=200>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/images/23.png" width=200>
 </p>
 <div align="center"> 
 Figure 22: Pass Filtering
@@ -234,7 +234,7 @@ Figure 22: Pass Filtering
 
 12. By pressing and holding the "Shift" key while selecting all the rows, colour all the columns with the status "Pass" with a light red.
     <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/26.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/26.png" width=500>
 </p>
 <div align="center"> 
 Figure 23: Colour the whole record with rows of status 'Pass' with the light red font.
@@ -244,7 +244,7 @@ Figure 23: Colour the whole record with rows of status 'Pass' with the light red
   
 13. Remove the filter.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/25.png" width=200>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/25.png" width=200>
 </p>
 <div align="center"> 
 Figure 24: Removing the filter
