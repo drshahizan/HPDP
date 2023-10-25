@@ -1,4 +1,4 @@
-<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
+![image](https://github.com/drshahizan/HPDP/assets/108865725/658f84a7-d4ff-4031-916e-da3d98507ef4)<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/network/members"><img src="https://img.shields.io/github/forks/drshahizan/BDM" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/BDM" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/BDM"><img src="https://img.shields.io/github/issues/drshahizan/BDM" alt="Issues Badge"/></a>
@@ -23,10 +23,11 @@
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Importing Datasets](#importing-datasets)
    * [Table of Contents](#table-of-contents)
+   * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
       - [Monthly Sales](#monthly-sales)
       - [Region](#region)
       - [Salesperson](#salesperson)
-   * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
+      - [Trend](#trend)
    * [Dashboard <a name = "dashboard"></a>](#dashboard)
    * [Contribution 🛠️](#contribution-)
  
@@ -34,7 +35,7 @@
 
 
 ## Importing Datasets
-1. Import Dataset2.txt into Google Sheets. **[File >> Import]**
+1. Import Dataset2.txt into Google Sheets. **[File » Import]**
   ![image](https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c)
 
 2. Click **Upload >> Browse >> Dataset2.txt**.
@@ -58,7 +59,8 @@
 
 
 6. Type the replace with *Sep*, and click *"replace all"* first, then the *"done"* button.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/f4a3501c-75a8-4958-b91a-8dd940d3ced8)
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/99d00787-c3f6-45e9-a60b-d714722adc8a)
+
 
 
 
@@ -70,8 +72,9 @@
 ## Pivot Table
 ### Monthly Sales
 
-7. Select all columns ( BY CLICK ON CTRL + SHIFT + RIGHT CLICK + DOWN CLICK) and click on **insert» pivot table »new sheet**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/8ae1b20f-6606-4734-8c1c-c4576f68b369)
+7. Select all columns ( BY CLICK ON CTRL + SHIFT + RIGHT CLICK + DOWN CLICK) and click on **insert » pivot table » new sheet**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511)
+
 
 
 
@@ -87,37 +90,43 @@
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/86d299a0-d7cf-4ab8-a665-6e2eb1f3eba4)
 
 
-
-10. Result Displayed:
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e84f6bc3-f690-4cbd-b431-b32572251924)
-
-11. Customize the chart according to your preferences by clicking **Format > Theme > Customize**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/4ca4e252-0f0e-4619-a812-67f45f12ac43)
-
     
 ### Region 
 
-12. Repeat **Step 7** 
+10. Repeat **Step 7** 
 
-13. Select Row and Value.
+11. Select Row and Value.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
-
-
-14. Then click **insert»chart**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/cc1c9a27-c024-4bd2-a0d7-5465b5be8113)
-
-
-15. Choose a **3D pie chart** and customize it based on your preference.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e2a3ce44-0e32-4e50-8d6b-2f6a76a54c6c)
 
 
 
 ### Salesperson
-16. Repeat **Step 7** again.
-17. Edit the pivot table by choosing **row** and **value**.
+12. Repeat **Step 7** again.
+  
+13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
-18. Select **row** and **column**.
-  ![image](https://github.com/drshahizan/HPDP/assets/108865725/18f0af21-70d8-4b94-a497-75b0455c1ee7)
+    
+14. **NOTE THIS IS FOR PIVOT BY SALESPERSON:**
+    Copy the dataset and select the pivot table. Then choose the row and column.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969)
+
+15. Select the value to sum the sales by each salesperson.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac)
+
+
+### Trend
+16. Repeat **Step 7** again.
+17. Select **Rows** and **Values**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6)
+
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3)
+
+18. Copy all the pivot tables [CLICK CTRL+SHIFT+ RIGHT BUTTON +DOWN BUTTON]. **PASTE** it into a sheet named **"dashboard"**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9)
+
+Result Displayed:
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
+
 
 
 
