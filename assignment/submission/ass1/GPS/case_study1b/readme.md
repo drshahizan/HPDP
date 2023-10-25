@@ -30,6 +30,30 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
 
 ## Charts
 ### Monthly sales chart
+<p align="center">
+  <img src="images/4.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/5.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/6.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/7.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/8.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/9.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/10.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/11.png" alt="Image Description">
+</p>
 
 ### Sales region
 
