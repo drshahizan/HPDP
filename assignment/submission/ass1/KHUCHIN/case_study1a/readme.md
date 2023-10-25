@@ -135,7 +135,19 @@ One dataset has been chosen for data analysis based on the case study that was g
 </div>
 
 
+## Dashboard Creation
 
+### Scorecard Chart
+
+### Calculating Min, Max, Average
+
+## Grading Chart
+
+### Creating Total Record, Pass and Fail
+
+### Pie Chart (Fail and Pass)
+
+### Dashboard
 
 
 
