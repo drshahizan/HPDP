@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202 | PreProcessing      |
-| MUHAMMAD NAQUIB BIN ZAKARIA | A20BE0161 | Data Dashboard     |
-| MUHAMMAD HAZIM BIN SALMAN | A21EC0078 | Data Dashboard     |
-| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 | Documentation     |
+| MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202 | PreProcessing , Data Dashboard , Documentation     |
+| MUHAMMAD NAQUIB BIN ZAKARIA | A20BE0161 | PreProcessing , Data Dashboard , Documentation     |
+| MUHAMMAD HAZIM BIN SALMAN | A21EC0078 | PreProcessing , Data Dashboard , Documentation     |
+| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 | PreProcessing , Data Dashboard , Documentation     |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
