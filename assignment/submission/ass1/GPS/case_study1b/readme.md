@@ -30,27 +30,41 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
 
 ## Charts
 ### Monthly sales chart
+1. First of all, select all columns that we just imported click on "Insert" and click on "Pivot Table"
 <p align="center">
   <img src="images/4.png" alt="Image Description">
 </p>
+
+2. Make sure that the data range is correct and proceed with clicking on Create Table. Just so you know, you can create the table in the same existing sheet.
 <p align="center">
   <img src="images/5.png" alt="Image Description">
 </p>
+
+3. On Pivot Table Editor, choose "Month Index" and "Sales Month" as Rows. Then, choose "Sales Year" and "Target" as Values and close the editor.
 <p align="center">
   <img src="images/6.png" alt="Image Description">
 </p>
+
 <p align="center">
   <img src="images/7.png" alt="Image Description">
 </p>
+
+4. The output is shown in the image below: 
 <p align="center">
   <img src="images/8.png" alt="Image Description">
 </p>
+
+5. Select the table we just created, click on "Insert" and click on "Chart".
 <p align="center">
   <img src="images/9.png" alt="Image Description">
 </p>
+
+6. In Chart Editor, choose "Stacked area chart" and ensure that the data range is correct. Set the X-axis as a "SALES MONTH" column and the Series as "SUM of SALES" and "SUM of Target".
 <p align="center">
   <img src="images/10.png" alt="Image Description">
 </p>
+
+7. For the Sales Monthly Chart, the output of the chart is shown below:
 <p align="center">
   <img src="images/11.png" alt="Image Description">
 </p>
