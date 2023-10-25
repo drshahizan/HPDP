@@ -164,7 +164,7 @@
 ### Chart for Salesperson
 25. Select the **Customer** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
-26. Choose ** Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
+26. Choose **Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05" width="700"></div>
 <br></br>
 
