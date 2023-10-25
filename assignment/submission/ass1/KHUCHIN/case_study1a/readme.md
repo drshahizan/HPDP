@@ -18,7 +18,7 @@ One dataset has been chosen for data analysis based on the case study that was g
 ## Data preprocessing
 
 ### Import dataset to Google Sheets
-1. Import the dataset (Dataset1.txt) to Google Sheets <a href=”https://docs.google.com/spreadsheets/d/1q5UVmeU4xmzsocV9yqeHlnukuoOLkBJZTEqH96sb3oc/edit?usp=sharing“>Dataset_1</a> by clicking File on the upper left corner tab and select Import.
+1. Import the dataset (Dataset1.txt) to Google Sheets (https://docs.google.com/spreadsheets/d/1q5UVmeU4xmzsocV9yqeHlnukuoOLkBJZTEqH96sb3oc/edit?usp=sharing) by clicking File on the upper left corner tab and select Import.
 <div align="center">
   <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DP1.png" alt="Image description">
 </div>
