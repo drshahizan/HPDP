@@ -19,9 +19,9 @@
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
-* [💻 Google Sheets 1a]()
+* [💻 Google Sheets 1a](https://docs.google.com/spreadsheets/d/1-a6XEi_X0BPA2ugBbEKP3aqwfWSL5TKOPjdZvjvMh68/edit?usp=sharing)
 * [📖 Report 1b](./case_study1b/readme.md)
-* [💻 Google Sheets 1b]()
+* [💻 Google Sheets 1b](https://docs.google.com/spreadsheets/d/1ErXkBNCsOU6VQPeIP2vVHM2jvqTJuzJYaDOvqtMf_LY/edit?usp=sharing)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
