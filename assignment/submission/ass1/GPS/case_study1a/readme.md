@@ -45,7 +45,9 @@ _Figure 1: **"File" > "Import"**_ </div>
 
 <div align="center">
   
-_Figure 2: Click **"Browse"** under the **"Upload"** pane_ </div>
+_Figure 2: Click **"Browse"** under the **"Upload"** pane_
+
+</div>
 
 2. Select the **"Dataset1.txt"** and then click **"Open"**.
 
@@ -464,7 +466,7 @@ _Figure 41: Data range_
 
 13. Perform customization for the scorecard like putting the title for the scorecard, selecting the font size and colour.
     
-14. Repeat step 11-13 to create scorecard representating **"Max percent scorecard"**.
+14. Repeat step 11-13 to create scorecard representing **"Max percent scorecard"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/maxscore.png" width=200>
 </p>
@@ -474,7 +476,7 @@ _Figure 42: Max percent scorecard setup_
 </div>  
 <br>    
 
-15. Repeat step 11-13 to create scorecard representating **"Avg percent scorecard"**.
+15. Repeat step 11-13 to create scorecard representing **"Avg percent scorecard"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/avgscore.png" width=200>
 </p>
