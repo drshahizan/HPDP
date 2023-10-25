@@ -374,8 +374,9 @@ _Figure 18 : Output of Min, Average and Max_
 
 #### ii. Display grading results as charts and table.
 
-
+<p align="center"> 
 <img width="155" alt="Screenshot 2023-10-25 201251" src="https://github.com/drshahizan/HPDP/assets/89633522/076ae197-a861-49b7-936b-af6e9001f672">
+</p>
 
 <div align="center">
   
@@ -398,7 +399,9 @@ _Figure 19 : Output of table of grade and num_
 - The table above show the result of table of grade and num.
 
 <p align="center">
+    
 ![image](https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6)
+
 </p>
 
 <div align="center">
@@ -407,7 +410,11 @@ _Figure 20 : Choose column chart for grading_
 
 </div>
 
+<p align="center">
+    
 ![image](https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4)
+
+</p>
 
 <div align="center"> 
 _Figure 21 : Fill in different colour for each grade_
@@ -420,7 +427,7 @@ _Figure 21 : Fill in different colour for each grade_
 -  To colour the columns, Click on a column to select them all. Right-click and choose 'Format data series'. Under 'Fill color', pick the color that desire.
 
 <p align="center">
-![image](https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a)
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a.jpg">    
 </p>
 
 <div align="center">
