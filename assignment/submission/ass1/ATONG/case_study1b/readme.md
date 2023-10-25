@@ -60,12 +60,12 @@
 
 
 
-5. For those **"#VALUE!"**, we need to correct it by clicking **Ctrl+F**, then type Sept. Then click the three button.
+5. For those **"#VALUE!"**, correct it by clicking **Ctrl+F**, then type Sept.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/917370da-89a3-4e41-98de-e7d76904b14a)
 
 
 
-6. Type the replace with *Sep*, and click *"replace all"* first, then the *"done"* button.
+6. Type the replace with *Sep*, and click **"replace all"** first, then the **"done"** button.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/99d00787-c3f6-45e9-a60b-d714722adc8a)
 
 
@@ -80,7 +80,8 @@
 ## Pivot Table
 ### Pivot Table for Monthly Sales
 
-7. Select all columns ( BY CLICK ON CTRL + SHIFT + RIGHT CLICK + DOWN CLICK) and click on **insert » pivot table » new sheet**.
+7. Select all columns by using **Ctrl and Shift**,
+   then click on **insert » pivot table » new sheet**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511)
 
 
@@ -113,8 +114,7 @@
 
 ### Pivot Table for SalesPerson
     
-15. **NOTE THIS IS FOR PIVOT BY SALESPERSON:** <br>
-    Copy the dataset and select the pivot table. Then choose the row and column.
+15. Copy the dataset and select the pivot table. Then choose the row and column.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969)
 
 16. Select the value to sum the sales by each salesperson.
@@ -134,7 +134,7 @@
 
 ## Chart
 
-18. Copy all the pivot tables [CLICK CTRL+SHIFT+ RIGHT BUTTON +DOWN BUTTON].
+18. Copy all the pivot tables [CLICK CTRL+SHIFT] and select.
     **PASTE** it into a sheet named **"dashboard"**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9)
 
