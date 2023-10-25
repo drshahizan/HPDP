@@ -45,9 +45,9 @@ _Figure 1: **"File" > "Import"**_ </div>
 
 <div align="center">
   
-_Figure 2: Click **"Browse"** under the **"Upload"** bar_ </div>
+_Figure 2: Click **"Browse"** under the **"Upload"** pane </div>
 
-2. Select the **"Dataset1.txt"** and then press **"OK"**.
+2. Select the **"Dataset1.txt"** and then press **"Open"**.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/file%20selection.png" width=500>
@@ -68,7 +68,7 @@ _Figure 3: File selection_
 _Figure 4: Loading_
 </div>
 
-4. Make sure the selected file to be loaded into Google Sheets is correct. Then, check the following details and press **"Import Data"**.
+4. Make sure the selected file to be loaded into Google Sheets is correct. Then, check the following details and press **"Import data"**.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/details.png" width=400>
 </p>
@@ -198,7 +198,7 @@ _Figure 17: Formula for column TM_
 
 7. Repeat step 2 & 3 to get all the values in two decimal places.
    
-8. Use the value retrieved from the column TM to get the marks percentage by inserting formula as shown.
+8. Use the value retrieved from the column TM to get values in the column P (Percent) by inserting the following formulas.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/percent.png" width=300>
 </p>
@@ -210,7 +210,7 @@ _Figure 18: Formula for column Percent_
 
 10. Repeat step 2 & 3 to get all the values in two decimal places.
     
-11. To assign grades according to the respective marks, the usage of the formula is as below
+11. To assign grades according to the respective marks, the usage of the formula is as below.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/grade.png" width=1000>
 </p>
@@ -227,13 +227,13 @@ _Figure 19: Formula for column Grade_
 </p>
 <div align="center">  
     
-_Figure 20: Formula to determine the status_ 
+_Figure 20: Formula to determine the status **"Pass"** or **"Fail"**_ 
 </div>
 <br>
 
 14. Repeat step 2 to get the remaining values.
 
-15. Hold the Shift key and click a few rows which then filling in all the row number that need to be highlighted under the name box and then choose the red colour as the font colour.
+15. Hold the _Shift_ key and click a few rows which then filling in all the row number that need to be highlighted under the name box and then choose the _**red**_ colour as the font colour.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/red.png" width=650>
 </p>
@@ -244,7 +244,7 @@ _Figure 21: Red colour font_
 </div>
 <br>
 
-16. Click **"Formatting">"Conditional Formatting"** and select the conditional format rules that colour the cells with value greater than or equal to 65 to denote the passing percent.
+16. Click **"Formatting">"Conditional Formatting"** and select the conditional format rules that colour the cells with value **greater than or equal to 65** to denote the passing status.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/conditional.png" width=200>
@@ -261,7 +261,7 @@ _Figure 22: "**Formatting">"Conditional Formatting**"_
 </p>
 <div align="center">
     
-_Figure 23: Green colour filled cells with value greater than or equal to 65_ 
+_Figure 23: **Green** colour filled cells with value **greater than or equal to 65**_ 
 </div> 
 <br>
 
@@ -285,13 +285,13 @@ _Figure 24: Filtering requirement_
 </div>  
 <br>
 
-20. Colour all the column with the status of **"Pass"** with _light red_ by holding the _Shift_ key to select until the last rows.
+20. Colour all the column with the status of **"Pass"** with **_light red_** by holding the _Shift_ key to select until the last rows.
     <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/highlight1.png" width=500>
 </p>
 <div align="center"> 
 
-_Figure 25a: Colour the whole records with rows of status "**Pass**"_
+_Figure 25a: Fill the whole records with rows of status **"Pass"** with **light red**_
 </div>  
 <br>
 <p align="center">
@@ -299,11 +299,11 @@ _Figure 25a: Colour the whole records with rows of status "**Pass**"_
 </p>
 <div align="center"> 
 
-_Figure 25b: Colour the remaining records with rows of status "**Pass**"_
+_Figure 25b: Fill the remaining records with rows of status **"Pass"** with **light red**_
 </div>  
 <br>
 
-21. After that, remove the filter.
+21. After that, remove the filter. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/removefilter.png" width=100>
 </p>
@@ -313,6 +313,16 @@ _Figure 26: Remove filter_
 </div>  
 <br>      
 
+22. The dataset will be as the following figure.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dataset.png" width=1000>
+</p>
+<div align="center"> 
+
+_Figure 26: Dataset1_
+</div>  
+<br>   
+
 ## Dashboard <a name = "dashboard"></a>
 1. Select all the columns and press **"Insert">"Pivot Table"**. Check **"New sheet"** to create the dashboard in another sheet and press **"Create"**
 <p align="center">
@@ -320,7 +330,7 @@ _Figure 26: Remove filter_
 </p>
 <div align="center"> 
 
-_Figure 27: "Insert">"Pivot Table"_
+_Figure 27: **"Insert">"Pivot Table"**_
 </div>  
 <br>
 
@@ -329,7 +339,7 @@ _Figure 27: "Insert">"Pivot Table"_
 </p>
 <div align="center"> 
     
-_Figure 28: Creating "Pivot Table" requirement_
+_Figure 28: Creating **"Pivot Table"** requirement_
 </div>  
 <br>
 
@@ -339,17 +349,17 @@ _Figure 28: Creating "Pivot Table" requirement_
 </p>
 <div align="center"> 
     
-_Figure 29: Rename the sheet as "Dashboard"_
+_Figure 29: Rename the sheet as **"Dashboard"**_
 </div>  
 <br> 
 
-3. Drag the Percent to be placed under the **"Values"** and select summarization by **"MIN"** and **"Show as"** remain **"Default"**.
+3. Drag the **"Percent"** to be placed under the **"Values"** and select summarization by **"MIN"** and **"Show as"** remain **"Default"**.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivoteditor.png" width=200>
 </p>
 <div align="center">
 
-_Figure 30: Placing of Percent under the **"Values"** in the Pivot Table Editor_
+_Figure 30: Placing of **"Percent"** under the **"Values"** in the **"Pivot table editor"**_
 </div>  
 <br>     
 
@@ -358,7 +368,7 @@ _Figure 30: Placing of Percent under the **"Values"** in the Pivot Table Editor_
 </p>
 <div align="center">
     
-_Figure 31: MIN Percent_
+_Figure 31: Summarized by **"MIN"** Percent_
 </div>  
 <br> 
 
@@ -378,21 +388,21 @@ _Figure 32: Check **"Existing sheet"** in the **"Create Pivot Table"**_
 </p>
 <div align="center"> 
     
-_Figure 33: MAX Percent_
+_Figure 33: **MAX** Percent_
 </div>  
 <br> 
 
-7. Repeat step 4 & 5 to get another pivot table of "AVERAGE"
+7. Repeat step 4 & 5 to get another pivot table of **"AVERAGE"**
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/avg.png" width=200>
 </p>
 <div align="center">
     
-_Figure 34: AVERAGE Percent_
+_Figure 34: **AVERAGE** Percent_
 </div>  
 <br>   
 
-8. Click **"Edit"** located on the end of left side of the table. Repeat step 4. Drag "Grade" to the **"Rows"** and **"Values"** box to get a summarized table categorized by grade. 
+8. Click **"Edit"** located on the end of left side of the table. Repeat step 4. Drag **"Grade"** to the **"Rows"** and **"Values"** box to get a summarized table categorized by grade. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/table.png" width=200>
 </p>
@@ -402,13 +412,22 @@ _Figure 35: COUNT of Grade_
 </div>  
 <br> 
 
-9. Click **"Edit"** located on the end of left side of the table. Repeat step 4. Drag "Status" to the **"Rows"** and **"Values"** box to get a summarized table categorized by status. 
+9. Click **"Edit"** located on the end of left side of the table. Repeat step 4. Drag **"Status"** to the **"Rows"** and **"Values"** box to get a summarized table categorized by status. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/edit.png" width=150>
+</p>
+<div align="center">
+    
+_Figure 36: Click **"Edit"**_
+</div>  
+<br> 
+
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/statustable.png" width=200>
 </p>
 <div align="center">
     
-_Figure 36: COUNT of Status_
+_Figure 37: COUNT of Status_
 </div>  
 <br> 
 
@@ -418,7 +437,7 @@ _Figure 36: COUNT of Status_
 </p>
 <div align="center">
     
-_Figure 37: Pivot Tables_
+_Figure 38: Pivot Tables_
 </div>  
 <br>     
 
@@ -428,7 +447,7 @@ _Figure 37: Pivot Tables_
 </p>
 <div align="center">
     
-_Figure 38: Scorecard_
+_Figure 39: Selection of **Scorecard**_
 </div>  
 <br>  
 
@@ -438,7 +457,7 @@ _Figure 38: Scorecard_
 </p>
 <div align="center">
     
-_Figure 39: Data range_
+_Figure 40: Data range_
 </div>  
 <br> 
 
@@ -450,7 +469,7 @@ _Figure 39: Data range_
 </p>
 <div align="center">
 
-_Figure 40: Max percent scorecard setup_
+_Figure 41: Max percent scorecard setup_
 </div>  
 <br>    
 
@@ -460,17 +479,26 @@ _Figure 40: Max percent scorecard setup_
 </p>
 <div align="center">
     
-_Figure 41: Avg percent scorecard setup_
+_Figure 42: Avg percent scorecard setup_
 </div>  
 <br>  
 
 16. Repeat step 11 but instead of selecting the scorecard, select **"Column chart"** under **"Column"** category. Repeat step 12 get the data range.
+  <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/column_chart.png" width=200>
+</p>
+<div align="center">
+    
+_Figure 43: Selection of **"Column chart"**_ 
+</div>  
+<br>
+
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/columnchart.png" width=200>
 </p>
 <div align="center">
     
-_Figure 42: Column chart setup_
+_Figure 44: Column chart setup_
 </div>  
 <br>
 
@@ -478,21 +506,39 @@ _Figure 42: Column chart setup_
 
 18. Repeat step 11 but instead of selecting the scorecard, select **"Table Chart"** under **"Other"** category. Repeat step 12 get the data range.
  <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/table_chart.png" width=200>
+</p>
+<div align="center">
+    
+_Figure 45: Selection of **"Table chart"**_
+</div>  
+<br>
+
+ <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/tablechart.png" width=200>
 </p>
 <div align="center">
     
-_Figure 43: Table chart setup_
+_Figure 46: Table chart setup_
 </div>  
 <br>
 
 19. Repeat step 11 but instead of selecting the scorecard, select **"Doughnut Chart"** under **"Other"** category. Repeat step 12 get the data range.
+  <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/doughnut_chart.png" width=200>
+</p>
+<div align="center">
+    
+_Figure 47: Selection of **"Doughnut chart"**_
+</div>  
+<br>
+
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/doughnut.png" width=200>
 </p>
 <div align="center">
     
-_Figure 44: Doughnut chart setup_
+_Figure 48: Doughnut chart setup_
 </div>  
 <br>
 
@@ -505,7 +551,7 @@ _Figure 44: Doughnut chart setup_
 </p>
 <div align="center">
     
-_Figure 45: Total record scorecard, Pass rate scorecard and Fail rate scorecard setup_
+_Figure 49: Total record scorecard, Pass rate scorecard and Fail rate scorecard setup_
 </div>  
 <br>
 
@@ -515,7 +561,7 @@ _Figure 45: Total record scorecard, Pass rate scorecard and Fail rate scorecard 
 </p>
 <div align="center">
     
-_Figure 46: Dashboard_
+_Figure 50: Dashboard_
 </div>  
 <br>
 
