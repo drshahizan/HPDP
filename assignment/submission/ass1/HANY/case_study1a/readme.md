@@ -18,20 +18,20 @@
 | LIEW YVONNE              |A21EC0045      | VISUALISATION     |
 
 ## Table of Contents
-1. [Introduction](#1.-introduction)
-2. [Data Importation](#2.-data-importation)
-   - 2.1. [Importing a Dataset into Google Sheets](#2.1.-importing-a-dataset-into-google-sheets)
-3. [Data Processing](#3.-data-preprocessing)
-   - 3.1. [Decimal Places Adjustment](#3.1.-decimal-places-adjustment)
-   - 3.2. [Transformation of Value](#3.2.-transformation-of-value)
-   - 3.3. [Determine the Top Three Values](#3.3.-determine-the-top-three-values)
-   - 3.4. [Total Points Calculation](#3.4.-total-points-calculation)
-   - 3.5. [Percentage Value Calculation](#3.5.-percentage-value-calculation)
-   - 3.6. [Grade Assignment](#3.6.-grade-assignment)
-   - 3.7. [Differentiate Status Based on Color](#3.7.-differentiate-status-based-on-color)
-4. [Data Visualisation](#4.-data-visualisation)
-   - 4.1. [Creating Dashboard](#4.1.-creating-dashboard)
-5. [Contribution](#5.-contribution)
+1. [Introduction](#1-introduction)
+2. [Data Importation](#2-data-importation)
+   - 2.1. [Importing a Dataset into Google Sheets](#21-importing-a-dataset-into-google-sheets)
+3. [Data Processing](#3-data-preprocessing)
+   - 3.1. [Decimal Places Adjustment](#31-decimal-places-adjustment)
+   - 3.2. [Transformation of Value](#32-transformation-of-value)
+   - 3.3. [Determine the Top Three Values](#33-determine-the-top-three-values)
+   - 3.4. [Total Points Calculation](#34-total-points-calculation)
+   - 3.5. [Percentage Value Calculation](#35-percentage-value-calculation)
+   - 3.6. [Grade Assignment](#36-grade-assignment)
+   - 3.7. [Differentiate Status Based on Color](#37-differentiate-status-based-on-color)
+4. [Data Visualisation](#4-data-visualisation)
+   - 4.1. [Creating Dashboard](#41-creating-dashboard)
+5. [Contribution](#5-contribution)
 
 
 
