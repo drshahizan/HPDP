@@ -191,7 +191,7 @@
       ![image](https://github.com/drshahizan/HPDP/assets/108865725/37aa9a49-7f70-4973-97f2-134964097e85) <br>
       For example, if a customer slicer is about to be created, click on **Customer Pivot Table**, then choose the column of **Customer**.
 
-32. Repeat the [steps](#adding-slicer) for other pivot tables.
+32. Repeat the [steps](#adding-slicer) to add slicers for each pivot tables.
 
 
 <br><br>
