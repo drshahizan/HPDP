@@ -9,13 +9,15 @@
 
 ### Group Name: ATONG (ATG)
 
-## Importing Dataset
+
+
+## Data Preprocessing
+
+### Importing Dataset
 
 We import the dataset (Dataset1.txt) to Google Sheet (https://docs.google.com/spreadsheets/) where we click the import button from file.
 
 ![image](https://github.com/drshahizan/HPDP/assets/108865725/77014f96-9705-45a8-8987-58a23f55ee10)
-
-## Data Preprocessing
 
 We remove unused rows because the data only has 111520 rows by using ctrl+shift+del and selecting all the unused rows.
 
