@@ -374,7 +374,7 @@ _Figure 32: Select summarization by **"MIN"** Percent_
 </div>  
 <br> 
 
-4. Select **"Insert">"Pivot Table"** but this time, check **"Existing sheet"** which is **"Dashboard"**.
+4. Select **"Insert" > "Pivot Table"** but this time, check **"Existing sheet"** which is **"Dashboard"**. Enter the approprate data range in **"Dashboard"** sheet to put the table. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivot2.png" width=200>
 </p>
@@ -403,7 +403,7 @@ _Figure 35: Pivot table setup representing **MAX** Percent_
 </div>  
 <br> 
 
-7. Repeat step 4 & 5 to get another pivot table of **"AVERAGE"**
+7. Repeat step 4 & 5 to create another pivot table of **"AVERAGE"**
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/avg.png" width=200>
 </p>
@@ -444,7 +444,7 @@ _Figure 39: Pivot Tables_
 </div>  
 <br>     
 
-11. To create a scorecard, select **"Insert" > "Chart"**. Then, under **"Setup"** in the **"Chart Editor"**, select **"Scorecard chart"** located under **"Other"** category.
+11. To create a scorecard, select **"Insert" > "Chart"**. Then, under **"Setup"** in the **"Chart editor"**, select **"Scorecard chart"** located under **"Other"** category.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorecard.png" width=500>
 </p>
