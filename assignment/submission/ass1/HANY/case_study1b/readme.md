@@ -24,7 +24,7 @@
 3. [Data Processing](#data-preprocessing)
 
 ## 1. Introduction 
-**CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [dataset2.txt](https://docs.google.com/spreadsheets/d/1MN7NgsUQqE91JiYOJ1nSrjs41kqkYe8twM3xC_PYFrw/edit?usp=sharing).
+**CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [dataset2.txt](https://docs.google.com/spreadsheets/d/1rKwc9vmwvVDqHaBCEf31vlPtSSHoVWJi3Tsy18F0rDk/edit?usp=sharing).
 
 ## Importing a Dataset into Google Sheets
 To get started with creating a dashboard or begin conducting data analysis, start by importing the dataset into Google Sheets, as illustrated in Figure 1. 
