@@ -148,44 +148,77 @@ The following data processing processes must be completed:
 <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/86d0ed2b-a39e-41b0-b034-81cb872c63ed" style="width: 300px; height: 45px;">
          <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/770fc064-6571-42be-a02c-c34615657cd4" style="width: 250px; height: 100px;">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/770fc064-6571-42be-a02c-c34615657cd4" style="width: 300px; height: 100px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/bbb46451-da8b-4477-b345-69dac50fc675" style="width: 450px; height: 300px;">
          <br>
-</div>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/539423ab-4203-40e2-a24a-3e88ee7a02bf" style="width: 400px; height: 450px;">
+         <br>
+</div>!
+
 
 
 ### 4.1 Min, max, and average values
-   1. Min value
-      <div align="center">
+#### Min value
+   <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/c0268e95-d7f4-4ba2-888c-03dd79bfa9fe" style="width: 300px; height: 450px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/bf535eb6-1a4d-4098-ada8-3edbb12c57fd" style="width: 350px; height: 400px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/8e93cba1-4676-4578-9e95-b32ba7bf82df" style="width: 200px; height: 100px;">
          <br>
+   </div>
          
-   2. Max value
-      <div align="center">
+#### Max value
+   <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/acd7b8a3-590d-476a-9a2c-db28a9d2b1ea" style="width: 300px; height: 500px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/2a0eee56-1129-431f-a2d8-4a84df58f827" style="width: 350px; height: 400px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/05b16016-153b-45ca-80cc-5db09dad5b16" style="width: 200px; height: 100px;">
          <br>
+   </div>
          
-   3. Average value
-      <div align="center">
+#### Average value
+   <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/9997c395-c404-4076-9fc8-5a00a38b7e02" style="width: 300px; height: 500px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/31b0f553-47c0-4d27-9297-335c04a5394a" style="width: 350px; height: 400px;">
          <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/1e3d96f7-1ca1-4175-a2f0-37c01239f4ca" style="width: 200px; height: 100px;">
          <br>
-      </div>
+   </div>
          
 ### 4.2 Grading Results
-   
+#### Table
+   <div align="center">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/a31e3d4b-9c3c-42a8-904e-d820aeb6eee7" style="width: 100px; height: 300px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/6216c889-c2a6-4eb2-bd3a-4a084b02d492" style="width: 350px; height: 30px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/d8bb7748-55c7-4142-9dc8-4992331956d1" style="width: 150px; height: 30px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/5877d835-2678-49b1-aa7a-99574043f06c" style="width: 150px; height: 300px;">
+         <br>
+   </div>
+
+#### Column Charts
+   <div align="center">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 200px; height: 350px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 350px; height: 30px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 150px; height: 30px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 150px; height: 300px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 150px; height: 300px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 150px; height: 300px;">
+         <br>
+   </div>
+
+
 
       
 ## Contribution 🛠️
