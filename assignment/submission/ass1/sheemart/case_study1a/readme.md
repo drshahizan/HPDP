@@ -358,18 +358,21 @@ _Figure 18 : Setup of chart_
 
 <div align="center">
   
-_Figure 18 : Change of scoreboard title_
+_Figure 19 : Change of scoreboard title_
 
 </div>
 
 - By click on Customize, please choose Chart & axis titles. Enter either 'Min' , 'Average' or 'Max' for the title text
 
   <p align="center">
+      
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/65d190e2-025c-4b2f-9d8e-65015c0480c5"  height="400">
-</p>
+    
+  </p>
+
 <div align="center">
   
-_Figure 18 : Output of Min, Average and Max_
+_Figure 20 : Output of Min, Average and Max_
 
 </div>
 
@@ -386,7 +389,7 @@ _Figure 18 : Output of Min, Average and Max_
 
 <div align="center">
   
-_Figure 18 : Create pivot table of grading results_
+_Figure 21 : Create pivot table of grading results_
 
 </div>
 
@@ -398,7 +401,7 @@ _Figure 18 : Create pivot table of grading results_
  
 <div align="center">
   
-_Figure 19 : Output of table of grade and num_
+_Figure 22 : Output of table of grade and num_
 
 </div>
 
@@ -414,7 +417,7 @@ _Figure 19 : Output of table of grade and num_
 
 <div align="center">
   
-_Figure 20 : Choose column chart for grading_
+_Figure 23 : Choose column chart for grading_
 
 </div>
 
@@ -425,7 +428,7 @@ _Figure 20 : Choose column chart for grading_
 </p>
 
 <div align="center"> 
-_Figure 21 : Fill in different colour for each grade_
+_Figure 24 : Fill in different colour for each grade_
 </div>
 
 -  Selecting the right chart type is important. Column charts are excellent for comparing values across different categories, making them suitable for various analytical purposes.
@@ -440,7 +443,7 @@ _Figure 21 : Fill in different colour for each grade_
 
 <div align="center">
   
-_Figure 21 :Output for grading chart_
+_Figure 25 :Output for grading chart_
 
 </div>
 -----------------
@@ -453,7 +456,7 @@ _Figure 21 :Output for grading chart_
 
 <div align="center">
     
-_Figure 22_
+_Figure 26_
 
 </div>
 
@@ -463,7 +466,7 @@ _Figure 22_
 
 <div align="center">
     
-_Figure 23_
+_Figure 27_
 
 </div>
 
@@ -476,7 +479,7 @@ _Figure 23_
 
 <div align="center">
     
-_Figure 24 : Result of pivot table of total record, fail percentage and pass percentage_
+_Figure 28 : Result of pivot table of total record, fail percentage and pass percentage_
 </div>
 
 ------------------
@@ -489,7 +492,7 @@ _Figure 24 : Result of pivot table of total record, fail percentage and pass per
 
 <div align="center">
     
-_Figure 25 : Doughnut chart setup_
+_Figure 29 : Doughnut chart setup_
 
 </div>
 
@@ -501,7 +504,7 @@ _Figure 25 : Doughnut chart setup_
 
 <div align="center">
     
-_Figure 26 : Doughnut chart output_
+_Figure 30 : Doughnut chart output_
 
 </div>
 
@@ -516,7 +519,7 @@ _Figure 26 : Doughnut chart output_
 
 <div align="center">
     
-_Figure 27 : Final Result_
+_Figure 31 : Final Result_
 
 </div>
 
