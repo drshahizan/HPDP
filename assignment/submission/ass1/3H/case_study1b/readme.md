@@ -21,12 +21,12 @@
 ## Table of Contents <a name = "table-of-contents"></a>
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
-   * [Dataset Information](#dataset_info)
-   * [Pivot Table](#pivot_table)
+   * [Dataset Information](#datasetinfo)
+   * [Pivot Table](#pivottable)
    * [Dashboard](#dashboard)
    * [Contribution 🛠️](#contribution-)
   
-## Dataset Information <a name = "dataset_info"></a>
+## Dataset Information <a name = "datasetinfo"></a>
 This dataset is called dataset1.txt. This dataset has five columns that contain information about Id_No, Academic, Sports, Co-Curriculum, Test_1 and Test_2. Table 1 shows the full marks for the data
 
 **Source**: 
@@ -54,7 +54,7 @@ This dataset is called dataset1.txt. This dataset has five columns that contain 
 
 <br>
 
-## Pivot Table <a name = "pivot_table"></a>
+## Pivot Table <a name = "pivottable"></a>
 
 2. Inserting Pivot Table
    - Click insert and choose pivot table
