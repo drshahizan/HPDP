@@ -21,7 +21,7 @@
 * [📖 Report 1a](./case_study1a/readme.md)
 * [💻 Google Sheets 1a]()
 * [📖 Report 1b](./case_study1b/readme.md)
-* [💻 Google Sheets 1b]()
+* [💻 Google Sheets 1b](https://docs.google.com/spreadsheets/d/1PwFHJ20W3lQG4J2shN3Iz5JEFXkT9LxH4tVYx5kTJpY/edit?usp=sharing)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
