@@ -33,14 +33,24 @@ We were given a dataset called dataset2.txt. This dataset contain a total of nin
 
 ## 1. Import dataset into Google Sheet
 
-First we need to download the dataset from the file in GitHub. Then we will open a brand new google sheet. From there we can import the dataset into tha sheets. 
-
+- First we need to download the dataset from the file in GitHub. Then we will open a brand new google sheet. From there we can import the dataset into the sheets. 
+- Click on the **File** at the top left corner and then click on the **Import**.
 <p align="center">
 <img src="ss1.png">
 </p>
 
 <div align="center">
 
-_Figure 1: Importing the data_
+_Figure 1: Opening the import pop-up screen_
 
 </div>
+
+- Then we will see a pop-up and we can click on **Upload**. From there you can just drag the database from your explorer file or browse through your files.
+<p align="center">
+<img src="ss2.png">
+</p>
+
+<div align="center">
+
+_Figure 1: Importing the data_
+
