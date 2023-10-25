@@ -106,7 +106,8 @@ The following data processing processes must be completed:
    <br>
    </div> 
 
-   5. Apply the C2 formula for E2 and F2 simultaneously. The outcomes for these columns are displayed in **Figure 8** below.
+   5. 
+   6. Apply the C2 formula for E2 and F2 simultaneously. The outcomes for these columns are displayed in **Figure 8** below.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 400px;">
    
