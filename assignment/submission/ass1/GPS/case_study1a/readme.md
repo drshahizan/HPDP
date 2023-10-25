@@ -507,7 +507,7 @@ _Figure 45: Column chart setup_
 
 17. Perform customization for the column chart.
 
-18. Repeat step 11 but instead of selecting the scorecard, select **"Table Chart"** under **"Other"** category. Repeat step 12 get the data range.
+18. Repeat step 11 but instead of selecting the scorecard, select **"Table chart"** under **"Other"** category. Repeat step 12 get the data range.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/table_chart.png" width=200>
 </p>
@@ -526,7 +526,7 @@ _Figure 47: Table chart setup_
 </div>  
 <br>
 
-19. Repeat step 11 but instead of selecting the scorecard, select **"Doughnut Chart"** under **"Other"** category. Repeat step 12 get the data range.
+19. Repeat step 11 but instead of selecting the scorecard, select **"Doughnut chart"** under **"Other"** category. Repeat step 12 get the data range.
   <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/doughnut_chart.png" width=200>
 </p>
