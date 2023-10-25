@@ -36,7 +36,7 @@
 
 
 
-Result Displayed:
+   Result Displayed:
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/f998bec5-ad76-4235-9d22-c4753a79b640)
 
 
@@ -74,22 +74,25 @@ Result Displayed:
 12. Repeat **Step 7** 
 
 13. Select Row and Value.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
 
 
-Then click **insert»chart**.
+14. Then click **insert»chart**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/cc1c9a27-c024-4bd2-a0d7-5465b5be8113)
 
 
-Choose a **3D pie chart** and customize it based on your preference.
+15. Choose a **3D pie chart** and customize it based on your preference.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/e2a3ce44-0e32-4e50-8d6b-2f6a76a54c6c)
 
 
 
 ### Customer
 
-Repeat **Step 7** again.
+16. Repeat **Step 7** again.
+17. 
 
 
-
-
+<br><br>
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
