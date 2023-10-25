@@ -25,7 +25,7 @@
 + [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
-The main goal of this project is to utilize Google Sheets to process and present data, with a specific focus on a case study related to examination results. The project involves tasks such as calculating statistics, creating charts, and generating meaningful insights from the examination results. Overall, the project emphasizes practical data manipulation and visualization skills within the context of educational assessment.
+The main goal of this project is to utilize Google Sheets to process and present data, with a specific focus on a case study related to examination results. The project involves tasks such as calculating statistics, creating charts, and generating meaningful insights from the examination results. We were given Dataset1 where information about Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2 are contained. Firstly, we need to import the data followed by preprocessing the data. Next, grade and status are obtained. Last but not least, we are tasked to create a dashboard to visualize the overall result. In a nutshell, the project emphasizes practical data manipulation and visualization skills within the context of educational assessment.
 
 ## Importing and Preprocessing Data <a name = "preprocess"></a>
 1. Download the Dataset1.txt file.
