@@ -51,6 +51,7 @@
   > [!IMPORTANT]
 > Please make sure you selecting the correct dataset and click on *Done* button in order to successfully importing the dataset.
 
+<br>
 3. Click “Replace current sheet” for the *Import location* option, and then import data.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/777f009c-e01d-4ed4-9b8c-443f5d83cdbc" width="700"></div>
 
