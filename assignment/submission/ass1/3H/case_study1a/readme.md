@@ -84,7 +84,7 @@ enter:<b>"= IF(AND(P2>=65, P2<=100), "PASS", "FAIL")"</b>
 <p align="center"><img align="center" alt="Coding" width="200" src="status.png"> </p>
 
 ## Data Visualization
-![dashboard](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/3H/case_study1a/images/1a_dashboard.jpg)
+![dashboard](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/3H/case_study1a/1a_dashboard.jpg)
 
 create a new sheet by shift + F11 named dashboard for deign the dashboard
 
