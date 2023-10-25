@@ -97,26 +97,33 @@ The following data processing processes must be completed:
    <br>
    </div> 
 
-   4. Enter the formula in the new columns, G to K, starting from the second row, following the format illustrated in **Figure 7**. Then, named the column as **P1**, **P2**, **P3**, **P4** and **P5** simultaneously.
+   4. Enter the formula in the new columns, G to K, starting from the second row, following the format illustrated in **Figure 7**. 
    <div align="center">
-   <img src="https://github.com/drshahizan/HPDP/assets/87573002/6e3bc94f-70ef-4c43-8184-fcabd0332d3d" style="width: 800px; height: 350px;"> 
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/f1d7ed26-86fe-42b2-976d-6883ed5fcd73" style="width: 500px; height: 350px;"> 
    <br>
       
    **Figure 7: Illustrates the correct placement for entering the formula.**
    <br>
    </div> 
 
-   5. 
-   6. Apply the C2 formula for E2 and F2 simultaneously. The outcomes for these columns are displayed in **Figure 8** below.
+   5. Double-click the corner dot, "🔵" of the row to ensure that the formula is applied to all rows in the column.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/83d7e971-1bc0-4e63-bf44-61b09e828898" style="width: 500px; height: 350px;"> 
+      
+   **Figure 8: Shows the value of row after inserting the formula.**
+   <br>
+   </div>
+
+   6. Apply the C2 formula for E2 and F2 simultaneously. Then, named the column as **P1**, **P2**, **P3**, **P4** and **P5** simultaneously. The outcomes for these columns are displayed in **Figure 9** below.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 400px;">
    
-   **Figure 8: Display the values for column P1 to P5.**
+   **Figure 9: Display the values for column P1 to P5.**
    <br>
 </div> 
 
 ### 3.3. Determine the Top Three Values
-   6. Determine the maximum values from the data in columns G to K using the formula shown in **Figure 9**.
+   7. Determine the maximum values from the data in columns G to K using the formula shown in **Figure 10**.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/a04b939b-2e90-4f16-9122-46b637491ca5" style="width: 145px; height: 30px;">
    <br>
@@ -125,10 +132,10 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/91afc21c-d2e8-49a9-8f5a-507c1fff9493" style="width: 145px; height: 30px;">
    <br>
    
-   **Figure 9: Shows the formula used to find the highest value of the columns.**
+   **Figure 10: Shows the formula used to find the highest value of the columns.**
    </div>  
    
-   7. in new column, L to N,
+   8. in new column, L to N,
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/56527951-b23e-46a5-9bd6-60a7b6a2ddf7" style="width: 250px; height: 350px;">
    </div>   
