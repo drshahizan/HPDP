@@ -17,7 +17,11 @@ One dataset has been chosen for data analysis based on the case study that was g
 
 ## Data preprocessing
 
-
+### Import dataset to Google Sheets
+1. Import the dataset (Dataset1.txt) to Google Sheets <a href=”https://docs.google.com/spreadsheets/d/1q5UVmeU4xmzsocV9yqeHlnukuoOLkBJZTEqH96sb3oc/edit?usp=sharing“>Dataset 1</a> by clicking File on the upper left corner tab and select Import.
+<div align="center">
+  <img src="https://github.com/drshahizan/HPDP/assets/DP1.png" alt="Image description">
+</div>
 
 ### Creating Column
 5. Creating a new column P1 to P5 based on the guide below:
