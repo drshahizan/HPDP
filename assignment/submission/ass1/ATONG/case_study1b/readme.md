@@ -187,8 +187,10 @@
 <br><br>
 
 ## Dashboard
-   **Dashboard** successfully created.     
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/84b9e34d-5d39-453e-8e97-5025d898c26d)
+   **Dashboard** successfully created.    
+   <br>
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/5b5f1532-708b-467e-a0a3-652a55dba72e)
+
 
 
 
