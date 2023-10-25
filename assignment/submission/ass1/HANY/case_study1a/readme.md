@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/BDM/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/BDM?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2BDM&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Assignment 1a: Examination Results
+# Assignment 1a: Examination results
 
 ### Group Name: HANY
 
@@ -17,16 +17,19 @@ Before you can create a dashboard or begin analyzing your data, you must first i
   3. Choose for the file named **Dataset1.txt**.
   4. Click on **Open** to bring the data into Google Sheets.
 <div align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/87573002/166e8597-288a-47e4-8ca9-54a2f43ab6a7">
-  <br><br>
-  <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" style="width: 1000px; height: 600px;">
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/166e8597-288a-47e4-8ca9-54a2f43ab6a7" style="width: 500px; height: 200px;">
+  <br>
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" style="width: 700px; height: 350px;">  
   **Figure 1: Importing dataset.**   
 </div>
 
-  5. Select **Import Data**.
+  5. Choose **Import Data** and ensure that the **Import location** is set to "Create a new spreadsheet".
 <div align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/87573002/7bc4178d-c5ff-4ab0-9978-4432d0b85dd2">
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/7bc4178d-c5ff-4ab0-9978-4432d0b85dd2" style="width: 400px; height: 250px;">
 </div>
+
+
+
 
 
 
