@@ -42,13 +42,13 @@
 
 
 ## Importing Datasets
-1. We need to import our Dataset2.txt into Google Sheets by clicking on the **File** then choose the **Import** button.
+1. We need to import our Dataset2.txt into Google Sheets(https://docs.google.com/spreadsheets/) by clicking on the **File** then choose the **Import** button.
   <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c" width="700"></div>
 
 2. Since the Dataset2.txt in our own device, then we need to click  on **Upload >> Browse >> Dataset2.txt** in order to insert the dataset into sheets.
    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b151e81e-782d-4341-87f1-28bf85690ed3" width="700"></div>
 
- > [!IMPORTANT]
+  > [!IMPORTANT]
 > Please make sure you selecting the correct dataset and click on *Done* button in order to successfully importing the dataset.
 
 3. Click “Replace current sheet” for the *Import location* option, and then import data.
