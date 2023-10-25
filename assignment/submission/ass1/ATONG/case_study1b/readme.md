@@ -141,7 +141,7 @@ Result of Customer Pivot Table:
 18.   Before proceeding to create charts, we need to copy all the pivot tables by using **Ctrl + C** from each sheets. Next, proceed to **PASTE** it into a new sheet named **"Dashboard"**.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9" width="700"></div>
 
-    Result of arranging all pivot table in **DASHBOARD** sheet:
+Result of arranging all pivot table in **DASHBOARD** sheet:
       <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882" width="700"></div>
     <br></br>
     
