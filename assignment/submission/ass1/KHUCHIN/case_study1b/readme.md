@@ -105,7 +105,7 @@ _Figure 2.2: Copy the data to new sheet_
 
 <div align="center">
 
-_Figure 2.2: Formula for changing the month to number_
+_Figure 3.1: Formula for changing the month to number_
 
 </div>
 
@@ -116,7 +116,7 @@ _Figure 2.2: Formula for changing the month to number_
 
 <div align="center">
 
-_Figure 2.2: Formula for combining the year and month_
+_Figure 3.2: Formula for combining the year and month_
 
 </div>
 
@@ -127,7 +127,7 @@ _Figure 2.2: Formula for combining the year and month_
 
 <div align="center">
 
-_Figure 2.2: Formula for sorting the data_
+_Figure 3.3: Formula for sorting the data_
 
 </div>
 
