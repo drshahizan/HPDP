@@ -431,7 +431,7 @@ _Figure 37: "Total Sales:" Counter_
 </p>
 <div align="center">
 
-_Figure 38: Final Dahboard_ 
+_Figure 38: Final Dashboard_ 
 </div>
 
 <p align="center">
