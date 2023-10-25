@@ -15,6 +15,8 @@ Google Sheets is a spreadsheet tool that is part of Google's free, web-based Goo
 
 One dataset has been chosen for data analysis based on the case study that was given which is the Examination Result dataset. The dataset contains six columns which are Id_no, Academic, Sports, Co-Curriculum, Test_1, and Test_2. By doing this case study, we will show how to make data analysis based on the dataset that has been given based on the case study to turn it from raw data to valuable data.
 
+## Data preprocessing
+
 ## Analysis of the dataset
 
 Based on the dataset, which has a total of 112K records, we may conduct an analysis in which the lowest overall percent that a student receives is 14.82 and the maximum is 98.57, with an 83.75 gap between the two. The overall percentage for students is 69.36. In terms of grading, we may look at the distribution of grades based on the top three highest grades in the dataset, which have high percentages, while the top three lowest grades stand out:
