@@ -371,6 +371,72 @@ _Figure 18 : Output of Min, Average and Max_
 
 -----------------
 
+#### ii. Display grading results as charts and table.
+
+
+<img width="155" alt="Screenshot 2023-10-25 201251" src="https://github.com/drshahizan/HPDP/assets/89633522/076ae197-a861-49b7-936b-af6e9001f672">
+
+<div align="center">
+  
+_Figure 18 : Create pivot table of grading results_
+
+</div>
+
+- Include the "Grade" field in the Rows section, arranging it in ascending order and sorting the data by grades. Enable the option to display totals. For the Values section, incorporate the "Id_No" (numerical) data.
+
+ <p align="center"> 
+<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b">
+ </p>
+ 
+<div align="center">
+  
+_Figure 19 : Output of table of grade and num_
+
+</div>
+
+- The table above show the result of table of grade and num.
+
+<p align="center">
+![image](https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6)
+</p>
+
+<div align="center">
+  
+_Figure 20 : Choose column chart for grading_
+
+</div>
+
+![image](https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4)
+
+<div align="center">
+  
+_Figure 21 : Fill in different colour for each grade_
+
+-  Selecting the right chart type is important. Column charts are excellent for comparing values across different categories, making them suitable for various analytical purposes.
+  
+-  To choose chart type, In the Chart Editor on the right, click on 'Setup'. Under 'Chart type', select 'Column chart'.
+
+-  To colour the columns, Click on a column to select them all. Right-click and choose 'Format data series'. Under 'Fill color', pick the color that desire.
+
+![image](https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a)
+
+<div align="center">
+  
+_Figure 21 :Output for grading chart_
+
+</div>
+
+
+</div>
+
+
+-----------------
+
+#### iii. Show the total number of records. Please display Pass and Fail in the form of a percentage and the number of records.
+
+------------------
+
+#### iv. Create Pass and Fail views in the form of pie chart as well.
 
 
 
