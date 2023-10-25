@@ -218,14 +218,46 @@ The following data processing processes must be completed:
          <br>
    </div>
 
-### 4.3 Total Records, Pass and Fail Numbers
-#### 4.4 Total Records
+### 4.3 Total Numbers of Records, Pass, and Fail
+#### Total Records
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
       <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/dc6c336e-4670-4127-864a-4e0e92cddb73" style="width: 350px; height: 150px;">
+      <br>
+   </div>
+
+#### Total Numbers of Pass 
+   <div align="center">
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/2b84b43e-c619-4705-ac17-ff93f3ceedb1" style="width: 500px; height: 30px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/2f29cd10-b28f-4a44-835c-8153a1077a57" style="width: 600px; height: 30px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/822904f4-bae0-404f-8de5-e9cafd6f5d8f" style="width: 300px; height: 450px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/30973090-a9f3-4636-8141-b18d72cc818c" style="width: 300px; height: 500px;">
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/c97af60a-303a-41d7-b358-5f9c9990d1da" style="width: 300px; height: 150px;">
+      <br>
+   </div>
 
 
+https://github.com/drshahizan/HPDP/assets/106257072/ad50661b-9ec1-4335-9b37-e1e27deeed7c
+#### Total Numbers of Fail
+<div align="center">
+   <img src="" style="width: 300px; height: 500px;">
+   <br>
+   <img src="" style="width: 350px; height: 150px;">
+   <br>
+</div>
 
 
       
