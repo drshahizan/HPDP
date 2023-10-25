@@ -128,16 +128,19 @@
 
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3)
 
+
+
+<br><br>
+
+## Chart
+
 18. Copy all the pivot tables [CLICK CTRL+SHIFT+ RIGHT BUTTON +DOWN BUTTON].
     **PASTE** it into a sheet named **"dashboard"**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9)
 
     Result Displayed:
       ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
-
-<br><br>
-
-## Chart
+    <br>
 ### Chart for Monthly Sales
 19. Click **Insert » Chart**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67)
