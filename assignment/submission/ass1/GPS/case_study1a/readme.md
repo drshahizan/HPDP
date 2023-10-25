@@ -328,7 +328,7 @@ _Figure 27: Dataset1_
 ## Dashboard <a name = "dashboard"></a>
 1. Select all the columns and press **"Insert" > "Pivot Table"**. Check **"New sheet"** to create the dashboard in another sheet and click **"Create"**.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivot.png" width=700>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pppivot.png" width=350>
 </p>
 <div align="center"> 
 
@@ -436,7 +436,7 @@ _Figure 38: Pivot table setup representing **COUNT of Status**_
 
 10. The created pivot tables will be as follows.
  <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivots.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivot.png" width=250>
 </p>
 <div align="center">
     
@@ -558,7 +558,36 @@ _Figure 50: Total record scorecard, Pass rate scorecard and Fail rate scorecard 
 </div>  
 <br>
 
-21. The dashboard as is in the image below is created.
+21. We create another scorecard chart to show the actual number of records.
+ <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorerecorde2.png" width=200>
+</p>
+<div align="center">
+    
+_Figure 51: Scorecards with the actual record for Pass and Fail Scorecards_
+</div>  
+<br>
+
+22. Perform setup and customization for the Scorecard chart.
+     <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorerecord.png" width=200>
+</p>
+<div align="center">
+    
+_Figure 52: Setup of the Scorecard_
+</div>  
+<br>
+
+ <p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorecust.png" width=200>
+</p>
+<div align="center">
+    
+_Figure 53: Customization of the Scorecard_
+</div>  
+<br>
+
+23. The dashboard as is in the image below is created.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=800>
 </p>
