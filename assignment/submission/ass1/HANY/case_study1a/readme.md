@@ -21,11 +21,12 @@
 1. [Introduction](#introduction)
 2. [Data Preprocessing](#data-preprocessing)
     - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
-    - [Section Title](#section-anchor)
 
 
 
 ## 1. Introduction 
+
+## Dataset Information <a name = "dataset_info"></a>
 **CASE STUDY 1: Examination Results** involves working with a dataset named dataset1.txt, which contains valuable information about students' examination results. This dataset comprises five columns that provide insights into various aspects of student performance, including **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2**. 
 
 ## 2. Data Preprocessing 
@@ -50,7 +51,6 @@ Before you can create a dashboard or begin analyzing your data, you must first i
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/7bc4178d-c5ff-4ab0-9978-4432d0b85dd2" style="width: 400px; height: 250px;">
 </div>
 
-## Section Title {#section-anchor}
 
 
 
