@@ -18,11 +18,11 @@
 | NG SUANG JOO     | A21EC0102   |   
 | NG ZI XING | A21EC0213   |      
 
-## Table of Contents
+## Table of Contents <a name = "table-of-contents"></a>
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
-   * [Dataset Information](#dataset-information)
-   * [Pivot Table](#pivot-table)
+   * [Dataset Information](#dataset_info)
+   * [Pivot Table](#pivot_table)
    * [Dashboard](#dashboard)
    * [Contribution 🛠️](#contribution-)
   
