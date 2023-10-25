@@ -186,7 +186,7 @@ _Figure 9 : Output of TM_
 #### V. Please calculate the percentage value for data in the column O. In column P, enter percentage value (Percent). Check that the percentage value is within two decimal places.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/c6152175-33ab-4475-806d-6115dd9a4a20" width = "400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/c6152175-33ab-4475-806d-6115dd9a4a20" height= "400">
 </p>
 
 <div align="center">
@@ -208,7 +208,7 @@ _Figure 10 : Output of Percentage_
  #### vi. Based on Table 3, assist a grade, Column Q is for grade, and column R is for status.
 
 <p align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/89633522/f08923f8-c81f-40e4-bfc6-2a8d49176fc1"  width = "400">
+  <img src="https://github.com/drshahizan/HPDP/assets/89633522/f08923f8-c81f-40e4-bfc6-2a8d49176fc1"  height = "400">
 </p>
 
  <div align="center">
@@ -218,7 +218,7 @@ _Table 3_
 </div>
 
  <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/76216ecc-40f8-4757-b831-ccd0d9387ff1" width = "400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/76216ecc-40f8-4757-b831-ccd0d9387ff1" height= 400">
 </p>
 
 <div align="center">
@@ -237,7 +237,7 @@ _Figure 10: Output of Grade_
 
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff"  width = "400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff"  height = "400">
 </p>
 
 <div align="center">
@@ -257,7 +257,7 @@ _Figure 11: Output of status_
  #### vii. If the status is Pass, please colour column P with Green, You should colour the Pass line with light red.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/4e6d702f-5d90-4bff-ba16-bed7bb3ee6b2"  width = "400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/4e6d702f-5d90-4bff-ba16-bed7bb3ee6b2" height ="400" >
 </p>
 
 <div align="center">
@@ -276,7 +276,7 @@ _Figure 12: Green colour with Pass status and Light Red for pass line_
 ## Output of the data
 
 <p align="center">
-  <img src="https://github.com/drshahizan/HPDP/assets/89633522/33d3ef01-ccd6-4dca-9d19-3ca09cf7366e"  width = "400">
+  <img src="https://github.com/drshahizan/HPDP/assets/89633522/33d3ef01-ccd6-4dca-9d19-3ca09cf7366e" width ="700">
 </p>
 
 <div align="center">
@@ -285,10 +285,12 @@ _Figure 13 : Final ouput of the sheet_
 
 </div>
 
-![Screenshot (1000)](https://github.com/drshahizan/HPDP/assets/89633522/536afc26-de8a-4fdb-9f42-36733e62b7b8)
+<p align="center">
+  <img src="https://github.com/drshahizan/HPDP/assets/89633522/536afc26-de8a-4fdb-9f42-36733e62b7b8" width ="700">
+</p>
 
 <div align="center">
-  
+
 _Figure 14 : Final ouput of the sheet_
 
 </div>
@@ -300,7 +302,7 @@ _Figure 14 : Final ouput of the sheet_
 #### i. Create minimum, maximum and average.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/3c455373-496c-458e-8e50-2756f5eaa05c"   height="500">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/3c455373-496c-458e-8e50-2756f5eaa05c"  width="300">
 </p>
 
 
@@ -311,7 +313,7 @@ _Figure 15 : Choose pivot table_
 </div>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ef3f09fe-5da6-424c-91f5-2d91272a362a"   height="400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ef3f09fe-5da6-424c-91f5-2d91272a362a"   width = "300" >
 </p>
 
 <div align="center">
@@ -323,7 +325,7 @@ _Figure 16 : Create pivot table_
 - **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for '**Insert to**' section. Click on the button create.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="400" >
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="300" >
 </p>
 
 <div align="center">
@@ -333,7 +335,7 @@ _Figure 17 : Output of pivot table_
 </div>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ffe72b0a-85b6-4e7d-ad82-c011c516dc9d height="400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ffe72b0a-85b6-4e7d-ad82-c011c516dc9d" width="500">
 </p>
 
 
@@ -354,7 +356,7 @@ _Figure 18 : Setup of chart_
     totals'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" height="400">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" width="600">
 </p>
 
 <div align="center">
@@ -363,7 +365,7 @@ _Figure 19 : Change of scoreboard title_
 
 </div>
 
-- By click on Customize, please choose Chart & axis titles. Enter either 'Min' , 'Average' or 'Max' for the title text
+- By click on **Customize**, please choose** Chart & axis titles**. Enter either **'Min' , 'Average' or 'Max'** for the title text
 
   <p align="center">
       
@@ -394,10 +396,10 @@ _Figure 21 : Create pivot table of grading results_
 
 </div>
 
-- Include the "Grade" field in the Rows section, arranging it in ascending order and sorting the data by grades. Enable the option to display totals. For the Values section, incorporate the "Id_No" (numerical) data.
+- Include the **"Grade" **field in the **Rows** section, arranging it in ascending order and sorting the data by grades. Enable the option to **display totals**. For the **Values** section, incorporate the **"Id_No" (numerical) data**.
 
  <p align="center"> 
-<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b" height="400">
+<img  alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b" height="400">
  </p>
  
 <div align="center">
@@ -410,7 +412,7 @@ _Figure 22 : Output of table of grade and num_
 
 
 <p align="center"> 
-<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6" >
+<img  alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/8d6c9b7c-e5af-44ca-847b-0b01a7318ca6" width = "600">
  </p>
     
 
@@ -424,7 +426,7 @@ _Figure 23 : Choose column chart for grading_
 
 <p align="center"> 
     
-<img width="155" alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4" >
+<img  alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4" width = "600">
 
 </p>
 
@@ -440,12 +442,12 @@ _Figure 24 : Fill in different colour for each grade_
 
 -  Selecting the right chart type is important. Column charts are excellent for comparing values across different categories, making them suitable for various analytical purposes.
   
--  To choose chart type, In the Chart Editor on the right, click on 'Setup'. Under 'Chart type', select 'Column chart'.
+-  To choose chart type, In the Chart Editor on the right, click on **'Setup'**. Under **'Chart type'**, select **'Column chart'**.
 
--  To colour the columns, Click on a column to select them all. Right-click and choose 'Format data series'. Under 'Fill color', pick the color that desire.
+-  To colour the columns, Click on a column to select them all. Right-click and choose **'Format data series'**. Under **'Fill color'**, pick the color that desire.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a.jpg">    
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a.jpg" width = "600">    
 </p>
 
 <div align="center">
@@ -478,10 +480,10 @@ _Figure 27_
 </div>
 
 
--In the pivot table, place 'Status' in the rows section. In the columns section, add 'id_no' (number of students), and summarize it by count, which is the default setting. Additionally, include 'Id_no (percent)' and display it as a percentage of grades.
+- In the pivot table, place **'Status'** in the rows section. In the columns section, add **'id_no' (number of students)**, and summarize it by count, which is the default setting. Additionally, include **'Id_no (percent)'** and display it as a **percentage of grades**.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/901dafcc-9485-4b88-ba51-b0275e727013">    
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/901dafcc-9485-4b88-ba51-b0275e727013" width = "400">    
 </p>
 
 <div align="center">
@@ -503,10 +505,10 @@ _Figure 29 : Doughnut chart setup_
 
 </div>
 
--Place the 'Status' field in the Label section and select the option to use row 6 as headers. Also, check the box for using column K as labels.
+-Place the **'Status'** field in the **Label** section and select the option to use row 6 as headers. Also, check the box for using column **K** as labels.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/7e105f35-6b3a-49dd-a5ea-b2a2719601be">    
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/7e105f35-6b3a-49dd-a5ea-b2a2719601be" width = "600">    
 </p>
 
 <div align="center">
