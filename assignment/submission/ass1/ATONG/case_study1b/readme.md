@@ -81,17 +81,14 @@
 ## Pivot Table
 ### Pivot Table for Monthly Sales
 
-7. Select all columns by using **Ctrl and Shift**, <br></br>
-   then click on **insert » pivot table » new sheet**.
+7. In order to create a pivot table, we need to enter **Ctrl + Shift + Right Arrow Key + Down Arrow Key** in order to select exact rows and columns that consists dataset value only. Next, proceed with click on the **Insert >> Pivot Table >> New Sheet**. 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511" width="700"></div>
 
 
-
-
-8. Choose the **Rows** variables.
+8. As for the Monthly Sales pivot table, we will be choosing the *MONTH* and *SALES MONTH* as the **Rows** variables.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/81335fcf-de6a-4cfd-98ff-08258eb610f1" width="700"></div>
 
-9. Choose the **Value** Column.
+9. Choose *SALES* and *TARGET* as the **Value** columns. The pivot table should be displayed as shown below.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/39e758b5-dbf8-447b-a0e0-63fb8ae2a041" width="700"></div>
 
 
@@ -100,7 +97,7 @@
     <br>
 ### Pivot Table for Region 
 
-10. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
+10. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where we copy the dataset and create a new pivot table.
 
 11. Select Row and Value.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb" width="700"></div>
@@ -108,26 +105,30 @@
 
 <br></br>
 ### Pivot Table for Customer
-12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
+12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where converting from datasets into pivot table.
   
-13. Edit the pivot table by choosing **row** and **value**.
+13. Edit the pivot table by choosing **Rows** and **Values**. As shown in the figure below, *CUSTOMER* is selected as the row value and *PRODUCTS* as the **Value** item.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11" width="700"></div>
+
 
 <br></br>
 ### Pivot Table for SalesPerson
     
-14. Copy the dataset and select the pivot table. Then choose the row and column.
+14. Copy the dataset from the *TempData* sheet and select the pivot table. We need to customize the pivot table by choosing the *SALESPERSON* as the row and *PRODUCTS* as the column.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969" width="700"></div>
 
-15. Select the value to sum the sales by each salesperson.
+15. We select the value to sum the sales by each salesperson.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac" width="700"></div>
+
+
 
 <br></br>
 ### Pivot Table for Trend
-16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
-17. Select **Rows** and **Values**.
+16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where converting from datasets into pivot table.
+17. In creating Trend Pivot Table, we will select the *SALES YEAR*, *SALES MONTH*, and *MONTH* as the **Rows** items. 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6" width="700"></div>
 
+     Here, we can see that selecting *SALES* as the **Values** item is needed in order to create and analyze the trend chart in next step later.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3" width="700"></div>
 
 
