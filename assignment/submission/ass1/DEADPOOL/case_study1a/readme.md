@@ -39,7 +39,7 @@ Figure 1: Import Dataset to Google Sheet
 1. Formula (Column Number/61)*3.33 was used in order to calculate the value for P1. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic4.jpg" width=300 length=300 >
-</p
+</p>
 
 <div align="center">  
 Figure 2: The (Column Number/61)*3.33 was used in order to obtain the value for column P1 until P5
