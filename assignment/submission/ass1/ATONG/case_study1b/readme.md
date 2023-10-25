@@ -66,7 +66,7 @@
 
 
 
-6. Next, we need to replace with the correct format which is *Sep*. Following with clicking the **"Replace All"** first, then the **"Done"** button.
+6. Next, we need to replace with the correct format which is *"Sep"*. Following with clicking the **"Replace All"** first, then the **"Done"** button.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/99d00787-c3f6-45e9-a60b-d714722adc8a" width="700"></div>
 
 
@@ -85,10 +85,10 @@
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511" width="700"></div>
 
 
-8. As for the Monthly Sales pivot table, we will be choosing the *MONTH* and *SALES MONTH* as the **Rows** variables.
+8. As for the Monthly Sales pivot table, we will be choosing the *"MONTH* and *SALES MONTH"* as the **Rows** variables.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/81335fcf-de6a-4cfd-98ff-08258eb610f1" width="700"></div>
 
-9. Choose *SALES* and *TARGET* as the **Value** columns. The pivot table should be displayed as shown below.
+9. Choose *"SALES* and *TARGET"* as the **Value** columns. The pivot table should be displayed as shown below.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/39e758b5-dbf8-447b-a0e0-63fb8ae2a041" width="700"></div>
 
 
@@ -99,7 +99,7 @@
 
 10. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where we copy the dataset and create a new pivot table.
 
-11. Select Row and Value.
+11. Select *"Sales Region"* as the **Row**  variable and *"Products"* as the **Value** one. Make sure you follow the setting of variables as shown in the figure below such as unclick the **Show Totals** option.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb" width="700"></div>
 
 
