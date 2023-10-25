@@ -486,7 +486,7 @@ _Figure 44: Avg percent scorecard setup_
 </div>  
 <br>  
 
-15. Repeat step 10 but instead of selecting the scorecard, select **"Column chart"** under **"Column"** category. Repeat step 12 get the data range.
+15. Repeat step 10 but instead of selecting the scorecard, select **"Column chart"** under **"Column"** category. Repeat step 11 for the data range.
   <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/column_chart.png" width=200>
 </p>
@@ -507,7 +507,7 @@ _Figure 46: Column chart setup_
 
 16. Perform customization for the column chart.
 
-17. Repeat step 10 but instead of selecting the scorecard, select **"Table chart"** under **"Other"** category. Repeat step 12 get the data range.
+17. Repeat step 10 but instead of selecting the scorecard, select **"Table chart"** under **"Other"** category. Repeat step 11 for the data range.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/table_chart.png" width=200>
 </p>
@@ -526,7 +526,7 @@ _Figure 48: Table chart setup_
 </div>  
 <br>
 
-18. Repeat step 10 but instead of selecting the scorecard, select **"Doughnut chart"** under **"Other"** category. Repeat step 12 get the data range.
+18. Repeat step 10 but instead of selecting the scorecard, select **"Doughnut chart"** under **"Other"** category. Repeat step 11 for the data range.
   <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/doughnut_chart.png" width=200>
 </p>
