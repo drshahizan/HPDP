@@ -95,7 +95,7 @@ Figure 5: Selecting The Data
 </p>
 
 <div align="center">  
-Figure 7: By adding the formula shown in the image above, you may get a new value for all the data in the Academic column to the "Test_2" column, which is named P1 under the G column.
+Figure 6: By adding the formula shown in the image above, you may get a new value for all the data in the Academic column to the "Test_2" column, which is named P1 under the G column.
 </div>
 <br>
 
@@ -103,7 +103,7 @@ Figure 7: By adding the formula shown in the image above, you may get a new valu
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/7.png" width=300>
 </p>
 <div align="center">  
-Figure 8: As for the column ‘Sports’, which is named P2 under the H column, with the formula shown in the image above.
+Figure 7: As for the column ‘Sports’, which is named P2 under the H column, with the formula shown in the image above.
 </div>
 <br>
 
@@ -111,21 +111,21 @@ Figure 8: As for the column ‘Sports’, which is named P2 under the H column, 
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/8.png" width=300>
 </p>
 <div align="center">  
-Figure 9: As for the column ‘Co-curriculum’, which is named P3 under the I column, with the formula shown in the image above.
+Figure 8: As for the column ‘Co-curriculum’, which is named P3 under the I column, with the formula shown in the image above.
 </div>   
 <br>
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/9.png" width=300>
 </p>
 <div align="center">  
-Figure 10: As for the column ‘Test_1’, which is named P4 under the J column, with the formula shown in the image above.
+Figure 9: As for the column ‘Test_1’, which is named P4 under the J column, with the formula shown in the image above.
 </div>
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/10.png" width=300>
 </p>
 <div align="center">  
-Figure 11: As for the column ‘Sports’, which is named P5 under the H column, with the formula shown in the image above. 
+Figure 10: As for the column ‘Sports’, which is named P5 under the H column, with the formula shown in the image above. 
 </div>
 <br>
 
@@ -135,7 +135,7 @@ Figure 11: As for the column ‘Sports’, which is named P5 under the H column,
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/11.png" width=500>
 </p>
 <div align="center">  
-Figure 12: Rounding off to two decimal places
+Figure 11: Rounding off to two decimal places
 </div>
 <br>
 
@@ -144,7 +144,7 @@ Figure 12: Rounding off to two decimal places
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/12.png" width=400>
 </p>
 <div align="center">  
-Figure 13: For the highest values for column H1, use the formula as shown. 
+Figure 12: For the highest values for column H1, use the formula as shown. 
 </div>
 <be>
 
@@ -152,7 +152,7 @@ Figure 13: For the highest values for column H1, use the formula as shown.
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/13.png" width=400>
 </p>
 <div align="center">  
-Figure 14: For the second-highest value for H2, use the formula above. 
+Figure 13: For the second-highest value for H2, use the formula above. 
 </div>
 <br>
 
@@ -160,7 +160,7 @@ Figure 14: For the second-highest value for H2, use the formula above.
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/14.png" width=400>
 </p>
 <div align="center">  
-Figure 15: For the third-highest value for H3, use the formula above.
+Figure 14: For the third-highest value for H3, use the formula above.
 </div>
 <br>
 
@@ -169,7 +169,7 @@ Figure 15: For the third-highest value for H3, use the formula above.
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/15.png" width=400>
 </p>
 <div align="center">  
-Figure 16: Calculate Total Value For The Top Three Highest Value
+Figure 15: Calculate Total Value For The Top Three Highest Value
 </div>
 <br>
 
@@ -178,7 +178,7 @@ Figure 16: Calculate Total Value For The Top Three Highest Value
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/16.png" width=400>
 </p>
 <div align="center">  
-Figure 17: To Calculate the percentage
+Figure 16: To Calculate the percentage
 </div>
 <br>
 
@@ -187,7 +187,7 @@ Figure 17: To Calculate the percentage
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/17.png" width=400>
 </p>
 <div align="center">  
-Figure 18: Formula To determine grades.
+Figure 17: Formula To determine grades.
 </div>
 <br>
 
@@ -196,7 +196,7 @@ Figure 18: Formula To determine grades.
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/18.png" width=400>
 </p>
 <div align="center">  
-Figure 19: Formula To Determine Status
+Figure 18: Formula To Determine Status
 </div>
 <br>
 
@@ -206,7 +206,7 @@ Figure 19: Formula To Determine Status
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/22.png" width=300>
 </p>
 <div align="center">  
-Figure 20: The Red Font
+Figure 19: The Red Font
 </div>
 <be>
 
@@ -216,7 +216,7 @@ Figure 20: The Red Font
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/20.png" width=300>
 </p>
 <div align="center">  
-Figure 21:  Percentage greater than 65 will be coloured in Green
+Figure 20:  Percentage greater than 65 will be coloured in Green
   
 </div>
 <br>
@@ -227,7 +227,7 @@ Figure 21:  Percentage greater than 65 will be coloured in Green
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission//ass1/ganthegang/case_study1a/images/23.png" width=200>
 </p>
 <div align="center"> 
-Figure 22: Pass Filtering
+Figure 21: Pass Filtering
     
 </div> 
 <br>
@@ -237,7 +237,7 @@ Figure 22: Pass Filtering
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/26.png" width=500>
 </p>
 <div align="center"> 
-Figure 23: Colour the whole record with rows of status 'Pass' with the light red font.
+Figure 22: Colour the whole record with rows of status 'Pass' with the light red font.
 </div>  
 <br>
 <p align="center">
@@ -247,7 +247,7 @@ Figure 23: Colour the whole record with rows of status 'Pass' with the light red
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/images/25.png" width=200>
 </p>
 <div align="center"> 
-Figure 24: Removing the filter
+Figure 23: Removing the filter
 </div>  
 <br>      
 
@@ -261,7 +261,7 @@ Figure 24: Removing the filter
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/28.png" width=500>
 </p>
 <div align="center"> 
-Figure 25: Creating a new sheet for the dashboard
+Figure 24: Creating a new sheet for the dashboard
 </div>
 <br>
 
@@ -270,16 +270,16 @@ Figure 25: Creating a new sheet for the dashboard
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/29.png" width=300>
 </p>
 <div align="center"> 
-Figure 26: Inserting chart
+Figure 25: Inserting chart
 </div>
 <br>
 
-3. For each scorecard chart, the "Chart type" is selected with **"Scorecard chart"** and the "Data range" is filled with the value **"Dataset1!P2:P111520"** which consists of the values in the column P in "Dataset1" sheet. Then the aggregate checkbox is enabled and a different aggregated function is selected.
+3. For each scorecard chart, the "Chart type" is selected with **"Scorecard chart"** and the "Data range" is filled with the value **"Dataset1!P2:P111520"** which consists of the values in the column P in "Dataset1" sheet. Then, the aggregate checkbox is enabled and a different aggregated function is selected.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/30.png" width=200>
 </p>
 <div align="center"> 
-Figure 27: Setup of scorecard with "Min" score
+Figure 26: Setup of scorecard with "Min" score
 </div>  
 <br>
 
@@ -287,7 +287,7 @@ Figure 27: Setup of scorecard with "Min" score
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/31.png" width=200>
 </p>
 <div align="center"> 
-Figure 28: Setup of scorecard with "Max" score
+Figure 27: Setup of scorecard with "Max" score
 </div>  
 <br>
 
@@ -295,7 +295,7 @@ Figure 28: Setup of scorecard with "Max" score
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/32.png" width=200>
 </p>
 <div align="center"> 
-Figure 29: Setup of scorecard with "Average" score
+Figure 28: Setup of scorecard with "Average" score
 </div>  
 <br>
 
@@ -304,7 +304,7 @@ Figure 29: Setup of scorecard with "Average" score
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/33.png" width=200>
 </p>
 <div align="center"> 
-Figure 30: Setup "Grading" column chart
+Figure 29: Setup "Grading" column chart
 </div>  
 <br>
 
@@ -313,7 +313,7 @@ Figure 30: Setup "Grading" column chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/34.png" width=200>
 </p>
 <div align="center"> 
-Figure 31: Customize "Grading" column chart
+Figure 30: Customize "Grading" column chart
 </div>  
 <br>
 
@@ -322,7 +322,7 @@ Figure 31: Customize "Grading" column chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/35.png" width=500>
 </p>
 <div align="center"> 
-Figure 32: Function for obtaining the count of grade "A+"
+Figure 31: Function for obtaining the count of grade "A+"
 </div>  
 <br>
 
@@ -331,7 +331,7 @@ Figure 32: Function for obtaining the count of grade "A+"
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/36.png" width=400>
 </p>
 <div align="center"> 
-Figure 33: Function for obtaining the total count
+Figure 32: Function for obtaining the total count
 </div>  
 <br>  
 
@@ -340,7 +340,7 @@ Figure 33: Function for obtaining the total count
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/37.png" width=200>
 </p>
 <div align="center"> 
-Figure 34: Setup of "Pass/Fail" doughnut chart
+Figure 33: Setup of "Pass/Fail" doughnut chart
 </div>  
 <br>
 
@@ -349,7 +349,7 @@ Figure 34: Setup of "Pass/Fail" doughnut chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/38.png" width=200>
 </p>
 <div align="center"> 
-Figure 35: Customize chart style of "Pass/Fail" doughnut chart
+Figure 34: Customize chart style of "Pass/Fail" doughnut chart
 </div>  
 <br>
 
@@ -357,7 +357,7 @@ Figure 35: Customize chart style of "Pass/Fail" doughnut chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/39.png" width=200>
 </p>
 <div align="center"> 
-Figure 36: Customize pie chart of "Pass/Fail" doughnut chart
+Figure 35: Customize pie chart of "Pass/Fail" doughnut chart
 </div>  
 <br>
 
@@ -366,7 +366,7 @@ Figure 36: Customize pie chart of "Pass/Fail" doughnut chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/40.png" width=200>
 </p>
 <div align="center"> 
-Figure 37: Setup of "Total record" scorecard chart
+Figure 36: Setup of "Total record" scorecard chart
 </div>  
 <br>
 
@@ -375,7 +375,7 @@ Figure 37: Setup of "Total record" scorecard chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/41.png" width=400>
 </p>
 <div align="center"> 
-Figure 38: Function of percentage of pass
+Figure 37: Function of percentage of pass
 </div>  
 <br>
 
@@ -383,7 +383,7 @@ Figure 38: Function of percentage of pass
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/42.png" width=400>
 </p>
 <div align="center"> 
-Figure 39: Function of the count of pass
+Figure 38: Function of the count of pass
 </div>  
 <br>
 
@@ -391,7 +391,7 @@ Figure 39: Function of the count of pass
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/43.png" width=400>
 </p>
 <div align="center"> 
-Figure 40: Function of the percentage of fail
+Figure 39: Function of the percentage of fail
 </div>  
 <br>
 
@@ -399,7 +399,7 @@ Figure 40: Function of the percentage of fail
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/44.png" width=400>
 </p>
 <div align="center"> 
-Figure 41: Function of the count of fail
+Figure 40: Function of the count of fail
 </div>  
 <br>
 
@@ -408,7 +408,7 @@ Figure 41: Function of the count of fail
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/45.png" width=200>
 </p>
 <div align="center"> 
-Figure 42: Scorecard chart for the percentage of passes, count of passes, percentage of failed and count of failed students
+Figure 41: Scorecard chart for the percentage of passes, count of passes, percentage of failed and count of failed students
 </div>  
 <br>
 
@@ -417,7 +417,7 @@ Figure 42: Scorecard chart for the percentage of passes, count of passes, percen
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/46.png" width=500>
 </p>
 <div align="center"> 
-Figure 43: Example of customised key value color for "Min" scorecard chart
+Figure 42: Example of customised key value color for "Min" scorecard chart
 </div>  
 <br>
 
@@ -425,7 +425,7 @@ Figure 43: Example of customised key value color for "Min" scorecard chart
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/47.png" width=500>
 </p>
 <div align="center"> 
-Figure 44: Example of customised chart title for "Grading" column chart
+Figure 43: Example of customised chart title for "Grading" column chart
 </div>  
 <br>
 
