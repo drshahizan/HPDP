@@ -19,15 +19,27 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Data Preprocessing](#data-preprocessing)
-    - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
+2. [Data Importation](#data-importation)
+   - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
+3. [Data Processing](#data-preprocessing)
+   - 3.1. [Decimal Places Adjustment](#decimal-places-adjustment)
+   - 3.2. [Transformation of Value](#transformation-of-value)
+   - 3.3. [Determine the Top Three Values](#determine-the-top-three-values)
+   - 3.4. [Total Points Calculation](#total-points-calculation)
+   - 3.5. [Percentage Value Calculation](#percentage-value-calculation)
+   - 3.6. [Grade Assignment](#grade-assignment)
+   - 3.7. [Differentiate Status Based on Color](#differentiate-status-based-on-color)
+4. [Data Visualisation](#data-visualisation)
+   - 4.1. [Creating Dashboard](#creating-dashboard)
+
+
 
 
 
 ## 1. Introduction 
-**CASE STUDY 1: Examination Results** involves working with a dataset named dataset1.txt, which contains valuable information about students' examination results. This dataset comprises five columns that provide insights into various aspects of student performance, including **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2**. 
+**CASE STUDY 1: Examination Results** involves working with a dataset named dataset1.txt, which contains valuable information about students' examination results. The objective of this case study is to use the dataset to carry out a series of data processing tasks. These steps are necessary to enhance the analysis and visualization of examination results using Google Sheets' features. This case study provides an opportunity to explore and analyze student examination results, from data processing to visualization, ultimately assisting in making informed decisions and improvements in academic performance evaluation.
 
-## 2. Data Preprocessing 
+## 2. Data Importation 
 ### 2.1 Importing a Dataset into Google Sheets 
 
 Before you can create a dashboard or begin analyzing your data, you must first import your dataset into Google Sheets, as shown in Figure 1 and Figure 2. 
@@ -51,6 +63,15 @@ Before you can create a dashboard or begin analyzing your data, you must first i
 **Figure 3: Creating new spreadsheet by importing the data.**  
 </div>
 
+  6. The Dataset1 spreadsheet will be displayed as shown in Figure 4.
+<div align="center">
+  <img src="https://github.com/drshahizan/HPDP/assets/87573002/20ee4e61-358a-4252-b89b-a7a0e08545ed" style="width: 600px; height: 450px;">
+
+**Figure 4: Imported Dataset1 spreadsheet into Google Sheet.**  
+</div>
+
+## 3. Data Processing 
+### 3.1 Decimal Places Adjustment
 
 
 
