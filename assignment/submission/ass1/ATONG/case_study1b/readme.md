@@ -110,7 +110,7 @@
 13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
     
-14. **NOTE THIS IS FOR PIVOT BY SALESPERSON:**
+14. **NOTE THIS IS FOR PIVOT BY SALESPERSON:** <br>
     Copy the dataset and select the pivot table. Then choose the row and column.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969)
 
