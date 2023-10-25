@@ -101,12 +101,36 @@ Before you can create a dashboard or begin analyzing your data, you must first i
    
 
 ### 3.4. Total Points Calculation
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/1b51f0f3-53cf-4683-b2a2-31a73d57ec13" style="width: 145px; height: 30px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/4070a62b-459e-44ee-8f04-4b12b1a33946" style="width: 100px; height: 400px;">
+   <br>
 
 ### 3.5. Percentage Value Calculation
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/cf14d79d-0c70-459e-a7a5-7703c6b4f84a" style="width: 145px; height: 35px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/eb5cc4c1-9df5-4714-b815-d886fe83a3b4" style="width: 100px; height: 400px;">
+   <br>
 
 ### 3.6. Grade Assignment
-
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/4ac87301-d137-4eb6-bf62-7c35ffe7ab35" style="width: 1745px; height: 56px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/340ed0cb-bb6c-4e4e-8efc-70457454c0bf" style="width: 100px; height: 400px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/c45c123d-7bf6-4714-ac22-582bfbacad45" style="width: 1608px; height: 66px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/dca3f4a6-3bde-465a-a56d-603062ab749c" style="width: 100px; height: 400px;">
+   
 ### 3.7. Differentiate Status Based on Color
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/07cde0aa-0d21-454a-9499-3e812f133c48" style="width: 400px; height: 350px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/289e4c45-cd95-435b-b8a1-e532c7a763fa" style="width: 450px; height: 500px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/1c153a4b-0327-4c73-aec0-f62dbcb1c9a1" style="width: 450px; height: 500px;">
 
 
 
