@@ -107,14 +107,14 @@
 ### Pivot Table for Customer
 12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where converting from datasets into pivot table.
   
-13. Edit the pivot table by choosing **Rows** and **Values**. As shown in the figure below, *CUSTOMER* is selected as the row value and *PRODUCTS* as the **Value** item.
+13. Edit the pivot table by choosing **Rows** and **Values**. As shown in the figure below, *"CUSTOMER"* is selected as the row value and *"PRODUCTS"* as the **Value** item.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11" width="700"></div>
 
 
 <br></br>
 ### Pivot Table for SalesPerson
     
-14. Copy the dataset from the *TempData* sheet and select the pivot table. We need to customize the pivot table by choosing the *SALESPERSON* as the row and *PRODUCTS* as the column.
+14. Copy the dataset from the *TempData* sheet and select the pivot table. We need to customize the pivot table by choosing the *"SALESPERSON"* as the row and *"PRODUCTS"* as the column.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/e7b24520-4b5f-4780-8720-fc003c022969" width="700"></div>
 
 15. We select the value to sum the sales by each salesperson.
@@ -125,10 +125,10 @@
 <br></br>
 ### Pivot Table for Trend
 16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) where converting from datasets into pivot table.
-17. In creating Trend Pivot Table, we will select the *SALES YEAR*, *SALES MONTH*, and *MONTH* as the **Rows** items. 
+17. In creating Trend Pivot Table, we will select the *"SALES YEAR*, *SALES MONTH*, and *MONTH"* as the **Rows** items. 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6" width="700"></div>
 
-     Here, we can see that selecting *SALES* as the **Values** item is needed in order to create and analyze the trend chart in next step later.
+     Here, we can see that selecting *"SALES"* as the **Values** item is needed in order to create and analyze the trend chart in next step later.
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3" width="700"></div>
 
 
