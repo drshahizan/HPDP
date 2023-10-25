@@ -30,7 +30,7 @@ This dataset contains the attributes of Id_No, Academic, Sports, Co-Curriculum,	
 **Source**: https://docs.google.com/spreadsheets/d/1uSaVrYlYKFgK8fy_vs9hr13n1iBJq14A0JnEcstmDrI/edit#gid=1756902967 
 
 ## Data Import and Data Preprocessing <a name = "preprocessing"></a>
-1. Press **"File" > "Import"** to upload the **"Dataset1.txt"** that has been downloaded earlier by clicking **"Browse"** to find the directory of the file.
+1. Click **"File" > "Import"** to upload the **"Dataset1.txt"** that has been downloaded earlier by clicking **"Browse"** to find the directory of the file.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/96f95fff-a9e4-4864-a031-bf3dc30c80ad"width=300>
 </p>
@@ -80,14 +80,14 @@ _Figure 4: Loading_
 _Figure 5: Importing data_
 </div> 
 
-5. To ensure each record has two decimal places, click every column letter and select **"123"** under the toolbar. Click **"Numbers"**.
+5. To ensure each record has two decimal places, click every column letter and select **"123"** under the toolbar. Click **"Number"**.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/roundoff.png" width=500>
 </p>
 
 <div align="center">
   
-_Figure 6: Click **"Numbers"**_
+_Figure 6: Click **"Number"**_
 
 </div>
 
@@ -150,7 +150,7 @@ _Figure 12: Data retrieval until last row_
 </div>
 <br>
 
-3. Click every column letter and then select **"123" > "Numbers"** to round off to two decimal places.
+3. Click every column letter and then select **"123" > "Number"** to round off to two decimal places.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/two.png" width=500>
 </p>
@@ -253,7 +253,7 @@ _Figure 21: Selecting **red** colour font_
 </p>
 <div align="center"> 
     
-_Figure 22: "**Formatting">"Conditional Formatting**"_ 
+_Figure 22: "**Formatting" > "Conditional Formatting**"_ 
     
 </div> 
 <br>
@@ -287,7 +287,7 @@ _Figure 25: Filtering requirement_
 </div>  
 <br>
 
-20. Colour all the cells with the status of **"Pass"** with **_light red_** by holding the _Shift_ key to select the first cells until the last cells.
+19. Colour all the cells with the status of **"Pass"** with **_light red_** by holding the _Shift_ key to select the first cells until the last cells.
     <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/highlight1.png" width=500>
 </p>
@@ -305,7 +305,7 @@ _Figure 26b: Selecting the remaining cells with records of status **"Pass"** to 
 </div>  
 <br>
 
-21. After that, right clicking the column to remove the filter. 
+20. After that, right clicking the column to remove the filter. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/removefilter.png" width=100>
 </p>
@@ -315,7 +315,7 @@ _Figure 27: Select **"Remove filter"**_
 </div>  
 <br>      
 
-22. The dataset will be as the following figure.
+21. The dataset will be as the following figure.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dataset.png" width=800>
 </p>
@@ -326,7 +326,7 @@ _Figure 28: Dataset1_
 <br>   
 
 ## Dashboard <a name = "dashboard"></a>
-1. Select all the columns and press **"Insert" > "Pivot Table"**. Check **"New sheet"** to create the dashboard in another sheet and click **"Create"**.
+1. Select all the columns and click **"Insert" > "Pivot Table"**. Check **"New sheet"** to create the dashboard in another sheet and click **"Create"**.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pppivot.png" width=350>
 </p>
@@ -374,7 +374,7 @@ _Figure 33: Select summarization by **"MIN"** Percent_
 </div>  
 <br> 
 
-4. Select **"Insert" > "Pivot Table"** but this time, check **"Existing sheet"** which is **"Dashboard"**. Enter the approprate data range in **"Dashboard"** sheet to put the table. 
+4. Select **"Insert" > "Pivot Table"** but this time, check **"Existing sheet"** which is **"Dashboard"**. Enter the appropriate data range in **"Dashboard"** sheet to create the table. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivot2.png" width=200>
 </p>
@@ -384,7 +384,7 @@ _Figure 34: Check **"Existing sheet"** in the **"Create pivot table"**_
 </div>  
 <br> 
 
-5. Click **"Edit"** located on the end of left side of the table. Repeat step 3 but select summarization by **"MAX"** instead.
+5. Click **"Edit"** located at the end of left side of the table. Repeat step 3 but select summarization by **"MAX"** instead.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/edit.png" width=150>
 </p>
@@ -403,7 +403,7 @@ _Figure 36: Pivot table setup representing **MAX** Percent_
 </div>  
 <br> 
 
-7. Repeat step 4 & 5 to create another pivot table of **"AVERAGE"**
+6. Repeat step 4 & 5 to create another pivot table of **"AVERAGE"**
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/avg.png" width=200>
 </p>
@@ -413,7 +413,7 @@ _Figure 37: Pivot table setup representing **AVERAGE** Percent_
 </div>  
 <br>   
 
-8. Click **"Edit"** located on the end of left side of the table. Repeat step 4. Drag **"Grade"** to the **"Rows"** and **"Values"** box to get a summarized table categorized by grade. 
+7. Click **"Edit"** located at the end of left side of the table. Repeat step 4. Drag **"Grade"** to the **"Rows"** and **"Values"** box to get a summarized table categorized by grade. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/table.png" width=200>
 </p>
@@ -423,7 +423,7 @@ _Figure 38: Pivot table setup representing **COUNT of Grade**_
 </div>  
 <br> 
 
-9. Click **"Edit"** located on the end of left side of the table. Repeat step 4. Drag **"Status"** to the **"Rows"** and **"Values"** box to get a summarized table categorized by status. 
+8. Click **"Edit"** located at the end of left side of the table. Repeat step 4. Drag **"Status"** to the **"Rows"** and **"Values"** box to get a summarized table categorized by status. 
  
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/statustable.png" width=200>
@@ -434,7 +434,7 @@ _Figure 39: Pivot table setup representing **COUNT of Status**_
 </div>  
 <br> 
 
-10. The created pivot tables will be as follows.
+9. The created pivot tables will be as follows.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pivot.png" width=250>
 </p>
@@ -444,7 +444,7 @@ _Figure 40: Pivot Tables_
 </div>  
 <br>     
 
-11. To create a scorecard, select **"Insert" > "Chart"**. Then, under **"Setup"** in the **"Chart editor"**, select **"Scorecard chart"** located under **"Other"** category.
+10. To create a scorecard, select **"Insert" > "Chart"**. Then, under **"Setup"** in the **"Chart editor"**, select **"Scorecard chart"** located under **"Other"** category.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorecard.png" width=500>
 </p>
@@ -454,7 +454,7 @@ _Figure 41: Selection of **"Scorecard chart"**_
 </div>  
 <br>  
 
-12. Select appropriate data range in the **"Dashboard"** that is the data range of the created pivot table and select **"OK"**.
+11. Select appropriate data range in the **"Dashboard"** sheet that is the data range of the created pivot table and select **"OK"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/datarange.png" width=200>
 </p>
@@ -464,9 +464,9 @@ _Figure 42: Data range_
 </div>  
 <br> 
 
-13. Perform customization for the scorecard like putting the title for the scorecard, selecting the font size and colour.
+12. Perform customization for the scorecard like putting the title for the scorecard, selecting the font size and colour.
     
-14. Repeat step 11-13 to create scorecard representing **"Max percent scorecard"**.
+13. Repeat step 10-12 to create scorecard representing **"Max percent scorecard"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/maxscore.png" width=200>
 </p>
@@ -476,7 +476,7 @@ _Figure 43: Max percent scorecard setup_
 </div>  
 <br>    
 
-15. Repeat step 11-13 to create scorecard representing **"Avg percent scorecard"**.
+14. Repeat step 10-12 to create scorecard representing **"Avg percent scorecard"**.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/avgscore.png" width=200>
 </p>
@@ -486,7 +486,7 @@ _Figure 44: Avg percent scorecard setup_
 </div>  
 <br>  
 
-16. Repeat step 11 but instead of selecting the scorecard, select **"Column chart"** under **"Column"** category. Repeat step 12 get the data range.
+15. Repeat step 10 but instead of selecting the scorecard, select **"Column chart"** under **"Column"** category. Repeat step 12 get the data range.
   <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/column_chart.png" width=200>
 </p>
@@ -505,9 +505,9 @@ _Figure 46: Column chart setup_
 </div>  
 <br>
 
-17. Perform customization for the column chart.
+16. Perform customization for the column chart.
 
-18. Repeat step 11 but instead of selecting the scorecard, select **"Table chart"** under **"Other"** category. Repeat step 12 get the data range.
+17. Repeat step 10 but instead of selecting the scorecard, select **"Table chart"** under **"Other"** category. Repeat step 12 get the data range.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/table_chart.png" width=200>
 </p>
@@ -526,7 +526,7 @@ _Figure 48: Table chart setup_
 </div>  
 <br>
 
-19. Repeat step 11 but instead of selecting the scorecard, select **"Doughnut chart"** under **"Other"** category. Repeat step 12 get the data range.
+18. Repeat step 10 but instead of selecting the scorecard, select **"Doughnut chart"** under **"Other"** category. Repeat step 12 get the data range.
   <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/doughnut_chart.png" width=200>
 </p>
@@ -545,7 +545,7 @@ _Figure 50: Doughnut chart setup_
 </div>  
 <br>
 
-20. Repeat step 11-13 to create total record scorecard, pass rate scorecard and fail rate scorecard.
+19. Repeat step 10-12 to create total record scorecard, pass rate scorecard and fail rate scorecard.
 <p align="center">
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/totalrecord.png" width="200">
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/maxpass.png" width="200">
@@ -558,7 +558,7 @@ _Figure 51: Total record scorecard, Pass rate scorecard and Fail rate scorecard 
 </div>  
 <br>
 
-21. We create another scorecard chart to show the actual number of records.
+20. We create another scorecard chart to show the actual number of records.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorerecorde2.png" width=200>
 </p>
@@ -568,7 +568,7 @@ _Figure 52: Scorecards with the actual record for Pass and Fail Scorecards_
 </div>  
 <br>
 
-22. Perform setup and customization for the Scorecard chart.
+21. Perform setup and customization for the Scorecard chart.
      <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/scorerecord.png" width=200>
 </p>
@@ -587,7 +587,7 @@ _Figure 54: Customization of the Scorecard_
 </div>  
 <br>
 
-23. The dashboard as is in the image below is created.
+22. The dashboard as in the image below is created.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=800>
 </p>
