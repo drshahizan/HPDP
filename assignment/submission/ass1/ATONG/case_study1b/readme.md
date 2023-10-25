@@ -55,7 +55,7 @@
 
 
 
-4. Use format *"=MONTH(DATEVALUE(H2:H324&1))"* to give value of month based on sales month.
+4. Use format **"=MONTH(DATEVALUE(H2:H324&1))"** to give value of month based on sales month.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/92522e8f-e41b-432d-887b-8ae1a74e2b68)
 
 
