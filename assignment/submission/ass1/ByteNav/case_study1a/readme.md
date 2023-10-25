@@ -44,7 +44,7 @@
 <p align="center"><img align="center" alt="Table" width="200" src="percentagedone.png"></p>  
 
 11. Use formula **"=IF(P2>=90,"A+",IF(P2>=80,"A",IF(P2>=75,"A-",IF(P2>=70,"B+",IF(P2>=65,"B",IF(P2>=60,"B-",IF(P2>=55,"C+",IF(P2>=50,"C",IF(P2>=45,"C-",IF(P2>=40,"D+",IF(P2>=35,"D",IF(P2>=30,"D-","E"))))))))))))"** to assign the grade of each record.
-<p align="center"><img align="center" alt="Equation" width="1200" src="grade.png"></p> 
+<p align="center"><img align="center" alt="Equation" width="1200" src="grade_formula.png"></p> 
 <p align="center"><img align="center" alt="Table" width="200" src="gradedone.png"></p>
 
 12. Use formula **"=IF(P2>=65,"Pass","Fail")"** to categorize the grades as PASS or FAIL.
