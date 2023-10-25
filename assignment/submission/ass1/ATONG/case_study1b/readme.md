@@ -74,6 +74,7 @@
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/f998bec5-ad76-4235-9d22-c4753a79b640)
 
 
+<br><br>
 
 ## Pivot Table
 ### Pivot Table for Monthly Sales
@@ -133,6 +134,7 @@
     Result Displayed:
       ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
 
+<br><br>
 
 ## Chart
 ### Chart for Monthly Sales
@@ -166,6 +168,7 @@
 
 
 
+<br><br>
 
 ## Adding Slicer
 29. Click on **Insert** » **Add Slicer**.
