@@ -1,4 +1,4 @@
-<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
+![image](https://github.com/drshahizan/HPDP/assets/93655477/894fd10c-22a8-4b27-9ad3-a6af78df0226)<a href="https://github.com/drshahizan/BDM/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/BDM" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/network/members"><img src="https://img.shields.io/github/forks/drshahizan/BDM" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/BDM/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/BDM" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/BDM"><img src="https://img.shields.io/github/issues/drshahizan/BDM" alt="Issues Badge"/></a>
@@ -12,7 +12,11 @@
 ## Dataset information
 This dataset is called Dataset2.txt. This dataset has nine columns which are CUSTOMER, PRODUCTS, SALES PERSON, Sales Region, Target, SALES, SALES YEAR, SALES MONTH	and SALES QTR.
 
-**Source**: https://docs.google.com/spreadsheets/d/1vUogP0glv5RVHAp1kRcJCLvHPztVrFxzTwvV4YZCsiE/edit?usp=sharing 
+**Source**: https://docs.google.com/spreadsheets/d/1vUogP0glv5RVHAp1kRcJCLvHPztVrFxzTwvV4YZCsiE/edit?usp=sharing
+
+<p align="center">
+  <img src="images/0.png" alt="Image Description">
+</p> 
 
 ### Importing data :
  1. Import the Dataset2.txt into Google Sheets, on the left upper menu bar, choose "File" -> "Import".
@@ -49,7 +53,7 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
   <img src="images/7.png" alt="Image Description">
 </p>
 
-4. The output is shown in the image below: 
+4. The output is shown below: 
 <p align="center">
   <img src="images/8.png" alt="Image Description">
 </p>
@@ -64,7 +68,7 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
   <img src="images/10.png" alt="Image Description">
 </p>
 
-7. For the Sales Monthly Chart, the output of the chart is shown below:
+7. For the Sales Monthly Chart, the chart is shown below:
 <p align="center">
   <img src="images/11.png" alt="Image Description">
 </p>
@@ -74,10 +78,88 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
 ### Customer
 
 ### Salesperson
+1. Do the same steps in Monthly sales charts from step 1 until step 3. However, this time choose "Sales Product" and "PRODUCTS" as Rows. Then, choose "Sales". 
+<p align="center">
+  <img src="images/12.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/13.png" alt="Image Description">
+</p>
+
+2. For the filter part, choose SALES, click on "Filter by condition", click on "is not empty" and close the editor.
+<p align="center">
+  <img src="images/15.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/14.png" alt="Image Description">
+</p>
+
+3. The output is shown below:
+<p align="center">
+  <img src="images/16.png" alt="Image Description">
+</p>
+
+4. Select the table we just created, click on "Insert" and click on "Chart".
+<p align="center">
+  <img src="images/17.png" alt="Image Description">
+</p>
+
+5. In Chart Editor, choose "Stacked column chart" and ensure that the data range is correct. Set the X-axis as a "SALES PERSON" column and the Series as "Cooking Oil", "Flour", "Milk" and "Sugar".
+<p align="center">
+  <img src="images/18.png" alt="Image Description">
+</p>
+
+6. For the Salesperson chart, the chart is shown below:
+<p align="center">
+  <img src="images/19.png" alt="Image Description">
+</p>
+
 
 ### Sales Trend
+1. Do the same steps in Monthly sales charts from step 1 until step 3. However, this time choose "Sales Product" and "PRODUCTS" as Rows. Then, choose "Sales". 
+<p align="center">
+  <img src="images/20.png" alt="Image Description">
+</p>
+<p align="center">
+  <img src="images/21.png" alt="Image Description">
+</p>
+
+2. The output is shown below:
+<p align="center">
+  <img src="images/22.png" alt="Image Description">
+</p>
+
+3. Select the table we just created, click on "Insert" and click on "Chart".
+<p align="center">
+  <img src="images/23.png" alt="Image Description">
+</p>
+
+4. In Chart Editor, choose "Smooth line chart" and ensure that the data range is correct. Set the X-axis as a "SALES MONTH" column and the Series as "SUM of SALES".
+<p align="center">
+  <img src="images/24.png" alt="Image Description">
+</p>
+
+5. For the Sales trend chart, the chart is shown below:
+<p align="center">
+  <img src="images/25.png" alt="Image Description">
+</p>
 
 ## Slicer
+1. First of all, Slicers provide buttons that you can click to filter tables or PivotTables. In addition to quick filtering, slicers also indicate the current filtering state, which makes it easy to understand what exactly is currently displayed. The image below is what we called Slicer.
+<p align="center">
+  <img src="images/26.png" alt="Image Description">
+</p>
+
+2. To create Slicer, you just need to click on "Data" and click on "Add a slicer".
+<p align="center">
+  <img src="images/27.png" alt="Image Description">
+</p>
+
+3. In a Slicer editor, you can choose any Column that you decide to filter.
+<p align="center">
+  <img src="images/28.png" alt="Image Description">
+</p>
+
 
 
 ## Contribution 🛠️
