@@ -10,7 +10,6 @@
 ## Group Name: (3H) HAHAHA
 
 - [Assignment 1a: Examination results](#assignment-1a-examination-results)
-   * [Group Name: (3H) HAHAHA](#group-name-3h-hahaha)
    * [Data Preprocessing](#data-preprocessing)
       + [Import Data from .txt](#import-data-from-txt)
       + [Set number format](#set-number-format)
