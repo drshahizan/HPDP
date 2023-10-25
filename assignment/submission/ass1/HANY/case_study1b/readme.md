@@ -20,7 +20,7 @@
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Data Importation](#2-data-importation)
-   - 2.1. [Import Dataset](#2.1-import-dataset)
+   - 2.1. [Import Dataset](#2-1-import-dataset)
    - 2.2. [Enhance Dataset Appearance](#2.2-enhance-dataset-appearance)
 3. [Data Processing](#4-data-preprocessing)
 4. [Data Visualisation](#5-data-visualisation)
