@@ -103,6 +103,7 @@
 <p align="center"> <em> Figure 22: Text color to colour the columns </em> </p> 
 <p align="center"><img align="center" alt="Table" width="400" src="redcolor_column.png"></p> 
 <p align="center"> <em> Figure 23: The columns colour in red </em> </p> 
+Use "CTRL + Shift + ↓(Downward Arrow)" to select the whole column, repeat this step on column L, M and L. Then, change the text colour into red colour.
 
 ## Create Dashboard <a name = "create_dashboard"> </a>
 1. Create and rename **"Dashboard"** at new spreadsheet.
