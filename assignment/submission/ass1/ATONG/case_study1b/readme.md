@@ -21,6 +21,7 @@
 <br><br>
 ## Table of Contents
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
+- * [Importing Datasets](#importing-datasets)
    * [Table of Contents](#table-of-contents)
        - [Monthly Sales](#monthly-sales)
    * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
@@ -28,7 +29,9 @@
    * [Contribution 🛠️](#contribution-)
  
      <br><br>
-     
+
+
+## Importing Datasets
 1. Import Dataset2.txt into Google Sheets. **[File >> Import]**
   ![image](https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c)
 
