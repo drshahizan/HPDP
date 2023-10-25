@@ -57,17 +57,24 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 #### How to create Pivot table
 
-1. In the spreadsheet, select all the values in the dataset by using the command **CTRL A**. Then go to **Insert >> Pivot table**.![image]
-2. In the data range option, make sure the value is the one that has been selected before. Make the pivot table in a new sheet.![image]
-3. A new sheet will be created which has the pivot table.![image]
+1. In the spreadsheet, select all the values in the dataset by using the command **CTRL A**. Then go to **Insert >> Pivot table**.![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/create%20pivot%20table.png)
+2. In the data range option, make sure the value is the one that has been selected before. Make the pivot table in a new sheet.![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/data%20range%20pivot%20table.png)
+3. A new sheet will be created which has the pivot table.![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/pivot%20table.png)
    
 #### Monthly Sales
 
-1. Create a new pivot table
+1. Create a new pivot table just like the previous step.
 2. In the pivot table editor, select:
-   * for rows, add **MONTH INDEX** and **SALES MONTH** column.
-   * for values, add **SALES** and **TARGET** column. For both columns, summarize by **SUM**
-3. 
+   * for rows, add **MONTH INDEX** and **SALES MONTH** column. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20rows.png)
+   * for values, add **SALES** and **TARGET** column. For both columns, summarize by **SUM**. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20values.png)
+3. To create the chart, go to **Insert >> Chart**. In the chart editor, setup the chart as below:
+   * Chart type = Stacked area chart
+   * Stacking = Standard
+   * Data range = B1 : D13
+   * X-axis = SALES MONTH
+   * Series = Sum of sales and Sum of target
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/setup%20chart%20monthly.png)
+4. Then customize your chart as you see fit at the customize tab. For example, change the chart title to Monthly Sales.
 
 #### Region
 #### Customer
