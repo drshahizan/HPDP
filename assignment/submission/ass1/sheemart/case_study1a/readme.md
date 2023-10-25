@@ -11,15 +11,26 @@
 ### 🍀Group Name: sheemart
 ### 🌼Group Members
 
-| Name                                     | Matrix Number | Photo |
-| :---------------------------------------- | :-------------: | ------------|
-| MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202 |              |
-| MUHAMMAD NAQUIB BIN ZAKARIA | A20BE0161 |              |
-| MUHAMMAD HAZIM BIN SALMAN | A21EC0078 |              |
-| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 |                  |
+| Name                                     | Matrix Number | 
+| :---------------------------------------- |--------------|
+| MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202 |              
+| MUHAMMAD NAQUIB BIN ZAKARIA | A20BE0161 |              
+| MUHAMMAD HAZIM BIN SALMAN | A21EC0078 |              
+| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 |                  
 
 ------
 ## 🌟Table of content
+
+| Step | Description |
+| --- | --- |
+| [Dataset Information](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#dataset-information) | Information about the dataset |
+| [1. Import Dataset into Google Sheet](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#1-import-dataset-into-google-sheet) | Instructions for importing the dataset into Google Sheet |
+| [2. Perform Data Processing](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#2-perform-data-processing) | Steps for processing the data |
+| [3. Create Dashboard in Google Sheet](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#3-create-dashboard-in-google-sheet) | Guide for creating a dashboard in Google Sheet |
+| [4. Final Result](https://github.com/drshahizan/HPDP/edit/main/assignment/submission/ass1/sheemart/case_study1a/readme.md#4-final-result) | Final outcome of the case study |
+
+
+
 
 ------
 
@@ -322,7 +333,7 @@ _Figure 16 : Create pivot table_
 
 </div>
 
-- **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for '**Insert to**' section. Click on the button create.
+- **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for **Insert to** section. Click on the button create.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="300" >
@@ -349,11 +360,10 @@ _Figure 18 : Setup of chart_
     - **Chart type** : Scorecard chart
     - **Data range** : A1:A6905.A2:A6903
     - **Combine ranges** : Horizontally
-    - **Key Value** : Percent and choose either 'min', 'average' and 'max'
+    - **Key Value** : Percent and choose either **'min', 'average' and 'max'**
     - **Tick** on 'Aggregate' and choose Min at the dropdown.
 
-- **Drag and drop Percent **into the Rows section. Set the order to  'Ascending' and sort by 'Percent'. Tick on the 'Show 
-    totals'.
+- **Drag and drop Percent** into the Rows section. Set the order to  **Ascending** and sort by **Percent.** Tick on the **Show totals**.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" width="600">
@@ -365,7 +375,7 @@ _Figure 19 : Change of scoreboard title_
 
 </div>
 
-- By click on **Customize**, please choose** Chart & axis titles**. Enter either **'Min' , 'Average' or 'Max'** for the title text
+- By click on **Customize**, please choose **Chart & axis titles**. Enter either **Min , Average or Max** for the title text
 
   <p align="center">
       
@@ -396,7 +406,7 @@ _Figure 21 : Create pivot table of grading results_
 
 </div>
 
-- Include the **"Grade" **field in the **Rows** section, arranging it in ascending order and sorting the data by grades. Enable the option to **display totals**. For the **Values** section, incorporate the **"Id_No" (numerical) data**.
+- Include the **Grade** field in the **Rows** section, arranging it in ascending order and sorting the data by grades. Enable the option to **display totals**. For the **Values** section, incorporate the **"Id_No (numerical) data**.
 
  <p align="center"> 
 <img  alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b" height="400">
@@ -455,7 +465,8 @@ _Figure 24 : Fill in different colour for each grade_
 _Figure 25 :Output for grading chart_
 
 </div>
------------------
+
+---
 
 #### iii. Show the total number of records. Please display Pass and Fail in the form of a percentage and the number of records.
 

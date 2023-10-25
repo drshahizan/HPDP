@@ -86,9 +86,28 @@ The main goal of this project is to utilize Google Sheets to process and present
 
     Click enter after filling out the formula to autofill the entire column.
 
-
+    The percentage value must be in two decimal places.
 
 ## Obtaining Grade and Status <a name = "grade_status"></a>
+1. Create two new columns, Column Q for Grade and column R for Status.
+
+   The grade and status must be obtained based on the following table.
+
+2. The formula to determine the grade is:
+
+   ='VLOOKUP(P2,$U3:$W16,2)'
+
+   Click enter after filling out the formula to autofill the entire column.
+
+3. The formula to determine the status is:
+
+   '=VLOOKUP(P2,$Y$4:$Z$16,2)'
+
+   Click enter after filling out the formula to autofill the entire column.
+
+   Colour column P with green for Pass and light red for the Pass line.
+
+4. Figure shows the final result of Dataset1 sheet before creating a dashboard.
 
 ## Creating a Dashboard <a name = "dashboard"></a>
 
