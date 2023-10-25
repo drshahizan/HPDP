@@ -124,8 +124,8 @@
 18. Copy all the pivot tables [CLICK CTRL+SHIFT+ RIGHT BUTTON +DOWN BUTTON]. **PASTE** it into a sheet named **"dashboard"**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/2fb3ee54-fe00-4402-8a83-852f349936f9)
 
-Result Displayed:
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
+    Result Displayed:
+      ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
 
 
 
