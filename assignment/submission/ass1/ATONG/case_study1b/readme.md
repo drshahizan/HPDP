@@ -80,7 +80,7 @@
 ## Pivot Table
 ### Pivot Table for Monthly Sales
 
-7. Select all columns by using **Ctrl and Shift**, <br></br?
+7. Select all columns by using **Ctrl and Shift**, <br></br>
    then click on **insert » pivot table » new sheet**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/7563d1e6-a626-4d6b-93e9-46bc780dd511)
 
