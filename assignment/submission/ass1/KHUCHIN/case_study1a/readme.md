@@ -142,7 +142,7 @@ One dataset has been chosen for data analysis based on the case study that was g
 To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that have been provided by the Google Sheet to ease our calculation. For the Min, we will use =MIN(Dataset1!P2:P111520), for the Max we will use  =MAX(Dataset1!P2:P111520) and for average we will use =AVERAGE(Dataset1!P2:P111520). The result will be shown as below
 
 <div align="center">   
-<img src ="">
+<img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC1.png">
 </div>
 
 
