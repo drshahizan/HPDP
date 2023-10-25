@@ -96,7 +96,7 @@
 
 
 
-    
+    <br>
 ### Pivot Table for Region 
 
 10. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
@@ -105,13 +105,14 @@
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/3727fb48-82fa-405b-a942-00b9ab88aafb)
 
 
-
+<br>
 ### Pivot Table for Customer
 12. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
   
 13. Edit the pivot table by choosing **row** and **value**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/4b407df7-ed87-4981-af77-7ddfe0fadb11)
 
+<br>
 ### Pivot Table for SalesPerson
     
 15. Copy the dataset and select the pivot table. Then choose the row and column.
@@ -120,7 +121,7 @@
 16. Select the value to sum the sales by each salesperson.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/e391ac8d-5727-43ac-b99b-f641f08653ac)
 
-
+<br></br>
 ### Pivot Table for Trend
 16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
 17. Select **Rows** and **Values**.
@@ -130,7 +131,7 @@
 
 
 
-<br><br>
+<br></br>
 
 ## Chart
 
@@ -144,28 +145,28 @@
 ### Chart for Monthly Sales
 19. Click **Insert » Chart**.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67)
-
+<br>
 20. Choose the **stacked area chart**, then customize it before arranging it into **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/37a18e02-18d4-4231-b0df-d6815f0204d6)
-
+<br>
 ### Chart for Region
 21. Select the **Region** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 22. Customize it before arranging it into the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853)
-
+<br>
 ### Chart for Customer
 23. Select the **Customer** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 24. Choose **Pie Chart**, then customize it before arranging it into the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/522ec5b3-5e37-4c72-b5f2-045f15885c85)
-
+<br>
 ### Chart for Salesperson
 25. Select the **Customer** pivot table. <br>
     Then repeat [Step 19](#chart-for-monthly-sales).
 26. Choose ** Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
     ![image](https://github.com/drshahizan/HPDP/assets/108865725/2e659da8-329a-4436-a1a8-c10d4adcce05)
-
+<br>
 
 ### Chart for Trend
 27. Select the **Customer** pivot table. <br>
