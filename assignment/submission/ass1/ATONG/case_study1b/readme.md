@@ -19,7 +19,15 @@
 
 
 <br><br>
-
+## Table of Contents
+- [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
+   * [Table of Contents](#table-of-contents)
+   * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
+   * [Dashboard <a name = "dashboard"></a>](#dashboard)
+   * [Contribution 🛠️](#contribution-)
+ 
+     <br><br>
+     
 1. Import Dataset2.txt into Google Sheets. **[File >> Import]**
   ![image](https://github.com/drshahizan/HPDP/assets/108865725/f2a5ec37-8b11-4075-90f2-4e068924440c)
 
@@ -102,6 +110,12 @@
 
 16. Repeat **Step 7** again.
 17. 
+
+
+## Dashboard
+
+
+
 
 
 <br><br>
