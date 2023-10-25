@@ -86,6 +86,17 @@ Figure 6: The (Column Number/10)*3.33 was used in order to obtain the value for 
 </div>
 <br>
 
+6. Every new column has be rounded off by selecting 'Number' from the Format ribbon."
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic9.jpg" width=500>
+</p>
+<div align="center">  
+Figure 12: Rounding off to two decimal places
+</div>
+<br>
+
+
+
 
 
 ## Contribution 🛠️
