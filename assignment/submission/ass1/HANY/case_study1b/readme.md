@@ -21,12 +21,15 @@
 1. [Introduction](#introduction)
 2. [Data Importation](#data-importation)
    - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
-3. [Data Processing](#data-preprocessing)
+3. [Enhance Dataset Appearance](#enhance-dataset-appearance)
+4. [Data Processing](#data-preprocessing)
+5. [Data Visualisation](#data-visualisation)
+6. [Contribution](#contribution)
 
-## 1. Introduction 
+## 1. Introduction
 **CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [Dataset2.txt](https://docs.google.com/spreadsheets/d/1rKwc9vmwvVDqHaBCEf31vlPtSSHoVWJi3Tsy18F0rDk/edit?usp=sharing).
 
-## Importing a Dataset into Google Sheets
+## 2. Data Importation
 To get started with creating a dashboard or begin conducting data analysis, start by importing the dataset into Google Sheets, as illustrated in Figure 1. 
   1. Navigate to the **File** menu, and select the **Import** option.
   2. Browse through the directories by selecting **Browse** button.
@@ -34,11 +37,11 @@ To get started with creating a dashboard or begin conducting data analysis, star
   4. Initiate the import by clicking on **Open** to bring the data into Google Sheets.
   5. Click on the **Import Data** to proceed with the data import.
 
-## Enhance the dataset appearance
+## 3. Enhance Dataset Appearance
   1. Navigate to the **Format** menu and select **Alternating colors**.
   2. Choose the color theme according to preferred appearance.
 
-## Data preparation
+## 4. Data Preprocessing
 In order to facilitate accurate sorting of data in the pivot table in Google Sheets, it is necessary to create an additional column that aligns with column that contains month name to ensure that the data is sorted chronologically by month, as Google Sheets typically defaults to alphabetical sorting.
   1. Locate the column containing **"SALES MONTH"** (cell H).
   2. **Insert** a new column named **"NUMERICAL MONTH"**.
@@ -55,7 +58,7 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
   8. Go to the **Format** menu, hover over **Sort range**, and then select **Advanced range sorting options**.
   9. Check the box labeled **Data has header row** and choose the **NUMERICAL MONTH** column in the dropdown menu. Opt for the **A-Z** sorting order.
 
-## Data Analysis
+## 5. Data Visualisation
   1. Navigate to the **Insert** menu and select **Pivot table**.
   2. Click on the header of the first column (CUSTOMER), and press **CTRL + SHIFT + RIGHT ARROW KEY** and **CTRL + SHIFT + DOWN ARROW KEY** to highlight all the columns and rows that contain data without including any blank cells.
   3. Proceed to create the pivot table by clicking on **Create**.
