@@ -24,22 +24,28 @@
 + [Contributions](#contribution)
 
 ## Import Dataset <a name = "dataset_import"></a>
-1. Import the Dataset1.txt to Google Sheets, click on the **"File"** menu and select **"Import"**.
+1. Click on the **"File"** menu and select **"Import"**.
 <p align="center"><img align="center" alt="Coding" width="400" src="import.jpeg"></p>
+<p align="center"> <em> Figure 1: Import data </em> </p> 
 
 2. Click on the **"Upload"** and select the file to import from computer.
-<p align="center"><img align="center" alt="Coding" width="400" src="importselectfile.jpeg"></p>  
+<p align="center"><img align="center" alt="Coding" width="400" src="importselectfile.jpeg"></p> 
+<p align="center"> <em> Figure 2: Upload data </em> </p> 
 
 3. Click **"Import data"** button after configuring the setting.
-<p align="center"><img align="center" alt="Coding" width="400" src="importfile.jpeg"></p>   
+<p align="center"><img align="center" alt="Coding" width="400" src="importfile.jpeg"></p>
+<p align="center"> <em> Figure 3: Import data </em> </p>
 
 4. The data was imported sucessfully.
-<p align="center"><img align="center" alt="Coding" width="400" src="afterimport.png"></p>  
+<p align="center"><img align="center" alt="Coding" width="400" src="afterimport.png"></p>
+<p align="center"> <em> Figure 4: Dataset2 was imported sucessfully </em> </p> 
 
 ## Data Processing <a name = "data_processing"> </a>
-1. Use formula **"=UNIQUE(range, by_column, exactly_once)"** to get return of the rows in the order in which they first appear, same procedure apply to sales person, product, sales region, customer, sales year, sales month, and sales qtr.
-<p align="center"><img align="center" alt="Formula" width="400" src="unique.png"></p>  
+1. Use function **"=UNIQUE(range, by_column, exactly_once)"** to get return of the rows in the order in which they first appear, same procedure apply to sales person, product, sales region, customer, sales year, sales month, and sales qtr.
+<p align="center"><img align="center" alt="function" width="400" src="unique.png"></p>
+<p align="center"> <em> Figure 5: Use UNIQUE function to get return of the rows in the order in which they first appear </em> </p> 
 <p align="center"><img align="center" alt="Coding" width="400" src="uniquedone.png"></p>  
+<p align="center"> <em> Figure 6: The filtered data after using UNIQUE function  </em> </p> 
 
 2. Use **"data validation"** to build the dropdown menu.
 <p align="center">
@@ -47,21 +53,33 @@
   <img src="dropdowndatavalidation.png" width="200" />
 </p>
 <p align="center"><img align="center" alt="Coding" width="400" src="dropdowndatarange.png"></p>  
+<p align="center"> <em> Figure 7 & 8 & 9: Use data validation to build dropdown menu  </em> </p> 
 <p align="center"><img align="center" alt="Table" width="400" src="dropdowndone.gif"></p>  
+<p align="center"> <em> Gif 1: The built dropdown menu after using data validation </em> </p> 
 
-3. Use formula **"=QUERY(data, query, [headers])"** to retrieve the data.
-<p align="center"><img align="center" alt="Formula" width="400" src="query.png"></p>  
+3. Use function **"=QUERY(data, query, [headers])"** to retrieve the data.
+<p align="center"><img align="center" alt="function" width="400" src="query.png"></p> 
+<p align="center"> <em> Figure 10: Use QUERY function to retrieve the data  </em> </p> 
 
-4. Use formula **"IF(logical_expression, value_if_true, value_if_false)"** to combine with **QUERY function** to filter or query data based on specific criteria.
-<p align="center"><img align="center" alt="Formula" width="400" src="if.png"></p>  
+4. Use function **"IF(logical_expression, value_if_true, value_if_false)"** to combine with **QUERY function** to filter or query data based on specific criteria.
+<p align="center"><img align="center" alt="function" width="400" src="if.png"></p> 
+<p align="center"> <em> Figure 11: Use IF function to filter the data  </em> </p> 
 
-6. Use formula **"=CONCATENATE(string1, [string2, ...])"** to combine the cells without losing data.
-<p align="center"><img align="center" alt="Formula" width="400" src="concatenate.png"></p>  
+6. Use function **"=CONCATENATE(string1, [string2, ...])"** to combine the cells without losing data.
+<p align="center"><img align="center" alt="function" width="400" src="concatenate.png"></p>  
+<p align="center"> <em> Figure 12: Use CONCATENATE function to combine the cells  </em> </p> 
 
 7. Repeat step 3 to step 6 with sales region, sales product, sales person, customers, and month.
-
+  
 8. The completed dropdown menu.
-<p align="center"><img align="center" alt="Table" width="500" src="filterdone.gif"></p>  
+<p align="center"><img align="center" alt="Table" width="500" src="filterdone.gif"></p>
+<p align="center"> <em> Gif 2: The completed dropdown menu  </em> </p> 
+
+9. Use function **"=QUERY(data, query, [headers])"** to calculate the sum of sales and target.
+<p align="center"><img align="center" alt="function" width="400" src="sum.png"></p> 
+<p align="center"> <em> Figure 13: Use QUERY function to select column H and calculate the sum of columns F and E, grouped by column H </em> </p> 
+<p align="center"><img align="center" alt="function" width="400" src="sumofsalesandtarget.png"></p> 
+<p align="center"> <em> Figure 14: The calculated sum of sales and target</em> </p> 
 
 ## Dashboard  <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="500" src="dashboard.gif"></p>  
