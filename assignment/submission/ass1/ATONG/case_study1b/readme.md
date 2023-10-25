@@ -29,6 +29,11 @@
       - [Salesperson](#salesperson)
       - [Trend](#trend)
    * [Chart <a name = "chart"></a>](#chart)
+      - [Chart for Monthly Sales](#chart-for-monthly-sales)
+      - [Chart for Region](#chart-for-region)
+      - [Chart for Salesperson](#chart-for-salesperson)
+      - [Chart for Trend](#chart-for-trend)
+   * [Adding Slicer](#adding-slicer)
    * [Dashboard <a name = "dashboard"></a>](#dashboard)
    * [Contribution 🛠️](#contribution-)
  
@@ -130,6 +135,35 @@
 
 
 ## Chart
+### Chart for Monthly Sales
+19. Click **Insert » Chart**.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/0b52a7b8-529c-4120-af1f-de9e9104bd67)
+
+20. Choose the **stacked area chart**, then customize it before arranging it into **Dashboard** sheet.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/37a18e02-18d4-4231-b0df-d6815f0204d6)
+
+### Chart for Region
+21. Select the **Region** pivot table. Then repeat [Step 19](#chart-for-monthly-sales).
+22. Customize it before arranging it into the **Dashboard** sheet.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/b202c13a-8971-418a-a838-7902f767d853)
+
+### Chart for Customer
+23. Select the **Customer** pivot table. Then repeat [Step 19](#chart-for-monthly-sales).
+24. Choose **Pie Chart**, then customize it before arranging it into the **Dashboard** sheet.
+    ![image](https://github.com/drshahizan/HPDP/assets/108865725/522ec5b3-5e37-4c72-b5f2-045f15885c85)
+
+### Chart for Salesperson
+25. Select the **Customer** pivot table. Then repeat [Step 19](#chart-for-monthly-sales).
+26. Choose ** Stacked Column Chart**, then customize it to look more organized and presentable in the **Dashboard** sheet.
+
+### Chart for Trend
+27. Select the **Customer** pivot table. Then repeat [Step 19](#chart-for-monthly-sales).
+28. Choose **Smooth Line Chart**, then customize it before arranging it into the **Dashboard** sheet.
+
+
+
+
+## Adding Slicer
 
 ## Dashboard
 
