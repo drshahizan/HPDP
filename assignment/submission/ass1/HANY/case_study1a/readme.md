@@ -20,7 +20,7 @@ Before you can create a dashboard or begin analyzing your data, you must first i
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/166e8597-288a-47e4-8ca9-54a2f43ab6a7" style="width: 500px; height: 200px;">
   <br>
   <img src="https://github.com/drshahizan/HPDP/assets/87573002/be3f5ddb-1eca-4457-9ac4-500c9608432c" style="width: 700px; height: 350px;">  
-  **Figure 1: Importing dataset.**   
+  Figure 1: Importing dataset.   
 </div>
 
   5. Choose **Import Data** and ensure that the **Import location** is set to "Create a new spreadsheet".
