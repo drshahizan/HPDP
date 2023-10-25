@@ -108,7 +108,6 @@
 <p align="center"> <em> Figure 23: The columns colour in red </em> </p> 
    
 ## Create Dashboard <a name = "create_dashboard"> </a>
-### Pass and Fail views by using Doughnut chart <a name = "passfail_dashboard"> </a>
 1. Create and rename **"Dashboard"** at new spreadsheet.
 <p align="center"><img align="center" alt="Table" width="200" src="createnewsheet.png"></p> 
 <p align="center"> <em> Figure 24: Create new speardsheet through "+" button </em> </p> 
@@ -121,10 +120,12 @@
    Insert the new chart by clicking the "Insert" at the menu on top. Then, choose "Chart" to insert it.
 <p align="center"><img align="center" alt="Table" width="200" src="insertchart.png"></p> 
 <p align="center"> <em> Figure 26: Insert new chart</em> </p> 
-<br></br>
+
+### Pass and Fail views by using Doughnut chart <a name = "passfail_dashboard"> </a>
 
 3. Customize and setup the chart
    Setup the chart through the following settings:
+   + Chart type: Doughnut chart
    + Data range: R3:R111521 (Dataset1!R3:R111521)
 
 <p align="center"><img align="center" alt="Table" width="200" src="editchart_passfail.png"></p> 
@@ -136,7 +137,26 @@
 
 5. Result of **"Pass and Fail views Doughnut chart"** dashboard
 <p align="center"><img align="center" alt="Table" width="200" src="passfailviews.png"></p> 
-<p align="center"> <em> Figure 29: Tick the "Final result for Pass and Fail views Doughnut chart" section</em> </p> 
+<p align="center"> <em> Figure 29: Final result for Pass and Fail views Doughnut chart</em> </p> 
+
+### Total Number of Records by using Scorecard chart <a name = "total_dashboard"> </a>
+6. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Scorecard chart
+   + Data range: R2:R111521 (Dataset1!R2:R111521)
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_total.png"></p> 
+<p align="center"> <em> Figure 30: Setup the Total Number of Records chart</em> </p> 
+
+7. Tick the "Aggregate" section and choose "Count"
+<p align="center"><img align="center" alt="Table" width="200" src="aggregate_total.png"></p> 
+<p align="center"> <em> Figure 31: Tick the "Aggregate" section and choose "Count"</em> </p> 
+
+8. Result of **"Total Number of Records Scorecard chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="total.png"></p> 
+<p align="center"> <em> Figure 29: Final result for Total Number of Records Scorecard chart</em> </p> 
+
+### Total Number of Records by using Scorecard chart <a name = "total_dashboard"> </a>
 
 ## Dashboard <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
