@@ -154,9 +154,33 @@
 
 8. Result of **"Total Number of Records Scorecard chart"** dashboard
 <p align="center"><img align="center" alt="Table" width="200" src="total.png"></p> 
-<p align="center"> <em> Figure 29: Final result for Total Number of Records Scorecard chart</em> </p> 
+<p align="center"> <em> Figure 32: Final result for Total Number of Records Scorecard chart</em> </p> 
 
-### Total Number of Records by using Scorecard chart <a name = "total_dashboard"> </a>
+### Pass Percentage by using Scorecard chart <a name = "pass_dashboard"> </a>
+9. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Scorecard chart
+   + Data range: E26
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_pass.png"></p> 
+<p align="center"> <em> Figure 33: Setup the Pass Percentage chart</em> </p> 
+
+10. Result of **"Pass Percentage Scorecard chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="pass.png"></p> 
+<p align="center"> <em> Figure 34: Final result for Pass Percentage Scorecard chart</em> </p> 
+
+### Fail Percentage by using Scorecard chart <a name = "fail_dashboard"> </a>
+11. Customize and setup the chart
+   Setup the chart through the following settings:
+   + Chart type: Scorecard chart
+   + Data range: E33
+  
+<p align="center"><img align="center" alt="Table" width="200" src="editchart_fail.png"></p> 
+<p align="center"> <em> Figure 33: Setup the fail Percentage chart</em> </p> 
+
+10. Result of **"Fail Percentage Scorecard chart"** dashboard
+<p align="center"><img align="center" alt="Table" width="200" src="fail.png"></p> 
+<p align="center"> <em> Figure 34: Final result for Fail Percentage Scorecard chart</em> </p> 
 
 ## Dashboard <a name = "dashboard"> </a>
 <p align="center"><img align="center" alt="Table" width="400" src="dashboard.png"></p> 
