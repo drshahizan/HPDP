@@ -126,7 +126,15 @@ One dataset has been chosen for data analysis based on the case study that was g
 <img src ="https://github.com/drshahizan/HPDP/assets/118237589/905b9b10-18e9-4da0-88ab-d5b83426fa3d">
 </div>
 
-19. 
+### Highlighting Pass students
+
+19. To highlight passing students (red for the row and green for the cell) we need to use conditional formatting.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/6eef88f0-68a0-4921-a2c3-49cdfae7ef2c">
+</div>
+
+
 
 
 
