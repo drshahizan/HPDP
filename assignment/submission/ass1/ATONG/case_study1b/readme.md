@@ -28,6 +28,7 @@
       - [Region](#region)
       - [Salesperson](#salesperson)
       - [Trend](#trend)
+   * [Chart <a name = "chart"></a>](#chart)
    * [Dashboard <a name = "dashboard"></a>](#dashboard)
    * [Contribution 🛠️](#contribution-)
  
@@ -128,7 +129,7 @@
       ![image](https://github.com/drshahizan/HPDP/assets/108865725/bfb51c7e-2924-4e25-9832-befc3a8bd882)
 
 
-
+## Chart
 
 ## Dashboard
 
