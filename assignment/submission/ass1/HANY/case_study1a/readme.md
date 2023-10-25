@@ -94,6 +94,7 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/53bd2a16-914d-4bd6-9f9b-4f2ec16bf9aa" style="width: 145px; height: 30px;">
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 350px;">
+</div>
 
 ### 3.3. Determine the Top Three Values
 <div align="center">
@@ -104,7 +105,7 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/91afc21c-d2e8-49a9-8f5a-507c1fff9493" style="width: 145px; height: 30px;">
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/56527951-b23e-46a5-9bd6-60a7b6a2ddf7" style="width: 250px; height: 350px;">
-   
+</div>   
 
 ### 3.4. Total Points Calculation
 <div align="center">
@@ -112,6 +113,7 @@ The following data processing processes must be completed:
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4070a62b-459e-44ee-8f04-4b12b1a33946" style="width: 100px; height: 400px;">
    <br>
+</div> 
 
 ### 3.5. Percentage Value Calculation
 <div align="center">
@@ -119,6 +121,7 @@ The following data processing processes must be completed:
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/eb5cc4c1-9df5-4714-b815-d886fe83a3b4" style="width: 100px; height: 400px;">
    <br>
+</div>
 
 ### 3.6. Grade Assignment
 <div align="center">
@@ -129,6 +132,7 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/c45c123d-7bf6-4714-ac22-582bfbacad45" style="width: 1608px; height: 66px;">
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/dca3f4a6-3bde-465a-a56d-603062ab749c" style="width: 100px; height: 400px;">
+</div>
    
 ### 3.7. Differentiate Status Based on Color
 <div align="center">
@@ -141,19 +145,49 @@ The following data processing processes must be completed:
 </div>
 
 ## 4. Data Visualisation
-
-### 4.1 Dashboarding
-
-
-
-     
-
-
-
-
+<div align="center">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/86d0ed2b-a39e-41b0-b034-81cb872c63ed" style="width: 300px; height: 45px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/770fc064-6571-42be-a02c-c34615657cd4" style="width: 250px; height: 100px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/bbb46451-da8b-4477-b345-69dac50fc675" style="width: 450px; height: 300px;">
+         <br>
+</div>
 
 
+### 4.1 Min, max, and average values
+   1. Min value
+      <div align="center">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/c0268e95-d7f4-4ba2-888c-03dd79bfa9fe" style="width: 300px; height: 450px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/bf535eb6-1a4d-4098-ada8-3edbb12c57fd" style="width: 350px; height: 400px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/8e93cba1-4676-4578-9e95-b32ba7bf82df" style="width: 200px; height: 100px;">
+         <br>
+         
+   2. Max value
+      <div align="center">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/acd7b8a3-590d-476a-9a2c-db28a9d2b1ea" style="width: 300px; height: 500px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/2a0eee56-1129-431f-a2d8-4a84df58f827" style="width: 350px; height: 400px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/05b16016-153b-45ca-80cc-5db09dad5b16" style="width: 200px; height: 100px;">
+         <br>
+         
+   3. Average value
+      <div align="center">
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/9997c395-c404-4076-9fc8-5a00a38b7e02" style="width: 300px; height: 500px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/31b0f553-47c0-4d27-9297-335c04a5394a" style="width: 350px; height: 400px;">
+         <br>
+         <img src="https://github.com/drshahizan/HPDP/assets/106257072/1e3d96f7-1ca1-4175-a2f0-37c01239f4ca" style="width: 200px; height: 100px;">
+         <br>
+      </div>
+         
+### 4.2 Grading Results
+   
 
+      
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
