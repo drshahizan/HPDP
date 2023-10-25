@@ -100,7 +100,7 @@ _Figure 2.2: Copy the data to new sheet_
 
 - For this part, we need to make sure our data is readable ny the computer to ensure smooth calculation and prevent any possible error. As for the database provided, there aren't any missing data or anything that need to be change. How ever for easier usage, we have assigned the month to number so that it is easier to sort. The result is stored in a new column name "Month". We use formula as below: 
 <p align="center">
-<img src="ss6.png"  width="550" height="270">
+<img src="ss6.png">
 </p>
 
 <div align="center">
@@ -111,7 +111,7 @@ _Figure 2.2: Formula for changing the month to number_
 
 - Then we will combine the month and the year so that we can differentiate between same month but in different year. The result is stored in a new column name "YearMonth". For this we use this formula as below:
 <p align="center">
-<img src="ss7.png"  width="550" height="270">
+<img src="ss7.png">
 </p>
 
 <div align="center">
@@ -122,7 +122,7 @@ _Figure 2.2: Formula for combining the year and month_
 
 - After that we will sort the data using the "YearMonth" column as our main in ascending order. The formula is as below:
 <p align="center">
-<img src="ss8.png"  width="550" height="270">
+<img src="ss8.png">
 </p>
 
 <div align="center">
