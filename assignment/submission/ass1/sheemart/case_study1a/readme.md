@@ -329,8 +329,9 @@ _Figure 17 : Output of pivot table_
 
 </div>
 
-
+<p align="center">
 ![Screenshot (1010)](https://github.com/drshahizan/HPDP/assets/89633522/ffe72b0a-85b6-4e7d-ad82-c011c516dc9d)
+</p>
 
 <div align="center">
   
@@ -408,9 +409,9 @@ _Figure 20 : Choose column chart for grading_
 
 ![image](https://github.com/drshahizan/HPDP/assets/89633522/4c3402fa-1b27-475d-9b53-c921047695a4)
 
-<div align="center">
-  
+<div align="center"> 
 _Figure 21 : Fill in different colour for each grade_
+</div>
 
 -  Selecting the right chart type is important. Column charts are excellent for comparing values across different categories, making them suitable for various analytical purposes.
   
@@ -418,7 +419,9 @@ _Figure 21 : Fill in different colour for each grade_
 
 -  To colour the columns, Click on a column to select them all. Right-click and choose 'Format data series'. Under 'Fill color', pick the color that desire.
 
+<p align="center">
 ![image](https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a)
+</p>
 
 <div align="center">
   
