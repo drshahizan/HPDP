@@ -21,7 +21,7 @@
 <br><br>
 ## Table of Contents
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
-- * [Importing Datasets](#importing-datasets)
+   * [Importing Datasets](#importing-datasets)
    * [Table of Contents](#table-of-contents)
       - [Monthly Sales](#monthly-sales)
       - [Region](#region)
