@@ -14,8 +14,8 @@
 | :---------------------------------------- | :-------------: | ------------- |
 | MIKHAIL BIN YASSIN                       |  A21EC0053       |      Pre-processing |
 | FAUZAN AQIL BIN AZMAN                    |    A21EC0174     |    Data Transformation           |
-| YASMEEN NATASHA BINTI HAFIZ SHAHREL      |     A21EC0147    |     Visualisation|   
-| MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |       Documentation         |     
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL      |     A21EC0147    |     Documentation|   
+| MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |       Visualization         |     
    
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
