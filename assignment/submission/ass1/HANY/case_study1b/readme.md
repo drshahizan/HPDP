@@ -63,6 +63,10 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
   7. Once all the pivot tables are created, duplicate and transfer them into a new new sheet named **"Dashboard"**.
   8. To generate the chart, select the related pivot table. Then, go to the **Insert** menu and select **Chart**.
   9. Repeat the process of generating the desired charts and customise the result according to preferred appearance.
+  10. Next, to add a slicer, select the related pivot table, navigate to the **Data** menu and select **Add a slicer**.
+  11. Click on the slicer. From the **Choose a column** dropdown menu, choose the appropriate header to act as the slicer.
+  12. Repeat this process until all desired slicers are created.
+  13. After generating all the charts and slicers, it is time to enhance and organize the dashboard to improve its visual appearance.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
