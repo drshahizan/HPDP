@@ -8,6 +8,14 @@
 # Assignment 1b: Sales performance
 
 ### Group Name: ohSheet
+### Group Members
+
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | ------------- |
+| MIKHAIL BIN YASSIN                       |  A21EC0053       |      Pre-processing |
+| FAUZAN AQIL BIN AZMAN                    |    A21EC0174     |    Data Transformation           |
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL      |     A21EC0147    |     Documentation|   
+| MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |       Visualization         |
 
 ## Table of Contents
 + [About](#about)
