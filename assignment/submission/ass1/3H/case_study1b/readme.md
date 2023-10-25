@@ -21,9 +21,9 @@
 ## Table of Contents
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
-   * [Dataset Information <a name = "dataset_info"></a>](#dataset-information)
-   * [Pivot Table <a name = "pivot_table"></a>](#pivot-table)
-   * [Dashboard <a name = "dashboard"></a>](#dashboard)
+   * [Dataset Information](#dataset-information)
+   * [Pivot Table](#pivot-table)
+   * [Dashboard](#dashboard)
    * [Contribution 🛠️](#contribution-)
   
 ## Dataset Information <a name = "dataset_info"></a>
