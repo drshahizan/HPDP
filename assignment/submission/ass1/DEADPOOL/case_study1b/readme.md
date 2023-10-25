@@ -24,6 +24,7 @@
    * [Table of Contents](#table-of-contents)
      * [Dataset Information](#dataset-information)
      * [Pivot Table](#pivot-table)
+       * [How to create Pivot table](#how-to-create-pivot-table)
        * [Monthly sales](#monthly-sales)
        * [Region](#region)
        * [Customer](#customer)
@@ -35,13 +36,13 @@
 <br>
 
 ### Dataset Information 
-This dataset is named sales performance data.txt. This dataset contains a few columns of data which are Customer, Products, Sales Person, Sales Region, Target, Sales, Sales Year, Sales Month and Sales QTR.
+This dataset is named Dataset2.txt. This dataset contains a few columns of data which are Customer, Products, Sales Person, Sales Region, Target, Sales, Sales Year, Sales Month and Sales QTR.
 
 **Importing Data**
 
 1. In Google Sheet, go to the upper left menu and choose **File >> Import**
    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/import%20data.png)
-2. Then, go to **Upload >> Browse** and select sales performance data.txt file then import the dataset in a new spreadsheet
+2. Then, go to **Upload >> Browse** and select Dataset.txt file then import the dataset in a new spreadsheet
     ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/browse%20data.png)
 3. In this dataset, we created one new column named **MONTH INDEX** which we use to sort the month as we assign values from 1 to 12 to the month.For example, Jan = 1, Feb = 2, and so on.<br>
     ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/month%20index.png)
@@ -54,7 +55,15 @@ This dataset is named sales performance data.txt. This dataset contains a few co
 
 ### Pivot Table
 
+#### How to create Pivot table
+
+1. In the spreadsheet, select all the values in the dataset by using the command **CTRL A**. Then go to **Insert >> Pivot table**.![image]
+2. In the data range option, make sure the value is the one that has been selected before. Make the pivot table in a new sheet.![image]
+3. A new sheet will be created which has the pivot table.![image]
+   
 #### Monthly Sales
+
+
 #### Region
 #### Customer
 #### Salesperson
