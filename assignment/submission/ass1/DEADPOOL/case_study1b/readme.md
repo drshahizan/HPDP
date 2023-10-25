@@ -19,7 +19,7 @@
 
 <br>
 
-### Table of Content
+### **Table of Content**
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
      * [Dataset Information](#dataset-information)
@@ -35,6 +35,7 @@
 <br>
 
 ### Dataset Information 
+*This dataset is named dataset
 
 <br>
 
@@ -47,7 +48,7 @@
 #### Sales Trend
 
 
-
+<br>
 
 
 
@@ -55,7 +56,7 @@
 
 
 
-
+<br>
 
 
 
