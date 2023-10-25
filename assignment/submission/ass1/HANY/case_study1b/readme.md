@@ -8,6 +8,16 @@
 # Assignment 1b: Sales Performance
 
 ### Group Name: HANY
+### Group Members
+
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | :-------------: |
+| ALYA BALQISS BINTI AZAHAR             |A21EC0158      | DOCUMENTATION     |
+| MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | ANALYSIS     |
+|NADIA SYAFIQAH BINTI ZULKIPLI|A21EC0098      | PREPROCESSING     |
+| LIEW YVONNE              |A21EC0045      | VISUALISATION     |
+
+## Table of Contents
 
 ## Importing a Dataset into Google Sheets
 To get started with creating a dashboard or begin conducting data analysis, start by importing the dataset into Google Sheets, as illustrated in Figure 1. 
