@@ -87,7 +87,7 @@ In order to facilitate accurate sorting of data in the pivot table in Google She
   12. Repeat this process until all desired slicers are created.
   13. After generating all the charts and slicers, it is time to enhance and organize the dashboard to improve its visual appearance.
       
-## 6. Contribution 🛠️
+## 6. Contribution
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
