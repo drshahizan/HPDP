@@ -158,15 +158,24 @@ The following data processing processes must be completed:
       
    **Figure 13: Display the new column named TM.**
    <br>
-</div> 
+   </div> 
 
 ### 3.5. Percentage Value Calculation
-<div align="center">
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/cf14d79d-0c70-459e-a7a5-7703c6b4f84a" style="width: 145px; height: 35px;">
+   11. Using the formula below, compute the percentage value for the data in column O. 
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/cf14d79d-0c70-459e-a7a5-7703c6b4f84a" style="width: 120px; height: 30px;">
+   
+   **Figure 14: Shows the formula to calculate the percentage for TM column.**
    <br>
-   <img src="https://github.com/drshahizan/HPDP/assets/106257072/eb5cc4c1-9df5-4714-b815-d886fe83a3b4" style="width: 100px; height: 400px;">
+   </div>
+   
+   12. As a result, a new column entitled **Percent** will be created.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/eb5cc4c1-9df5-4714-b815-d886fe83a3b4" style="width: 90px; height: 350px;">
+
+   **Figure 15: Display the Percent column.**
    <br>
-</div>
+   </div>
 
 ### 3.6. Grade Assignment
 <div align="center">
