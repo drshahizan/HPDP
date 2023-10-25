@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Muhammad Ashraaf Bin Saleh              |A21EC0068      |   Preprocessing   |
-| Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |   Data Dashboard   |
-| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   Documentation   |
-| Ikmal Bin Khairulezuan              |A21EC0186      |   Results Analyser   |
+| Muhammad Ashraaf Bin Saleh              |A21EC0068      |   PreProcessing , Data Dashboard , Documentation   |
+| Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |   PreProcessing , Data Dashboard , Documentation   |
+| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   PreProcessing , Data Dashboard , Documentation   |
+| Ikmal Bin Khairulezuan              |A21EC0186      |   PreProcessing , Data Dashboard , Documentation   |
 
 ### 📂 Folder content:
 * [📖 Report 1a](./case_study1a/readme.md)
