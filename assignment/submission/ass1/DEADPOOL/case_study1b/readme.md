@@ -81,7 +81,7 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 1. Create a new pivot table.
 2. In the pivot table editor, select:
    * for rows, add **SALES REGION**column. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/region%20rows.png)
-   * for values, add **SALES** column. Make sure **SALES** column is summarised by **SUM**. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/monthly%20values.png)
+   * for values, add **SALES** column. Make sure **SALES** column is summarised by **SUM**. ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/region%20values.png)
 3. To create the chart, go to **Insert >> Chart**. In the chart editor, setup the chart as below:
    * Chart type = Pie chart
    * Data range = A1 : B5
