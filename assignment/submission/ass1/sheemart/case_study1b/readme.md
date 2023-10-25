@@ -426,6 +426,10 @@ _Figure 37: "Total Sales:" Counter_
 
 # 5. sheemart Dashboard
 
+<a name = "sheemart Dashboard"> </a>
+<p align="center"><img align="center" alt="Table" width="500" src="dashboard_gif.gif"></p>  
+<p align="center"> <em> Our completed dashboard </em> </p> 
+
 <p align="center">
 <img width="1233" alt="image" src="https://github.com/drshahizan/HPDP/assets/146797903/4a69feb7-f103-4568-b605-52080040a725">
 </p>
