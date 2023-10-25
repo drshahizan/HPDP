@@ -236,34 +236,61 @@ The following data processing processes must be completed:
    </div>
 
 ### 4.1. Min, max, and average values
-#### Min value
+   4. Set the **Setup** as indicated in **Figure 23** below by clicking **Chart editor**. Check the **Aggregate** and **Use row 2 as headers** boxes. Then select the **Min** option.
    <div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/c0268e95-d7f4-4ba2-888c-03dd79bfa9fe" style="width: 300px; height: 450px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/bf535eb6-1a4d-4098-ada8-3edbb12c57fd" style="width: 350px; height: 400px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/8e93cba1-4676-4578-9e95-b32ba7bf82df" style="width: 200px; height: 100px;">
-         <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/c0268e95-d7f4-4ba2-888c-03dd79bfa9fe" style="width: 300px; height: 450px;">
+   <br>
+      
+   **Figure 23: Displays the setup of chart editor.**
    </div>
-         
-#### Max value
+   
+   5. Choose the **Chart & axis titles**. Select **Chart Title** option and customize the **Title Text** to **Min**. The value of Min will be display as shown in **Figure 25**.
    <div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/acd7b8a3-590d-476a-9a2c-db28a9d2b1ea" style="width: 300px; height: 500px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/2a0eee56-1129-431f-a2d8-4a84df58f827" style="width: 350px; height: 400px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/05b16016-153b-45ca-80cc-5db09dad5b16" style="width: 200px; height: 100px;">
-         <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/bf535eb6-1a4d-4098-ada8-3edbb12c57fd" style="width: 350px; height: 400px;"> 
+   <br>
+
+   **Figure 24: Customization of the chart editor.**
+   <br>
+  
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/8e93cba1-4676-4578-9e95-b32ba7bf82df" style="width: 200px; height: 100px;">
+
+   **Figure 25: Shows the value of Min.**
+    </div>
+    
+   6. Next, display the maximum value by repeating step 4-5 with **Max** option as shown in **Figures 26 and 27** below. Then, it will be displayed as shown in **Figure 28**.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/acd7b8a3-590d-476a-9a2c-db28a9d2b1ea" style="width: 300px; height: 500px;"> 
+   <br>
+      
+   **Figure 26: Displays the setup of chart editor.**
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/2a0eee56-1129-431f-a2d8-4a84df58f827" style="width: 350px; height: 400px;">
+   <br>
+
+   **Figure 27: Customization of the chart editor.**
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/05b16016-153b-45ca-80cc-5db09dad5b16" style="width: 200px; height: 100px;">
+   <br>
+
+   **Figure 28: Shows the value of Max.**
    </div>
-         
-#### Average value
-   <div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/9997c395-c404-4076-9fc8-5a00a38b7e02" style="width: 300px; height: 500px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/31b0f553-47c0-4d27-9297-335c04a5394a" style="width: 350px; height: 400px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/1e3d96f7-1ca1-4175-a2f0-37c01239f4ca" style="width: 200px; height: 100px;">
-         <br>
+
+   7. To get an average result, repeat steps 4-5 with the **Average** option, as shown in **Figures 29 and 30**. **Figure 31** illustrates the outcome of the presented average value.
+   <div alignment="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/9997c395-c404-4076-9fc8-5a00a38b7e02" style="width: 300px; height: 500px;">
+   <br>
+
+   **Figure 29: Displays the setup of chart editor.**
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/31b0f553-47c0-4d27-9297-335c04a5394a" style="width: 350px; height: 400px;">
+   <br>
+
+   **Figure 30: Customization of the chart editor.**
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/1e3d96f7-1ca1-4175-a2f0-37c01239f4ca" style="width: 200px; height: 100px;">
+   <br>
+
+   **Figure 31: Display the value of Average.**
    </div>
          
 ### 4.2 Grading Results
