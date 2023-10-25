@@ -106,8 +106,7 @@ The following data processing processes must be completed:
    <br>
    </div> 
 
-   6. Apply the C2 formula for E2 and F2 simultaneously. The outcomes for these columns are displayed in **Figure 8** below.
-   
+   5. Apply the C2 formula for E2 and F2 simultaneously. The outcomes for these columns are displayed in **Figure 8** below.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/965a0e15-634a-401e-b214-57e95d32bfbd" style="width: 400px; height: 400px;">
    
@@ -116,6 +115,7 @@ The following data processing processes must be completed:
 </div> 
 
 ### 3.3. Determine the Top Three Values
+   6. Determine the maximum values from the data in columns G to K using the formula shown in **Figure 9**.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/a04b939b-2e90-4f16-9122-46b637491ca5" style="width: 145px; height: 30px;">
    <br>
@@ -123,8 +123,14 @@ The following data processing processes must be completed:
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/91afc21c-d2e8-49a9-8f5a-507c1fff9493" style="width: 145px; height: 30px;">
    <br>
+   
+   **Figure 9: Shows the formula used to find the highest value of the columns.**
+   </div>  
+   
+   7. in new column, L to N,
+   <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/56527951-b23e-46a5-9bd6-60a7b6a2ddf7" style="width: 250px; height: 350px;">
-</div>   
+   </div>   
 
 ### 3.4. Total Points Calculation
 <div align="center">
