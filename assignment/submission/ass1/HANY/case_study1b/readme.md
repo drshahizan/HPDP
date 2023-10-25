@@ -31,10 +31,14 @@
 ## 2. Data Importation
 To get started with creating a dashboard or begin conducting data analysis, start by importing the dataset into Google Sheets, as illustrated in Figure 1. 
   1. Navigate to the **File** menu, and select the **Import** option.
-  2. Browse through the directories by selecting **Browse** button.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/a4d8fddf-5f74-495e-8548-70efcea68bd1" width="500"></div>
+  2. Select **Upload** and browse through the directories by selecting **Browse** button.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/c6d3f539-1a72-4759-b7a9-dd8cb8c850ae" width="500"></div>
   3. Locate the dataset file named **Dataset2.txt**.
   4. Initiate the import by clicking on **Open** to bring the data into Google Sheets.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/eb53a195-5e31-4a40-a640-4ffcaa4a1284" width="500"></div>
   5. Click on the **Import Data** to proceed with the data import.
+     <div align="left"><img src="https://github.com/drshahizan/HPDP/assets/121602362/8a868c00-c4f0-4aff-9435-08960dd59ff3" width="500"></div>
 
 ## 3. Enhance Dataset Appearance
   1. Navigate to the **Format** menu and select **Alternating colors**.
