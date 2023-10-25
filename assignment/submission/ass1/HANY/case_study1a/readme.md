@@ -211,20 +211,31 @@ The following data processing processes must be completed:
    </div>
 
 ## 4. Data Visualisation
-<div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/86d0ed2b-a39e-41b0-b034-81cb872c63ed" style="width: 300px; height: 45px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/770fc064-6571-42be-a02c-c34615657cd4" style="width: 300px; height: 100px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/bbb46451-da8b-4477-b345-69dac50fc675" style="width: 450px; height: 300px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/539423ab-4203-40e2-a24a-3e88ee7a02bf" style="width: 400px; height: 450px;">
-         <br>
-</div>!
+   1. To start visualizing the data, select the dataset which is **Dataset1**.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/86d0ed2b-a39e-41b0-b034-81cb872c63ed" style="width: 300px; height: 45px;">
 
+   **Figure 20: Display the selected dataset.**
+   <br>
+   </div>
+   
+   2. At the top of Google Sheets, click **Insert** and then select **Chart**.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/87573002/14ec7605-cba6-45e2-b69a-0a414425865a" style="width: 450px; height: 300px;">
+   <br>
 
+   **Figure 21: Display the Insert chart option.**
+   </div>
 
-### 4.1 Min, max, and average values
+   3. Choose **Setup** to select the desired chart type.
+   <div align="center">  
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/539423ab-4203-40e2-a24a-3e88ee7a02bf" style="width: 400px; height: 450px;">
+   <br>
+      
+   **Figure 22: Displays the Setup option, which includes several chart.**
+   </div>
+
+### 4.1. Min, max, and average values
 #### Min value
    <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/c0268e95-d7f4-4ba2-888c-03dd79bfa9fe" style="width: 300px; height: 450px;">
