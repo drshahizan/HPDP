@@ -26,15 +26,16 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
   <img src="images/3.png" alt="Image Description">
 </p>
 
-## Monthly sales chart
+## Charts
+### Monthly sales chart
 
-## Sales region
+### Sales region
 
-## Customer
+### Customer
 
-## Salesperson
+### Salesperson
 
-## Sales Trend
+### Sales Trend
 
 ## Slicer
 
