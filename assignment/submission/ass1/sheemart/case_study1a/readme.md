@@ -162,7 +162,6 @@ _Figure 8: Output of B1,B2,B3_
 
 #### iv. Compute total points by combining the data from column L to N. The total mark value is entered in column O (TM).
 
-
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/190c0f40-3524-4b60-8e9a-ca9841b97f5d">
 </p>
@@ -298,7 +297,7 @@ _Figure 14 : Final ouput of the sheet_
 #### i. Create minimum, maximum and average.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/3c455373-496c-458e-8e50-2756f5eaa05c">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/3c455373-496c-458e-8e50-2756f5eaa05c"   height="500">
 </p>
 
 
@@ -309,7 +308,7 @@ _Figure 15 : Choose pivot table_
 </div>
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ef3f09fe-5da6-424c-91f5-2d91272a362a">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/ef3f09fe-5da6-424c-91f5-2d91272a362a"   height="400">
 </p>
 
 <div align="center">
@@ -321,7 +320,7 @@ _Figure 16 : Create pivot table_
 - **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for '**Insert to**' section. Click on the button create.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="500" >
 </p>
 
 <div align="center">
@@ -350,7 +349,7 @@ _Figure 18 : Setup of chart_
     totals'.
 
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5"  width="500">
+    <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" >
 </p>
 
 <div align="center">
