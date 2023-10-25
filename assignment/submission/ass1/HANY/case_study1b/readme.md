@@ -18,6 +18,13 @@
 | LIEW YVONNE              |A21EC0045      | VISUALISATION     |
 
 ## Table of Contents
+1. [Introduction](#introduction)
+2. [Data Importation](#data-importation)
+   - 2.1. [Importing a Dataset into Google Sheets](#importing-a-dataset-into-google-sheets)
+3. [Data Processing](#data-preprocessing)
+
+## 1. Introduction 
+**CASE STUDY 2: Sales Performance** presents an engaging challenge of creating a dynamic dashboard to analyze and visualize sales performance based on a provided dataset which is [dataset2.txt](path/to/dataset2.txt).
 
 ## Importing a Dataset into Google Sheets
 To get started with creating a dashboard or begin conducting data analysis, start by importing the dataset into Google Sheets, as illustrated in Figure 1. 
