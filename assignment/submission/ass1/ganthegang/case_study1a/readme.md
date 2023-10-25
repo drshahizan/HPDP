@@ -76,7 +76,7 @@ Figure 4: Import Dataset
 
 </div>
 
-5. Press To select all the data in the Academic column at once and move it to the Test_2 column, use Ctrl + Shift  and select Academic, Sports, Co-Curriculum, Test 1 and Test 2.
+5. Select the Academic column and  to the Test_2 column, press Ctrl + Shift, select Academic, Sports, Co-Curriculum, Test 1, and Test 2 and round off every new column by clicking on the Format ribbon, then choose 'Number'.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/5.png" width=300>
 </p>
