@@ -237,9 +237,15 @@ The following data processing processes must be completed:
       <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
       <br>
+      **Use two scorecard charts to combine the percentage and number of records
+      <br>
+      - scorecard of percentage
+      <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/822904f4-bae0-404f-8de5-e9cafd6f5d8f" style="width: 300px; height: 450px;">
       <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
+      <br>
+      - scorecard of number of record
       <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
       <br>
@@ -249,17 +255,31 @@ The following data processing processes must be completed:
       <br>
    </div>
 
-
-https://github.com/drshahizan/HPDP/assets/106257072/ad50661b-9ec1-4335-9b37-e1e27deeed7c
 #### Total Numbers of Fail
 <div align="center">
-   <img src="" style="width: 300px; height: 500px;">
+   **for percentage
    <br>
-   <img src="" style="width: 350px; height: 150px;">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/f1ccb9da-9688-4f7c-aa84-158576a77a87" style="width: 300px; height: 500px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/9fd9349a-54db-4af2-b2c3-2ffdc8d35b27" style="width: 300px; height: 500px;">
+   <br>
+   **for number of record
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/4231b14c-e2d9-4dea-b5f7-4e814aee2b12" style="width: 300px; height: 500px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/bae1386b-4456-4022-aa62-06b19b9957c0" style="width: 300px; height: 500px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/b204d576-67a8-44be-a5c0-574e4c94165e" style="width: 300px; height: 150px;">
    <br>
 </div>
 
-
+### 4.4 Pass and Fail View in Pie Chart
+<div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/6583fa91-920e-4179-a221-a8a46b8d2078" style="width: 300px; height: 400px;">
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/e287404a-da5c-456c-a77a-fdcee890cd5c" style="width: 200px; height: 150px;">
+   <br>
+</div>
       
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
