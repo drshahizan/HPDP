@@ -125,7 +125,7 @@
 ### Pivot Table for Trend
 16. Repeat [**Step 7**](#pivot-table-for-monthly-sales) 
 17. Select **Rows** and **Values**.
-    ![image](https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6)
+    <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/b0fd7968-272a-46fd-b502-a16b355b6ad6" width="400"></div>
 
     <div align="center"><img src="https://github.com/drshahizan/HPDP/assets/108865725/0365f03a-ab07-4f05-b918-65a7ba08d7b3" width="400"></div>
 
