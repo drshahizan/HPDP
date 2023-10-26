@@ -40,22 +40,22 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 1. Download the Dataset1.txt file.
 
 2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
-3. 
+   
    <div align="center">
    <img src="import.png" alt="import" width="200px" height="270px">
    </div>
    
-4. Choose the file and click 'Import data'.
+3. Choose the file and click 'Import data'.
 
-5. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
+4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
 
-6. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select column B through column F.
+5. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select column B through column F.
 
-7. Choose 'Format' and click 'Number'.
+6. Choose 'Format' and click 'Number'.
 
-8. Select 'Custom number format' and apply the two decimal values.
+7. Select 'Custom number format' and apply the two decimal values.
 
-9. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be named as below:
+8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be named as below:
    - Academic: P1 (Column G)
    - Sports: P2 (Column H)
    - Co-Curriculum: P3 (Column I)
@@ -71,7 +71,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
    For each column, click enter after filling out the formula to autofill the entire column.
 
-10. Create three new columns named B1 (Column L), B2 (Column M), and B3 (Column N) to determine the top three values based on the values on columns G to K. The new columns represent information as below:
+9. Create three new columns named B1 (Column L), B2 (Column M), and B3 (Column N) to determine the top three values based on the values on columns G to K. The new columns represent information as below:
    - Column L (B1): The highest value
    - Column M (B2): The second highest value
    - Column N (B3): The third highest value
@@ -83,7 +83,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
    For each column, click enter after filling out the formula to autofill the entire column.
 
-11. Create a new column named TM (Column O) to calculate the total points by combining the data from columns L to N. The formula to calculate the total mark value is:
+10. Create a new column named TM (Column O) to calculate the total points by combining the data from columns L to N. The formula to calculate the total mark value is:
    - `=SUM(L2:N2)`
 
    Click enter after filling out the formula to autofill the entire column.
