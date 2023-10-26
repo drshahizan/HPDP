@@ -408,14 +408,76 @@ Figure 30: Slicer for Sales Year, Products, Sales Region, Customer, Sales Person
 
 1. Create **"New sheet"** with name **"dashboard"** in another sheet by pressing the "+" button at the bottom left corner.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1a/28.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/33.png" width=500>
 </p>
 <div align="center"> 
-Figure 25: Creating a new sheet for the dashboard
+Figure 31: Creating a new sheet for the dashboard
 </div>
 <br>
 
+2. At the beginning, selecting "Insert">"Chart" to create a pie chart for the showing the sales in each or selected region. The chart type is selected with **"pie chart"** and the data range is filled with **"Dataset2!A1:I324"** which cover the whole table of Dataset2.
+<br>
 
+3. The label is selected with **"Sales Region"** column. Then the "aggregated" and use "row 1 as header" are checked.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/34.png" width=500>
+</p>
+<div align="center"> 
+Figure 32: Setup of "Region" pie chart
+</div>
+<br> 
+
+4. The similar step is applied on the "Customer" pie chart with the only different setup at the label which is changed to "Customer".
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/35.png" width=500>
+</p>
+<div align="center"> 
+Figure 33: Setup of "Customer" pie chart
+</div>
+<br> 
+
+5. For visualizing the sales made by each sales person, a **"Stacked column chart"** is creeated with a **"Standard"** stacking. The data range is filled with **"AF1:AJ10"** which is the pivot table created before in the Figure 27. Choose the **"Sales person"** under the "X-axis" and select the "Series" with those product for stacking purpose.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/36.png" width=500>
+</p>
+<div align="center"> 
+Figure 34: Setup of "Sales person" stacked column chart
+</div>
+<br> 
+
+6. Check "use row 1 as header" and "use column AF as labels".
+
+7. The "Sales trend" line chart is also constructed with the following setup as shown in the Figure 35.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/37.png" width=500>
+</p>
+<div align="center"> 
+Figure 35: Setup of "Sales trend" smooth line chart
+</div>
+<br>    
+
+8. Customize the line chart with naming the horizontal and vertical axis title as **"SALES MONTH"** and **"SUM OF SALES"**.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/38.png" width=500>
+</p>
+<div align="center"> 
+Figure 36: Customize horizontal axis title of "Sales trend" smooth line chart
+</div>
+<br>
+
+9. A **"Stacked area chart"** with **"Standard"** stacking is setup for visualizing the comparasion between the actual sales and the target sales.
+<br>
+
+10. The data range is filled with the value of **"W12:Y24"** which cover the pivot table constructed on the Figure 23. The "X-axis" is selected as the **"SALES MONTH"** while the "Series" is selected with **"SUM of Target"** and **"SUM of Sales"**. Some box at the below are also checked as shown in the figure below.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/39.png" width=500>
+</p>
+<div align="center"> 
+Figure 37: Setup of "Monthly Sales" stacked area chart
+</div>
+<br>
+
+11. At the end, all the chart is customized to make it look good. For each chart, the chart title is specified and designed with different styles or colours. The title of the dashboard is also placed in the upper position.
 
 
 ## Contribution 🛠️
