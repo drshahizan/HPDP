@@ -104,6 +104,16 @@ Figure 13: For the highest values for column P1, use the formula as shown.
 </div>
 <be>
 
+7. Top 3 values from column P1-P5 are selected.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic11.jpg" width=400>
+</p>
+<div align="center">  
+Figure 13: For the highest values for column P1, use the formula as shown. 
+</div>
+<be>
+
+
 
 
 
