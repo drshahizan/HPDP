@@ -275,6 +275,19 @@ _Figure 3.2.7: Sum of sales and target by month (sorted)_
 </div>
 
 ## 4. Creating Dashboard
+- To design our dashboard, we create charts using the pivot tables and organise them in Google Sheets. In addition, slicers are used as filters in our dashboard. This means that if we need to access specific data, we can simply select the option we want, and the dashboard will display only the data we require.
+
+### 4.1 Slicer
+- We have 5 slicers in our dashboard and all of them can be used for filter the chart in our dashboard.
+
+<p align="center">
+<img src="ss23.png"  width="300" height="200">
+</p>
+
+<div align="center">
+
+_Figure 4.1.1: List of slicer_
+</div>
 
 
 
