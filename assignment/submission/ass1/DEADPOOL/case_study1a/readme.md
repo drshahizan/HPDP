@@ -33,6 +33,16 @@ This dataset describes exam outcomes, allowing us to determine if students passe
 Figure 1: Import Dataset to Google Sheet
 </div>
 
+## Data Preprocessing <a name = "dataset_preprocessing"></a>
+1. Select the range of cells that contain data need to be convert to 2 decimal places and click on the **"Format"**, and select **"Number"**.
+<p align="center"><img align="center" alt="Coding" width="400" src="rounddecimal.png"></p> 
+<p align="center"> <em> Figure 2: Convert the data to 2 decimal places </em> </p> 
+
+2. The data values was displayed in two decimal places.
+<p align="center"><img align="center" alt="Table" width="400" src="rounddecimaldone.png"></p>
+<p align="center"> <em> Figure 3: The data converted to 2 decimal places </em> </p> 
+
+
 ## Data Processing <a name = "processing"></a>
 
 
@@ -42,7 +52,7 @@ Figure 1: Import Dataset to Google Sheet
 </p>
 
 <div align="center">  
-Figure 2: The (Column Number/61)*3.33 was used in order to obtain the value for column P1
+Figure 4: The (Column Number/61)*3.33 was used in order to obtain the value for column P1
 </div>
 <br>
 
@@ -52,7 +62,7 @@ Figure 2: The (Column Number/61)*3.33 was used in order to obtain the value for 
 </p>
 
 <div align="center">  
-Figure 3: The (Column Number/10)*3.33 was used in order to obtain the value for column P2
+Figure 5: The (Column Number/10)*3.33 was used in order to obtain the value for column P2
 </div>
 <br>
 
@@ -62,7 +72,7 @@ Figure 3: The (Column Number/10)*3.33 was used in order to obtain the value for 
 </p>
 
 <div align="center">  
-Figure 4: The (Column Number/15)*3.33 was used in order to obtain the value for column P3
+Figure 6: The (Column Number/15)*3.33 was used in order to obtain the value for column P3
 </div>
 <br>
 
@@ -72,7 +82,7 @@ Figure 4: The (Column Number/15)*3.33 was used in order to obtain the value for 
 </p>
 
 <div align="center">  
-Figure 5: The (Column Number/10)*3.33 was used in order to obtain the value for column P4
+Figure 7: The (Column Number/10)*3.33 was used in order to obtain the value for column P4
 </div>
 <br>
 
@@ -82,7 +92,7 @@ Figure 5: The (Column Number/10)*3.33 was used in order to obtain the value for 
 </p>
 
 <div align="center">  
-Figure 6: The (Column Number/10)*3.33 was used in order to obtain the value for column P5
+Figure 8: The (Column Number/10)*3.33 was used in order to obtain the value for column P5
 </div>
 <br>
 
@@ -91,7 +101,7 @@ Figure 6: The (Column Number/10)*3.33 was used in order to obtain the value for 
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic9.jpg" width=500>
 </p>
 <div align="center">  
-Figure 7: Rounding off to two decimal places
+Figure 9: Rounding off to two decimal places
 </div>
 <br>
 
@@ -100,63 +110,63 @@ Figure 7: Rounding off to two decimal places
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic10.jpg" width=400>
 </p>
 <div align="center">  
-Figure 8: For the highest values for column P1, use the formula as shown. 
+Figure 10: For the highest values for column P1, use the formula as shown. 
 </div>
-<be>
+<br>
 
 8. Top 3 values from column P1-P5 are selected.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic11.jpg" width=400>
 </p>
 <div align="center">  
-Figure 9: For the highest values for column P1, use the formula as shown. 
+Figure 11: For the highest values for column P1, use the formula as shown. 
 </div>
-<be>
+<br>
 
 9. Calculate the total for the three highest values by using the formula SUM(L2:N2).
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic12.jpg" width=400>
 </p>
 <div align="center">  
-Figure 10: Formula to calculate total marks. 
+Figure 12: Formula to calculate total marks. 
 </div>
-<be>
+<br>
 
 10. Change the total marks to percentage by using (O2/10*100) formula.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic13.jpg" width=400>
 </p>
 <div align="center">  
-Figure 11: Formula to calculate total marks. 
+Figure 13: Formula to calculate total marks. 
 </div>
-<be>
+<br>
 
 11. Determine the grade for the students by using the formula shown below.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic14.jpg" width=400>
 </p>
 <div align="center">  
-Figure 12: Formula to determine students' grade. 
+Figure 14: Formula to determine students' grade. 
 </div>
-<be>
+<br>
 
 12. Determine either the students passed or failed the examination. The red rows indicate the students have successfully passed the exam meanwhile the not coloured rows indicate the students failed.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic15.jpg" width=400>
 </p>
 <div align="center">  
-Figure 13: Formula to determine the students passed or failed. 
+Figure 15: Formula to determine the students passed or failed. 
 </div>
-<be>
+<br>
 
-12. Make a dashboard to examine the lowest, maximum, and average score. Additionally, this dashboard computes the percentage of students that passed and failed and gives the number of students for each grade.
+13. Make a dashboard to examine the lowest, maximum, and average score. Additionally, this dashboard computes the percentage of students that passed and failed and gives the number of students for each grade.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic16.jpg" width=400>
 </p>
 <div align="center">  
-Figure 12: Examiniation result dashboard. 
+Figure 16: Examiniation result dashboard. 
 </div>
-<be>
+<br>
 
 
 
