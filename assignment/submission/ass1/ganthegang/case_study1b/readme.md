@@ -400,7 +400,8 @@ Figure 30: Slicer for Sales Year, Products, Sales Region, Customer, Sales Person
 </div>  
 <br>
 
-## Data Visualization <a name = "dashboard"></a>
+## Dashboard <a name = "dashboard"></a>
+### Data visualization
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/Screenshot 2023-10-26 025000.png" width=1000>
 </p>
