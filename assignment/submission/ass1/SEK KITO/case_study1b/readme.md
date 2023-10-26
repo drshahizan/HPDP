@@ -75,12 +75,7 @@
 
 
 
-    Figure 8 : Showing the formula being added in the function tab
-
-![alt_text](images/image25.png "image_tooltip")
-
-
-   Figure 7 : Showing the second cell of column ‘J’ being selected
+    Figure 7 : Showing the second cell of column ‘J’ being selected
 
 
 
