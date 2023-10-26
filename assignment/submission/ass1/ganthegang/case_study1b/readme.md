@@ -408,7 +408,7 @@ Figure 30: Slicer for Sales Year, Products, Sales Region, Customer, Sales Person
 
 1. Create **"New sheet"** with name **"dashboard"** in another sheet by pressing the "+" button at the bottom left corner.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/33.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/33.png" width=800>
 </p>
 <div align="center"> 
 Figure 31: Creating a new sheet for the dashboard
@@ -420,7 +420,7 @@ Figure 31: Creating a new sheet for the dashboard
 
 3. The label is selected with **"Sales Region"** column. Then the "aggregated" and use "row 1 as header" are checked.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/34.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/34.png" width=250>
 </p>
 <div align="center"> 
 Figure 32: Setup of "Region" pie chart
@@ -429,7 +429,7 @@ Figure 32: Setup of "Region" pie chart
 
 4. The similar step is applied on the "Customer" pie chart with the only different setup at the label which is changed to "Customer".
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/35.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/35.png" width=250>
 </p>
 <div align="center"> 
 Figure 33: Setup of "Customer" pie chart
@@ -438,7 +438,7 @@ Figure 33: Setup of "Customer" pie chart
 
 5. For visualizing the sales made by each sales person, a **"Stacked column chart"** is creeated with a **"Standard"** stacking. The data range is filled with **"AF1:AJ10"** which is the pivot table created before in the Figure 27. Choose the **"Sales person"** under the "X-axis" and select the "Series" with those product for stacking purpose.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/36.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/36.png" width=250>
 </p>
 <div align="center"> 
 Figure 34: Setup of "Sales person" stacked column chart
@@ -449,7 +449,7 @@ Figure 34: Setup of "Sales person" stacked column chart
 
 7. The "Sales trend" line chart is also constructed with the following setup as shown in the Figure 35.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/37.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/37.png" width=250>
 </p>
 <div align="center"> 
 Figure 35: Setup of "Sales trend" smooth line chart
@@ -458,7 +458,7 @@ Figure 35: Setup of "Sales trend" smooth line chart
 
 8. Customize the line chart with naming the horizontal and vertical axis title as **"SALES MONTH"** and **"SUM OF SALES"**.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/38.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/38.png" width=250>
 </p>
 <div align="center"> 
 Figure 36: Customize horizontal axis title of "Sales trend" smooth line chart
@@ -470,7 +470,7 @@ Figure 36: Customize horizontal axis title of "Sales trend" smooth line chart
 
 10. The data range is filled with the value of **"W12:Y24"** which cover the pivot table constructed on the Figure 23. The "X-axis" is selected as the **"SALES MONTH"** while the "Series" is selected with **"SUM of Target"** and **"SUM of Sales"**. Some box at the below are also checked as shown in the figure below.
 <p align="center">
-    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/39.png" width=500>
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/ganthegang/case_study1b/HPDP dataset2/39.png" width=250>
 </p>
 <div align="center"> 
 Figure 37: Setup of "Monthly Sales" stacked area chart
