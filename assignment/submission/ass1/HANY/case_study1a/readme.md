@@ -508,7 +508,7 @@ The following data processing processes must be completed:
 
    26. Overview of the Dashboard is shown in **Figure 58** below.
    <div align="center">
-    <img src="https://github.com/drshahizan/HPDP/assets/87573002/31763f1d-b756-4e00-85eb-1f33c79d3776" style="width: 200px; height: 150px;">
+    <img src="https://github.com/drshahizan/HPDP/assets/87573002/31763f1d-b756-4e00-85eb-1f33c79d3776" style="width: 800px; height: 300px;">
 
    **Figure 57: Result of fail and pass doughnut chart.**
    <br>
