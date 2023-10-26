@@ -9,6 +9,11 @@
 
 ### Group Name: KHUCHIN
 
+## Table of Contents
+- [Introduction](#ntroduction)
+- [Data preprocessing](#data-preprocessing)
+  - [Import dataset to Google Sheets](#import-dataset-to-Google-Sheets)
+
 ## Introduction
 
 Google Sheets is a spreadsheet tool that is part of Google's free, web-based Google Docs Editors suite. Google Sheets is accessible as a web app, a mobile app for Android and iOS, and a desktop app for Google's ChromeOS. The software supports Microsoft Excel file formats. Many people, organizations, and corporations use Google Sheets as it provides many variety of features that Google Sheets has capabilities to make many kinds of data management and analytical jobs. Users can use the application to create and edit files online while interacting with other users in real-time. Edits are documented by the user who made them, as well as a revision history. 
