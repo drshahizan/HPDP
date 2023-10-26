@@ -95,6 +95,15 @@ Figure 12: Rounding off to two decimal places
 </div>
 <br>
 
+7. Next, determine which three numbers in columns P1 through P5 are the highest. To fill the value of the columns to the last row, use Ctrl+C, Ctrl+space, and Ctrl+V for each column. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic10.jpg" width=400>
+</p>
+<div align="center">  
+Figure 13: For the highest values for column P1, use the formula as shown. 
+</div>
+<be>
+
 
 
 
