@@ -292,22 +292,33 @@ _Figure 4.1.1: List of slicer_
 - Choose Data from the task bask and click Add a Slicer. Then, select the data range and choose the column that we want. 
 
 <p align="center">
-<img src="ss24.png"  width="300" height="300">
+<img src="ss25.png"  width="300" height=200">
 </p>
 
 <div align="center">
 
-_Figure 4.1.2: List of slicer_
+_Figure 4.1.2: Click Data and Add a slicer_
 </div>
 
 <p align="center">
-<img src="ss24.png"  width="300" height="300">
+<img src="ss26.png"  width="200" height="300">
 </p>
 
 <div align="center">
 
-_Figure 4.1.3: List of slicer_
+_Figure 4.1.3: Select a data range_
 </div>
+
+<p align="center">
+<img src="ss27.png"  width="200" height="400">
+</p>
+
+<div align="center">
+
+_Figure 4.1.4: Select Column_
+</div>
+
+### 4.2 DashBoard 
 
 
 
