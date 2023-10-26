@@ -26,7 +26,9 @@
   - [Scorecard Chart](#scorecard-chart)
   - [Calculation of Minimum, Maximum, and Average](#calculation-of-minimum-maximum-and-average)
   - [Grading chart](#grading-chart)
-  - Creating Total Record, Pass and Fail
+  - [Creating Total Record, Pass and Fail](#creating-total-record-pass-and-fail)
+  - [Pie Chart for Pass and Fail](pie-chart-for-pass-and-fail)
+  - [Dashboard Creation](dashboard-creation)
 - [Analysis of the dataset](#analysis-of-the-dataset)
 
 
@@ -234,6 +236,7 @@ One dataset has been chosen for data analysis based on the case study that was g
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/assets/118237589/5100f4b5-1c34-42bd-aa6a-cbde3abb0262">
 </div>
+
 ### Pie Chart for Pass and Fail
 
 11. To create a pie chart to represent “Pass” and “Fail”, we take the total record for both “Pass” and “Fail” that has been calculated and choose ‘pie chart’ from chart section.
