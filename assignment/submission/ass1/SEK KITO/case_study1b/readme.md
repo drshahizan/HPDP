@@ -31,7 +31,7 @@
     Figure 3 : Image referencing to Dataset2.txt from local machine/computer
 
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](images/image496.png "image_tooltip")
 
 
 
@@ -41,7 +41,7 @@
 
 
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](images/image39.png "image_tooltip")
 
 
 
@@ -51,10 +51,8 @@
 
     
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](images/image46.png "image_tooltip")
 
 
 
@@ -73,11 +71,7 @@
 2. To do this, select the second cell of a new column, J2 for example.
 
 
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](images/image25.png "image_tooltip")
 
 
 Figure 7 : Showing the second cell of column ‘J’ being selected
@@ -86,12 +80,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. Enter the formula “=ARRAYFORMULA(IF(H2:H="", "", VALUE(MATCH(H2:H, {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"}, 0), "0")))” on the function tab above the sheet. The way this formula works is by referencing the ‘SALES MONTH’ column, ‘H’, and converts the month in text form into number form. Make sure not to accidentally select the header cell
 
-    
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](images/image47.png "image_tooltip")
 
 
 
@@ -100,10 +91,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
     
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](images/image33.png "image_tooltip")
 
 
 
@@ -116,12 +104,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 4. A new column will be generated once the formula has been inserted in the function tab
 
-    
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](images/image40.png "image_tooltip")
 
 
 
@@ -136,12 +121,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 1. Create a new sheet and name it as Dashboard
 
-        
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](images/image34.png "image_tooltip")
 
 
 
@@ -149,12 +130,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 2. Select all of the column in your dataset including ‘MONTH NUMBER’
 
-        
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](images/image23.png "image_tooltip")
 
 
 
@@ -167,12 +145,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. Click on the ‘Insert’ button at the top panel and click on ‘Pivot Table’
 
-        
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image14.png "image_tooltip")
+![alt_text](images/image42.png "image_tooltip")
 
 
 
