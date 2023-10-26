@@ -274,6 +274,9 @@ _Figure 3.2.6: Sum of sales by customer_
 _Figure 3.2.7: Sum of sales and target by month (sorted)_
 </div>
 
+## 4. Creating Dashboard
+
+
 
 
 
