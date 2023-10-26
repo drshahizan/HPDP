@@ -231,16 +231,35 @@ Figure 22: Scorecard chart shows number of records/students.
 </div>
 <br>
 
+8. Create a scorecard chart to calculate total amount of students who passed the exam. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic31.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic32.jpg" width=400>
+</p>
+<div align="center">  
+Figure 23: Scorecard chart shows number of students passed. 
+</div>
+<br>
+
+9. Create a scorecard chart to calculate total amount of students who failed the exam. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic33.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic34.jpg" width=400>
+</p>
+<div align="center">  
+Figure 24: Scorecard chart shows number of students failed. 
+</div>
+<br>
 
 
 
 
-13. Make a dashboard to examine the lowest, maximum, and average score. Additionally, this dashboard computes the percentage of students that passed and failed and gives the number of students for each grade.
+10. finalise dashboard for examination results.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic16.jpg" width=400>
 </p>
 <div align="center">  
-Figure 16: Examiniation result dashboard. 
+Figure 25: Examiniation result dashboard. 
 </div>
 <br>
 
