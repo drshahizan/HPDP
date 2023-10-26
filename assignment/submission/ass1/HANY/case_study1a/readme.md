@@ -458,19 +458,19 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/f1ccb9da-9688-4f7c-aa84-158576a77a87" style="width: 300px; height: 500px;">
    
    **Figure 51**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/9fd9349a-54db-4af2-b2c3-2ffdc8d35b27" style="width: 300px; height: 500px;">
 
    **Figure 52**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4231b14c-e2d9-4dea-b5f7-4e814aee2b12" style="width: 300px; height: 500px;">
 
    **Figure 53**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/bae1386b-4456-4022-aa62-06b19b9957c0" style="width: 300px; height: 500px;">
 
    **Figure 54**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/b204d576-67a8-44be-a5c0-574e4c94165e" style="width: 300px; height: 150px;">
 
    **Figure 55**
