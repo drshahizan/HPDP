@@ -38,8 +38,6 @@
 
 We work with a dataset called dataset1.txt. This dataset has five column that contain information about Id_no, Academic, Sports, Co-curiculum, Test_1 and Test_2.
 
-Google Sheet : (https://docs.google.com/spreadsheets/d/1QnBDqq86TcZbKna6d90OCFNhZcOz8nY8N5COSs3UppM/edit#gid=158907566)
-
 ---
 
 ## 1. Import dataset into Google Sheet
@@ -126,13 +124,16 @@ _Figure 6 : Add column P1 in on the sheet_
 </div>
 
 - **Add** column P1, P2, P3, P4 and P5
-- For **column P1**, use formula =(B2/61)*3.33. B2 is row number while 61 is the full mark for Academic column. 3.33 is the maximum value for each column.
+- For **column P1**, use formula =(B2/61)*3.33. This formula calculates the normalized value for the first academic column (P1) based on the value in B2 (which represents the row number) and considering 61 as the full mark for the Academic column. The maximum value is set to 3.33.
 - **Continue** to calculate the value of P2 until P5 by using
   -  P2 = (C2/61)*3.33
   -  P3 = (D2/10)*3.33
   -  P4 = (E2/15)**3.33
   -  P5 = (F2/15)*3.33
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
+
+- These instructions guide the user to calculate normalized values for academic columns P1 to P5 based on specific formulas.
+- Each formula divides the corresponding academic score by the full mark for that column and then scales the result to a maximum value of 3.33, ensuring consistent representation of academic performance across different columns.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/b37b0731-9fc3-402c-816f-8ab3adb82158" width = "400">
@@ -169,6 +170,10 @@ _Figure 8: Output of B1,B2,B3_
   - B3 = *LARGE(UNIQUE(G2:K2),3)*
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
+- These instructions guide the user to add columns B1, B2, and B3 and use specific formulas to calculate the top three highest marks from the range G2 to K2.
+-  B1 calculates the highest mark, B2 calculates the second-highest mark, and B3 calculates the third-highest mark.
+- The LARGE function combined with UNIQUE helps identify these top marks, aiding in the analysis of the dataset.
+
 ------
 
 #### iv. Compute total points by combining the data from column L to N. The total mark value is entered in column O (TM).
@@ -192,6 +197,7 @@ _Figure 9 : Output of TM_
 - The reason behind this formula is to find the total of COLUMN  L2, M2 and N2.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
+- This instruction directs the user to add a new column titled TM and populate it with a formula that calculates the sum of values in columns L, M, and N for each row. The SUM function is used to perform this calculation, providing the total marks for each corresponding entry in the dataset.
 ------
 
 #### V. Please calculate the percentage value for data in the column O. In column P, enter percentage value (Percent). Check that the percentage value is within two decimal places.
@@ -214,6 +220,8 @@ _Figure 10 : Output of Percentage_
 - The reason behind this formula is to find the percentage of of column TM within two decimal places.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
+- These instructions guide the user to create a new column called Percentage and calculate percentages based on the values in column O. The formula multiplies the value in cell O2 by 10 and rounds the result to two decimal places, effectively providing the percentage representation.
+  
   -------
 
  #### vi. Based on Table 3, assist a grade, Column Q is for grade, and column R is for status.
@@ -246,6 +254,7 @@ _Figure 10: Output of Grade_
 - The reason behind this formula is to find the grade based on the mark given.
 - Press **Ctrl + D** to fills and overwrites a cell(s) with the contents of the cell above it in a column.
 
+- These instructions guide the user to add a new column called Grade and populate it with grades based on a specific grading formula. The provided formula assesses the mark in cell P2 and assigns the corresponding grade. 
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/e0a94d7c-0144-4102-8620-662178ba21ff"  height = "400">
@@ -333,7 +342,7 @@ _Figure 16 : Create pivot table_
 
 </div>
 
-- **Choose pivot table** on the **Insert** ribbon. Choose the respective dataset for Data range and choose new sheet for **Insert to** section. Click on the button create.
+- Access the pivot table function from the Insert ribbon. Specify the appropriate dataset as the data range and select a new sheet as the destination under the Insert to section. Finally, click the **Create** button to generate the pivot table.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/d564a9d3-b851-4871-8da6-b48cc6f942fa"  height="300" >
@@ -364,6 +373,10 @@ _Figure 18 : Setup of chart_
     - **Tick** on 'Aggregate' and choose Min at the dropdown.
 
 - **Drag and drop Percent** into the Rows section. Set the order to  **Ascending** and sort by **Percent.** Tick on the **Show totals**.
+
+- These instructions outline the steps to customize a data visualization, specifically a scorecard chart. The user is advised to set the chart type, define the data range, and aggregate the data based on the chosen key value ('min', 'average,' or 'max').
+  
+- Dragging and arranging the 'Percent' field in ascending order and displaying the totals allow for a clear and organized presentation of the data, aiding in better analysis and understanding.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/61d5a63e-8dd3-4543-8cc6-0ed83c4b48e5" width="600">
@@ -406,7 +419,13 @@ _Figure 21 : Create pivot table of grading results_
 
 </div>
 
-- Include the **Grade** field in the **Rows** section, arranging it in ascending order and sorting the data by grades. Enable the option to **display totals**. For the **Values** section, incorporate the **"Id_No (numerical) data**.
+- In the Pivot Table Fields, place the Grade field in the Rows section. 
+  Arrange it in ascending order and sort the data by grades. Enable the 
+  option to display totals for comprehensive insights.
+
+- In the Values section, include the "Id_No (numerical) data to further 
+  enrich the analysis, providing a numerical perspective alongside the 
+  graded information.
 
  <p align="center"> 
 <img  alt="Screenshot 2023-10-25 201353" src="https://github.com/drshahizan/HPDP/assets/89633522/4f8e6659-da3a-408e-9948-155b3871207b" height="400">
@@ -453,8 +472,12 @@ _Figure 24 : Fill in different colour for each grade_
 -  Selecting the right chart type is important. Column charts are excellent for comparing values across different categories, making them suitable for various analytical purposes.
   
 -  To choose chart type, In the Chart Editor on the right, click on **'Setup'**. Under **'Chart type'**, select **'Column chart'**.
+  
+-  It ensures the data is visualized in a way that emphasizes comparisons between different categories, enhancing the viewer's understanding.
 
 -  To colour the columns, Click on a column to select them all. Right-click and choose **'Format data series'**. Under **'Fill color'**, pick the color that desire.
+  
+-  This differentiation aids in emphasizing specific data points, patterns, or trends, making it easier for viewers to identify and interpret critical information within the chart.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/5b81e60a-fbd5-4520-85b9-21e4ef7a8c2a.jpg" width = "600">    
@@ -493,6 +516,8 @@ _Figure 27_
 
 - In the pivot table, place **'Status'** in the rows section. In the columns section, add **'id_no' (number of students)**, and summarize it by count, which is the default setting. Additionally, include **'Id_no (percent)'** and display it as a **percentage of grades**.
 
+-  Therefore, the pivot table effectively communicates the distribution of student statuses, provides numerical insights into the number of students in each category, and offers a percentage-based view for a comprehensive understanding of the grade distribution among students.
+  
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/901dafcc-9485-4b88-ba51-b0275e727013" width = "400">    
 </p>
@@ -516,7 +541,9 @@ _Figure 29 : Doughnut chart setup_
 
 </div>
 
--Place the **'Status'** field in the **Label** section and select the option to use row 6 as headers. Also, check the box for using column **K** as labels.
+- Place the **'Status'** field in the **Label** section and select the option to use row 6 as headers, providing clear labels for each column of data.
+
+- Also, check the box for using column **K** as labels. This configuration ensures that the values from column K will provide specific identifiers or descriptors for the rows, enhancing the clarity and context of the information presented in the pivot table.
 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/assets/89633522/7e105f35-6b3a-49dd-a5ea-b2a2719601be" width = "600">    
