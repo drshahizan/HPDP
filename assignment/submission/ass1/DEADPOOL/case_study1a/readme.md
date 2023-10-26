@@ -211,15 +211,26 @@ Figure 20: Students' grade Table.
 </div>
 <br>
 
-5. Create a doughnut table to illustrate number of students who passed and failed. 
+6. Create a doughnut table to illustrate number of students who passed and failed. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic27.jpg" width=400>
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic28.jpg" width=400>
 </p>
 <div align="center">  
-Figure 20: Students' grade doughnut chart. 
+Figure 21: Students' grade doughnut chart. 
 </div>
 <br>
+
+7. Create a scorecard chart to calculate total amount of students/records. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic29.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic30.jpg" width=400>
+</p>
+<div align="center">  
+Figure 22: Scorecard chart shows number of records/students. 
+</div>
+<br>
+
 
 
 
