@@ -140,12 +140,12 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
    For sales trend, drag “SALES YEAR”, “MONTH NUMBER” and “SALES MONTH”  to “Rows”, then drag “SALES” to the values and lastly drag “SALES YEAR” to “Filters”
    <div align="center">
-   <img src=".png" alt="import" width="200px" height="270px">
+   <img src="salesTrend2.png" alt="import" width="200px" height="270px">
    </div><br>
 
    Here is the result for SALES TREND 
    <div align="center">
-   <img src=".png" alt="import" width="200px" height="270px">
+   <img src="salesTrend3.png" alt="import" width="200px" height="270px">
    </div><br>
 
 
