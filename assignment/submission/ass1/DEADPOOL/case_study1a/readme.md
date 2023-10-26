@@ -164,6 +164,7 @@ Figure 15: Formula to determine the students passed or failed.
 1. Determine the min for student's examination result
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic17.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic18.jpg" width=400>
 </p>
 <div align="center">  
 Figure 16: Min mark for student's examination marks. 
