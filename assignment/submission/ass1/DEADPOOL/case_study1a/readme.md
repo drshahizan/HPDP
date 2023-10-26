@@ -91,7 +91,7 @@ Figure 6: The (Column Number/10)*3.33 was used in order to obtain the value for 
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic9.jpg" width=500>
 </p>
 <div align="center">  
-Figure 12: Rounding off to two decimal places
+Figure 7: Rounding off to two decimal places
 </div>
 <br>
 
@@ -100,19 +100,27 @@ Figure 12: Rounding off to two decimal places
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic10.jpg" width=400>
 </p>
 <div align="center">  
-Figure 13: For the highest values for column P1, use the formula as shown. 
+Figure 8: For the highest values for column P1, use the formula as shown. 
 </div>
 <be>
 
-7. Top 3 values from column P1-P5 are selected.
+8. Top 3 values from column P1-P5 are selected.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic11.jpg" width=400>
 </p>
 <div align="center">  
-Figure 13: For the highest values for column P1, use the formula as shown. 
+Figure 9: For the highest values for column P1, use the formula as shown. 
 </div>
 <be>
 
+9. Calculate the total for the three highest values by using the formula SUM(L2:N2).
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic12.jpg" width=400>
+</p>
+<div align="center">  
+Figure 10: Formula to calculate total marks. 
+</div>
+<be>
 
 
 
