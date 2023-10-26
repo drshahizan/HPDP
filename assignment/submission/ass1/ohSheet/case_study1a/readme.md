@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MIKHAIL BIN YASSIN                       |  A21EC0053       |      Pre-processing |
-| FAUZAN AQIL BIN AZMAN                    |    A21EC0174     |    Data Transformation           |
-| YASMEEN NATASHA BINTI HAFIZ SHAHREL      |     A21EC0147    |     Documentation|   
-| MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |       Visualization         |     
+| MIKHAIL BIN YASSIN                       |  A21EC0053   |    Pre-processing |
+| FAUZAN AQIL BIN AZMAN                    |  A21EC0174   |    Data Transformation |
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL      |  A21EC0147   |    Documentation |   
+| MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |  A21EC0061   |    Visualization |     
 
 ## Table of Contents
 + [About](#about)
@@ -31,7 +31,7 @@ The main goal of this project is to utilize Google Sheets to process and present
 
 We were given **Dataset1** where information about **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2** are contained.
 
-Firstly, we need to **import the data** followed by **preprocessing the data**. Next, **grade** and **status** are obtained. Last but not least, we are tasked to **create a dashboard** to visualize the overall result.
+Firstly, we need to **Import the Data** followed by **Preprocessing the Data**. Next, **Grade** and **Status** are obtained. Last but not least, we are tasked to **Create a Dashboard** to visualize the overall result.
 
 In a nutshell, the project emphasizes practical data manipulation and visualization skills within the context of educational assessment.
 
@@ -39,27 +39,27 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
 1. Download the Dataset1.txt file.
 
-2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
+2. To import the Dataset1.txt file on Google Sheets, choose **File** and click **Import**.
    
    <div align="center">
    <img src="import.png" alt="import" width="200px" height="270px">
    </div><br>
    
-3. Choose the file and click 'Import data'.
+3. Choose the file and click **Import data**.
 
-4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
+4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2**.
    <div align="center">
       <img src="dataset.png" alt="dataset" width="200px" height="270px">
       </div><br>
-5. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select column B through column F.
+5. To convert the **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2** data values to two decimal places, select column B through column F.
    <div align="center">
       <img src="format1.png" alt="format1" width="200px" height="270px">
       </div><br>
-6. Choose 'Format' and click 'Number'.
+6. Choose **Format** and click **Number**.
    <div align="center">
       <img src="format2.png" alt="format2" width="200px" height="270px">
       </div><br>
-7. Select 'Custom number format' and apply the two decimal values.
+7. Select **Custom number format** and apply the two decimal values.
    <div align="center">
       <img src="format3.png" alt="format3" width="200px" height="270px">
       </div><br>
