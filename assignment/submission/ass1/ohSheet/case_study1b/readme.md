@@ -48,6 +48,98 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
 4. Figure shows the data that has been entered into Google Sheets. This dataset contains ten columns: **CUSTOMER**, **PRODUCTS**, **SPORTS**, **SALES PERSON**, **Sales Region**, **Target**, **SALES**, **SALES YEAR**, **SALES MONTH** and **SALES QTR**.
 
+5. Create Pivot table
+   
+   Click “Insert” button then choose “Pivot Table” as shown below
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   Select all the data from the dataset for data range 
+    <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   Then choose whether “Existing sheet” to apply at same page, for “New sheet” it will create and apply at the new sheet. Lastly, click “Create” button to create pivot table
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   Here is the examples of pivot table that already created 
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   
+   SALES REGION
+   
+   For sales region, drag “Sales Region” to “Rows” and “Filters”, then drag “SALES” to the values
+    <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   Here is the result of SALES REGION
+   
+    <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   SALES YEAR
+
+   For Sales year, drag “SALES YEAR” to “Rows”, drag “SALES” to Values and set it as  “SUM”, and lastly drag “SALES YEAR” to “Filters”.
+    <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   Here is the result of SALES YEAR
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   SALES PERSON
+
+   For Customer, drag “CUSTOMER”,  to “Rows”, then drag “PRODUCTS” to the “Columns”, drag “PRODUCTS” to value and set the value as “COUNTA”  and lastly drag “SALES PERSON” to “Filters”
+    <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   Here is the result for SALES PERSON
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   CUSTOMER
+   
+   For Customer, drag “CUSTOMER”  to “Rows”, then drag “PRODUCTS” to the values and lastly drag “CUSTOMER” to “Filters”
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+    Here is the result for CUSTOMER
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+   
+   
+
+   PRODUCTS
+   
+   For monthly sales, drag “SALES PERSON”  to “Rows”, then drag “PRODUCT” to the “Columns”, drag “PRODUCT” to values and set it as “COUNTA” , and lastly drag “SALES PERSON” and “PRODUCTS” to “Filters”
+    <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+   
+   Here is the result for PRODUCTS 
+   <div align="center">
+   <img src="" alt="import" width="200px" height="270px">
+   </div><br>
+
+
+
+
+
+
 ## Creating a Dynamic Dashboard <a name = "dashboard"></a>
 
     
