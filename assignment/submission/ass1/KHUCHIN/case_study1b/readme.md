@@ -281,7 +281,7 @@ _Figure 3.2.7: Sum of sales and target by month (sorted)_
 - We have 5 slicers in our dashboard and all of them can be used for filter the chart in our dashboard.
 
 <p align="center">
-<img src="ss23.png"  width="300" height="200">
+<img src="ss24.png"  width="300" height="300">
 </p>
 
 <div align="center">
@@ -289,7 +289,25 @@ _Figure 3.2.7: Sum of sales and target by month (sorted)_
 _Figure 4.1.1: List of slicer_
 </div>
 
+- Choose Data from the task bask and click Add a Slicer. Then, select the data range and choose the column that we want. 
 
+<p align="center">
+<img src="ss24.png"  width="300" height="300">
+</p>
+
+<div align="center">
+
+_Figure 4.1.2: List of slicer_
+</div>
+
+<p align="center">
+<img src="ss24.png"  width="300" height="300">
+</p>
+
+<div align="center">
+
+_Figure 4.1.3: List of slicer_
+</div>
 
 
 
