@@ -269,7 +269,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
 18. Figure shows the created dashboard.
     <div align="center">
-   <img src="dashbboard.png" alt="dashboard">
+   <img src="dashboard.png" alt="dashboard">
    </div><br>
 
 ## Contribution 🛠️
