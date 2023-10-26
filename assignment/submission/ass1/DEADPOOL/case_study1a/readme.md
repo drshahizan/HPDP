@@ -167,9 +167,30 @@ Figure 15: Formula to determine the students passed or failed.
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic18.jpg" width=400>
 </p>
 <div align="center">  
-Figure 16: Min mark for student's examination marks. 
+Figure 16: Min mark for student's examination results. 
 </div>
 <br>
+
+2. Determine the max for student's examination result
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic19.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic20.jpg" width=400>
+</p>
+<div align="center">  
+Figure 16: Max mark for student's examination results. 
+</div>
+<br>
+
+3. Determine the average for student's examination result
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic21.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic22.jpg" width=400>
+</p>
+<div align="center">  
+Figure 16: Average mark for student's examination results. 
+</div>
+<br>
+
 
 
 
