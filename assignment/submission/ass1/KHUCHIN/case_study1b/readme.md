@@ -141,6 +141,7 @@ _Figure 3.3: Formula for sorting the data_
 <div align="center">
 
 _Figure 3.1.1: Selecting all data from TempData_
+</div>
 
 <p align="center">
 <img src="ss10.png"  width="500" height="500">
@@ -149,6 +150,7 @@ _Figure 3.1.1: Selecting all data from TempData_
 <div align="center">
 
 _Figure 3.1.2: Choose Insert and Pivot table_
+</div>
 
 <p align="center">
 <img src="ss11.png"  width="400" height="400">
@@ -157,6 +159,7 @@ _Figure 3.1.2: Choose Insert and Pivot table_
 <div align="center">
 
 _Figure 3.1.2: Choose Create to create pivot table_
+</div>
 
 <p align="center">
 <img src="ss12.png"  width="750" height="100">
@@ -165,6 +168,45 @@ _Figure 3.1.2: Choose Create to create pivot table_
 <div align="center">
 
 _Figure 3.1.2: New sheet named Pivot Table 1 was created_
+</div>
+
+- Choose Pivot Table 1, and we can choose any data that we want to be inserted in the pivot table. From the Pivot table editor, just drag the data that we want to the Rows, Columns, Values or Filters. Then the pivot table will be ready. Click on the pivot table and click Insert from the task bar, then choose Chart, and the suitable chart based on the pivot table will be produced. Click edit chart, and then we customize the chart.
+
+<p align="center">
+<img src="ss9.png"  width="500" height="500">
+</p>
+
+<div align="center">
+
+_Figure 3.1.1: Selecting all data from TempData_
+</div>
+
+<p align="center">
+<img src="ss10.png"  width="500" height="500">
+</p>
+
+<div align="center">
+
+_Figure 3.1.2: Choose Insert and Pivot table_
+</div>
+
+<p align="center">
+<img src="ss11.png"  width="400" height="400">
+</p>
+
+<div align="center">
+
+_Figure 3.1.2: Choose Create to create pivot table_
+</div>
+
+<p align="center">
+<img src="ss12.png"  width="750" height="100">
+</p>
+
+<div align="center">
+
+_Figure 3.1.2: New sheet named Pivot Table 1 was created_
+</div>
 
 
 
