@@ -23,14 +23,14 @@
 - [Assignment 1b: Sales performance](#assignment-1b-sales-performance)
    * [Table of Contents](#table-of-contents)
      * [Dataset Information](#dataset-information)
-     * [Pivot Table](#pivot-table)
+     * [Pivot Table & Visualisation](#pivot-table-n-visualisation)
        * [How to create Pivot table](#how-to-create-pivot-table)
        * [Monthly sales](#monthly-sales)
        * [Region](#region)
        * [Customer](#customer)
        * [Salesperson](#salesperson)
        * [Sales trend](#sales-trend)
-     * [Dashboard](#dashboard)
+     * [Dashboard & Slicer](#dashboard-n-slicer)
      * [Contribution 🛠️](#contribution)
 
 <br>
@@ -134,10 +134,27 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 
 
-## Dashboard
+## Dashboard & Slicer
+1. Prepare dashboard by selecting all cells in spreadsheet named **Dashboard2** using the command **CTRL A** and sellect **FILL** to set dashboard background colour.
+2. All of the charts created are copied and arranged organizedly **Dashboard2** spreadsheet.
+3. Go to **Insert >> Drawing** to create a headline for the dashboard.
+4. Select **Insert >> Drawing**, using rectangle shape tool to create border for slicer. Repeat this step 4 more times and adjust to the suitable size on the dashboard.
+5. Insert text using **Insert >> Drawing**. **SALES YEAR**, **SALES REGION** and **PRODUCT** is on the left side while **CUSTOMER** and **SALES PERSON** is on the right side
+
+#### How to create Slicer
+1. from the dataset sheet named Dataset2 go to **Data >> Add Slicer**
+2. copy paste the slicer from dataset 2 to the dashboard2 sheet
+3. from the slicer editor select the column to filter
+4. Google sheet slicer only will work on the pivot tables that are from the same sheet. Hence, copy all of the pivot table to the dashboard sheet
+5. Select the Monthly Sales chart to readjust the data range of the chart to the corresponding pivot table on the same sheet. Repeat the same step to all of the remaining visualization in the dashboard.
+6. make 4 more slicers and change the each of filter columns to **SALES YEAR**, **SALES REGION**, **CUSTOMER**, **SALES PERSON** and **PRODUCT**.
 
 
+After all of the slicer is created the interactive dashboard for Deadpool Sales Performance is done 
 
+The display of dashboard when :
+* **SALES PERSON** is **Loh Yew Chong**
+* **PRODUCT** is **cooking oil** and the **SALES YEAR** is **2021**
 <br>
 
 
