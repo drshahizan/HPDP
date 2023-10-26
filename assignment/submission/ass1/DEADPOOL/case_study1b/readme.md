@@ -98,13 +98,13 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 2. In the pivot table editor, select:
    *for rows add **CUSTOMER** column.
    *for values, add **SALES** column. The **SALES** value is summarised using **SUM**.
-   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Customer%20Chart.png).
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Customer%20Pivot%20Table.png).
 4. To create the chart, go to **Insert >> Chart**. In the chart editor setup the chart as below:
    * Chart type = Pie chart
    * Data range = A1 : B8
    * Label = CUSTOMER
    * Series = SUM of SALES
-   ![image]([https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Customer%20Chart.png)
+    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Customer%20Chart.png)
 5. Customize the chart at the chart tab. For this Customer chart, the slice is labeled using the percentage calculated and each of the pie slice is 5% away from the center.
    
 #### Salesperson
