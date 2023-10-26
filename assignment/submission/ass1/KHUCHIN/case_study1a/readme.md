@@ -139,7 +139,17 @@ One dataset has been chosen for data analysis based on the case study that was g
 
 ### Scorecard Chart
 
-To make Scorecard Chart,
+To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC2.png">
+</div>
+
+After that select chart type on the right and go to others and select Scorecard chart
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC3.png">
+</div>
 
 ### Calculation of Minimum, Maximum, and Average
 
