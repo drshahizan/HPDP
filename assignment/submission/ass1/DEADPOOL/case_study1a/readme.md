@@ -145,7 +145,16 @@ Figure 12: Formula to determine students' grade.
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic15.jpg" width=400>
 </p>
 <div align="center">  
-Figure 12: Formula to determine the students passed or failed. 
+Figure 13: Formula to determine the students passed or failed. 
+</div>
+<be>
+
+12. Make a dashboard to examine the lowest, maximum, and average score. Additionally, this dashboard computes the percentage of students that passed and failed and gives the number of students for each grade.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic16.jpg" width=400>
+</p>
+<div align="center">  
+Figure 12: Examiniation result dashboard. 
 </div>
 <be>
 
