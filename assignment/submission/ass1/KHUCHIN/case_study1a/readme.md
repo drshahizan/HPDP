@@ -145,7 +145,7 @@ To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet 
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC2.png">
 </div>
 
-After that select chart type on the right and go to others and select Scorecard chart
+After that select chart type on the right and go to others section and select Scorecard chart
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC3.png">
@@ -153,12 +153,35 @@ After that select chart type on the right and go to others and select Scorecard 
 
 ### Calculation of Minimum, Maximum, and Average
 
-To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that have been provided by the Google Sheet to ease our calculation. For the Min, we will use =MIN(Dataset1!P2:P111520), for the Max we will use  =MAX(Dataset1!P2:P111520) and for average we will use =AVERAGE(Dataset1!P2:P111520). The result will be shown as below
+To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that have been provided by the Google Sheet to ease our calculation. For the Min, we will use =MIN(Dataset1!P2:P111520), for the Max we will use  =MAX(Dataset1!P2:P111520) and for average we will use =AVERAGE(Dataset1!P2:P111520). The result will be shown below
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC1.png">
 </div>
 
+### Grading chart
+
+To make a grading chart, we need to make a new table and make it in descending order based on grades from A+ to E. We will use the formula for each grade to make a calculation of how many students get for each grade. The formula are:
+
+A+ → =COUNTIF(Dataset1!Q2:Q111520,"A+")
+A → =COUNTIF(Dataset1!Q2:Q111520,"A")
+A- → =COUNTIF(Dataset1!Q2:Q111520,"A-")
+B+ → =COUNTIF(Dataset1!Q2:Q111520,"B+")
+B → =COUNTIF(Dataset1!Q2:Q111520,"B")
+B- → =COUNTIF(Dataset1!Q2:Q111520,"B-")
+C+ → =COUNTIF(Dataset1!Q2:Q111520,"C+")
+C → =COUNTIF(Dataset1!Q2:Q111520,"C")
+C- → =COUNTIF(Dataset1!Q2:Q111520,"C-")
+D+ → =COUNTIF(Dataset1!Q2:Q111520,"D+")
+D → =COUNTIF(Dataset1!Q2:Q111520,"D")
+D- → =COUNTIF(Dataset1!Q2:Q111520,"D-")
+E → =COUNTIF(Dataset1!Q2:Q111520,"E")
+
+<div align="center">   
+<img src ="">
+</div>
+
+To make a grading chart, click To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab. Select chart type, go to column section and select column chart.
 
 ## Analysis of the dataset
 
