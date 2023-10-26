@@ -462,15 +462,15 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/9fd9349a-54db-4af2-b2c3-2ffdc8d35b27" style="width: 300px; height: 500px;">
 
    **Figure 52**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4231b14c-e2d9-4dea-b5f7-4e814aee2b12" style="width: 300px; height: 500px;">
 
    **Figure 53**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/bae1386b-4456-4022-aa62-06b19b9957c0" style="width: 300px; height: 500px;">
 
    **Figure 54**
-   <br>
+   <br><br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/b204d576-67a8-44be-a5c0-574e4c94165e" style="width: 300px; height: 150px;">
 
    **Figure 55**
@@ -478,10 +478,19 @@ The following data processing processes must be completed:
 </div>
 
 ### 4.4. Pass and Fail View in Pie Chart
+
+   27. To make a pie chart, choose **"Doughnut chart"** at Chart Type, then choose the data range required. Tick **Aggregate**. **Figure 56** shows the final settings.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/6583fa91-920e-4179-a221-a8a46b8d2078" style="width: 300px; height: 400px;">
+
+   **Figure 56**
+</div>
    <br>
+   28. **Figure 57** shows the final result of the Doughnut chart.
+   <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/e287404a-da5c-456c-a77a-fdcee890cd5c" style="width: 200px; height: 150px;">
+
+   **Figure 57**
    <br>
 </div>
       
