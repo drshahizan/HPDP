@@ -27,8 +27,8 @@
   - [Calculation of Minimum, Maximum, and Average](#calculation-of-minimum-maximum-and-average)
   - [Grading chart](#grading-chart)
   - [Creating Total Record, Pass and Fail](#creating-total-record-pass-and-fail)
-  - [Pie Chart for Pass and Fail](pie-chart-for-pass-and-fail)
-  - [Dashboard Creation](dashboard-creation)
+  - [Pie Chart for Pass and Fail](#pie-chart-for-pass-and-fail)
+  - [Dashboard Creation](#dashboard-creation)
 - [Analysis of the dataset](#analysis-of-the-dataset)
 
 
