@@ -106,7 +106,31 @@ The output is as stated below:
   <img width="336" alt="Screenshot 2023-10-26 at 1 34 46 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/d09c1f00-a3cd-43db-8b75-28022ce13455">
 </p>
 
+
 ### Customer<a name = "customer"></a>
+1. Repeat steps 1 and 2 from 'Monthly Sales Chart' to create a pivot table for Customer.
+2. Add 'CUSTOMER' as Rows and 'SALES' as Values.
+   <p align="center">
+   <img width="235" alt="Screenshot 2023-10-26 at 1 38 29 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/8366ee88-b602-4277-ad80-aa769130fc26">
+   </p>
+   The output is shown below:
+   <p align="center">
+   <img width="206" alt="Screenshot 2023-10-26 at 1 40 53 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/e4243114-336b-4dd9-9621-addb10291019">
+   </p>
+3. Select the pivot table that was created, and click 'Insert' at the ribbon. A pie chart will be automatically created.
+   <p align="center">
+     <img width="495" alt="Screenshot 2023-10-26 at 1 42 44 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/d1f8a1d1-519a-47cc-bf62-cd1c58c90bb5">
+   </p>
+4. Once the pie chart is created, ensure that the Data range, Label and Value is correct as shown below.
+   <p align="center">
+   <img width="336" alt="Screenshot 2023-10-26 at 1 44 18 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/3cc1b0e3-65ab-4748-8da7-ad3ec2c33080">
+   </p> 
+5. Customize the chart according to your preferences. The result of the pie chart is attached below:
+   <p align="center" >
+   <img width="395" alt="Screenshot 2023-10-26 at 1 45 45 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/cf360ffa-a97b-4ef7-8d9b-e14a138a0eb8">
+   </p>
+
+
 
 ### Salesperson<a name = "sales_person"></a>
 1. Do the same steps in Monthly sales charts from step 1 until step 3. However, this time choose "Sales Product" and "PRODUCTS" as Rows. Then, choose "Sales". 
