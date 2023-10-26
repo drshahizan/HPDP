@@ -353,7 +353,7 @@ The following data processing processes must be completed:
    <br>
    </div>
    
-### 4.3 Total Numbers of Records, Pass, and Fail
+### 4.3. Total Numbers of Records, Pass, and Fail
 • Total Records  
    17. As illustrated in **Figure xx**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure xx**.
    <div align="center">
@@ -416,7 +416,7 @@ The following data processing processes must be completed:
    <br>
 </div>
 
-### 4.4 Pass and Fail View in Pie Chart
+### 4.4. Pass and Fail View in Pie Chart
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/6583fa91-920e-4179-a221-a8a46b8d2078" style="width: 300px; height: 400px;">
    <br>
