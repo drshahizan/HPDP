@@ -55,7 +55,7 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 <br>
 
-## Pivot Table
+## Pivot Table & Visualisation
 
 #### How to create Pivot table
 
