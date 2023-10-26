@@ -158,7 +158,7 @@ _Figure 3.1.2: Choose Insert and Pivot table_
 
 <div align="center">
 
-_Figure 3.1.2: Choose Create to create pivot table_
+_Figure 3.1.3: Choose Create to create pivot table_
 </div>
 
 <p align="center">
@@ -167,7 +167,7 @@ _Figure 3.1.2: Choose Create to create pivot table_
 
 <div align="center">
 
-_Figure 3.1.2: New sheet named Pivot Table 1 was created_
+_Figure 3.1.4: New sheet named Pivot Table 1 was created_
 </div>
 
 - Choose Pivot Table 1, and we can choose any data that we want to be inserted in the pivot table. From the Pivot table editor, just drag the data that we want to the Rows, Columns, Values or Filters. Then the pivot table will be ready. Click on the pivot table and click Insert from the task bar, then choose Chart, and the suitable chart based on the pivot table will be produced. Click edit chart, and then we customize the chart.
@@ -178,7 +178,7 @@ _Figure 3.1.2: New sheet named Pivot Table 1 was created_
 
 <div align="center">
 
-_Figure 3.1.1: Selecting data to be inserted in the pivot table_
+_Figure 3.1.5: Selecting data to be inserted in the pivot table_
 </div>
 
 <p align="center">
@@ -187,7 +187,7 @@ _Figure 3.1.1: Selecting data to be inserted in the pivot table_
 
 <div align="center">
 
-_Figure 3.1.2: Pivot table from the data chosen_
+_Figure 3.1.6: Pivot table from the data chosen_
 </div>
 
 <p align="center">
@@ -196,7 +196,7 @@ _Figure 3.1.2: Pivot table from the data chosen_
 
 <div align="center">
 
-_Figure 3.1.2: Choose Chart to create a chart based on the pivot table_
+_Figure 3.1.7: Choose Chart to create a chart based on the pivot table_
 </div>
 
 <p align="center">
@@ -205,10 +205,74 @@ _Figure 3.1.2: Choose Chart to create a chart based on the pivot table_
 
 <div align="center">
 
-_Figure 3.1.2: Chart created_
+_Figure 3.1.8: Chart created_
 </div>
 
-- List of pivot tables.
+
+### 3.2 List of pivot tables.
+
+<p align="center">
+<img src="ss17.png"  width="200" height="200">
+</p>
+
+<div align="center">
+
+_Figure 3.2.1: Sum of sales and target by month_
+</div>
+
+<p align="center">
+<img src="ss18.png"  width="320" height="200">
+</p>
+
+<div align="center">
+
+_Figure 3.2.2: Sum of sales by product and sale person_
+</div>
+
+<p align="center">
+<img src="ss19.png"  width="170" height="160">
+</p>
+
+<div align="center">
+
+_Figure 3.2.3: Sum of sales by region_
+</div>
+
+<p align="center">
+<img src="ss20.png"  width="150" height="100">
+</p>
+
+<div align="center">
+
+_Figure 3.2.4: Sum of sales by year_
+</div>
+
+<p align="center">
+<img src="ss21.png"  width="200" height="170">
+</p>
+
+<div align="center">
+
+_Figure 3.2.5: Sum of sales by product_
+</div>
+
+<p align="center">
+<img src="ss22.png"  width="200" height="200">
+</p>
+
+<div align="center">
+
+_Figure 3.2.6: Sum of sales by customer_
+</div>
+
+<p align="center">
+<img src="ss23.png"  width="300" height="200">
+</p>
+
+<div align="center">
+
+_Figure 3.2.7: Sum of sales and target by month (sorted)_
+</div>
 
 
 
