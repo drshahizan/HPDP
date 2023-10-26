@@ -163,19 +163,19 @@ To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that
 
 To make a grading chart, we need to make a new table and make it in descending order based on grades from A+ to E. We will use the formula for each grade to make a calculation of how many students get for each grade. The formula are:
 
-A+ → =COUNTIF(Dataset1!Q2:Q111520,"A+")
-A → =COUNTIF(Dataset1!Q2:Q111520,"A")
-A- → =COUNTIF(Dataset1!Q2:Q111520,"A-")
-B+ → =COUNTIF(Dataset1!Q2:Q111520,"B+")
-B → =COUNTIF(Dataset1!Q2:Q111520,"B")
-B- → =COUNTIF(Dataset1!Q2:Q111520,"B-")
-C+ → =COUNTIF(Dataset1!Q2:Q111520,"C+")
-C → =COUNTIF(Dataset1!Q2:Q111520,"C")
-C- → =COUNTIF(Dataset1!Q2:Q111520,"C-")
-D+ → =COUNTIF(Dataset1!Q2:Q111520,"D+")
-D → =COUNTIF(Dataset1!Q2:Q111520,"D")
-D- → =COUNTIF(Dataset1!Q2:Q111520,"D-")
-E → =COUNTIF(Dataset1!Q2:Q111520,"E")
+- A+ → =COUNTIF(Dataset1!Q2:Q111520,"A+")
+- A → =COUNTIF(Dataset1!Q2:Q111520,"A")
+- A- → =COUNTIF(Dataset1!Q2:Q111520,"A-")
+- B+ → =COUNTIF(Dataset1!Q2:Q111520,"B+")
+- B → =COUNTIF(Dataset1!Q2:Q111520,"B")
+- B- → =COUNTIF(Dataset1!Q2:Q111520,"B-")
+- C+ → =COUNTIF(Dataset1!Q2:Q111520,"C+")
+- C → =COUNTIF(Dataset1!Q2:Q111520,"C")
+- C- → =COUNTIF(Dataset1!Q2:Q111520,"C-")
+- D+ → =COUNTIF(Dataset1!Q2:Q111520,"D+")
+- D → =COUNTIF(Dataset1!Q2:Q111520,"D")
+- D- → =COUNTIF(Dataset1!Q2:Q111520,"D-")
+- E → =COUNTIF(Dataset1!Q2:Q111520,"E")
 
 <div align="center">   
 <img src ="">
