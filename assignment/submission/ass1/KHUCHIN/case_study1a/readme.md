@@ -26,6 +26,7 @@
   - [Scorecard Chart](#scorecard-chart)
   - [Calculation of Minimum, Maximum, and Average](#calculation-of-minimum-maximum-and-average)
   - [Grading chart](#grading-chart)
+  - Creating Total Record, Pass and Fail
 - [Analysis of the dataset](#analysis-of-the-dataset)
 
 
@@ -217,23 +218,32 @@ One dataset has been chosen for data analysis based on the case study that was g
 
 7. For its scorecard chart just follow the step 5. It's literally the same.
   
-9. For passing and fail, remember that before this we already set the passing grade, which one is pass and which one is fail. You need to the "Status" column and just use this formula "=COUNTIF(Dataset1!R2:R111520, "PASS")" where 'R' is referring to Status column. Now change the "PASS" to "FAIL" to count the FAIL students.
+8. For passing and fail, remember that before this we already set the passing grade, which one is pass and which one is fail. You need to the "Status" column and just use this formula "=COUNTIF(Dataset1!R2:R111520, "PASS")" where 'R' is referring to Status column. Now change the "PASS" to "FAIL" to count the FAIL students.
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/assets/118237589/046646ba-ca10-4b96-8262-137f78417a9d">
 </div>
    
-10. For the percentage just divide the passing students with the total of students.
+9. For the percentage just divide the passing students with the total of students.
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/assets/118237589/bf7b691c-bd63-4398-b31d-834533b7df47">
 </div>
 
-11. Lastly you will get it looks like this.
+10. Lastly you will get it looks like this.
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/assets/118237589/5100f4b5-1c34-42bd-aa6a-cbde3abb0262">
 </div>
+### Pie Chart for Pass and Fail
 
+11. To create a pie chart to represent “Pass” and “Fail”, we take the total record for both “Pass” and “Fail” that has been calculated and choose ‘pie chart’ from chart section.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/2ecf3c3b-1f6a-4c97-9475-22d8328660ba">
+</div>
+
+
+### Dashboard Creation
 12. The overall dashboard that we already done will look like this.
 
 <div align="center">   
