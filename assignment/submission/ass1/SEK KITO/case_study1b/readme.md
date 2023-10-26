@@ -74,7 +74,7 @@
 ![alt_text](images/image25.png "image_tooltip")
 
 
-Figure 7 : Showing the second cell of column ‘J’ being selected
+  Figure 7 : Showing the second cell of column ‘J’ being selected
 
 
 
