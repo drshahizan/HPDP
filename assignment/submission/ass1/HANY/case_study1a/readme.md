@@ -386,7 +386,7 @@ The following data processing processes must be completed:
    </div>
 
 • Total Numbers of Pass  
-   18. Create new sheet named **Statistic** and insert the formula stated in **Figure 42** below.
+   18. Create new sheet named **Statistic**.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
       
