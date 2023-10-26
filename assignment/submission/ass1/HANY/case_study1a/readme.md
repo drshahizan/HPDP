@@ -423,6 +423,7 @@ The following data processing processes must be completed:
    </div>
       <br><br>
       
+      
    24. At "Customize", expand "Key Value" and choose "Custom" for Number Format. Then, put **"%"** at suffix.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
