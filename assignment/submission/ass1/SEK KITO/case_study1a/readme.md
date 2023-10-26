@@ -124,7 +124,7 @@
 <img src="fig18.png" alt="Image description">
 </div>
 
-## Data Preprocessing
+## Data Visualization
 
 19. Proceed with creating a new sheet named “Dashboard”. The following steps are to achieve a dashboard with visualizations based on Dataset1 as per the photo shown.
 
