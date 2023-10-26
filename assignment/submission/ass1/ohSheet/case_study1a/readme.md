@@ -185,13 +185,14 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    </div><br>
    
 11. Select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
-    <div align="center">
+
+    - Enter the appropriate data range and click **OK**.
+
+      <div align="center">
    <img src="insertchart.png" alt="insertchart" width="200px" height="270px">
    </div><br>
-   
-    - Enter the appropriate data range and click **OK**.
     
-12. Figure below shows the **Setup** for **Min**, **Max**, and **Average** scorecards.
+11. Figure below shows the **Setup** for **Min**, **Max**, and **Average** scorecards.
 <div align="center">
    <img src="setupmin.png" alt="setupmin" width="200px" height="270px">
    </div><br>
