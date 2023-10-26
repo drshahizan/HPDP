@@ -11,12 +11,12 @@
 
 ### Group Members
 
-| Name                                     | Matrix Number | Photo |
-| :---------------------------------------- | :-------------: | ------------- |
-| ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156   |      |
-| YEW RUI XIANG               | A21EC0149   |      |	
-| WAN AMIRUL HAFIQ BIN WAN HUZAINI      | A21EC0141   |      |	
-| ABDUL MUHAIMIN BIN ABDUL RAZAK | A21EC0002   |      |
+| Name                                     | Matrix Number | 
+| :---------------------------------------- | :-------------: | 
+| ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156   |  
+| YEW RUI XIANG               | A21EC0149   |      	
+| WAN AMIRUL HAFIQ BIN WAN HUZAINI      | A21EC0141   |      
+| ABDUL MUHAIMIN BIN ABDUL RAZAK | A21EC0002   |      
 
 ## Table of Contents
 + [Dataset Information](#dataset_info)
