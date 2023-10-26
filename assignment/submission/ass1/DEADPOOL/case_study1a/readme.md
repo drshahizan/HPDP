@@ -122,6 +122,25 @@ Figure 10: Formula to calculate total marks.
 </div>
 <be>
 
+10. Change the total marks to percentage by using (O2/10*100) formula.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic13.jpg" width=400>
+</p>
+<div align="center">  
+Figure 11: Formula to calculate total marks. 
+</div>
+<be>
+
+10. Determine the grade for the students by using the formula shown below.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic14.jpg" width=400>
+</p>
+<div align="center">  
+Figure 11: Formula to determine students' grade. 
+</div>
+<be>
+
+
 
 
 
