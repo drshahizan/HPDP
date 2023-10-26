@@ -42,26 +42,26 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 2. To import the Dataset1.txt file on Google Sheets, choose **File** and click **Import**.
    
    <div align="center">
-   <img src="import.png" alt="import" >
+   <img src="import.png" alt="import"  width="250" >
    </div><br>
    
 3. Choose the file and click **Import data**.
 
 4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: **Id_No**, **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2**.
    <div align="center">
-      <img src="dataset.png" alt="dataset" >
+      <img src="dataset.png" alt="dataset" width="250">
       </div><br>
 5. To convert the **Academic**, **Sports**, **Co-Curriculum**, **Test_1**, and **Test_2** data values to two decimal places, select column B through column F.
    <div align="center">
-      <img src="format1.png" alt="format1" >
+      <img src="format1.png" alt="format1" width="250" >
       </div><br>
 6. Choose **Format** and click **Number**.
    <div align="center">
-      <img src="format2.png" alt="format2" >
+      <img src="format2.png" alt="format2" width="250">
       </div><br>
 7. Select **Custom number format** and apply the two decimal values.
    <div align="center">
-      <img src="format3.png" alt="format3" >
+      <img src="format3.png" alt="format3" width="250">
       </div><br>
 8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be named as below:
    
@@ -72,7 +72,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    - Test_2: P5 (Column K)
      
    <div align="center">
-      <img src="newmax.png" alt="newmax" >
+      <img src="newmax.png" alt="newmax" width="250">
       </div><br>
       
    To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
@@ -92,7 +92,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    - Column N (B3): The third highest value
      
    <div align="center">
-      <img src="top3.png" alt="top3" >
+      <img src="top3.png" alt="top3" width="250">
       </div><br>
       
    The formula to get the values for each column is:
@@ -110,7 +110,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    Click enter after filling out the formula to autofill the entire column.
    
    <div align="center">
-      <img src="TM.png" alt="TM" >
+      <img src="TM.png" alt="TM" width="250" >
       </div><br>
       
 11. Create a new column named Percent (Column P) to calculate the percentage value for the data in Column O (TM). The formula to calculate the percentage is:
@@ -121,7 +121,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    The percentage value must be in two decimal places.
    
    <div align="center">
-      <img src="percent.png" alt="percent" >
+      <img src="percent.png" alt="percent" width="250">
       </div><br>
       
 ## Obtaining Grade and Status <a name="grade_status"></a>
@@ -130,7 +130,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    The grade and status must be obtained based on the following table.
    
 <div align="center">
-   <img src="tablegradestatus.png" alt="tablegradestatus" >
+   <img src="tablegradestatus.png" alt="tablegradestatus" width="250">
    </div><br>
    
 2. The formula to determine the grade is:
@@ -150,56 +150,56 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 4. Figure shows the final result of Dataset1 sheet before creating a dashboard.
    
    <div align="center">
-   <img src="finaldataset.png" alt="finaldataset" >
+   <img src="finaldataset.png" alt="finaldataset" width="250">
    </div><br>
    
 ## Creating a Dashboard <a name = "dashboard"></a>
 
 1. On the Dataset1 sheet, select **Insert** > **Pivot Table**.
    <div align="center">
-   <img src="pivottable.png" alt="pivottable" >
+   <img src="pivottable.png" alt="pivottable" width="250">
    </div><br>
    
 2. Select **New sheet** and click **Create**. A new sheet should be created.
    <div align="center">
-   <img src="createpivottable.png" alt="createpivottable" >
+   <img src="createpivottable.png" alt="createpivottable" width="250">
    </div><br>
    
 3. Rename the sheet to **Dashboard** by right-clicking the sheet name and select **Rename**.
 
 4. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **MIN** and leave the show as **Default**.
 <div align="center">
-   <img src="pivotmin.png" alt="pivotmin" >
+   <img src="pivotmin.png" alt="pivotmin" width="250">
    </div><br>
    
 5. Select **Insert** > **Pivot Table**. Click on **Existing sheet**, which in this case is Dashboard. Enter the appropriate data range and click **Create**.
 <div align="center">
-   <img src="existsheet.png" alt="existsheet" >
+   <img src="existsheet.png" alt="existsheet" width="250">
    </div><br>
    
 6. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **MAX** and leave the show as **Default**.
 <div align="center">
-   <img src="pivotmax.png" alt="pivotmax" >
+   <img src="pivotmax.png" alt="pivotmax" width="250">
    </div><br>
    
 7. Repeat step 5. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **AVERAGE** and leave the show as **Default**.
 <div align="center">
-   <img src="pivotavg.png" alt="pivotavg" >
+   <img src="pivotavg.png" alt="pivotavg" width="250">
    </div><br>
    
 8. Repeat step 5. Under the **Pivot table editor** > **Rows** and **Values**, click **Add** and select **Grade**.
 <div align="center">
-   <img src="pivotgrade.png" alt="pivotgrade" >
+   <img src="pivotgrade.png" alt="pivotgrade" width="250">
    </div><br>
    
 9. Repeat step 5. Under the **Pivot table editor** > **Rows** and **Values**, click **Add** and select **Status**.
 <div align="center">
-   <img src="pivotstatus.png" alt="pivotstatus" >
+   <img src="pivotstatus.png" alt="pivotstatus" width="250">
    </div><br>
    
 10. Figure shows the created pivoted tables. These tables show a summarization of each category.
 <div align="center">
-   <img src="finalpivot.png" alt="finalpivot" >
+   <img src="finalpivot.png" alt="finalpivot" width="250">
    </div><br>
    
 11. Select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
@@ -208,13 +208,13 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
     
 12. Figure below shows the **Setup** for **Min**, **Max**, and **Average** scorecards.
 <div align="center">
-   <img src="setupmin.png" alt="setupmin" >
+   <img src="setupmin.png" alt="setupmin" width="250">
    </div><br>
    <div align="center">
-   <img src="setupmax.png" alt="setupmax" >
+   <img src="setupmax.png" alt="setupmax" width="250">
    </div><br>
    <div align="center">
-   <img src="setupavg.png" alt="setupavg" >
+   <img src="setupavg.png" alt="setupavg" width="250">
    </div><br>
    
 13. Select **Insert** > **Chart**. Click on the **Column chart** under **Chart editor** > **Setup**.
@@ -223,7 +223,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
     Figure below shows the **Setup** for the **Grading** chart.
 <div align="center">
-   <img src="setupgrading.png" alt="setupgrading" >
+   <img src="setupgrading.png" alt="setupgrading" width="250">
    </div><br>
    
 14. Select **Insert** > **Chart**. Click on the **Table chart** under **Chart editor** > **Setup**.
@@ -232,7 +232,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
     Figure below shows the **Setup** for the **Grading** table.
 <div align="center">
-   <img src="setuptablegrading.png" alt="setuptablegrading" >
+   <img src="setuptablegrading.png" alt="setuptablegrading" width="250">
    </div><br>
    
 15. Select **Insert** > **Chart**. Click on the **Doughnut chart** under **Chart editor** > **Setup**.
@@ -241,30 +241,30 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
     Figure below shows the **Setup** for the **Pass** and **Fail** doughnut chart.
 <div align="center">
-   <img src="setuppiechart.png" alt="setuppiechart" >
+   <img src="setuppiechart.png" alt="setuppiechart" width="250">
    </div><br>
    
 16. To create **Total Record**, **Pass**, and **Fail** scorecards, select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
 
     Figure below shows the **Setup** for **Total Record**, **Pass**, and **Fail** scorecards.
 <div align="center">
-   <img src="totalscorecard.png" alt="totalscorecard" >
+   <img src="totalscorecard.png" alt="totalscorecard" width="250">
    </div><br>
    <div align="center">
-   <img src="maxscorecard.png" alt="maxscorecard" >
+   <img src="maxscorecard.png" alt="maxscorecard" width="250">
    </div><br>
    <div align="center">
-   <img src="minscorecard.png" alt="minscorecard" >
+   <img src="minscorecard.png" alt="minscorecard" width="250">
    </div><br>
    
 17. Create another two scorecards to display the total record of **Pass** and **Fail**.
 
     Figure below shows the **Setup** for the total record of **Pass** and **Fail** scorecards.
 <div align="center">
-   <img src="setuptotalpass.png" alt="setuptotalpass" >
+   <img src="setuptotalpass.png" alt="setuptotalpass" width="250">
    </div><br>
    <div align="center">
-   <img src="setuptotalfail.png" alt="setuptotalfail" >
+   <img src="setuptotalfail.png" alt="setuptotalfail" width="250">
    </div><br>
    
 18. Figure shows the created dashboard.
