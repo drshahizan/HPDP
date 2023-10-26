@@ -159,13 +159,13 @@ One dataset has been chosen for data analysis based on the case study that was g
 
 ### Scorecard Chart
 
-To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab.
+1. To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab.
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC2.png">
 </div>
 
-After that select chart type on the right and go to others section and select Scorecard chart
+2. After that select chart type on the right and go to others section and select Scorecard chart
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC3.png">
@@ -173,7 +173,7 @@ After that select chart type on the right and go to others section and select Sc
 
 ### Calculation of Minimum, Maximum, and Average
 
-To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that have been provided by the Google Sheet to ease our calculation. For the Min, we will use =MIN(Dataset1!P2:P111520), for the Max we will use  =MAX(Dataset1!P2:P111520) and for average we will use =AVERAGE(Dataset1!P2:P111520). The result will be shown below
+3. To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that have been provided by the Google Sheet to ease our calculation. For the Min, we will use =MIN(Dataset1!P2:P111520), for the Max we will use  =MAX(Dataset1!P2:P111520) and for average we will use =AVERAGE(Dataset1!P2:P111520). The result will be shown below
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC1.png">
@@ -181,7 +181,7 @@ To calculate Minimum (Min), Maximum (Max), and Average we will use formulas that
 
 ### Grading chart
 
-To make a grading chart, we need to make a new table and make it in descending order based on grades from A+ to E. We will use the formula for each grade to make a calculation of how many students get for each grade. The formula are:
+4. To make a grading chart, we need to make a new table and make it in descending order based on grades from A+ to E. We will use the formula for each grade to make a calculation of how many students get for each grade. The formula are:
 
 - A+ → =COUNTIF(Dataset1!Q2:Q111520,"A+")
 - A → =COUNTIF(Dataset1!Q2:Q111520,"A")
@@ -201,11 +201,46 @@ To make a grading chart, we need to make a new table and make it in descending o
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC4.png">
 </div>
 
-To make a grading chart, click To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab. Select chart type, go to column section and select column chart.
+5. To make a grading chart, click To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab. Select chart type, go to column section and select column chart.
 
 <div align="center">   
 <img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC5.png">
 </div>
+
+### Creating Total Record, Pass and Fail
+
+6. Calculating total record of student is really easy. All you need is selecting all dataset as well as formula "COUNT".
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/addaaf97-1c14-4786-baa4-8ad40b1fff7d">
+</div>
+
+7. For its scorecard chart just follow the step 5. It's literally the same.
+  
+9. For passing and fail, remember that before this we already set the passing grade, which one is pass and which one is fail. You need to the "Status" column and just use this formula "=COUNTIF(Dataset1!R2:R111520, "PASS")" where 'R' is referring to Status column. Now change the "PASS" to "FAIL" to count the FAIL students.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/046646ba-ca10-4b96-8262-137f78417a9d">
+</div>
+   
+10. For the percentage just divide the passing students with the total of students.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/bf7b691c-bd63-4398-b31d-834533b7df47">
+</div>
+
+11. Lastly you will get it looks like this.
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/5100f4b5-1c34-42bd-aa6a-cbde3abb0262">
+</div>
+
+12. The overall dashboard that we already done will look like this.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/assets/118237589/4c4fd56a-84b0-4a8c-b81f-4fb1d40f5e3c">
+</div>
+
+
 
 
 ## Analysis of the dataset
