@@ -432,7 +432,7 @@ The following data processing processes must be completed:
       <br>
       <br>
 
-   25. For number of records, is the same as doing the scorecard chart for percentage value. A slight difference is the Number Format, put **"records"** instead of "%".
+   25. For number of records, is the same as doing the scorecard chart for percentage value. A slight difference is the Number Format, put **"records"** instead of "%" as shown in **Figure 49**. **Figure 50** shows the result of combining two scorecard charts.
       <br>
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
@@ -450,20 +450,28 @@ The following data processing processes must be completed:
    </div>
 
 • Total Numbers of Fail
+   26. Repeat steps from **23-25** to do another scorecard chart for total records of fail.
 <div align="center">
-   **for percentage
+   
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/f1ccb9da-9688-4f7c-aa84-158576a77a87" style="width: 300px; height: 500px;">
+   
+   **Figure 51**
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/9fd9349a-54db-4af2-b2c3-2ffdc8d35b27" style="width: 300px; height: 500px;">
    <br>
-   **for number of record
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4231b14c-e2d9-4dea-b5f7-4e814aee2b12" style="width: 300px; height: 500px;">
+
+   **Figure 52**
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/bae1386b-4456-4022-aa62-06b19b9957c0" style="width: 300px; height: 500px;">
+
+   **Figure 53**
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/b204d576-67a8-44be-a5c0-574e4c94165e" style="width: 300px; height: 150px;">
+
+   **Figure 53**
    <br>
 </div>
 
