@@ -389,7 +389,6 @@ The following data processing processes must be completed:
    18. Create new sheet named **Statistic** and insert the formula stated in **Figure 42** below.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
-      <br>
       
    **Figure 42**
    <br>
@@ -403,15 +402,30 @@ The following data processing processes must be completed:
 
    **Figure 44**
    <br>
+   </div>
+   
+   20. **Figure 45** shows the result.
+<br>
+<div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
+      
+   **Figure 45**
       <br>
-      **Use two scorecard charts to combine the percentage and number of records
+</div>
+      
+   22. The percentage scorecard chart is a combination of two scorecard charts. One is to display the percentage of pass and fail, another is to display the total records of pass and fail. 
+   
       <br>
-      - scorecard of percentage
+   23. 
       <br>
+   <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/822904f4-bae0-404f-8de5-e9cafd6f5d8f" style="width: 300px; height: 450px;">
+
+   **Figure 46**
       <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
+
+   **Figure 47**
       <br>
       - scorecard of number of record
       <br>
@@ -421,7 +435,7 @@ The following data processing processes must be completed:
       <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/c97af60a-303a-41d7-b358-5f9c9990d1da" style="width: 300px; height: 150px;">
       <br>
-   </div>
+
 
 • Total Numbers of Fail
 <div align="center">
