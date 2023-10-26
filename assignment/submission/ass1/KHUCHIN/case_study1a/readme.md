@@ -26,6 +26,7 @@
   - [Scorecard Chart](#scorecard-chart)
   - [Calculation of Minimum, Maximum, and Average](#calculation-of-minimum-maximum-and-average)
   - [Grading chart](#grading-chart)
+- [Analysis of the dataset](#analysis-of-the-dataset)
 
 
 ## Introduction
