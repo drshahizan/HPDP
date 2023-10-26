@@ -307,7 +307,7 @@ The following data processing processes must be completed:
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/a31e3d4b-9c3c-42a8-904e-d820aeb6eee7" style="width: 100px; height: 300px;">
          <br>
       
-   **Figure 32:: Display the list of grade.**
+   **Figure 32: Display the list of grade.**
          <br>
     </div>
     
@@ -414,89 +414,95 @@ The following data processing processes must be completed:
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
       
-   **Figure 45: **
+   **Figure 45: Result of the Percentage and Total Records.**
       <br>
 </div>
       
-   22. The percentage scorecard chart is a combination of two scorecard charts. One is to display the percentage of pass and fail, another is to display the total records of pass and fail. 
-   23. To make a scorecard chart, choose **Scorecard chart** at chart type. Then choose the data range that is required for the chart, which is the data that is calculate in the Statistic sheet. At the Key Value, choose "Sum", as shown in **Figure 46**.
+   19. The percentage scorecard chart is a combination of two scorecard charts. One is to display the percentage of pass and fail, another is to display the total records of pass and fail. 
+   20. To make a scorecard chart, choose **Scorecard chart** at chart type. Then choose the data range that is required for the chart, which is the data that is calculate in the Statistic sheet. At the Key Value, choose "Sum", as shown in **Figure 46**.
       <br>
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/822904f4-bae0-404f-8de5-e9cafd6f5d8f" style="width: 300px; height: 450px;">
    
-   **Figure 46**
+   **Figure 46: Shows the setup of the chart editor.**
    </div>
       <br>
       
-   24. At "Customize", expand "Key Value" and choose "Custom" for Number Format. Then, put **"%"** at suffix.
+   21. At **Customize**, expand **Key Value** and choose **Custom** for Number Format. Then, put **"%"** at suffix.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
 
-   **Figure 47**
+   **Figure 47: Shows the customize setting of the chart editor.**
    </div>
       <br>
       <br>
 
-   25. For number of records, is the same as doing the scorecard chart for percentage value. A slight difference is the Number Format, put **"records"** instead of "%" as shown in **Figure 49**. **Figure 50** shows the result of combining two scorecard charts.
+   22. For number of records, is the same as doing the scorecard chart for percentage value. A slight difference is the Number Format, put **"records"** instead of "%" as shown in **Figure 49**. **Figure 50** shows the result of combining two scorecard charts.
       <br>
    <div align="center">
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
 
-   **Figure 48**
+   **Figure 48: Display the chart editor for scorecard chart.**
       <br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/30973090-a9f3-4636-8141-b18d72cc818c" style="width: 300px; height: 500px;">
-
-   **Figure 49**
-      <br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/c97af60a-303a-41d7-b358-5f9c9990d1da" style="width: 300px; height: 150px;">
       
-   **Figure 50**
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/30973090-a9f3-4636-8141-b18d72cc818c" style="width: 300px; height: 500px;">
+   
+   **Figure 49: Display the customize of chart editor.**
+   <br>
+   
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/c97af60a-303a-41d7-b358-5f9c9990d1da" style="width: 300px; height: 150px;">
+      
+   **Figure 50: Percentage for pass records.**
       <br>
    </div>
 
 • Total Numbers of Fail
 
-   26. Repeat steps from **23-25** to do another scorecard chart for total records of fail.
-<div align="center">
+   23. Repeat steps from **23-25** to do another scorecard chart for total records of fail.
+   <div align="center">
    
    <br>
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/f1ccb9da-9688-4f7c-aa84-158576a77a87" style="width: 300px; height: 500px;">
    
-   **Figure 51**
-   <br><br>
+   **Figure 51: Display the setup of chart editor.**
+   <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/9fd9349a-54db-4af2-b2c3-2ffdc8d35b27" style="width: 300px; height: 500px;">
 
-   **Figure 52**
-   <br><br>
+   **Figure 52: Display the customization of chart chosen.**
+   <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/4231b14c-e2d9-4dea-b5f7-4e814aee2b12" style="width: 300px; height: 500px;">
 
-   **Figure 53**
-   <br><br>
+   **Figure 53: Display the chart editor's configuration.**
+   <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/bae1386b-4456-4022-aa62-06b19b9957c0" style="width: 300px; height: 500px;">
 
-   **Figure 54**
-   <br><br>
+   **Figure 54: Display the chart's customization.**
+   <br>
+   
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/b204d576-67a8-44be-a5c0-574e4c94165e" style="width: 300px; height: 150px;">
 
-   **Figure 55**
+   **Figure 55: Shows the Percentage for fail records.**
    <br>
 </div>
 
 ### 4.4. Pass and Fail View in Pie Chart
 
-   27. To make a pie chart, choose **"Doughnut chart"** at Chart Type, then choose the data range required. Tick **Aggregate**. **Figure 56** shows the final settings.
+   24. To make a pie chart, choose **"Doughnut chart"** at Chart Type, then choose the data range required. Tick **Aggregate**. **Figure 56** shows the final settings.
 <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/6583fa91-920e-4179-a221-a8a46b8d2078" style="width: 300px; height: 400px;">
 
-   **Figure 56**
+   **Figure 56: Setup for the Doughnut chart.**
 </div>
    <br>
    
-   28.  The final result of the Doughnut chart is shown in **Figure 57**.
+   25.  The final result of the Doughnut chart is shown in **Figure 57**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/e287404a-da5c-456c-a77a-fdcee890cd5c" style="width: 200px; height: 150px;">
 
-   **Figure 57**
+   **Figure 57: Result of fail and pass doughnut chart.**
    <br>
 </div>
       
