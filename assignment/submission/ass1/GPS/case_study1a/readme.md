@@ -21,6 +21,7 @@
 + [Dataset Information](#dataset_info)
 + [Data Import and Data Preprocessing](#preprocessing)
 + [Data Processing](#processing)
++ [Data Visualization](#datavisualization)
 + [Dashboard](#dashboard)
 + [Contributions](#contribution)
 
@@ -325,7 +326,7 @@ _Figure 28: Dataset1_
 </div>  
 <br>   
 
-## Dashboard <a name = "dashboard"></a>
+## Data Visualization <a name = "datavisualization"></a>
 1. Select all the columns and click **"Insert" > "Pivot Table"**. Check **"New sheet"** to create the dashboard in another sheet and click **"Create"**.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/pppivot.png" width=350>
@@ -589,6 +590,7 @@ _Figure 54: Customization of the Scorecard_
 </div>  
 <br>
 
+## Dashboard <a name = "dashboard"></a>
 23. The dashboard as in the image below is created.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=800>
