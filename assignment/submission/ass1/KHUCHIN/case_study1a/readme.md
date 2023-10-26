@@ -178,10 +178,15 @@ To make a grading chart, we need to make a new table and make it in descending o
 - E → =COUNTIF(Dataset1!Q2:Q111520,"E")
 
 <div align="center">   
-<img src ="">
+<img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC4.png">
 </div>
 
 To make a grading chart, click To make a Scorecard Chart, click the Insert Chart tab on the upper Google Sheet tab. Select chart type, go to column section and select column chart.
+
+<div align="center">   
+<img src ="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/KHUCHIN/case_study1a/DC5.png">
+</div>
+
 
 ## Analysis of the dataset
 
