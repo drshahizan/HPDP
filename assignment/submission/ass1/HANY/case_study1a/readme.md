@@ -423,22 +423,31 @@ The following data processing processes must be completed:
    </div>
       <br><br>
       
-   24. At "Customize", expand "Key Value" and choose "Custon" for Number Format. Then, put "%" at suffix.
+   24. At "Customize", expand "Key Value" and choose "Custom" for Number Format. Then, put **"%"** at suffix.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
 
    **Figure 47**
    </div>
       <br>
-      - scorecard of number of record
-      <br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
-      <br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/30973090-a9f3-4636-8141-b18d72cc818c" style="width: 300px; height: 500px;">
-      <br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/c97af60a-303a-41d7-b358-5f9c9990d1da" style="width: 300px; height: 150px;">
       <br>
 
+   25. For number of records, is the same as doing the scorecard chart for percentage value. A slight difference is the Number Format, put **"records"** instead of "%".
+      <br>
+   <div align="center">
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/7d4d6cff-7d3a-430d-b903-b1a81ad20649" style="width: 300px; height: 450px;">
+
+   **Figure 48**
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/30973090-a9f3-4636-8141-b18d72cc818c" style="width: 300px; height: 500px;">
+
+   **Figure 49**
+      <br>
+      <img src="https://github.com/drshahizan/HPDP/assets/106257072/c97af60a-303a-41d7-b358-5f9c9990d1da" style="width: 300px; height: 150px;">
+      
+   **Figure 50**
+      <br>
+   </div>
 
 • Total Numbers of Fail
 <div align="center">
