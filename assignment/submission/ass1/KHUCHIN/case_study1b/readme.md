@@ -319,6 +319,73 @@ _Figure 4.1.4: Select Column_
 </div>
 
 ### 4.2 DashBoard 
+- We arrange our charts to make the dashboard. The dashboard must fit on the screen. Here is the list of our charts:
+
+<p align="center">
+<img src="ss28.png"  width="300" height="270">
+</p>
+
+<div align="center">
+
+_Figure 4.2.1: Select Column_
+</div>
+
+<p align="center">
+<img src="ss29.png"  width="300" height="270">
+</p>
+
+<div align="center">
+
+_Figure 4.2.2: Select Column_
+</div>
+
+<p align="center">
+<img src="ss30.png"  width="400" height="300">
+</p>
+
+<div align="center">
+
+_Figure 4.2.3: Select Column_
+</div>
+
+<p align="center">
+<img src="ss31.png"  width="600" height="250">
+</p>
+
+<div align="center">
+
+_Figure 4.2.4: Select Column_
+</div>
+
+<p align="center">
+<img src="ss32.png"  width="600" height="250">
+</p>
+
+<div align="center">
+
+_Figure 4.2.5: Select Column_
+</div>
+
+- Our dashboard will change when we put the filter on by using slicers.
+
+<p align="center">
+<img src="ss32.png"  width="600" height="250">
+</p>
+
+<div align="center">
+
+_Figure 4.2.5: Cooking Oil Sales 2020_
+</div>
+
+<p align="center">
+<img src="ss32.png"  width="600" height="250">
+</p>
+
+<div align="center">
+
+_Figure 4.2.5: North and West sales 2020_
+</div>
+
 
 
 
