@@ -756,3 +756,10 @@ Figure 53 : All the charts created thus far
 
 
     Figure 61 : The charts will change after filtering using the slicers
+
+
+## 	**Final Dashboard**
+
+![alt_text](images/image31.png "image_tooltip")
+
+
