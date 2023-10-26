@@ -414,15 +414,13 @@ The following data processing processes must be completed:
 </div>
       
    22. The percentage scorecard chart is a combination of two scorecard charts. One is to display the percentage of pass and fail, another is to display the total records of pass and fail. 
-   
-      <br>
-   23. 
+   23. To make a scorecard chart, choose **Scorecard chart** at chart type. Then choose the data range that is required for the chart, which is the data that is calculate in the Statistic sheet. At the Key Value, choose "Sum".
       <br>
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/822904f4-bae0-404f-8de5-e9cafd6f5d8f" style="width: 300px; height: 450px;">
 
    **Figure 46**
-      <br>
+      <br><br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/5c923354-d001-43d1-b9c0-b41ed8b1fcf2" style="width: 300px; height: 500px;">
 
    **Figure 47**
