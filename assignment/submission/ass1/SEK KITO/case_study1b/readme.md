@@ -156,12 +156,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 4. Click on ‘Existing Sheet’ and click on ‘Select data range’
 
-        
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image15.png "image_tooltip")
+![alt_text](images/image62.png "image_tooltip")
 
 
 
@@ -176,10 +173,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
+![alt_text](images/image41.png "image_tooltip")
 
 
 
@@ -187,24 +181,17 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 6. Click ‘Create’. The pivot will be created at the previously selected cell
 
-        
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image17.png "image_tooltip")
+![alt_text](images/image6.png "image_tooltip")
 
 
 
         Figure 16 : Click on ‘Create’
 
 
-        
 
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
+![alt_text](images/image29.png "image_tooltip")
 
 
 
@@ -222,12 +209,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 1. Hover your mouse over the first pivot table and click on the ‘Edit’ button (Pencil icon)
 
-        
 
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
+![alt_text](images/image9.png "image_tooltip")
 
 
 
@@ -237,10 +220,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image20.png "image_tooltip")
+![alt_text](images/image24.png "image_tooltip")
 
 
 
@@ -253,9 +234,6 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. Add ‘Sales Region’ at the ‘Filters’ section and set the condition to ‘Is not empty’ so that the pivot does not read blank cells. Click ‘OK’
 
-        
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image21.png "image_tooltip")
@@ -265,24 +243,16 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
         Figure 20 : Step 1 to set the condition
 
 
-        
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image22.png "image_tooltip")
+![alt_text](images/image59.png "image_tooltip")
 
 
 
         Figure 21 : Step 2 to set the condition
 
 
-        
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.png "image_tooltip")
+![alt_text](images/image26.png "image_tooltip")
 
 
 
@@ -290,12 +260,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 4. The pivot table should looks like this
 
-        
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image24.png "image_tooltip")
+![alt_text](images/image57.png "image_tooltip")
 
 
 
