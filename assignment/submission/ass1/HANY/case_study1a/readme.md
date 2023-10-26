@@ -486,7 +486,8 @@ The following data processing processes must be completed:
    **Figure 56**
 </div>
    <br>
-   28. **Figure 57** shows the final result of the Doughnut chart.
+   
+   28.  The final result of the Doughnut chart is shown in **Figure 57**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/e287404a-da5c-456c-a77a-fdcee890cd5c" style="width: 200px; height: 150px;">
 
