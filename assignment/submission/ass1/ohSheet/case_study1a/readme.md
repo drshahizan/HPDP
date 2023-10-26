@@ -64,15 +64,19 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
       <img src="format3.png" alt="format3" width="200px" height="270px">
       </div><br>
 8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be named as below:
+   
    - Academic: P1 (Column G)
    - Sports: P2 (Column H)
    - Co-Curriculum: P3 (Column I)
    - Test_1: P4 (Column J)
    - Test_2: P5 (Column K)
+     
    <div align="center">
       <img src="newmax.png" alt="newmax" width="200px" height="270px">
       </div><br>
+      
    To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
+   
    - Column P1: `=(B2/61)*3.33`
    - Column P2: `=(C2/10)*3.33`
    - Column P3: `=(D2/15)*3.33`
@@ -82,13 +86,17 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    For each column, click enter after filling out the formula to autofill the entire column.
 
 9. Create three new columns named B1 (Column L), B2 (Column M), and B3 (Column N) to determine the top three values based on the values on columns G to K. The new columns represent information as below:
+
    - Column L (B1): The highest value
    - Column M (B2): The second highest value
    - Column N (B3): The third highest value
+     
    <div align="center">
       <img src="top3.png" alt="top3" width="200px" height="270px">
       </div><br>
+      
    The formula to get the values for each column is:
+   
    - Column B1: `=LARGE($G2:$K2,1)`
    - Column B2: `=LARGE($G2:$K2,2)`
    - Column B3: `=LARGE($G2:$K2,3)`
@@ -96,17 +104,22 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    For each column, click enter after filling out the formula to autofill the entire column.
 
 10. Create a new column named TM (Column O) to calculate the total points by combining the data from columns L to N. The formula to calculate the total mark value is:
+    
    - `=SUM(L2:N2)`
 
    Click enter after filling out the formula to autofill the entire column.
+   
    <div align="center">
       <img src="TM.png" alt="TM" width="200px" height="270px">
       </div><br>
+      
 11. Create a new column named Percent (Column P) to calculate the percentage value for the data in Column O (TM). The formula to calculate the percentage is:
+    
    - `=(O2/9.99)*100`
 
    Click enter after filling out the formula to autofill the entire column.
    The percentage value must be in two decimal places.
+   
    <div align="center">
       <img src="percent.png" alt="percent" width="200px" height="270px">
       </div><br>
@@ -115,15 +128,19 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
 1. Create two new columns, Column Q for Grade and Column R for Status.
    The grade and status must be obtained based on the following table.
+   
 <div align="center">
    <img src="tablegradestatus.png" alt="tablegradestatus" width="200px" height="270px">
    </div><br>
+   
 2. The formula to determine the grade is:
+   
    - `=VLOOKUP(P2,$U3:$W16,2)`
 
    Click enter after filling out the formula to autofill the entire column.
 
 3. The formula to determine the status is:
+   
    - `=VLOOKUP(P2,$Y$4:$Z$16,2)`
 
    Click enter after filling out the formula to autofill the entire column.
@@ -131,7 +148,8 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    Colour column P with green for Pass and light red for the Pass line.
 
 4. Figure shows the final result of Dataset1 sheet before creating a dashboard.
-<div align="center">
+   
+   <div align="center">
    <img src="finaldataset.png" alt="finaldataset" width="200px" height="270px">
    </div><br>
    
@@ -142,8 +160,8 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    <img src="pivottable.png" alt="pivottable" width="200px" height="270px">
    </div><br>
    
-   - Select **New sheet** and click **Create**. A new sheet should be created.
-<div align="center">
+2. Select **New sheet** and click **Create**. A new sheet should be created.
+   <div align="center">
    <img src="createpivottable.png" alt="createpivottable" width="200px" height="270px">
    </div><br>
    
@@ -187,12 +205,8 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 11. Select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
 
     - Enter the appropriate data range and click **OK**.
-
-      <div align="center">
-   <img src="insertchart.png" alt="insertchart" width="200px" height="270px">
-   </div><br>
     
-11. Figure below shows the **Setup** for **Min**, **Max**, and **Average** scorecards.
+12. Figure below shows the **Setup** for **Min**, **Max**, and **Average** scorecards.
 <div align="center">
    <img src="setupmin.png" alt="setupmin" width="200px" height="270px">
    </div><br>
@@ -255,7 +269,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
 18. Figure shows the created dashboard.
     <div align="center">
-   <img src="dashboard.png" alt="dashboard" width="200px" height="270px">
+   <img src="dashbboard.png" alt="dashboard" width="200px" height="270px">
    </div><br>
 
 ## Contribution 🛠️
