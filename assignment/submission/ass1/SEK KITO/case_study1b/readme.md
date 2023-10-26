@@ -333,7 +333,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 
 
-## Creating Pivot table for Monthly Sale chart
+## **Creating Pivot table for Monthly Sale chart**
 
 
 
