@@ -106,14 +106,14 @@ The main goal of this project is to utilize Google Sheets to process and present
 ## Creating a Dashboard <a name = "dashboard"></a>
 
 1. On the Dataset1 sheet, select **Insert** > **Pivot Table**.
-
-   Select **New sheet** and click **Create**. A new sheet should be created.
+   
+   - Select **New sheet** and click **Create**. A new sheet should be created.
 
 3. Rename the sheet to **Dashboard** by right-clicking the sheet name and select **Rename**.
 
 4. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **MIN** and leave the show as **Default**.
 
-5. Select **Insert** > **Pivot Table**. Click on **Existing sheet**, which in this case is Dashboard. Enter appropriate data range and click **Create**.
+5. Select **Insert** > **Pivot Table**. Click on **Existing sheet**, which in this case is Dashboard. Enter the appropriate data range and click **Create**.
 
 6. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **MAX** and leave the show as **Default**.
 
@@ -126,36 +126,36 @@ The main goal of this project is to utilize Google Sheets to process and present
 10. Figure shows the created pivoted tables. These tables show a summarization of each category.
 
 11. Select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
+    
+    - Enter the appropriate data range and click **OK**.
 
-    Enter appropriate data range and click **OK**.
-
-12. Figure below show the **Setup** for **Min**, **Max**, and **Average** scorecards.
+12. Figure below shows the **Setup** for **Min**, **Max**, and **Average** scorecards.
 
 13. Select **Insert** > **Chart**. Click on the **Column chart** under **Chart editor** > **Setup**.
 
-    Enter appropriate data range and click **OK**.
+    - Enter the appropriate data range and click **OK**.
 
-    Figure below show the **Setup** for **Grading** chart.
+    Figure below shows the **Setup** for the **Grading** chart.
 
 14. Select **Insert** > **Chart**. Click on the **Table chart** under **Chart editor** > **Setup**.
 
-    Enter appropriate data range and click **OK**.
+    - Enter the appropriate data range and click **OK**.
 
-    Figure below show the **Setup** for **Grading** table.
+    Figure below shows the **Setup** for the **Grading** table.
 
 15. Select **Insert** > **Chart**. Click on the **Doughnut chart** under **Chart editor** > **Setup**.
 
-    Enter appropriate data range and click **OK**.
+    - Enter the appropriate data range and click **OK**.
 
-    Figure below show the **Setup** for **Pass** and **Fail** doughnut chart.
+    Figure below shows the **Setup** for the **Pass** and **Fail** doughnut chart.
 
 16. To create **Total Record**, **Pass**, and **Fail** scorecards, select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
 
-    Figure below show the **Setup** for **Total Record**, **Pass**, and **Fail** scorecards.
+    Figure below shows the **Setup** for **Total Record**, **Pass**, and **Fail** scorecards.
 
 17. Create another two scorecards to display the total record of **Pass** and **Fail**.
 
-    Figure below show the **Setup** for total record of **Pass** and **Fail** scorecards.
+    Figure below shows the **Setup** for the total record of **Pass** and **Fail** scorecards.
 
 18. Figure shows the created dashboard.
     
