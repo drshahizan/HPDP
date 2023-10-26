@@ -19,7 +19,7 @@
   - [Three Highest Value](#three-highest-value)
   - [Total Marks](#total-marks)
   - [Calculating Percentage](#calculating-percentage)
-  - [Creating Grade and Status (Pass or Fail)](#creating-grade-and-status-pass-or-fail))
+  - [Creating Grade and Status (Pass or Fail)](#creating-grade-and-status-pass-or-fail)
   - [Total Marks](#total-marks)
   - [Highlighting Pass students](#highlighting-pass-students)
 - [Dashboard creation](#dashboard-creation)
