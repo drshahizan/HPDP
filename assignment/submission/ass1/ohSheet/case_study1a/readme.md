@@ -125,7 +125,40 @@ The main goal of this project is to utilize Google Sheets to process and present
 
 10. Figure shows the created pivoted tables. These tables show a summarization of each category.
 
-11. 
+11. Select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
+
+    Enter appropriate data range and click **OK**.
+
+12. Figure below show the **Setup** for **Min**, **Max**, and **Average** scorecards.
+
+13. Select **Insert** > **Chart**. Click on the **Column chart** under **Chart editor** > **Setup**.
+
+    Enter appropriate data range and click **OK**.
+
+    Figure below show the **Setup** for **Grading** chart.
+
+14. Select **Insert** > **Chart**. Click on the **Table chart** under **Chart editor** > **Setup**.
+
+    Enter appropriate data range and click **OK**.
+
+    Figure below show the **Setup** for **Grading** table.
+
+15. Select **Insert** > **Chart**. Click on the **Doughnut chart** under **Chart editor** > **Setup**.
+
+    Enter appropriate data range and click **OK**.
+
+    Figure below show the **Setup** for **Pass** and **Fail** doughnut chart.
+
+16. To create **Total Record**, **Pass**, and **Fail** scorecards, select **Insert** > **Chart**. Click on the **Scorecard chart** under **Chart editor** > **Setup**.
+
+    Figure below show the **Setup** for **Total Record**, **Pass**, and **Fail** scorecards.
+
+17. Create another two scorecards to display the total record of **Pass** and **Fail**.
+
+    Figure below show the **Setup** for total record of **Pass** and **Fail** scorecards.
+
+18. Figure shows the created dashboard.
+    
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
