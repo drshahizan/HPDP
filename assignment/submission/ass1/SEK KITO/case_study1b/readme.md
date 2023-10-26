@@ -614,12 +614,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 4. Next, remove ‘MONTH NUMBER’ from the ‘Series’ by clicking on the three dots and click ‘Remove’
 
-        
-
-<p id="gdcalert51" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image51.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert52">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image51.png "image_tooltip")
+![alt_text](images/image54.png "image_tooltip")
 
 
 
@@ -629,22 +626,15 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert52" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image52.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert53">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image52.png "image_tooltip")
+![alt_text](images/image7.png "image_tooltip")
 
 
 
         Figure 51 : ‘Add labels’ button
 
 
-        
-
-<p id="gdcalert53" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image53.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert54">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image53.png "image_tooltip")
+![alt_text](images/image43.png "image_tooltip")
 
 
 
@@ -661,10 +651,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 
 
-<p id="gdcalert54" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image54.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert55">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image54.png "image_tooltip")
+![alt_text](images/image55.png "image_tooltip")
 
 
 Figure 53 : All the charts created thus far
@@ -678,12 +667,8 @@ Figure 53 : All the charts created thus far
 
 1. Click on any cell of any pivot table
 
-    
 
-<p id="gdcalert55" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image55.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert56">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image55.png "image_tooltip")
+![alt_text](images/image44.png "image_tooltip")
 
 
 
@@ -691,9 +676,6 @@ Figure 53 : All the charts created thus far
 
 2. Click on ‘Data’ at the top bar of the sheet and click on ‘Add a slicer’
 
-    
-
-<p id="gdcalert56" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image56.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert57">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image56.png "image_tooltip")
@@ -709,21 +691,16 @@ Figure 53 : All the charts created thus far
 
 3. The slicer menu panel will pop up as well with the newly added slicer 
 
-    
-
-<p id="gdcalert57" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image57.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert58">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image57.png "image_tooltip")
+
+![alt_text](images/image14.png "image_tooltip")
 
 
 
     Figure 56 : Slicer menu panel
 
 
-    
-
-<p id="gdcalert58" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image58.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert59">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image58.png "image_tooltip")
@@ -734,12 +711,9 @@ Figure 53 : All the charts created thus far
 
 4. Select ‘CUSTOMER’
 
-    
-
-<p id="gdcalert59" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image59.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert60">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image59.png "image_tooltip")
+![alt_text](images/image37.png "image_tooltip")
 
 
 
@@ -747,12 +721,9 @@ Figure 53 : All the charts created thus far
 
 5. Now create 4 more slicers for ‘SALESPERSON’, ‘PRODUCTS’, ‘Sales Region’ and ‘SALES YEAR’. Now you should have a total of 5 slicers
 
-    
-
-<p id="gdcalert60" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image60.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert61">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image60.png "image_tooltip")
+![alt_text](images/image49.png "image_tooltip")
 
 
 
@@ -763,10 +734,10 @@ Figure 53 : All the charts created thus far
 
     
 
-<p id="gdcalert61" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image61.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert62">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image61.png "image_tooltip")
+
+![alt_text](images/image27.png "image_tooltip")
 
 
 
@@ -777,12 +748,9 @@ Figure 53 : All the charts created thus far
 
 8. You can filter the data using the slicer
 
-    
-
-<p id="gdcalert62" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image62.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert63">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image62.png "image_tooltip")
+![alt_text](images/image31.png "image_tooltip")
 
 
 
