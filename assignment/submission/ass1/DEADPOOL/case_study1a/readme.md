@@ -159,6 +159,19 @@ Figure 15: Formula to determine the students passed or failed.
 </div>
 <br>
 
+## Dashboard <a name = "processing"></a>
+
+1. Determine the min for student's examination result
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic17.jpg" width=400>
+</p>
+<div align="center">  
+Figure 16: Min mark for student's examination marks. 
+</div>
+<br>
+
+
+
 13. Make a dashboard to examine the lowest, maximum, and average score. Additionally, this dashboard computes the percentage of students that passed and failed and gives the number of students for each grade.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic16.jpg" width=400>
