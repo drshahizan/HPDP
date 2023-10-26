@@ -18,10 +18,10 @@
 | MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |       Visualization         |     
    
 ### 📂 Folder content:
-* [📖 Report 1a](https://docs.google.com/spreadsheets/d/1iH-GXHBj8gCqSddTtoVbSO3vFLJ2KGhVP3wel4VCKzM/edit?usp=sharing)
-* [💻 Google Sheets 1a]()
-* [📖 Report 1b](https://docs.google.com/spreadsheets/d/1vzbX7fOF3rGPEbO0plezBSquwgF1TqsvCZUbMXig87Y/edit?usp=sharing)
-* [💻 Google Sheets 1b]()
+* [📖 Report 1a]()
+* [💻 Google Sheets 1a](https://docs.google.com/spreadsheets/d/1iH-GXHBj8gCqSddTtoVbSO3vFLJ2KGhVP3wel4VCKzM/edit?usp=sharing)
+* [📖 Report 1b]()
+* [💻 Google Sheets 1b](https://docs.google.com/spreadsheets/d/1vzbX7fOF3rGPEbO0plezBSquwgF1TqsvCZUbMXig87Y/edit?usp=sharing)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
