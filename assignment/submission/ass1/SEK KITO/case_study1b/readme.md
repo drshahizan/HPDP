@@ -370,7 +370,7 @@
         
 
 
-	**Creating Pivot table for Sales Trend chart**
+## **Creating Pivot table for Sales Trend chart**
 
 
 
