@@ -71,6 +71,12 @@
 2. To do this, select the second cell of a new column, J2 for example.
 
 
+![alt_text](images/image47.png "image_tooltip")
+
+
+
+    Figure 8 : Showing the formula being added in the function tab
+
 ![alt_text](images/image25.png "image_tooltip")
 
 
