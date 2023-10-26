@@ -177,7 +177,7 @@ Figure 16: Min mark for student's examination results.
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic20.jpg" width=400>
 </p>
 <div align="center">  
-Figure 16: Max mark for student's examination results. 
+Figure 17: Max mark for student's examination results. 
 </div>
 <br>
 
@@ -187,7 +187,7 @@ Figure 16: Max mark for student's examination results.
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic22.jpg" width=400>
 </p>
 <div align="center">  
-Figure 16: Average mark for student's examination results. 
+Figure 18: Average mark for student's examination results. 
 </div>
 <br>
 
