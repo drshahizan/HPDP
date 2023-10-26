@@ -1,8 +1,6 @@
 
 # Importing Data into Sheets
 
-
-
 1. Start with a new blank Google Sheets
 2. Click on ‘File’ at at the top-left corner of the screen and click on ‘Import’
 
