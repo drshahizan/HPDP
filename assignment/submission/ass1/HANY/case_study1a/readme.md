@@ -30,7 +30,10 @@
    - 3.6. [Grade Assignment](#36-grade-assignment)
    - 3.7. [Differentiate Status Based on Color](#37-differentiate-status-based-on-color)
 4. [Data Visualisation](#4-data-visualisation)
-   - 4.1. [Creating Dashboard](#41-creating-dashboard)
+   - 4.1. [Min, Max and Average Values](#41-max-min-avg-value)
+   - 4.2. [Grading Results](#42-grading-results)
+   - 4.3. [Total Numbers of Records, Pass, and Fail](#43-records-pass-fail)
+   - 4.4. [Pass and Fail View in Pie Chart](#44-pass-fail-chart)
 5. [Contribution](#5-contribution)
 
 
@@ -235,7 +238,7 @@ The following data processing processes must be completed:
    **Figure 22: Displays the Setup option, which includes several chart.**
    </div>
 
-### 4.1. Min, max, and average values
+### 4.1. Min, Max and Average Values
    4. Set the **Setup** as indicated in **Figure 23** below by clicking **Chart editor**. Check the **Aggregate** and **Use row 2 as headers** boxes. Then select the **Min** option.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/c0268e95-d7f4-4ba2-888c-03dd79bfa9fe" style="width: 300px; height: 450px;">
