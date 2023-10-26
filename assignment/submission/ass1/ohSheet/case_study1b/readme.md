@@ -48,6 +48,11 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
 4. Figure shows the data that has been entered into Google Sheets. This dataset contains ten columns: **CUSTOMER**, **PRODUCTS**, **SPORTS**, **SALES PERSON**, **Sales Region**, **Target**, **SALES**, **SALES YEAR**, **SALES MONTH** and **SALES QTR**.
 
+## Creating a Dynamic Dashboard <a name = "dashboard"></a>
+   <div align="center">
+   <img src="dashboard.png" alt="import">
+   </div><br>
+
 5. Create Pivot table
    
    Click “Insert” button then choose “Pivot Table” as shown below
@@ -146,14 +151,6 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    Here is the result for SALES TREND 
    <div align="center">
    <img src="salesTrend3.png" alt="import" width="350">
-   </div><br>
-
-
-
-
-## Creating a Dynamic Dashboard <a name = "dashboard"></a>
-   <div align="center">
-   <img src="Dashboard.jpg" alt="import">
    </div><br>
     
 
