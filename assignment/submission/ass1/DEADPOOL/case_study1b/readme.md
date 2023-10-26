@@ -142,25 +142,44 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
 ## Dashboard & Slicer
 1. Prepare dashboard by selecting all cells in spreadsheet named **Dashboard2** using the command **CTRL A** and sellect **FILL** to set dashboard background colour.
-2. All of the charts created are copied and arranged organizedly **Dashboard2** spreadsheet.
-3. Go to **Insert >> Drawing** to create a headline for the dashboard.
-4. Select **Insert >> Drawing**, using rectangle shape tool to create border for slicer. Repeat this step 4 more times and adjust to the suitable size on the dashboard.
-5. Insert text using **Insert >> Drawing**. **SALES YEAR**, **SALES REGION** and **PRODUCT** is on the left side while **CUSTOMER** and **SALES PERSON** is on the right side
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20Background.png)
+3. All of the charts created are copied and arranged organizedly **Dashboard2** spreadsheet.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20Chart.png)
+5. Merge the first 3 rows of the spreadsheet, then go to **Insert >> Drawing** to create a headline for the dashboard.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20headline.png)
+7. Select **Insert >> Drawing**, using rectangle shape tool to create border for slicer. Repeat this step 4 more times and adjust to the suitable size on the dashboard.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20Border.png)
+9. Insert text using **Insert >> Drawing**. **SALES YEAR**, **SALES REGION** and **PRODUCT** is on the left side while **CUSTOMER** and **SALES PERSON** is on the right side
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20Text.png)
 
 #### How to create Slicer
-1. from the dataset sheet named Dataset2 go to **Data >> Add Slicer**
-2. copy paste the slicer from dataset 2 to the dashboard2 sheet
-3. from the slicer editor select the column to filter
-4. Google sheet slicer only will work on the pivot tables that are from the same sheet. Hence, copy all of the pivot table to the dashboard sheet
-5. Select the Monthly Sales chart to readjust the data range of the chart to the corresponding pivot table on the same sheet. Repeat the same step to all of the remaining visualization in the dashboard.
-6. make 4 more slicers and change the each of filter columns to **SALES YEAR**, **SALES REGION**, **CUSTOMER**, **SALES PERSON** and **PRODUCT**.
+1. From the spreadsheet named **Dataset2** go to **Data >> Add Slicer** to create slicer that contain the data range from the main dataset.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Dataset.png)
+3. Copy the created slicer from **Dataset2** and paste it to the **Dashboard2** spreadsheet.
+5. Select the column to filter from the slicer editor.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Filter.png)
+7. Google sheet slicer only will work on the pivot tables that are from the same sheet. Hence, insert some column to the right and copy all of the pivot table to **Dashboard2** spreadsheet.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Pivot%20Table.png)
+9. Select the Monthly Sales chart to readjust the data range of the chart to the corresponding pivot table on the same sheet. Repeat the same step to all of the remaining visualization in the dashboard.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Range1.png)
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Range2.png)
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Range3.png)
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Range4.png)
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer%20Range5.png)
+11. Customize the slicer to match the palette of the dashboard. Make a total of slicers and change the each of filter columns to **SALES YEAR**, **SALES REGION**, **CUSTOMER**, **SALES PERSON** and **PRODUCT**.
+![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Slicer.png)
 
+After all of the slicer is created the interactive dashboard for Deadpool Sales Performance is done.
+![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard.png)
 
-After all of the slicer is created the interactive dashboard for Deadpool Sales Performance is done 
+<br>
 
 The display of dashboard when :
 * **SALES PERSON** is **Loh Yew Chong**
+  ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20Case1.png)
 * **PRODUCT** is **cooking oil** and the **SALES YEAR** is **2021**
+  ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Dashboard%20Case2.png)
+
 <br>
 
 
