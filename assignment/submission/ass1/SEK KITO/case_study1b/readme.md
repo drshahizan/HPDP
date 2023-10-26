@@ -764,12 +764,12 @@ Figure 53 : All the charts created thus far
 
 
 
-    **Slicer:** We can employ specific criteria to refine the charts, granting a versatile perspective on the data.
-    **Monthly Sales:** Illustrates the monthly sales target and the actual monthly sales achieved.
-    **Regional graph:** Delivers insights on the aggregate sales figures, presenting a summary of regional performance.
-    **Customer chart:** Emphasizes the quantity of products sold in each store, with data conveniently displayed to the left of the pie chart for easy reference.
-    **Salesperson chart:** Showcases the volume of products sold by individual salespersons and furnishes a detailed breakdown of each salesperson's product sales.
-    **Sales trend chart:** Monitors monthly sales for both 2020 and 2021, enabling the observation of sales patterns over the two-year span.
+    Slicer: We can employ specific criteria to refine the charts, granting a versatile perspective on the data.
+    Monthly Sales: Illustrates the monthly sales target and the actual monthly sales achieved.
+    Regional graph: Delivers insights on the aggregate sales figures, presenting a summary of regional performance.
+    Customer chart: Emphasizes the quantity of products sold in each store, with data conveniently displayed to the left of the pie chart for easy reference.
+    Salesperson chart: Showcases the volume of products sold by individual salespersons and furnishes a detailed breakdown of each salesperson's product sales.
+    Sales trend chart: Monitors monthly sales for both 2020 and 2021, enabling the observation of sales patterns over the two-year span.
 
 
 
