@@ -41,7 +41,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
 2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
 
-   <img src="import.png" alt="import" width="200px" height="270px">>
+   <img src="import.png" alt="import" width="200px" height="270px">
 
 4. Choose the file and click 'Import data'.
 
