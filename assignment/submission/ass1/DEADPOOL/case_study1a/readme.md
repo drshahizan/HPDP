@@ -207,7 +207,17 @@ Figure 19: Chart for students' grades.
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic26.jpg" width=400>
 </p>
 <div align="center">  
-Figure 19: Students' grade Table. 
+Figure 20: Students' grade Table. 
+</div>
+<br>
+
+5. Create a doughnut table to illustrate number of students who passed and failed. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic27.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic28.jpg" width=400>
+</p>
+<div align="center">  
+Figure 20: Students' grade doughnut chart. 
 </div>
 <br>
 
