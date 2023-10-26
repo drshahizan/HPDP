@@ -41,7 +41,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 2. To import the Dataset2.txt file on Google Sheets, choose 'File' and click 'Import'.
    
    <div align="center">
-   <img src="createPivot.png" alt="import" width="200px" height="270px">
+   <img src="import.png" alt="import" width="200px" height="270px">
    </div><br>
    
 3. Choose the file and click 'Import data'.
@@ -52,7 +52,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
    Click “Insert” button then choose “Pivot Table” as shown below
    <div align="center">
-   <img src="createPivot1.png" alt="import" width="200px" height="270px">
+   <img src="createPivot.png" alt="import" width="200px" height="270px">
    </div><br>
 
    Select all the data from the dataset for data range 
@@ -62,12 +62,12 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
    Then choose whether “Existing sheet” to apply at same page, for “New sheet” it will create and apply at the new sheet. Lastly, click “Create” button to create pivot table
    <div align="center">
-   <img src="createPivot3.png" alt="import" width="200px" height="270px">
+   <img src="createPivot4.png" alt="import" width="200px" height="270px">
    </div><br>
 
    Here is the examples of pivot table that already created 
    <div align="center">
-   <img src="createPivot4.png" alt="import" width="200px" height="270px">
+   <img src="createPivot5.png" alt="import" width="200px" height="270px">
    </div><br>
 
    
