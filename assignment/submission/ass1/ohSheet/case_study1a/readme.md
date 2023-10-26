@@ -150,7 +150,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 4. Figure shows the final result of Dataset1 sheet before creating a dashboard.
    
    <div align="center">
-   <img src="finaldataset.png" alt="finaldataset" width="250">
+   <img src="finaldataset.png" alt="finaldataset" width="700">
    </div><br>
    
 ## Creating a Dashboard <a name = "dashboard"></a>
