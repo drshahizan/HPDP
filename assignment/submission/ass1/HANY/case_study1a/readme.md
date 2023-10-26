@@ -309,20 +309,25 @@ The following data processing processes must be completed:
       
    **Figure 32**
          <br>
-         
+    </div>
+    
    9. Formula in **Figure 33** is used to calculate the total numbers of each grade while formula in **Figure 34** is used to calculate the total numbers of record. **Figure 35** illustrates the outcome of the table.
        <br><br>
+   <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/6216c889-c2a6-4eb2-bd3a-4a084b02d492" style="width: 350px; height: 30px;">
          <br>
+      
    **Figure 33**      
-      <br>
+         <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/d8bb7748-55c7-4142-9dc8-4992331956d1" style="width: 150px; height: 30px;">
          <br>
-    **Figure 34**     
+         
+   **Figure 34**     
       <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/5877d835-2678-49b1-aa7a-99574043f06c" style="width: 150px; height: 300px;">
          <br>
-    **Figure 35**     
+         
+   **Figure 35**     
    </div>
 
 • Display grading results as charts.  
@@ -381,14 +386,23 @@ The following data processing processes must be completed:
    </div>
 
 • Total Numbers of Pass  
-   18. Create new sheet named **Statistic** and insert the formula stated in **Figure xx** below.
+   18. Create new sheet named **Statistic** and insert the formula stated in **Figure 42** below.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
       <br>
+      
+   **Figure 42**
+   <br>
+
+   19. Formula in **Figure 43** is used to calculate the percentage while formula in **Figure 44** is used to calculate the total numbers of fail and pass.
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/2b84b43e-c619-4705-ac17-ff93f3ceedb1" style="width: 500px; height: 30px;">
-      <br>
+
+   **Figure 43**
+   <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/2f29cd10-b28f-4a44-835c-8153a1077a57" style="width: 600px; height: 30px;">
-      <br>
+
+   **Figure 44**
+   <br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
       <br>
       **Use two scorecard charts to combine the percentage and number of records
