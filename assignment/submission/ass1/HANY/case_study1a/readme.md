@@ -397,7 +397,7 @@ The following data processing processes must be completed:
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/2b84b43e-c619-4705-ac17-ff93f3ceedb1" style="width: 500px; height: 30px;">
 
    **Figure 43**
-   <br>
+   <br><br>
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/2f29cd10-b28f-4a44-835c-8153a1077a57" style="width: 600px; height: 30px;">
 
    **Figure 44**
