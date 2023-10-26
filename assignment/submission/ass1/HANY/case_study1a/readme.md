@@ -299,7 +299,7 @@ The following data processing processes must be completed:
 ### 4.2. Grading Results
 • Display grading results as tables.
 
-   8. 
+   8. Based on **Figure 32**, 
    <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/a31e3d4b-9c3c-42a8-904e-d820aeb6eee7" style="width: 100px; height: 300px;">
          <br>
@@ -312,21 +312,43 @@ The following data processing processes must be completed:
    </div>
 
 • Display grading results as charts.
+   12. Click to the selcted column as shown in Figure xx below and make sure that the **Aggregate** box is check. 
    <div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 500px; height: 350px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 300px; height: 350px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 300px; height: 350px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 300px; height: 350px;">
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 300px; height: 350px;">
-         <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
+   <br>
+      
+   **Figure xx: Displays the setup of chart editor.**
+   <br>
+   </div>
+   
+   13. Click the **Customize** option, to rename the **Vertical axis title** to **Num. of Students (10K)** and the **Chart Title** to **Grading**
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 300px; height: 350px;"> <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 300px; height: 350px;">
+   <br>
+      
+   **Figure xx: Displays the customize of chart editor.**
+   <br>
+   </div> 
+
+   14. Next, click the **Chart & axis titles** and select the **Horizontal axis title** option.
+   15. **Title text** should be renamed as **Grade**.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 300px; height: 350px;"> <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 300px; height: 350px;">
+   <br>
+
+   **Figure xx: Displays the customize of chart editor for the axis.**
+   <br>
    </div>
 
+   16. The chart will be display as shown in Figure xx.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 500px; height: 350px;">
+   <br>
+
+   **Figure xx: Displays the grading chart.**
+   <br>
+   </div>
+   
 ### 4.3 Total Numbers of Records, Pass, and Fail
 • Total Records
 
