@@ -135,7 +135,7 @@ _Figure 3.3: Formula for sorting the data_
 
 - Before putting our data into a chart, we create a pivot table to simplify the process of selecting the best chart type. A pivot table represents our data visually, allowing us to identify patterns and make comparisons. Furthermore, it shows the computations, such as sums or averages, indicating how the data has changed and increasing the accuracy of our charts and analysis. All data from the TempData sheet was selected, and clicked the Insert from the task bar, then chose Pivot Table and chose Create, and the new sheet was created as Pivot Table 1. Select all data -> Insert -> Pivot table -> Create -> Pivot Table 1.
 <p align="center">
-<img src="ss6.png">
+<img src="![ss9](https://github.com/drshahizan/HPDP/assets/146691908/aac7f048-17b0-46f2-b9c3-4f938b1fdc1d)">
 </p>
 
 
