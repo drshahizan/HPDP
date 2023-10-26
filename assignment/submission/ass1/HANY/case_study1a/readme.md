@@ -351,7 +351,7 @@ The following data processing processes must be completed:
    </div>
    
 ### 4.3 Total Numbers of Records, Pass, and Fail
-• Total Records
+• Total Records  
    17. As illustrated in **Figure xx**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure xx**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
@@ -366,7 +366,8 @@ The following data processing processes must be completed:
    **Figure xx: Shows the Total Record.**
    </div>
 
-• Total Numbers of Pass 
+• Total Numbers of Pass  
+   18. Create new sheet named **Statistic** and insert the formula stated in **Figure xx** below.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
       <br>
