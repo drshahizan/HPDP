@@ -14,7 +14,7 @@
 - [Data preprocessing](#data-preprocessing)
   - [Import dataset to Google Sheets](#import-dataset-to-Google-Sheets)
   - [Remove redundant data](#import-dataset-to-Google-Sheets)
-  - [Changing decimal places](#changing-decimal places)
+  - [Changing decimal places](#changing-decimal-places)
   - [Creating Column](#creating-column)
   - [Three Highest Value](#three-highest-value)
   - [Total Marks](#total-marks)
