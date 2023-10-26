@@ -302,26 +302,37 @@ The following data processing processes must be completed:
 ### 4.2. Grading Results
 • Display grading results as tables.
 
-   8. Based on **Figure 32**, 
+   8. Create a table listed from A+ to E and total numbers of record as shown in **Figure 32**. 
    <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/a31e3d4b-9c3c-42a8-904e-d820aeb6eee7" style="width: 100px; height: 300px;">
          <br>
+      
+   **Figure 32**
+         <br>
+         
+   9. Formula in **Figure 33** is used to calculate the total numbers of each grade while formula in **Figure 34** is used to calculate the total numbers of record. **Figure 35** illustrates the outcome of the table.
+       <br><br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/6216c889-c2a6-4eb2-bd3a-4a084b02d492" style="width: 350px; height: 30px;">
          <br>
+   **Figure 33**      
+      <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/d8bb7748-55c7-4142-9dc8-4992331956d1" style="width: 150px; height: 30px;">
          <br>
+    **Figure 34**     
+      <br>
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/5877d835-2678-49b1-aa7a-99574043f06c" style="width: 150px; height: 300px;">
          <br>
+    **Figure 35**     
    </div>
 
 • Display grading results as charts.  
 
-12. Click to the selcted column as shown in Figure xx below and make sure that the **Aggregate** box is check. 
+12. Click to the selcted column as shown in Figure 36 below and make sure that the **Aggregate** box is check. 
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
    <br>
       
-   **Figure xx: Displays the setup of chart editor.**
+   **Figure 36: Displays the setup of chart editor.**
    <br>
    </div>
    
@@ -330,7 +341,7 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 300px; height: 350px;"> <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 300px; height: 350px;">
    <br>
       
-   **Figure xx: Displays the customize of chart editor.**
+   **Figure 37: Displays the customize of chart editor.**
    <br>
    </div> 
 
@@ -340,33 +351,33 @@ The following data processing processes must be completed:
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 300px; height: 350px;"> <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 300px; height: 350px;">
    <br>
 
-   **Figure xx: Displays the customize of chart editor for the axis.**
+   **Figure 38: Displays the customize of chart editor for the axis.**
    <br>
    </div>
 
-   16. The chart will be display as shown in Figure xx.
+   16. The chart will be display as shown in Figure 39.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 500px; height: 350px;">
    <br>
 
-   **Figure xx: Displays the grading chart.**
+   **Figure 39: Displays the grading chart.**
    <br>
    </div>
    
 ### 4.3. Total Numbers of Records, Pass, and Fail
 • Total Records  
-   17. As illustrated in **Figure xx**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure xx**.
+   17. As illustrated in **Figure 40**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure 41**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
    <br>
 
-   **Figure xx: Displays the setup for chart editor.**
+   **Figure 40: Displays the setup for chart editor.**
    <br>
    
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/dc6c336e-4670-4127-864a-4e0e92cddb73" style="width: 350px; height: 150px;">
    <br>
 
-   **Figure xx: Shows the Total Record.**
+   **Figure 41: Shows the Total Record.**
    </div>
 
 • Total Numbers of Pass  
