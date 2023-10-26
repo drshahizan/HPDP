@@ -152,7 +152,9 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
 
 ## Creating a Dynamic Dashboard <a name = "dashboard"></a>
-
+   <div align="center">
+   <img src="Dashboard.jpg" alt="import">
+   </div><br>
     
 
 ## Contribution 🛠️
