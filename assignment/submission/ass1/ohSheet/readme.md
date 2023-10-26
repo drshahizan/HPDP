@@ -18,9 +18,9 @@
 | MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ      |      A21EC0061   |       Visualization         |     
    
 ### 📂 Folder content:
-* [📖 Report 1a](./case_study1a/readme.md)
+* [📖 Report 1a](https://docs.google.com/spreadsheets/d/1iH-GXHBj8gCqSddTtoVbSO3vFLJ2KGhVP3wel4VCKzM/edit?usp=sharing)
 * [💻 Google Sheets 1a]()
-* [📖 Report 1b](./case_study1b/readme.md)
+* [📖 Report 1b](https://docs.google.com/spreadsheets/d/1vzbX7fOF3rGPEbO0plezBSquwgF1TqsvCZUbMXig87Y/edit?usp=sharing)
 * [💻 Google Sheets 1b]()
 
 ## Contribution 🛠️
