@@ -191,13 +191,23 @@ Figure 18: Average mark for student's examination results.
 </div>
 <br>
 
-4. Creare a column chart to analyse the number of students getting grade A+ to E. 
+4. Create a column chart to analyse the number of students getting grade A+ to E. 
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic23.jpg" width=400>
 <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic24.jpg" width=400>
 </p>
 <div align="center">  
-Figure 18: Chart for students' grades. 
+Figure 19: Chart for students' grades. 
+</div>
+<br>
+
+5. Calculate the number of students for each grade by using formula shown below. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic25.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic26.jpg" width=400>
+</p>
+<div align="center">  
+Figure 19: Students' grade Table. 
 </div>
 <br>
 
