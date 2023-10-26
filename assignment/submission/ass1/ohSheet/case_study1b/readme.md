@@ -41,7 +41,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 2. To import the Dataset2.txt file on Google Sheets, choose 'File' and click 'Import'.
    
    <div align="center">
-   <img src="import.png" alt="import" width="200px" height="270px">
+   <img src="import.png" alt="import" width="350">
    </div><br>
    
 3. Choose the file and click 'Import data'.
@@ -52,22 +52,22 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
    Click “Insert” button then choose “Pivot Table” as shown below
    <div align="center">
-   <img src="createPivot.png" alt="import" width="200px" height="270px">
+   <img src="createPivot.png" alt="import" width="350">
    </div><br>
 
    Select all the data from the dataset for data range 
     <div align="center">
-   <img src="createPivot2.png" alt="import" width="200px" height="270px">
+   <img src="createPivot2.png" alt="import" width="350">
    </div><br>
 
    Then choose whether “Existing sheet” to apply at same page, for “New sheet” it will create and apply at the new sheet. Lastly, click “Create” button to create pivot table
    <div align="center">
-   <img src="createPivot4.png" alt="import" width="200px" height="270px">
+   <img src="createPivot4.png" alt="import" width="350">
    </div><br>
 
    Here is the examples of pivot table that already created 
    <div align="center">
-   <img src="createPivot6.png" alt="import" width="200px" height="270px">
+   <img src="createPivot6.png" alt="import" width="350">
    </div><br>
 
    
@@ -75,49 +75,49 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
    For sales region, drag “Sales Region” to “Rows” and “Filters”, then drag “SALES” to the values
     <div align="center">
-   <img src="createPivot7.png" alt="import" width="200px" height="270px">
+   <img src="createPivot7.png" alt="import" width="350">
    </div><br>
 
    Here is the result of SALES REGION
    
     <div align="center">
-   <img src="createPivot8.png" alt="import" width="200px" height="270px">
+   <img src="createPivot8.png" alt="import" width="350">
    </div><br>
 
    SALES YEAR
 
    For Sales year, drag “SALES YEAR” to “Rows”, drag “SALES” to Values and set it as  “SUM”, and lastly drag “SALES YEAR” to “Filters”.
     <div align="center">
-   <img src="salesYear2.png" alt="import" width="200px" height="270px">
+   <img src="salesYear2.png" alt="import" width="350">
    </div><br>
 
    Here is the result of SALES YEAR
    <div align="center">
-   <img src="salesYear3.png" alt="import" width="200px" height="270px">
+   <img src="salesYear3.png" alt="import" width="350">
    </div><br>
 
    SALES PERSON
 
    For Customer, drag “CUSTOMER”,  to “Rows”, then drag “PRODUCTS” to the “Columns”, drag “PRODUCTS” to value and set the value as “COUNTA”  and lastly drag “SALES PERSON” to “Filters”
     <div align="center">
-   <img src="salesPerson2.png" alt="import" width="200px" height="270px">
+   <img src="salesPerson2.png" alt="import" width="350">
    </div><br>
 
    Here is the result for SALES PERSON
    <div align="center">
-   <img src="salesPerson3.png" alt="import" width="200px" height="270px">
+   <img src="salesPerson3.png" alt="import" width="350">
    </div><br>
 
    CUSTOMER
    
    For Customer, drag “CUSTOMER”  to “Rows”, then drag “PRODUCTS” to the values and lastly drag “CUSTOMER” to “Filters”
    <div align="center">
-   <img src="customer2.png" alt="import" width="200px" height="270px">
+   <img src="customer2.png" alt="import" width="350">
    </div><br>
 
     Here is the result for CUSTOMER
    <div align="center">
-   <img src="customer3.png" alt="import" width="200px" height="270px">
+   <img src="customer3.png" alt="import" width="350">
    </div><br>
    
    
@@ -126,13 +126,13 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
    For monthly sales, drag “SALES PERSON”  to “Rows”, then drag “PRODUCT” to the “Columns”, drag “PRODUCT” to values and set it as “COUNTA” , and lastly drag “SALES PERSON” and “PRODUCTS” to “Filters”
     <div align="center">
-   <img src="product2.png" alt="import" width="200px" height="270px">
+   <img src="product2.png" alt="import" width="350">
    </div><br>
 
    
    Here is the result for PRODUCTS 
    <div align="center">
-   <img src="product3.png" alt="import" width="200px" height="270px">
+   <img src="product3.png" alt="import" width="350">
    </div><br>
 
 
@@ -140,12 +140,12 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 
    For sales trend, drag “SALES YEAR”, “MONTH NUMBER” and “SALES MONTH”  to “Rows”, then drag “SALES” to the values and lastly drag “SALES YEAR” to “Filters”
    <div align="center">
-   <img src="salesTrend2.png" alt="import" width="200px" height="270px">
+   <img src="salesTrend2.png" alt="import" width="350">
    </div><br>
 
    Here is the result for SALES TREND 
    <div align="center">
-   <img src="salesTrend3.png" alt="import" width="200px" height="270px">
+   <img src="salesTrend3.png" alt="import" width="350">
    </div><br>
 
 
