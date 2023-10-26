@@ -40,9 +40,11 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
 1. Download the Dataset1.txt file.
 
 2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
-
+3. 
+   <div align="center">
    <img src="import.png" alt="import" width="200px" height="270px">
-
+   </div>
+   
 4. Choose the file and click 'Import data'.
 
 5. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
