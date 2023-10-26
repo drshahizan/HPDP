@@ -113,11 +113,13 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
    *for rows add **SALES PERSON**. The data from the **SALES PERSON** is arranged in alphabetical ascending order.
    *for column add **PRODUCT**.
    *for values, select **SALES**. The **SALES** value is summarised using **SUM**.
+    ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Salesperson%20Pivot%20Table.png)
 4. To create the chart, go to **Insert >> Chart**. In the chart editor setup the chart as below:
    * Chart type = Stacked Column Chart
    * Data range = A1 : E10
    * X-axis = SALES PERSON
    * Series = PRODUCT
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Salesperson%20Chart.png)
 5. Select on the chart tab to customize the chart. The series of Product in this chart is given distinctive colour to differentiate the amount of product sold by the sales person clearly.
    
 #### Sales Trend
@@ -125,11 +127,13 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 2. In the pivot table editor, select:
    *for rows select **SALES YEAR**, **MONTH INDEX** and **SALES MONTH** column.
    *for values, select **SALES**. The **SALES** value is summarised using **SUM**.
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Sales%20Trend%20Pivot%20Table.png)
 4. To create the chart, go to **Insert >> Chart**. In the chart editor setup the chart as below:
    * Chart type = Smooth Line Chart
    * Data range = C1 : D25
    * X-axis = SALES MONTH
    * Series = SUM of SALES
+   ![image](https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1b/images/Sales%20Trend%20Chart.png)
 5. Customize the the smooth line chart. The title is changed to Sales Trend and the data points are listed out for the series.
 
 <br>
