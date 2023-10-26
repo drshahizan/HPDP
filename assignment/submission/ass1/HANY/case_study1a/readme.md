@@ -421,8 +421,7 @@ The following data processing processes must be completed:
    
    **Figure 46**
    </div>
-      <br><br>
-      
+      <br>
       
    24. At "Customize", expand "Key Value" and choose "Custom" for Number Format. Then, put **"%"** at suffix.
    <div align="center">
@@ -451,6 +450,7 @@ The following data processing processes must be completed:
    </div>
 
 • Total Numbers of Fail
+
    26. Repeat steps from **23-25** to do another scorecard chart for total records of fail.
 <div align="center">
    
