@@ -74,7 +74,8 @@
 ![alt_text](images/image25.png "image_tooltip")
 
 
- Figure 7 : Showing that the referenced column is column 'H', SALES MONTH
+Figure 7 : Showing the second cell of column ‘J’ being selected
+
 
 
 
