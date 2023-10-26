@@ -84,6 +84,27 @@ This dataset is called Dataset2.txt. This dataset has nine columns which are CUS
 </p>
 
 ### Sales region<a name = "sales_region"></a>
+1. Repeat steps 1 and 2 from 'Monthly Sales Chart' to create a pivot table for Sales Region.
+2. Add 'Sales Region' as Rows and 'SALES' as Values.
+   <p align="center">
+     <img width="251" alt="Screenshot 2023-10-26 at 1 17 13 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/85b0e0d9-90b1-40a4-b8ef-ff301a21671a">
+</p>
+The output is as stated below:
+<p align="center"> 
+  <img width="205" alt="Screenshot 2023-10-26 at 1 22 33 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/117ff0c9-4537-46f1-8fc6-398a95481919">
+</p>
+3. Select the pivot table that was created, and click 'Insert' at the ribbon. A pie chart will be automatically created.
+<p align="center">
+  <img width="503" alt="Screenshot 2023-10-26 at 1 27 21 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/400a5de2-2a63-4fdc-bfa4-91da09870684">
+</p>
+4. Once the pie chart is created, ensure that the Data range, Label and Value is correct as shown below. 
+<p align="center">
+  <img width="336" alt="Screenshot 2023-10-26 at 1 29 38 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/550e16b6-c562-4b41-9d13-033d4233ebea">
+</p>
+5. Customize the chart according to your preferences. The result of the pie chart is attached below:
+<p align="center" >
+  <img width="336" alt="Screenshot 2023-10-26 at 1 34 46 PM" src="https://github.com/drshahizan/HPDP/assets/147252849/d09c1f00-a3cd-43db-8b75-28022ce13455">
+</p>
 
 ### Customer<a name = "customer"></a>
 
