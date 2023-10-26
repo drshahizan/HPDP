@@ -191,6 +191,16 @@ Figure 18: Average mark for student's examination results.
 </div>
 <br>
 
+4. Creare a column chart to analyse the number of students getting grade A+ to E. 
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic23.jpg" width=400>
+<img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic24.jpg" width=400>
+</p>
+<div align="center">  
+Figure 18: Chart for students' grades. 
+</div>
+<br>
+
 
 
 
