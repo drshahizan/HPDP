@@ -24,84 +24,78 @@
 + [Creating a Dashboard](#dashboard)
 + [Contributing](../CONTRIBUTING.md)
 
-## About <a name = "about"></a>
+
+## About <a name="about"></a>
+
 The main goal of this project is to utilize Google Sheets to process and present data, with a specific focus on a case study related to examination results. The project involves tasks such as calculating statistics, creating charts, and generating meaningful insights from the examination results. We were given Dataset1 where information about Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2 are contained. Firstly, we need to import the data followed by preprocessing the data. Next, grade and status are obtained. Last but not least, we are tasked to create a dashboard to visualize the overall result. In a nutshell, the project emphasizes practical data manipulation and visualization skills within the context of educational assessment.
 
-## Importing and Preprocessing Data <a name = "preprocess"></a>
+## Importing and Preprocessing Data <a name="preprocess"></a>
+
 1. Download the Dataset1.txt file.
-   
+
 2. To import the Dataset1.txt file on Google Sheets, choose 'File' and click 'Import'.
 
 3. Choose the file and click 'Import data'.
-   
+
 4. Figure shows the data that has been entered into Google Sheets. This dataset contains five columns: Id_No, Academic, Sports, Co-Curriculum, Test_1, and Test_2.
-   
+
 5. To convert the Academic, Sports, Co-Curriculum, Test_1, and Test_2 data values to two decimal places, select column B through column F.
 
 6. Choose 'Format' and click 'Number'.
-   
-7. Select 'Custom number format' and apply the two decimal values.
-   
-8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be name as below:
 
-   Academic: P1 (Column G) <br>
-   Sports: P2 (Column H) <br>
-   Co-Curriculum: P3 (Column I) <br>
-   Test_1: P4 (Column J) <br>
-   Test_2: P5 (Column K) 
+7. Select 'Custom number format' and apply the two decimal values.
+
+8. Create new columns to create new values of column B (Academic) to column F (Test_2) to standardize the maximum value to 3.33 for each column. The new columns should be named as below:
+   - Academic: P1 (Column G)
+   - Sports: P2 (Column H)
+   - Co-Curriculum: P3 (Column I)
+   - Test_1: P4 (Column J)
+   - Test_2: P5 (Column K)
 
    To calculate the new values, divide the score of each category by its full mark. The formula for each column is:
-   
-   Column P1: '=(B2/61)*3.33' <br>
-   Column P2: '=(C2/10)*3.33' <br>
-   Column P3: '=(D2/15)*3.33' <br>
-   Column P4: '=(E2/10)*3.33' <br>
-   Column P5: '=(F2/10)*3.33' 
-   
-   For each column, click enter after filling out the formula to autofill the entire column. 
+   - Column P1: `=(B2/61)*3.33`
+   - Column P2: `=(C2/10)*3.33`
+   - Column P3: `=(D2/15)*3.33`
+   - Column P4: `=(E2/10)*3.33`
+   - Column P5: `=(F2/10)*3.33`
+
+   For each column, click enter after filling out the formula to autofill the entire column.
 
 9. Create three new columns named B1 (Column L), B2 (Column M), and B3 (Column N) to determine the top three values based on the values on columns G to K. The new columns represent information as below:
-
-   Column L (B1): The highest value <br>
-   Column M (B2): The second highest value <br>
-   Column N (B3): The third highest value
+   - Column L (B1): The highest value
+   - Column M (B2): The second highest value
+   - Column N (B3): The third highest value
 
    The formula to get the values for each column is:
-
-   Column B1: '=LARGE($G2:$K2,1)' <br>
-   Column B2: '=LARGE($G2:$K2,2)' <br>
-   Column B3: '=LARGE($G2:$K2,3)'
+   - Column B1: `=LARGE($G2:$K2,1)`
+   - Column B2: `=LARGE($G2:$K2,2)`
+   - Column B3: `=LARGE($G2:$K2,3)`
 
    For each column, click enter after filling out the formula to autofill the entire column.
 
 10. Create a new column named TM (Column O) to calculate the total points by combining the data from columns L to N. The formula to calculate the total mark value is:
+   - `=SUM(L2:N2)`
 
-    '=SUM(L2:N2)'
-    
-    Click enter after filling out the formula to autofill the entire column.
+   Click enter after filling out the formula to autofill the entire column.
 
 11. Create a new column named Percent (Column P) to calculate the percentage value for the data in Column O (TM). The formula to calculate the percentage is:
+   - `=(O2/9.99)*100`
 
-    '=(O2/9.99)*100'
+   Click enter after filling out the formula to autofill the entire column.
+   The percentage value must be in two decimal places.
 
-    Click enter after filling out the formula to autofill the entire column.
+## Obtaining Grade and Status <a name="grade_status"></a>
 
-    The percentage value must be in two decimal places.
-
-## Obtaining Grade and Status <a name = "grade_status"></a>
-1. Create two new columns, Column Q for Grade and column R for Status.
-
+1. Create two new columns, Column Q for Grade and Column R for Status.
    The grade and status must be obtained based on the following table.
 
 2. The formula to determine the grade is:
-
-   ='VLOOKUP(P2,$U3:$W16,2)'
+   - `=VLOOKUP(P2,$U3:$W16,2)`
 
    Click enter after filling out the formula to autofill the entire column.
 
 3. The formula to determine the status is:
-
-   '=VLOOKUP(P2,$Y$4:$Z$16,2)'
+   - `=VLOOKUP(P2,$Y$4:$Z$16,2)`
 
    Click enter after filling out the formula to autofill the entire column.
 
@@ -111,6 +105,27 @@ The main goal of this project is to utilize Google Sheets to process and present
 
 ## Creating a Dashboard <a name = "dashboard"></a>
 
+1. On the Dataset1 sheet, select **Insert** > **Pivot Table**.
+
+   Select **New sheet** and click **Create**. A new sheet should be created.
+
+3. Rename the sheet to **Dashboard** by right-clicking the sheet name and select **Rename**.
+
+4. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **MIN** and leave the show as **Default**.
+
+5. Select **Insert** > **Pivot Table**. Click on **Existing sheet**, which in this case is Dashboard. Enter appropriate data range and click **Create**.
+
+6. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **MAX** and leave the show as **Default**.
+
+7. Repeat step 5. Under the **Pivot table editor** > **Values**, click **Add** and select **Percent**. Set the summarization to **AVERAGE** and leave the show as **Default**.
+
+8. Repeat step 5. Under the **Pivot table editor** > **Rows** and **Values**, click **Add** and select **Grade**.
+
+9. Repeat step 5. Under the **Pivot table editor** > **Rows** and **Values**, click **Add** and select **Status**.
+
+10. Figure shows the created pivoted tables. These tables show a summarization of each category.
+
+11. 
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
