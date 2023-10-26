@@ -591,7 +591,7 @@ _Figure 54: Customization of the Scorecard_
 <br>
 
 ## Dashboard <a name = "dashboard"></a>
-23. The dashboard as in the image below is created.
+1. The dashboard as in the image below is created.
  <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/GPS/case_study1a/dashboard.png" width=800>
 </p>
