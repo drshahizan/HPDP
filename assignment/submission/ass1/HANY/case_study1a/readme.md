@@ -302,37 +302,37 @@ The following data processing processes must be completed:
 ### 4.2. Grading Results
 • Display grading results as tables.
 
-   8. Create a table listed from A+ to E and total numbers of record as shown in **Figure 32**. 
+   8. Create a table listed from **Grade A+** to **E** and total numbers of record as shown in **Figure 32**. 
    <div align="center">
          <img src="https://github.com/drshahizan/HPDP/assets/106257072/a31e3d4b-9c3c-42a8-904e-d820aeb6eee7" style="width: 100px; height: 300px;">
          <br>
       
-   **Figure 32**
+   **Figure 32:: Display the list of grade.**
          <br>
     </div>
     
    9. Formula in **Figure 33** is used to calculate the total numbers of each grade while formula in **Figure 34** is used to calculate the total numbers of record. **Figure 35** illustrates the outcome of the table.
-       <br><br>
+   <br><br>
    <div align="center">
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/6216c889-c2a6-4eb2-bd3a-4a084b02d492" style="width: 350px; height: 30px;">
-         <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/6216c889-c2a6-4eb2-bd3a-4a084b02d492" style="width: 350px; height: 30px;">
+   <br>
       
-   **Figure 33**      
-         <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/d8bb7748-55c7-4142-9dc8-4992331956d1" style="width: 150px; height: 30px;">
-         <br>
+   **Figure 33: Shows the formula used.**      
+   <br>
+   
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/d8bb7748-55c7-4142-9dc8-4992331956d1" style="width: 150px; height: 30px;">
          
-   **Figure 34**     
-      <br>
-         <img src="https://github.com/drshahizan/HPDP/assets/106257072/5877d835-2678-49b1-aa7a-99574043f06c" style="width: 150px; height: 300px;">
-         <br>
+   **Figure 34: Shows the total number of records formula.**     
+   <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/5877d835-2678-49b1-aa7a-99574043f06c" style="width: 150px; height: 300px;">
+   <br>
          
-   **Figure 35**     
+   **Figure 35: Display the outcomes in column Data.**     
    </div>
 
 • Display grading results as charts.  
 
-12. Click to the selcted column as shown in Figure 36 below and make sure that the **Aggregate** box is check. 
+10. Click to the selcted column as shown in Figure 36 below and make sure that the **Aggregate** box is check. 
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
    <br>
@@ -341,7 +341,7 @@ The following data processing processes must be completed:
    <br>
    </div>
    
-   13. Click the **Customize** option, to rename the **Vertical axis title** to **Num. of Students (10K)** and the **Chart Title** to **Grading**
+   11. Click the **Customize** option, to rename the **Vertical axis title** to **Num. of Students (10K)** and the **Chart Title** to **Grading**
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/3f1fdf2d-3007-4603-9610-cf93c184511a" style="width: 300px; height: 350px;"> <img src="https://github.com/drshahizan/HPDP/assets/106257072/c6ef4588-60b3-46b1-bb2a-7e16af11b9df" style="width: 300px; height: 350px;">
    <br>
@@ -350,8 +350,8 @@ The following data processing processes must be completed:
    <br>
    </div> 
 
-   14. Next, click the **Chart & axis titles** and select the **Horizontal axis title** option.
-   15. **Title text** should be renamed as **Grade**.
+   12. Next, click the **Chart & axis titles** and select the **Horizontal axis title** option.
+   13. **Title text** should be renamed as **Grade**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/28d4fb18-91d7-4c43-8343-2199158b1229" style="width: 300px; height: 350px;"> <img src="https://github.com/drshahizan/HPDP/assets/106257072/02399022-a355-4121-92d8-acb3208a1548" style="width: 300px; height: 350px;">
    <br>
@@ -360,7 +360,7 @@ The following data processing processes must be completed:
    <br>
    </div>
 
-   16. The chart will be display as shown in Figure 39.
+   14. The chart will be display as shown in Figure 39.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/2e044717-3cd1-4615-bba3-32ef75300cab" style="width: 500px; height: 350px;">
    <br>
@@ -371,7 +371,8 @@ The following data processing processes must be completed:
    
 ### 4.3. Total Numbers of Records, Pass, and Fail
 • Total Records  
-   17. As illustrated in **Figure 40**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure 41**.
+
+   15. As illustrated in **Figure 40**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure 41**.
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
    <br>
@@ -385,31 +386,35 @@ The following data processing processes must be completed:
    **Figure 41: Shows the Total Record.**
    </div>
 
-• Total Numbers of Pass  
-   18. Create new sheet named **Statistic**.
+• Total Numbers of Pass 
+
+   16. Create new sheet named **Statistic**.
    <div align="center">
       <img src="https://github.com/drshahizan/HPDP/assets/106257072/ae88cc45-d12f-407d-86c9-fb6824faa04f" style="width: 500px; height: 55px;">
       
-   **Figure 42**
-   <br>
-
-   19. Formula in **Figure 43** is used to calculate the percentage while formula in **Figure 44** is used to calculate the total numbers of fail and pass.
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/2b84b43e-c619-4705-ac17-ff93f3ceedb1" style="width: 500px; height: 30px;">
-
-   **Figure 43**
-   <br><br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/2f29cd10-b28f-4a44-835c-8153a1077a57" style="width: 600px; height: 30px;">
-
-   **Figure 44**
+   **Figure 42: Display the Statictic sheets.**
    <br>
    </div>
    
-   20. **Figure 45** shows the result.
-<br>
-<div align="center">
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
+   17. Formula in **Figure 43** is used to calculate the percentage while formula in **Figure 44** is used to calculate the total numbers of fail and pass.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/2b84b43e-c619-4705-ac17-ff93f3ceedb1" style="width: 500px; height: 30px;">
+   <br>
       
-   **Figure 45**
+   **Figure 43: Shows the formula to calculate the percentage.**
+   <br>
+   
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/2f29cd10-b28f-4a44-835c-8153a1077a57" style="width: 600px; height: 30px;">
+
+   **Figure 44: Shows the formula used to calculate to numbers of fail and pass.**
+   <br>
+   </div>
+   
+   18. **Figure 45** shows the result.
+   <div align="center">
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/920dce38-1307-4054-b7fb-806caf72ad1f" style="width: 400px; height: 85px;">
+      
+   **Figure 45: **
       <br>
 </div>
       
