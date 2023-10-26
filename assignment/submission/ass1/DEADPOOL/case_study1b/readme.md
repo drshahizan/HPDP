@@ -92,9 +92,41 @@ This dataset is named Dataset2.txt. This dataset contains a few columns of data 
 
    
 #### Customer
+1. Create a new pivot table
+2. In the pivot table editor, select:
+   *for rows add **CUSTOMER** column.
+   *for values, add **SALES** column. The **SALES** value is summarised using **SUM**.
+3. To create the chart, go to **Insert >> Chart**. In the chart editor setup the chart as below:
+   * Chart type = Pie chart
+   * Data range = A1 : B8
+   * Label = CUSTOMER
+   * Series = SUM of SALES
+4. Customize the chart at the chart tab. For this Customer chart, the slice is labeled using the percentage calculated and each of the pie slice is 5% away from the center.
+   
 #### Salesperson
+1. Create a new pivot table
+2. In the pivot table editor, select:
+   *for rows add **SALES PERSON**. The data from the **SALES PERSON** is arranged in alphabetical ascending order.
+   *for column add **PRODUCT**.
+   *for values, select **SALES**. The **SALES** value is summarised using **SUM**.
+4. To create the chart, go to **Insert >> Chart**. In the chart editor setup the chart as below:
+   * Chart type = Stacked Column Chart
+   * Data range = A1 : E10
+   * X-axis = SALES PERSON
+   * Series = PRODUCT
+5. Select on the chart tab to customize the chart. The series of Product in this chart is given distinctive colour to differentiate the amount of product sold by the sales person clearly.
+   
 #### Sales Trend
-
+1. Create a new pivot table
+2. In the pivot table editor, select:
+   *for rows select **SALES YEAR**, **MONTH INDEX** and **SALES MONTH** column.
+   *for values, select **SALES**. The **SALES** value is summarised using **SUM**.
+4. To create the chart, go to **Insert >> Chart**. In the chart editor setup the chart as below:
+   * Chart type = Smooth Line Chart
+   * Data range = C1 : D25
+   * X-axis = SALES MONTH
+   * Series = SUM of SALES
+5. Customize the the smooth line chart. The title is changed to Sales Trend and the data points are listed out for the series.
 
 <br>
 
