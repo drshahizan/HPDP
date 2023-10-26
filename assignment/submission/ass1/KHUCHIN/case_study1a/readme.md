@@ -13,6 +13,20 @@
 - [Introduction](#ntroduction)
 - [Data preprocessing](#data-preprocessing)
   - [Import dataset to Google Sheets](#import-dataset-to-Google-Sheets)
+  - [Remove redundant data](#import-dataset-to-Google-Sheets)
+  - [Changing decimal places](#changing-decimal places)
+  - [Creating Column](#creating-column)
+  - [Three Highest Value](#three-highest-value)
+  - [Total Marks](#total-marks)
+  - [Calculating Percentage](#calculating-percentage)
+  - [Creating Grade and Status (Pass or Fail)](#creating-grade-and-status(pass-or-fail))
+  - [Total Marks](#total-marks)
+  - [Highlighting Pass students](#highlighting-pass-students)
+- [Dashboard creation](#dashboard-creation)
+  - [Scorecard Chart](#scorecard-chart)
+  - [Calculation of Minimum, Maximum, and Average](#calculation-of-minimum,-maximum,-and-average)
+  - [Grading chart](#grading-chart)
+
 
 ## Introduction
 
