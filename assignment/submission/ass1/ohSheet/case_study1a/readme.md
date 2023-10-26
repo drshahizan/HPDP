@@ -43,7 +43,7 @@ In a nutshell, the project emphasizes practical data manipulation and visualizat
    
    <div align="center">
    <img src="import.png" alt="import" width="200px" height="270px">
-   </div>
+   </div><br>
    
 3. Choose the file and click 'Import data'.
 
