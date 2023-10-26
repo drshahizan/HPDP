@@ -131,12 +131,21 @@ Figure 11: Formula to calculate total marks.
 </div>
 <be>
 
-10. Determine the grade for the students by using the formula shown below.
+11. Determine the grade for the students by using the formula shown below.
 <p align="center">
     <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic14.jpg" width=400>
 </p>
 <div align="center">  
-Figure 11: Formula to determine students' grade. 
+Figure 12: Formula to determine students' grade. 
+</div>
+<be>
+
+12. Determine either the students passed or failed the examination. The red rows indicate the students have successfully passed the exam meanwhile the not coloured rows indicate the students failed.
+<p align="center">
+    <img src="https://github.com/drshahizan/HPDP/blob/main/assignment/submission/ass1/DEADPOOL/case_study1a/datasetpic15.jpg" width=400>
+</p>
+<div align="center">  
+Figure 12: Formula to determine the students passed or failed. 
 </div>
 <be>
 
