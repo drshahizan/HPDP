@@ -162,4 +162,8 @@ Currently pursuing a **Bachelor of Computer Science in Data Engineering** at Uni
 
 #
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mikhaiiy&label=Profile%20views&color=0e75b6&style=flat" alt="mikhaiiy" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mikhaiiy&label=Profile%20views&color=0e75b6&style=flat" alt="mikhaiiy" /> 
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+
+</p>
