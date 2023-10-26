@@ -311,8 +311,9 @@ The following data processing processes must be completed:
          <br>
    </div>
 
-• Display grading results as charts.
-   12. Click to the selcted column as shown in Figure xx below and make sure that the **Aggregate** box is check. 
+• Display grading results as charts.  
+
+12. Click to the selcted column as shown in Figure xx below and make sure that the **Aggregate** box is check. 
    <div align="center">
    <img src="https://github.com/drshahizan/HPDP/assets/106257072/86b7b25d-1d1a-4489-9170-f88ff0daf434" style="width: 300px; height: 500px;">
    <br>
@@ -351,12 +352,18 @@ The following data processing processes must be completed:
    
 ### 4.3 Total Numbers of Records, Pass, and Fail
 • Total Records
-
+   17. As illustrated in **Figure xx**, click **Setup** for the selected column and check the **Aggregate** and **Use row 1 as headers** boxes. The whole record will then be displayed, as seen in **Figure xx**.
    <div align="center">
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
-      <br>
-      <img src="https://github.com/drshahizan/HPDP/assets/106257072/dc6c336e-4670-4127-864a-4e0e92cddb73" style="width: 350px; height: 150px;">
-      <br>
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/77374422-462d-45f5-b56b-7bb039654608" style="width: 300px; height: 500px;">
+   <br>
+
+   **Figure xx: Displays the setup for chart editor.**
+   <br>
+   
+   <img src="https://github.com/drshahizan/HPDP/assets/106257072/dc6c336e-4670-4127-864a-4e0e92cddb73" style="width: 350px; height: 150px;">
+   <br>
+
+   **Figure xx: Shows the Total Record.**
    </div>
 
 • Total Numbers of Pass 
