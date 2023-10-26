@@ -37,7 +37,8 @@
 
 ## Dataset Information 
 This dataset is named Dataset2.txt. This dataset contains a few columns of data which are Customer, Products, Sales Person, Sales Region, Target, Sales, Sales Year, Sales Month and Sales QTR.
-* **Deadpool Google Sheet**:
+<br>
+**Deadpool Google Sheet** : [Google Sheets 1b](https://docs.google.com/spreadsheets/d/1ErXkBNCsOU6VQPeIP2vVHM2jvqTJuzJYaDOvqtMf_LY/edit?usp=sharing)
 
 **Importing Data**
 
