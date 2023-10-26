@@ -279,12 +279,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Go to a new pivot table
 2. Follow the same steps as **[Creating Pivot table for Region chart](#creating-pivot-table-for-region-chart-10)** to get the following result
 
-        
 
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.png "image_tooltip")
+![alt_text](images/image17.png "image_tooltip")
 
 
 
@@ -292,12 +288,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. The pivot table should looks like this
 
-        
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image26.png "image_tooltip")
+![alt_text](images/image18.png "image_tooltip")
 
 
 
@@ -312,12 +305,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Go to a new pivot table
 2. Follow the same steps as **[Creating Pivot table for Region chart](#creating-pivot-table-for-region-chart-10)** to get the following result
 
-        
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image27.png "image_tooltip")
+![alt_text](images/image22.png "image_tooltip")
 
 
 
@@ -332,10 +322,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
+![alt_text](images/image10.png "image_tooltip")
 
 
 
@@ -353,24 +340,17 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Go to a new pivot table
 2. Follow the same steps as **[Creating Pivot table for Region chart](#creating-pivot-table-for-region-chart-10)** to get the following result
 
-        
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image29.png "image_tooltip")
+![alt_text](images/image11.png "image_tooltip")
 
 
 
         Figure 28 : Rows and Values for ‘Monthly Sale’ pivot table
 
 
-        
 
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
+![alt_text](images/image16.png "image_tooltip")
 
 
 
@@ -380,10 +360,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image31.png "image_tooltip")
+![alt_text](images/image38.png "image_tooltip")
 
 
 
@@ -400,12 +377,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Go to a new pivot table
 2. Follow the same steps as **[Creating Pivot table for Region chart](#creating-pivot-table-for-region-chart-10)** to get the following result
 
-        
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image32.png "image_tooltip")
+![alt_text](images/image53.png "image_tooltip")
 
 
 
@@ -414,10 +388,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image33.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image33.png "image_tooltip")
+![alt_text](images/image16.png "image_tooltip")
 
 
 
@@ -425,12 +398,10 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. The pivot table should looks like this
 
-        
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image34.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image34.png "image_tooltip")
+
+![alt_text](images/image32.png "image_tooltip")
 
 
 
@@ -448,12 +419,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Select the entire Region pivot table
 2. Click on ‘Insert’ → ‘Chart’
 
-        
 
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image35.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image35.png "image_tooltip")
+![alt_text](images/image13.png "image_tooltip")
 
 
 
@@ -461,9 +428,6 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. A chart will appear alongside with its chart editor panel
 
-        
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image36.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image36.png "image_tooltip")
@@ -473,12 +437,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
         Figure 35 : Newly generated chart
 
 
-        
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image37.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image37.png "image_tooltip")
+![alt_text](images/image8.png "image_tooltip")
 
 
 
@@ -488,10 +447,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image38.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image38.png "image_tooltip")
+![alt_text](images/image60.png "image_tooltip")
 
 
 
@@ -502,12 +458,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 5. Customize the chart (Edit title and so on) and place it at the top of the sheet
 
-        
-
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image39.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image39.png "image_tooltip")
+![alt_text](images/image20.png "image_tooltip")
 
 
 
@@ -524,12 +477,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Follow the same steps as **[Creating Pie Chart for Region Pivot Table](#creating-pie-chart-for-region-pivot-table-20)** for ‘Customer’ pivot table
 2. You should get a pie chart similar to this
 
-        
 
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image40.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image40.png "image_tooltip")
+![alt_text](images/image500.png "image_tooltip")
 
 
 
@@ -546,12 +495,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Follow the same steps as **[Creating Pie Chart for Region Pivot Table](#creating-pie-chart-for-region-pivot-table-20)** up to step 3 for ‘Salesperson’ pivot table
 2. Make sure that the chart type is ‘Stacked Column Chart’ at the ‘Chart Editor’ panel
 
-        
 
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image41.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image41.png "image_tooltip")
+![alt_text](images/image19.png "image_tooltip")
 
 
 
@@ -559,24 +504,17 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 3. Make sure that the ‘X-axis’ and ‘Series’ are configured like Figure 41 and change the chart’s name to ‘Salesperson’
 
-        
 
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image42.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image42.png "image_tooltip")
+![alt_text](images/image28.png "image_tooltip")
 
 
 
         Figure 41 : Configuration of ‘X-axis’ and ‘Series’ for Stacked Column Chart
 
 
-        
-
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image43.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image43.png "image_tooltip")
+![alt_text](images/image35.png "image_tooltip")
 
 
 
@@ -595,10 +533,7 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image44.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image44.png "image_tooltip")
+![alt_text](images/image48.png "image_tooltip")
 
 
 
@@ -608,10 +543,8 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
         
 
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image45.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image45.png "image_tooltip")
+![alt_text](images/image50.png "image_tooltip")
 
 
 
@@ -619,12 +552,10 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 4. Next, remove ‘MONTH NUMBER’ from the ‘Series’ by clicking on the three dots and click ‘Remove’
 
-        
-
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image46.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+   
 
 
-![alt_text](images/image46.png "image_tooltip")
+![alt_text](images/image54.png "image_tooltip")
 
 
 
@@ -632,24 +563,18 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 
 5. The ‘X-axis’ and ‘Series’ should looks like Figure 46 and the chart should looks like Figure 47
 
-        
-
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image47.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image47.png "image_tooltip")
+![alt_text](images/image300.png "image_tooltip")
 
 
 
         Figure 46 : ‘X-axis’ and ‘Series’ for the ‘Stacked Area Chart’
 
 
-        
-
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image48.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image48.png "image_tooltip")
+![alt_text](images/image61.png "image_tooltip")
 
 
 
@@ -668,12 +593,9 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 1. Follow the same steps as **[Creating Pie Chart for Region Pivot Table](#creating-pie-chart-for-region-pivot-table-20)** up to step 3 for ‘Sales Trend’ pivot table
 2. Make sure that the chart type is ‘Smooth Line Chart’ at the ‘Chart Editor’ panel
 
-        
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image49.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image49.png "image_tooltip")
+![alt_text](images/image51.png "image_tooltip")
 
 
 
@@ -682,8 +604,6 @@ Figure 7 : Showing the second cell of column ‘J’ being selected
 3. Now, we need to configure the ‘X-axis’ and ‘Series’ for the chart. First, insert the ‘SALES MONTH’ as the ‘X-axis’. Do not tick the ‘Aggregate’ button
 
         
-
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image50.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image50.png "image_tooltip")
