@@ -369,7 +369,7 @@ _Figure 4.2.5: Select Column_
 - Our dashboard will change when we put the filter on by using slicers.
 
 <p align="center">
-<img src="ss32.png"  width="600" height="250">
+<img src="ss33.png"  width="600" height="250">
 </p>
 
 <div align="center">
@@ -378,7 +378,7 @@ _Figure 4.2.5: Cooking Oil Sales 2020_
 </div>
 
 <p align="center">
-<img src="ss32.png"  width="600" height="250">
+<img src="ss34.png"  width="600" height="250">
 </p>
 
 <div align="center">
