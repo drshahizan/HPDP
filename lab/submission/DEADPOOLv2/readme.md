@@ -17,7 +17,7 @@
 | KEE SHIN PEARL             | A21EC0190  |  1c |
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a]()
+* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/DEADPOOLv2/lab1a.ipynb)
 * [📖 Answer Lab 1b]()
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
