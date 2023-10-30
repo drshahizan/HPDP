@@ -14,7 +14,7 @@
 |Muhammad Iqmal bin Sis | A21EC0080     | 1c 
 |Sam Chia Yun   |A21EC0127 | 1a
 |Aliya Zarena binti Zainulanuar | A21EC0013 | 1d 
-|Ang Yi Qin  | A21E0163  | 1b
+|Ang Yi Qin  | A21EC0163  | 1b
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
