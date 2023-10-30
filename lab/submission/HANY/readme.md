@@ -14,7 +14,7 @@
 | LIEW YVONNE           | A21EC0045    |  1a    |
 | ALYA BALQISS BINTI AZAHAR             | A21EC0158      |  1b    |
 | MUHAMMAD HARITH HAKIM BIN OTHMAN             | A21EC0205      |  1c    |
-| NADIA SYAFIQAH BINTI ZULKIPLI              |  A21EC0098    |   1b   |
+| NADIA SYAFIQAH BINTI ZULKIPLI              |  A21EC0098    |   1d   |
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
