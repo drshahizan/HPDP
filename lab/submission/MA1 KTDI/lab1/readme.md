@@ -11,9 +11,9 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MUHAMMAD HAZIM BIN SALMAN |A21EC0078 | 1a , 1d
-| MUHAMMAD NAQUIB BIN ZAKARIA | SAM CHIA YUN     |A20BE0161 | 1b
-| FAUZAN AQIL BIN AZMAN | ANG YI QIN     | A21EC0174 | 1c
+| MUHAMMAD HAZIM BIN SALMAN |A21EC0078 | 1a/1d
+| MUHAMMAD NAQUIB BIN ZAKARIA |A20BE0161 | 1b/1d
+| FAUZAN AQIL BIN AZMAN | A21EC0174 | 1c/1d
 
 
 ### 📂 Folder content:
