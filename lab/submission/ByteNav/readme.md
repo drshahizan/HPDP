@@ -11,7 +11,7 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| LOO ZHI YUAN            | A21EC0197     | 1c
+| LOO ZHI YUAN            | A21EC0197     | 1c, 1d
 | LAU YEE CHI                | A21EC0042     | 1a
 | SOO WAN YING             | A21EC0227     | 1b
 
