@@ -7,14 +7,15 @@
 
 # Lab 1: Understanding Your Data
 
+## Group Name : SYN
+
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| |      | 
-| | | 
-||  | 
-|  |   |
+| Nurunnajwa binti Zulkifli           | A21EC0121  | 1a, 1d
+| Yasmeen Natasha Binti Hafiz Shahrel               | A21EC0147     | 1b,1d
+| Sarah Wardina Binti Rafidin           | A21EC0128   | 1c,1d
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
@@ -29,4 +30,5 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+
 

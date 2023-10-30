@@ -11,10 +11,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| |      | 
-| | | 
-||  | 
-|  |   |
+| MUHAMMAD HASAN BIN CHE ABDULLAH | A21EC0077 | 1a   | 
+| NIK AMIRUL ARIFF BIN AMRAN | A21EC0214 | 	1b    | 
+| HAFIZULSHAH BIN SHAROM | A21EC0027 | 1c   | 
+| ALYA DAMIA BINTI HUZAIMY | A21EC0159 | 	1d    |  
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()

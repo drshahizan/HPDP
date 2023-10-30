@@ -11,10 +11,9 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| |      | 
-| | | 
-||  | 
-|  |   |
+| LOO ZHI YUAN            | A21EC0197     | 1c, 1d
+| LAU YEE CHI                | A21EC0042     | 1a
+| SOO WAN YING             | A21EC0227     | 1b
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
@@ -29,4 +28,3 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-

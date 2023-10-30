@@ -11,10 +11,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| |      | 
-| | | 
-||  | 
-|  |   |
+| MUHAMMAD HAZIM BIN SALMAN |A21EC0078 | 1a , 1d
+| MUHAMMAD NAQUIB BIN ZAKARIA | SAM CHIA YUN     |A20BE0161 | 1b
+| FAUZAN AQIL BIN AZMAN | ANG YI QIN     | A21EC0174 | 1c
+
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
@@ -29,4 +29,5 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+
 

@@ -11,10 +11,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              |      |      |
-| Student 2              |      |      |
-| Student 3              |      |      |
-| Student 4              |      |      |
+|Mikhail Bin Yaasin              |   A21EC0063   |     1d |
+|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  1b    |
+|Muhammad Fikri Bin Sharunazim              |  A21EC0075    |    1c  |
+| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |     1a |
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()

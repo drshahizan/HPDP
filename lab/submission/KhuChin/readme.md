@@ -1,3 +1,4 @@
+
 <a href="https://github.com/drshahizan/HPDP/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/HPDP" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/HPDP/network/members"><img src="https://img.shields.io/github/forks/drshahizan/HPDP" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/HPDP/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/HPDP" alt="Pull Requests Badge"/></a>
@@ -11,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| |      | 
-| | | 
-||  | 
-|  |   |
+| Muhammad Ashraaf Bin Saleh              |A21EC0068      |   1c   |
+| Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |   1d   |
+| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   1b   |
+| Ikmal Bin Khairulezuan              |A21EC0186      |   1a |
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
