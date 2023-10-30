@@ -34,7 +34,7 @@ You will need to complete this exercise using Google Colab. There are four provi
 | 1d.  | Chipotle Sales| <a href="lab1d.ipynb" ><img src="../images/document.png" width="24px" height="24px"></a> |
 
 ### 2. Team Collaboration
-🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=1112504187). Please update your group information:
+🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit#gid=305100254). Please update your group information:
 
 | No | Group |  File |
 | -----: |  ------ | :-----: | 
