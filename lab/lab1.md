@@ -39,7 +39,7 @@ You will need to complete this exercise using Google Colab. There are four provi
 | No | Group |  File |
 | -----: |  ------ | :-----: | 
 | 0. | Sample  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-| 1. | QUEasy  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 1. | turbulence  |  <a href="/submission/Turbulence/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 2. | GanTheGang  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |  
 | 4. | New ATG  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 
