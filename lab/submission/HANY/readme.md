@@ -11,10 +11,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| ALYA BALQISS BINTI AZAHAR              |A21EC0158      |      |
-| MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     |      |
-| NADIA SYAFIQAH BINTI ZULKIPLI              | A21EC0098     |      |
-| LIEW YVONNE              |A21EC0045      |      |
+| ALYA BALQISS BINTI AZAHAR              |A21EC0158      | Lab 1X     |
+| MUHAMMAD HARITH HAKIM BIN OTHMAN              | A21EC0205     | Lab 1X     |
+| NADIA SYAFIQAH BINTI ZULKIPLI              | A21EC0098     | Lab 1d      |
+| LIEW YVONNE              |A21EC0045      | Lab 1a      |
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
