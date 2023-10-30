@@ -7,6 +7,8 @@
 
 # Lab 1: Understanding Your Data
 
+## Group Name : SYN
+
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
