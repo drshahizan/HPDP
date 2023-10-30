@@ -11,10 +11,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| WAN AMIRUL HAFIQ BIN WAN HUZAINI |A21EC0141  | A21EC0080     | 1a
-| ALIEYA ZAWANIE BINTI A ZAINI | SAM CHIA YUN     |A21EC0156 | 1b
-| ABDUL MUHAIMIN BIN ABDUL RAZAK | ANG YI QIN     | A21EC0002  | 1c
-| YEW RUI XIANG | ALIYA ZARENA BINTI ZAINULANUAR    | A21EC0149   |1d
+| WAN AMIRUL HAFIQ BIN WAN HUZAINI  | A21EC0080     | 1a
+| ALIEYA ZAWANIE BINTI A ZAINI |A21EC0156 | 1b
+| ABDUL MUHAIMIN BIN ABDUL RAZAK |A21EC0002  | 1c
+| YEW RUI XIANG |A21EC0149   |1d
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
