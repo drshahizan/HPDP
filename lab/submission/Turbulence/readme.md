@@ -11,8 +11,8 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|Mikhail Bin Yaasin              |   Matrics No
-A21EC0063   |    1a  |
+|Mikhail Bin Yaasin              |   A21EC0063 
+ 1a |      |
 |Muhammad Farhan Bin Ibrahim             | A21EC0072     |  1b    |
 |Muhammad Fikri Bin Sharunazim              |  A21EC0075    |    1c  |
 | Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |     1d |
