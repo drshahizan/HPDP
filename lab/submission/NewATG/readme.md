@@ -17,7 +17,7 @@
 |Ang Yi Qin  | A21EC0163  | 1b
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a]()
+* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/NewATG/Answer_lab1a.ipynb)
 * [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/blob/main/lab/submission/NewATG/ans_lab1b.ipynb)
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
