@@ -11,7 +11,7 @@
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
 <p align="center">
-<img src="/images/python_roadmaps.gif"  height="800" />
+<img src="/images/student23241.webp"  height="400" />
 </p>
 
 ## 🔥 Important things
