@@ -16,7 +16,7 @@
 | SOO WAN YING             | A21EC0227     | 1b
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a]()
+* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/ByteNav/lab1a.ipynb)
 * [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/blob/main/lab/submission/ByteNav/AnswerLab1b.ipynb)
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
