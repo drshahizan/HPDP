@@ -7,6 +7,8 @@
 
 # Lab 1: Understanding Your Data
 
+![alt text](pergolakan1.jpg?raw=true)
+
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
