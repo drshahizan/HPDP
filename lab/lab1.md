@@ -39,9 +39,9 @@ You will need to complete this exercise using Google Colab. There are four provi
 | No | Group |  File |
 | -----: |  ------ | :-----: | 
 | 0. | Sample  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
-| 1. | pergolakan🙀 |  <a href="submission/Turbulence/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-| 2. | GanTheGang  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |  
-| 4. | NewATG  |  <a href="submission/New ATG/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
+| 1. | pergolakan🙀 |  <a href="submission/Pergolakan/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 2. | Bunnies |  <a href="submission/bunnies/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |  
+| 4. | NewATG  |  <a href="submission/NewATG/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 5. | MA1 KTDI  |  <a href="submission/MA1 KTDI/lab1/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 6. | HANY  |  <a href="submission/HANY/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 7. | KhuChin  |  <a href="submission/KhuChin/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
@@ -50,7 +50,7 @@ You will need to complete this exercise using Google Colab. There are four provi
 | 10. | DEADPOOLv2 |  <a href="submission/DEADPOOLv2/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 11. | SEK KITO |  <a href="submission/SEK KITO/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 12. | SYN |  <a href="submission/SYN/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-
+| 13. | 21ProMax |  <a href="submission/21ProMax/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 ### 3. Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
 

@@ -7,16 +7,14 @@
 
 # Lab 1: Understanding Your Data
 
-![alt text](pergolakan1.jpg?raw=true)
-
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|Mikhail Bin Yaasin              |   A21EC0063   |     1d |
-|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  1b    |
-|Muhammad Fikri Bin Sharunazim              |  A21EC0075    |    1c  |
-| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |     1a |
+|Muhammad Iqmal bin Sis | A21EC0080     | 1c 
+|Sam Chia Yun   |A21EC0127 | 1a
+|Aliya Zarena binti Zainulanuar | A21EC0013 | 1d 
+|Ang Yi Qin  | A21EC0163  | 1b
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
@@ -31,4 +29,5 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+
 
