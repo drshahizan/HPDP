@@ -41,7 +41,7 @@ You will need to complete this exercise using Google Colab. There are four provi
 | 0. | Sample  |  <a href="submission/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 1. | pergolakan🙀 |  <a href="submission/Turbulence/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 2. | Bunnies |  <a href="submission/bunnies/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |  
-| 4. | NewATG  |  <a href="submission/New ATG/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
+| 4. | NewATG  |  <a href="submission/NewATG/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 5. | MA1 KTDI  |  <a href="submission/MA1 KTDI/lab1/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 6. | HANY  |  <a href="submission/HANY/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 7. | KhuChin  |  <a href="submission/KhuChin/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
