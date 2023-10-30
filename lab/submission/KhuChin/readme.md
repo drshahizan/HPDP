@@ -12,10 +12,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| |      | 
-| | | 
-||  | 
-|  |   |
+| Muhammad Ashraaf Bin Saleh              |A21EC0068      |   1c   |
+| Nur Khuzairie Zakwan Bin Mohd Zamri              |A21EC0112      |   1d   |
+| Nur Shuhada Safiah Binti Ayob              |A21EC0114      |   1b   |
+| Ikmal Bin Khairulezuan              |A21EC0186      |   1a |
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
