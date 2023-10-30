@@ -11,7 +11,7 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| WMUHAMMAD IZZUDIN BIN SHABRIN |A21EC0083  |1a     | 
+| MUHAMMAD IZZUDDIN BIN SHABRIN |A21EC0083  |1a     | 
 | UMAR HAZIQ BIN MUHAMAD NORHISHAM | A21EC0235     | 1b |
 | MUHAMMAD AMIR JAMIL BIN JAMLUS | A21EC0202   | 1c |
 | KEE SHIN PEARL             | A21EC0190  |  1c |
