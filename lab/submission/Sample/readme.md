@@ -11,10 +11,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Student 1              | ALIEYA ZAWANIE BINTI A ZAINI     | A21EC0156     | 1a |
-| Student 2              | ABDUL MUHAIMIN BIN ABDUL RAZAK    | 	A21EC0002      |  1b |
-| Student 3              | WAN AMIRUL HAFIQ BIN WAN HUZAINI    | A21EC0141     |  1c |
-| Student 4              | YEW RUI XIANG     | 	A21EC0149     |  1d |
+| Student 1              | WAN AMIRUL HAFIQ BIN WAN HUZAINI      | 1a   | 
+| Student 2              | ALIEYA ZAWANIE BINTI A ZAINI    | 	1b    | 
+| Student 3              | WAN AMIRUL HAFIQ BIN WAN HUZAINI    | 1c   | 
+| Student 4              | YEW RUI XIANG     | 	1d    |  
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
