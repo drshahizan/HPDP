@@ -17,7 +17,7 @@
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
-* [📖 Answer Lab 1b](https://colab.research.google.com/drive/19RXRe4wdo8HYIiI6fgQlseaKhr-KJNQJ#scrollTo=9wbYdoig4nQi)
+* [📖 Answer Lab 1b](lab/submission/3H/3H_Lab1b.ipynb)
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
 
