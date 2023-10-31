@@ -17,8 +17,8 @@
 | YEW RUI XIANG |A21EC0149   |1d
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a](lab/submission/bunnies/lab1b.ipynb)
-* [📖 Answer Lab 1b]()
+* [📖 Answer Lab 1a]()
+* [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/blob/main/lab/submission/bunnies/lab1b.ipynb)
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
 
