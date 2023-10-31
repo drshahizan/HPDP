@@ -13,12 +13,12 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| Nurunnajwa binti Zulkifli           | A21EC0121  | 1a, 1d
+| Nurunnajwa binti Zulkifli           | A21EC0121  | 1a,1d
 | Yasmeen Natasha Binti Hafiz Shahrel               | A21EC0147     | 1b,1d
 | Sarah Wardina Binti Rafidin           | A21EC0128   | 1c,1d
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Answer%20Lab%201a/Lab1a_SYN.ipynb)
+* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Answer%20Lab%201a/Lab1a.ipynb)
 * [📖 Answer Lab 1b]()
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
