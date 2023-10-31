@@ -11,15 +11,15 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MUHAMMAD HASAN BIN CHE ABDULLAH | A21EC0077 | 1a   | 
-| NIK AMIRUL ARIFF BIN AMRAN | A21EC0214 | 	1b    | 
-| HAFIZULSHAH BIN SHAROM | A21EC0027 | 1c   | 
-| ALYA DAMIA BINTI HUZAIMY | A21EC0159 | 	1d    |  
+| MUHAMMAD HASAN BIN CHE ABDULLAH | A21EC0077 | 1a | 
+| NIK AMIRUL ARIFF BIN AMRAN | A21EC0214 | 1b | 
+| HAFIZULSHAH BIN SHAROM | A21EC0027 | 1c | 
+| ALYA DAMIA BINTI HUZAIMY | A21EC0159 | 1d |  
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a]()
-* [📖 Answer Lab 1b]()
-* [📖 Answer Lab 1c]()
+* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SEK%20KITO/lab1/lab1a.ipynb)
+* [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SEK%20KITO/lab1/lab1b.ipynb)
+* [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SEK%20KITO/lab1/lab1c.ipynb)
 * [📖 Answer Lab 1d]()
 
 ## Contribution 🛠️
