@@ -19,7 +19,7 @@
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
-* [📖 Answer Lab 1b]()
+* [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/tree/main/lab/submission/KhuChin/answer%20lab%201b)
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
 
