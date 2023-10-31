@@ -18,9 +18,9 @@
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/DEADPOOLv2/lab1a.ipynb)
-* [📖 Answer Lab 1b]()
-* [📖 Answer Lab 1c]()
-* [📖 Answer Lab 1d]()
+* [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/blob/main/lab/submission/DEADPOOLv2/lab1b.ipynb)
+* [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/DEADPOOLv2/lab1c.ipynb)
+* [📖 Answer Lab 1d](https://github.com/drshahizan/HPDP/blob/main/lab/submission/DEADPOOLv2/lab1d.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
