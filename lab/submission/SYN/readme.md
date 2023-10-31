@@ -18,7 +18,7 @@
 | Sarah Wardina Binti Rafidin           | A21EC0128   | 1c,1d
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a]()
+* [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Answer%20Lab%201a/Lab1a_SYN.ipynb)
 * [📖 Answer Lab 1b]()
 * [📖 Answer Lab 1c]()
 * [📖 Answer Lab 1d]()
