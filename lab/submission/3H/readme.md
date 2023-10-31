@@ -12,8 +12,8 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | NG ZI XING | A21EC0213 | 1A / 1C
-| IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | 1D
 | MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | 1B
+| IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | 1D
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
