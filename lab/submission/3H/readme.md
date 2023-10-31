@@ -16,9 +16,9 @@
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | 1D
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a]()
+* [📖 Answer Lab 1a](lab1a.ipynb)
 * [📖 Answer Lab 1b](3H_Lab1b.ipynb)
-* [📖 Answer Lab 1c]()
+* [📖 Answer Lab 1c](lab1c.ipynb)
 * [📖 Answer Lab 1d]()
 
 ## Contribution 🛠️
