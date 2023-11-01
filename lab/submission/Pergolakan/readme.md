@@ -13,10 +13,10 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|Mikhail Bin Yaasin              |   A21EC0063   |     1d |
+|Mikhail Bin Yaasin              |   A21EC0063   |     1a |
 |Muhammad Farhan Bin Ibrahim             | A21EC0072     |  1b    |
 |Muhammad Fikri Bin Sharunazim              |  A21EC0075    |    1c  |
-| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |     1a |
+| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |     1d |
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a](lab1a.ipynb)
