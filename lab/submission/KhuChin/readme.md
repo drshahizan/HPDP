@@ -21,7 +21,7 @@
 * [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/KhuChin/ans_lab1a.ipynb)
 * [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/tree/main/lab/submission/KhuChin/answer%20lab%201b)
 * [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/KhuChin/Lab1_1c.ipynb)
-* [📖 Answer Lab 1d]()
+* [📖 Answer Lab 1d](https://github.com/drshahizan/HPDP/blob/main/lab/submission/KhuChin/lab1d.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
