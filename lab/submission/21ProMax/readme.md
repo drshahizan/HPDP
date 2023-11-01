@@ -18,7 +18,7 @@
 
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
-* [📖 Answer Lab 1b]()
+* [📖 Answer Lab 1b](lab1b.ipynb)
 * [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/21ProMax/lab1c.ipynb)
 * [📖 Answer Lab 1d]()
 
