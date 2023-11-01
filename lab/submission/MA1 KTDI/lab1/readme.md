@@ -20,7 +20,7 @@
 * [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/MA1%20KTDI/lab1/ans_lab1a.ipynb)
 * [📖 Answer Lab 1b](https://github.com/drshahizan/HPDP/blob/main/lab/submission/MA1%20KTDI/lab1/ans_lab1b.ipynb)
 * [📖 Answer Lab 1c]()
-* [📖 Answer Lab 1d]()
+* [📖 Answer Lab 1d](ttps://github.com/drshahizan/HPDP/blob/main/lab/submission/MA1%20KTDI/lab1/ans_lab1d.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
