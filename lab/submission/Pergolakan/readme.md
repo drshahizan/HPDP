@@ -21,7 +21,7 @@
 ### 📂 Folder content:
 * [📖 Answer Lab 1a]()
 * [📖 Answer Lab 1b]()
-* [📖 Answer Lab 1c]()
+* [📖 Answer Lab 1c](lab1c.ipynb)
 * [📖 Answer Lab 1d](lab1d.ipynb)
 
 ## Contribution 🛠️
