@@ -11,15 +11,15 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| NG ZI XING | A21EC0213 | 1A / 1C
+| NG ZI XING | A21EC0213 | A21EC0213 / 1A,1C
 | MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | 1B
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | 1D
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a](lab1a.ipynb)
-* [📖 Answer Lab 1b](3H_Lab1b.ipynb)
-* [📖 Answer Lab 1c](lab1c.ipynb)
-* [📖 Answer Lab 1d]()
+* [📖 Answer Lab 1a](anw_lab1a.ipynb)
+* [📖 Answer Lab 1b](anw_lab1b.ipynb)
+* [📖 Answer Lab 1c](anw_lab1c.ipynb)
+* [📖 Answer Lab 1d](anw_lab1d.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
