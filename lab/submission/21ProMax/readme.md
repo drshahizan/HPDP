@@ -17,10 +17,10 @@
 
 
 ### 📂 Folder content:
-* [📖 Answer Lab 1a](lab1a.ipynb)
-* [📖 Answer Lab 1b](lab1b.ipynb)
-* [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/21ProMax/lab1c.ipynb)
-* [📖 Answer Lab 1d](lab1d.ipynb)
+* [📖 Answer Lab 1a](ans_lab1a.ipynb)
+* [📖 Answer Lab 1b](ans_lab1b.ipynb)
+* [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/21ProMax/ans_lab1c.ipynb)
+* [📖 Answer Lab 1d](ans_lab1d.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
