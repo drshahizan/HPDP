@@ -20,7 +20,7 @@
 ### 📂 Folder content:
 * [📖 Answer Lab 1a](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Answer%20Lab%201a/Lab1a.ipynb)
 * [📖 Answer Lab 1b]()
-* [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Lab1c.ipynb)
+* [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Answer%20Lab%201c/Lab1c.ipynb)
 * [📖 Answer Lab 1d](https://github.com/drshahizan/HPDP/blob/main/lab/submission/SYN/Answer%20Lab%201d/SYN_Lab1d.ipynb)
 
 ## Contribution 🛠️
