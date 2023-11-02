@@ -11,7 +11,7 @@
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| NG ZI XING | A21EC0213 | A21EC0213 / 1A,1C
+| NG ZI XING | A21EC0213 |  1A/1C
 | MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | 1B
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | 1D
 
