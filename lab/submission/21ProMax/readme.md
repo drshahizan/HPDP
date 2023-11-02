@@ -20,7 +20,7 @@
 * [📖 Answer Lab 1a](lab1a.ipynb)
 * [📖 Answer Lab 1b](lab1b.ipynb)
 * [📖 Answer Lab 1c](https://github.com/drshahizan/HPDP/blob/main/lab/submission/21ProMax/lab1c.ipynb)
-* [📖 Answer Lab 1d](lab1d.ipyn)
+* [📖 Answer Lab 1d](lab1d.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
