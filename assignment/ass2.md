@@ -13,8 +13,31 @@
 <img src="https://editor.analyticsvidhya.com/uploads/61798ti2.png"  height="300" />
 </p>
 
-Google Sheets is a versatile and user-friendly tool for data analysis, enabling you to input, cleanse, visualize, and glean insights from your data. It encompasses essential functionalities like data cleansing, chart generation, fundamental and advanced formulas, as well as data filtering and sorting, coupled with pivot tables and conditional formatting, rendering it exceptionally well-suited for a broad spectrum of analytical endeavors. With its real-time collaborative features, sharing capabilities, and the capacity to construct interactive dashboards, Google Sheets represents an outstanding choice for individuals and teams alike, aiming to undertake data analysis within a collaborative and easily accessible framework, especially when dealing with modest datasets and straightforward computations. This assignment necessitates performing data analysis using Google Sheets' tools. 
+An Exploratory Data Analysis (EDA) assignment is a task given to students or data analysts to explore and understand a dataset before performing more advanced statistical or machine learning analyses. EDA is a critical initial step in the data analysis process, and it involves summarizing, visualizing, and making sense of the data to gain insights and identify patterns. Here's a description of what an EDA assignment typically involves:
 
+1. **Data Collection**: The first step in EDA is to obtain the dataset. The dataset may be provided to students, or they may be required to source it from publicly available data repositories or collect their own data.
+
+2. **Data Cleaning**: Before any analysis can begin, students need to clean the data. This involves handling missing values, removing duplicates, and addressing any outliers or anomalies in the data. This step ensures that the data is reliable and ready for analysis.
+
+3. **Data Summary**: Students are usually asked to provide a summary of the dataset, which may include basic statistics such as mean, median, standard deviation, and percentiles for numerical variables. For categorical variables, they may list unique categories and their frequencies.
+
+4. **Data Visualization**: Visualization is a key component of EDA. Students are typically required to create various plots and charts to visualize the data's distribution and relationships. This can include histograms, scatter plots, bar charts, box plots, and more.
+
+5. **Correlation Analysis**: Students may need to explore the relationships between variables in the dataset. They can calculate correlation coefficients to identify potential associations between variables.
+
+6. **Hypothesis Testing**: Some EDA assignments may involve testing hypotheses about the data. Students may need to conduct statistical tests to determine if certain assumptions or hypotheses hold true for the dataset.
+
+7. **Pattern Identification**: EDA often focuses on identifying interesting patterns or trends within the data. Students may be asked to look for clusters, trends, or anomalies that can provide valuable insights.
+
+8. **Narrative and Interpretation**: After conducting the above analyses, students are typically expected to write a narrative that explains their findings and interpretations. They should provide insights into what the data reveals and its potential implications.
+
+9. **Visualization and Reporting**: Students may be asked to create a report or presentation summarizing their EDA process and findings. This report should include clear visualizations and well-structured explanations.
+
+10. **Reproducibility**: EDA assignments often emphasize the importance of reproducibility. Students may be required to document their data cleaning, analysis, and visualization processes in a way that others can replicate their work.
+
+11. **Challenges and Limitations**: Students may also be asked to discuss the challenges they encountered during the EDA process and the limitations of their analysis. This demonstrates critical thinking and a deeper understanding of the data.
+
+EDA assignments are essential for developing data analysis skills and gaining a deeper understanding of a dataset's characteristics. They provide valuable insights that can inform further data-driven decision-making processes.
 ## 📚 Project Description
 
 ### 1. Introduction
