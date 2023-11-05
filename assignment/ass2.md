@@ -106,10 +106,6 @@ Follow this step-by-step guide to work on your project.
 
 ## 📚 Case Study 2: Automated EDA Tools
 
-Certainly, here are the instructions for Case Study 2: Automated EDA Tools using markdown with the keywords bolded:
-
-### Case Study 2: Automated EDA Tools
-
 In this case study, you will study two types of **Automated Exploratory Data Analysis (EDA) Tools**. You are required to choose two such tools and demonstrate how they can be implemented step by step using a **Malaysian dataset**. Additionally, you will summarize the **pros and cons** of the **Automated EDA Tools** used. Here are the instructions to guide you through this case study:
 
 1. **Selecting Automated EDA Tools**:
