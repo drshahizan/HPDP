@@ -141,10 +141,10 @@ In this case study, you will study two types of **Automated Exploratory Data Ana
 Ensure that your case study is well-organized, well-documented, and provides a clear understanding of how the selected **Automated EDA Tools** work and their applicability to **Malaysian datasets**. Use clear and concise language to convey your findings and conclusions.
 
 ### 2. Team Collaboration
-🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit#gid=305100254). Please update your group information:
+🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=834124190). Please update your group information:
 
-| No | Group |  File |
-| -----: |  ------ | :-----: | 
+| No | Group |  File | Dataset | EDA Tools 1 | EDA Tools 2 | 
+| -----: |  ------ | :-----: |  ----- |  ----- | ----- | 
 | 0. | Sample  |  <a href="submission/ass2/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 1. | DEADPOOL | <a href="submission/ass2/DEADPOOL/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |  
 | 2. | ohSheet |  <a href="submission/ass2/ohSheet/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
