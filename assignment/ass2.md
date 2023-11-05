@@ -39,7 +39,9 @@ An Exploratory Data Analysis (EDA) assignment is a task given to students or dat
 
 EDA assignments are essential for developing data analysis skills and gaining a deeper understanding of a dataset's characteristics. They provide valuable insights that can inform further data-driven decision-making processes.
 
-## 📚 Case Study 1: Project Description
+## 📚 Case Study 1
+
+### Project Description
 
 Your submission will be evaluated using the following criteria:
 
