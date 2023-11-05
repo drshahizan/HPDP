@@ -106,6 +106,39 @@ Follow this step-by-step guide to work on your project.
 
 ## 📚 Case Study 2: Automated EDA Tools
 
+In this case study, you will study two types of Automated Exploratory Data Analysis (EDA) Tools. You are required to choose two such tools and demonstrate how they can be implemented step by step using a Malaysian dataset. Additionally, you will summarize the pros and cons of the Automated EDA Tools used. Here are the instructions to guide you through this case study:
+
+1. **Selecting Automated EDA Tools**:
+   - Research and select two different Automated EDA Tools that you would like to study. These tools are designed to automate the process of data exploration and visualization.
+   - Ensure that the selected tools are suitable for analyzing data from a Malaysian dataset.
+
+2. **Malaysian Dataset**:
+   - Choose an appropriate Malaysian dataset for this case study. It could be related to any domain or topic of your choice (e.g., healthcare, finance, demographics, etc.).
+
+3. **Data Preparation**:
+   - Collect and load the Malaysian dataset into a format compatible with the selected EDA tools.
+   - Make sure the data is clean and ready for analysis. Perform data preprocessing tasks if necessary.
+
+4. **Implementation of Automated EDA Tools**:
+   - Provide a detailed step-by-step guide for implementing each of the selected Automated EDA Tools. Include screenshots and explanations where necessary.
+   - Cover the following aspects for each tool:
+     a. How to load the dataset into the tool.
+     b. How to generate basic statistics and visualizations.
+     c. How to explore relationships and patterns in the data.
+     d. Any unique features or capabilities of each tool that you find noteworthy.
+
+5. **Pros and Cons Analysis**:
+   - After implementing both EDA tools, summarize the pros and cons of each tool based on your experience and observations. Consider factors such as ease of use, comprehensiveness, visualization capabilities, and any limitations.
+   - Include your insights on how each tool performed in the context of the Malaysian dataset you chose.
+
+6. **Conclusion**:
+   - Conclude your case study by summarizing the key findings and insights from your analysis.
+   - Provide recommendations or insights on when each tool may be more suitable or preferable based on the specific needs of EDA projects.
+
+7. **References**:
+   - Include a list of references and citations for any sources or documentation you used in your case study.
+
+Ensure that your case study is well-organized, well-documented, and provides a clear understanding of how the selected Automated EDA Tools work and their applicability to Malaysian datasets. Use clear and concise language to convey your findings and conclusions.
 
 ### 2. Team Collaboration
 🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit#gid=305100254). Please update your group information:
