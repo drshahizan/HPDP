@@ -103,6 +103,10 @@ Follow this step-by-step guide to work on your project.
 ### Step 6: Make a submission
 
 - Upload your notebook to github.
+
+## 📚 Case Study 2: Automated EDA Tools
+
+
 ### 2. Team Collaboration
 🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit#gid=305100254). Please update your group information:
 
