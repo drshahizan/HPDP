@@ -143,8 +143,8 @@ Ensure that your case study is well-organized, well-documented, and provides a c
 ### 2. Team Collaboration
 🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=834124190). Please update your group information:
 
-| No | Group |  File | Dataset | EDA Tools 1 | EDA Tools 2 | 
-| -----: |  ------ | :-----: |  ----- |  ----- | ----- | 
+| No | Group |  File | Dataset | EDA Tools 1 | EDA Tools 2 | EDA Tools 3 |
+| -----: |  ------ | :-----: |  ----- |  ----- | ----- | ----- |
 | 0. | Sample  |  <a href="submission/ass2/Sample/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 1. | DEADPOOL | <a href="submission/ass2/DEADPOOL/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |  
 | 2. | ohSheet |  <a href="submission/ass2/ohSheet/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
@@ -152,7 +152,7 @@ Ensure that your case study is well-organized, well-documented, and provides a c
 | 4. | sheemart |  <a href="submission/ass2/sheemart/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 5. | ATG |  <a href="submission/ass2/ohSheet/read.me" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 | 6. | KHUCHIN |  <a href="submission/ass2/KHUCHIN/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
-| 7. | BERUK |  <a href="submission/ass2/BERUK/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 7. | BERUK |  <a href="submission/ass2/BERUK/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 📃<a href="https://storage.dosm.gov.my/population/population_state.parquet" > | sweetViz | pandas-profiling | D-tale |
 | 8. | ATONG |  <a href="submission/ass2/ATONG/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 9. | 3H |  <a href="submission/ass2/3H/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 10. | HANY |  <a href="submission/ass2/HANY/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
