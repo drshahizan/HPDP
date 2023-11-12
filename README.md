@@ -30,6 +30,8 @@ The information on this Github is part of the materials for the subject High Per
 | 6. | Lab 2 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/big-data.md#-lab" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 7. | Course | Feature Engineering | <a href="https://www.kaggle.com/learn/feature-engineering" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
 | 8. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/fe.md#-lab" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
+| 5. | Assignment 3 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
+
 ## Notes
 
 ### 1. Data
