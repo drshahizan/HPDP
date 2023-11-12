@@ -28,7 +28,7 @@ The information on this Github is part of the materials for the subject High Per
 | 4. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 5. | Assignment 2 | Exploratory data analysis | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 6. | Course | Feature Engineering | <a href="https://www.kaggle.com/learn/feature-engineering" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
-| 6. | Lab 2 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/fe.md#-lab" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
+| 7. | Lab 2 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/fe.md#-lab" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 ## Notes
 
 ### 1. Data
