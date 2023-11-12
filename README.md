@@ -19,7 +19,7 @@ The information on this Github is part of the materials for the subject High Per
 2. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
 3. [Student information](student.md)
 
-## Assignment
+## Activity
 | No | Module | Description | File |
 | -----: | ------ | ------ | :-----: | 
 | 1 | Task 1 | Portfolio Creation | <a href="./portfolio/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
@@ -27,6 +27,7 @@ The information on this Github is part of the materials for the subject High Per
 | 3. | Assignment 1 | Data analysis using Google Sheets | <a href="./assignment/ass1.md" ><img src="./images/google-sheets.png" width="24px" height="24px" ></a> | 
 | 4. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 5. | Assignment 2 | Exploratory data analysis | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
+| 6. | Assignment 2 | Exploratory data analysis | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 
 ## Notes
 
