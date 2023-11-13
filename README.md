@@ -32,7 +32,7 @@ The information on this Github is part of the materials for the subject High Per
 | 8. | Course | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/course/hpdp/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
 | 9. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/fe/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
 | 10. | Assignment 4 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass4/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
-
+| 10. | Assignment 5 | Automated Feature Engineering tools | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass4/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 
 ## Notes
 
