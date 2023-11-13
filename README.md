@@ -27,7 +27,7 @@ The information on this Github is part of the materials for the subject High Per
 | 3. | Assignment 1 | Data analysis using Google Sheets | <a href="./assignment/ass1.md" ><img src="./images/google-sheets.png" width="24px" height="24px" ></a> | 
 | 4. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 5. | Assignment 2 | Exploratory data analysis | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass2/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
-| 6. | Lab 2 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/big-data.md#-lab" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
+| 6. | Lab 2 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/eda/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
 | 7. | Assignment 3 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass3/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 8. | Course | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/course/hpdp/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
 | 9. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/fe/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
