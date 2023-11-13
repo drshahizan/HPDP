@@ -29,7 +29,7 @@ The information on this Github is part of the materials for the subject High Per
 | 5. | Assignment 2 | Exploratory data analysis | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass2/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 6. | Lab 2 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/big-data.md#-lab" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 7. | Assignment 3 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass3/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
-| 8. | Course | Feature Engineering | <a href="https://www.kaggle.com/learn/feature-engineering" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
+| 8. | Course | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/course/hpdp/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | 
 | 9. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/materials/fe.md#-lab" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 10. | Assignment 4 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass4/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 
