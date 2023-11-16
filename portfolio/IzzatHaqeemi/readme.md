@@ -10,9 +10,9 @@ Beyond academics, I am an active participant in various events and activities, w
 
 ## 🎓 Education
 - **MRSM Alor Gajah (2015-2019)**
-  - SPM 7A 2B
+
 - **Foundation In Science Uitm Dengkil (2020-2021)**
-  - CGPA 3.92
+
 - **Bachelor Of Computer Science (Data Engineering) With Honours Computing (2021-2025)**
 
 
