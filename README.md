@@ -33,6 +33,8 @@ The information on this Github is part of the materials for the subject High Per
 | 9. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/fe/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
 | 10. | Assignment 4 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass4/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 11. | Assignment 5 | Automated Feature Engineering tools | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass5/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
+| 12. | Assignment 6 | Mastering Big Data Handling | <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/hpdp" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
+
 
 ## Notes
 
