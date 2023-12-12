@@ -21,7 +21,7 @@ AWS Academy is a global program that offers educational institutions a comprehen
 
 | No  | Name  | Cloud Foundations | Cloud Architecting | Data Engineering | 
 | --- | :-------------: | :-------------: | :-------------: | :-------------: | 
-| 1   | ADAM WAFII BIN AZUAR                      | <a href="https://www.credly.com/badges/4bc350fe-4dac-48eb-8ffa-123835bacef4/public_url"><img src="../../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/f0cceb63-764c-49a5-8358-45a1921fe550/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/8dfc05e1-c725-4c91-9bbc-8b74e4655b9b/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>                   |
+| 1   | ADAM WAFII BIN AZUAR                      | <a href="https://www.credly.com/badges/4bc350fe-4dac-48eb-8ffa-123835bacef4/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/f0cceb63-764c-49a5-8358-45a1921fe550/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/8dfc05e1-c725-4c91-9bbc-8b74e4655b9b/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>                   |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
