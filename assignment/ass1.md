@@ -51,7 +51,6 @@ assignment/your_group/
 
 ```
 ## Submission
-Please update your group information:
 
 | No | Group |  File |
 | -----: |  ------ | :-----: | 
