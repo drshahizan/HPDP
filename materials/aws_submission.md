@@ -7,11 +7,7 @@
 
 🌟 Hit star button to save this repo in your profile
 
-# AWS Academy
-
-AWS Academy is a global program that offers educational institutions a comprehensive curriculum focused on cloud computing using Amazon Web Services (AWS). The program provides institutions with access to up-to-date learning materials, hands-on labs, and assessments to teach students about various cloud computing topics. By participating in AWS Academy, students gain practical skills and knowledge in using AWS services, preparing them for careers in cloud computing and related fields. The program also offers opportunities for students to earn industry-recognized AWS Certifications, enhancing their employability in the growing cloud computing industry. Overall, AWS Academy serves as a valuable bridge between academia and industry, equipping students with in-demand cloud computing skills.
-
-## Course AWS Academy
+# Course AWS Academy
 
 | No  | Course                                                                                                |                                                             Link                                                             |
 | :-: | ----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
