@@ -23,7 +23,7 @@ The information on this Github is part of the materials for the subject High Per
 | No | Module | Description | File | Submission |
 | -----: | ------ | ------ | :-----: | :-----: | 
 | 1 | Task 1 | Portfolio Creation | <a href="./portfolio/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | <a href="https://github.com/drshahizan/HPDP/blob/main/student.md" ><img src="./images/answer.png" width="24px" height="24px" ></a> | 
-| 2 | Task 2 | AWS Certification | <a href="./materials/aws.md" ><img src="./images/aws.svg" width="24px" height="24px" ></a> | <a href="https://github.com/drshahizan/HPDP/blob/main/materials/aws_submission.md" ><img src="./images/answer.png" width="24px" height="24px" ></a> |
+| 2 | Task 2 | AWS Certification | <a href="./materials/aws.md" ><img src="./images/aws.svg" width="24px" height="24px" ></a> | <a href="https://github.com/drshahizan/HPDP/blob/main/materials/aws_submission.md" ><img src="./images/badge3.png" width="24px" height="24px" ></a> |
 | 3. | Assignment 1 | Data analysis using Google Sheets | <a href="./assignment/ass1.md" ><img src="./images/google-sheets.png" width="24px" height="24px" ></a> | 
 | 4. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 5. | Assignment 2 | Exploratory data analysis | <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass2/hpdp" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
