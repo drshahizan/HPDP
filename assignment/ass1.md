@@ -26,7 +26,32 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | 2.  | Sales performance | <a href="../images/Ass1b.pdf" ><img src="../images/document.png" width="24px" height="24px"></a> | <a href="https://raw.githubusercontent.com/drshahizan/dataset/main/GS/Dataset2.txt" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
 
 ### 2. Team Collaboration
-🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit#gid=305100254). Please update your group information:
+🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit#gid=305100254). 
+
+### 3. Academic Integrity
+🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
+
+### 4. Submission Requirements
+📝 Prepare a comprehensive document that outlines the step-by-step process for creating the case study. This document should include details about the formulas used. Additionally, you must submit a Google Sheets file containing the results of the case study's execution.
+
+The deadline for submission is **October 26, 2023, at 3:30 PM**. Late submissions will not be accepted and will be disregarded.
+
+### 5. File and Folder Structure 
+
+You must place your file in the submission folder. Within the [`submission/ass1/`](./submission/ass1/) folder, create a folder called your group. Name the default file as `readme.md`. You can refer to the [documentation template here](./submission/ass1/Sample/readme.md). Suggested folder structure for this project:
+
+```html
+assignment/your_group/
+├── 📁 case_study1a/
+│   ├── 📄 readme.md
+│   └── 📄 google_sheets
+└── 📁 case_study1b/
+    ├── 📄 readme.md
+    └── 📄 google_sheets
+
+```
+## Submission
+Please update your group information:
 
 | No | Group |  File |
 | -----: |  ------ | :-----: | 
@@ -44,28 +69,6 @@ Google Sheets is a versatile and user-friendly tool for data analysis, enabling 
 | 11. | ByteNav |  <a href="submission/ass1/ByteNav/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 12. | SEK KITO  |  <a href="https://github.com/drshahizan/HPDP/tree/main/assignment/submission/ass1/SEK%20KITO/readme.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> | 
 
-### 3. Academic Integrity
-🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
-
-### 4. Submission Requirements
-📝 Prepare a comprehensive document that outlines the step-by-step process for creating the case study. This document should include details about the formulas used. Additionally, you must submit a Google Sheets file containing the results of the case study's execution.
-
-The deadline for submission is **October 26, 2023, at 3:30 PM**. Late submissions will not be accepted and will be disregarded.
-
-## File and Folder Structure 
-
-You must place your file in the submission folder. Within the [`submission/ass1/`](./submission/ass1/) folder, create a folder called your group. Name the default file as `readme.md`. You can refer to the [documentation template here](./submission/ass1/Sample/readme.md). Suggested folder structure for this project:
-
-```html
-assignment/your_group/
-├── 📁 case_study1a/
-│   ├── 📄 readme.md
-│   └── 📄 google_sheets
-└── 📁 case_study1b/
-    ├── 📄 readme.md
-    └── 📄 google_sheets
-
-```
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
