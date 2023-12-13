@@ -48,7 +48,7 @@
 | 26  | Muhammad Iqmal Bin Sis                  |
 | 27  | Muhammad Izzuddin Bin Shabrin           |
 | 28  | Muhammad Naquib Bin Zakaria             |
-| 29  | Nadia Syafiqah Binti Zulkipli           |
+| 29  | Nadia Syafiqah Binti Zulkipli           | <a href="https://www.credly.com/badges/0b9378ee-be9c-4652-bb97-2423e6b96396/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href=""><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href=""><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 30  | Ng Suang Joo                            |
 | 31  | Ng Zi Xing                              |
 | 32  | Nik Amirul Ariff Bin Amran              |
