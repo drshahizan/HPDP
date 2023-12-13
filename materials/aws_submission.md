@@ -32,7 +32,7 @@
 | 10  | Ikmal Bin Khairulezuan                  |
 | 11  | Izzat Haqeemi Bin Hairudin              |
 | 12  | Kee Shin Pearl                          |
-| 13  | Lau Yee Chi                             |
+| 13  | Lau Yee Chi                             | <a href="https://www.credly.com/badges/548da173-af50-4a80-bd01-125c89fe955f/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/a28e43cf-7afc-419a-9173-107c8b5b2321/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/fc2bd7eb-9211-4fd7-818d-af6518acc6d5/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 14  | Liew Yvonne                             |
 | 15  | Ling Wan Yin                            |
 | 16  | Loo Zhi Yuan                            |
