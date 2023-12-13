@@ -77,6 +77,11 @@ Welcome to my GitHub. My name is Lau Yee Chi. I am studying Computer Science in 
 ## 🎖️Achievements and Skills
 - [AWS Academy Cloud Foundations](https://www.linkedin.com/posts/lauyeechi0915_aws-academy-graduate-aws-academy-cloud-activity-7119936525370331136-yFza?utm_source=share&utm_medium=member_desktop)
 - [Microsoft Certified: Azure Data Fundamentals](https://www.linkedin.com/posts/lauyeechi0915_microsoft-certified-azure-data-fundamentals-activity-7119935751093424128-VuPw?utm_source=share&utm_medium=member_desktop)
+- [AWS Academy Cloud Architecting](https://www.credly.com/badges/a28e43cf-7afc-419a-9173-107c8b5b2321/public_url)
+- [AWS Academy Data Engineering](https://www.credly.com/badges/fc2bd7eb-9211-4fd7-818d-af6518acc6d5/public_url)
+- [Alteryx Foundational Micro-Credential](https://www.credly.com/badges/177fc2ad-10bc-46a4-9fc8-9300b75c3bff/public_url)
+- [Machine Learning Fundamentals Micro-Credential](https://www.credly.com/badges/c18cee4d-c0e6-483e-839b-eefe1b336c89/public_url)
+- [Alteryx Designer Core Micro-Credential: General Knowledge](https://www.credly.com/badges/7590917d-c7ba-4c86-8ca7-3bd4e72dcbbf/public_url)
 
 ## 🕸️ Let's Connect
 <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt ="me in linkedin" height="auto" width="20" /> [LinkedIn](https://www.linkedin.com/in/lauyeechi0915/)
