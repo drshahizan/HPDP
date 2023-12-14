@@ -11,9 +11,9 @@
 
 | No  | Course                                                                                                |                                                             Link                                                             |
 | :-: | ----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
-|  1  | [Cloud Foundations](#cloud-foundations) | <a href="https://awsacademy.instructure.com/courses/60317" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
-|  2  | [Cloud Architecting](#cloud-architecting) | <a href="https://awsacademy.instructure.com/courses/60318" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
-|  3  | [Data Engineering](#data-engineering) | <a href="https://awsacademy.instructure.com/courses/60401" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+|  1  | Cloud Foundations | <a href="https://awsacademy.instructure.com/courses/60317" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+|  2  | Cloud Architecting | <a href="https://awsacademy.instructure.com/courses/60318" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
+|  3  | Data Engineering | <a href="https://awsacademy.instructure.com/courses/60401" ><img src="../images/aws.svg" width="24px" height="24px" ></a> |
 
 ## Submission
 
