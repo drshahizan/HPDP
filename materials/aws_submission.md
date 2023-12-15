@@ -57,7 +57,7 @@
 | 35  | Nurunnajwa Binti Zulkifli               |
 | 36  | Sam Chia Yun                            |
 | 37  | Sarah Wardina Binti Rafidin             |
-| 38  | Soo Wan Ying                            |
+| 38  | Soo Wan Ying                            |<a href="https://www.credly.com/badges/6722e0b5-9949-4729-988f-99d9ae7634a4/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/4824300e-ec06-421d-9c93-a34e89c825bf/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/b6bf47cd-9960-4121-80bf-6d80bd429fc8/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 39  | Umar Haziq Bin Muhamad Norhisham        |
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        |
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     |
