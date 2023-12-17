@@ -15,8 +15,8 @@ Don't forget to hit the :star: if you like this repo.
 |MUHAMMAD ASHRAAF BIN SALEH         | A21EC0068    |  Assignment 6 |
 |FAUZAN AQIL BIN AZMAN         | A21EC0174   | Assignment 6 |
 
-### 📂 Folder content:
-* [💻 Assignment 6](https://github.com/drshahizan/HPDP/blob/main/assignment/ass6/hpdp/SingaporeMarey/Assigment_6.ipynb)
+### 🧰 Folder content:
+* [🗃️ Assignment 6](https://github.com/drshahizan/HPDP/blob/main/assignment/ass6/hpdp/SingaporeMarey/Assigment_6.ipynb)
 
 
 
