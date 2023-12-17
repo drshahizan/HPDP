@@ -36,6 +36,15 @@ The information on this Github is part of the materials for the subject High Per
 | 12. | Assignment 6 | Mastering Big Data Handling | <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/hpdp" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
 | 13. | Assignment 7 | Comparison between libraries | <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/hpdp" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
 
+## Lab
+
+## Activity
+| No | Module | Description | File | Submission |
+| -----: | ------ | ------ | :-----: | :-----: | 
+| 1. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
+| 2. | Lab 2 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/eda/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
+| 3. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/fe/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
+
 ## Notes
 
 ### 1. Data
