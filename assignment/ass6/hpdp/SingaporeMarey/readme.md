@@ -16,7 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 |FAUZAN AQIL BIN AZMAN         | A21EC0174   | Assignment 6 |
 
 ### 📂 Folder content:
-* [💻 Assignment 6](https://colab.research.google.com/drive/1-mho-w992c66G66MEV3BOG8nufEhg7uo?usp=sharing#scrollTo=mvLWjkjGCUjr)
+* [💻 Assignment 6](https://github.com/drshahizan/HPDP/blob/main/assignment/ass6/hpdp/SingaporeMarey/Assigment_6.ipynb)
 
 
 
