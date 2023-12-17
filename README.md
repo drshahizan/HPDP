@@ -39,8 +39,8 @@ The information on this Github is part of the materials for the subject High Per
 ## Lab
 
 ## Activity
-| No | Module | Description | File | Submission |
-| -----: | ------ | ------ | :-----: | :-----: | 
+| No | Module | Description | File | 
+| -----: | ------ | ------ | :-----: | 
 | 1. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
 | 2. | Lab 2 | EDA Big Data | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/eda/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
 | 3. | Lab 3 | Feature Engineering | <a href="https://github.com/drshahizan/Python_EDA/blob/main/lab/fe/hpdp/readme.md" ><img src="./images/colab.png" width="24px" height="24px" ></a> | 
