@@ -23,7 +23,7 @@ Turnitin is a web-based service that checks your project report for plagiarism a
 
 To submit your project report in Turnitin, you need to follow these steps:
 1. Log in to Turnitin using the link [here](https://www.turnitin.com/login_page.asp)
-2. Enter the Class ID: **42052721** and Enrollment Key: **mcds1123** for the **Big Data Management** class.
+2. Enter the Class ID: **42052751** and Enrollment Key: **secp3133** for the **High Performance Data Processing** class.
 3. Click on the **View/Complete** link under the **Assignments** tab.
 
 <p align="center">
