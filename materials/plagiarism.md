@@ -27,7 +27,7 @@ To submit your project report in Turnitin, you need to follow these steps:
 3. Click on the **View/Complete** link under the **Assignments** tab.
 
 <p align="center">
-<img src="../images/hpdp_plagiat.png"  height="400" />
+<img src="../images/HPDP_plagiat.png"  height="400" />
 </p>
    
 4. Select the **Assignment** you want to submit from the drop-down menu. Make sure you choose the correct one according to your project topic and group number. 
