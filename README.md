@@ -20,6 +20,8 @@ The information on this Github is part of the materials for the subject High Per
 3. [Student information](student.md)
 
 ## Activity
+📄👍 [**Turnitin Report**](./materials/plagiarism.md)
+
 | No | Module | Description | File | Submission |
 | -----: | ------ | ------ | :-----: | :-----: | 
 | 1 | Task 1 | Portfolio Creation | <a href="./portfolio/readme.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> | <a href="https://github.com/drshahizan/HPDP/blob/main/student.md" ><img src="./images/answer.png" width="24px" height="24px" ></a> | 
