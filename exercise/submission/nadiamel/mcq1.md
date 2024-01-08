@@ -9,9 +9,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set: 1
 
-**Name:**
+**Name: NADIA SYAFIQAH BINTI ZULKIPLI** 
 
-**Matrix No:**
+**Matrix No: A21EC0098**
 
 ## Answer
 1. C
