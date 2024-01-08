@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set: 2
+## MCQ Set: 1
 
 **Name:** Ling Wan Yin
 
