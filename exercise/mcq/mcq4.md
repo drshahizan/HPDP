@@ -131,9 +131,7 @@ Don't forget to hit the :star: if you like this repo.
 
 18. How does cloud-based data warehousing contribute to high-performance analytics?
     - A) Slows down data retrieval
-   
-
- - B) Provides a centralized repository for structured data analysis
+    - B) Provides a centralized repository for structured data analysis
     - C) Increases data redundancy
     - D) Reduces data accuracy
 
