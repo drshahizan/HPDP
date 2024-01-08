@@ -9,9 +9,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set: 3
 
-**Name: Ling Wan Yin**
+**Name:** Ling Wan Yin
 
-**Matrix No: A21EC0047**
+**Matrix No:** A21EC0047
 
 ## Answer
 1. C
@@ -38,7 +38,7 @@ Don't forget to hit the :star: if you like this repo.
 22. B
 23. B
 24. B
-25.C
+25. C
 26.
 27.
 28.
