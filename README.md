@@ -37,7 +37,6 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Lab
 
-## Activity
 | No | Module | Description | File | 
 | -----: | ------ | ------ | :-----: | 
 | 1. | Lab 1 | Understanding Your Data | <a href="./lab/lab1.md" ><img src="./images/python.png" width="24px" height="24px" ></a> | 
