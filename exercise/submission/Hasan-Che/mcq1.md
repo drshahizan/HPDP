@@ -9,9 +9,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set: 1
 
-**Name: MUHAMMAD HASAN BIN CHE ABDULLAH
+**Name: MUHAMMAD HASAN BIN CHE ABDULLAH**
 
-**Matrix No: A21EC0077
+**Matrix No: A21EC0077**
 
 ## Answer
 1.
