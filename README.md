@@ -18,6 +18,7 @@ The information on this Github is part of the materials for the subject High Per
 1. [Essential Preparations for a Successful Start in High-Performance Data Processing Class](./materials/essentials.md)
 2. [Course Information](./images/CI_HPDP_SCSP3133.pdf)
 3. [Student information](student.md)
+4. [Exercise](https://github.com/drshahizan/HPDP/tree/main/exercise)
 
 ## Activity
 📄👍 [**Turnitin Report**](./materials/plagiarism.md)
