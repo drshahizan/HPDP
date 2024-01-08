@@ -28,17 +28,17 @@ Don't forget to hit the :star: if you like this repo.
 12.B
 13.B
 14.B
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+15.D
+16.B
+17.B
+18.B
+19.B
+20.A
+21.B
+22.B
+23.A
+24.B
+25.B
 
 
 ## Contribution 🛠️
