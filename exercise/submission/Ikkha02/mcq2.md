@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set:
+## MCQ Set: 2
 
 **Name:** Ikmal Bin Khairulezuan
 
