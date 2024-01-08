@@ -144,9 +144,7 @@ Don't forget to hit the :star: if you like this repo.
 
 20. How does Vaex handle large datasets in a memory-efficient manner?
     - A) Lazy evaluation
-    - B) In-memory query
-
- engine
+    - B) In-memory query engine
     - C) Distributed computing
     - D) Chunk-wise processing
 
