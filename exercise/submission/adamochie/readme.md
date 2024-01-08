@@ -14,26 +14,26 @@ Don't forget to hit the :star: if you like this repo.
 **Matrix No: A21EC0061**
 
 ## Answer
-1.B
-2.A
-3.A
-4.D
-5.C
-6.A
-7.A
-8.D
-9.A
-10.B
-11.A
-12.B
-13.C
-14.D
-15.D
-16.C
-17.D
-18.D
-19.B
-20.C
+1. B
+2. A
+3. A
+4. D
+5. C
+6. A
+7. A
+8. D
+9. A
+10. B
+11. A
+12. B
+13. C
+14. D
+15. D
+16. C
+17. D
+18. D
+19. B
+20. C
 21.
 22.
 23.
