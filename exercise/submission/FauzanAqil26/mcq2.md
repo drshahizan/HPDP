@@ -7,38 +7,38 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set:
+## MCQ Set: 2
 
-**Name:**
+**Name: FAUZAN AQIL BIN AZMAN**
 
-**Matrix No:**
+**Matrix No: A21EC0174**
 
 ## Answer
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+1. A
+2. A
+3. A
+4. B
+5. A
+6. B
+7. C 
+8. D
+9. A
+10. C
+11. D
+12. D
+13. C
+14. D
+15. B
+16. A
+17. A
+18. A
+19. A
+20. A
+21. A
+22. B
+23. C
+24. D
+25. A
 26.
 27.
 28.
