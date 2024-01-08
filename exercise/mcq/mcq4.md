@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# NoSQL Database
+# High-Performance Data Processing with Cloud Computing:
 
 ## Instructions
 - Please use the [MCQ template](temp_mcq.md).
@@ -27,156 +27,157 @@ Don't forget to hit the :star: if you like this repo.
 ```
 
 ## Multiple Choice Questions																																					
+1. What is the primary advantage of leveraging cloud computing for high-performance data processing?
+   - A) Reduced data security
+   - B) Increased data latency
+   - C) Scalability and flexibility
+   - D) Limited data storage
 
-1. What does the term "NoSQL" stand for?
-    - A) Non SQL
-    - B) Not only SQL
-    - C) Non-relational
-    - D) All of the above
+2. In the context of cloud computing, what is autoscaling, and how does it contribute to high-performance data processing?
+   - A) A feature that limits data processing
+   - B) Automatically adjusting resources based on demand to optimize performance
+   - C) Slowing down data retrieval
+   - D) Increasing data redundancy
 
-2. What is the main difference between NoSQL and relational databases?
-    - A) NoSQL databases use tables to store data, while relational databases use other data structures
-    - B) NoSQL databases use SQL to query data, while relational databases use other languages
-    - C) NoSQL databases store data in a format other than relational tables, while relational databases use tables
-    - D) NoSQL databases are scalable and flexible, while relational databases are rigid and slow
+3. Which cloud service model provides the highest level of control and customization for high-performance data processing?
+   - A) Infrastructure as a Service (IaaS)
+   - B) Platform as a Service (PaaS)
+   - C) Software as a Service (SaaS)
+   - D) Function as a Service (FaaS)
 
-3. What are the four main types of NoSQL databases based on their data model?
-    - A) Document, key-value, wide-column, and graph
-    - B) Document, key-value, relational, and graph
-    - C) Document, object, wide-column, and graph
-    - D) Document, object, relational, and graph
+4. How does cloud-based storage contribute to high-performance data processing?
+   - A) Slowing down data retrieval
+   - B) Enabling efficient and scalable storage options for processing large datasets
+   - C) Increasing data redundancy
+   - D) Reducing data accuracy
 
-4. What is the name of the data structure used by document databases to store data?
-    - A) JSON
-    - B) XML
-    - C) BSON
-    - D) All of the above
+5. What is the significance of serverless computing in achieving high performance in data processing on the cloud?
+   - A) Increases data latency
+   - B) Eliminates the need to manage server infrastructure, allowing focus on processing tasks
+   - C) Slows down data retrieval
+   - D) Adds data redundancy
 
-5. What is the name of the data structure used by key-value databases to store data?
-    - A) Hash table
-    - B) Array
-    - C) List
-    - D) Tree
+6. Which cloud computing deployment model allows organizations to have dedicated hardware and exclusive access to cloud resources?
+   - A) Public Cloud
+   - B) Private Cloud
+   - C) Hybrid Cloud
+   - D) Community Cloud
 
-6. What is the name of the data structure used by wide-column databases to store data?
-    - A) Matrix
-    - B) Table
-    - C) Spreadsheet
-    - D) All of the above
+7. How does cloud-based data parallelism contribute to high-performance data processing?
+   - A) Slows down data retrieval
+   - B) Distributes processing tasks across multiple nodes for parallel execution
+   - C) Increases data redundancy
+   - D) Reduces data accuracy
 
-7. What is the name of the data structure used by graph databases to store data?
-    - A) Node
-    - B) Edge
-    - C) Property
-    - D) All of the above
+8. What role does edge computing play in high-performance data processing on the cloud?
+   - A) Increases data latency
+   - B) Enables processing closer to the data source, reducing latency
+   - C) Slows down data retrieval
+   - D) Adds data redundancy
 
-8. What is the name of the popular open-source document database that supports SQL-like queries and horizontal scaling?
-    - A) MongoDB
-    - B) CouchDB
-    - C) DynamoDB
-    - D) Firebase
+9. Which cloud computing service provides virtualized computing resources, including virtual machines and storage, allowing users to run custom applications?
+   - A) Amazon S3
+   - B) Google Cloud Storage
+   - C) Amazon EC2
+   - D) Azure Blob Storage
 
-9. What is the name of the popular open-source key-value database that supports in-memory data storage and various data types?
-    - A) Redis
-    - B) Memcached
-    - C) Riak
-    - D) Cassandra
+10. What is the purpose of data redundancy in cloud-based high-performance data processing?
+    - A) Slows down data retrieval
+    - B) Ensures data availability and reliability in case of failures
+    - C) Increases data latency
+    - D) Reduces data accuracy
 
-10. What is the name of the popular open-source wide-column database that supports high availability and scalability across multiple nodes?
-    - A) Cassandra
-    - B) HBase
-    - C) Bigtable
-    - D) All of the above
+11. In cloud-based data processing, how does content delivery networks (CDN) contribute to performance optimization?
+    - A) Slows down data retrieval
+    - B) Distributes content closer to end-users, reducing latency
+    - C) Increases data redundancy
+    - D) Adds data accuracy
 
-11. What is the name of the popular open-source graph database that supports the property graph model and various query languages?
-    - A) Neo4j
-    - B) OrientDB
-    - C) ArangoDB
-    - D) All of the above
+12. Which cloud computing service provides a fully managed, scalable, and serverless data warehouse for high-performance analytics?
+    - A) Amazon Redshift
+    - B) Google BigQuery
+    - C) Azure Synapse Analytics
+    - D) Snowflake
 
-12. What are some of the advantages of NoSQL databases over relational databases?
-    - A) They provide flexible schemas and data models
-    - B) They support horizontal scaling and high availability
-    - C) They enable fast and efficient data processing and analysis
-    - D) All of the above
+13. How does cloud-based machine learning enhance high-performance data processing?
+    - A) Slows down data retrieval
+    - B) Enables the integration of machine learning algorithms for intelligent data processing
+    - C) Increases data redundancy
+    - D) Reduces data accuracy
 
-13. What are some of the disadvantages of NoSQL databases compared to relational databases?
-    - A) They may compromise data consistency and reliability
-    - B) They may lack standardized interfaces and query languages
-    - C) They may require more complex data integration and management
-    - D) All of the above
+14. What is the role of cloud-based data lakes in high-performance data processing?
+    - A) Slows down data retrieval
+    - B) Provides scalable storage for structured and unstructured data
+    - C) Increases data redundancy
+    - D) Adds data accuracy
 
-14. What is the name of the concept that describes the trade-off between consistency, availability, and partition tolerance in distributed systems?
-    - A) CAP theorem
-    - B) ACID properties
-    - C) BASE principles
-    - D) CRUD operations
+15. Which cloud computing characteristic ensures on-demand availability of computing resources for high-performance data processing?
+    - A) Rapid elasticity
+    - B) Measured service
+    - C) Broad network access
+    - D) Resource pooling
 
-15. What is the name of the concept that describes the properties of atomicity, consistency, isolation, and durability in database transactions?
-    - A) CAP theorem
-    - B) ACID properties
-    - C) BASE principles
-    - D) CRUD operations
+16. How does cloud-based data encryption contribute to high-performance data processing security?
+    - A) Slows down data retrieval
+    - B) Enhances data security by encrypting data during storage and transmission
+    - C) Increases data redundancy
+    - D) Reduces data accuracy
 
-16. What is the name of the concept that describes the principles of basic availability, soft state, and eventual consistency in database systems?
-    - A) CAP theorem
-    - B) ACID properties
-    - C) BASE principles
-    - D) CRUD operations
+17. What is the significance of cloud-based data streaming for real-time high-performance data processing?
+    - A) Slows down data retrieval
+    - B) Enables processing data in real-time as it is generated
+    - C) Increases data redundancy
+    - D) Adds data accuracy
 
-17. What is the name of the concept that describes the operations of create, read, update, and delete in database systems?
-    - A) CAP theorem
-    - B) ACID properties
-    - C) BASE principles
-    - D) CRUD operations
+18. How does cloud-based data warehousing contribute to high-performance analytics?
+    - A) Slows down data retrieval
+   
 
-18. What is the name of the query language that is used to manipulate and query data in MongoDB?
-    - A) MQL
-    - B) NQL
-    - C) SQL
-    - D) None of the above
+ - B) Provides a centralized repository for structured data analysis
+    - C) Increases data redundancy
+    - D) Reduces data accuracy
 
-19. What is the name of the query language that is used to manipulate and query data in Redis?
-    - A) Redis commands
-    - B) RedisQL
-    - C) SQL
-    - D) None of the above
+19. In the context of cloud-based data processing, what is the purpose of data sharding?
+    - A) Slows down data retrieval
+    - B) Distributes large datasets into smaller, more manageable pieces for parallel processing
+    - C) Increases data redundancy
+    - D) Adds data accuracy
 
-20. What is the name of the query language that is used to manipulate and query data in Cassandra?
-    - A) CQL
-    - B) NQL
-    - C) SQL
-    - D) None of the above
+20. Which cloud computing service offers serverless computing for running code without provisioning or managing servers?
+    - A) AWS Lambda
+    - B) Google Cloud Functions
+    - C) Azure Functions
+    - D) IBM Cloud Functions
 
-21. What is the name of the query language that is used to manipulate and query data in Neo4j?
-    - A) Cypher
-    - B) Gremlin
-    - C) SPARQL
-    - D) All of the above
+21. How does cloud-based data caching contribute to high-performance data processing?
+    - A) Slows down data retrieval
+    - B) Stores frequently accessed data in memory for quicker access
+    - C) Increases data redundancy
+    - D) Adds data accuracy
 
-22. What are some of the use cases for NoSQL databases?
-    - A) Real-time web applications
-    - B) Big data analytics
-    - C) Content management systems
-    - D) All of the above
+22. What is the role of cloud-based data versioning in high-performance data processing workflows?
+    - A) Slows down data retrieval
+    - B) Tracks and manages different versions of datasets for reproducibility
+    - C) Increases data redundancy
+    - D) Reduces data accuracy
 
-23. What are some of the challenges for NoSQL databases?
-    - A) Data quality and integrity
-    - B) Data security and privacy
-    - C) Data governance and ethics
-    - D) All of the above
+23. Which cloud computing service allows users to provision and manage virtualized computing resources on-demand for high-performance data processing?
+    - A) Amazon EC2
+    - B) Google Kubernetes Engine
+    - C) Azure Virtual Machines
+    - D) IBM Cloud Virtual Servers
 
-24. What are some of the trends for NoSQL databases?
-    - A) Multi-model databases
-    - B) Cloud-native databases
-    - C) Graph databases
-    - D) All of the above
+24. How does cloud-based data replication enhance data availability and fault tolerance in high-performance processing?
+    - A) Slows down data retrieval
+    - B) Creates copies of data across multiple locations to ensure availability
+    - C) Increases data redundancy
+    - D) Adds data accuracy
 
-25. What are some of the skills required for working with NoSQL databases?
-    - A) Data modeling and design
-    - B) Data processing and analysis
-    - C) Data visualization and communication
-    - D) All of the above
+25. What is the role of cloud-based data archiving in high-performance data processing strategies?
+    - A) Slows down data retrieval
+    - B) Moves infrequently accessed data to cost-effective storage for long-term retention
+    - C) Increases data redundancy
+    - D) Reduces data accuracy
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
