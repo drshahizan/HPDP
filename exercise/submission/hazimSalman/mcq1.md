@@ -1,4 +1,11 @@
-1. 
+## MCQ Set:
+
+**Name: Muhammad Hazim Bin Salman**
+
+**Matrix No: A21EC0078**
+
+## Answer
+1.
 2.
 3.
 4.
