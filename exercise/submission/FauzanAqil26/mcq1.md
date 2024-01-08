@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set: 1
 
-**Name: FAUZAN AQIL BIN AZMAN **
+**Name: FAUZAN AQIL BIN AZMAN**
 
 **Matrix No: A21EC0174**
 
