@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# High-Performance Data Processing with Cloud Computing:
+# High-Performance Data Processing with Cloud Computing
 
 ## Instructions
 - Please use the [MCQ template](temp_mcq.md).
