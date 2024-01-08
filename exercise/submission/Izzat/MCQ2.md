@@ -16,24 +16,29 @@ Don't forget to hit the :star: if you like this repo.
 ## Answer
 1.B
 2.A
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
+3.A
+4.B
+5.A
+6.B
+7.C
+8.D
+9.D
+10.C
+11.D
+12.D
+13.C
+14.D
+15.B
+16.A
+17.A
+18.A
+19.D
+20.D
+21.D
+22.B
+23.C
+24.D
+25.A
 
 
 ## Contribution 🛠️
