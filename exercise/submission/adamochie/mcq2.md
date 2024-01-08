@@ -14,26 +14,35 @@ Don't forget to hit the :star: if you like this repo.
 **Matrix No: A21EC0061**
 
 ## Answer
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
+1. A
+2. A
+3. A
+4. B
+5. A
+6. B
+7. C
+8. B
+9. D
+10. C
+11. D
+12. D
+13. C
+14. D
+15. B
+16. A
+17. A
+18. A
+19. A
+20. D
+21. D
+22. B
+- Hadoop provides a distributed storage and processing framework.
+- Spark is a fast and general-purpose cluster-computing framework for big data processing.
+- Hive is a data warehousing and SQL-like query language framework for Hadoop.
+- Pig is a high-level platform and scripting language for simplifying the creation of MapReduce programs.
+23. C
+24. D
+25. A
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
