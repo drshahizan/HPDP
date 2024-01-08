@@ -4,7 +4,8 @@ Name: ALYA DAMIA BINTI HUZAIMY
 
 Matrix No: A21EC0159
 
-## Answer
+Answer
+ 
 1. B
 2. A
 3. A
