@@ -143,9 +143,7 @@ Don't forget to hit the :star: if you like this repo.
     - D) Increased data redundancy
 
 20. What is the role of data pipelining in high-performance data processing?
-    -
-
- A) Slows down data retrieval
+    - A) Slows down data retrieval
     - B) Optimizes the flow of data between processing stages for efficient processing
     - C) Increases data redundancy
     - D) Reduces data accuracy
