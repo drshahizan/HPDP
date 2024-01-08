@@ -56,13 +56,13 @@ Matrix No: **A21EC0068**
 
 21.A
 
-22. B
+22.B
     
-23. C
+23.C
 
-24. D
+24.D
 
-25. A
+25.A
 
 
 ## Contribution 🛠️
