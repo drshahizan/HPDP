@@ -1,6 +1,6 @@
 ## MCQ Set: High Performance Data Processing
 
-**Name: Aliya Zarena Binti Zainulanuar **
+**Name: Aliya Zarena Binti Zainulanuar**
 
 **Matrix No: A21EC0013**
 
