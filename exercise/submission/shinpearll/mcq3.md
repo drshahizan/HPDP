@@ -9,7 +9,7 @@
 2. A) Slower data retrieval
 3. A) The speed at which data is processed
 4. C) Enables simultaneous execution of tasks for faster processing
-5.
+5. B) Reduces the need for external storage, leading to faster processing
 6. B) Speeds up data retrieval by providing quick access to specific data
 7. B) Stream processing
 8. C) Reducing storage requirements and speeding up data processing
