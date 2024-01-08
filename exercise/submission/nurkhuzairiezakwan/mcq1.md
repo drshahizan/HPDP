@@ -9,9 +9,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set:
 
-**Name:**
+**Name: Nur Khuzairie Zakwan Bin Mohd Zamri**
 
-**Matrix No:**
+**Matrix No: A21EC0112**
 
 ## Answer
 1.
