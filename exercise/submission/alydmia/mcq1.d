@@ -1,8 +1,8 @@
-## MCQ Set: 1
+ MCQ Set: 1
 
-**Name: ALYA DAMIA BINTI HUZAIMY**
+Name: ALYA DAMIA BINTI HUZAIMY
 
-**Matrix No: A21EC0159**
+Matrix No: A21EC0159
 
 ## Answer
 1. B
