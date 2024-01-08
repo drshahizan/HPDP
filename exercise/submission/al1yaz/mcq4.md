@@ -1,37 +1,32 @@
-## MCQ Set:
+## MCQ Set: High-Performance Data Processing with Cloud Computing
 
-**Name:**
+**Name: Aliya Zarena Binti Zainulanuar**
 
-**Matrix No:**
+**Matrix No: A21EC0013**
 
 ## Answer
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
+1. C
+2. B
+3. A
+4. B
+5. B
+6. B
+7. B
+8. B
+9. C
+10. B
+11. B
+12. A
+13. B
+14. B
+15. A
+16. B
+17. B
+18. B
+19. B
+20. A
+21. B
+22. B
+23. A
+24. B
+25. B
