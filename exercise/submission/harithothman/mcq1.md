@@ -9,9 +9,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set: 1
 
-**Name:**
+**Name: MUHAMMAD HARITH HAKIM BIN OTHMAN**
 
-**Matrix No:**
+**Matrix No: A21EC0205**
 
 ## Answer
 1. B
