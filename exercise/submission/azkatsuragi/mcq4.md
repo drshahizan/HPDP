@@ -16,12 +16,12 @@ Don't forget to hit the :star: if you like this repo.
 ## Answer
 1. C
 2. B
-3. A
-4. C
+3. C
+4. B
 5. B
 6. B
 7. B
-8. C
+8. B
 9. C
 10. B
 11. C
