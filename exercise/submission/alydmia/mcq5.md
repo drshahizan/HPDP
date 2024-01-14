@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 **Name: ALYA DAMIA BINTI HUZAIMY**
 
-**Matrix No: A21EC0159 **
+**Matrix No: A21EC0159**
 
 ## Answer
 1. A
