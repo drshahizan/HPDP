@@ -68,6 +68,7 @@ The information on this Github is part of the materials for the subject High Per
 | 2.  | Unlocking Spotify's Musical Enchantment with Machine Learning | <a href="https://github.com/drshahizan/HPDP/blob/main/materials/cs_spotify.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 | 3.  | Netflix | <a href="https://github.com/drshahizan/BDM/blob/main/materials/cs_netflix.md" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 | 4.  | Big data in healthcare: management, analysis and future prospects | <a href="https://github.com/drshahizan/BDM/blob/main/images/art_bdata.pdf" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 5.  | Introduction to Big Data Computing for Geospatial Applications | <a href="https://www.mdpi.com/2220-9964/9/8/487" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
 
 ### 3. Big Data Management
 
