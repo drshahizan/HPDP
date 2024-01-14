@@ -7,38 +7,39 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set:
+## MCQ Set 5:
 
 **Name: Liew Yvonne**
 
 **Matrix No: A21EC0045**
 
 ## Answer
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+1. A
+2. A
+3. A
+4. B
+5. A
+6. A
+7. B
+8. C
+9. A
+10. B
+11. C
+12. A
+13. C
+14. D
+15. A
+16. B
+17. C
+18. D
+19. A
+20. D
+21. C
+22. B
+23. A
+24. B
+25. C
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
@@ -47,5 +48,6 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+
 
 
