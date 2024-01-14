@@ -15,7 +15,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Answer
 1.A
+
 2.A
+
 3.A
 4.B
 5.A
