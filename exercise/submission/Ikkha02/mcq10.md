@@ -14,8 +14,8 @@ Don't forget to hit the :star: if you like this repo.
 **Matrix No:** A21EC0186
 
 ## Answer
-1.
-2.
+1. D
+2. 
 3.
 4.
 5.
