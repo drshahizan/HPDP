@@ -14,31 +14,31 @@ Don't forget to hit the :star: if you like this repo.
 **Matrix No:** A21EC0214
 
 ## Answer
-1. B
-2. C
-3. B
-4. C
-5. A
+1. C
+2. B
+3. A
+4. B
+5. B
 6. B
-7. C
-8. D
-9. D
-10. C
-11. A
-12. D
-13. C
-14. D
-15. B
-16. A
-17. A
-18. A
-19. C
+7. B
+8. B
+9. C
+10. B
+11. B
+12. A
+13. B
+14. B
+15. A
+16. B
+17. D
+18. B
+19. B
 20. A
-21. A
-22. C
-23. B
-24. C
-25. A
+21. B
+22. D
+23. A
+24. B
+25. B
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
