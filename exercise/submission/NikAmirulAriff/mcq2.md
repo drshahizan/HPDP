@@ -33,9 +33,12 @@ Don't forget to hit the :star: if you like this repo.
 17.A
 18.A
 19.A
+   
 20.A
 21.D
+
 22.B
+
 23.C
 24.D
 25.A
