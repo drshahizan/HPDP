@@ -15,30 +15,30 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Answer
 1. D
-2. 
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+2. A
+3. B
+4. C
+5. D
+6. A
+7. B
+8. B
+9. D
+10. D
+11. A
+12. A
+13. A  
+14. D
+15. D
+16. D
+17. D
+18. C
+19. D
+20. D
+21. A
+22. B
+23. C
+24. D
+25. A
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
