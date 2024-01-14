@@ -9,36 +9,36 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MCQ Set:
 
-**Name:**
+**Name:NURUNNAJWA BT ZULKIFLI**
 
-**Matrix No:**
+**Matrix No: A21EC0121**
 
 ## Answer
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+1. A
+2. B
+3. B
+4. C
+5. C
+6. D
+7. D
+8. B
+9. C
+10. B
+11. B
+12. A
+13. C
+14. A
+15. D
+16. D
+17. B
+18. A
+19. B
+20. A
+21. B
+22. B
+23. D
+24. C
+25. C
 26.
 27.
 28.
