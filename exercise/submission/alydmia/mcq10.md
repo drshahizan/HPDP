@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set: 6
+## MCQ Set: 10
 
 **Name: ALYA DAMIA BINTI HUZAIMY**
 
