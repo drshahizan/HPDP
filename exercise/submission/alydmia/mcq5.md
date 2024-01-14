@@ -7,38 +7,38 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set:
+## MCQ Set: 1
 
-**Name:**
+**Name: ALYA DAMIA BINTI HUZAIMY**
 
-**Matrix No:**
+**Matrix No: A21EC0159 **
 
 ## Answer
-1.A
-2.A
-3.A
-4.B
-5.A
-6.A
-7.B
-8.C
-9.A
-10.B
-11.C
-12.A
-13.C
-14.D
-15.A
-16.B
-17.C
-18.D
-19.A
-20.C
-21.C
-22.D
-23.B
-24.C
-25.
+1. A
+2. A
+3. A
+4. B
+5. A
+6. A
+7. B
+8. C
+9. A
+10. B
+11. C
+12. A
+13. C
+14. D
+15. A
+16. B
+17. C
+18. D
+19. A
+20. C
+21. C
+22. B
+23. D
+24. B
+25. C
 26.
 27.
 28.
@@ -64,6 +64,11 @@ Don't forget to hit the :star: if you like this repo.
 48.
 49.
 50.
+51.
+52.
+53.
+54.
+55.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
@@ -72,5 +77,3 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-
-
