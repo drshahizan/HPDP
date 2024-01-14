@@ -25,20 +25,20 @@ Don't forget to hit the :star: if you like this repo.
 9. C
 10. B
 11. B
-12. 
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+12. D
+13. C
+14. A
+15. D
+16. C
+17. B
+18. C
+19. D
+20. A
+21. B
+22. C
+23. C
+24. C 
+25. B
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
