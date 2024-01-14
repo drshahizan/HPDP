@@ -7,38 +7,38 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-## MCQ Set: 10
+## MCQ Set: 11
 
 **Name: ALYA DAMIA BINTI HUZAIMY**
 
 **Matrix No: A21EC0159**
 
 ## Answer
-1. D
-2. A
-3. B
-4. C
-5. D
-6. A
-7. B
-8. D
-9. A
+1. B
+2. C
+3. C
+4. D
+5. C
+6. C
+7. C
+8. B
+9. B
 10. D
-11. A
-12. A
-13. A
+11. D
+12. C
+13. B
 14. C
-15. C
-16. A
+15. B
+16. D
 17. C
-18. A
+18. C
 19. C
-20. C
+20. B
 21. B
-22. A
-23. B
+22. C
+23. D
 24. C
-25. A
+25. D
 26. 
 27. 
 28. 
