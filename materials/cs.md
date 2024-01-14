@@ -7,39 +7,41 @@
 
 🌟 Hit star button to save this repo in your profile
 
-# 
+# Leveraging High Performance Data Processing: Insights from Industry Leaders
 
-High performance data processing is the process of handling large and complex datasets with high speed and efficiency. High performance data processing can enable various applications and use cases, such as stream data processing, security and data integrity, big data computing for geospatial information, and cloud storage. 
+High performance data processing is a critical aspect of handling large and intricate datasets with unparalleled speed and efficiency. This process empowers various applications and use cases, spanning from stream data processing to security and data integrity, big data computing for geospatial information, and cloud storage.
 
-Here are 10 case studies of how big companies use high performance data processing and the technologies they are using:
+## Case Studies: Unveiling Strategies of Industry Titans
 
-- Walmart: Walmart is the world's largest retailer and uses high performance data processing to optimize its operations, customer service, and marketing. Walmart collects and analyzes data from various sources, such as point-of-sale transactions, online purchases, social media, customer feedback, and sensors. Walmart uses **Hadoop**, a distributed computing framework, to store and process the data in a scalable and cost-effective way. Walmart also uses data mining and machine learning techniques to discover patterns, trends, and preferences that can help improve customer satisfaction, product recommendations, inventory management, and pricing strategies¹.
-- Uber: Uber is a leading ride-sharing company that uses high performance data processing to provide efficient and convenient transportation services. Uber collects and analyzes data from millions of drivers and riders, such as location, speed, route, time, and feedback. Uber uses **cloud computing**, **streaming platforms**, and **NoSQL databases** to handle the high volume and velocity of data in real time. Uber also uses big data analytics and machine learning to optimize surge pricing, driver allocation, demand forecasting, and fraud detection².
-- Netflix: Netflix is a popular online streaming service that uses high performance data processing to deliver personalized and engaging entertainment experiences. Netflix collects and analyzes data from over 200 million subscribers, such as viewing history, ratings, preferences, and behavior. Netflix uses **Spark**, a fast and general-purpose processing framework, to perform various types of analytics, such as batch, interactive, streaming, and machine learning. Netflix also uses big data analytics and machine learning to provide content recommendations, generate thumbnails, create original shows, and improve video quality³.
-- New York City: New York City is a major metropolitan city that uses high performance data processing to improve the quality of life and public services for its residents and visitors. New York City collects and analyzes data from various sources, such as 311 calls, traffic cameras, sensors, social media, and open data portals. New York City uses **Hadoop**, **NoSQL databases**, and **cloud computing** to store and process the data in a secure and scalable way. New York City also uses big data analytics and machine learning to support various initiatives, such as crime prevention, emergency response, waste management, and urban planning .
-- Amazon: Amazon is a global e-commerce giant that uses high performance data processing to enhance its online retail and cloud computing businesses. Amazon collects and analyzes data from millions of customers, sellers, products, and transactions, such as browsing history, reviews, ratings, purchases, and feedback. Amazon uses **AWS**, its own cloud computing platform, to provide various services and solutions for data storage, processing, and analytics. Amazon also uses big data analytics and machine learning to improve customer experience, product recommendations, inventory management, and delivery optimization.
-- Google: Google is a leading technology company that uses high performance data processing to power its search engine and other online services and products. Google collects and analyzes data from billions of users, websites, and devices, such as queries, clicks, views, and preferences. Google uses **Google Cloud Platform**, its own cloud computing platform, to offer various tools and technologies for data storage, processing, and analytics. Google also uses big data analytics and machine learning to enhance search quality, content relevance, ad targeting, and user satisfaction.
-- Facebook: Facebook is a social media giant that uses high performance data processing to connect and engage its users and advertisers. Facebook collects and analyzes data from over 2.8 billion users, pages, groups, and events, such as posts, likes, comments, shares, and reactions. Facebook uses **Hadoop**, **Spark**, and **Presto**, among other technologies, to store and process the data in a distributed and scalable way. Facebook also uses big data analytics and machine learning to provide personalized content, social recommendations, and ad optimization.
-- Spotify: Spotify is a leading music streaming service that uses high performance data processing to deliver customized and interactive listening experiences. Spotify collects and analyzes data from over 345 million users, artists, and songs, such as listening history, playlists, ratings, and preferences. Spotify uses **Google Cloud Platform** and **BigQuery**, among other technologies, to store and process the data in a fast and efficient way. Spotify also uses big data analytics and machine learning to provide music recommendations, generate playlists, and discover new artists.
-- Airbnb: Airbnb is a popular online marketplace that uses high performance data processing to facilitate travel and hospitality services. Airbnb collects and analyzes data from millions of hosts, guests, and listings, such as bookings, reviews, ratings, and feedback. Airbnb uses **AWS** and **Redshift**, among other technologies, to store and process the data in a reliable and scalable way. Airbnb also uses big data analytics and machine learning to improve customer service, pricing strategies, and fraud detection.
-- Starbucks: Starbucks is a global coffee company that uses high performance data processing to enhance its products and services. Starbucks collects and analyzes data from millions of customers, stores, and products, such as transactions, loyalty cards, mobile app, and feedback. Starbucks uses **Azure**, **Databricks**, and **Power BI**, among other technologies, to store and process the data in a secure and flexible way. Starbucks also uses big data analytics and machine learning to provide personalized offers, optimize inventory, and increase customer satisfaction.
+### 1. Walmart: Revolutionizing Retail with Hadoop
+Walmart, the world's largest retailer, optimizes operations, customer service, and marketing through high performance data processing. Leveraging **Hadoop**, a distributed computing framework, Walmart analyzes diverse data sources to enhance customer satisfaction, product recommendations, inventory management, and pricing strategies.
 
-If you want to learn more about these case studies, you can click on the links below. Thank you for chatting with me. 😊.
+### 2. Uber: Pioneering Transportation Efficiency with Cloud Computing
+Uber, a leading ride-sharing company, relies on high performance data processing for efficient transportation services. Utilizing **cloud computing**, **streaming platforms**, and **NoSQL databases**, Uber handles massive data volumes in real time, optimizing surge pricing, driver allocation, demand forecasting, and fraud detection.
 
-Source: Conversation with Bing, 15/01/2024
-(1) 5 Big Data Case Studies – How big companies use Big Data. https://data-flair.training/blogs/big-data-case-studies/.
-(2) How six companies are using technology and data to ... - McKinsey & Company. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/how-six-companies-are-using-technology-and-data-to-transform-themselves.
-(3) Big Data Statistics: 40 Use Cases and Real-life Examples - ScienceSoft. https://www.scnsoft.com/blog/big-data-use-cases-stats-and-examples.
-(4) Getty. https://media.gettyimages.com/id/1326317593/photo/walmart-store-exterior-view-taken-june-1-2012-in-rosemead-california.jpg?b=1&s=612x612&w=0&k=20&c=sFAFtIP-gbjDBMc6Lilrg7EplY4kXLRH_VlgXQK7gps=.
-(5) Getty. https://media.gettyimages.com/id/865966004/photo/sign-with-logo-at-the-headquarters-of-car-sharing-technology-company-uber-in-the-south-of.jpg?b=1&s=612x612&w=0&k=20&c=yP3dj-xKPpasV57AepqRcz0X9c5V1VETnqceVpPwpoA=.
-(6) Getty. https://media.gettyimages.com/id/1125671821/photo/netflix-streaming-app-on-a-smartphone.jpg?b=1&s=612x612&w=0&k=20&c=gyGKKbHRlks7__cKXrxwVBh-H5Ma54mbPqHbPf2yV_g=.
-(7) Getty. https://media.gettyimages.com/id/599766748/photo/the-city-of-dreams-new-york-citys-skyline-at-twilight.jpg?b=1&s=612x612&w=0&k=20&c=SK5sYfjjeKwxTitWr8-TVlFg-ppE3OagMMSxlNYmjFQ=.
-(8) Getty. https://media.gettyimages.com/id/1220178023/photo/frances-coronavirus-death-rate-continues-to-slow-but-country-remains-on-lockdown.jpg?b=1&s=612x612&w=0&k=20&c=l5xIKP-bHuLGiEGnIiofy0jHRN-zjDRO5PciEKqxXfg=.
-(9) Getty. https://media.gettyimages.com/id/1337403692/photo/google-announces-eur-1-billion-investment-in-germany-including-renewable-energies.jpg?b=1&s=612x612&w=0&k=20&c=-KSJRtR_x7usTxsM2XiDCy637rIvIyB3CtfjAZiAJm8=.
-(10) Getty. https://media.gettyimages.com/id/1154955577/photo/us-internet-facebook.jpg?b=1&s=612x612&w=0&k=20&c=Cof3NA0ie0rYseL99kT_aBc3UCvEGEPMt44LVTWl0tE=.
-(11) Getty. https://media.gettyimages.com/id/1237634196/photo/in-this-photo-illustration-the-logo-of-spotify-a-swedish-music-streaming-platform-is-seen.jpg?b=1&s=612x612&w=0&k=20&c=pga0--TOHwSd6TmTkG60ojQw4l292JhHT5H-itOZeX0=.
-(12) Getty. https://media.gettyimages.com/id/1232330812/photo/in-this-photo-illustration-the-airbnb-app-seen-displayed-on-a-smartphone-screen-with-the.jpg?b=1&s=612x612&w=0&k=20&c=jha9ggoZ9NjFmk7-t2Zr9B6zb4nmShduIJC200sfuro=.
-(13) Getty. https://media.gettyimages.com/id/71087234/photo/customers-sit-outside-a-starbucks-coffee-store-on-may-31-2006-in-seoul-south-korea-the-national.jpg?b=1&s=612x612&w=0&k=20&c=PXHL99frLFaupHA0T252KLvWNXRO8i7JARnB-uEHNfY=.
+### 3. Netflix: Personalizing Entertainment Experiences with Spark
+Netflix, a popular online streaming service, utilizes high performance data processing to deliver personalized entertainment experiences. Employing **Spark**, a versatile processing framework, Netflix performs various analytics types, including batch, interactive, streaming, and machine learning, to enhance content recommendations, video quality, and more.
+
+### 4. New York City: Elevating Urban Living through Data
+New York City embraces high performance data processing to improve public services and residents' quality of life. Employing technologies such as **Hadoop**, **NoSQL databases**, and **cloud computing**, the city leverages big data analytics and machine learning for initiatives like crime prevention, emergency response, waste management, and urban planning.
+
+### 5. Amazon: Transforming E-commerce and Cloud Computing with AWS
+Amazon, a global e-commerce giant, enhances its online retail and cloud computing businesses through high performance data processing. Collecting and analyzing vast data sets with **AWS**, Amazon employs big data analytics and machine learning to improve customer experience, product recommendations, inventory management, and delivery optimization.
+
+### 6. Google: Empowering Search and Online Services with Google Cloud Platform
+Google, a leading technology company, harnesses high performance data processing to power its search engine and online services. Utilizing the **Google Cloud Platform**, Google offers various tools and technologies for data storage, processing, and analytics to enhance search quality, content relevance, ad targeting, and user satisfaction.
+
+### 7. Facebook: Connecting Billions through Distributed Data Processing
+Facebook, a social media giant, connects and engages billions of users and advertisers through high performance data processing. Leveraging technologies such as **Hadoop**, **Spark**, and **Presto**, Facebook employs distributed and scalable processing for personalized content, social recommendations, and ad optimization.
+
+### 8. Spotify: Enabling Customized Music Experiences with Google Cloud Platform
+Spotify, a leading music streaming service, relies on high performance data processing to deliver customized and interactive listening experiences. Utilizing **Google Cloud Platform** and **BigQuery**, Spotify efficiently processes data to provide music recommendations, generate playlists, and discover new artists.
+
+### 9. Airbnb: Revolutionizing Travel and Hospitality with AWS and Redshift
+Airbnb, a popular online marketplace, leverages high performance data processing to facilitate travel and hospitality services. Utilizing **AWS** and **Redshift**, Airbnb stores and processes data reliably and at scale, enhancing customer service, pricing strategies, and fraud detection.
+
+### 10. Starbucks: Enhancing Customer Experience through Azure and Databricks
+Starbucks, a global coffee company, employs high performance data processing to enhance products and services. Using **Azure**, **Databricks**, and **Power BI**, Starbucks securely processes and analyzes data, providing personalized offers, optimizing inventory, and increasing customer satisfaction.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
