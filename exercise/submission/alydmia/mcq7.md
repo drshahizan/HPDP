@@ -14,8 +14,8 @@ Don't forget to hit the :star: if you like this repo.
 **Matrix No:**
 
 ## Answer
-1.
-2.
+1.A
+2.B
 3.
 4.
 5.
