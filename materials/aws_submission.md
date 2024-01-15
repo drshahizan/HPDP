@@ -61,7 +61,7 @@
 | 39  | Umar Haziq Bin Muhamad Norhisham        | <a href="https://www.credly.com/badges/6ec7d1da-46c3-404b-a336-af6d39c353df/public_url"> <img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/e65effa1-849c-4c50-9869-01df4298f3b8/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/2c743b80-40be-4786-9668-bc673cd42d1a/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 40  | Wan Amirul Hafiq Bin Wan Huzaini        | <a href="https://www.credly.com/badges/06aa205d-9e4d-4a3d-913a-502d8675dedd/public_url"> <img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/3191def7-0f9c-488d-b13b-34ce0ca8c6c3/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href=""><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 41  | Yasmeen Natasha Binti Hafiz Shahrel     | <a href="https://www.credly.com/badges/810159d2-253b-41a2-9b72-5e4fccfa7f7b/linked_in_profile"><img src="../images/badge1.png" width="24px" height="24px"></a> |
-| 42  | Yew Rui Xiang                           |
+| 42  | Yew Rui Xiang                           | <a href="https://www.credly.com/badges/b02db6f2-c824-42d0-912f-48dfa9b2c0e5/public_url"> <img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/c69cde8f-e9ca-49c3-a07c-de2164da4314/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/7edd3f90-e76e-4740-9c96-ae845fb19d93/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 43  | Mikhail Bin Yassin                       |
 
 
