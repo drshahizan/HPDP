@@ -14,56 +14,36 @@ Don't forget to hit the :star: if you like this repo.
 **Matrix No: A21EC0077**
 
 ## Answer
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
-39.
-40.
-41.
-42.
-43.
-44.
-45.
-46.
-47.
-48.
-49.
-50.
+1. B
+2. C
+3. C
+4. C
+5. C
+6. C
+7. C
+8. B
+9. B
+10. B
+11. C
+12. B
+13. B
+14. C
+15. A
+16. B
+17. C
+18. B
+19. C
+20. B
+21. C
+22. B
+23. B
+24. C
+25. B
+26. C
+27. C
+28. B
+29. C
+30. C
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
