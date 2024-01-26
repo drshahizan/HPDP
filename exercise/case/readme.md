@@ -52,8 +52,24 @@ He pointed out that many people were questioning why the site was facing issues,
 
 “After several times, the website has failed to meet the standards and make it easier for people to register for the vaccine,” he said, adding that the public had also discovered that the site was run using a free version of Cloudflare.
 
+## Questions
+uestions about high performance data processing based on this article are:
 
+- How can high performance data processing improve the speed and reliability of the booking system?
+- What are the challenges and risks of using high performance data processing for sensitive data such as personal information and health records?
+- How can high performance data processing help detect and prevent malicious activities such as bots or hackers from exploiting the booking system?
+- What are the best practices and standards for designing and implementing a high performance data processing system for a large-scale vaccination program?
+- How can high performance data processing enable real-time monitoring and analysis of the vaccination progress and outcomes?
+- How can high performance data processing integrate with other technologies such as cloud computing, artificial intelligence, and blockchain to enhance the efficiency and security of the booking system?
+- How can high performance data processing support the scalability and flexibility of the booking system to accommodate changing demand and supply of the vaccine?
+- How can high performance data processing optimize the resource allocation and utilization of the booking system to reduce costs and energy consumption?
+- How can high performance data processing ensure the quality and accuracy of the data collected and processed by the booking system?
+- How can high performance data processing facilitate the communication and collaboration among the stakeholders involved in the booking system, such as the government, the health authorities, the vaccine providers, and the public?
 
+Source: Conversation with Bing, 27/01/2024
+(1) Frustration and anger as AZ slots are all snapped up. https://www.freemalaysiatoday.com/category/nation/2021/05/26/frustration-and-anger-as-az-slots-are-all-snapped-up/.
+(2) Free Malaysia Today (FMT) | Free and Independent. https://www.freemalaysiatoday.com/.
+(3) Malaysia National & Local News | Free Malaysia Today (FMT). https://www.freemalaysiatoday.com/category/category/nation/.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
