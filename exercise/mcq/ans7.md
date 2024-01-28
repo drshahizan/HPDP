@@ -10,7 +10,31 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 7
 
 ## Answer
-
+1. D) Create visualizations
+2. B) Pandas
+3. A) describe()
+4. D) Histogram
+5. C) fillna()
+6. C) Visualization
+7. A) Plotly
+8. B) corr()
+9. A) Pairwise relationships between numerical columns
+10. D) Z-score
+11. B) Box plot
+12. B) hist()
+13. C) Read data from a CSV file
+14. A) SciPy
+15. B) drop_duplicates()
+16. B) Scatter plot
+17. B) Count, mean, std, min, 25%, 50%, 75%, max
+18. D) figsize()
+19. A) Display count of unique values in a categorical variable
+20. A) seaborn.boxplot()
+21. B) apply()
+22. B) Correlation matrix
+23. B) set_style()
+24. B) Plotly
+25. C) Visualize the spread and distribution of a numerical variable
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
