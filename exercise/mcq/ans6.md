@@ -23,6 +23,18 @@ Don't forget to hit the :star: if you like this repo.
 11. D) RANK
 12. A) Conditional formatting
 13. D) All of the above
+14. A) Pivot table
+15. D) All of the above
+16. D) All of the above
+17. C) IMPORTRANGE
+18. A) Connected Sheets
+19. A) Macro
+20. B) Script
+21. C) Function
+22. A) Add-on
+23. A) Supermetrics
+24. C) XLMiner Analysis ToolPak
+25. A) Data Studio
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
