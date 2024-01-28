@@ -10,7 +10,19 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 6
 
 ## Answer
-
+1. D) Explore
+2. B) Data validation
+3. C) Data studio
+4. A) VLOOKUP
+5. B) HLOOKUP
+6. C) LOOKUP
+7. D) INDEX
+8. A) MATCH
+9. B) FIND
+10. C) SEARCH
+11. D) RANK
+12. A) Conditional formatting
+13. D) All of the above
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
