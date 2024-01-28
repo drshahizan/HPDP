@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Case study 3: COVID-19 Data Analysis
+# Case Study 3: COVID-19 Data Analysis
 
 ## Introduction
 
