@@ -10,7 +10,31 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 8
 
 ## Answer
-
+1. D) Data visualization and communication
+2. B) Approximate EDA
+3. C) Streaming EDA
+4. A) Scalable EDA
+5. D) Interactive EDA
+6. C) BigQuery
+7. A) Hadoop
+8. B) Spark
+9. D) MongoDB
+10. D) All of the above
+11. A) K-means Clustering
+12. B) Hierarchical Clustering
+13. C) Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+14. A) Imputation
+15. B) Deletion
+16. C) Interpolation
+17. D) Extrapolation
+18. A) Deduplication
+19. B) Aggregation
+20. A) Encoding
+21. A) Normalization
+22. C) Transformation
+23. D) Detection
+24. B) Dimension reduction
+25. D) Feature selection
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
