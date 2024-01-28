@@ -7,7 +7,10 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Case Study: 
+# Case Study: Netflix System Design
+This is a case study on Netflix System Design - Backend Architecture. Please read it carefully and answer the questions below:
+
+
 
 
 ## Contribution 🛠️
