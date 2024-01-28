@@ -75,7 +75,7 @@ The workflow for data processing and EDA on the COVID-19 data using GCP and the 
     - Correlating and associating the variables and features with each other, using various measures and tests, such as Pearson, Spearman, Chi-square, etc.
     - Hypothesizing and testing the causal relationships and effects of the variables and features, using various methods and models, such as regression, ANOVA, etc.
 
-- Data Output: We will write and run Spark applications on the GCD cluster, using Colab notebooks and the PySpark API, to output the results of the data processing and EDA to GCS buckets, in CSV or other formats, for further use or sharing. We will also create and share dashboards and reports on GDS, using various widgets and features
+- Data Output: We will write and run Spark applications on the GCD cluster, using Colab notebooks and the PySpark API, to output the results of the data processing and EDA to GCS buckets, in CSV or other formats, for further use or sharing. 
 
 ### Question:
 - What are the main advantages of using Google Cloud Platform (GCP) for high performance data processing and EDA?
