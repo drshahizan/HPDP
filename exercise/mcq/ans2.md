@@ -34,6 +34,7 @@ Don't forget to hit the :star: if you like this repo.
 22. B) Spark
 23. C) Hive
 24. D) Pig
+25. A) Lambda and Kappa
 
 
 ## Contribution 🛠️
