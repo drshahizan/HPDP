@@ -10,7 +10,31 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 10
 
 ## Answer
-
+1. D) All of the above
+2. A) Featuretools
+3. B) AutoFeat
+4. C) TsFresh
+5. D) Cognito
+6. A) OneBM
+7. B) ExploreKit
+8. D) AutoLearn
+9. D) AutoLearn
+10. D) All of the above
+11. D) All of the above
+12. D) All of the above
+13. D) All of the above
+14. D) All of the above
+15. D) All of the above
+16. D) All of the above
+17. D) All of the above
+18. D) All of the above
+19. D) All of the above
+20. D) All of the above
+21. A) Feature imputation
+22. B) Feature deletion
+23. C) Feature interpolation
+24. D) Feature extrapolation
+25. A) Feature deduplication
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
