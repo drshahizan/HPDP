@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Case Study: Frustration and anger as AZ slots are all snapped up
+# Case Study 1: Frustration and anger as AZ slots are all snapped up
 
 **Registration is a failure, say disappointed Malaysians who took to social media over the poor user interface**
 
