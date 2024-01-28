@@ -23,7 +23,18 @@ Don't forget to hit the :star: if you like this repo.
 11. B) Distributes content closer to end-users, reducing latency
 12. D) Snowflake
 13. B) Enables the integration of machine learning algorithms for intelligent data processing
-
+14. B) Provides scalable storage for structured and unstructured data
+15. A) Rapid elasticity
+16. B) Enhances data security by encrypting data during storage and transmission
+17. B) Enables processing data in real-time as it is generated
+18. B) Provides a centralized repository for structured data analysis
+19. B) Distributes large datasets into smaller, more manageable pieces for parallel processing
+20. A) AWS Lambda
+21. B) Stores frequently accessed data in memory for quicker access
+22. B) Tracks and manages different versions of datasets for reproducibility
+23. A) Amazon EC2
+24. B) Creates copies of data across multiple locations to ensure availability
+25. B) Moves infrequently accessed data to cost-effective storage for long-term retention
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
