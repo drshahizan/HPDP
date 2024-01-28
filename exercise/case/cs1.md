@@ -51,8 +51,6 @@ He pointed out that many people were questioning why the site was facing issues,
 “After several times, the website has failed to meet the standards and make it easier for people to register for the vaccine,” he said, adding that the public had also discovered that the site was run using a free version of Cloudflare.
 
 ## Questions
-The article you shared is about the frustration and anger of Malaysians over the inefficient booking system for the AstraZeneca COVID-19 vaccine. The system was reportedly slow, crashed frequently, and had security issues. Many people were unable to secure a slot for the vaccine, while some claimed that the slots were taken by bots or hackers.
-
 Questions about high performance data processing based on this article are:
 
 - How can high performance data processing improve the speed and reliability of the booking system?
