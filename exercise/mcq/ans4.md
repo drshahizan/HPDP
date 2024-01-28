@@ -10,7 +10,19 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 4
 
 ## Answer
-
+1. C) Scalability and flexibility
+2. B) Automatically adjusting resources based on demand to optimize performance
+3. A) Infrastructure as a Service (IaaS)
+4. B) Enabling efficient and scalable storage options for processing large datasets
+5. B) Eliminates the need to manage server infrastructure, allowing focus on processing tasks
+6. B) Private Cloud
+7. B) Distributes processing tasks across multiple nodes for parallel execution
+8. B) Enables processing closer to the data source, reducing latency
+9. C) Amazon EC2
+10. B) Ensures data availability and reliability in case of failures
+11. B) Distributes content closer to end-users, reducing latency
+12. D) Snowflake
+13. B) Enables the integration of machine learning algorithms for intelligent data processing
 
 
 ## Contribution 🛠️
