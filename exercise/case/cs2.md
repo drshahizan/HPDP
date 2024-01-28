@@ -8,10 +8,14 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Case Study: Netflix System Design
-This is a case study on Netflix System Design - Backend Architecture. Please read it carefully and answer the questions below:
+This is a case study on [Netflix System Design - Backend Architecture](https://dev.to/gbengelebs/netflix-system-design-backend-architecture-10i3). Please read it carefully and answer the questions below:
 
-
-
+### Question:
+- How does Netflix use Kafka and Cassandra to handle streaming data and ensure availability?
+- What are the challenges of scaling Netflix's backend to serve millions of users across the globe?
+- How does Netflix use AWS cloud services to optimize its performance and reduce costs?
+- What are the trade-offs of using eventual consistency over strong consistency for Netflix's data storage?
+- How does Netflix use Hystrix and Zuul to implement fault tolerance and load balancing for its microservices?
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
