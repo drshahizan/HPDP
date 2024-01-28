@@ -77,11 +77,11 @@ The workflow for data processing and EDA on the data set using Azure and the too
     - Aggregating and summarizing the data at different levels of granularity, such as item, category, channel, etc.
 
 **Source:** 
-(1) Big Data Case Study on Walmart | PPT - SlideShare. https://www.slideshare.net/JainamParikh3/big-data-case-study-on-walmart.
-(2) How Walmart Uses Big Data | Robots.net. https://robots.net/fintech/how-walmart-uses-big-data/.
-(3) Big Data and Decision Making Techniques: A Case Study of Walmart - Desklib. https://desklib.com/document/walmart-big-data-case-study/.
-(4) Walmart Data Analysis Using Machine Learning. https://ijcrt.org/papers/IJCRT2307693.pdf.
-(5) Walmart's Sales Data Analysis - A Big Data Analytics Perspective | IEEE .... https://ieeexplore.ieee.org/document/8487274.
+- (1) [Big Data Case Study on Walmart | PPT - SlideShare.](https://www.slideshare.net/JainamParikh3/big-data-case-study-on-walmart)
+- (2) [How Walmart Uses Big Data | Robots.net](https://robots.net/fintech/how-walmart-uses-big-data/)
+- (3) [Big Data and Decision Making Techniques: A Case Study of Walmart - Desklib](https://desklib.com/document/walmart-big-data-case-study/)
+- (4) [Walmart Data Analysis Using Machine Learning](https://ijcrt.org/papers/IJCRT2307693.pdf)
+- (5) [Walmart's Sales Data Analysis - A Big Data Analytics Perspective | IEEE ...](https://ieeexplore.ieee.org/document/8487274)
 
 ### Questions
 - What are the benefits and challenges of using Walmart's online channel as a data source for pricing optimization?
