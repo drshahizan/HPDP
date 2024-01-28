@@ -10,7 +10,31 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 9
 
 ## Answer
-
+1. A) An individual measurable property or characteristic of a data point
+2. C) To prepare the data for machine learning algorithms
+3. D) All of the above
+4. B) Feature interaction
+5. A) Normalization
+6. C) Transformation
+7. A) Filter method
+8. B) Wrapper method
+9. C) Embedded method
+10. D) Hybrid method
+11. D) All of the above
+12. A) Text Feature Extraction
+13. A) Image Feature Extraction
+14. A) Audio Feature Extraction
+15. A) Time Series Feature Extraction
+16. A) Graph Feature Extraction
+17. A) Geospatial Feature Extraction
+18. A) Network Feature Extraction
+19. A) Social Media Feature Extraction
+20. A) Sensor Data Feature Extraction
+21. A) Imputation
+22. B) Deletion
+23. C) Interpolation
+24. D) Extrapolation
+25. A) Deduplication
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
