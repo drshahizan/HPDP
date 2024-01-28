@@ -12,7 +12,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Multiple-choice questions
 | Set | Topic  | File | Answer |
 | :-----: |  ------ | :-----: | :-----: | 
-| 1 | Introduction to Big Data and Big Data Analytics  | <a href="./mcq/mcq1.md" ><img src="../images/question.svg" width="24px" height="24px" ></a> | <a href="" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
+| 1 | Introduction to Big Data and Big Data Analytics  | <a href="./mcq/mcq1.md" ><img src="../images/question.svg" width="24px" height="24px" ></a> | <a href="./mcq/ans1.md" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 2 | Big Data Processing and Technology  | <a href="./mcq/mcq2.md" ><img src="../images/question.svg" width="24px" height="24px" ></a> | <a href="" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 3 | High Performance Data Processing  | <a href="./mcq/mcq3.md" ><img src="../images/question.svg" width="24px" height="24px" ></a> | <a href="" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
 | 4 | High-Performance Data Processing with Cloud Computing  | <a href="./mcq/mcq4.md" ><img src="../images/question.svg" width="24px" height="24px" ></a> | <a href="" ><img src="../images/answer.png" width="24px" height="24px" ></a> |
