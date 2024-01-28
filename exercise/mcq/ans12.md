@@ -10,8 +10,32 @@ Don't forget to hit the :star: if you like this repo.
 ## MCQ Set: 12
 
 ## Answer
-
-
+1. A) Dask
+2. B) Efficient handling of larger-than-memory datasets
+3. B) Modin
+4. C) Accelerating Pandas operations
+5. C) In-memory query engine
+6. D) Vaex
+7. D) Efficiently handling larger-than-memory datasets
+8. A) Dask
+9. C) In-memory query engine
+10. B) Modin
+11. B) Modin
+12. A) Lazy evaluation
+13. D) Vaex
+14. A) Lazy evaluation
+15. D) Vaex
+16. D) Improved performance through parallel processing
+17. B) In-memory query engine
+18. A) Modin
+19. B) Efficient handling of larger-than-memory datasets
+20. A) Lazy evaluation
+21. B) Modin
+22. D) Transparent parallelization
+23. D) When optimizing performance and memory usage is a priority
+24. C) Polars
+25. C) Optimizing efficiency and memory consumption
+    
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
