@@ -31,7 +31,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Case study 1: Frustration and anger as AZ slots are all snapped up  | <a href="./case/cs1.md" ><img src="../images/question.svg" width="24px" height="24px" ></a>  |
 | 2 | Case study 2: Netflix System Design  | <a href="./case/cs2.md" ><img src="../images/question.svg" width="24px" height="24px" ></a>  |
 | 3 | Case study 3: COVID-19 Data Analysis  | <a href="./case/cs3.md" ><img src="../images/question.svg" width="24px" height="24px" ></a>  |
-| 4 | Case study 4: Airline Flight Data Analysis  | <a href="./case/cs3.md" ><img src="../images/question.svg" width="24px" height="24px" ></a>  |
+| 4 | Case study 4: Airline Flight Data Analysis  | <a href="./case/cs4.md" ><img src="../images/question.svg" width="24px" height="24px" ></a>  |
 | 5 | Case study 5: How Walmart Uses Big Data to Optimize Its Pricing Strategy  | <a href="./case/cs5.md" ><img src="../images/question.svg" width="24px" height="24px" ></a>  |
 
 ## Contribution 🛠️
