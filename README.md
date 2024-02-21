@@ -21,7 +21,7 @@ The information on this Github is part of the materials for the subject High Per
 4. [Exercise](https://github.com/drshahizan/HPDP/tree/main/exercise)
 
 ## Activity
-📄👍 [**Turnitin Report**](./materials/plagiarism.md)
+📄 [**Carry marks**](https://github.com/drshahizan/HPDP/blob/main/images/HPDP_carry%20marks.pdf)
 
 | No | Module | Description | File | Submission |
 | -----: | ------ | ------ | :-----: | :-----: | 
