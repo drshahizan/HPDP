@@ -82,13 +82,6 @@ The information on this Github is part of the materials for the subject High Per
 |   **3** | [**The Role of Big Data Management**](https://github.com/drshahizan/HPDP/blob/main/materials/3role_HPDP.md) | A. Managing big data<br> B. Benefits of Effective Big Data Management<br> C. Risks of Ignoring Big Data Management<br> D. Industries Benefiting from Big Data Management |
 |   **4** | [**Data Collection and Storage**](https://github.com/drshahizan/HPDP/blob/main/materials/4data_collection.md)        | A. Data Collection Methods<br> &nbsp;&nbsp;&nbsp;1. Traditional Data Sources<br> &nbsp;&nbsp;&nbsp;2. Emerging Data Sources<br> B. Data Storage and Warehousing<br> C. Data Security and Privacy Concerns |
 |   **5** | [**Data Processing and Analysis**](https://github.com/drshahizan/HPDP/blob/main/materials/5data_process.md)         | A. Data Preprocessing<br> B. Data Analysis Tools and Techniques<br> C. Real-time Data Processing<br> D. Machine Learning in Big Data Analysis |
-|   **6** | **Data Integration and Governance**   | A. Data Integration Strategies<br> B. Data Governance Best Practices<br> C. Ensuring Data Quality |
-|   **7** | **Data Visualization**                     | A. Importance of Data Visualization<br> B. Data Visualization Tools<br> C. Creating Effective Data Visualizations |
-|   **8** | **Case Studies**                         | A. Successful Big Data Management Implementations<br> B. Lessons Learned from Failed Big Data Projects<br> C. Real-world Examples |
-|   **9** | **Challenges in Big Data Management** | A. Scalability Issues<br> B. Security Concerns<br> C. Compliance and Regulatory Challenges |
-|  **10** | **Future Trends in Big Data Management** | A. The Evolving Landscape of Big Data<br> B. Predictions for the Future<br> C. Preparing for the Next Generation of Big Data |
-|  **11** | **Best Practices in Big Data Management** | A. Key Takeaways<br> B. Actionable Strategies<br> C. Tips for Effective Big Data Management |
-|  **12** | **Other References** |  |
 
 ## Dataset
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
