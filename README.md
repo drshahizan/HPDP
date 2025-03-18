@@ -10,9 +10,6 @@
 # About Us
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
-<p align="center">
-<img src="/images/student23241.webp"  height="400" />
-</p>
 
 ## 🔥 Important things
 1. [Essential Preparations for a Successful Start in High-Performance Data Processing Class](./materials/essentials.md)
@@ -21,7 +18,6 @@ The information on this Github is part of the materials for the subject High Per
 4. [Exercise](https://github.com/drshahizan/HPDP/tree/main/exercise)
 
 ## Activity
-📄 [**Carry marks**](https://github.com/drshahizan/HPDP/blob/main/images/HPDP_carry%20marks.pdf)
 
 | No | Module | Description | File | Submission |
 | -----: | ------ | ------ | :-----: | :-----: | 
