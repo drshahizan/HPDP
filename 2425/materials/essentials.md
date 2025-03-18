@@ -11,7 +11,7 @@
 Welcome to the High-Performance Data Processing (HPDP) class! We are thrilled to embark on this exciting learning journey together. Before our first class, there are a few important steps you need to take:
 
 1. **Complete Information Form:**
-   Please fill in 🧑‍💻 your details in the provided Google Sheets document [here](https://liveutm-my.sharepoint.com/:x:/g/personal/shahizan_live_utm_my/ETallI7l80VJvN30LDdm67YBJdnzWUhoYn8kNYDwkD25cw?e=T0eVEo).
+   Please fill in 🧑‍💻 your details in the provided Google Sheets document [here](https://liveutm-my.sharepoint.com/:x:/g/personal/shahizan_live_utm_my/EVJUpQRm21xFjG_RYnVupiQBZxYLRmd45eP4VyKjuRsA8Q?e=ORWLWi).
 
 2. **Create a GitHub Account:**
    Ensure you have a GitHub :octocat: account by signing up at [GitHub](https://github.com/login).
