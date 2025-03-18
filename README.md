@@ -5,8 +5,6 @@
 <a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-🌟 Hit star button to save this repo in your profile
-
 # High Performance Data Processing
 High performance data processing employs high performance computing (HPC) to process data, which is then translated into information and knowledge. The advent of high-performance computing and data analytics enabled real-time interrogation of extremely large data sets. This course covers the fundamentals of high- performance computing, data processing, and high-performance data processing architecture. Students will also be exposed to case studies in industry and research that make use of high-performance data processing. Students will gain hands-on experience with Amazon Web Services (AWS) as a data processing platform.
 
