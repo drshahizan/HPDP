@@ -20,7 +20,7 @@
 | 9 | Project 2: Handling Large-Scale Sentiment Data with High-Performance Computing |
 | 10 | High-Performance Computing (HPC) Paradigms |
 | 11 | In-Database Processing and In-Memory Analytics |
-| 12 | High-Performance Integrated Systems, Databases, and Warehouses for Big and Fast Data Analytics (Part 2) |
+| 12 | High-Performance Integrated Systems, Databases, and Warehouses for Big and Fast Data Analytics |
 | 13 | High-Performance Grids and Clusters |
 | 14 | Visualization Dimensions for High-Performance Big Data Analytics |
 | 15 | Project presentation |
