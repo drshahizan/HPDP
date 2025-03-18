@@ -8,6 +8,8 @@
 🌟 Hit star button to save this repo in your profile
 
 # High Performance Data Processing
+High performance data processing employs high performance computing (HPC) to process data, which is then translated into information and knowledge. The advent of high-performance computing and data analytics enabled real-time interrogation of extremely large data sets. This course covers the fundamentals of high- performance computing, data processing, and high-performance data processing architecture. Students will also be exposed to case studies in industry and research that make use of high-performance data processing. Students will gain hands-on experience with Amazon Web Services (AWS) as a data processing platform.
+
 ## About Us
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/secph/), Universiti Teknologi Malaysia student.
 
