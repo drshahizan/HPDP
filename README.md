@@ -20,7 +20,7 @@ Before attending the first lecture, make sure you've completed all the essential
   
 - 📚 **[Course Information](./images/CI%20-%20SCSJ2363_Software_Project_Management.pdf)**: Find detailed course content, schedules, and requirements for the current semester.
 
-- 📅 **[Weekly Schedule](./materials/schedule.md)**: A week-by-week breakdown of course topics.
+- 📅 **[Weekly Schedule](./2425/materials/schedule.md)**: A week-by-week breakdown of course topics.
 
 - 📝 **[Assignment](./assignment)**: View and download current assignments, submission guidelines, and deadlines.
   
