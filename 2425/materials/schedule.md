@@ -9,7 +9,21 @@
 
 | **Week** | **Topics** |
 |:-------:|:-----------|
-|||
+| 1 | Introduction to cloud computing, high performance computing, and data processing |
+| 2 | The High-Performance Technologies for Big and Fast Data Analytics |
+| 3 | Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers |
+| 4 | Big and Fast Data Analytics Yearning for High-Performance Computing |
+| 5 | Network Infrastructure for High-Performance Big Data Analytics |
+| 6 | Storage Infrastructures for High-Performance Big Data Analytics |
+| 7 | Real-Time Analytics Using High-Performance Computing |
+| 8 | Mid-Semester Break |
+| 9 | Project 2: Handling Large-Scale Sentiment Data with High-Performance Computing |
+| 10 | High-Performance Computing (HPC) Paradigms |
+| 11 | In-Database Processing and In-Memory Analytics |
+| 12 | High-Performance Integrated Systems, Databases, and Warehouses for Big and Fast Data Analytics (Part 2) |
+| 13 | High-Performance Grids and Clusters |
+| 14 | Visualization Dimensions for High-Performance Big Data Analytics |
+| 15 | Project presentation |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
