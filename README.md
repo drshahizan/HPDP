@@ -13,7 +13,7 @@ The information on this Github is part of the materials for the subject High Per
 
 ## 🔥 Important Things
 
-- ✅ **[Tasks to Complete Before the First Lecture](./materials/tasks.md)**:
+- ✅ **[Tasks to Complete Before the First Lecture](./2425/materials/essentials.md)**:
 Before attending the first lecture, make sure you've completed all the essential tasks. These include setting up your learning environment, accessing the course materials, and preparing to fully engage in the class from day one. 📝💻
 
 - 🧑‍🎓 **[Student Information](profile/readme.md)**: Access personal and academic information relevant to your student profile.
