@@ -16,7 +16,7 @@ The information on this Github is part of the materials for the subject High Per
 - ✅ **[Tasks to Complete Before the First Lecture](./2425/materials/essentials.md)**:
 Before attending the first lecture, make sure you've completed all the essential tasks. These include setting up your learning environment, accessing the course materials, and preparing to fully engage in the class from day one. 📝💻
 
-- 🧑‍🎓 **[Student Information](student.md)**: Access personal and academic information relevant to your student profile.
+- 🧑‍🎓 **[Student Information](./2425/materials/student/)**: Access personal and academic information relevant to your student profile.
   
 - 📚 **[Course Information](./images/CI%20-%20SCSJ2363_Software_Project_Management.pdf)**: Find detailed course content, schedules, and requirements for the current semester.
 
