@@ -1,23 +1,45 @@
-### HELLO EVERYONE 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <h1 align="center"><b>Hi Everyone, I'm Low Jie Sheng </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-<!--
-**jiesheng4616/jiesheng4616** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <p align="center">
+    <a href="https://github.com/DenverCoder1/readme-typing-svg">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=First+Year+Undergraduate+at+UTM;Data+Engineering+Student;Passionate+Learner;Exploring+Technology+🚀">
+    </a>
+  </p>
 
-Here are some ideas to get you started:
+## Skills 💼
+#### Web Development: HTML5, CSS3, JavaScript, Bootstrap
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on 
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about any things
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
+#### Programming: Python, Java, C++, SQL
 
--->i am LOW JIE SHENG and I am a first year student which studies at Universiti Teknologi Malaysia.
--🔭 I’m currently study in Universiti Teknologi Malaysia(UTM) as a undergraduate student.
+#### Databases: MySQL, PostgreSQL
 
--💬 Ask me about any things that i can answer.
+#### Tools & Technologies: Git, GitHub, Linux, Jupyter Notebook
 
--for more information you can email me: jiesheng.low@graduate.utm.my
+## Education 🎓 
 
--THANK YOU FOR VISITING 😄😄😄
+- **CURRENTLY A FIRST-YEAR STUDENT AT UTM SKUDAI**
+  - Studying **Data Engineering** at Universiti Teknologi Malaysia (UTM)
+
+## 📫 Contact Me
+<p align="center">
+  <a href="mailto:jiesheng.low@graduate.utm.my" >
+    <img align="center" width="26px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Gmail.svg" />
+  </a> &nbsp;&nbsp;
+
+  <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+    <img align="center" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
+  </a> &nbsp;&nbsp;
+
+</p>
+
+</body>
+</html>
