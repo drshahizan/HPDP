@@ -30,17 +30,18 @@
 ## 📫 Contact Me
 <p align="center">
   <a href="mailto:jiesheng.low@graduate.utm.my?subject=Hello%20Jie%20Sheng&body=Hi%20there,">
-    <img align="center" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Gmail_Icon.svg" />
+    <img align="center" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Gmail2020.logo.png" alt="Gmail" />
   </a> &nbsp;&nbsp;
 
   <a href="https://www.linkedin.com/in/low-jie-sheng-97755825b/" target="_blank">
-    <img align="center" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" />
+    <img align="center" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" />
   </a> &nbsp;&nbsp;
 
   <a href="https://github.com/jiesheng4616" target="_blank">
-    <img align="center" width="24px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+    <img align="center" width="32px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
   </a> &nbsp;&nbsp;
 </p>
+
 
 
 
