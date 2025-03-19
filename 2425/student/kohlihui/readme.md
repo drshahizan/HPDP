@@ -1,5 +1,9 @@
 # Hi there👋 I'm Koh Li Hui!
 
+<div align="center">
+  <img src="personal_img.jpg" alt="kohlihui" width="310px" >
+</div>
+
 ## 🚀 About Me
 
 - 🎂 Birth Date: 24th April 2003
