@@ -1,6 +1,6 @@
 # 👋 Hi Everyone!
 
-<p align="center">
+<p align="left">
   <img src="https://media.licdn.com/dms/image/v2/D5603AQEulq900VwlPw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1677482939421?e=1747872000&v=beta&t=TsUS4shh3n9OVyl8nC3X5h2mwwGLUJxAxfsfppdrNU4" width="150" height="150" alt="Profile Picture">
 </p>
 
