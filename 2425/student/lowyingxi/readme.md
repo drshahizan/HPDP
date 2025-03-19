@@ -50,6 +50,6 @@ Hi, I'm **Low Ying Xi**, a passionate **3rd Year Data Engineering** student dedi
 <p align="left">
 <a href="https://www.linkedin.com/in/low-ying-xi-075a00260/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="low ying xi" height="30" width="40" /></a>
 <a href="https://github.com/lowyingxi" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="30" width="40"></a>
+  <img align="center" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" ></a>
 
 </p>
