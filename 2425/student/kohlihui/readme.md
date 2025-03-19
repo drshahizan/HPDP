@@ -4,7 +4,7 @@
 
 - 🎂 Birth Date: 24th April 2003
 - 🎓 Third-year student in Bachelor of Computer Science (Data Engineering), UTM.
-- 📧 Email: [Email](mailto:kohhui@graduate.utm.my)
+- 📧 Email: [kohhui@graduate.utm.my](mailto:kohhui@graduate.utm.my)
 - ⚡ Fun fact: An ESFP girl loves music.
 
   
