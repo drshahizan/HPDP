@@ -11,17 +11,16 @@ Welcome to the High-Performance Data Processing (HPDP) class! We are thrilled to
 1. **Complete Information Form:**
    Please fill in 🧑‍💻 your details in the provided Google Sheets document [here](https://liveutm-my.sharepoint.com/:x:/g/personal/shahizan_live_utm_my/EVJUpQRm21xFjG_RYnVupiQBZxYLRmd45eP4VyKjuRsA8Q?e=ORWLWi).
 
-2. **Create a GitHub Account:**
-   Ensure you have a GitHub :octocat: account by signing up at [GitHub](https://github.com/login).
-
+2. **Star Github Repository:**
+   To kick off our first meeting, please star this repository available [here](https://github.com/drshahizan/HPDP). We will be using this repository extensively. I will add you as collaborator
+   
 3. **Access Teaching Materials:**
-   All teaching materials will be available on my GitHub account. Please follow [this link](https://github.com/drshahizan) to access the materials.
+   All teaching materials will be available on my GitHub account. Please follow [this link](https://github.com/drshahizan/HPDP) to access the materials.
 
-4. **Fork and Star Repository:**
-   To kick off our first meeting, please fork and star the repository available [here](https://github.com/drshahizan/learn-github). We will be using this repository extensively.
+4. **Github Profile:**
+Sila pastikan Github Profile anda up to date.
 
-5. **GitHub Usage for Course:**
-   Throughout this course, we will utilize GitHub for sharing materials, submitting tasks, projects, and more. Make sure you have a meaningful GitHub username associated with your account.
+5. 
 
 Please be sure to complete these tasks before our first class, as they are essential for our learning and collaboration.
 
