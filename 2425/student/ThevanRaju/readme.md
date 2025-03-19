@@ -17,8 +17,6 @@
 **Foundation Degree, Pure Science** | Aug 2021 - May 2022  
 - Grade: 4.0  
 - Vice President of KELAB PENDIDIKAN LUAR.  
-- Organized "PERTANDINGAN VIDEO LIGHT CAMERA ACTION".  
-- Participated in "SCIENTIST FOR A DAY 2021 - ESSAY COMPETITION".  
 
 ### SMK Gelang Patah  
 **Pure Science** | Jan 2016 - Dec 2020  
