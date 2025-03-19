@@ -1,5 +1,5 @@
 # 👋 Hi, I'm **Lee Yik Hong**  
-<img src="https://github.com/drshahizan/HPDP/blob/main/2425/student/YIKHONGLEE/Github_photo.png" alt="ID Photo" width="200" height="250">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/student/YIKHONGLEE/Github_photo.png" alt="ID Photo" width="250" height="250">
 
 
 
