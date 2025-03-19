@@ -12,9 +12,9 @@ Hi, I'm **Low Ying Xi**, a passionate **3rd Year Data Engineering** student dedi
 - 🏡 Hometown: Muar, Johor
 
 ---
-<p align="left">
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Mono+One&size=15&duration=3000&pause=1000&color=FFFFFF&background=5FFF7600&multiline=true&random=false&width=500&height=50&lines=Mistakes+are+proof+that+you+are+trying.)](https://git.io/typing-svg)
-</p>
+
 ---
 
 ## 💡 Skills
