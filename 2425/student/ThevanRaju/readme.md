@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https:/HPDP/2425/student/ThevanRaju/thevan.jpg" width="200" height="200" style="border-radius: 50%;">
+</p>
+
 # 👋 Hello, I'm Thevan Raju Jeganath!
 
 🎓 **3rd Year Computer Science (Data Engineering) Student at Universiti Teknologi Malaysia (UTM)**  
