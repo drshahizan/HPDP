@@ -1,11 +1,23 @@
-HELLO EVERYONE! 👋
-Welcome to my GitHub profile!
+### HELLO EVERYONE 👋
 
-I am Low Jie Sheng, a first-year undergraduate student at Universiti Teknologi Malaysia (UTM), pursuing my studies in Data Engineering.
+<!--
+**jiesheng4616/jiesheng4616** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-About Me
-🎓 Currently studying at UTM as an undergraduate student.
-💡 Passionate about technology, data science, and problem-solving.
-💬 Feel free to ask me anything—I’d be happy to help!
-📫 Reach me at: jiesheng.low@graduate.utm.my
-Thank You for Visiting! 😊
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on 
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about any things
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+
+-->i am LOW JIE SHENG and I am a first year student which studies at Universiti Teknologi Malaysia.
+-🔭 I’m currently study in Universiti Teknologi Malaysia(UTM) as a undergraduate student.
+
+-💬 Ask me about any things that i can answer.
+
+-for more information you can email me: jiesheng.low@graduate.utm.my
+
+-THANK YOU FOR VISITING 😄😄😄
