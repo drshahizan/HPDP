@@ -1,5 +1,10 @@
 # 👋 Hi Everyone!
 
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/129196789?v=4&size=64" width="150" height="150" alt="Profile Picture">
+</p>
+
+
 ## 🏆 About Me
 Hi, I'm **Low Ying Xi**, a passionate **3rd Year Data Engineering** student dedicated to learning and refining my programming and analytical skills. 🚀
 
