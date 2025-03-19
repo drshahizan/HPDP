@@ -1,6 +1,6 @@
 # 👋 Hi, I'm **Lee Yik Hong**  
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/student/YIKHONGLEE/Github_photo.png" alt="ID Photo" width="200" height="250">
 
-![Alt text](https://github.com/drshahizan/HPDP/blob/main/2425/student/YIKHONGLEE/Github_photo.png)
 
 
 
