@@ -1,10 +1,17 @@
-### Hello Everyone ! 👋
-
-Bernice Lim Jing Xuan is a Year 3 Data Engineering Degree student learning and suffering in different kinds of programming language and Analyzing Skills✨
-
-## About Me 😚
-I am 22 years old.🍰<br>
-I am from Bandar Seri Alam , Johore.🏡<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <h1 align="center"><b>Hi Everyone, I'm Bernice Lim Jing Xuan </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+  <!--  -->
+  <p align="center">
+    <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=22+Years_Old;Currently+Studying+In+UTM,;Data+Engineering+Student,;Active+Learner/Researcher,;Love+to+Explore+✨"></a>
+  </p>
 
 ## Skills 💼
 #### Web Development: HTML5, CSS3, JavaScript, Bootstrap
