@@ -1,9 +1,7 @@
 # 👋 Hello, I'm Thevan Raju Jeganath!
 
 🎓 **3rd Year Computer Science (Data Engineering) Student at Universiti Teknologi Malaysia (UTM)**  
-💡 Passionate about data engineering, machine learning, and building scalable systems.  
-📌 Active member of Global Buddies and Student Recreation Club.  
-
+💡 Passionate about data engineering, machine learning, and building scalable systems.  .  
 ---
 
 ## 📚 **Education**
