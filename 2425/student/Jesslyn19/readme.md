@@ -16,7 +16,9 @@
   <br>
   
   ## <picture><img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5eTVwNTVnbnYzbG5mdWgwMmFjM2JoOHJlbWpnYWtyOGRoM2o1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/mFGAiMpaBMxytdVHbM/giphy.gif" width = 50px></picture> **About me**
-  
+
+  ![image](https://github.com/user-attachments/assets/5b3a59d0-22c4-4ba8-a225-61c76ba4fd19)
+
   
   <br>
   
@@ -112,6 +114,14 @@
   <li>
   <a href="mailto:kekjesslyn@graduate.utm.my" target="_blank">
   <img src="https://img.shields.io/badge/gmail:  kekjesslyn-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" t=mail style="margin-bottom: 5px;" />
+  </a>
+  </li>
+
+  <br>
+  
+  <li>
+  <a href="(https://www.instagram.com/jesslynkek1910/)" target="_blank">
+  <img src="https://img.shields.io/badge/instagram:  jesslynkek1910-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt=instagram style="margin-bottom: 5px;" />
   </a>
   </li>
     
