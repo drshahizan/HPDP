@@ -1,6 +1,8 @@
 # 👋 Hi, I'm **Lee Yik Hong**  
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/student/YIKHONGLEE/Github_photo.png" alt="ID Photo" width="220" height="250">
 
-![Your Photo Here](your-photo-url)  
+
+
 
 🎓 **23 | Negeri Sembilan | Year 3 Data Engineering Student at UTM**  
 
