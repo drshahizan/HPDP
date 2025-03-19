@@ -14,7 +14,7 @@
   </p>
 
 ## Skills 💼
-#### Web Development: HTML5, CSS3, JavaScript, Bootstrap
+#### Web Development: HTML, CSS, JavaScript, Bootstrap
 
 #### Programming: Python, Java, C++, SQL
 
@@ -30,11 +30,11 @@
 ## 📫 Contact Me
 <p align="center">
   <a href="mailto:jiesheng.low@graduate.utm.my" >
-    <img align="center" width="26px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Gmail.svg" />
+    <img align="center" width="26px" src="href="https://github.com/jiesheng4616" />
   </a> &nbsp;&nbsp;
 
   <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
-    <img align="center" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
+    <img align="center" width="24px" src="https://www.linkedin.com/in/low-jie-sheng-97755825b/" />
   </a> &nbsp;&nbsp;
 
 </p>
