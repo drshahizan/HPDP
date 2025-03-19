@@ -26,7 +26,7 @@
 
 ## Education 🎓 
 
-- **CURRENTLY A FIRST-YEAR STUDENT AT UTM SKUDAI**
+- **CURRENTLY A THIRD-YEAR STUDENT AT UTM SKUDAI**
   - Studying **Data Engineering** at Universiti Teknologi Malaysia (UTM)
 
 ## 📫 Contact Me
