@@ -2,7 +2,7 @@
 
 <p align="center">
   <em>
-    I'm <strong>Chai Yu Tong</strong>, a first-year <strong>Data Engineering</strong> undergraduate from <strong>University of Technology Malaysia</strong>. <br>
+    I'm <strong>Chai Yu Tong</strong>, a third-year <strong>Data Engineering</strong> undergraduate from <strong>University of Technology Malaysia</strong>. <br>
     A passionate <strong>Data Analyst</strong> in the making and a budding <strong>Competitive Programmer</strong>.
   </em>
 </p>
