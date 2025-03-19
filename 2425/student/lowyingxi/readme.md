@@ -46,13 +46,9 @@ Hi, I'm **Low Ying Xi**, a passionate **3rd Year Data Engineering** student dedi
 
 ---
 
-<h2>📊 Github Stats and Activity</h2>
-
- <h3>🔥 Streak Stats</h3>
- <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-      <img title="" alt="lowyingxi's streak" src="https://streak-stats.demolab.com/?user=lowyingxi&theme=monokai-metallian&hide_border=true"/>
-    </a><br></br>
-
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lowyingxi" alt="lowyingxi" /></a> </p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lowyingxi&show_icons=true&locale=en" alt="lowyingxi" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lowyingxi&" alt="lowyingxi" /></p>
 
 ---
 
