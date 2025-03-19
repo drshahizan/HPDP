@@ -1,8 +1,8 @@
 # Hi there👋 I'm Koh Li Hui!
 
 <div align="center">
-  <img src="personal_img.jpg" alt="kohlihui" width="320px" >
-  <br>A 3rd-year Data Engineering student at UTM with a passion for technology, innovation, and problem-solving.👩‍💻<br> Always eager to learn and explore new ideas! 🚀💻</br>
+  <img src="personal_img.jpg" alt="kohlihui" width="330px" >
+  <br>A 3rd-year Data Engineering student at UTM with a passion for technology, innovation, and problem-solving.👩‍💻<br> Always eager to learn and explore new ideas! 💡💥​</br>
 </div>
 
 ## 🚀 About Me
