@@ -29,8 +29,6 @@ I'm well-versed in a variety of languages and tools, including:
 - Here's a glimpse of my GitHub stats: <br>
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kohlihui&show_icons=true&locale=en)
 
-- Plus, my language proficiency: <br>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kohlihui&show_icons=true&locale=en&layout=compact" alt="kohlihui" /><br></br>
 
 ## 🌐 Connect with Me
 
