@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https:/HPDP/2425/student/ThevanRaju/thevan.jpg" width="200" height="200" style="border-radius: 50%;">
+  <img src="https://github.com/drshahizan/HPDP/blob/45bab36807ed0a0a4f9af759f51642b58053aae5/2425/student/ThevanRaju/thevan.jpg?raw=true" width="200" height="260" style="border-radius: 50%;">
 </p>
 
 # 👋 Hello, I'm Thevan Raju Jeganath!
 
 🎓 **3rd Year Computer Science (Data Engineering) Student at Universiti Teknologi Malaysia (UTM)**  
-💡 Passionate about data engineering, machine learning, and building scalable systems.  .  
+💡 "Passionate about transforming data into impactful solutions with machine learning and scalable architecture." 
 ---
 
 ## 📚 **Education**
