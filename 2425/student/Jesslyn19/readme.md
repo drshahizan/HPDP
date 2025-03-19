@@ -121,7 +121,7 @@
   
   <li>
   <a href="(https://www.instagram.com/jesslynkek1910/)" target="_blank">
-  <img src="https://img.shields.io/badge/instagram:  jesslynkek1910-%23EA4335.svg?color=#ff33c4&style=for-the-badge&logo=gmail&logoColor=white" alt=instagram style="margin-bottom: 5px;" />
+  <img src="https://img.shields.io/badge/instagram:  jesslynkek1910-%2300acee.svg?color=#ff33c4&style=for-the-badge&logo=instagram&logoColor=white" alt=instagram style="margin-bottom: 5px;" />
   </a>
   </li>
     
