@@ -17,7 +17,7 @@
   
   ## <picture><img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5eTVwNTVnbnYzbG5mdWgwMmFjM2JoOHJlbWpnYWtyOGRoM2o1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/mFGAiMpaBMxytdVHbM/giphy.gif" width = 50px></picture> **About me**
 
-  ![image](https://github.com/user-attachments/assets/5b3a59d0-22c4-4ba8-a225-61c76ba4fd19)
+  
 
   
   <br>
