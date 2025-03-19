@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  
-  <h1 align="center"><b>Hi Everyone, I'm Low Jie Sheng </b></h1>
+<p align="center">
+  <img src="image.jpg" alt="Low Jie Sheng" width="200"/>
+</p>
 
-  <p align="center">
-    <a href="https://github.com/DenverCoder1/readme-typing-svg">
-  </p>
+<h1 align="center">Hi there, I am Low Jie Sheng 👋</h1>
+
+## 📚 About Me
+
+- 💬 Birth Date: 4th February 2003
+- 🌱 Third-year student in Bachelor of Computer Science (Data Engineering) with Honours, Universiti Teknologi Malaysia.
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/low-jie-sheng-97755825b/)
+- 🤝 Email: jiesheng.low@graduate.utm.my
+
+
+## 🏫 Education Background
+### Universiti Teknologi Malaysia (UTM)
+#### Bachelor of Computer Science (Data Engineering) with Honours
+- October 2021 - Now
 
 ## Skills 💼
 #### Web Development: HTML, CSS, JavaScript, Bootstrap
@@ -22,28 +26,11 @@
 
 #### Tools & Technologies: Git, GitHub, Linux, Jupyter Notebook
 
-## Education 🎓 
+## 📫 How to reach me: 
+<span><a href="https://www.linkedin.com/in/jiesheng4616/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
+<a href="https://github.com/jiesheng4616" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40" /></a></span>
 
-- **CURRENTLY A THIRD-YEAR STUDENT AT UTM SKUDAI**
-  - Studying **Data Engineering** at Universiti Teknologi Malaysia (UTM)
+<br></br>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jiesheng4616&show_icons=true&locale=en" alt="jiesheng4616" /></p>
 
-## 📫 Contact Me
-<p align="center">
-  <a href="mailto:jiesheng.low@graduate.utm.my?subject=Hello%20Jie%20Sheng&body=Hi%20there,">
-    <img align="center" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Gmail2020.logo.png" alt="Gmail" />
-  </a> &nbsp;&nbsp;
-
-  <a href="https://www.linkedin.com/in/low-jie-sheng-97755825b/" target="_blank">
-    <img align="center" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" />
-  </a> &nbsp;&nbsp;
-
-  <a href="https://github.com/jiesheng4616" target="_blank">
-    <img align="center" width="32px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
-  </a> &nbsp;&nbsp;
-</p>
-
-
-
-
-</body>
-</html>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jiesheng4616&" alt="jiesheng4616" /></p>
