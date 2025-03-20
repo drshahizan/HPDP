@@ -29,6 +29,12 @@ English<br>
 Malay<br>
 Chinese
 
+### My Achievement/Works
+✨ Microsoft Certified: Azure Fundamentals<br>
+![microsoft-certified-azure-fundamentals](https://github.com/user-attachments/assets/e19d3ea3-0754-429f-8e9a-5ba486e601f7)<br>
+✨ Simple Car Rental Booking System (Individual)
+✨ Ak Maju Business System (Team)
+
 ## Contact Me ##
 <a href="mailto:tan.yuan@graduate.utm.my">
 <img src="https://github.com/user-attachments/assets/cd4039d2-4faf-450e-839c-e55cfe52242e" alt="Email Icon" width="32" height="32"></a>
