@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Danial</h1>
 
 <p align="center">
-  <img src="" alt="Danial's Profile Picture" width="200" height="200"/>
+  <img src="https://github.com/drshahizan/HPDP/blob/main/2425/student/daniallllllll/githubpic.jpg" alt="Danial's Profile Picture" width="800" height="1000"/>
 </p>
 
 <h3 align="center">You guys can just call me Danial.I'm currently studying in Universiti Teknologi Malaysia as a student in Bachelor of Computer Science (Data Engineering) with honours.I'm currently focusing on learning all the apps and tools that can be using towards being a data scientist and data analyst.</h3>
