@@ -25,7 +25,7 @@
 	<a href="https://www.java.com/en/" target="_blank" rel="noreferrer"> <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem-640x400.jpg" alt="java" width="40" height="40"/> </a>
 </span>
 
-## Connect with me:
+## Connect with me
 <p align="left">
 <a href="https://www.linkedin.com/in/tiew-chuan-rong-915747262?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bzv3aYwgdQMudGIV5XvB7SA%3D%3D" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pynghaw-chen" height="30" width="40" /></a>
 <a href="https://www.instagram.com/chuanrongtiew/?hl=en" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pynghaw" height="30" width="40" /></a>
