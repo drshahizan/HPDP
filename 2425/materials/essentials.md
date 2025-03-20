@@ -12,7 +12,7 @@ Welcome to the **High-Performance Data Processing (HPDP)** class! We are excited
 ## ✅ **Pre-Class Requirements**  
 
 1. **Fill in Your Information** 📝  
-   Please provide your details in the **Google Sheets** document [here](https://liveutm-my.sharepoint.com/:x:/g/personal/shahizan_live_utm_my/EVJUpQRm21xFjG_RYnVupiQBZxYLRmd45eP4VyKjuRsA8Q?e=ORWLWi).  
+   Please provide your details in the **Google Sheets** document [here](https://liveutm-my.sharepoint.com/:x:/g/personal/shahizan_live_utm_my/EaSdz8QuZKJHqMxXLxMDZ2UBSKCN_qS763jU0xb7PBtPaw?e=Wsf9FO).  
 
 2. **Star the GitHub Repository** ⭐  
    As part of our course setup, please **star** the course repository available [here](https://github.com/drshahizan/HPDP). This repository will be our primary resource throughout the course. You will also be added as a collaborator.  
