@@ -34,6 +34,8 @@ I am a **Computer Science (Data Engineering)** student at **Universiti Teknologi
 ## 📂 Projects  
 🚀 **Explore my projects on GitHub:**  
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=flat&logo=github)](https://github.com/mulyani28)
+<li><a href="https://github.com/mulyani28/Youth-Venture">Youth Venture Student Management System</a></li>
+  <li><a href="https://github.com/mulyani28/Notes-Management-System">Notes Management System</a></li>
 
 ---
 
@@ -41,8 +43,9 @@ I am a **Computer Science (Data Engineering)** student at **Universiti Teknologi
 ### 📜 Achievements & Certifications  
 Here are some of the certifications I've earned:  
 <div>
-  <img src="cert1.jpg" alt="Certificate 1" width="200" />
-  <img src="cert2.jpg" alt="Certificate 2" width="200" />
+<li>📜 <a href="https://agora.unicef.org/mod/certificate/view.php?id=142043&action=get">Programme Guidance for the Second Decade: Programming with and
+for Adolescents
+</a>- Issued by <b>UNICEF</b></li>  <img src="[cert2.jpg](https://agora.unicef.org/mod/certificate/view.php?id=142043&action=get)" alt="Certificate 2" width="200" />
   <img src="cert3.jpg" alt="Certificate 3" width="200" />
 </div>
 
