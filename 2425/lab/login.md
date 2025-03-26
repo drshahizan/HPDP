@@ -15,9 +15,9 @@
 5. **Access Courses**: Once logged in, you will see your enrolled courses. Click on the course you want to access.
 
 ## For Teaching Assistants (TAs):
-1. **Receive Invitation**: Similar to students, check your email for an invitation from AWS Academy (notifications@instructure.com). Click on the **Get Started** link in the email[1](https://www.cliffsnotes.com/study-notes/23030842).
+1. **Receive Invitation**: Similar to students, check your email for an invitation from AWS Academy (notifications@instructure.com). Click on the **Get Started** link in the email.
 2. **Create Account**: Follow the prompts to create your AWS Academy account. Provide the necessary information and set up a password.
-3. **Login to Canvas**: Go to the AWS Academy Canvas login page [here](https://awsacademy.instructure.com/login/canvas)[2](https://awsacademy.instructure.com/login/canvas).
+3. **Login to Canvas**: Go to the AWS Academy Canvas login page [here](https://www.awsacademy.com/vforcesite/LMS_Login).
 4. **Enter Credentials**: Enter your email and password that you set up during the account creation process.
 5. **Access TA Dashboard**: Once logged in, you will have access to the TA dashboard where you can manage courses, assist students, and view course materials.
 
