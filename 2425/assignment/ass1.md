@@ -9,8 +9,6 @@
 
 This assignment is designed to develop students' skills in academic writing and critical analysis. Students are required to write a short academic paper based on a selected topic, demonstrating their ability to research, evaluate, and present information in a structured and scholarly format. The assignment encourages independent learning, proper citation practices, and the use of digital tools to support academic work. It also aims to cultivate discipline in managing writing processes through log book documentation.
 
----
-
 📊 **Weightage**: 10% of total course assessment  
 📅 **Submission Deadline**: **Friday, 18 April 2025**  
 📤 **Submission Format**: Upload **PDF format** via e-learning  
@@ -20,6 +18,8 @@ This assignment is designed to develop students' skills in academic writing and 
 📎 **File**:
 1. [Instruction and rubric](Assignment%201%20AW.pdf)
 2. [Template Assignment 1](Format%20Assigment%201.docx)
+
+---
 
 ### 📌 **Instructions**
 
