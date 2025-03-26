@@ -55,6 +55,32 @@ This assignment is designed to develop students' skills in academic writing and 
    - Refer to this resource for academic phrase examples:  
      👉 https://www.phrasebank.manchester.ac.uk/
 
+#### Topic
+
+| No | Topics                              | Tools / Technology                                  |
+|----:|-------------------------------------|-----------------------------------------------------|
+| 1  | High-performance                    | Hadoop / Cloudera                                   |
+| 2  | Distributed software                | Apache Hadoop                                       |
+| 3  | Distributed software                | Apache Spark                                        |
+| 4  | In-memory systems                   | SAP HANA                                            |
+| 5  | Cloud Computing                     | AWS                                                 |
+| 6  | Cloud Computing                     | Google Cloud                                        |
+| 7  | In-database systems                 | SAS                                                 |
+| 8  | Cluster Computing                   | The Virtual SMP Alternative (www.scalemp.com)       |
+| 9  | Cluster computing                   | Hadoop                                              |
+| 10 | Grid Computing                      | Hadoop                                              |
+| 11 | GPU Clusters                        | Nvidia                                              |
+| 12 | Big data analytics                  | Select any platform                                 |
+| 13 | Architecture data analytics         | Select any platform and previous study              |
+| 14 | Real-Time Analytics Platforms       | Apache Drill                                        |
+| 15 | Stream Analytics                    | Apache Spark                                        |
+| 16 | No-SQL                              | MongoDB                                             |
+| 17 | Storage Area Network                | Google File System (GFS)                            |
+| 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              |
+| 19 | Columnar databases                  | Apache HBase                                        |
+| 20 | Graph Databases                     | Neo4j                                               |
+| 21 | NewSQL                              | Clustrix                                            |
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
