@@ -7,7 +7,54 @@
 
 # Lab
 
+## 🌐 **AWS Academy Learning Path**
 
+### 1. 🟦 [**AWS Academy Cloud Foundations**](https://awsacademy.instructure.com/courses/116794)  
+**Level:** Beginner  
+**Purpose:** This course introduces students to the **core concepts of cloud computing** and how Amazon Web Services (AWS) operates as a cloud service provider.
+
+**You will learn:**
+- What cloud computing is and why it matters
+- Core AWS services (EC2, S3, IAM, RDS, etc.)
+- AWS global infrastructure and basic architecture
+- Cloud security, compliance, and cost management
+
+**Outcome:**  
+Build a strong cloud foundation and prepare for the **AWS Certified Cloud Practitioner** exam.
+
+🔗 [Access the course here](https://awsacademy.instructure.com/courses/116794)
+
+### 2. 🟦 [**AWS Academy Cloud Developing**](https://awsacademy.instructure.com/courses/116797)  
+**Level:** Intermediate  
+**Purpose:** Learn how to **build, test, and deploy cloud-native applications** using AWS services and development tools.
+
+**You will learn:**
+- Serverless application development using **AWS Lambda**
+- Building APIs with **API Gateway**
+- Using **AWS CLI** and SDKs for automation
+- Working with **Amazon DynamoDB**, Cognito, and other developer services
+- Deploying applications using CI/CD tools (CodeCommit, CodePipeline, etc.)
+
+**Outcome:**  
+Gain skills for real-world cloud app development and prepare for the **AWS Certified Developer – Associate** exam.
+
+🔗 [Access the course here](https://awsacademy.instructure.com/courses/116797)
+
+### 3. 🟦 [**AWS Academy Lab Project – Cloud Data Pipeline Builder**](https://awsacademy.instructure.com/courses/116796)  
+**Level:** Advanced / Project-Based  
+**Purpose:** Apply your knowledge through a **hands-on data engineering project** using AWS tools.
+
+**You will learn:**
+- Designing and deploying a cloud-based **data pipeline**
+- Real-time data streaming with **Amazon Kinesis**
+- Data transformation using **AWS Glue**
+- Storing and querying data in **Amazon Redshift**
+- Monitoring and automating data workflows
+
+**Outcome:**  
+Develop a working cloud data pipeline project and enhance your portfolio with hands-on experience in cloud data solutions.
+
+🔗 [Access the course here](https://awsacademy.instructure.com/courses/116796)
 
 
 ## 🧭 **Step-by-Step Guide to Learn AWS Academy**
