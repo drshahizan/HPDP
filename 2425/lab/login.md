@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Step-by-Step Guide to Logging into AWS Academy for Students and TAs
+# Step-by-Step Guide to Logging into AWS Academy
 
 ## For Students:
 1. **Receive Invitation**: Check your email for an invitation from AWS Academy (notifications@instructure.com). Click on the **Get Started** link in the email.
@@ -21,7 +21,7 @@
 4. **Enter Credentials**: Enter your email and password that you set up during the account creation process.
 5. **Access TA Dashboard**: Once logged in, you will have access to the TA dashboard where you can manage courses, assist students, and view course materials.
 
-If you encounter any issues during the login process, you can refer to the AWS Academy Learner Lab guide[3](https://www.studocu.com/row/document/michael-okpara-university-of-agriculture/computer-science/aws-academy-learner-lab-student-guide-2/90510318) or watch a brief walk-through video [here](https://www.youtube.com/watch?v=qlOLxvrPIwg)[4](https://www.youtube.com/watch?v=qlOLxvrPIwg).
+If you encounter any issues during the login process, you can refer to the [AWS Academy Learner Lab guide](https://www.studocu.com/row/document/michael-okpara-university-of-agriculture/computer-science/aws-academy-learner-lab-student-guide-2/90510318) or watch a brief walk-through video [here](https://www.youtube.com/watch?v=qlOLxvrPIwg)[4](https://www.youtube.com/watch?v=qlOLxvrPIwg).
 
 Let me know if you need any further assistance!
 
