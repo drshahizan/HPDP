@@ -15,7 +15,7 @@ This assignment is designed to develop students' skills in academic writing and 
 **Submission Format**: Upload **PDF format** via e-learning  
 **File Name Format**: `Full Name.pdf`  
 **Assignment Type**: **Individual**
-
+** [Template assignment 1](Format%20Assigment%201.docx)
 ### 📌 **Instructions**
 
 1. **Choose One Topic** from the list provided on the next page.
