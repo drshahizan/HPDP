@@ -8,7 +8,7 @@
 # Step-by-Step Guide to Logging into AWS Academy for Students and TAs
 
 ## For Students:
-1. **Receive Invitation**: Check your email for an invitation from AWS Academy (notifications@instructure.com). Click on the **Get Started** link in the email[1](https://www.cliffsnotes.com/study-notes/23030842).
+1. **Receive Invitation**: Check your email for an invitation from AWS Academy (notifications@instructure.com). Click on the **Get Started** link in the email.
 2. **Create Account**: Follow the prompts to create your AWS Academy account. You may need to provide some personal information and set up a password.
 3. **Login to Canvas**: Go to the AWS Academy Canvas login page [here](https://awsacademy.instructure.com/login/canvas)[2](https://awsacademy.instructure.com/login/canvas).
 4. **Enter Credentials**: Enter your email and password that you set up during the account creation process.
