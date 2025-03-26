@@ -62,30 +62,29 @@ This assignment is designed to develop students' skills in academic writing and 
 
 #### Topic
 
-| No | Topics                              | Tools / Technology                                  |
-|----:|-------------------------------------|-----------------------------------------------------|
-| 1  | High-performance                    | Hadoop / Cloudera                                   |
-| 2  | Distributed software                | Apache Hadoop                                       |
-| 3  | Distributed software                | Apache Spark                                        |
-| 4  | In-memory systems                   | SAP HANA                                            |
-| 5  | Cloud Computing                     | AWS                                                 |
-| 6  | Cloud Computing                     | Google Cloud                                        |
-| 7  | In-database systems                 | SAS                                                 |
-| 8  | Cluster Computing                   | The Virtual SMP Alternative (www.scalemp.com)       |
-| 9  | Cluster computing                   | Hadoop                                              |
-| 10 | Grid Computing                      | Hadoop                                              |
-| 11 | GPU Clusters                        | Nvidia                                              |
-| 12 | Big data analytics                  | Select any platform                                 |
-| 13 | Architecture data analytics         | Select any platform and previous study              |
-| 14 | Real-Time Analytics Platforms       | Apache Drill                                        |
-| 15 | Stream Analytics                    | Apache Spark                                        |
-| 16 | No-SQL                              | MongoDB                                             |
-| 17 | Storage Area Network                | Google File System (GFS)                            |
-| 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              |
-| 19 | Columnar databases                  | Apache HBase                                        |
-| 20 | Graph Databases                     | Neo4j                                               |
-| 21 | NewSQL                              | Clustrix                                            |
-
+| No | Topics                              | Tools / Technology                                  | Student(s)                                      |
+|----|-------------------------------------|-----------------------------------------------------|--------------------------------------------------|
+| 1  | High-performance                    | Hadoop / Cloudera                                   | Yingxi                                           |
+| 2  | Distributed software                | Apache Hadoop                                       | Iman Firdaus                                     |
+| 3  | Distributed software                | Apache Spark                                        |                                                  |
+| 4  | In-memory systems                   | SAP HANA                                            | Koh Li Hui                                       |
+| 5  | Cloud Computing                     | AWS                                                 | Bernice, Navachander                             |
+| 6  | Cloud Computing                     | Google Cloud                                        | Koh Su Xuan, Mulyani                             |
+| 7  | In-database systems                 | SAS                                                 | Goh Jiale                                        |
+| 8  | Cluster Computing                   | The Virtual SMP Alternative (www.scalemp.com)       |                                                  |
+| 9  | Cluster computing                   | Hadoop                                              | Wan Nur, Marhumi                                 |
+| 10 | Grid Computing                      | Hadoop                                              | Izzah                                            |
+| 11 | GPU Clusters                        | Nvidia                                              | Jesslyn, Danial Harriz                           |
+| 12 | Big data analytics                  | Select any platform                                 | Tan Jun Yuan, Thevan Raju, Ariff Danish, Lee Yik Hong |
+| 13 | Architecture data analytics         | Select any platform and previous study              |                                                  |
+| 14 | Real-Time Analytics Platforms       | Apache Drill                                        | Danial                                           |
+| 15 | Stream Analytics                    | Apache Spark                                        | Chai Yu Tong, Anas                               |
+| 16 | No-SQL                              | MongoDB                                             | Chen Pyng Haw, Wong Jun Ji, YONG WERN JIE        |
+| 17 | Storage Area Network                | Google File System (GFS)                            | Chuan Rong                                       |
+| 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              |                                                  |
+| 19 | Columnar databases                  | Apache HBase                                        | Sabrina                                          |
+| 20 | Graph Databases                     | Neo4j                                               | Maisarah                                         |
+| 21 | NewSQL                              | Clustrix                                            |                                                  |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
