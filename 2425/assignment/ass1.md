@@ -13,7 +13,7 @@ This assignment is designed to develop students' skills in academic writing and 
 **Weightage**: 10% of total course assessment  
 **Submission Deadline**: **Friday, 18 April 2025**  
 **Submission Format**: Upload **PDF format** via e-learning  
-**File Name Format**: `Full Name.pdf`  
+**File Name Format**: `Your Name.pdf`  
 **Assignment Type**: **Individual**
 ** [Template assignment 1](Format%20Assigment%201.docx)
 ### 📌 **Instructions**
