@@ -16,8 +16,10 @@ This assignment is designed to develop students' skills in academic writing and 
 📤 **Submission Format**: Upload **PDF format** via e-learning  
 📝 **File Name Format**: `Your Name.pdf`  
 👤 **Assignment Type**: **Individual**
-📎 **[Instruction and rubric](Assignment%201%20AW.pdf)**
-📎 **[Template Assignment 1](Format%20Assigment%201.docx)**
+
+**File**:
+1. [Instruction and rubric](Assignment%201%20AW.pdf)
+2. [Template Assignment 1](Format%20Assigment%201.docx)
 
 ### 📌 **Instructions**
 
