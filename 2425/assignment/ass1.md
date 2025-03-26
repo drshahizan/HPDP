@@ -15,9 +15,9 @@ This assignment is designed to develop students' skills in academic writing and 
 📅 **Submission Deadline**: **Friday, 18 April 2025**  
 📤 **Submission Format**: Upload **PDF format** via e-learning  
 📝 **File Name Format**: `Your Name.pdf`  
-👤 **Assignment Type**: **Individual**  
-📎 **[Template Assignment 1](Format%20Assigment%201.docx)**
+👤 **Assignment Type**: **Individual**
 📎 **[Instruction and rubric](Assignment%201%20AW.pdf)**
+📎 **[Template Assignment 1](Format%20Assigment%201.docx)**
 
 ### 📌 **Instructions**
 
