@@ -17,7 +17,7 @@ This assignment is designed to develop students' skills in academic writing and 
 📝 **File Name Format**: `Your Name.pdf`  
 👤 **Assignment Type**: **Individual**  
 📎 **[Template Assignment 1](Format%20Assigment%201.docx)**
-
+📎 **[Instruction and rubric](Assignment%201%20AW.pdf)**
 
 ### 📌 **Instructions**
 
