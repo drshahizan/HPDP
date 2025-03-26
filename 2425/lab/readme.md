@@ -7,7 +7,7 @@
 
 # Lab
 
-## [Step-by-Step Guide to Logging into AWS Academy](login.md)
+### 🔑 [Step-by-Step Guide to Logging into AWS Academy](login.md)
 
 ## 🌐 **AWS Academy Learning Path**
 
