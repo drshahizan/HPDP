@@ -21,9 +21,7 @@
 4. **Enter Credentials**: Enter your email and password that you set up during the account creation process.
 5. **Access TA Dashboard**: Once logged in, you will have access to the TA dashboard where you can manage courses, assist students, and view course materials.
 
-If you encounter any issues during the login process, you can refer to the [AWS Academy Learner Lab guide](https://www.studocu.com/row/document/michael-okpara-university-of-agriculture/computer-science/aws-academy-learner-lab-student-guide-2/90510318) or watch a brief walk-through video [here](https://www.youtube.com/watch?v=qlOLxvrPIwg)[4](https://www.youtube.com/watch?v=qlOLxvrPIwg).
-
-Let me know if you need any further assistance!
+If you encounter any issues during the login process, you can refer to the [AWS Academy Learner Lab guide](https://www.studocu.com/row/document/michael-okpara-university-of-agriculture/computer-science/aws-academy-learner-lab-student-guide-2/90510318) or watch a [brief walk-through video](https://www.youtube.com/watch?v=qlOLxvrPIwg).
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
