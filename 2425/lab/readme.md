@@ -7,6 +7,8 @@
 
 # Lab
 
+## [Step-by-Step Guide to Logging into AWS Academy](login.md)
+
 ## 🌐 **AWS Academy Learning Path**
 
 ### 1. 🟦 [**AWS Academy Cloud Foundations**](https://awsacademy.instructure.com/courses/116794)  
