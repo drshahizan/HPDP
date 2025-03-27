@@ -75,13 +75,13 @@ This assignment is designed to develop students' skills in academic writing and 
 | 9  | Cluster computing                   | Hadoop                                              | Wan Nur, Marhumi                                 |
 | 10 | Grid Computing                      | Hadoop                                              | Izzah                                            |
 | 11 | GPU Clusters                        | Nvidia                                              | Jesslyn, Danial Harriz                           |
-| 12 | Big data analytics                  | Select any platform                                 | Tan Jun Yuan, Thevan Raju, Ariff Danish |
+| 12 | Big data analytics                  | Select any platform                                 | Tan Jun Yuan, Thevan Raju                        |
 | 13 | Architecture data analytics         | Select any platform and previous study              |                                                  |
 | 14 | Real-Time Analytics Platforms       | Apache Drill                                        | Danial                                           |
 | 15 | Stream Analytics                    | Apache Spark                                        | Chai Yu Tong, Anas                               |
-| 16 | No-SQL                              | MongoDB                                             | Chen Pyng Haw, Wong Jun Ji, YONG WERN JIE        |
+| 16 | No-SQL                              | MongoDB                                             | Chen Pyng Haw, Wong Jun Ji                       |
 | 17 | Storage Area Network                | Google File System (GFS)                            | Chuan Rong                                       |
-| 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              | Lee Yik Hong                                                |
+| 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              | Lee Yik Hong                                     |
 | 19 | Columnar databases                  | Apache HBase                                        | Sabrina                                          |
 | 20 | Graph Databases                     | Neo4j                                               | Maisarah                                         |
 | 21 | NewSQL                              | Clustrix                                            |                                                  |
