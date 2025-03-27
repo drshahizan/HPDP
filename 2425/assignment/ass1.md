@@ -66,7 +66,7 @@ This assignment is designed to develop students' skills in academic writing and 
 |----|-------------------------------------|-----------------------------------------------------|--------------------------------------------------|
 | 1  | High-performance                    | Hadoop / Cloudera                                   | Yingxi                                           |
 | 2  | Distributed software                | Apache Hadoop                                       | Iman Firdaus                                     |
-| 3  | Distributed software                | Apache Spark                                        |                                                  |
+| 3  | Distributed software                | Apache Spark                                        | Low Jie Sheng                                                 |
 | 4  | In-memory systems                   | SAP HANA                                            | Koh Li Hui                                       |
 | 5  | Cloud Computing                     | AWS                                                 | Bernice, Navachander                             |
 | 6  | Cloud Computing                     | Google Cloud                                        | Koh Su Xuan, Mulyani                             |
