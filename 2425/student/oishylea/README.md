@@ -1,4 +1,7 @@
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Foishylea%2Flearn-github&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/drshahizan/HPDP/main/2425/student/oishylea/images/photo_2024-09-02_23-11-31.jpg" alt="Description of the image" width="200" height="auto">
+</p>
 
 ## Hi there, I'm Aliatul Izzah 🫧
 
