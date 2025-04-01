@@ -73,7 +73,7 @@ This assignment is designed to develop students' skills in academic writing and 
 | 7  | In-database systems                 | SAS                                                 | Goh Jiale                                        |
 | 8  | Cluster Computing                   | The Virtual SMP Alternative (www.scalemp.com)       |                                                  |
 | 9  | Cluster computing                   | Hadoop                                              | Wan Nur, Marhumi                                 |
-| 10 | Grid Computing                      | Hadoop                                              | Izzah                                            |
+| 10 | Grid Computing                      | Hadoop                                              |                                                  |
 | 11 | GPU Clusters                        | Nvidia                                              | Jesslyn, Danial Harriz                           |
 | 12 | Big data analytics                  | Select any platform                                 | Tan Jun Yuan, Thevan Raju                        |
 | 13 | Architecture data analytics         | Select any platform and previous study              | Ariff                                                 |
@@ -84,7 +84,7 @@ This assignment is designed to develop students' skills in academic writing and 
 | 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              | Lee Yik Hong, Yong Wern Jie                                     |
 | 19 | Columnar databases                  | Apache HBase                                        | Sabrina                                          |
 | 20 | Graph Databases                     | Neo4j                                               | Maisarah                                         |
-| 21 | NewSQL                              | Clustrix                                            |                                                  |
+| 21 | NewSQL                              | Clustrix                                            | Izzah                                            |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
