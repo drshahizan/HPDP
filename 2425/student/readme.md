@@ -36,7 +36,7 @@
 | 24  | TIEW CHUAN RONG                    |tiewrong             | [:octocat:](https://github.com/tiewrong) |<a href="https://www.linkedin.com/in/tiew-chuan-rong-915747262?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWo4AYSlnQJmmYEm6pesMag%3D%3D" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a> | <a href="tiewrong"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 25  | WAN NUR SOFEA BINTI MOHD HASBULLAH |wannursofea             | [:octocat:](https://github.com/wannursofea) |<a href="https://www.linkedin.com/in/wan-nur-sofea-mohd-hasbullah-80ba01260/" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a> | <a href="wannursofea"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 26  | WONG JUN JI                        |             | [:octocat:]() |<a href="" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a> | <a href=""><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
-| 27  | YONG WERN JIE                      |  Wernjie0713           | [:octocat:](https://github.com/Wernjie0713) |<a href="https://www.linkedin.com/in/yong-wern-jie-0a5b90261/" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a> | <a href=""><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
+| 27  | YONG WERN JIE                      |  Wernjie0713           | [:octocat:](https://github.com/Wernjie0713) |<a href="https://www.linkedin.com/in/yong-wern-jie-0a5b90261/" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a> | <a href="https://wernjie0713.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 
 
 ## Contribution 🛠️
