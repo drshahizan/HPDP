@@ -1,5 +1,9 @@
-<h1 align = "center"> 👋 Hi, I'm <b>Mulyani Saripuddin</b></h1> 
 
+
+<h1 align = "center"> 👋 Hi, I'm <b>Mulyani Saripuddin</b></h1> 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/aa09ad92-8694-42c6-bf75-6e9fc444b316" alt="Profile" width="200"/>
+</div>
 <h2 align = "center">🚀 Aspiring Data Engineer | Software Developer | Web Technologies Enthusiast  </h2>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mulyani28&label=Profile%20views&color=0e75b6&style=flat)
@@ -45,9 +49,27 @@ Here are some of the certifications I've earned:
 <div>
 <li>📜 <a href="https://agora.unicef.org/mod/certificate/view.php?id=142043&action=get">Programme Guidance for the Second Decade: Programming with and
 for Adolescents
-</a>- Issued by <b>UNICEF</b></li>  <img src="[cert2.jpg](https://agora.unicef.org/mod/certificate/view.php?id=142043&action=get)" alt="Certificate 2" width="200" />
-  <img src="cert3.jpg" alt="Certificate 3" width="200" />
+</a>- Issued by <b>UNICEF</b>
+<li>📜 <a href = "https://github.com/user-attachments/assets/48ab9b4c-c936-4a9d-9924-640c697f53ea" >Critical Thinking Skills for Professionals
+</a>- Issued by <b>HRD-Corp and Ministry of Human Resources</b>
+<li>📜 <a href = "https://github.com/user-attachments/assets/d3ef10f4-62a1-449c-bbac-7e3d000f67bd" >Programme Criticality and Acceptable Security Risk
+</a>- Issued by <b>UNICEF</b>
+<li>📜 <a href = "https://github.com/user-attachments/assets/17e31064-5fbf-4fce-9bd2-2cb7fb1a23fb" >Social Media Marketing
+</a>- Issued by <b>HRD-Corp and Ministry of Human Resources</b>
 </div>
+
+### 📊 Power BI Certifications
+<div>
+  <li>📊 <a href="https://github.com/user-attachments/assets/1bb66ed0-dede-4365-82c1-07ce7d912016">Load Data in Power BI</a> — Issued by <b>Microsoft</b></li>
+  <li>📊 <a href="https://github.com/user-attachments/assets/944affe0-8aec-4103-9cc0-953f9e819155">Get Started Building With Power BI</a>— Issued by <b>Microsoft</b></li></li>
+  <li>📊 <a href="https://github.com/user-attachments/assets/5d9b68b2-ef61-4db4-9e8f-39503ad3284f">Get Data in Power BI</a> — Issued by <b>Microsoft</b></li>
+  <li>📊 <a href="https://github.com/user-attachments/assets/7af33969-02ea-4a1c-a2f6-74ccda81b1b9">Design Power BI Reports</a> — Issued by <b>Microsoft</b></li>
+  <li>📊 <a href="https://github.com/user-attachments/assets/eed8c793-6241-4ddf-ae86-5fa48d46d602">Design Semantic Model in Power BI</a>— Issued by <b>Microsoft</b></li></li>
+</div>
+
+
+
+
 
 
 ---
