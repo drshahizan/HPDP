@@ -78,7 +78,6 @@ for Adolescents
 <div>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mulyani28&layout=compact&theme=blueberry" alt="Top Languages" />
   <img src="https://github-readme-stats.vercel.app/api?username=mulyani28&show_icons=true&theme=blueberry" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mulyani28&theme=blueberry" alt="GitHub Streak" />
 </div>
 
 ---
