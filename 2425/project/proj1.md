@@ -77,7 +77,7 @@ By the end of this project, you will be able to:
    
 | Team | Website | Tools |  Open in GitHub |
 | ----- | ----- | ------ | ------ | 
-| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/python-web/tree/main/beautiful-soup/Group%2010) |
+| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
 |       |        |        |        |
 |       |        |        |        |
 |       |        |        |        |
