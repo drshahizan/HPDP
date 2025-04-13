@@ -45,14 +45,14 @@ By the end of this project, you will be able to:
 
 ## 📌 Project Requirements
 
-### ✅ Minimum Technical Requirements:
+### ✅ Technical Requirements:
 - Crawl and collect **at least 100,000 records** from a single Malaysian website.
-- Store the data in **CSV, JSON, or a structured database**.
+- Store the data in **CSV, JSON, or database**.
 - Clean and process the data (e.g., remove duplicates, standardize fields).
-- Apply at least **two optimization techniques** to make your system faster and more efficient.
-- Compare **before vs after optimization** using performance metrics.
-
-### ✅ Deliverables (What You Must Submit):
+- Apply at least **two optimization methods** to make your system faster and more efficient.
+- Include performance comparison **(before vs after optimization)**
+  
+### ✅ Deliverables
 | No. | Item | Description |
 |-----|------|-------------|
 | 1 | **Final Report** | A complete document with background, methods, results, and discussion. Must be uploaded to Turnitin (PDF). |
@@ -61,19 +61,16 @@ By the end of this project, you will be able to:
 | 4 | **Performance Comparison** | Include charts or tables comparing performance before and after optimization. |
 | 5 | **Presentation Slides** | 10-minute group presentation explaining your project. |
 
-## 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)
+## 🔗 Quick Access to Supporting Resources
 
-## 🧭 [Step-by-Step Project Guide](p1_step.md)
+- 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)  
+- 🧭 [Step-by-Step Project Guide](p1_step.md)  
+- 🧾 [Assessment Rubric](p1_rubric.md)  
+- 🔗 [Recommended Repositories & Tools](p1_tools.md)  
+- ✅ [Checklist & Timeline Tracker](p1_checklist.md)  
+- 📄 [Sample Report Structure](p1_report.md)  
+- 📁 [GitHub Folder Submission Template](p1_github.md)
 
-## 🧾 [Assessment Rubric](p1_rubric.md)
-
-## 🔗 [Recommended Repositories & Tools](p1_tools.md)
-
-## ✅ [Student Project Checklist & Timeline Tracker](p1_checklist.md)
-
-## 🧾 **[Sample Report Structure (Final Report)](p1_report.md)**
-
-## 📁 **[GitHub Folder Template submission](p1_github.md)**
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
