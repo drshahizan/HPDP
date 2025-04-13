@@ -22,6 +22,124 @@ This project aims to develop students' technical skills in high-performance comp
 > 📌 Each group must include students from **different genders, races, or backgrounds** to encourage diversity and collaboration across cultures and perspectives.
 
 
+## ✅ **Student Project Checklist & Timeline Tracker**
+
+Use this checklist to ensure your group stays on track throughout the 4-week project.
+
+### 📅 **Timeline & Checklist**
+
+| Week | Task | Responsible Member(s) | Status ✅ |
+|------|------|------------------------|-----------|
+| Week 1 | Form a diverse group (4 members) | All | ☐ |
+| Week 1 | Choose a Malaysian website & get approval | Group Leader | ☐ |
+| Week 1 | Identify target data fields (≥100,000 records) | Data Analyst | ☐ |
+| Week 1 | Design system architecture (crawler + pipeline) | Architect | ☐ |
+| Week 2 | Develop and test web crawler (initial batch) | Coder | ☐ |
+| Week 2 | Begin collecting real data (progressive storage) | All | ☐ |
+| Week 3 | Process and clean dataset (remove duplicates, standardize) | Data Analyst | ☐ |
+| Week 3 | Apply optimization (threading, Spark, Dask, etc.) | HPC Specialist | ☐ |
+| Week 3 | Benchmark performance (before vs after) | Evaluator | ☐ |
+| Week 4 | Compile results, charts, and graphs | Documentation Lead | ☐ |
+| Week 4 | Write final report | All (shared) | ☐ |
+| Week 4 | Submit report to Turnitin (by 16 May) | Group Leader | ☐ |
+| Week 4 | Submit code, dataset, and slides | All | ☐ |
+| Week 4 | Present final project (10 minutes) | All | ☐ |
+
+## 🧾 **Sample Report Structure (Final Report)**
+
+Your **report must be professional, complete, and easy to follow**. Below is the recommended structure:
+
+### 🗂️ **Sections & Content**
+
+1. **Cover Page**
+   - Project Title
+   - Course Name: High-Performance Data Processing
+   - Group Members (Name, Matrix No.)
+   - Submission Date
+
+2. **Table of Contents**
+
+3. **1. Introduction**
+   - Background of the project
+   - Objectives
+   - Target website and data to be extracted
+
+4. **2. System Design & Architecture**
+   - Description of architecture (include diagram)
+   - Tools and frameworks used (e.g., Python, Scrapy, Spark)
+   - Roles of team members
+
+5. **3. Data Collection**
+   - Crawling method (pagination, rate-limiting, async)
+   - Number of records collected
+   - Ethical considerations
+
+6. **4. Data Processing**
+   - Cleaning methods
+   - Data structure (CSV/JSON/database)
+   - Transformation and formatting
+
+7. **5. Optimization Techniques**
+   - Methods used: multithreading, multiprocessing, Spark, etc.
+   - Code overview or pseudocode of techniques applied
+
+8. **6. Performance Evaluation**
+   - Before vs after optimization
+   - Time, memory, CPU usage, throughput
+   - Charts and graphs
+
+9. **7. Challenges & Limitations**
+   - What didn’t go as planned
+   - Any limitations of your solution
+
+10. **8. Conclusion & Future Work**
+    - Summary of findings
+    - What could be improved
+
+11. **References**
+
+12. **Appendices**
+    - Sample code snippets
+    - Screenshots of output
+    - Links to full code repo or dataset
+
+
+## 📁 **GitHub Folder Template submission**
+
+When you submit your code via GitHub, follow this recommended folder structure:
+
+```
+📁 Project1-HPDP-WebCrawler/
+│
+├── 📁 crawler/                 
+│   └── main_crawler.py        
+│   └── config.yaml            
+│   └── __init__.py            
+│
+├── 📁 data/
+│   └── raw_data.json          
+│   └── cleaned_data.csv       
+│
+├── 📁 processing/
+│   └── clean_data.py          
+│   └── optimize_pipeline.py   
+│
+├── 📁 evaluation/
+│   └── performance_before.csv 
+│   └── performance_after.csv  
+│   └── evaluation_charts.ipynb
+│
+├── 📁 report/
+│   └── Final_Report.pdf       
+│   └── Presentation_Slides.pptx
+│
+├── README.md                  
+├── requirements.txt           
+└── LICENSE (optional)         
+```
+
+> ✅ Include `README.md` that explains how to run your crawler, dependencies, and output format.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
