@@ -61,23 +61,7 @@ By the end of this project, you will be able to:
 | 4 | **Performance Comparison** | Include charts or tables comparing performance before and after optimization. |
 | 5 | **Presentation Slides** | 10-minute group presentation explaining your project. |
 
-## 🌐 Suggested Malaysian Websites for Crawling
-
-Choose only **ONE** website from the list below. You must clearly explain what type of data you will extract and confirm that the website can provide at least **100,000 records**.
-
-| No. | Website | Domain | Example Data Fields |
-|-----|---------|--------|----------------------|
-| 1 | [JobStreet](https://www.jobstreet.com.my) | Job Search | Job title, company name, location, salary, job category |
-| 2 | [Lazada](https://www.lazada.com.my) | E-commerce | Product name, price, category, seller, ratings |
-| 3 | [Mudah.my](https://www.mudah.my) | Online Marketplace | Listing title, item type, price, region, seller |
-| 4 | [PropertyGuru](https://www.propertyguru.com.my) | Real Estate | Property title, price, location, property type |
-| 5 | [NST](https://www.nst.com.my) | News | Headline, publication date, section, article summary |
-| 6 | [SoyaCincau](https://soyacincau.com) | Tech Reviews | Article title, brand, topic, publication date |
-| 7 | [CARSOME](https://www.carsome.my) | Car Sales | Car model, year, price, mileage, dealer name |
-| 8 | [MyFutureJobs](https://www.myfuturejobs.gov.my) | Government Job Portal | Job title, employer, salary, sector, region |
-| 9 | [iProperty](https://www.iproperty.com.my) | Real Estate | Listing name, price, number of rooms, location |
-
-> ✅ Each group must get **approval from your lecturer** before starting the crawling process.
+## 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)
 
 ## 🧭 [Step-by-Step Project Guide](p1_step.md)
 
