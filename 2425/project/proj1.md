@@ -90,7 +90,7 @@ By the end of this project, you will be able to:
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
-| Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
+| Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
 |       |          |           |           |         |                  |
 |       |          |           |           |         |                  |
 |       |          |           |           |         |                  |
