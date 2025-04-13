@@ -71,6 +71,12 @@ By the end of this project, you will be able to:
 - 📄 [Sample Report Structure](p1_report.md)  
 - 📁 [GitHub Folder Submission Template](p1_github.md)
 
+## Submission
+
+| Team | Library | Website |  GitHub |
+| ----- | ----- | ------ | ------ | 
+| Group 10 | Beautiful soup | [StudyMalaysia.com](https://www.studymalaysia.com) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/python-web/tree/main/beautiful-soup/Group%2010) |
+|
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
