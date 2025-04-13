@@ -140,50 +140,7 @@ Throughout the project, you may consult your lecturer during lab sessions or via
 
 → You are **encouraged to troubleshoot first as a team**, then seek help with clear questions and examples.
 
-
-Certainly! Here's the updated version of the **Project Synopsis**, now including a reference section that introduces relevant GitHub repositories and describes their use in the context of the project:
-
----
-
-## 📄 **Project Synopsis**
-
-**Title**: *Optimizing High-Performance Data Processing for Large-Scale Web Crawlers*  
-**Course**: High-Performance Data Processing (HPDP)
-
-### 🧠 **Synopsis**
-
-This project introduces students to practical applications of high-performance computing (HPC) in the field of large-scale web data processing. Students will collaborate in diverse teams to design, implement, and optimize a modular web crawler capable of extracting at least **100,000 structured records** from a **Malaysian website**.
-
-The project emphasizes the use of **parallel, concurrent, and distributed processing techniques**, including multithreading, multiprocessing, and big data frameworks such as Apache Spark or Dask, to enhance performance and scalability. Students are expected to collect, clean, and process large volumes of real-world data efficiently, while adhering to ethical standards of web data extraction.
-
-The final deliverables include a cleaned dataset, source code, performance benchmarks (before and after optimization), a comprehensive technical report, and a group presentation. By completing this project, students will strengthen their skills in large-scale data engineering, system optimization, and team-based problem solving.
-
----
-
-## 🔗 Recommended Repositories & Tools**
-
-To support your implementation, you may refer to the following **GitHub repositories**, which provide sample code, libraries, and frameworks that are useful for completing your project tasks:
-
-#### 1. **Web Scraping**
-[GitHub Repository: python-web](https://github.com/drshahizan/python-web)  
-This repository provides examples and tools for building web crawlers using Python libraries such as:
-- `Requests` and `BeautifulSoup` for basic scraping
-- `Scrapy` for scalable, asynchronous crawling
-- Handling of pagination, HTTP headers, and response parsing
-Students can explore different techniques and adapt existing scripts to suit their target Malaysian websites.
-
-#### 2. **Big Data Processing**
-[GitHub Repository: Python-big-data](https://github.com/drshahizan/Python-big-data)  
-Big data processing involves the **systematic handling, transformation, and analysis of large datasets** that are too complex for traditional methods. This repository provides practical examples in:
-- Data ingestion from large sources
-- Cleaning and transformation using `Pandas`, `Dask`, and `PySpark`
-- Batch processing and memory-efficient techniques
-
-Students are encouraged to integrate these tools into their pipeline to **optimize data throughput and minimize execution time**.
-
----
-
-Would you like this enhanced version to be added to the existing Word document as well? I can generate an updated copy with this included.
+## 🔗 [Recommended Repositories & Tools](p1_tools.md)
 
 ## ✅ [Student Project Checklist & Timeline Tracker](p1_checklist.md)
 
