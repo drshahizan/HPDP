@@ -168,64 +168,7 @@ Use this checklist to ensure your group stays on track throughout the 4-week pro
 
 ## 🧾 **[Sample Report Structure (Final Report)](p1_report.md)**
 
-Your **report must be professional, complete, and easy to follow**. Below is the recommended structure:
-
-### 🗂️ **Sections & Content**
-
-1. **Cover Page**
-   - Project Title
-   - Course Name: High-Performance Data Processing
-   - Group Members (Name, Matrix No.)
-   - Submission Date
-
-2. **Table of Contents**
-
-3. **1. Introduction**
-   - Background of the project
-   - Objectives
-   - Target website and data to be extracted
-
-4. **2. System Design & Architecture**
-   - Description of architecture (include diagram)
-   - Tools and frameworks used (e.g., Python, Scrapy, Spark)
-   - Roles of team members
-
-5. **3. Data Collection**
-   - Crawling method (pagination, rate-limiting, async)
-   - Number of records collected
-   - Ethical considerations
-
-6. **4. Data Processing**
-   - Cleaning methods
-   - Data structure (CSV/JSON/database)
-   - Transformation and formatting
-
-7. **5. Optimization Techniques**
-   - Methods used: multithreading, multiprocessing, Spark, etc.
-   - Code overview or pseudocode of techniques applied
-
-8. **6. Performance Evaluation**
-   - Before vs after optimization
-   - Time, memory, CPU usage, throughput
-   - Charts and graphs
-
-9. **7. Challenges & Limitations**
-   - What didn’t go as planned
-   - Any limitations of your solution
-
-10. **8. Conclusion & Future Work**
-    - Summary of findings
-    - What could be improved
-
-11. **References**
-
-12. **Appendices**
-    - Sample code snippets
-    - Screenshots of output
-    - Links to full code repo or dataset
-
-
-## 📁 **GitHub Folder Template submission**
+## 📁 **[GitHub Folder Template submission](p1_github.md)**
 
 When you submit your code via GitHub, follow this recommended folder structure:
 
