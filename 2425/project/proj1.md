@@ -79,44 +79,7 @@ Choose only **ONE** website from the list below. You must clearly explain what t
 
 > ✅ Each group must get **approval from your lecturer** before starting the crawling process.
 
-## 🧭 **Step-by-Step Project Guide**
-
-### 📍 **Week 1: Planning & Setup**
-- Form a group of 4 (with diverse members).
-- Choose a target website and identify the data you want to collect.
-- Get lecturer approval.
-- Design your crawler’s architecture and processing plan.
-- Decide which libraries or frameworks to use (e.g., Scrapy, BeautifulSoup, Requests, Dask, Spark).
-
-### 📍 **Week 2: Crawler Development**
-- Build your web crawler to collect real-time data.
-- Respect robots.txt and do not overload the website.
-- Save data progressively to avoid loss.
-- Store in CSV, JSON, or a database.
-
-### 📍 **Week 3: Data Processing & Optimization**
-- Clean and transform your data (e.g., fix missing values, remove duplicates).
-- Apply at least **two optimization techniques** such as:
-  - `threading`, `asyncio`
-  - `multiprocessing`
-  - `Spark` or `Dask` for large-scale data
-- Record your performance (time, memory, CPU usage).
-
-### 📍 **Week 4: Reporting & Submission**
-- Create your final report and slides.
-- Compare your system’s performance before and after optimization.
-- Submit:
-  - ✅ Report (via Turnitin)
-  - ✅ Code (via GitHub/ZIP)
-  - ✅ Dataset (with minimum 100,000 records)
-  - ✅ Performance analysis and presentation slides
-
-## 📊 **Performance Evaluation Criteria**
-You must compare the following between your basic and optimized versions:
-- Total processing time (in seconds/minutes)
-- CPU and memory usage
-- Number of records processed per second (throughput)
-- Charts/graphs showing improvements
+## 🧭 [Step-by-Step Project Guide](p1_step.md)
 
 ## 🧾 **Assessment Rubric**
 
@@ -130,6 +93,13 @@ You must compare the following between your basic and optimized versions:
 | Final Report | Clarity, completeness, professionalism | 10% |
 | Group Presentation | Teamwork, explanation, timing, Q&A | 10% |
 | **Total** |  | **100%** |
+
+## 📊 **Performance Evaluation Criteria**
+You must compare the following between your basic and optimized versions:
+- Total processing time (in seconds/minutes)
+- CPU and memory usage
+- Number of records processed per second (throughput)
+- Charts/graphs showing improvements
 
 ## ❓ **Need Help?**
 
