@@ -29,7 +29,7 @@ Use this checklist to ensure your group stays on track throughout the 4-week pro
 ### 📅 **Timeline & Checklist**
 
 | Week | Task | Responsible Member(s) | Status ✅ |
-|------|------|------------------------|-----------|
+|------|------|------------------------|:-----------:|
 | Week 1 | Form a diverse group (4 members) | All | ☐ |
 | Week 1 | Choose a Malaysian website & get approval | Group Leader | ☐ |
 | Week 1 | Identify target data fields (≥100,000 records) | Data Analyst | ☐ |
