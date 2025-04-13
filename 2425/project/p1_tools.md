@@ -9,16 +9,14 @@
 
 To support your implementation, you may refer to the following **GitHub repositories**, which provide sample code, libraries, and frameworks that are useful for completing your project tasks:
 
-## 1. Web Scraping
-[GitHub Repository: python-web](https://github.com/drshahizan/python-web)  
+## 1. [Web Scraping](https://github.com/drshahizan/python-web)
 This repository provides examples and tools for building web crawlers using Python libraries such as:
 - `Requests` and `BeautifulSoup` for basic scraping
 - `Scrapy` for scalable, asynchronous crawling
 - Handling of pagination, HTTP headers, and response parsing
 Students can explore different techniques and adapt existing scripts to suit their target Malaysian websites.
 
-## 2. Big Data Processing
-[GitHub Repository: Python-big-data](https://github.com/drshahizan/Python-big-data)  
+## 2. [Big Data Processing](https://github.com/drshahizan/Python-big-data)
 Big data processing involves the **systematic handling, transformation, and analysis of large datasets** that are too complex for traditional methods. This repository provides practical examples in:
 - Data ingestion from large sources
 - Cleaning and transformation using `Pandas`, `Dask`, and `PySpark`
