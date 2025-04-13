@@ -43,7 +43,7 @@ By the end of this project, you will be able to:
 5. Evaluate your system’s performance and explain how it was improved.
 6. Present your work professionally through reports and presentations.
 
-## 📌 **Project Requirements**
+## 📌 Project Requirements
 
 ### ✅ Minimum Technical Requirements:
 - Crawl and collect **at least 100,000 records** from a single Malaysian website.
@@ -61,7 +61,7 @@ By the end of this project, you will be able to:
 | 4 | **Performance Comparison** | Include charts or tables comparing performance before and after optimization. |
 | 5 | **Presentation Slides** | 10-minute group presentation explaining your project. |
 
-## 🌐 **Suggested Malaysian Websites for Crawling**
+## 🌐 Suggested Malaysian Websites for Crawling
 
 Choose only **ONE** website from the list below. You must clearly explain what type of data you will extract and confirm that the website can provide at least **100,000 records**.
 
@@ -81,34 +81,7 @@ Choose only **ONE** website from the list below. You must clearly explain what t
 
 ## 🧭 [Step-by-Step Project Guide](p1_step.md)
 
-## 🧾 **Assessment Rubric**
-
-| Area | Details | Weight |
-|------|---------|--------|
-| Problem Understanding | Clear objectives, dataset identification, ethical crawling | 10% |
-| System Design | Architecture planning, tool selection, modularity | 15% |
-| Crawler & Processing Implementation | Functional, efficient, and able to collect ≥100,000 records | 25% |
-| Optimization Techniques | Use of HPC methods and correctness of application | 20% |
-| Performance Evaluation | Metrics comparison, accuracy of results, charts | 10% |
-| Final Report | Clarity, completeness, professionalism | 10% |
-| Group Presentation | Teamwork, explanation, timing, Q&A | 10% |
-| **Total** |  | **100%** |
-
-## 📊 **Performance Evaluation Criteria**
-You must compare the following between your basic and optimized versions:
-- Total processing time (in seconds/minutes)
-- CPU and memory usage
-- Number of records processed per second (throughput)
-- Charts/graphs showing improvements
-
-## ❓ **Need Help?**
-
-Throughout the project, you may consult your lecturer during lab sessions or via email. If you encounter issues such as:
-- Website not responding
-- Incomplete data collection
-- Performance too slow
-
-→ You are **encouraged to troubleshoot first as a team**, then seek help with clear questions and examples.
+## 🧾 [Assessment Rubric](p1_rubric.md)
 
 ## 🔗 [Recommended Repositories & Tools](p1_tools.md)
 
