@@ -30,7 +30,7 @@ When you submit your code via GitHub, follow this recommended folder structure:
 │   └── Presentation_Slides.pptx
 │
 ├── README.md                  
-├── requirements.txt                
+└── requirements.txt                
 ```
 
 ## Contribution 🛠️
