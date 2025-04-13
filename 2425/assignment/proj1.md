@@ -5,8 +5,9 @@
 <a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-## 📄 Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers
+# 📄 Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers
 
+## Project Synopsis
 This project introduces students to real-world applications of high-performance computing (HPC) in large-scale web data processing. Students will work collaboratively in diverse teams to design, develop, and optimize a web crawler capable of extracting a minimum of **100,000 structured records** from a **Malaysian website**. Emphasis is placed on the practical implementation of **multithreading, multiprocessing, and distributed processing** techniques to improve the efficiency and scalability of the system. 
 
 Through hands-on experience, students will explore data collection, cleaning, transformation, and storage, while addressing technical challenges such as crawl delays, ethical scraping, and performance bottlenecks. The project culminates with a comprehensive performance evaluation comparing pre- and post-optimization results. Deliverables include a final technical report, source code, cleaned dataset, performance analysis, and a group presentation. 
