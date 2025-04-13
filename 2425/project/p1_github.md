@@ -10,22 +10,17 @@
 When you submit your code via GitHub, follow this recommended folder structure:
 
 ```
-📁 Project1-HPDP-WebCrawler/
-│
-├── 📁 crawler/                 
-│   └── main_crawler.py        
-│   └── config.yaml            
-│   └── __init__.py            
+📁 p1/[your group]
 │
 ├── 📁 data/
 │   └── raw_data.json          
-│   └── cleaned_data.csv       
+│   └── cleaned_data.csv   
+├── 📁 p1/                 
+│   └── main_crawler.ipynb        
+│   └── clean_data.ipynb          
+│   └── optimize_pipeline.ipynb               
 │
-├── 📁 processing/
-│   └── clean_data.py          
-│   └── optimize_pipeline.py   
-│
-├── 📁 evaluation/
+├── 📁 p2/
 │   └── performance_before.csv 
 │   └── performance_after.csv  
 │   └── evaluation_charts.ipynb
@@ -35,8 +30,7 @@ When you submit your code via GitHub, follow this recommended folder structure:
 │   └── Presentation_Slides.pptx
 │
 ├── README.md                  
-├── requirements.txt           
-└── LICENSE (optional)         
+├── requirements.txt                
 ```
 
 ## Contribution 🛠️
