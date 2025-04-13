@@ -9,7 +9,7 @@
 
 This project introduces students to real-world applications of high-performance computing (HPC) in large-scale web data processing. Students will work collaboratively in diverse teams to design, develop, and optimize a web crawler capable of extracting a minimum of **100,000 structured records** from a **Malaysian website**. Emphasis is placed on the practical implementation of **multithreading, multiprocessing, and distributed processing** techniques to improve the efficiency and scalability of the system. Through hands-on experience, students will explore data collection, cleaning, transformation, and storage, while addressing technical challenges such as crawl delays, ethical scraping, and performance bottlenecks. The project culminates with a comprehensive performance evaluation comparing pre- and post-optimization results. Deliverables include a final technical report, source code, cleaned dataset, performance analysis, and a group presentation. This project aims to develop students' technical skills in high-performance computing, critical thinking in system optimization, and collaboration in diverse teams—key competencies for data science professionals.
 
-📊 **Weightage**: 10% of total course assessment  
+📊 **Weightage**: 15% of total course assessment  
 📅 **Submission Deadline**: **Friday, 18 April 2025**  
 📤 **Submission Format**: Upload **PDF format** via e-learning  
 📝 **File Name Format**: `Your Name.pdf`  
