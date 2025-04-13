@@ -73,10 +73,17 @@ By the end of this project, you will be able to:
 
 ## Submission
 
+1. Web scraping
+   
 | Team | Website | Web scraping |  GitHub |
 | ----- | ----- | ------ | ------ | 
 | Group 10 | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/python-web/tree/main/beautiful-soup/Group%2010) |
 |
+
+2. Performance Comparison
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
