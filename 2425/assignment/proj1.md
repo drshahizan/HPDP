@@ -166,7 +166,7 @@ Use this checklist to ensure your group stays on track throughout the 4-week pro
 | Week 4 | Submit code, dataset, and slides | All | ☐ |
 | Week 4 | Present final project (10 minutes) | All | ☐ |
 
-## 🧾 **Sample Report Structure (Final Report)**
+## 🧾 **[Sample Report Structure (Final Report)](p1_report.md)**
 
 Your **report must be professional, complete, and easy to follow**. Below is the recommended structure:
 
