@@ -141,7 +141,7 @@ Throughout the project, you may consult your lecturer during lab sessions or via
 
 → You are **encouraged to troubleshoot first as a team**, then seek help with clear questions and examples.
 
-## ✅ **Student Project Checklist & Timeline Tracker**
+## ✅ [Student Project Checklist & Timeline Tracker](p1_checklist.md)
 
 Use this checklist to ensure your group stays on track throughout the 4-week project.
 
