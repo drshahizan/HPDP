@@ -73,9 +73,9 @@ By the end of this project, you will be able to:
 
 ## Submission
 
-| Team | Web scraping | Website |  GitHub |
+| Team | Website | Web scraping |  GitHub |
 | ----- | ----- | ------ | ------ | 
-| Group 10 | Beautiful soup | [StudyMalaysia.com](https://www.studymalaysia.com) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/python-web/tree/main/beautiful-soup/Group%2010) |
+| Group 10 | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/python-web/tree/main/beautiful-soup/Group%2010) |
 |
 
 ## Contribution 🛠️
