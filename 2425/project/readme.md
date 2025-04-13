@@ -49,7 +49,7 @@ By the end of this project, you will be able to:
 - Crawl and collect **at least 100,000 records** from a single Malaysian website.
 - Store the data in **CSV, JSON, or a structured database**.
 - Clean and process the data (e.g., remove duplicates, standardize fields).
-- Apply at least **two optimization techniques** to make your system faster and more efficient.
+- Apply at least **three optimization techniques** to make your system faster and more efficient.
 - Compare **before vs after optimization** using performance metrics.
 
 ### ✅ Deliverables (What You Must Submit):
