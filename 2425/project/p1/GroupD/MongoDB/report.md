@@ -6,9 +6,21 @@ The **Healthcare Patient Monitoring Dashboard**
 ---
 
 ### Purpose
-The Healthcare Patient Monitoring Dashboard is designed to collect, process, and visualize real-time and historical patient health data to assist healthcare professionals in making informed decisions, improving patient care, and enabling proactive intervention.
+In today's healthcare environments, the ability to monitor patients' vital signs in real-time and maintain accurate health records is essential for improving patient outcomes, ensuring timely medical interventions, and reducing hospital workloads. This project proposes the development of a Healthcare Patient Monitoring System, a web-based application that leverages MySQL, MongoDB, and PHP to manage both structured and semi-structured patient data efficiently.
 
+The core objective of the system is to facilitate seamless CRUD (Create, Read, Update, Delete) operations for patient records and their corresponding health vitals. By dividing the data storage between MySQL (for patient demographic and medical history data) and MongoDB (for storing frequently updated vitals such as heart rate, temperature, and blood pressure), the system ensures optimized performance, flexibility, and scalability.
 
+This system is designed to:
+
+Streamline the registration and management of patient information such as name, age, gender, contact details, and medical history.
+
+Enable real-time entry and tracking of patient vitals including heart rate, temperature, blood oxygen levels (SpO₂), blood pressure, and respiratory rate.
+
+Allow healthcare staff to add, edit, and delete patient records and vitals from an intuitive web interface.
+
+Store historical vitals data for future analysis and healthcare insights.
+
+Ultimately, the system provides a reliable foundation for monitoring patient health and supports the future integration of analytics and alert mechanisms to detect abnormal patterns and support clinical decision-making.
 
 ## System Design
 
