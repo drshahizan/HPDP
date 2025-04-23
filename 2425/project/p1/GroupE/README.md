@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td width=80%>DANIAL HARRIZ BIN MOHD ASINEH @MOHD ASNEH</td>
-    <td>A22EC0</td>
+    <td>A22EC0152</td>
   </tr>
   <tr>
     <td width=80%>CHAI YU TONG</td>
