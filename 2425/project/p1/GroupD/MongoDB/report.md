@@ -9,3 +9,13 @@ The **Healthcare Patient Monitoring Dashboard**
 
 ### 🔧 System Architecture
 
+### Functionalities
+
+## Web Interface
+
+## Testing and Validation
+
+## Conclusion
+
+## References
+
