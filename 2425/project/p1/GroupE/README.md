@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <td width=80%>CHAI YU TONG</td>
-    <td>A22EC0</td>
+    <td>A22EC0145</td>
   </tr>
   <tr>
     <td width=80%>KOH SU XUAN</td>
