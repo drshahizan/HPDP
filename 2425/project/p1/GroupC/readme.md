@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group C - Women Purchasing Analysis
+  Group C - Women's Purchase Analysis
   <br>
 </h1>
 
