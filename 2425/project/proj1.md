@@ -82,7 +82,7 @@ By the end of this project, you will be able to:
 |       |        |        |        |
 |       |        |        |        |
 | Group D | mudah.my(rent-property) | Beautiful Soup + Request|        |
-|       |        |        |        |
+| Group E      | [SoyaCincau(News)](https://soyacincau.com/category/news/)       | Scrapy + Selenium       |        |
 |       |        |        |        |
 | Group G | [NST](https://www.nst.com.my/ ) |   Playwright  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)      |
 
