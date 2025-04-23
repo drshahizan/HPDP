@@ -12,13 +12,13 @@ The core objective of the system is to facilitate seamless CRUD (Create, Read, U
 
 This system is designed to:
 
-Streamline the registration and management of patient information such as name, age, gender, contact details, and medical history.
+- Streamline the registration and management of patient information such as name, age, gender, contact details, and medical history.
 
-Enable real-time entry and tracking of patient vitals including heart rate, temperature, blood oxygen levels (SpO₂), blood pressure, and respiratory rate.
+- Enable real-time entry and tracking of patient vitals including heart rate, temperature, blood oxygen levels (SpO₂), blood pressure, and respiratory rate.
 
-Allow healthcare staff to add, edit, and delete patient records and vitals from an intuitive web interface.
+- Allow healthcare staff to add, edit, and delete patient records and vitals from an intuitive web interface.
 
-Store historical vitals data for future analysis and healthcare insights.
+- Store historical vitals data for future analysis and healthcare insights.
 
 Ultimately, the system provides a reliable foundation for monitoring patient health and supports the future integration of analytics and alert mechanisms to detect abnormal patterns and support clinical decision-making.
 
