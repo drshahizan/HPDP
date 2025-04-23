@@ -90,7 +90,17 @@ The data requirements for the systems are as follows:
 
 
 ### Functionalities
+- Create Patient Record:
+Healthcare staff can enter and save patient information, including Patient ID, full name, age, gender, date of birth, contact number, address, and medical history. New vitals such as heart rate, temperature, SpO₂, blood pressure, and respiratory rate can also be recorded and linked to the patient.
 
+- Read/Retrieve Patient Record:
+The system allows users to search for and retrieve patient records using criteria such as Patient ID or name. Users can view a detailed profile of the patient along with their complete vital signs history in a timeline format for monitoring changes over time.
+
+- Update Patient Record:
+Users can update patient information (e.g., address, contact number, medical history) and correct vitals data if necessary. The system includes validation checks to ensure data accuracy and consistency before updating records.
+
+- Delete Patient Record:
+Administrators and authorized personnel can remove patient records and/or individual vitals entries from the system when needed. The system handles data dependencies appropriately to maintain database integrity between MySQL (patient data) and MongoDB (vitals data).
 ## Web Interface
 
 ## Testing and Validation
