@@ -80,7 +80,7 @@ By the end of this project, you will be able to:
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
 |       |        |        |        |
 |       |        |        |        |
-|       |        |        |        |
+| Group C | [lazada](https://www.lazada.com.my/catalog/?q=Women%27s%20Fashion&price=0-25) | Beautiful Soup + Silenium + Pandas |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)|
 | Group D | [mudah.my](https://www.mudah.my/malaysia/properties-for-rent#lm=1) | Beautiful Soup + Request| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupD)|
 | Group E      | [SoyaCincau(News)](https://soyacincau.com/category/news/)       | Scrapy + Selenium       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
 | CrawlOps | [mudah.my](https://www.mudah.my/malaysia/cars-for-sale) |        |        |
