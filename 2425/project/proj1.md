@@ -84,7 +84,7 @@ By the end of this project, you will be able to:
 | Group D | mudah.my(rent-property) | Beautiful Soup + Request| [![Open in GitHub](https://github.com/drshahizan/HPDP/tree/main/2425/project/p1/GroupD)]|
 |       |        |        |        |
 |       |        |        |        |
-|       |        |        |        |
+| Group G | [NST](https://www.nst.com.my/ ) |   Playwright  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)      |
 
 2. Performance Comparison
 
@@ -97,7 +97,7 @@ By the end of this project, you will be able to:
 |       |          |           |           |         |                  |
 |       |          |           |           |         |                  |
 |       |          |           |           |         |                  |
-|       |          |           |           |         |                  |
+| Group G | Playwright | BeautifulSoup |  Pandas |  Sports News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)  |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
