@@ -82,7 +82,7 @@ By the end of this project, you will be able to:
 | Data Drillers     | [Carlist](https://www.carlist.my/cars-for-sale/malaysia)       | Beautiful Soup + Request       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupB)        |
 | Group C | [lazada](https://www.lazada.com.my/catalog/?q=Women%27s%20Fashion&price=0-25) | Beautiful Soup + Selenium + Pandas |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)|
 | Group D | [mudah.my](https://www.mudah.my/malaysia/properties-for-rent#lm=1) | Beautiful Soup + Request| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupD)|
-| Group E      | [SoyaCincau(News)](https://soyacincau.com/category/news/)       | Scrapy + Selenium       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
+| Group E | [NST (News)](https://www.nst.com.my/news) | Beautiful Soup + Playwright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
 | CrawlOps | [mudah.my (car)](https://www.mudah.my/malaysia/cars-for-sale) | Scrapy + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps)|
 | Group G | [NST](https://www.nst.com.my/ ) |   Playwright + Beautiful Soup  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)      |
 
