@@ -84,7 +84,7 @@ By the end of this project, you will be able to:
 | Group D | [pgmall(kesihatan dan kecantikan](https://pgmall.my/category?path=1&page=4129) | Beautiful Soup + Request| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupD)|
 | Group E | [NST (News)](https://www.nst.com.my/news) | Beautiful Soup + Playwright + Asyncio | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
 | CrawlOps | [mudah.my (car)](https://www.mudah.my/malaysia/cars-for-sale) | Scrapy + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps)|
-| Group G | [NST](https://www.nst.com.my/ ) |   Playwright + Beautiful Soup  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)      |
+| Group G | [The Edge Malaysia](https://theedgemalaysia.com/) |   Beautiful Soup + Request  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)      |
 
 2. Performance Comparison
 
