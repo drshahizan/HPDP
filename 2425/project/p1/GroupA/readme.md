@@ -17,8 +17,8 @@
     <td>A22EC0117</td>
   </tr>
   <tr>
-    <td width=80%>CHE MARHUMI</td>
-    <td>A22EC</td>
+    <td width=80%>CHE MARHUMI BIN CHE AB RAHIM</td>
+    <td>A22EC0147</td>
   </tr>
 </table>
 
