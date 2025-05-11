@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group D - mudah.my
+  Group D - PG Mall
   <br>
 </h1>
 
