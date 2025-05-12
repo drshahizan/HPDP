@@ -1,2 +1,0 @@
-Optimization Stage,Total Rows,Total Processing Time (seconds),CPU Usage (%),Memory Usage (MB),Throughput (records/second),Data Processed (rows),Time Taken (seconds),Records per second
-Before Optimization,175545,3.82,59.10,283.59,45932.92,175545,3.82,45932.92
