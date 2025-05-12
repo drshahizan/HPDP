@@ -1,2 +1,0 @@
-Optimization Stage,Total Rows,Total Processing Time (seconds),CPU Usage (%),Memory Usage (MB),Throughput (records/second),Data Processed (rows),Time Taken (seconds),Records per second
-Pandas Optimization,175545,2.1594483852386475,70.6,86.04296875,81291.59335317939,175545,2.1594483852386475,81291.59335317939
