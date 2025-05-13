@@ -259,5 +259,21 @@ Finally, the need for manual oversight and longer scraping times meant that the 
 ### Sample code snippets
 ### Screenshots of output
 ### Links to full code repo or dataset
+1. Pandas:
+- Part 1
+- Part 2
+
+2. Polars:
+- Part 1
+- Part 2
+
+3. PySpark:
+- Part 1
+- Part 2
+
+4. Dataset
+5. Raw Dataset
+6. Cleaned Dataset
+
 
 
