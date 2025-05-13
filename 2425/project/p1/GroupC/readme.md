@@ -170,9 +170,9 @@ Finally, for distributed processing an experimental and open source framework wr
 <div style="text-align: center;">
   <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
        alt="Pandas Part 1"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 80%; height: auto;">
-  <p>
-    <b><i>Figure 2.1: Pandas Part 1</i></b>
+       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+  <p style ="textalign: center;">
+    <strong><em>Figure 2.1: Pandas Part 1</em></strong>
   </p>
 </div>
 
