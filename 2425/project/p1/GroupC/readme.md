@@ -233,7 +233,21 @@ Finally, for distributed processing an experimental and open source framework wr
 
 ### 7.0 Challenges & Limitations
 #### 7.1 What Didn’t Go As Planned
+<p style="text-align: justify; hyphens: auto;">
+Initially, the project intended to use only Requests and BeautifulSoup for web scraping. However, Lazada’s dynamic JavaScript-driven content made it impossible to retrieve the necessary information with these tools alone. Therefore, Selenium was incorporated to handle the dynamic loading of data. However, using Selenium brought new issues, particularly the need for ChromeDriver installation. Since Google Colab could not successfully run ChromeDriver, the team had to shift the environment to Visual Studio Code on local machines. This transition increased the setup time and complexity.
+  
+Another major challenge was Lazada’s frequent CAPTCHA verifications. The team had to manually solve CAPTCHAs during the scraping process, which greatly slowed down data collection. Scraping had to be done during weekends, requiring long hours in front of the computer to monitor and complete the verification steps.
+During the data processing stage, differences in library capabilities also posed problems. For example, Polars could not directly read Excel files. To resolve this, the data was first read into Pandas and then converted into a Polars DataFrame, adding extra steps and minor inefficiencies to the workflow.
+</p>
+
 #### 7.2 Any Limitations of Your Solution
+<p style="text-align: justify; hyphens: auto;">
+Despite overcoming many challenges, some limitations remained. The most significant was the reliance on manual CAPTCHA handling, which prevented full automation and reduced scraping efficiency. Running Selenium locally on Visual Studio Code also restricted collaboration, as each member needed to configure their own environment separately. This limited the flexibility that cloud platforms like Colab would have provided.
+  
+In addition, extra conversion steps between data formats affected the purity of the performance comparisons between Pandas, Polars and PySpark. Although functional, it introduced slight variations in the benchmarking results.
+  
+Finally, the need for manual oversight and longer scraping times meant that the project could not easily scale to even larger datasets or implement more advanced scraping strategies like headless browsing or automated CAPTCHA solving.
+</p>
 
 ### 8.0 Conclusion & Future Work
 #### 8.1 Summary of Findings
