@@ -80,22 +80,22 @@
 
 <br>
 
-## 1.0 Introduction 
-### 1.1 Background of The Project 
+### 1.0 Introduction 
+#### 1.1 Background of The Project 
 <p style="text-align: justify; hyphens: auto;">
 In the era of big data, high-performance computing (HPC) plays a critical role in enabling the efficient processing of vast volumes of information from web sources. Web data extraction, or web scraping, has become a fundamental technique for data collection in fields such as e-commerce analysis, sentiment analysis and market research. However, handling large-scale web data introduces significant challenges, including performance bottlenecks, ethical scraping practices and managing crawl delays. To address these challenges, modern scraping systems increasingly incorporate multithreading, multiprocessing and distributed processing techniques to enhance scalability and efficiency.
   
 This project is designed to provide students with practical, hands-on experience in large-scale web data processing using HPC principles. By designing, developing and optimising a web crawler capable of extracting at least 100,000 structured records, students gain insight into real-world technical and ethical challenges associated with web scraping. Furthermore, the project emphasises the importance of system optimisation, particularly through the comparison of different data processing frameworks, thus strengthening critical thinking skills essential for data science professionals.
 </p>
 
-#### 1.1.1 Web Scraping
+##### 1.1.1 Web Scraping
 <p style="text-align: justify; hyphens: auto;">
 This project focuses on collecting and preparing product data from Lazada Malaysia, specifically targeting women-related categories such as Beauty & Skincare, Health & Wellness, Home & Living, Home Appliances, Mother & Baby, Stationery, and Women’s Fashion. The main objective is to obtain a clean and structured dataset that can later be used for further analysis or machine learning tasks.
 
 The first step involves web scraping, where product data is automatically collected from the selected subcategories on Lazada. Each subcategory's data is then stored separately in seven Excel files for better organisation. There are a total of 115090 rows of data that have been collected. Once the data is collected, it is uploaded to Google Colab for preprocessing.
 </p>
 
-#### 1.1.2 Data Processing
+##### 1.1.2 Data Processing
 <p style="text-align: justify; hyphens: auto;">
 In the preprocessing phase, the first task is data integration, where all seven Excel files are combined into a single dataset. To ensure consistency, all string-based fields such as product names are standardised to uppercase formatting. This helps avoid issues caused by inconsistent capitalization during analysis, such as “lotion" and "Lotion" being treated as different items.
 
@@ -106,7 +106,7 @@ After ensuring that all data is in the correct format and structure, we handle m
 Duplicate records are then detected and removed to avoid repetition and ensure data accuracy. Once all the cleaning steps are completed, the final, clean dataset is exported into a CSV file, ready for the optimisation process.
 </p>
 
-#### 1.1.3 Optimisation Process 
+##### 1.1.3 Optimisation Process 
 <p style="text-align: justify; hyphens: auto;">
 The second phase of the project focuses on optimising the cleaned dataset obtained from the initial preprocessing stage. The objective of this phase is to group and analyse products based on pricing tiers, popularity levels, and market performance by location in order to derive meaningful insights and support further analytical tasks.
 
@@ -117,7 +117,7 @@ The second optimization focuses on product popularity, measured by the total num
 The final optimization step involves evaluating product performance by location. Products were grouped according to their listed locations, with relevant attributes such as product price and quantity sold. For each location, the average product price and total quantity sold were computed. These figures were used to estimate market performance, calculated by multiplying the average price by the total quantity sold. Locations were then ranked from highest to lowest based on this performance indicator, enabling identification of regions with the strongest sales activity.
 </p>
 
-### 1.2 Objectives
+#### 1.2 Objectives
 <p style="text-align: justify; hyphens: auto;">
 The main objectives of this project are as follows:
 
@@ -128,7 +128,7 @@ The main objectives of this project are as follows:
 - To enhance students' technical proficiency, critical thinking in system optimization and collaborative skills in a diverse team environment.
 </p>
 
-### 1.3 Target Website and Data To Be Extracted
+#### 1.3 Target Website and Data To Be Extracted
 <p style="text-align: justify; hyphens: auto;">
 For this project, Lazada Malaysia (https://www.lazada.com.my/) was selected as the target website. Lazada is one of the leading e-commerce platforms in Southeast Asia, offering a wide range of products across multiple categories. The focus of the data extraction is on products under the "Women" category, which includes the following subcategories: Women's Fashion, Stationery, Mother and Baby, Home and Living, Health and Wellness and Beauty and Care. The fields extracted for each product are:
   
@@ -142,49 +142,49 @@ Data scraping was carried out by applying a mix of Python libraries and tools su
 
 </p>
 
-## 2.0 System Design & Architecture
-### 2.1 Description of Architecture
-### 2.2 Tools and Frameworks Used
-### 2.3 Roles of Team Members
+### 2.0 System Design & Architecture
+#### 2.1 Description of Architecture
+#### 2.2 Tools and Frameworks Used
+#### 2.3 Roles of Team Members
 
-## 3.0 Data Collection
-### 3.1 Crawling Method](#31-crawling-method)
-### 3.2 Number of Records Collected](#32-number-of-records-collected)
-### 3.3 Ethical Considerations](#33-ethical-considerations)
+### 3.0 Data Collection
+#### 3.1 Crawling Method](#31-crawling-method)
+#### 3.2 Number of Records Collected](#32-number-of-records-collected)
+#### 3.3 Ethical Considerations](#33-ethical-considerations)
 
-## 4.0 Data Processing
-### 4.1 Cleaning Methods
-### 4.2 Data Structure
-### 4.3 Transformation and Formatting
+### 4.0 Data Processing
+#### 4.1 Cleaning Methods
+#### 4.2 Data Structure
+#### 4.3 Transformation and Formatting
 
-## 5.0 Optimization Techniques
-### 5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.
+### 5.0 Optimization Techniques
+#### 5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.
 <p style="text-align: justify; hyphens: auto;">
 To optimize the data processing step, three python libraries were utilized; Pandas, polars and Pyspark libraries. Pandas was initially used as a benchmark because it is straightforward, and has many powerful data manipulation abilities. However, as Pandas functions in a single threaded approach it was found to have limitations with large datasets. To ensure a faster process, Polars was introduced. Polars supports multithreading and lazy evaluation which means that operations can compute across several CPU cores at once, and consequently are faster than Pandas.
   
 Finally, for distributed processing an experimental and open source framework written in Python that runs on top of Apache Spark called PySpark was used. PySpark allows processing data at parallel across several cores or machines hence amazingly suitable for very large datasets. Its distributed architecture and native optimisation properties enabled large scale data transformation to work efficiently. Using Pandas (single-threaded), and the multithreaded variant of Polars and PySpark (distributed), the project evaluated the performance and scalability of various optimisation methods for processing data web-scraped.
 </p>
 
-### 5.2 Code Overview or Pseudocode of Techniques Applied
+#### 5.2 Code Overview or Pseudocode of Techniques Applied
 
-## 6.0 Performance Evaluation
-### 6.1 Before VS After Optimization
-### 6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU Usage and Throughput
-### 6.3 Charts and Graphs
+### 6.0 Performance Evaluation
+#### 6.1 Before VS After Optimization
+#### 6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU Usage and Throughput
+#### 6.3 Charts and Graphs
 
-## 7.0 Challenges & Limitations
-### 7.1 What Didn’t Go As Planned
-### 7.2 Any Limitations of Your Solution
+### 7.0 Challenges & Limitations
+#### 7.1 What Didn’t Go As Planned
+#### 7.2 Any Limitations of Your Solution
 
-## 8.0 Conclusion & Future Work
-### 8.1 Summary of Findings
-### 8.2 What Could Be Improved
+### 8.0 Conclusion & Future Work
+#### 8.1 Summary of Findings
+#### 8.2 What Could Be Improved
 
-## References
+### References
 
-## Appendices
-## Sample code snippets
-## Screenshots of output
-## Links to full code repo or dataset
+### Appendices
+### Sample code snippets
+### Screenshots of output
+### Links to full code repo or dataset
 
 
