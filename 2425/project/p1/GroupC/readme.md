@@ -167,7 +167,7 @@ Finally, for distributed processing an experimental and open source framework wr
 
 #### 5.2 Code Overview or Pseudocode of Techniques Applied
 <p>
-  <b>Code Overview of Pandas Part 1</b>
+  <b>Code Overview of Pandas Part 1:</b>
 </p>
 <br>
 <div style="text-align: center;">
@@ -177,12 +177,52 @@ Finally, for distributed processing an experimental and open source framework wr
 </div>
 <br>
 <p>
-  <b>Code Overview of Pandas Part 2</b>
+  <b>Code Overview of Pandas Part 2:</b>
 </p>
 <br>
 <div style="text-align: center;">
-  <img src="PandasPart2-Colab-05-13-2025_11_26_PM.png" 
+  <img src="" 
        alt="Code Overview of Pandas Part 2"
+       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+</div>
+<br>
+<p>
+  <b>Code Overview of Polars Part 1:</b>
+</p>
+<br>
+<div style="text-align: center;">
+  <img src="" 
+       alt="Code Overview of Polars Part 1"
+       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+</div>
+<br>
+<p>
+  <b>Code Overview of Polars Part 2:</b>
+</p>
+<br>
+<div style="text-align: center;">
+  <img src="" 
+       alt="Code Overview of Polars Part 2"
+       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+</div>
+<br>
+<p>
+  <b>Code Overview of PySpark Part 1:</b>
+</p>
+<br>
+<div style="text-align: center;">
+  <img src="" 
+       alt="Code Overview of PySpark Part 1"
+       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+</div>
+<br>
+<p>
+  <b>Code Overview of PySpark Part 2:</b>
+</p>
+<br>
+<div style="text-align: center;">
+  <img src="" 
+       alt="Code Overview of PySpark Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
 
