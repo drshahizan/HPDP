@@ -167,7 +167,7 @@ Finally, for distributed processing an experimental and open source framework wr
 
 #### 5.2 Code Overview or Pseudocode of Techniques Applied
 <p>
-  <b>Code Overview of Pandas Part 1:</b>
+  <b><u>Code Overview of Pandas Part 1</u></b>
 </p>
 <br>
 <div style="text-align: center;">
@@ -177,9 +177,8 @@ Finally, for distributed processing an experimental and open source framework wr
 </div>
 <br>
 <p>
-  <b>Code Overview of Pandas Part 2:</b>
+  <b><u>Code Overview of Pandas Part 2</u></b>
 </p>
-<br>
 <div style="text-align: center;">
   <img src="PandasPart2-Colab-05-13-2025_11_26_PM.png" 
        alt="Code Overview of Pandas Part 2"
@@ -187,9 +186,8 @@ Finally, for distributed processing an experimental and open source framework wr
 </div>
 <br>
 <p>
-  <b>Code Overview of Polars Part 1:</b>
+  <b><u>Code Overview of Polars Part 1</u></b>
 </p>
-<br>
 <div style="text-align: center;">
   <img src="P1_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_50_PM.png" 
        alt="Code Overview of Polars Part 1"
@@ -197,9 +195,8 @@ Finally, for distributed processing an experimental and open source framework wr
 </div>
 <br>
 <p>
-  <b>Code Overview of Polars Part 2:</b>
+  <b><u>Code Overview of Polars Part 2</u></b>
 </p>
-<br>
 <div style="text-align: center;">
   <img src="P2_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
        alt="Code Overview of Polars Part 2"
