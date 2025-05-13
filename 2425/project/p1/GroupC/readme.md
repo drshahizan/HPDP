@@ -201,7 +201,7 @@ Finally, for distributed processing an experimental and open source framework wr
 </p>
 <br>
 <div style="text-align: center;">
-  <img src="P1_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
+  <img src="P2_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
        alt="Code Overview of Polars Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
