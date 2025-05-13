@@ -31,7 +31,7 @@
 ## Table of Contents
 
 ### 1.0 Introduction
-- [1.1 Background of the project](#11-background-of-the-project)
+- [1.1 Background of The Project](#11-background-of-the-project)
   - [1.1.1 Web Scraping](#111-web-scraping)
   - [1.1.2 Data Processing](#112-data-processing)
   - [1.1.3 Optimisation Process](#113-optimisation-process)
@@ -81,4 +81,4 @@
 <br>
 
 ## 1.0 Introduction 
-### 1.1 Background of Project 
+### 1.1 Background of The Project 
