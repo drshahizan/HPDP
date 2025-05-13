@@ -148,9 +148,9 @@ Data scraping was carried out by applying a mix of Python libraries and tools su
 #### 2.3 Roles of Team Members
 
 ### 3.0 Data Collection
-#### 3.1 Crawling Method](#31-crawling-method)
-#### 3.2 Number of Records Collected](#32-number-of-records-collected)
-#### 3.3 Ethical Considerations](#33-ethical-considerations)
+#### 3.1 Crawling Method
+#### 3.2 Number of Records Collected
+#### 3.3 Ethical Considerations
 
 ### 4.0 Data Processing
 #### 4.1 Cleaning Methods
