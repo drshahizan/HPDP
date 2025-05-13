@@ -117,3 +117,13 @@
   The final optimization step involves evaluating product performance by location. Products were grouped according to their listed locations, with relevant attributes such as product price and quantity sold. For each location, the average product price and total quantity sold were computed. These figures were used to estimate market performance, calculated by multiplying the average price by the total quantity sold. Locations were then ranked from highest to lowest based on this performance indicator, enabling identification of regions with the strongest sales activity.
 </p>
 
+### 1.2 Objectives
+
+The main objectives of this project are as follows:
+
+- To develop a web crawler capable of extracting a minimum of 100,000 structured records from a targeted Malaysian e-commerce website.
+- To apply high-performance computing techniques, including multithreading, multiprocessing and distributed processing, to optimise the efficiency and scalability of the web crawling and data processing systems.
+- To implement ethical web scraping practices by respecting crawl delays and website usage policies.
+- To conduct a comparative performance analysis of different data processing frameworks (Pandas, Polars and PySpark) based on the time consumed during data processing.
+- To enhance students' technical proficiency, critical thinking in system optimization and collaborative skills in a diverse team environment.
+
