@@ -166,9 +166,9 @@ Finally, for distributed processing an experimental and open source framework wr
 </p>
 
 #### 5.2 Code Overview or Pseudocode of Techniques Applied
-<p>
+
   <b><u>Code Overview of Pandas Part 1</u></b>
-</p>
+
 <div style="text-align: center;">
   <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
        alt="Code Overview of Pandas Part 1"
