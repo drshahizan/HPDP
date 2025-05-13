@@ -166,14 +166,13 @@ Finally, for distributed processing an experimental and open source framework wr
 </p>
 
 #### 5.2 Code Overview or Pseudocode of Techniques Applied
-
+<p>
+  <b>Code Overview of Pandas Part 1</b>
+</p>
 <div style="text-align: center;">
   <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
        alt="Pandas Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-  <p style ="textalign: center;">
-    <strong><em>Figure 2.1: Pandas Part 1</em></strong>
-  </p>
 </div>
 
 ### 6.0 Performance Evaluation
