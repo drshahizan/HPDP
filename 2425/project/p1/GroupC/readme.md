@@ -168,7 +168,7 @@ Finally, for distributed processing an experimental and open source framework wr
 #### 5.2 Code Overview or Pseudocode of Techniques Applied
 
 <div style="text-align: center;">
-  <img src="2425/project/p1/GroupC/PandasPart1-Colab-05-13-2025_11_05_PM.png" 
+  <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
        alt="Pandas Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 80%; height: auto;">
   <p style="font-style: italic; font-size: 14px; color: #555;">
