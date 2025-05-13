@@ -159,6 +159,12 @@ Data scraping was carried out by applying a mix of Python libraries and tools su
 
 ## 5.0 Optimization Techniques
 ### 5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.
+<p style="text-align: justify; hyphens: auto;">
+To optimize the data processing step, three python libraries were utilized; Pandas, polars and Pyspark libraries. Pandas was initially used as a benchmark because it is straightforward, and has many powerful data manipulation abilities. However, as Pandas functions in a single threaded approach it was found to have limitations with large datasets. To ensure a faster process, Polars was introduced. Polars supports multithreading and lazy evaluation which means that operations can compute across several CPU cores at once, and consequently are faster than Pandas.
+  
+Finally, for distributed processing an experimental and open source framework written in Python that runs on top of Apache Spark called PySpark was used. PySpark allows processing data at parallel across several cores or machines hence amazingly suitable for very large datasets. Its distributed architecture and native optimisation properties enabled large scale data transformation to work efficiently. Using Pandas (single-threaded), and the multithreaded variant of Polars and PySpark (distributed), the project evaluated the performance and scalability of various optimisation methods for processing data web-scraped.
+</p>
+
 ### 5.2 Code Overview or Pseudocode of Techniques Applied
 
 ## 6.0 Performance Evaluation
