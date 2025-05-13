@@ -36,39 +36,39 @@
   - [1.1.2 Data Processing](#112-data-processing)
   - [1.1.3 Optimisation Process](#113-optimisation-process)
 - [1.2 Objectives](#12-objectives)
-- [1.3 Target website and data to be extracted](#13-target-website-and-data-to-be-extracted)
+- [1.3 Target Website and Data To Be Extracted](#13-target-website-and-data-to-be-extracted)
 
 ### 2.0 System Design & Architecture
-- [2.1 Description of architecture](#21-description-of-architecture)
-- [2.2 Tools and frameworks used](#22-tools-and-frameworks-used)
-- [2.3 Roles of team members](#23-roles-of-team-members)
+- [2.1 Description of Architecture](#21-description-of-architecture)
+- [2.2 Tools and Frameworks Used](#22-tools-and-frameworks-used)
+- [2.3 Roles of Team Members](#23-roles-of-team-members)
 
 ### 3.0 Data Collection
-- [3.1 Crawling method](#31-crawling-method)
-- [3.2 Number of records collected](#32-number-of-records-collected)
-- [3.3 Ethical considerations](#33-ethical-considerations)
+- [3.1 Crawling Method](#31-crawling-method)
+- [3.2 Number of Records Collected](#32-number-of-records-collected)
+- [3.3 Ethical Considerations](#33-ethical-considerations)
 
 ### 4.0 Data Processing
-- [4.1 Cleaning methods](#41-cleaning-methods)
-- [4.2 Data structure](#42-data-structure)
-- [4.3 Transformation and formatting](#43-transformation-and-formatting)
+- [4.1 Cleaning Methods](#41-cleaning-methods)
+- [4.2 Data Structure](#42-data-structure)
+- [4.3 Transformation and Formatting](#43-transformation-and-formatting)
 
 ### 5.0 Optimization Techniques
-- [5.1 Methods used: multithreading, multiprocessing, Spark, etc.](#51-methods-used-multithreading-multiprocessing-spark-etc)
-- [5.2 Code overview or pseudocode of techniques applied](#52-code-overview-or-pseudocode-of-techniques-applied)
+- [5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.](#51-methods-used-multithreading-multiprocessing-spark-etc)
+- [5.2 Code Overview or Pseudocode of Techniques Applied](#52-code-overview-or-pseudocode-of-techniques-applied)
 
 ### 6.0 Performance Evaluation
-- [6.1 Before vs after optimization](#61-before-vs-after-optimization)
-- [6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU usage and Throughput](#62-comparison-of-code-execution-time-peak-memory-usage-cpu-usage-and-throughput)
-- [6.3 Charts and graphs](#63-charts-and-graphs)
+- [6.1 Before VS After Optimization](#61-before-vs-after-optimization)
+- [6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU Usage and Throughput](#62-comparison-of-code-execution-time-peak-memory-usage-cpu-usage-and-throughput)
+- [6.3 Charts and Graphs](#63-charts-and-graphs)
 
 ### 7.0 Challenges & Limitations
-- [7.1 What didn’t go as planned](#71-what-didnt-go-as-planned)
-- [7.2 Any limitations of your solution](#72-any-limitations-of-your-solution)
+- [7.1 What Didn’t Go As Planned](#71-what-didnt-go-as-planned)
+- [7.2 Any Limitations of Your Solution](#72-any-limitations-of-your-solution)
 
 ### 8.0 Conclusion & Future Work
-- [8.1 Summary of findings](#81-summary-of-findings)
-- [8.2 What could be improved](#82-what-could-be-improved)
+- [8.1 Summary of Findings](#81-summary-of-findings)
+- [8.2 What Could Be Improved](#82-what-could-be-improved)
 
 ### References
 - [References](#references)
@@ -141,5 +141,44 @@ For this project, Lazada Malaysia (https://www.lazada.com.my/) was selected as t
 Data scraping was carried out by applying a mix of Python libraries and tools such as BeautifulSoup, Selenium, Requests for complete data extraction. The stocks of data collected were then manipulated using pandas polars and PySpark, the processing time compared to evaluate performance enhancement in varied optimisation techniques.
 
 </p>
+
+## 2.0 System Design & Architecture
+### 2.1 Description of Architecture
+### 2.2 Tools and Frameworks Used
+### 2.3 Roles of Team Members
+
+## 3.0 Data Collection
+### 3.1 Crawling Method](#31-crawling-method)
+### 3.2 Number of Records Collected](#32-number-of-records-collected)
+### 3.3 Ethical Considerations](#33-ethical-considerations)
+
+## 4.0 Data Processing
+### 4.1 Cleaning Methods
+### 4.2 Data Structure
+### 4.3 Transformation and Formatting
+
+## 5.0 Optimization Techniques
+### 5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.
+### 5.2 Code Overview or Pseudocode of Techniques Applied
+
+## 6.0 Performance Evaluation
+### 6.1 Before VS After Optimization
+### 6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU Usage and Throughput
+### 6.3 Charts and Graphs
+
+## 7.0 Challenges & Limitations
+### 7.1 What Didn’t Go As Planned
+### 7.2 Any Limitations of Your Solution
+
+## 8.0 Conclusion & Future Work
+### 8.1 Summary of Findings
+### 8.2 What Could Be Improved
+
+## References
+
+## Appendices
+## Sample code snippets
+## Screenshots of output
+## Links to full code repo or dataset
 
 
