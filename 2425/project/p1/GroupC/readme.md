@@ -169,9 +169,20 @@ Finally, for distributed processing an experimental and open source framework wr
 <p>
   <b>Code Overview of Pandas Part 1</b>
 </p>
+<br>
 <div style="text-align: center;">
   <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
-       alt="Pandas Part 1"
+       alt="Code Overview of Pandas Part 1"
+       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+</div>
+<br>
+<p>
+  <b>Code Overview of Pandas Part 2</b>
+</p>
+<br>
+<div style="text-align: center;">
+  <img src="PandasPart1-Colab-05-13-2025_11_26_PM.png" 
+       alt="Code Overview of Pandas Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
 
