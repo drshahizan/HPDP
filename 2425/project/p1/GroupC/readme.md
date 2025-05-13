@@ -26,7 +26,7 @@
   </tr>
 </table>
 
-<br><br>
+<br>
 
 ## Table of Contents
 
@@ -77,3 +77,8 @@
 - [Sample code snippets](#sample-code-snippets)
 - [Screenshots of output](#screenshots-of-output)
 - [Links to full code repo or dataset](#links-to-full-code-repo-or-dataset)
+
+<br>
+
+## 1.0 Introduction 
+### 1.1 Background of Project <a name = "11-background-of-the-project"</a>
