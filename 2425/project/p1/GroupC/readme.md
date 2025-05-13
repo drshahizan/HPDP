@@ -128,3 +128,18 @@ The main objectives of this project are as follows:
 - To enhance students' technical proficiency, critical thinking in system optimization and collaborative skills in a diverse team environment.
 </p>
 
+### 1.3 Target Website and Data To Be Extracted
+<p style="text-align: justify; hyphens: auto;">
+  For this project, Lazada Malaysia (https://www.lazada.com.my/) was selected as the target website. Lazada is one of the leading e-commerce platforms in Southeast Asia, offering a wide range of products across multiple categories. The focus of the data extraction is on products under the "Women" category, which includes the following subcategories: Women's Fashion, Stationery, Mother and Baby, Home and Living, Health and Wellness and Beauty and Care. The fields extracted for each product are:
+  
+- <b>Product Name:</b> The title or description of the product as displayed on the website.
+- <b>Location:</b> The seller's or product's listed location.
+- <b>Quantity Sold:</b> The number of units sold, indicating the popularity of the product.
+- <b>Price:</b> The listed selling price of the product.
+- <b>Total reviews:</b> The total number of customer ratings received by the product.
+
+  Data scraping was carried out by applying a mix of Python libraries and tools such as BeautifulSoup, Selenium, Requests for complete data extraction. The stocks of data collected were then manipulated using pandas polars and PySpark, the processing time compared to evaluate performance enhancement in varied optimisation techniques.
+
+</p>
+
+
