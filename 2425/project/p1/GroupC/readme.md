@@ -171,8 +171,8 @@ Finally, for distributed processing an experimental and open source framework wr
   <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
        alt="Pandas Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 80%; height: auto;">
-  <p style="font-style: italic; font-size: 14px; color: #555;">
-    Figure 2: Sample image from GitHub repository.
+  <p>
+    <b><i>Figure 2.1: Pandas Part 1</i></b>
   </p>
 </div>
 
