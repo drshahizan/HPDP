@@ -235,7 +235,7 @@ Finally, for distributed processing an experimental and open source framework wr
   <b>Code Overview of PySpark Part 1:</b>
 </p>
 <div style="text-align: center;">
-  <img src="Images/PySparkP1_Solved-ipynb-Colab-05-14-2025_02_44_PM.png" 
+  <img src="Images/PySpark_Part1.png" 
        alt="Code Overview of PySpark Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -244,7 +244,7 @@ Finally, for distributed processing an experimental and open source framework wr
   <b>Code Overview of PySpark Part 2:</b>
 </p>
 <div style="text-align: center;">
-  <img src="Images/PySpark_P2_Solved-ipynb-Colab-05-14-2025_02_48_PM.png" 
+  <img src="Images/PySpark_Part2.png" 
        alt="Code Overview of PySpark Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -275,9 +275,36 @@ Finally, the need for manual oversight and longer scraping times meant that the 
 
 ### 8.0 Conclusion & Future Work
 #### 8.1 Summary of Findings
+<p style="text-align: justify; hyphens: auto;">
+This project sought to improve high-efficiency data processing for massive web crawling of Lazada Malaysia's Women category. Our group collected over 115,000 product listings by utilising the tools named Selenium and BeautifulSoup to navigate the site and pull out information such as product titles, price, number sold, seller locations, and customer reviews. We filtered and arranged the data once it was gathered, prepared for analysis. 
+  
+We then contrasted and examined three distinct libraries to determine which one was most appropriate to process large-scale data effectively:
+- Pandas, though easy to use and effective for small to midsize datasets, showed worsening performance and more memory usage with our large dataset and thus turned out to be less effective for large-scale data processing tasks.
+- Polars, with a Rust backend and lazy evaluation approach, exhibited excellent performance gains in speed and memory consumption. It offered a perfect harmony between usability and functionality for moderately sized datasets.
+- PySpark was typified by scalability, distributed processing, and appropriateness for large-scale data projects. Still, its configurational complexity and associated overhead rendered it less suitable for small or medium-size projects.
+
+Overall, this project provided our group with hands-on practice, from data collections and cleaning to performance testing of modern data processing tools. Most significantly, we learned how to assess and choose suitable technologies depending on certain requirements such as dataset size, processing time, and memory consumption. This project not only improved our technical expertise in Python and high performance libraries but also improved our critical thinking, collaboration, and problem solving skills, equipping us for upcoming projects in data engineering and data analysis.
+
 #### 8.2 What Could Be Improved
+<p style="text-align: justify; hyphens: auto;">
+While the current implementation successfully achieved its primary goals, there are several meaningful ways the project can be expanded and enhanced in the future:
+1. Automate CAPTCHA Handling for seamless handling
+Manual CAPTCHA solving during scraping delayed the data collection process. 2Captcha browser extension allows skipping reCAPTCHAs. This extension automates the process of solving reCAPTCHA, making it easier and faster for users to bypass these verifications [1].  Incorporating automated services such as 2Captcha can automate the process with machine learning powered CAPTCHA solvers.
+  
+2. Make the most of GPU Powered Libraries for better performance
+Libraries such as RAPIDS cuDF by NVIDIA can leverage GPUs to greatly accelerate data processing operations. For instance, cuDF accelerates pandas with zero code changes and brings greatly improved performance [2].  This is particularly useful when working with large numeric datasets.
+
+3. Use machine learning for further analysis
+The structured data can be utilised to implement machine learning algorithms for customer segmentation. Machine learning methodologies are a great tool for analyzing customer data and finding insights and patterns. Artificially intelligent models are powerful tools for decision-makers. They can precisely identify customer segments, which is much harder to do manually or with conventional analytical methods [3]. For instance, K-Means is efficient machine learning when it comes to solving data cluster problems.
+
+By adopting these improvements, the project has the potential to evolve into a robust, scalable and intelligent data pipeline capable of supporting practical, data-driven decisions in the e-commerce landscape.
 
 ### References
+[1]  Captcha Solver: reCAPTCHA solver and captcha solving service. Bypass captchas using the best auto captcha solver online API - 2Captcha. (2025). 2captcha.com. [Link](https://2captcha.com/)
+
+‌[2] Open GPU Data Science. (n.d.). RAPIDS. [Link](https://rapids.ai/)
+
+‌[3] Kumar, D. (2021, June 18). Implementing Customer Segmentation Using Machine Learning [Beginners Guide]. Neptune.ai. [Link](https://neptune.ai/blog/customer-segmentation-using-machine-learning)
 
 ### Appendices
 ### Sample code snippets
