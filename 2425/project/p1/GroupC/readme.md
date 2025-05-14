@@ -288,6 +288,7 @@ Overall, this project provided our group with hands-on practice, from data colle
 #### 8.2 What Could Be Improved
 <p style="text-align: justify; hyphens: auto;">
 While the current implementation successfully achieved its primary goals, there are several meaningful ways the project can be expanded and enhanced in the future:
+  
 1. Automate CAPTCHA Handling for seamless handling
 Manual CAPTCHA solving during scraping delayed the data collection process. 2Captcha browser extension allows skipping reCAPTCHAs. This extension automates the process of solving reCAPTCHA, making it easier and faster for users to bypass these verifications [1].  Incorporating automated services such as 2Captcha can automate the process with machine learning powered CAPTCHA solvers.
   
