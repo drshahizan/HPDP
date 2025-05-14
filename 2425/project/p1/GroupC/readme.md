@@ -209,6 +209,7 @@ The following tools and frameworks were used during the project:
 | **Kek Jesslyn**           | - Web crawling and scraping<br>- Developed scrapers using BeautifulSoup and Selenium<br>- Conducted performance comparison testing using laptop |
 | **Navachander Navasantar**| - Developed optimization code using PySpark<br>- Assisted in report documentation       |
 | **Tan Jun Yuan**          | - Developed optimization code using Polars<br>- Assisted in report work planning and documentation |
+
 <p align="center">
   <em>Table 1: Roles of Team Members</em>
 </p>
