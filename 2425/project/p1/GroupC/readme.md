@@ -290,12 +290,12 @@ Finally, the need for manual oversight and longer scraping times meant that the 
    - [Part 2](Codes/P2_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
 
 2. **Polars:**
-   - [Part 1](https://colab.research.google.com/drive/1Mo98HWNSUhlKcTMXERXbh2yYHhQ4BhvP?usp=sharing)
-   - [Part 2](https://colab.research.google.com/drive/1MjQbbpOWY6xCiv9GxZ842zNhea_vK2YT?usp=sharing)
+   - [Part 1](Codes/P1_POLARS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1Mo98HWNSUhlKcTMXERXbh2yYHhQ4BhvP?usp=sharing)
+   - [Part 2](Codes/P2_POLARS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1MjQbbpOWY6xCiv9GxZ842zNhea_vK2YT?usp=sharing)
 
 3. **PySpark:**
-   - [Part 1](https://colab.research.google.com/drive/1KUD0RVBLRetTi0Wer8ButoaDxbkJjIcR?usp=sharing)
-   - [Part 2](https://colab.research.google.com/drive/1zFGwWiYsAkjxCqtm6u2Y1qsc5w_N72WL?usp=sharing)
+   - [Part 1](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1KUD0RVBLRetTi0Wer8ButoaDxbkJjIcR?usp=sharing)
+   - [Part 2](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1zFGwWiYsAkjxCqtm6u2Y1qsc5w_N72WL?usp=sharing)
 
 4. **Dataset**
    - [Raw Dataset](https://drive.google.com/file/d/1LvokKS7OMZyWrZxFSy82rm7E0IJOgSAn/view?usp=sharing)
