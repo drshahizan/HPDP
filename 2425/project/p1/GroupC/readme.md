@@ -287,7 +287,7 @@ Finally, the need for manual oversight and longer scraping times meant that the 
 ### Links to full code repo or dataset
 1. **Pandas:**
    - [Part 1](Codes/P1_PANDAS.ipynb)
-   - [Part 2](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
+   - [Part 2](Codes/P2_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
 
 2. **Polars:**
    - [Part 1](https://colab.research.google.com/drive/1Mo98HWNSUhlKcTMXERXbh2yYHhQ4BhvP?usp=sharing)
