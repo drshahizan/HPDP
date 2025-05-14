@@ -199,7 +199,7 @@ Finally, for distributed processing an experimental and open source framework wr
   <b><u>Code Overview of Pandas Part 1</u></b>
 </p>
 <div style="text-align: center;">
-  <img src="PandasPart1-Colab-05-13-2025_11_05_PM.png" 
+  <img src="Images/PandasPart1-Colab-05-13-2025_11_05_PM.png" 
        alt="Code Overview of Pandas Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -208,7 +208,7 @@ Finally, for distributed processing an experimental and open source framework wr
   <b><u>Code Overview of Pandas Part 2</u></b>
 </p>
 <div style="text-align: center;">
-  <img src="PandasPart2-Colab-05-13-2025_11_26_PM.png" 
+  <img src="Images/PandasPart2-Colab-05-13-2025_11_26_PM.png" 
        alt="Code Overview of Pandas Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -217,7 +217,7 @@ Finally, for distributed processing an experimental and open source framework wr
   <b><u>Code Overview of Polars Part 1</u></b>
 </p>
 <div style="text-align: center;">
-  <img src="P1_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_50_PM.png" 
+  <img src="Images/P1_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_50_PM.png" 
        alt="Code Overview of Polars Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -226,7 +226,7 @@ Finally, for distributed processing an experimental and open source framework wr
   <b><u>Code Overview of Polars Part 2</u></b>
 </p>
 <div style="text-align: center;">
-  <img src="P2_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
+  <img src="Images/P2_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
        alt="Code Overview of Polars Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
