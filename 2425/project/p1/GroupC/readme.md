@@ -144,11 +144,10 @@ Data scraping was carried out by applying a mix of Python libraries and tools su
 
 ### 2.0 System Design & Architecture
 #### 2.1 Description of Architecture
-<div style="text-align: center;">
-  <img src="2425/project/p1/GroupC/Images/WebCrawlerSystemArchitecture.png" 
-       alt="Web Crawler System Architecture"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
+<p align="center">
+  <img src="./2425/project/p1/GroupC/Images/WebCrawlerSystemArchitecture.png" alt="Web Crawler System Architecture" width="60%">
+</p>
+
 #### 2.2 Tools and Frameworks Used
 #### 2.3 Roles of Team Members
 
