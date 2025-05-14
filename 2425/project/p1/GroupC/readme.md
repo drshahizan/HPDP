@@ -179,6 +179,27 @@ The extracted data is saved to a CSV file for subsequent processes.
 This system enables a full workflow from data acquisition to meaningful data retrieval, offering an insightful analysis of women’s purchase trends on Lazada.
 
 #### 2.2 Tools and Frameworks Used
+
+The following tools and frameworks were used during the project:
+
+- **BeautifulSoup**  
+  A Python library used for parsing HTML and XML documents. It simplified the process of retrieving targeted information from Lazada web pages during the web scraping phase.
+
+- **Selenium**  
+  A web automation tool used to interact with dynamic pages. It handled content that required user interaction (such as scrolling and clicking) to fully load before extraction.
+
+- **Python**  
+  The primary programming language used for implementing web scraping, data cleaning, and data analysis functionalities.
+
+- **Pandas**  
+  A powerful Python library for data manipulation and analysis. It was used for cleaning, transforming, and processing the extracted data effectively.
+
+- **Polars**  
+  A high-performance DataFrame library written in Rust, serving as an alternative to Pandas when working with larger datasets that require more speed.
+
+- **PySpark**  
+  The Python API for Apache Spark, used to optimize the processing of large datasets. It enabled distributed data operations, improving performance and scalability while reducing errors.
+
 #### 2.3 Roles of Team Members
 
 ### 3.0 Data Collection
