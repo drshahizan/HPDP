@@ -247,9 +247,33 @@ The data scraping operation abided by all ethical standards throughout the proce
 </p>
 
 ### 4.0 Data Processing
+
 #### 4.1 Cleaning Methods
+
+The following cleaning techniques were applied to ensure the accuracy, completeness, and consistency of the raw data:
+
+- Merged seven individual data frames into a single unified DataFrame.
+- Verified the combined dataset by checking the total number of rows and columns.
+- Removed irrelevant text and symbols from fields such as **"Quantity Sold"**, including handling shorthand notations (e.g., converting `"1.3K"` to `1300`).
+- Converted non-numeric fields into appropriate numeric types where necessary, using error coercion to handle invalid values.
+- Identified and handled missing data:
+  - Replaced missing numeric entries with `0`.
+  - Replaced missing string entries with `"N/A"`.
+- Detected and removed duplicate rows to prevent redundancy and ensure data integrity.
+
 #### 4.2 Data Structure
+
+The final cleaned dataset was stored in the **CSV (Comma-Separated Values)** format, providing a lightweight and widely supported structure suitable for data processing and analysis tasks.
+
 #### 4.3 Transformation and Formatting
+
+After cleaning, the following transformations and formatting operations were performed to prepare the data for analysis and optimisation:
+
+- Standardised all string fields by converting text to **uppercase** for consistency across entries.
+- Ensured numeric fields, such as **"Quantity Sold"** and **"Number of Ratings"**, were properly cast to `Int64` data types.
+- Formatted the dataset to maintain **uniform data types** across all columns, facilitating smoother downstream processing.
+- Structured the data to eliminate inconsistencies, enabling compatibility with optimisation libraries such as **Pandas**, **Polars**, and **PySpark**.
+
 
 ### 5.0 Optimization Techniques
 #### 5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.
