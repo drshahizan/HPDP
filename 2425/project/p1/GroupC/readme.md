@@ -234,7 +234,6 @@ Finally, for distributed processing an experimental and open source framework wr
 <p>
   <b>Code Overview of PySpark Part 1:</b>
 </p>
-<br>
 <div style="text-align: center;">
   <img src="Images/PySparkP1_Solved-ipynb-Colab-05-14-2025_02_44_PM.png" 
        alt="Code Overview of PySpark Part 1"
@@ -244,7 +243,6 @@ Finally, for distributed processing an experimental and open source framework wr
 <p>
   <b>Code Overview of PySpark Part 2:</b>
 </p>
-<br>
 <div style="text-align: center;">
   <img src="Images/PySpark_P2_Solved-ipynb-Colab-05-14-2025_02_48_PM.png" 
        alt="Code Overview of PySpark Part 2"
