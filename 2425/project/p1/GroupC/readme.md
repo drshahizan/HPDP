@@ -169,6 +169,7 @@ A total of 115090 records were obtained from 36 distinct URLs that covered multi
 - Total reviews
 
 </p>
+
 #### 3.3 Ethical Considerations
 <p style="text-align: justify; hyphens: auto;">
 The data scraping operation abided by all ethical standards throughout the process.
