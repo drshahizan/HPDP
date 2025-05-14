@@ -202,14 +202,14 @@ The following tools and frameworks were used during the project:
 
 #### 2.3 Roles of Team Members
 
-
+<div align="center">
 | Team Member              | Roles and Contributions                                                                 |
 |--------------------------|------------------------------------------------------------------------------------------|
 | **Bernice Lim Jing Xuan** | - Project planning and management<br>- Developed optimization code using Pandas          |
 | **Kek Jesslyn**           | - Web crawling and scraping<br>- Developed scrapers using BeautifulSoup and Selenium<br>- Conducted performance comparison testing using laptop |
 | **Navachander Navasantar**| - Developed optimization code using PySpark<br>- Assisted in report documentation       |
 | **Tan Jun Yuan**          | - Developed optimization code using Polars<br>- Assisted in report work planning and documentation |
-
+</div>
 <p align="center">
   <em>Table 1: Roles of Team Members</em>
 </p>
