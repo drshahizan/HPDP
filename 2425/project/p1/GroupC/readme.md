@@ -143,14 +143,40 @@ Data scraping was carried out by applying a mix of Python libraries and tools su
 </p>
 
 ### 2.0 System Design & Architecture
+
 #### 2.1 Description of Architecture
-<p>
-<div style="text-align: center;">
-  <img src="Images/WebCrawlerSystemArchitecture.png" 
-       alt="Code Overview of Pandas Part 1"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
+
+<p align="center">
+  <img src="./Images/WebCrawlerSystemArchitecture.png" 
+       alt="Web Crawler System Architecture" width="60%">
 </p>
+
+<p align="center">
+  <em>Figure 1: Architecture of the Web Crawler System</em>
+</p>
+
+This project describes the design and implementation of a web crawler system for data extraction mechanisation, cleaning, optimisation, and analysis. In this project, data was acquired from Lazada Malaysia with a particular focus on the Women’s category. The obtained dataset is titled **“Women’s Purchase Analysis”**.
+
+The system begins by sending a request to the target website and receiving the corresponding response. The **Crawler** component traverses the web pages in an organized manner to gather pertinent data. The **Parser**, using libraries such as **BeautifulSoup** and **Selenium**, extracts structured data from the gathered web content.
+
+The extracted data is saved to a CSV file for subsequent processes.
+
+**Following data extraction:**
+
+- **Data cleaning and transformation** are performed to remove inconsistencies, handle missing values, and standardize the dataset to ensure quality and consistency.
+- Cleaned data is stored in a structured format separately.
+
+**For performance enhancement:**
+
+- Three libraries — **Pandas**, **Polars**, and **PySpark** — are used to optimize data processing speed.
+- A performance analysis is conducted to compare the effectiveness of these optimization methods.
+
+**Finally:**
+
+- Cleaned and optimized data is made available for user queries.
+- Users can interact with the system by sending queries, and the system generates requested analysis results based on the processed dataset.
+
+This system enables a full workflow from data acquisition to meaningful data retrieval, offering an insightful analysis of women’s purchase trends on Lazada.
 
 #### 2.2 Tools and Frameworks Used
 #### 2.3 Roles of Team Members
