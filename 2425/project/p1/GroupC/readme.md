@@ -236,7 +236,7 @@ Finally, for distributed processing an experimental and open source framework wr
 </p>
 <br>
 <div style="text-align: center;">
-  <img src="Images/PySpark_Part1.png" 
+  <img src="Images/PySparkP1_Solved-ipynb-Colab-05-14-2025_02_44_PM.png" 
        alt="Code Overview of PySpark Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -246,7 +246,7 @@ Finally, for distributed processing an experimental and open source framework wr
 </p>
 <br>
 <div style="text-align: center;">
-  <img src="Images/PySpark_Part2.png" 
+  <img src="Images/PySpark_P2_Solved-ipynb-Colab-05-14-2025_02_48_PM.png" 
        alt="Code Overview of PySpark Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
@@ -286,7 +286,7 @@ Finally, the need for manual oversight and longer scraping times meant that the 
 ### Screenshots of output
 ### Links to full code repo or dataset
 1. **Pandas:**
-   - [Part 1](Codes/P1_PANDAS.ipynb)
+   - [Part 1](Codes/P1_PANDAS.ipynb) [Here to Colab](#)
    - [Part 2](Codes/P2_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
 
 2. **Polars:**
