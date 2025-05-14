@@ -149,8 +149,36 @@ Data scraping was carried out by applying a mix of Python libraries and tools su
 
 ### 3.0 Data Collection
 #### 3.1 Crawling Method
+<p style="text-align: justify; hyphens: auto;">
+The web scraping script functioned with Python tools that used Selenium to control browsers and BeautifulSoup to extract HTML data. Our scraping solution undertook multiple page operations in female-oriented Lazada product sections including fashion and skincare along with wellness and home and baby and stationery selections.
+
+- The scraping system detected page count through pagination components before it automatically visited all accessible pages in each category.
+- The scraper included rate-limiting functions that simulated human behaviors by introducing random sleep time between 2.5 and 5 seconds when triggering actions such as page loading or "next" button clicks.
+- The scraper relies on async handling while using Selenium's WebDriverWait to monitor page element load times as a method to avoid incomplete content during processing. Manual detection occurs when CAPTCHAs appear since a temporary stop occurs for user confirmation.
+
+</p>
+
 #### 3.2 Number of Records Collected
+<p style="text-align: justify; hyphens: auto;">
+A total of 115090 records were obtained from 36 distinct URLs that covered multiple pricing segments and sections including Women’s Fashion, Beauty Skincare, Health Wellness, Home Living, Home Appliances, Mother & Baby and Stationery. Each record consists of:
+
+- Product name
+- Price
+- Seller location
+- Quantity sold
+- Total reviews
+
+</p>
 #### 3.3 Ethical Considerations
+<p style="text-align: justify; hyphens: auto;">
+The data scraping operation abided by all ethical standards throughout the process.
+- Research and academic needs formed the sole basis for the scraping activities.
+- The company Lazada has not declared any restrictions on data scraping for our collected data so we protected their server by delaying requests while managing concurrent requests at a moderate level.
+- The researchers manually dealt with CAPTCHA interruptions to prevent any security bypassing situations.
+- Our data scraping operations did not involve any wishes of personalized user information.
+- We would either have accessed the Lazada API or attempted to obtain permission through clear terms if the platform provided either option.
+
+</p>
 
 ### 4.0 Data Processing
 #### 4.1 Cleaning Methods
