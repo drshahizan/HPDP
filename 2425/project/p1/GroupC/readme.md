@@ -276,7 +276,7 @@ After cleaning, the following transformations and formatting operations were per
 
 
 ### 5.0 Optimization Techniques
-#### 5.1 Methods Used: Multithreading, Multiprocessing, Spark, Etc.
+#### 5.1 Methods Used
 <p style="text-align: justify; hyphens: auto;">
 To optimize the data processing step, three python libraries were utilized; Pandas, polars and Pyspark libraries. Pandas was initially used as a benchmark because it is straightforward, and has many powerful data manipulation abilities. However, as Pandas functions in a single threaded approach it was found to have limitations with large datasets. To ensure a faster process, Polars was introduced. Polars supports multithreading and lazy evaluation which means that operations can compute across several CPU cores at once, and consequently are faster than Pandas.
   
