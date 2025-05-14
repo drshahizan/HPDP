@@ -286,7 +286,7 @@ Finally, the need for manual oversight and longer scraping times meant that the 
 ### Screenshots of output
 ### Links to full code repo or dataset
 1. **Pandas:**
-   - [Part 1](https://colab.research.google.com/drive/1xi-2SBSYWeEue9q_BF58WCiihWX9j6nN?usp=sharing)
+   - [Part 1](Codes/P1_PANDAS.ipynb)
    - [Part 2](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
 
 2. **Polars:**
