@@ -236,7 +236,7 @@ Finally, for distributed processing an experimental and open source framework wr
 </p>
 <br>
 <div style="text-align: center;">
-  <img src="PySparkP1_Solved-ipynb-Colab-05-14-2025_02_44_PM.png" 
+  <img src="Images/PySparkP1_Solved-ipynb-Colab-05-14-2025_02_44_PM.png" 
        alt="Code Overview of PySpark Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
