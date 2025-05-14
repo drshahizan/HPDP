@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group G - Sports News Analysis
+  Group G - Malaysia News Analysis
   <br>
 </h1>
 
