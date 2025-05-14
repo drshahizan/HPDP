@@ -97,7 +97,7 @@ By the end of this project, you will be able to:
 |  Group D     |   Pandas     |   Dask        |    Polar       |   Beauty & Health Item Analysis      |                  |
 | Group E | Pandas | Polars | Modin | News Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
 | CrawlOps | joblib |           | PySpark    | Car Market Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps) |
-| Group G |  |  |   |  Sports News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)  |
+| Group G | Pandas | Polars  | Dask  |  Malaysia News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)  |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
