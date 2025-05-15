@@ -466,8 +466,8 @@ By adopting these improvements, the project has the potential to evolve into a r
           <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
       </p>
     </td>
-    <td>
-      <img src="Images/ScreenshotsOfOutput8.png" alt="Screenshots of Output 8" margin-left:auto margin-right:auto>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput8.png" alt="Screenshots of Output 8">
       <p align="center">
           <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
       </p>
