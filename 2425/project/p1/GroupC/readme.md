@@ -363,202 +363,202 @@ To improve performance, two faster alternatives were introduced, which are Polar
   <tbody>
     <tr>
       <td rowspan="4">Dataset Loading and Display</td><td>Code Execution Time (s)</td>
-      <td>0.6728</td>
-      <td>0.3893</td>
-      <td>113.0075</td>
+      <td align="center">0.6728</td>
+      <td align="center">0.3893</td>
+      <td align="center">113.0075</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>1.4805</td>
-      <td>2.9626</td>
-      <td>34.7047</td>
+      <td align="center">1.4805</td>
+      <td align="center">2.9626</td>
+      <td align="center">34.7047</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>2.5</td>
-      <td>2.0</td>
-      <td>84.8</td>
+      <td align="center">2.5</td>
+      <td align="center">2.0</td>
+      <td align="center">84.8</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>171056.76</td>
-      <td>295636.96</td>
-      <td>8018.45</td>
+      <td align="center">171056.76</td>
+      <td align="center">295636.96</td>
+      <td align="center">8018.45</td>
     </tr>
     <tr>
       <td rowspan="4">Dataset Integration</td>
       <td>Code Execution Time (s)</td>
-      <td>0.0907</td>
-      <td>0.0207</td>
-      <td>4.8765</td>
+      <td align="center">0.0907</td>
+      <td align="center">0.0207</td>
+      <td align="center">4.8765</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>5.5688</td>
-      <td>0.0419</td>
-      <td>0.1984</td>
+      <td align="center">5.5688</td>
+      <td align="center">0.0419</td>
+      <td align="center">0.1984</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>3.5</td>
-      <td>2.5</td>
-      <td>12.6</td>
+      <td align="center">3.5</td>
+      <td align="center">2.5</td>
+      <td align="center">12.6</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>1269298.78</td>
-      <td>5584451.61</td>
-      <td>23601.16</td>
+      <td align="center">1269298.78</td>
+      <td align="center">5584451.61</td>
+      <td align="center">23601.16</td>
     </tr>
     <tr>
       <td rowspan="4">Standardization of String Data</td>
       <td>Code Execution Time (s)</td>
-      <td>0.6550</td>
-      <td>0.0407</td>
-      <td>4.2237</td>
+      <td align="center">0.6550</td>
+      <td align="center">0.0407</td>
+      <td align="center">4.2237</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>0.4567</td>
-      <td>0.0408</td>
-      <td>0.1824</td>
+      <td align="center">0.4567</td>
+      <td align="center">0.0408</td>
+      <td align="center">0.1824</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>3.5</td>
-      <td>2.0</td>
-      <td>61.0</td>
+      <td align="center">3.5</td>
+      <td align="center">2.0</td>
+      <td align="center">61.0</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>1757211.43</td>
-      <td>2543966.64</td>
-      <td>27448.92</td>
+      <td align="center">1757211.43</td>
+      <td align="center">2543966.64</td>
+      <td align="center">27448.92</td>
     </tr>
     <tr>
       <td rowspan="4">Convert “Total Reviews” to correct data type (int)</td>
       <td>Code Execution Time (s)</td>
-      <td>2.8809</td>
-      <td>0.0260</td>
-      <td>5.1355</td>
+      <td align="center">2.8809</td>
+      <td align="center">0.0260</td>
+      <td align="center">5.1355</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>12.7351</td>
-      <td>0.0420</td>
-      <td>0.1679</td>
+      <td align="center">12.7351</td>
+      <td align="center">0.0420</td>
+      <td align="center">0.1679</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>4.0</td>
-      <td>2.5</td>
-      <td>21.6</td>
+      <td align="center">4.0</td>
+      <td align="center">2.5</td>
+      <td align="center">21.6</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>39949.87</td>
-      <td>4434281.69</td>
-      <td>22410.57</td>
+      <td align="center">39949.87</td>
+      <td align="center">4434281.69</td>
+      <td align="center">22410.57</td>
     </tr>
     <tr>
       <td rowspan="4">Convert “Quantity Sold” to correct data type (int)</td>
       <td>Code Execution Time (s)</td>
-      <td>3.9448</td>
-      <td>0.0843</td>
-      <td>4.1328</td>
+      <td align="center">3.9448</td>
+      <td align="center">0.0843</td>
+      <td align="center">4.1328</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>19.3337</td>
-      <td>0.3887</td>
-      <td>0.1983</td>
+      <td align="center">19.3337</td>
+      <td align="center">0.3887</td>
+      <td align="center">0.1983</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>25.6</td>
-      <td>2.0</td>
-      <td>6.0</td>
+      <td align="center">25.6</td>
+      <td align="center">2.0</td>
+      <td align="center">6.0</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>29174.87</td>
-      <td>1365230.27</td>
-      <td>27847.80</td>
+      <td align="center">29174.87</td>
+      <td align="center">1365230.27</td>
+      <td align="center">27847.80</td>
     </tr>
     <tr>
       <td rowspan="4">Check and Handle Missing Values</td>
       <td>Code Execution Time (s)</td>
-      <td>0.3365</td>
-      <td>0.0300</td>
-      <td>18.2981</td>
+      <td align="center">0.3365</td>
+      <td align="center">0.0300</td>
+      <td align="center">18.2981</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>19.8926</td>
-      <td>0.0498</td>
-      <td>0.2372</td>
+      <td align="center">19.8926</td>
+      <td align="center">0.0498</td>
+      <td align="center">0.2372</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>3.5</td>
-      <td>2.0</td>
-      <td>12.5</td>
+      <td align="center">3.5</td>
+      <td align="center">2.0</td>
+      <td align="center">12.5</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>341954.53</td>
-      <td>336814.05</td>
-      <td>8910.27</td>
+      <td align="center">341954.53</td>
+      <td align="center">336814.05</td>
+      <td align="center">8910.27</td>
     </tr>
     <tr>
       <td rowspan="4">Check and Handle Duplicates</td>
       <td>Code Execution Time (s)</td>
-      <td>0.6107</td>
-      <td>0.0859</td>
-      <td>65.1819</td>
+      <td align="center">0.6107</td>
+      <td align="center">0.0859</td>
+      <td align="center">65.1819</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>20.1169</td>
-      <td>0.0745</td>
-      <td>2.3469</td>
+      <td align="center">20.1169</td>
+      <td align="center">0.0745</td>
+      <td align="center">2.3469</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>3.5</td>
-      <td>2.5</td>
-      <td>13.6</td>
+      <td align="center">3.5</td>
+      <td align="center">2.5</td>
+      <td align="center">13.6</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>188440.81</td>
-      <td>1339814.70</td>
-      <td>1742.75</td>
+      <td align="center">188440.81</td>
+      <td align="center">1339814.70</td>
+      <td align="center">1742.75</td>
     </tr>
     <tr>
       <td rowspan="4">Export cleaned dataset file for optimization</td>
       <td>Code Execution Time (s)</td>
-      <td>4.5099</td>
-      <td>0.0962</td>
-      <td>10.6576</td>
+      <td align="center">4.5099</td>
+      <td align="center">0.0962</td>
+      <td align="center">10.6576</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>3.8787</td>
-      <td>0.0953</td>
-      <td>0.0928</td>
+      <td align="center">3.8787</td>
+      <td align="center">0.0953</td>
+      <td align="center">0.0928</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>3.5</td>
-      <td>6.0</td>
-      <td>75.1</td>
+      <td align="center">3.5</td>
+      <td align="center">6.0</td>
+      <td align="center">75.1</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>25191.72</td>
-      <td>1918315.45</td>
-      <td>10658.73</td>
+      <td align="center">25191.72</td>
+      <td align="center">1918315.45</td>
+      <td align="center">10658.73</td>
     </tr>
   </tbody>
 </table>
@@ -583,77 +583,77 @@ To improve performance, two faster alternatives were introduced, which are Polar
     <tr>
       <td rowspan="4">Grouping Products into 4 categories based on price (Budget Friendly, Affordable, Mid-Range and Premium Price)</td>
       <td>Code Execution Time (s)</td>
-      <td>0.6036</td>
-      <td>0.5189</td>
-      <td>22.6163</td>
+      <td align="center">0.6036</td>
+      <td align="center">0.5189</td>
+      <td align="center">22.6163</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>19.2549</td>
-      <td>0.1225</td>
-      <td>0.3516</td>
+      <td align="center">19.2549</td>
+      <td align="center">0.1225</td>
+      <td align="center">0.3516</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>88.6</td>
-      <td>90.0</td>
-      <td>5.5</td>
+      <td align="center">88.6</td>
+      <td align="center">90.0</td>
+      <td align="center">5.5</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>188187.82</td>
-      <td>218918.57</td>
-      <td>5022.74</td>
+      <td align="center">188187.82</td>
+      <td align="center">218918.57</td>
+      <td align="center">5022.74</td>
     </tr>
     <tr>
       <td rowspan="4">Grouping Products into 4 categories based on ‘Total Reviews’ (Least, Below Average, Above Average and Most Popular)</td>
       <td>Code Execution Time (s)</td>
-      <td>0.9005</td>
-      <td>0.2981</td>
-      <td>13.5979</td>
+      <td align="center">0.9005</td>
+      <td align="center">0.2981</td>
+      <td align="center">13.5979</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>15.0830</td>
-      <td>0.0664</td>
-      <td>0.3121</td>
+      <td align="center">15.0830</td>
+      <td align="center">0.0664</td>
+      <td align="center">0.3121</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>86.9</td>
-      <td>100.0</td>
-      <td>19.0</td>
+      <td align="center">86.9</td>
+      <td align="center">100.0</td>
+      <td align="center">19.0</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>126141.24</td>
-      <td>381122.98</td>
-      <td>8353.95</td>
+      <td align="center">126141.24</td>
+      <td align="center">381122.98</td>
+      <td align="center">8353.95</td>
     </tr>
     <tr>
       <td rowspan="4">Evaluate and Rank Market Performance based on “Quantity Sold” for each “Location”</td>
       <td>Code Execution Time (s)</td>
-      <td>2.1653</td>
-      <td>0.1121</td>
-      <td>1.8099</td>
+      <td align="center">2.1653</td>
+      <td align="center">0.1121</td>
+      <td align="center">1.8099</td>
     </tr>
     <tr>
       <td>Peak Memory Usage (MB)</td>
-      <td>6.2297</td>
-      <td>0.0222</td>
-      <td>0.1632</td>
+      <td align="center">6.2297</td>
+      <td align="center">0.0222</td>
+      <td align="center">0.1632</td>
     </tr>
     <tr>
       <td>CPU Usage (%)</td>
-      <td>95.5</td>
-      <td>100.0</td>
-      <td>56.9</td>
+      <td align="center">95.5</td>
+      <td align="center">100.0</td>
+      <td align="center">56.9</td>
     </tr>
     <tr>
       <td>Throughput (rows/s)</td>
-      <td>52461.36</td>
-      <td>1013159.21</td>
-      <td>62763.71</td>
+      <td align="center">52461.36</td>
+      <td align="center">1013159.21</td>
+      <td align="center">62763.71</td>
     </tr>
   </tbody>
 </table>
@@ -926,7 +926,7 @@ By adopting these improvements, the project has the potential to evolve into a r
           <em>Figure 33: Output Screenshot of Grouping Products into 4 Categories based on “Total Reviews” by using Polars</em>
       </p>
     </td>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput22.png" alt="Screenshots of Output 22">
       <p align="center">
           <em>Figure 34: Output Screenshot of Evaluating and Ranking Market Performance based on “Quantity Sold” for each “Location” by using Polars</em>
