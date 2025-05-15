@@ -418,196 +418,235 @@ By adopting these improvements, the project has the potential to evolve into a r
 ### Screenshots of output
 <table border="solid" align="center">
   <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput1.png" alt="Screenshots of Output 1"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput1.png" alt="Screenshots of Output 1">
       <p align="center">
           <em>Figure 13: Output Screenshot of Dataset Loading and Display by using Pandas</em>
       </p>
     </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput2.png" alt="Screenshots of Output 2"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput2.png" alt="Screenshots of Output 2">
       <p align="center">
           <em>Figure 14: Output Screenshot of Dataset Integration by using Pandas</em>
       </p>
     </td>
   </tr>
   <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput3.png" alt="Screenshots of Output 3"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput4.png" alt="Screenshots of Output 4"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput5.png" alt="Screenshots of Output 5"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput6.png" alt="Screenshots of Output 6"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput7.png" alt="Screenshots of Output 7"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput3.png" alt="Screenshots of Output 3">
       <p align="center">
           <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
       </p>
     </td>
     <td align="center">
+      <img src="Images/ScreenshotsOfOutput4.png" alt="Screenshots of Output 4">
+      <p align="center">
+          <em>Figure 16: Output Screenshot of Converting “Total Reviews” to int Data Type by using Pandas</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput5.png" alt="Screenshots of Output 5">
+      <p align="center">
+          <em>Figure 17: Output Screenshot of Converting “Quantity Sold” to int Data Type by using Pandas</em>
+      </p>
+    </td>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput6.png" alt="Screenshots of Output 6">
+      <p align="center">
+          <em>Figure 18: Output Screenshot of Checking and Handling Missing Values by using Pandas</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput7.png" alt="Screenshots of Output 7">
+      <p align="center">
+          <em>Figure 19: Output Screenshot of Checking and Handling Duplicates by using Pandas</em>
+      </p>
+    </td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput8.png" alt="Screenshots of Output 8">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 20: Output Screenshot of Exporting Cleaned Dataset File by using Pandas</em>
       </p>
     </td>
   </tr>
   <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput9.png" alt="Screenshots of Output 9"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput9.png" alt="Screenshots of Output 9">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 21: Output Screenshot of Grouping Product into 4 Categories based on “Price” by using Pandas</em>
       </p>
     </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput10.png" alt="Screenshots of Output 10"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput10.png" alt="Screenshots of Output 10">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput11.png" alt="Screenshots of Output 11"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput12.png" alt="Screenshots of Output 12"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 22: Output Screenshot of Grouping Products into 4 Categories based on “Total Reviews” by using Pandas</em>
       </p>
     </td>
   </tr>
   <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput13.png" alt="Screenshots of Output 13"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput11.png" alt="Screenshots of Output 11">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 23: Output Screenshot of Evaluating and Ranking Market Performance based on “Quantity Sold” for each “Location” by using Pandas</em>
       </p>
     </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput14.png" alt="Screenshots of Output 14"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput12.png" alt="Screenshots of Output 12">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput15.png" alt="Screenshots of Output 15"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput16.png" alt="Screenshots of Output 16"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 24: Output Screenshot of Dataset Loading and Display by using Polars</em>
       </p>
     </td>
   </tr>
   <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput17.png" alt="Screenshots of Output 17"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput13.png" alt="Screenshots of Output 13">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 25: Output Screenshot of Dataset Integration by using Polars</em>
       </p>
     </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput18.png" alt="Screenshots of Output 18"></center>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput14.png" alt="Screenshots of Output 14">
       <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput19.png" alt="Screenshots of Output 19"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
-      </p>
-    </td>
-    <td>
-      <center><img src="Images/ScreenshotsOfOutput20.png" alt="Screenshots of Output 20"></center>
-      <p align="center">
-          <em>Figure 15: Output Screenshot of Standardization of String Data by using Pandas</em>
+          <em>Figure 26: Output Screenshot of Standardization of String Data by using Pandas</em>
       </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput15.png" alt="Screenshots of Output 15">
+      <p align="center">
+          <em>Figure 27: Output Screenshot of Converting “Total Reviews” to int Data Type by using Polars</em>
+      </p>
+    </td>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput16.png" alt="Screenshots of Output 16">
+      <p align="center">
+          <em>Figure 28: Output Screenshot of Converting “Quantity Sold” to int Data Type by using Polars</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput17.png" alt="Screenshots of Output 17">
+      <p align="center">
+          <em>Figure 29: Output Screenshot of Checking and Handling Missing Values by using Polars</em>
+      </p>
+    </td>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput18.png" alt="Screenshots of Output 18">
+      <p align="center">
+          <em>Figure 30: Output Screenshot of Checking and Handling Duplicates by using Polars</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput19.png" alt="Screenshots of Output 19">
+      <p align="center">
+          <em>Figure 31: Output Screenshot of Exporting Cleaned Dataset File by using Polars</em>
+      </p>
+    </td>
+    <td align="center">
+      <img src="Images/ScreenshotsOfOutput20.png" alt="Screenshots of Output 20">
+      <p align="center">
+          <em>Figure 32: Output Screenshot of Grouping Product into 4 Categories based on “Price” by using Polars</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput21.png" alt="Screenshots of Output 21">
+      <p align="center">
+          <em>Figure 33: Output Screenshot of Grouping Products into 4 Categories based on “Total Reviews” by using Polars</em>
+      </p>
     </td>
     <td>
       <img src="Images/ScreenshotsOfOutput22.png" alt="Screenshots of Output 22">
+      <p align="center">
+          <em>Figure 34: Output Screenshot of Evaluating and Ranking Market Performance based on “Quantity Sold” for each “Location” by using Polars</em>
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput23.png" alt="Screenshots of Output 23">
+      <p align="center">
+          <em>Figure 35: Output Screenshot of Dataset Loading and Display by using PySpark</em>
+      </p>
     </td>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput24.png" alt="Screenshots of Output 24">
+      <p align="center">
+          <em>Figure 36: Output Screenshot of Dataset Integration by using PySpark</em>
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput25.png" alt="Screenshots of Output 25">
+      <p align="center">
+          <em>Figure 37: Output Screenshot of Standardization of String Data by using PySpark</em>
+      </p>
     </td>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput26.png" alt="Screenshots of Output 26">
+      <p align="center">
+          <em>Figure 38: Output Screenshot of Converting “Total Reviews” to int Data Type by using PySpark</em>
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput27.png" alt="Screenshots of Output 27">
+      <p align="center">
+          <em>Figure 39: Output Screenshot of Converting “Quantity Sold” to int Data Type by using PySpark</em>
+      </p>
     </td>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput28.png" alt="Screenshots of Output 28">
+      <p align="center">
+          <em>Figure 40: Output Screenshot of Checking and Handling Missing Values by using PySpark</em>
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput29.png" alt="Screenshots of Output 29">
+      <p align="center">
+          <em>Figure 41: Output Screenshot of Checking and Handling Duplicates by using PySpark</em>
+      </p>
     </td>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput30.png" alt="Screenshots of Output 30">
+      <p align="center">
+          <em>Figure 42: Output Screenshot of Exporting Cleaned Dataset File by using PySpark</em>
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput31.png" alt="Screenshots of Output 31">
+      <p align="center">
+          <em>Figure 43: Output Screenshot of Grouping Product into 4 Categories based on “Price” by using PySpark</em>
+      </p>
     </td>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput32.png" alt="Screenshots of Output 32">
+      <p align="center">
+          <em>Figure 44: Output Screenshot of Grouping Products into 4 Categories based on “Total Reviews” by using PySpark</em>
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="Images/ScreenshotsOfOutput33.png" alt="Screenshots of Output 33">
+      <p align="center">
+          <em>Figure 45: Output Screenshot of Evaluating and Ranking Market Performance based on “Quantity Sold” for each “Location” by using PySpark</em>
+      </p>
     </td>
   </tr>
 </table>
