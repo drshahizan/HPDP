@@ -51,7 +51,7 @@ The specific data fields that will be extracted from each article are:
 - **Category:** The label that describes the main topic area of the article.
 
 ## 2.0 System Design & Architecture
-![web crawler diagram](https://github.com/user-attachments/assets/314304d8-271e-472f-9926-29e3a289f493)
+![web crawler diagram (1)](https://github.com/user-attachments/assets/43d99f04-c044-4df7-841d-8f5a918db6e1)
 
 ### 2.1 Description of architecture 
 This system architecture illustrates the workflow of our web scraping and data preprocessing pipeline that extracts, cleans, and stores structured news data from the NewStraitsTimes(https://www.nst.com.my/news). This system follows a Data Flow Architecture Pattern where data flows through a linear sequence of processing stages of Input, Intermediate Processing and Output. The architecture consists of:<br/><br/>
