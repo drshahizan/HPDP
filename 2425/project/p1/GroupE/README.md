@@ -358,3 +358,33 @@ Loading large CSV files at one time could be heavy. So, processing the data in c
 ## Appendices
 #### Sample Code Snippets
 
+### 📂 Web Scraper Source Code
+
+| Figure | Description | Preview |
+|--------|-------------|---------|
+| **Figure 7** | Web Scraper Source Code – Part 1 | ![Figure 7](https://github.com/user-attachments/assets/73c86009-3978-4d3e-bf04-9dd1b5db0ac1) |
+| **Figure 8** | Web Scraper Source Code – Part 2 | ![Figure 8](https://github.com/user-attachments/assets/b2695688-96a2-4e9a-84df-f2e13c9b10b6) |
+
+---
+
+### 📊 Performance Evaluation Charts
+
+| Figure | Description | Preview |
+|--------|-------------|---------|
+| **Figure 9** | Performance Evaluation – Chart 1 | ![Chart 1](https://github.com/user-attachments/assets/79cf5340-8187-4b7c-80b5-9ad978be8dc9) |
+| **Figure 10** | Performance Evaluation – Chart 2 | ![Chart 2](https://github.com/user-attachments/assets/3dbb508a-efff-4c72-b4de-9031f4f57bd9) |
+
+---
+
+### 🖥️ Output Screenshots
+
+| Figure | Description | Preview |
+|--------|-------------|---------|
+| **Figure 11** | Web Scraper Output Screenshot | ![Output](https://github.com/user-attachments/assets/07212559-c02f-4665-9202-f356c5aa89cb) |
+| **Figure 12** | Performance Evaluation – Chart 1 | ![Chart](https://github.com/user-attachments/assets/35175eb9-6eb6-4069-b583-e66a0a586ded) |
+| **Figure 13** | Performance Evaluation – Chart 2 | ![Chart](https://github.com/user-attachments/assets/c2826b01-7b72-4a44-afd6-fe18b181f2ad) |
+| **Figure 14** | Performance Evaluation – Chart 3 | ![Chart](https://github.com/user-attachments/assets/951a2aa0-bf18-4e61-99ea-ad341e400c23) |
+
+
+
+
