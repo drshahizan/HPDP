@@ -33,19 +33,20 @@ A Python-based web scraper that extracts car listings from [Carlist.my](https://
 ---
 ## 📂 Project Files
 
-| File Name            | Description                             | Link                          |
-|----------------------|---------------------------------------|-------------------------------|
-| Raw Dataset              | Cleaned and raw data with URLs         | [Raw Dataset](https://drive.google.com/file/d/1eK8V7xZXzvBDPVBAppC2TzItXCjdHnkr/view?usp=sharing)|
-| Clean Dataset              | Cleaned and raw data with URLs         | [Clean Dataset](https://drive.google.com/file/d/1KVVZ2WM5iz2jZFF2iFwH8Gn16O9gvoxw/view?usp=sharing)|
-| Web Crawler Script   | Python script to scrape Carlist.my     | [Main Crawler](p1/main_crawler.ipynb) |
-| Data Cleaning Code   | Code to clean and preprocess data      | [Data Cleaning Code](p1/clean_data.ipynb)|
-| Optimization Code    | Scripts for performance optimization   | [Optimization Performance Code](p1/performances_after.ipynb)|
-| Optimization Record Part 1    | Results 1 for performance optimization   | [Optimization Performance Record Part 1](p2/performance_after_part2.csv)|
-| Optimization Record Part 2   | Results 2 for performance optimization   | [Optimization Performance Record Record Part 2](p2/performance_after_part2.csv)|
-| Optimization Record Part 3  | Results 3 for performance optimization   | [Optimization Performance Record Part 3](p2/performance_after_part3.csv)|
-| Evalutation Chart | Evaluation Chart for performance optimization   | [Evaluation Charts](p2/performance_after_part3.csv)|
-| Project Report       | Detailed project documentation         | [Final Report](report/Final_Report.pdf)      |
-| Presentation Slides  | Summary slides for project overview    | [Presentation Slides](report/PresentationSlide.pdf)|
+| File Name                     | Description                                | Link |
+|------------------------------|--------------------------------------------|------|
+| **Raw Dataset**              | Cleaned and raw data with URLs             | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](https://drive.google.com/file/d/1eK8V7xZXzvBDPVBAppC2TzItXCjdHnkr/view?usp=sharing) |
+| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](https://drive.google.com/file/d/1KVVZ2WM5iz2jZFF2iFwH8Gn16O9gvoxw/view?usp=sharing) |
+| **Web Crawler Script**       | Python script to scrape Carlist.my         | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/main_crawler.ipynb) |
+| **Data Cleaning Code**       | Script to clean and preprocess the data    | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/clean_data.ipynb) |
+| **Optimization Code**        | Performance-optimized transformation code  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/performances_after.ipynb) |
+| **Optimization Record Part 1** | Benchmark results part 1                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part1.csv) |
+| **Optimization Record Part 2** | Benchmark results part 2                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part2.csv) |
+| **Optimization Record Part 3** | Benchmark results part 3                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part3.csv) |
+| **Evaluation Chart**         | Visual comparison of optimization results  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p2/evaluation_charts.ipynb) |
+| **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/Final_Report.pdf) |
+| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/PresentationSlide.pdf) |
+
 
 ---
 
