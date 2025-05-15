@@ -292,23 +292,31 @@ The chart shows Polars has the highest average throughput. Modin followed with a
 During this project, several challenges were encountered and certain limitations of the developed solution were identified: <br/>
 
 1. Initial Target Website Infeasibility: Originally, the project aimed to scrape the Lazada website due to its extensive and valuable data. However, we encountered significant difficulties in successfully scraping Lazada. This challenge, along with the fact that another group had also chosen Lazada, led to a strategic decision to switch our target to the New Straits Times (NST) website. <br/>
+
 2. Tooling and Environment Constraints: We initially considered using Scrapy, a powerful web scraping framework. However, we found that Scrapy was not fully compatible with Google Colab, our preferred development environment, because processing a large dataset (aiming for over 100,000 records) on local systems will have a potential resource constraint. Therefore, we aimed to overcome it by using a cloud-based environment. As a result, we opted to use Beautiful Soup (in conjunction with Playwright and Asyncio) for scraping. <br/>
+
 3. Anti-Scraping Measures: Websites often employ anti-scraping measures to protect their content. While our implemented strategies such as rate-limiting and human-like interaction patterns aimed to navigate these on the NST website, such defenses are indeed a challenge in web scraping. They can limit the speed of data collection and require ongoing adjustments if the target website modifies its protective mechanisms. <br/>
+
 4. Data Quality and Inconsistency: The NST website, particularly the older articles from 2014 to 2019, has data quality issues. These included human typographical errors, non-standardized data formats and inconsistencies in how information was presented such as the variations in place names like "Johor Baharu". This data noisiness required more intensive effort during the data cleaning phase and represents a limitation in the raw data's initial quality.
 
 ## 8.0 Conclusion & Future Work
 ### 8.1 Summary of Findings
 To conclude, in this project we had successfully designed and built a web scraper by using tools like Playwright, Beautiful Soup and Asyncio to collect more than 110,000 news article data from pages of the New Straits Times website. For web scraping, Playwright is used to automate browsers, navigate to web pages and click buttons to get the HTML pages. Beautiful Soup is used to parse the HTML page and extract the data like title, teaser, URL and category by searching the HTML page. Asyncio is used to improve the process of web scraping by handling many tasks concurrently. <br/>
+
 After collecting the data, we clean and process the data to make it more organized, as the data collected from web scraping is raw and not organized. We had used 3 libraries and tools, which are Pandas, Polars and Modin in Python, to process the data. We then compared these 3 different libraries and tools in time, memory, CPU usage and throughput. We use Pandas as our traditional library for data processing and Polars and Modin libraries to provide optimization methods like multithreading and multiprocessing to improve the speed and performance of data processing. As for Pandas, it works slower with large datasets as it processes data in a single thread. For Polars, it is the fastest way as it uses multithreading to handle many tasks at a time. Lastly, Modin also improved performance by using multiprocessing to split tasks across multiple CPU cores. As a result, Polars and Modin are better choices for handling large data compared to pandas. This is because Polars and Modin provide optimization methods that can improve the performance of data processing. So, using the correct tools is important as the optimized tools help to improve the performance and reduce the time to process big data.
 
 ### 8.2 What could be improved
 In this project, we learned many skills in web scraping and data processing and faced many problems and challenges while handling the data. The challenges that we faced were website restriction, inconsistent data and technical issues with the tools that we used in Google Colab. There are still many things that can be improved in this project. The improvements are: <br/>
+
 * **Save the collected and cleaned data into a database**
 Now we save the data into CSV files for simple storage.  But it would be better to store the data in databases like PostgreSQL, MongoDB and NoSQL. This is because databases can handle large data efficiently and with better organization. <br/>
+
 * **Use distributed computing for web scraping**
 This is to run multiple scrapers at the same time across many different machines. For example, we can use the Scrapy cluster to run many tasks in parallel. <br/>
+
 * **Improve fault tolerance in web scraping**
 If the code suddenly crashes or stops running in the middle due to some external factor, all the progress might be lost. So, saving progress frequently is important for scraping for a long time. <br/>
+
 * **Process data in chunks**
 Loading large CSV files at one time could be heavy. So, processing the data in chunks by setting the chunk size could improve the performance of data processing.
 
