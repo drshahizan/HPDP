@@ -158,7 +158,6 @@ Load the raw dataset from the NST_News_Articles.csv file using pd.read_excel.<br
 | Pandas | Polars | Modin |
 |--------|--------|--------|
 | ![Screenshot 2025-05-14 212556](https://github.com/user-attachments/assets/4d93d061-f382-4bf8-a2d7-49dfa1ccbd84) | ![Screenshot 2025-05-15 191213](https://github.com/user-attachments/assets/ef186eda-13d8-4780-883a-e2ff758c13ef) | ![Screenshot 2025-05-15 191231](https://github.com/user-attachments/assets/f9ed8bb1-330a-4cc0-8bf7-e662ebe2727e) |
-(https://github.com/user-attachments/assets/f9ed8bb1-330a-4cc0-8bf7-e662ebe2727e) |
 
 
 
