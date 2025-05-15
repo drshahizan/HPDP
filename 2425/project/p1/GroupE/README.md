@@ -381,10 +381,10 @@ Loading large CSV files at one time could be heavy. So, processing the data in c
 | Figure | Description | Preview |
 |--------|-------------|---------|
 | **Figure 11** | Web Scraper Output Screenshot | ![Output](https://github.com/user-attachments/assets/07212559-c02f-4665-9202-f356c5aa89cb) |
-| **Figure 12** | Performance Evaluation – Chart 1 | ![Chart](https://github.com/user-attachments/assets/35175eb9-6eb6-4069-b583-e66a0a586ded) |
-| **Figure 13** | Performance Evaluation – Chart 2 | ![Chart](https://github.com/user-attachments/assets/c2826b01-7b72-4a44-afd6-fe18b181f2ad) |
-| **Figure 14** | Performance Evaluation – Chart 3 | ![Chart](https://github.com/user-attachments/assets/951a2aa0-bf18-4e61-99ea-ad341e400c23) |
-
+| **Figure 12** | Performance Evaluation – Chart 1 | <img src="https://github.com/user-attachments/assets/2dbe905f-a43a-4906-b8f9-fd1f5f2a29b2" width="540" height="405"> |
+| **Figure 13** | Performance Evaluation – Chart 2 | <img src="https://github.com/user-attachments/assets/f8034c77-cdf9-4c01-85e4-4d6543b49f31" width="540" height="405"> |
+| **Figure 14** | Performance Evaluation – Chart 3 | <img src="https://github.com/user-attachments/assets/d4459581-a580-441b-bea9-5b8c8d5aecb6" width="540" height="405"> |
+| **Figure 15** | Performance Evaluation – Chart 4 | <img src="https://github.com/user-attachments/assets/b9aa825e-75b6-44a6-a674-0d1e30de39d7" width="540" height="405"> |
 
 
 
