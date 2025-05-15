@@ -398,6 +398,23 @@ By adopting these improvements, the project has the potential to evolve into a r
 
 ### Appendices
 ### Sample code snippets
+1. **Web Scrapping:** [Codes](Codes/Latest_Project1.py)
+   
+2. **Pandas:**
+   - [Codes in PDF format(Part 1)](Documents/P1_PANDAS.pdf)
+   - [Codes in PDF format(Part 2)](Documents/P2_PANDAS.ipynb)
+
+3. **Polars:**
+   - [Codes in PDF format(Part 1)](Documents/P1_POLARS.ipynb)
+   - [Codes in PDF format(Part 2)](Documents/P2_POLARS.ipynb)
+
+4. **PySpark:**
+   - [Codes in PDF format(Part 1)](Documents/P1_PYSPARK.ipynb)
+   - [Codes in PDF format(Part 2)](Documents/P1_PYSPARK.ipynb)
+
+5. **Graph:** [Codes](Codes/graph.ipynb)
+
+
 ### Screenshots of output
 ### Links to full code repo or dataset
 1. **Pandas:**
