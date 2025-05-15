@@ -1,0 +1,2 @@
+version,total_records,total_time(sec),cpu_start(%),cpu_end(%),mem_start(MB),mem_end(MB),throughput(rec/sec)
+Without Optimization,200009,16141.85,2.5,2.5,166.88,197.24,12.39
