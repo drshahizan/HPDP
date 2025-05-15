@@ -418,8 +418,18 @@ By adopting these improvements, the project has the potential to evolve into a r
 ### Screenshots of output
 <table border="solid" align="center">
   <tr>
-    <td><img src="Images/ScreenshotsOfOutput1.png" alt="Screenshots of Output 1"></td>
-    <td><img src="Images/ScreenshotsOfOutput2.png" alt="Screenshots of Output 2"></td>
+    <td>
+      <center><img src="Images/ScreenshotsOfOutput1.png" alt="Screenshots of Output 1"></center>
+      <p align="center">
+          <em>Figure 13: Output Screenshot of Dataset Loading and Display by using Pandas</em>
+      </p>
+    </td>
+    <td>
+      <center><img src="Images/ScreenshotsOfOutput2.png" alt="Screenshots of Output 2"></center>
+      <p align="center">
+          <em>Figure 13: Output Screenshot of Dataset Loading and Display by using Pandas</em>
+      </p>
+    </td>
   </tr>
   <tr>
     <td><img src="Images/ScreenshotsOfOutput3.png" alt="Screenshots of Output 3"></td>
