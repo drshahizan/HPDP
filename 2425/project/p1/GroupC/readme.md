@@ -292,6 +292,9 @@ Finally, for distributed processing an experimental and open source framework wr
        alt="Code Overview of Pandas Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
+<p align="center">
+  <em>Figure 2: Code Overview of Pandas Part 1</em>
+</p>
 <br>
 <p>
   <b><u>Code Overview of Pandas Part 2</u></b>
@@ -301,6 +304,9 @@ Finally, for distributed processing an experimental and open source framework wr
        alt="Code Overview of Pandas Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
+<p align="center">
+  <em>Figure 3: Code Overview of Pandas Part 2</em>
+</p>
 <br>
 <p>
   <b><u>Code Overview of Polars Part 1</u></b>
@@ -310,6 +316,9 @@ Finally, for distributed processing an experimental and open source framework wr
        alt="Code Overview of Polars Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
+<p align="center">
+  <em>Figure 4: Code Overview of Polars Part 1</em>
+</p>
 <br>
 <p>
   <b><u>Code Overview of Polars Part 2</u></b>
@@ -319,6 +328,9 @@ Finally, for distributed processing an experimental and open source framework wr
        alt="Code Overview of Polars Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
+<p align="center">
+  <em>Figure 5: Code Overview of Polars Part 2</em>
+</p>
 <br>
 <p>
   <b>Code Overview of PySpark Part 1:</b>
@@ -328,6 +340,9 @@ Finally, for distributed processing an experimental and open source framework wr
        alt="Code Overview of PySpark Part 1"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
+<p align="center">
+  <em>Figure 6: Code Overview of PySpark Part 1</em>
+</p>
 <br>
 <p>
   <b>Code Overview of PySpark Part 2:</b>
@@ -337,6 +352,9 @@ Finally, for distributed processing an experimental and open source framework wr
        alt="Code Overview of PySpark Part 2"
        style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
 </div>
+<p align="center">
+  <em>Figure 7: Code Overview of PySpark Part 2</em>
+</p>
 
 ### 6.0 Performance Evaluation
 #### 6.1 Before VS After Optimization
