@@ -178,6 +178,13 @@ Clean the teaser column by removing unwanted characters
 |![image](https://github.com/user-attachments/assets/536ba9ae-5bcf-4919-9d3e-a2871a4e3eeb)|![image](https://github.com/user-attachments/assets/c4f08a16-5254-4665-867b-94f343c45ac3)| ![image](https://github.com/user-attachments/assets/b104f14e-567d-46cb-b875-1513833fc3e7)|
 
 #### 6. Splitting the place from the teaser column
+Get the place from the teaser column
+| Pandas | Polars | Modin |
+|--------|--------|--------|
+|![image](https://github.com/user-attachments/assets/22dffeed-98d1-45d6-8b73-7623c5679da9)| ![image](https://github.com/user-attachments/assets/c4c80a19-377e-4cf9-a11a-5df6f8e4d3c8)| ![image](https://github.com/user-attachments/assets/689fef7d-1528-4b37-a823-17319e54858e)|
+
+
+
 #### 7. Standardize place names
 #### 8. Extract date from URL
 
