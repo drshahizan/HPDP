@@ -398,7 +398,95 @@ By adopting these improvements, the project has the potential to evolve into a r
 
 ### Appendices
 ### Sample code snippets
+1. **Web Scrapping:** [Codes](Codes/Latest_Project1.py)
+   
+2. **Pandas:**
+   - [Codes in PDF format(Part 1)](Documents/P1_PANDAS.pdf)
+   - [Codes in PDF format(Part 2)](Documents/P2_PANDAS.ipynb)
+
+3. **Polars:**
+   - [Codes in PDF format(Part 1)](Documents/P1_POLARS.ipynb)
+   - [Codes in PDF format(Part 2)](Documents/P2_POLARS.ipynb)
+
+4. **PySpark:**
+   - [Codes in PDF format(Part 1)](Documents/P1_PYSPARK.ipynb)
+   - [Codes in PDF format(Part 2)](Documents/P1_PYSPARK.ipynb)
+
+5. **Graph:** [Codes](Codes/graph.ipynb)
+
+
 ### Screenshots of output
+<table border="solid" align="center">
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput1.png" alt="Screenshots of Output 1"></td>
+    <td><img src="Images/ScreenshotsOfOutput2.png" alt="Screenshots of Output 2"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput3.png" alt="Screenshots of Output 3"></td>
+    <td><img src="Images/ScreenshotsOfOutput4.png" alt="Screenshots of Output 4"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput5.png" alt="Screenshots of Output 5"></td>
+    <td><img src="Images/ScreenshotsOfOutput6.png" alt="Screenshots of Output 6"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput7.png" alt="Screenshots of Output 7"></td>
+    <td><img src="Images/ScreenshotsOfOutput8.png" alt="Screenshots of Output 8"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput9.png" alt="Screenshots of Output 9"></td>
+    <td><img src="Images/ScreenshotsOfOutput10.png" alt="Screenshots of Output 10"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput11.png" alt="Screenshots of Output 11"></td>
+    <td><img src="Images/ScreenshotsOfOutput12.png" alt="Screenshots of Output 12"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput13.png" alt="Screenshots of Output 13"></td>
+    <td><img src="Images/ScreenshotsOfOutput14.png" alt="Screenshots of Output 14"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput15.png" alt="Screenshots of Output 15"></td>
+    <td><img src="Images/ScreenshotsOfOutput16.png" alt="Screenshots of Output 16"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput17.png" alt="Screenshots of Output 17"></td>
+    <td><img src="Images/ScreenshotsOfOutput18.png" alt="Screenshots of Output 18"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput19.png" alt="Screenshots of Output 19"></td>
+    <td><img src="Images/ScreenshotsOfOutput20.png" alt="Screenshots of Output 20"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput21.png" alt="Screenshots of Output 21"></td>
+    <td><img src="Images/ScreenshotsOfOutput22.png" alt="Screenshots of Output 22"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput23.png" alt="Screenshots of Output 23"></td>
+    <td><img src="Images/ScreenshotsOfOutput24.png" alt="Screenshots of Output 24"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput25.png" alt="Screenshots of Output 25"></td>
+    <td><img src="Images/ScreenshotsOfOutput26.png" alt="Screenshots of Output 26"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput27.png" alt="Screenshots of Output 27"></td>
+    <td><img src="Images/ScreenshotsOfOutput28.png" alt="Screenshots of Output 28"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput29.png" alt="Screenshots of Output 29"></td>
+    <td><img src="Images/ScreenshotsOfOutput30.png" alt="Screenshots of Output 30"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput31.png" alt="Screenshots of Output 31"></td>
+    <td><img src="Images/ScreenshotsOfOutput32.png" alt="Screenshots of Output 32"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ScreenshotsOfOutput33.png" alt="Screenshots of Output 33"></td>
+  </tr>
+</table>
+
+
 ### Links to full code repo or dataset
 1. **Pandas:**
    - [Part 1](Codes/P1_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1xi-2SBSYWeEue9q_BF58WCiihWX9j6nN?usp=sharing)
