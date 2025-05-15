@@ -172,19 +172,91 @@ Data processing was first performed using Pandas, which operates in a single-thr
 
 ### 6.2 Processing time, CPU usage, memory usage and throughput
 #### 1. Load data
-| Performance Metrics | Pandas | Polars | Modin |
-|--------|--------|--------|--------|
-| Total Processing Time (seconds) | 1.1660 | 1.0009 | 1.0010 |
-| Inicial CPU Usage (%) | 38.20 | 58.10 | 57.13 |
-| Final CPU Usage (%) | 23.07 | 46.27 | 58.20 |
-| Memory Usage (%) | 21.37 | 21.80 | 21.97 |
-| Throughput (records/sec) | 94922.15 | 110547.61 | 110531.92 |
+| Performance Metrics             | Pandas    | Polars    | Modin     |
+|---------------------------------|-----------|-----------|-----------|
+| Total Processing Time (seconds) | 1.1660    | 1.0009    | 1.0010    |
+| Initial CPU Usage (%)           | 38.20     | 58.10     | 57.13     |
+| Final CPU Usage (%)             | 23.07     | 46.27     | 58.20     |
+| Memory Usage (%)                | 21.37     | 21.80     | 21.97     |
+| Throughput (records/sec)        | 94922.15  | 110547.61 | 110531.92 |
+
 #### 2. Handle Duplicated Data
+| Performance Metrics             | Pandas    | Polars    | Modin    |
+|---------------------------------|-----------|-----------|----------|
+| Total Processing Time (seconds) | 1.1372    | 1.0006    | 1.0733   |
+| Initial CPU Usage (%)           | 10.20     | 12.33     | 74.47    |
+| Final CPU Usage (%)             | 5.17      | 5.37      | 5.50     |
+| Memory Usage (%)                | 21.33     | 21.77     | 22.03    |
+| Throughput (records/sec)        | 93631.39  | 106407.09 | 99201.30 |
+
 #### 3. Handle Missing Data
+| Performance Metrics             | Pandas    | Polars    | Modin    |
+|---------------------------------|-----------|-----------|----------|
+| Total Processing Time (seconds) | 1.1954    | 1.0005    | 1.0723   |
+| Initial CPU Usage (%)           | 6.90      | 4.87      | 25.70    |
+| Final CPU Usage (%)             | 4.90      | 6.20      | 4.70     |
+| Memory Usage (%)                | 21.33     | 21.77     | 22.00    |
+| Throughput (records/sec)        | 88167.97  | 105335.91 | 98292.13 |
+
 #### 4. Clean the Teaser Column
+| Performance Metrics             | Pandas    | Polars    | Modin     |
+|---------------------------------|-----------|-----------|-----------|
+| Total Processing Time (seconds) | 1.1826    | 1.0006    | 1.0007    |
+| Initial CPU Usage (%)           | 5.07      | 4.70      | 47.97     |
+| Final CPU Usage (%)             | 4.87      | 5.20      | 4.40      |
+| Memory Usage (%)                | 21.33     | 21.77     | 22.03     |
+| Throughput (records/sec)        | 89118.82  | 105331.54 | 105321.33 |
+
+| Performance Metrics             | Pandas    | Polars    | Modin    |
+|---------------------------------|-----------|-----------|----------|
+| Total Processing Time (seconds) | 1.1944    | 1.0006    | 1.0445   |
+| Initial CPU Usage (%)           | 10.70     | 5.23      | 46.37    |
+| Final CPU Usage (%)             | 29.37     | 4.53      | 5.03     |
+| Memory Usage (%)                | 21.30     | 21.77     | 21.97    |
+| Throughput (records/sec)        | 86350.94  | 103003.67 | 98679.35 |
+
 #### 5. Splitting the place from 'Teaser' column
+| Performance Metrics             | Pandas    | Polars    | Modin     |
+|---------------------------------|-----------|-----------|-----------|
+| Total Processing Time (seconds) | 1.2424    | 1.0005    | 1.0007    |
+| Initial CPU Usage (%)           | 41.60     | 5.53      | 10.30     |
+| Final CPU Usage (%)             | 31.47     | 28.30     | 38.43     |
+| Memory Usage (%)                | 21.37     | 21.77     | 21.97     |
+| Throughput (records/sec)        | 83065.61  | 103011.94 | 102997.50 |
+
 #### 6. Extract and Standardize Place Names
+| Performance Metrics             | Pandas    | Polars    | Modin   |
+|---------------------------------|-----------|-----------|---------|
+| Total Processing Time (seconds) | 1.1889    | 1.0007    | 1.0010  |
+| Initial CPU Usage (%)           | 5.03      | 39.80     | 100.00  |
+| Final CPU Usage (%)             | 5.03      | 8.70      | 100.00  |
+| Memory Usage (%)                | 21.33     | 21.83     | 21.97   |
+| Throughput (records/sec)        | 86694.45  | 103000.17 | 102964.66 |
+
+| Performance Metrics             | Pandas    | Polars    | Modin    |
+|---------------------------------|-----------|-----------|----------|
+| Total Processing Time (seconds) | 1.1886    | 1.0006    | 1.0609   |
+| Initial CPU Usage (%)           | 4.93      | 5.57      | 38.77    |
+| Final CPU Usage (%)             | 5.20      | 4.33      | 28.70    |
+| Memory Usage (%)                | 21.33     | 21.80     | 21.37    |
+| Throughput (records/sec)        | 86463.74  | 102698.85 | 96861.25 |
+
+| Performance Metrics             | Pandas    | Polars    | Modin    |
+|---------------------------------|-----------|-----------|----------|
+| Total Processing Time (seconds) | 1.1917    | 1.0006    | 1.1003   |
+| Initial CPU Usage (%)           | 6.07      | 5.70      | 76.27    |
+| Final CPU Usage (%)             | 6.00      | 5.50      | 55.57    |
+| Memory Usage (%)                | 21.33     | 21.80     | 21.60    |
+| Throughput (records/sec)        | 86237.43  | 102698.47 | 93389.56 |
+
 #### 7. Extract Date from URL
+| Performance Metrics             | Pandas    | Polars    | Modin     |
+|---------------------------------|-----------|-----------|-----------|
+| Total Processing Time (seconds) | 1.2322    | 1.0008    | 1.0007    |
+| Initial CPU Usage (%)           | 22.50     | 6.43      | 54.40     |
+| Final CPU Usage (%)             | 41.43     | 4.67      | 5.90      |
+| Memory Usage (%)                | 21.40     | 21.80     | 21.30     |
+| Throughput (records/sec)        | 83463.20  | 102673.35 | 102680.96 |
 
 ### 6.3 Charts and Graphs
 To visually summarize the performance differences between Pandas, Polars and Modin, a series of bar charts were generated based on the aggregated performance metrics measured during the data processing.
