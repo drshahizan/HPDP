@@ -347,17 +347,17 @@ To improve performance, two faster alternatives were introduced, which are Polar
 </p>
 
 #### 6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU Usage and Throughput
-<table border="1" cellpadding="5" cellspacing="0">
+<table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
-      <th rowspan="2">Operation</th>
-      <th rowspan="2">Aspects</th>
+      <th rowspan="2" width="30%">Operation</th>
+      <th rowspan="2" width="40%">Aspects</th>
       <th colspan="3">Comparisons</th>
     </tr>
     <tr>
-      <th>Pandas</th>
-      <th>Polars</th>
-      <th>Pyspark</th>
+      <th width="10%">Pandas</th>
+      <th width="10%">Polars</th>
+      <th width="10%">Pyspark</th>
     </tr>
   </thead>
   <tbody>
@@ -566,7 +566,7 @@ To improve performance, two faster alternatives were introduced, which are Polar
     <em>Table 2: Comparison between Data Processing and Cleaning Techniques</em>
 </p>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th rowspan="2">Operation</th>
