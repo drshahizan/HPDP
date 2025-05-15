@@ -122,9 +122,9 @@ Some rows may have missing values in the key column (Teaser). Removed using drop
 `df_cleaned = df_cleaned.dropna()`
 
 ### 4.2 Data structure (CSV/JSON/database)
-The initial data is read from a Microsoft Excel file.
-`rd = pd.read_excel("NST_News_Articles.xlsx")`
-The final data is exported in CSV format.
+The initial data is read from a Microsoft Excel file.<br/>
+`rd = pd.read_excel("NST_News_Articles.xlsx")`<br/>
+The final data is exported in CSV format.<br/>
 `sorted_df.to_csv('finalData.csv',index=False)`
 
 ### 4.3 Transformation and formatting
@@ -132,8 +132,8 @@ In the place column, it has city names.
 - Converts all text to uppercase. Standardize the format so “kuala lumpur” and “KUALA LUMPUR” are treated the same.
 - Splits the value on the ; to keep only the first part.
 - Removes any non-alphabetic characters to ensure the values only contain clean, readable city names. <br/>
-`df_cleaned['Place'] = df_cleaned['Place'].str.upper()`
-`df_cleaned['Place'] = df_cleaned['Place'].str.split(',').str[0]`
+`df_cleaned['Place'] = df_cleaned['Place'].str.upper()`<br/>
+`df_cleaned['Place'] = df_cleaned['Place'].str.split(',').str[0]`<br/>
 `df_cleaned['Place'] = df_cleaned['Place'].str.replace(r'[^a-zA-Z\s]+','',regex=True)`
 
 ## 5.0 Optimization Techniques
@@ -143,3 +143,13 @@ In this project, the Pandas library is used for traditional data processing with
 | Library  | Explanation |
 | ------------- | ------------- |
 | ![pandas](https://github.com/user-attachments/assets/a03befb7-f366-49ec-9682-3163ffcd9aa8) | - a traditional, simple and easy language that is used by many people to handle data in python. <br/> - Good for small and medium sized dataset  <br/> - does not support parallel processing, it uses only one CPU core to process that data.  <br/> - runs in a single process and on a single thread only.|
+| ![polars](https://github.com/user-attachments/assets/b32b54ef-63a5-4f4b-81dd-db2dbbfe31c1)| - Polars is a modern tool that is built with Rust.<br/>- Best for big data that needs optimization and performance.<br/> - Polars use parallel processing, it uses all CPU cores in the computer to process a lot of data at same time.<br/> - Polars uses multiprocessing and multithreading to split tasks and run them in parallel.|
+| ![modin](https://github.com/user-attachments/assets/940ebb94-b9b5-446a-a599-348d1fd43f85) | - Modin can speed up workflows by scaling pandas.<br/>- Modin works well on larger datasets.<br/>- Modin uses parallel processing, it uses multiple CPU cores in the computer to handle the task.<br/>- Modin speeds up pandas work without rewriting the whole code.<br/>- Modin uses Ray or Dask, which break work into chunks and run them across the CPU core for multiprocessing.|
+
+### 5.2 Code overview or pseudocode of techniques applied
+#### 1. Import library
+Import the Pandas, Polars, Modin libraries seperately with other libraries for monitoring the performance. <br/>
+| Pandas | Polars | Modin |
+|--------------|--------------|--------------|
+| ![Screenshot 2025-05-14 212428](https://github.com/user-attachments/assets/1e09a188-1b58-4a89-8ab2-4bcbb99f26a3)|![Screenshot 2025-05-15 190735](https://github.com/user-attachments/assets/bbee7862-e3b1-4529-b5fd-e74b50ce7284)|![Screenshot 2025-05-15 190756](https://github.com/user-attachments/assets/771ad78f-6e09-4331-bd85-42f4405030d7)|
+
