@@ -340,8 +340,370 @@ Finally, for distributed processing an experimental and open source framework wr
 
 ### 6.0 Performance Evaluation
 #### 6.1 Before VS After Optimization
+<p style="text-align: justify; hyphens: auto;">
+Initially, all data processing tasks were carried out using Pandas. While Pandas performed well for small datasets, it became noticeably slower as the data size increased, especially with operations like filtering, aggregation and joining. This led to delays that affected the overall workflow efficiency.
+To improve performance, two faster alternatives were introduced, which are Polars and PySpark. Polars with its multi-threaded Rust backend, offered significant speed improvements for in-memory operations, while PySpark provided better handling for larger datasets through distributed processing even in local mode. After optimisation, execution times were greatly reduced, with Polars offering the fastest performance and PySpark also outperforming Pandas, although with a slight overhead due to its distributed nature. Overall, the optimisation resulted in a much faster and more scalable data processing pipeline.
+
+</p>
+
 #### 6.2 Comparison of Code Execution Time, Peak Memory Usage, CPU Usage and Throughput
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Operation</th>
+      <th rowspan="2">Aspects</th>
+      <th colspan="3">Comparisons</th>
+    </tr>
+    <tr>
+      <th>Pandas</th>
+      <th>Polars</th>
+      <th>Pyspark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Dataset Loading and Display</td><td>Code Execution Time (s)</td>
+      <td>0.6728</td>
+      <td>0.3893</td>
+      <td>113.0075</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>1.4805</td>
+      <td>2.9626</td>
+      <td>34.7047</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>2.5</td>
+      <td>2.0</td>
+      <td>84.8</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>171056.76</td>
+      <td>295636.96</td>
+      <td>8018.45</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Dataset Integration</td>
+      <td>Code Execution Time (s)</td>
+      <td>0.0907</td>
+      <td>0.0207</td>
+      <td>4.8765</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>5.5688</td>
+      <td>0.0419</td>
+      <td>0.1984</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>3.5</td>
+      <td>2.5</td>
+      <td>12.6</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>1269298.78</td>
+      <td>5584451.61</td>
+      <td>23601.16</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Standardization of String Data</td>
+      <td>Code Execution Time (s)</td>
+      <td>0.6550</td>
+      <td>0.0407</td>
+      <td>4.2237</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>0.4567</td>
+      <td>0.0408</td>
+      <td>0.1824</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>3.5</td>
+      <td>2.0</td>
+      <td>61.0</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>1757211.43</td>
+      <td>2543966.64</td>
+      <td>27448.92</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Convert “Total Reviews” to correct data type (int)</td>
+      <td>Code Execution Time (s)</td>
+      <td>2.8809</td>
+      <td>0.0260</td>
+      <td>5.1355</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>12.7351</td>
+      <td>0.0420</td>
+      <td>0.1679</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>4.0</td>
+      <td>2.5</td>
+      <td>21.6</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>39949.87</td>
+      <td>4434281.69</td>
+      <td>22410.57</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Convert “Quantity Sold” to correct data type (int)</td>
+      <td>Code Execution Time (s)</td>
+      <td>3.9448</td>
+      <td>0.0843</td>
+      <td>4.1328</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>19.3337</td>
+      <td>0.3887</td>
+      <td>0.1983</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>25.6</td>
+      <td>2.0</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>29174.87</td>
+      <td>1365230.27</td>
+      <td>27847.80</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Check and Handle Missing Values</td>
+      <td>Code Execution Time (s)</td>
+      <td>0.3365</td>
+      <td>0.0300</td>
+      <td>18.2981</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>19.8926</td>
+      <td>0.0498</td>
+      <td>0.2372</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>3.5</td>
+      <td>2.0</td>
+      <td>12.5</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>341954.53</td>
+      <td>336814.05</td>
+      <td>8910.27</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Check and Handle Duplicates</td>
+      <td>Code Execution Time (s)</td>
+      <td>0.6107</td>
+      <td>0.0859</td>
+      <td>65.1819</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>20.1169</td>
+      <td>0.0745</td>
+      <td>2.3469</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>3.5</td>
+      <td>2.5</td>
+      <td>13.6</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>188440.81</td>
+      <td>1339814.70</td>
+      <td>1742.75</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Export cleaned dataset file for optimization</td>
+      <td>Code Execution Time (s)</td>
+      <td>4.5099</td>
+      <td>0.0962</td>
+      <td>10.6576</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>3.8787</td>
+      <td>0.0953</td>
+      <td>0.0928</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>3.5</td>
+      <td>6.0</td>
+      <td>75.1</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>25191.72</td>
+      <td>1918315.45</td>
+      <td>10658.73</td>
+    </tr>
+  </tbody>
+</table>
+<p align="center">
+    <em>Table 2: Comparison between Data Processing and Cleaning Techniques</em>
+</p>
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Operation</th>
+      <th rowspan="2">Aspects</th>
+      <th colspan="3">Comparisons</th>
+    </tr>
+    <tr>
+      <th>Pandas</th>
+      <th>Polars</th>
+      <th>Pyspark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Grouping Products into 4 categories based on price (Budget Friendly, Affordable, Mid-Range and Premium Price)</td>
+      <td>Code Execution Time (s)</td>
+      <td>0.6036</td>
+      <td>0.5189</td>
+      <td>22.6163</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>19.2549</td>
+      <td>0.1225</td>
+      <td>0.3516</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>88.6</td>
+      <td>90.0</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>188187.82</td>
+      <td>218918.57</td>
+      <td>5022.74</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Grouping Products into 4 categories based on ‘Total Reviews’ (Least, Below Average, Above Average and Most Popular)</td>
+      <td>Code Execution Time (s)</td>
+      <td>0.9005</td>
+      <td>0.2981</td>
+      <td>13.5979</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>15.0830</td>
+      <td>0.0664</td>
+      <td>0.3121</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>86.9</td>
+      <td>100.0</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>126141.24</td>
+      <td>381122.98</td>
+      <td>8353.95</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Evaluate and Rank Market Performance based on “Quantity Sold” for each “Location”</td>
+      <td>Code Execution Time (s)</td>
+      <td>2.1653</td>
+      <td>0.1121</td>
+      <td>1.8099</td>
+    </tr>
+    <tr>
+      <td>Peak Memory Usage (MB)</td>
+      <td>6.2297</td>
+      <td>0.0222</td>
+      <td>0.1632</td>
+    </tr>
+    <tr>
+      <td>CPU Usage (%)</td>
+      <td>95.5</td>
+      <td>100.0</td>
+      <td>56.9</td>
+    </tr>
+    <tr>
+      <td>Throughput (rows/s)</td>
+      <td>52461.36</td>
+      <td>1013159.21</td>
+      <td>62763.71</td>
+    </tr>
+  </tbody>
+</table>
+<p align="center">
+    <em>Table 3: Comparison between Data Optimization Techniques</em>
+</p>
+
+<p style="text-align: justify; hyphens: auto;">
+<b>Conclusion:</b>
+  
+Overall performance between the libraries: <b>Polars > Pandas > PySpark</b>
+- Polars: Polars delivered superior performance than PySpark on big datasets thanks to its Rust-based foundation coupled with threading capabilities and columnar data structure.
+- Pandas: The system efficiency of Pandas was high but it utilised more system memory and took longer to process data.
+- PySpark: PySpark registered the slowest performance since it required high resource allocation latency combined with substantial initialisation overhead.
+
+</p>
+
+
+
 #### 6.3 Charts and Graphs
+<table border="solid" align="center">
+  <tr>
+    <td align="center">
+      <img src="Images/Graph1.png" alt="Graph 1">
+      <p align="center">
+          <em>Figure 8: Line graph for Code Execution Time (s)</em>
+      </p>
+    </td>
+    <td align="center">
+      <img src="Images/Graph2.png" alt="Graph 2">
+      <p align="center">
+          <em>Figure 9: Line graph for Peak Memory Usage (MB)</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/Graph3.png" alt="Graph 3">
+      <p align="center">
+          <em>Figure 10: Line graph for CPU Usage (%)</em>
+      </p>
+    </td>
+    <td align="center">
+      <img src="Images/Graph4.png" alt="Graph 4">
+      <p align="center">
+          <em>Figure 11: Line graph for Throughput (rows/s)</em>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ### 7.0 Challenges & Limitations
 #### 7.1 What Didn’t Go As Planned
