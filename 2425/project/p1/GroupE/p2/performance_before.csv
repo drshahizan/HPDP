@@ -1,0 +1,86 @@
+1. Loading Data,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1924,1.1423,1.1632,1.1660
+Initial CPU Usage (%),45.50,6.60,62.50,38.20
+Final CPU Usage (%),59.60,4.60,5.00,23.07
+Memory Usage (%),20.50,22.10,21.50,21.37
+Throughput (records/sec),92786.36,96858.65,95121.45,94922.15
+,,,,
+2. Handle Duplicate Data,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1332,1.1394,1.1389,1.1372
+Initial CPU Usage (%),20.40,5.10,5.10,10.20
+Final CPU Usage (%),5.00,5.00,5.50,5.17
+Memory Usage (%),20.40,22.10,21.50,21.33
+Throughput (records/sec),93955.71,93450.36,93488.10,93631.39
+,,,,
+3.Handle Missing Data,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.19,1.2007,1.1954,1.1954
+Initial CPU Usage (%),5.10,5.60,10.00,6.90
+Final CPU Usage (%),4.60,5.50,4.60,4.90
+Memory Usage (%),20.40,22.10,21.50,21.33
+Throughput (records/sec),88562.79,87777.48,88163.65,88167.97
+,,,,
+4. Clean the Teaser Column,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1845,1.1792,1.1841,1.1826
+Initial CPU Usage (%),4.50,5.60,5.10,5.07
+Final CPU Usage (%),4.50,4.60,5.50,4.87
+Memory Usage (%),20.40,22.10,21.50,21.33
+Throughput (records/sec),88975.76,89378.42,89002.29,89118.82
+,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1703,1.238,1.1749,1.1944
+Initial CPU Usage (%),5.60,20.90,5.60,10.70
+Final CPU Usage (%),3.60,56.70,27.80,29.37
+Memory Usage (%),20.40,22.10,21.40,21.30
+Throughput (records/sec),88074.38,83253.46,87724.97,86350.94
+,,,,
+5. Splitting the place from 'Teaser' column,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.2518,1.1853,1.29,1.2424
+Initial CPU Usage (%),20.10,46.90,57.80,41.60
+Final CPU Usage (%),56.10,5.00,33.30,31.47
+Memory Usage (%),20.50,22.10,21.50,21.37
+Throughput (records/sec),82337.74,86956.93,79902.15,83065.61
+,,,,
+6. Extract and Standardize Place Names,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1843,1.1892,1.1932,1.1889
+Initial CPU Usage (%),5.10,5.50,4.50,5.03
+Final CPU Usage (%),4.50,5.10,5.50,5.03
+Memory Usage (%),20.40,22.10,21.50,21.33
+Throughput (records/sec),87028.93,86671.94,86382.48,86694.45
+,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1894,1.1883,1.188,1.1886
+Initial CPU Usage (%),5.10,4.60,5.10,4.93
+Final CPU Usage (%),5.50,5.10,5.00,5.20
+Memory Usage (%),20.40,22.10,21.50,21.33
+Throughput (records/sec),86405.38,86484.16,86501.67,86463.74
+,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.1952,1.194,1.1859,1.1917
+Initial CPU Usage (%),6.10,7.00,5.10,6.07
+Final CPU Usage (%),8.00,4.50,5.50,6.00
+Memory Usage (%),20.40,22.10,21.50,21.33
+Throughput (records/sec),85984.28,86069.01,86658.99,86237.43
+,,,,
+7. Extract Date from URL,,,,
+Performance Metrics,Pandas,,,
+,1st Run,2nd Run,3rd Run,Average
+Total Processing Time (seconds),1.2005,1.2789,1.2172,1.2322
+Initial CPU Usage (%),4.60,57.40,5.50,22.50
+Final CPU Usage (%),5.50,61.40,57.40,41.43
+Memory Usage (%),20.40,22.20,21.60,21.40
+Throughput (records/sec),85601.12,80355.35,84433.14,83463.20
