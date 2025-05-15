@@ -104,14 +104,14 @@ The number of records collected was **110,642** across four distinct subcategori
 
 Each subcategory was crawled independently, where each of the members in our group was responsible for scraping one or two subcategories. The same data fields are scraped to ensure that the data collected are uniform and can be merged.
 
-### Ethical Considerations
+### 3.3 Ethical Considerations
 The web scraper was developed with adherence to the ethical guidelines to ensure responsible data collection was done:
 
 - **Respect site rules:** Only publicly accessible content was accessed. This is to ensure that the scraping did not violate the website’s terms of service (TOS).
 - **Human-like interaction:** Rate-limiting and random delays implementation mimics human browsing patterns which reduces the risk of server overload.
 - **Non-commercial use:** The data collected will only be used for academic and research purposes. No redistribution of the scraped content is intended.
 
-## Data Processing
+## 4.0 Data Processing
 ### 4.1 Cleaning methods
 a. Handle Duplicate Data
 Some of the news might have more than one tag, hence we might scrap the same news under different categories. To solve this, any duplicate rows from the dataset are removed to avoid redundant data.
