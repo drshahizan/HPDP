@@ -1,2 +1,0 @@
-Optimization Stage,Total Rows,Total Processing Time (seconds),CPU Usage (%),Memory Usage (MB),Throughput (records/second),Data Processed (rows),Time Taken (seconds),Records per second
-Polars Optimization,175545,0.3763594627380371,25.69999999999999,130.296875,466429.08543576894,175545,0.3763594627380371,466429.08543576894
