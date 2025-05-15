@@ -28,7 +28,7 @@
 
 # 🧹 Optimizing High-Performance Data Processing for Large-Scale Web Crawlers – PG Mall
 
-![Project Overview](https://www.google.com/imgres?q=pgmall&imgurl=https%3A%2F%2Fcdn-oss.ginee.com%2Fofficial%2Fwp-content%2Fuploads%2F2021%2F12%2Fimage-1784-1024x283.png&imgrefurl=https%3A%2F%2Fginee.com%2Fmy%2Finsights%2Fpgmall-seller%2F&docid=sO8yrIJcFJAVjM&tbnid=9npnjETGUkCGcM&vet=12ahUKEwitt82u8qWNAxW3sVYBHbVVGZgQM3oECBwQAA..i&w=1024&h=283&hcb=2&ved=2ahUKEwitt82u8qWNAxW3sVYBHbVVGZgQM3oECBwQAA)
+![Project Overview](https://cloud.shopback.com/c_scale,c_auto,q_70,f_webp/media-production-aps1/VwBgbmofqVg/aHR0cHM6Ly9pbWFnZXMuYmFubmVyYmVhci5jb20vZGlyZWN0L0VHQnFwQVo1T2U5MTg5VkROSi9yZXF1ZXN0cy8wMDAvMDQ3LzI0My83ODEvWndWYktsRGU5WThwWlo4MVk4bW9hM2pQTS8xM2UyNDY3NzA5MDY1ZDM3M2QzODU5NjU4NjE4NWViODhhODdlNGQ0LnBuZw.jpg)
 
 This project focuses on collecting product data from **PG Mall**, cleaning it, and evaluating different Python libraries for performance (Pandas, Polars, and Dask). The goal is to optimize scraping speed and data transformation for better scalability and analysis.
 
