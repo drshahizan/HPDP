@@ -189,7 +189,7 @@ Get the place from the teaser column
 |--------|--------|--------|
 
 #### 8. Extract date from URL
-
+Extract the date in YYYY/MM format from the URL and add it as a separate column in the dataset
 | Pandas | Polars | Modin |
 |--------|--------|--------|
 |![image](https://github.com/user-attachments/assets/58878f7f-7905-4be3-bd2e-cdb7f4e02d27)|![image](https://github.com/user-attachments/assets/e9b38608-52e4-4162-9661-f51950c9c650)|![image](https://github.com/user-attachments/assets/044cbf41-f628-4732-a398-992824bc3b57)|
