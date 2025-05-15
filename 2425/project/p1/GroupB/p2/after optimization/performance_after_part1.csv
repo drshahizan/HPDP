@@ -1,4 +1,0 @@
-Optimization Stage,Total Rows,Total Processing Time (seconds),CPU Usage (%),Memory Usage (MB),Throughput (records/second),Data Processed (rows),Time Taken (seconds),Records per second
-Polars Optimization,175545,0.43,83.1,28.63,412467.71,175545,0.43,412467.71
-Pandas Optimization,175545,5.35,14.67,102.34,32827.06,175545,5.35,32827.06
-DuckDB Optimization,175545,0.45,19.8,65.79,390337.58,175545,0.45,390337.58
