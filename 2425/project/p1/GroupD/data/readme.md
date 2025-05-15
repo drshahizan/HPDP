@@ -10,32 +10,33 @@ This repository includes the raw data and cleaned data before and after as well 
 
 ### 🧪 Code Files
 
-#### 🔹 Basic Scraping (Without Optimization)
-- `PgmallScraping_withoutOptimization.ipynb`  
-  ➤ Performs basic web scraping and data collection without any performance optimization. Saves raw product data.
+#### 🔹 Raw Scraped Data
+- `Item_list.csv`  
+  ➤ Raw product dataset collected from PG Mall before cleaning. Contains product name, price, location, and link with some duplicates, null values, and uncleaned fields.
 
-#### 🔹 Optimized Scraping
-- `PgmallScraping_multithreading.ipynb`  
-  ➤ Implements web scraping using multithreading to improve performance and reduce total scraping time.
+#### 🔹 Raw Scraped Data by Subcategory in Folder Item_By_Category 
+  ➤ Raw product datasets collected from PG Mall before cleaning. Contains product name and link.
 
-#### 🔹 Scraping by SubCategory
-- `PgmallBySubCategory.ipynb.ipynb`  
-  ➤ Scrapes product data by subcategory
+#### 🔹 Raw Scraped Data by Subcategory (merged)
+- `merged_product_list.csv`  
+  ➤ Merged Raw product dataset of all the raw data in Folder Item_By_Category 
 
-#### 🔹 Mapping for Product Type
-- `Map_ProductType.ipynb`  
-  ➤ Maps raw product to product type categories to assist in analysis.
+#### 🔹 Updated Raw Scraped Data
+- `updated_item_list.csv`  
+  ➤ Raw product dataset collected from PG Mall before cleaning. Contains product name, price, location, link, and type 
 
-#### 🔹 Basic Cleaning (Without Optimization)
-- `Cleaning_Process_withoutOptimization.ipynb`  
-  ➤ Step-by-step cleaning using **Pandas** only. Checks for nulls/duplicates, cleans price/product fields, and saves cleaned data.
+#### 🔹 Cleaned Data (Without Optimization)
+- `Item_list_cleaned.csv`  
+  ➤ Dataset after cleaning using Pandas
 
-#### 🔹 Optimized Cleaning
-- `Cleaning_Process_withPolar.ipynb`  
-  ➤ Cleaning using **Polars** for improved speed and parallelism.
+#### 🔹 Cleaned Data (With Polars)
+- `Item_list_cleaned_optimized.csv`  
+  ➤ Cleaned dataset processed using Polars.
 
-- `Cleaning_Process_withDask.ipynb`  
-  ➤ Cleaning using **Dask** for parallelized processing. Designed to test scalability on larger datasets.
+#### 🔹 Cleaned Data (With Dask)
+- `Item_list_cleaned_dask.csv.ipynb`  
+  ➤ Cleaned dataset processed using Dask. 
+
 
 ---
 

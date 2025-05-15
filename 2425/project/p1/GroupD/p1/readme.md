@@ -19,7 +19,7 @@ This repository includes the source code for web scraping and cleaning process b
   ➤ Implements web scraping using multithreading to improve performance and reduce total scraping time.
 
 #### 🔹 Scraping by SubCategory
-- `PgmallBySubCategory.ipynb.ipynb`  
+- `PgmallBySubCategory.ipynb`  
   ➤ Scrapes product data by subcategory
 
 #### 🔹 Mapping for Product Type
