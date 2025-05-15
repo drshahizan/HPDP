@@ -172,6 +172,13 @@ Data processing was first performed using Pandas, which operates in a single-thr
 
 ### 6.2 Processing time, CPU usage, memory usage and throughput
 #### 1. Load data
+| Performance Metrics | Pandas | Polars | Modin |
+|--------|--------|--------|--------|
+| Total Processing Time (seconds) | 1.1660 | 1.0009 | 1.0010 |
+| Inicial CPU Usage (%) | 38.20 | 58.10 | 57.13 |
+| Final CPU Usage (%) | 23.07 | 46.27 | 58.20 |
+| Memory Usage (%) | 21.37 | 21.80 | 21.97 |
+| Throughput (records/sec) | 94922.15 | 110547.61 | 110531.92 |
 #### 2. Handle Duplicated Data
 #### 3. Handle Missing Data
 #### 4. Clean the Teaser Column
@@ -206,13 +213,13 @@ After collecting the data, we clean and process the data to make it more organiz
 ### 8.2 What could be improved
 In this project, we learned many skills in web scraping and data processing and faced many problems and challenges while handling the data. The challenges that we faced were website restriction, inconsistent data and technical issues with the tools that we used in Google Colab. There are still many things that can be improved in this project. The improvements are: <br/>
 * **Save the collected and cleaned data into a database**
-- Now we save the data into CSV files for simple storage.  But it would be better to store the data in databases like PostgreSQL, MongoDB and NoSQL. This is because databases can handle large data efficiently and with better organization. <br/>
+Now we save the data into CSV files for simple storage.  But it would be better to store the data in databases like PostgreSQL, MongoDB and NoSQL. This is because databases can handle large data efficiently and with better organization. <br/>
 * **Use distributed computing for web scraping**
-- This is to run multiple scrapers at the same time across many different machines. For example, we can use the Scrapy cluster to run many tasks in parallel. <br/>
+This is to run multiple scrapers at the same time across many different machines. For example, we can use the Scrapy cluster to run many tasks in parallel. <br/>
 * **Improve fault tolerance in web scraping**
-- If the code suddenly crashes or stops running in the middle due to some external factor, all the progress might be lost. So, saving progress frequently is important for scraping for a long time. <br/>
+If the code suddenly crashes or stops running in the middle due to some external factor, all the progress might be lost. So, saving progress frequently is important for scraping for a long time. <br/>
 * **Process data in chunks**
-- Loading large CSV files at one time could be heavy. So, processing the data in chunks by setting the chunk size could improve the performance of data processing.
+Loading large CSV files at one time could be heavy. So, processing the data in chunks by setting the chunk size could improve the performance of data processing.
 
 ## References
 ## Appendices
