@@ -184,9 +184,10 @@ Get the place from the teaser column
 |![image](https://github.com/user-attachments/assets/22dffeed-98d1-45d6-8b73-7623c5679da9)| ![image](https://github.com/user-attachments/assets/c4c80a19-377e-4cf9-a11a-5df6f8e4d3c8)| ![image](https://github.com/user-attachments/assets/689fef7d-1528-4b37-a823-17319e54858e)|
 
 #### 7. Standardize place names
-
+Standardize the place names, convert them to uppercase, and remove any country names or other non-relevant information
 | Pandas | Polars | Modin |
 |--------|--------|--------|
+|![image](https://github.com/user-attachments/assets/1ea178c2-dd32-4388-9a0e-5eff202f781b)|![image](https://github.com/user-attachments/assets/5d752ae3-5d26-41aa-9c1d-6265b234eb9f) ![image](https://github.com/user-attachments/assets/9f1902d1-02b9-4458-a760-14e2e1e68c8e)| ![image](https://github.com/user-attachments/assets/3decb654-6a5d-4d96-bdac-2d3c8b44175a) ![image](https://github.com/user-attachments/assets/cd1ed6e5-d373-4601-a098-9acbe96ec9bb)|
 
 #### 8. Extract date from URL
 Extract the date in YYYY/MM format from the URL and add it as a separate column in the dataset
