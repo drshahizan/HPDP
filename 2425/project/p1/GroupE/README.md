@@ -371,8 +371,8 @@ Loading large CSV files at one time could be heavy. So, processing the data in c
 
 | Figure | Description | Preview |
 |--------|-------------|---------|
-| **Figure 9** | Performance Evaluation – Chart 1 | ![Chart 1](https://github.com/user-attachments/assets/79cf5340-8187-4b7c-80b5-9ad978be8dc9) |
-| **Figure 10** | Performance Evaluation – Chart 2 | ![Chart 2](https://github.com/user-attachments/assets/3dbb508a-efff-4c72-b4de-9031f4f57bd9) |
+| **Figure 9** | Performance Evaluation – Chart 1 | <img src="https://github.com/user-attachments/assets/36b18b9c-1447-4c6a-9961-88a85942e669" width="540"> |
+| **Figure 10** | Performance Evaluation – Chart 2 | <img src="https://github.com/user-attachments/assets/9780ffbe-5180-4b56-85af-136681b68ed8" width="540"> |
 
 ---
 
