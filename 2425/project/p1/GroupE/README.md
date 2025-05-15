@@ -160,6 +160,11 @@ Load the raw dataset from the NST_News_Articles.csv file using pd.read_excel.<br
 | ![Screenshot 2025-05-14 212556](https://github.com/user-attachments/assets/4d93d061-f382-4bf8-a2d7-49dfa1ccbd84) | ![Screenshot 2025-05-15 191213](https://github.com/user-attachments/assets/ef186eda-13d8-4780-883a-e2ff758c13ef) | ![Screenshot 2025-05-15 191231](https://github.com/user-attachments/assets/f9ed8bb1-330a-4cc0-8bf7-e662ebe2727e) |
 
 #### 3. Remove duplicated data
+Remove duplicate rows from the table
+| Pandas | Polars | Modin |
+|--------|--------|--------|
+|![image](https://github.com/user-attachments/assets/90eafd5a-655e-4bdd-8eb5-7998841ac569)| ![image](https://github.com/user-attachments/assets/25d18edb-21d4-46ee-9f61-8fdfa6b43e97)| ![image](https://github.com/user-attachments/assets/01ebf7fa-84a7-4486-b55e-2fbd06758424)|
+
 #### 4. Remove missing data
 #### 5. Clean the teaser column
 #### 6. Splitting the place from the teaser column
