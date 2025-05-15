@@ -1,11 +1,17 @@
 # Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Scrapers
 
 **Course:** SECP3133 - High Performance Data Processing
+
 **University:** Universiti Teknologi Malaysia (UTM)
+
 **Faculty:** Faculty of Computing
+
 **Group Name:** CrawlOps
+
 **Section:** 01
+
 **Lecturer:** ASSOC. PROF. DR. MOHD SHAHIZAN BIN OΤΗΜΑΝ
+
 **Submission Date:** May 16, 2025
 
 **Group Members:**
