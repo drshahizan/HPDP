@@ -171,9 +171,12 @@ Remove duplicate rows from the table
 |--------|--------|--------|
 |![image](https://github.com/user-attachments/assets/f3300cbe-c16d-4bad-810e-2a522b78a5b5)| ![image](https://github.com/user-attachments/assets/f2b5c52d-3961-429a-9600-3e7cc7a724a8)| ![image](https://github.com/user-attachments/assets/31685590-2aed-419c-926a-931b8c5fe719)|
 
-
-
 #### 5. Clean the teaser column
+Clean the teaser column by removing unwanted characters
+| Pandas | Polars | Modin |
+|--------|--------|--------|
+|![image](https://github.com/user-attachments/assets/536ba9ae-5bcf-4919-9d3e-a2871a4e3eeb)|![image](https://github.com/user-attachments/assets/c4f08a16-5254-4665-867b-94f343c45ac3)| ![image](https://github.com/user-attachments/assets/b104f14e-567d-46cb-b875-1513833fc3e7)|
+
 #### 6. Splitting the place from the teaser column
 #### 7. Standardize place names
 #### 8. Extract date from URL
