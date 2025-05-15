@@ -166,6 +166,13 @@ Remove duplicate rows from the table
 |![image](https://github.com/user-attachments/assets/90eafd5a-655e-4bdd-8eb5-7998841ac569)| ![image](https://github.com/user-attachments/assets/25d18edb-21d4-46ee-9f61-8fdfa6b43e97)| ![image](https://github.com/user-attachments/assets/01ebf7fa-84a7-4486-b55e-2fbd06758424)|
 
 #### 4. Remove missing data
+ Drop rows with missing values in the columns
+| Pandas | Polars | Modin |
+|--------|--------|--------|
+|![image](https://github.com/user-attachments/assets/f3300cbe-c16d-4bad-810e-2a522b78a5b5)| ![image](https://github.com/user-attachments/assets/f2b5c52d-3961-429a-9600-3e7cc7a724a8)| ![image](https://github.com/user-attachments/assets/31685590-2aed-419c-926a-931b8c5fe719)|
+
+
+
 #### 5. Clean the teaser column
 #### 6. Splitting the place from the teaser column
 #### 7. Standardize place names
