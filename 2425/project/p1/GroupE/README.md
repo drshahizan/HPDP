@@ -154,10 +154,11 @@ Import the Pandas, Polars, Modin libraries seperately with other libraries for m
 | ![Screenshot 2025-05-14 212428](https://github.com/user-attachments/assets/1e09a188-1b58-4a89-8ab2-4bcbb99f26a3)|![Screenshot 2025-05-15 190735](https://github.com/user-attachments/assets/bbee7862-e3b1-4529-b5fd-e74b50ce7284)|![Screenshot 2025-05-15 190756](https://github.com/user-attachments/assets/771ad78f-6e09-4331-bd85-42f4405030d7)|
 
 #### 2. Load data
-- Load the raw dataset from the NST_News_Articles.csv file using pd.read_excel.
+Load the raw dataset from the NST_News_Articles.csv file using pd.read_excel.<br/>
 | Pandas | Polars | Modin |
-|--------------|--------------|--------------|
+|--------|--------|--------|
 | ![Screenshot 2025-05-14 212556](https://github.com/user-attachments/assets/4d93d061-f382-4bf8-a2d7-49dfa1ccbd84) | ![Screenshot 2025-05-15 191213](https://github.com/user-attachments/assets/ef186eda-13d8-4780-883a-e2ff758c13ef) | ![Screenshot 2025-05-15 191231](https://github.com/user-attachments/assets/f9ed8bb1-330a-4cc0-8bf7-e662ebe2727e) |
+(https://github.com/user-attachments/assets/f9ed8bb1-330a-4cc0-8bf7-e662ebe2727e) |
 
 
 
