@@ -261,13 +261,32 @@ Data processing was first performed using Pandas, which operates in a single-thr
 ### 6.3 Charts and Graphs
 To visually summarize the performance differences between Pandas, Polars and Modin, a series of bar charts were generated based on the aggregated performance metrics measured during the data processing.
 <br/>
-1.
+#### 1. Comparison of Total Processing Time
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2dbe905f-a43a-4906-b8f9-fd1f5f2a29b2" width="600" height="450">
+</p>
+The chart clearly indicates that Polars completed the entire set of data processing tasks in the shortest time followed by Modin and Pandas. This highlights the efficiency gains from the parallel processing capabilities inherent in Polars and utilized by Modin's backend, compared to the single-threaded execution model of Pandas.
 <br/>
-2.
+
+#### 2. Comparison of Average Final CPU Usage
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f8034c77-cdf9-4c01-85e4-4d6543b49f31" width="600" height="450">
+</p>
+The chart shows Modin achieving the highest average final CPU usage. This suggests that Modin effectively utilized multiple CPU cores for its parallel tasks. Meanwhile, Pandas has the next highest average final CPU usage. Since it is single-threaded in nature, this suggests the active core was likely working intensively during processing, even though the overall system usage stayed low. Although Polars is the fastest library, it showed the lowest average final CPU usage among the three libraries. This indicates that Polars' operations are not only parallel but also highly optimized in which it achieves significant speedups without needing as many CPU resources as Modin.
 <br/>
-3.
+
+#### 3. Comparison of Average Memory Usage
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d4459581-a580-441b-bea9-5b8c8d5aecb6" width="600" height="450">
+</p>
+The chart shows Pandas has the lowest average memory usage. Polars was next, followed by Modin, which had the highest average memory usage. While Polars' efficiency is likely due to its Rust backend and Arrow-based memory layout, the aggregated average here is very close to Pandas. Even though Pandas does not use parallel processing, it has a mature and generally efficient memory model for data processing. The slightly higher figures for Polars and Modin in this averaged context could be due to the memory overhead of their respective backends, management of data partitions across cores and parallel execution. All three libraries used memory within a relatively tight range when processing the dataset.
 <br/>
-4.
+
+#### 4. Comparison of Average Throughput
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b9aa825e-75b6-44a6-a674-0d1e30de39d7" width="600" height="450">
+</p> 
+The chart shows Polars has the highest average throughput. Modin followed with a strong throughput while Pandas had the lowest. Throughput is directly related to processing speed. Thus, libraries that process data faster will naturally have a higher throughput. Both Polars and Modin significantly outperformed Pandas in terms of the number of records processed per second.
 
 ## 7.0 Challenges & Limitations
 During this project, several challenges were encountered and certain limitations of the developed solution were identified: <br/>
