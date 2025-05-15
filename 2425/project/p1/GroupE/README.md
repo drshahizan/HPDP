@@ -183,10 +183,16 @@ Get the place from the teaser column
 |--------|--------|--------|
 |![image](https://github.com/user-attachments/assets/22dffeed-98d1-45d6-8b73-7623c5679da9)| ![image](https://github.com/user-attachments/assets/c4c80a19-377e-4cf9-a11a-5df6f8e4d3c8)| ![image](https://github.com/user-attachments/assets/689fef7d-1528-4b37-a823-17319e54858e)|
 
-
-
 #### 7. Standardize place names
+
+| Pandas | Polars | Modin |
+|--------|--------|--------|
+
 #### 8. Extract date from URL
+
+| Pandas | Polars | Modin |
+|--------|--------|--------|
+|![image](https://github.com/user-attachments/assets/58878f7f-7905-4be3-bd2e-cdb7f4e02d27)|![image](https://github.com/user-attachments/assets/e9b38608-52e4-4162-9661-f51950c9c650)|![image](https://github.com/user-attachments/assets/044cbf41-f628-4732-a398-992824bc3b57)|
 
 ## 6.0 Performance Evaluagtion
 ### 6.1 Before vs After Optimization
