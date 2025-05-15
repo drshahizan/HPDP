@@ -354,4 +354,7 @@ Loading large CSV files at one time could be heavy. So, processing the data in c
 - NetApp. (n.d.). What Is High-Performance Computing (HPC)? How It Works | NetApp. Www.netapp.com. https://www.netapp.com/data-storage/high-performance-computing/what-is-hpc/
 - Perez, M. (2019, August 6). What is Web Scraping and What is it Used For? | ParseHub. ParseHub Blog. https://www.parsehub.com/blog/what-is-web-scraping/
 - Wikipedia Contributors. (2019, October 4). Web scraping. Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Web_scraping
+
 ## Appendices
+#### Sample Code Snippets
+
