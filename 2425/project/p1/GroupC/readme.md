@@ -246,9 +246,7 @@ The following tools and frameworks were used during the project:
 
 </div>
 
-<p>
-  <em>Table 1: Roles of Team Members</em>
-</p>
+<p aligh="center" ><em>Table 1: Roles of Team Members</em></p>
 
 ### 3.0 Data Collection
 #### 3.1 Crawling Method
