@@ -93,7 +93,7 @@ By the end of this project, you will be able to:
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 |       |          |           |           |         |                  |
 | Data Drillers      |  Pandas        |   DuckDB        |    Polars       |  Car Lists Analysis       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupB)                 |
-| HyperData  |   pandas   |  polar  |   pyshark      |   Women's Purchase Analysis      |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)   |
+| HyperData  |   pandas   |  polar  |   pySpark      |   Women's Purchase Analysis      |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)   |
 |  Group D     |   Pandas     |   Dask        |    Polar       |   Beauty & Health Item Analysis      |                  |
 | Group E | Pandas | Polars | Modin | News Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
 | CrawlOps | joblib | concurrent.futures | PySpark    | Car Market Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps) |
