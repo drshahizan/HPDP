@@ -70,8 +70,7 @@
 - [8.1 Summary of Findings](#81-summary-of-findings)
 - [8.2 What Could Be Improved](#82-what-could-be-improved)
 
-### References
-- [References](#references)
+### [References](#references)
 
 ### Appendices
 - [Sample code snippets](#sample-code-snippets)
