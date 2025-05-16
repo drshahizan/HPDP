@@ -814,6 +814,15 @@ By adopting these improvements, the project has the potential to evolve into a r
 ‌[3] Kumar, D. (2021, June 18). Implementing Customer Segmentation Using Machine Learning [Beginners Guide]. Neptune.ai. [Link](https://neptune.ai/blog/customer-segmentation-using-machine-learning)
 
 ### Appendices
+<p align="center">
+  <img src="./Images/GroupPhoto.png" 
+       alt="Group Photo" width="60%">
+</p>
+
+<p align="center">
+  <em>Figure 12: Group Photo</em>
+</p>
+
 ### Sample code snippets
 1. **Web Scrapping:** [Codes](Codes/Latest_Project1.py)
    
