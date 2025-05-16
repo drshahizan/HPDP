@@ -322,76 +322,92 @@ Finally, for distributed processing an experimental and open source framework wr
 
 #### 5.2 Code Overview or Pseudocode of Techniques Applied
 <p>
-  <b><u>Code Overview of Pandas Part 1</u></b>
+  <b><u>Code Overview of Pandas Part 1 and Part 2</u></b>
 </p>
-<div style="text-align: center;">
-  <img src="Images/PandasPart1-Colab-05-13-2025_11_05_PM.png" 
-       alt="Code Overview of Pandas Part 1"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
-<p align="center">
-  <em>Figure 2: Code Overview of Pandas Part 1</em>
-</p>
+<table>
+  <tr>
+    <td>
+      <div style="text-align: center;">
+        <img src="Images/PandasPart1-Colab-05-13-2025_11_05_PM.png" 
+             alt="Code Overview of Pandas Part 1"
+             style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+      </div>
+      <p align="center">
+        <em>Figure 2: Code Overview of Pandas Part 1</em>
+      </p>
+    </td>
+    <td>
+      <div style="text-align: center;">
+        <img src="Images/PandasPart2-Colab-05-13-2025_11_26_PM.png" 
+             alt="Code Overview of Pandas Part 2"
+             style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+      </div>
+      <p align="center">
+        <em>Figure 3: Code Overview of Pandas Part 2</em>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <br>
+
 <p>
-  <b><u>Code Overview of Pandas Part 2</u></b>
+  <b><u>Code Overview of Polars Part 1 and Part 2</u></b>
 </p>
-<div style="text-align: center;">
-  <img src="Images/PandasPart2-Colab-05-13-2025_11_26_PM.png" 
-       alt="Code Overview of Pandas Part 2"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
-<p align="center">
-  <em>Figure 3: Code Overview of Pandas Part 2</em>
-</p>
+<table>
+  <tr>
+    <td>
+      <div style="text-align: center;">
+        <img src="Images/P1_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_50_PM.png" 
+           alt="Code Overview of Polars Part 1"
+           style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+      </div>
+      <p align="center">
+        <em>Figure 4: Code Overview of Polars Part 1</em>
+      </p>
+    </td>
+    <td>
+      <div style="text-align: center;">
+        <img src="Images/P2_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
+           alt="Code Overview of Polars Part 2"
+           style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+      </div>
+      <p align="center">
+        <em>Figure 5: Code Overview of Polars Part 2</em>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <br>
+
 <p>
-  <b><u>Code Overview of Polars Part 1</u></b>
+  <b>Code Overview of PySpark Part 1 and Part 2</b>
 </p>
-<div style="text-align: center;">
-  <img src="Images/P1_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_50_PM.png" 
-       alt="Code Overview of Polars Part 1"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
-<p align="center">
-  <em>Figure 4: Code Overview of Polars Part 1</em>
-</p>
-<br>
-<p>
-  <b><u>Code Overview of Polars Part 2</u></b>
-</p>
-<div style="text-align: center;">
-  <img src="Images/P2_POLARS_CPU_MEMORY_ExecutionTime_PROCESSING-ipynb-Colab-05-13-2025_11_52_PM.png" 
-       alt="Code Overview of Polars Part 2"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
-<p align="center">
-  <em>Figure 5: Code Overview of Polars Part 2</em>
-</p>
-<br>
-<p>
-  <b>Code Overview of PySpark Part 1:</b>
-</p>
-<div style="text-align: center;">
-  <img src="Images/PySpark_Part1.png" 
-       alt="Code Overview of PySpark Part 1"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
-<p align="center">
-  <em>Figure 6: Code Overview of PySpark Part 1</em>
-</p>
-<br>
-<p>
-  <b>Code Overview of PySpark Part 2:</b>
-</p>
-<div style="text-align: center;">
-  <img src="Images/PySpark_Part2.png" 
-       alt="Code Overview of PySpark Part 2"
-       style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
-</div>
-<p align="center">
-  <em>Figure 7: Code Overview of PySpark Part 2</em>
-</p>
+<table>
+  <tr>
+    <td>
+      <div style="text-align: center;">
+        <img src="Images/PySpark_Part1.png" 
+           alt="Code Overview of PySpark Part 1"
+           style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+      </div>
+      <p align="center">
+        <em>Figure 6: Code Overview of PySpark Part 1</em>
+      </p>
+    </td>
+    <td>
+      <div style="text-align: center;">
+        <img src="Images/PySpark_Part2.png" 
+           alt="Code Overview of PySpark Part 2"
+           style="border: 2px solid #ccc; border-radius: 8px; max-width: 60%; height: auto;">
+      </div>
+      <p align="center">
+        <em>Figure 7: Code Overview of PySpark Part 2</em>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ### 6.0 Performance Evaluation
 #### 6.1 Before VS After Optimization
@@ -620,6 +636,8 @@ To improve performance, two faster alternatives were introduced, which are Polar
 <p align="center">
     <em>Table 2: Comparison between Data Processing and Cleaning Techniques</em>
 </p>
+
+<br>
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
