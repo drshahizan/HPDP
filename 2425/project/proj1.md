@@ -78,7 +78,7 @@ By the end of this project, you will be able to:
 | Team | Website | Tools |  Open in GitHub |
 | ----- | ----- | ------ | ------ | 
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
-| Group A |   [PropertyGuru](https://www.propertyguru.com.my/)     | Scrapy + Polars |   [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupA)     |
+| Group A |   [NST(World,Business,ASEAN](https://www.nst.com.my/)     | Selenium + Web-Driver Manager |   [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupA)     |
 | Data Drillers     | [Carlist](https://www.carlist.my/cars-for-sale/malaysia)       | Beautiful Soup + Request       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupB)        |
 | HyperData | [lazada](https://www.lazada.com.my/catalog/?q=Women%27s%20Fashion&price=0-25) | Beautiful Soup + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)|
 | Group D | [pgmall(kesihatan dan kecantikan](https://pgmall.my/category?path=1&page=4129) | Beautiful Soup + Request| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupD)|
