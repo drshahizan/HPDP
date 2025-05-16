@@ -204,49 +204,50 @@ The following tools and frameworks were used during the project:
 
 <div align="center">
 
-<table>
-  <thead>
-    <tr>
-      <th>Team Member</th>
-      <th>Roles and Contributions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Bernice Lim Jing Xuan</strong></td>
-      <td>
-        - Project planning and management<br>
-        - Developed optimization code using Pandas
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Kek Jesslyn</strong></td>
-      <td>
-        - Web crawling and scraping<br>
-        - Developed scrapers using BeautifulSoup and Selenium<br>
-        - Conducted performance comparison testing using laptop
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Navachander Navasantar</strong></td>
-      <td>
-        - Developed optimization code using PySpark<br>
-        - Assisted in report documentation
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Tan Jun Yuan</strong></td>
-      <td>
-        - Developed optimization code using Polars<br>
-        - Assisted in report work planning and documentation
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <table>
+    <thead>
+      <tr>
+        <th>Team Member</th>
+        <th>Roles and Contributions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Bernice Lim Jing Xuan</strong></td>
+        <td>
+          - Project planning and management<br>
+          - Developed optimization code using Pandas
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Kek Jesslyn</strong></td>
+        <td>
+          - Web crawling and scraping<br>
+          - Developed scrapers using BeautifulSoup and Selenium<br>
+          - Conducted performance comparison testing using laptop
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Navachander Navasantar</strong></td>
+        <td>
+          - Developed optimization code using PySpark<br>
+          - Assisted in report documentation
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Tan Jun Yuan</strong></td>
+        <td>
+          - Developed optimization code using Polars<br>
+          - Assisted in report work planning and documentation
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><em>Table 1: Roles of Team Members</em></p>
 
 </div>
 
-<p aligh="center" ><em>Table 1: Roles of Team Members</em></p>
 
 ### 3.0 Data Collection
 #### 3.1 Crawling Method
