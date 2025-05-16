@@ -1,0 +1,6 @@
+Metric,Polars
+Time Elapsed (s),0.19
+Average CPU Usage (%),28.9
+Peak Memory Usage (%),73.3
+Throughput (record/sec),529123
+Records Processed,100962

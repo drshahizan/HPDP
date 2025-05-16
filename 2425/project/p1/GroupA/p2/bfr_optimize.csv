@@ -1,0 +1,6 @@
+Metric,Pandas
+Time Elapsed (s),1.3
+Average CPU Usage (%),31.03
+Peak Memory Usage (%),71.5
+Throughput (record/sec),77550
+Records Processed,100962
