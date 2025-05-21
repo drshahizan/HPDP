@@ -55,7 +55,7 @@ A high-performance web crawler to extract over 100,000 articles from [The Edge M
 
 | Library | Description |
 |--------|-------------|
-| <img src="https://github.com/user-attachments/assets/db6ed60d-ea8d-4cad-afc5-3c4de59eaaf7" width="48"/> `requests` | Sends HTTP requests to access web pages |
+| `requests` | Sends HTTP requests to access web pages |
 
 
 ### ⚙️ Data Processing & Optimization Libraries
