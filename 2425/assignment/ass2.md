@@ -151,7 +151,7 @@ bdm/your_group/
 | KKK | Pandas | PyArrow | Dask | [School Donations](https://www.kaggle.com/datasets/perkymaster/school-donations?select=Projects.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | LCLY | Pandas | Polars | Dask | [UK Housing Prices Paid](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/p1/sample/A2) |
 | MAS |  |  |  | [Social Graphs]([[https://www.kaggle.com/datasets/wolfram77/graphs-social)] | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
-| BingChiling |  |  |  | [IMDB Review](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset)] | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| BingChiling |  |  |  | [IMDB Review](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 
 
 
