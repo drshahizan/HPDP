@@ -7,7 +7,6 @@
 
 # 📘 Assignment 2: Mastering Big Data Handling
 
-**Assignment Title**: Mastering Big Data Handling
 
 **Due Date**: **4 June 2025 5:00 PM**
 
