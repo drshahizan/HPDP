@@ -75,7 +75,17 @@ A Python-based web scraper that extracts car listings from [Carlist.my](https://
 ## 🔧 Architecture of Tools and Frameworks Used
 ![SystemArchitecture-Page-2 drawio (1)](https://github.com/user-attachments/assets/4ad1e7af-f32c-4bb5-a4a4-7a0f56d68bc1)
 
+## 🔗 Data Details
 
+  - Original dataset containing **175,545 rows** and **17 columns**. Includes some missing values in `location`, `fuel type`, and `body type`.
+
+  - Cleaned version of the dataset with missing values replaced and invalid URL entries removed. Final shape: **175,545 rows × 16 columns**.
+
+---
+
+## 📊 Dataset Overview
+
+This dataset contains car listings from various regions in Malaysia. The dataset includes key attributes such as car name, price, location, brand, year of manufacture, and more. It provides valuable insights for car buyers, sellers, and analysts interested in the automotive market.
 ## 📊 Data Description
 
 | Column Name        | Description                                                              |
