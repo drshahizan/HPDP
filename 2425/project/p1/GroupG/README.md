@@ -25,6 +25,7 @@
     <td>A22EC0224</td>
   </tr>
 
+---
 
 # The Edge Malaysia Web Scraper
 
