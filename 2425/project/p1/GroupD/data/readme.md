@@ -34,7 +34,7 @@ This repository includes the raw data and cleaned data before and after as well 
   ➤ Cleaned dataset processed using Polars.
 
 #### 🔹 Cleaned Data (With Dask)
-- [`Item_list_cleaned_dask.csv.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_dask.csv)  
+- [`Item_list_cleaned_dask.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_dask.csv)  
   ➤ Cleaned dataset processed using Dask.
 
 
