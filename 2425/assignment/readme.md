@@ -10,7 +10,7 @@
 ## 📘 [Assignment 1: Academic Writing](ass1.md)
 This assignment is designed to develop students' skills in academic writing and critical analysis. Students are required to write a short academic paper based on a selected topic, demonstrating their ability to research, evaluate, and present information in a structured and scholarly format. The assignment encourages independent learning, proper citation practices, and the use of digital tools to support academic work. It also aims to cultivate discipline in managing writing processes through log book documentation.
 
-## 📘 [Assignment 1: Academic Writing](ass2.md)
+## 📘 [Assignment 2: Mastering Big Data Handling](ass2.md)
 In the modern data-driven world, organizations face the challenge of managing and extracting insights from *massive datasets* that far exceed the capabilities of traditional data handling tools. This assignment provides hands-on experience in managing such datasets using Python and its scalable libraries. Students will apply real-world strategies for handling data volumes above **700MB** using techniques such as **chunking**, **sampling**, **type optimization**, and **parallel computing with Dask**.
 
 ## 📄 [Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers](../project/proj1.md)
