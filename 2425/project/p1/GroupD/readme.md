@@ -70,7 +70,7 @@ This project is structured in 4 main stages:
 |    | [`updated_item_list.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/updated_item_list.csv) | Raw dataset with product name, price, location, link, and product type. |
 |    | [`Item_list_cleaned.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned.csv) | Cleaned dataset using Pandas. |
 |    | [`Item_list_cleaned_optimized.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_optimized.csv) | Cleaned dataset using Polars. |
-|    | [`Item_list_cleaned_dask.csv.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_dask.csv) | Cleaned dataset using Dask. |
+|    | [`Item_list_cleaned_dask.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_dask.csv) | Cleaned dataset using Dask. |
 | 2  | [`p1`](./p1) | Folder containing scraping and cleaning notebooks. |
 |    | [`PgmallScraping_withoutOptimization.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/PgmallScraping_withoutOptimization.ipynb) | Basic web scraping and data collection without performance optimization. |
 |    | [`PgmallScraping_multithreading.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/PgmallScraping_multithreading.ipynb) | Web scraping using multithreading to improve performance. |
