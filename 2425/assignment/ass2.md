@@ -27,7 +27,6 @@ By the end of this assignment, students should be able to:
 1. Identify challenges and limitations in traditional big data processing.
 2. Apply strategies to manage and analyze large datasets efficiently.
 3. Compare performance between traditional and optimized methods.
-4. Collaborate using GitHub and document work in Markdown and Jupyter Notebooks.
 
 ## 📝 Assignment Tasks
 
