@@ -59,7 +59,6 @@ This project is structured in 4 main stages:
 
 ---
 
-## 📁 Project Structure
 
 ## 📁 Project File Structure
 
@@ -85,7 +84,7 @@ This project is structured in 4 main stages:
 |    | [`performance_log_scraping.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p2/performance_log_scraping.csv) | Performance data before scraping optimization. |
 |    | [`performance_log_scrapingoptimized.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p2/performance_log_scrapingoptimized.xlsx) | Performance data after scraping optimization. |
 | 4  | [`report`](./report) | Final reports and presentations for the project. |
-|    | [`HPDP - PROJECT 1 REPORT.pdf`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/report/HPDP%20-%20PROJECT%201%20REPORT.pdf) | Detailed written report documenting the background, methodology, implementation, and findings of the project. |
+|    | [`HPDP - PROJECT 1 REPORT.pdf`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/report/HPDP%20-%20PROJECT%201%20REPORT.pdf) | Detailed written report documenting the background, implementation, and findings of the project. |
 |    | [`Presentation Project 1.pdf`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/report/Presentation%20Project%201.pdf) | Slide deck used during the project presentation summarizing key insights, approach, and results. |
 |    | [`Turnitin_PROJECT 1.pdf`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/report/Turnitin_PROJECT%201.pdf) | Turnitin plagiarism report for the submitted project documentation. |
 
