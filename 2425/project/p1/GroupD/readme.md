@@ -64,15 +64,14 @@ This project is structured in 4 main stages:
 ## 📁 Project File Structure
 
 | No | Folder / File | Description |
-|----|----------------|-------------|
+|----|---------------|-------------|
 | 1  | [`data`](./data) | Folder containing all datasets (raw, cleaned, optimized). |
 |    | [`Item_list.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list.csv) | Raw product dataset collected from PG Mall before cleaning. Contains product name, price, location, and link with some duplicates, null values, and uncleaned fields. |
 |    | [`merged_product_list.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/merged_product_list.csv) | Merged dataset of all raw subcategory data from `Item_By_Category`. |
 |    | [`updated_item_list.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/updated_item_list.csv) | Raw dataset with product name, price, location, link, and product type. |
 |    | [`Item_list_cleaned.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned.csv) | Cleaned dataset using Pandas. |
 |    | [`Item_list_cleaned_optimized.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_optimized.csv) | Cleaned dataset using Polars. |
-|    | [`Item_list_cleaned_dask.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_dask.csv) | Cleaned dataset using Dask. |
-
+|    | [`Item_list_cleaned_dask.csv.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list_cleaned_dask.csv) | Cleaned dataset using Dask. |
 | 2  | [`p1`](./p1) | Folder containing scraping and cleaning notebooks. |
 |    | [`PgmallScraping_withoutOptimization.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/PgmallScraping_withoutOptimization.ipynb) | Basic web scraping and data collection without performance optimization. |
 |    | [`PgmallScraping_multithreading.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/PgmallScraping_multithreading.ipynb) | Web scraping using multithreading to improve performance. |
@@ -81,12 +80,10 @@ This project is structured in 4 main stages:
 |    | [`Cleaning_Process_withoutOptimization.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/Cleaning_Process_withoutOptimization.ipynb) | Cleaning using Pandas (nulls, duplicates, fields). |
 |    | [`Cleaning_Process_withPolar.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/Cleaning_Process_withPolar.ipynb) | Cleaning using Polars for better performance. |
 |    | [`Cleaning_Process_withDask.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p1/Cleaning_Process_withDask.ipynb) | Cleaning using Dask for scalability. |
-
 | 3  | [`p2`](./p2) | Folder containing performance evaluation and visualization. |
 |    | [`Chart.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p2/Chart.ipynb) | Bar chart visualization for performance metrics. |
 |    | [`performance_log_scraping.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p2/performance_log_scraping.csv) | Performance data before scraping optimization. |
 |    | [`performance_log_scrapingoptimized.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/p2/performance_log_scrapingoptimized.xlsx) | Performance data after scraping optimization. |
-
 | 4  | [`report`](./report) | Final reports and presentations for the project. |
 |    | [`HPDP - PROJECT 1 REPORT.pdf`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/report/HPDP%20-%20PROJECT%201%20REPORT.pdf) | Detailed written report documenting the background, methodology, implementation, and findings of the project. |
 |    | [`Presentation Project 1.pdf`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/report/Presentation%20Project%201.pdf) | Slide deck used during the project presentation summarizing key insights, approach, and results. |
