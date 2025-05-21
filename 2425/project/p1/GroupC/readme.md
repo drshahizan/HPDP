@@ -39,11 +39,11 @@
    - [Part 1](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1KUD0RVBLRetTi0Wer8ButoaDxbkJjIcR?usp=sharing)
    - [Part 2](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1zFGwWiYsAkjxCqtm6u2Y1qsc5w_N72WL?usp=sharing)
 
-4. **Dataset**
+4. **Dataset:**
    - [Raw Dataset](https://drive.google.com/file/d/1LvokKS7OMZyWrZxFSy82rm7E0IJOgSAn/view?usp=sharing)
    - [Cleaned Dataset](https://drive.google.com/file/d/1d6JlsQBuqvSLAUfd-pEv9-NKANgPHwK-/view?usp=sharing)
 
-5. **Slides** [Here](https://www.canva.com/design/DAGn8du-u-Q/xCM9Oj-Yl8Q5xfIWJ6aVeQ/edit?utm_content=DAGn8du-u-Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+5. **Slides:** [Here](https://www.canva.com/design/DAGn8du-u-Q/xCM9Oj-Yl8Q5xfIWJ6aVeQ/edit?utm_content=DAGn8du-u-Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <br>
 
