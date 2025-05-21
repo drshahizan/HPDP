@@ -109,14 +109,13 @@ bdm/your_group/
 ## 🧑‍🤝‍🧑 Group Work and Submission
 
 * Each group must consist of **2 students** only.
-* Complete the **Google Sheet** to register your group:
-  [📋 Group Registration Sheet]()
 
 **Submit**:
 
 1. `big_data.md` – the final Markdown write-up
 2. `big_data.ipynb` – the annotated Colab notebook with working code
 3. Push to the correct folder in GitHub
+4. Documentation
 
 ## 📌 Important Notes
 
@@ -143,6 +142,14 @@ bdm/your_group/
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| Sample2 | Pandas | joblib | concurrent.features | Poland Air Quality Dataset (2017-2023) + weather | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| wns & YX | Pandas | Dask | Polars | 2019 Airline Delays w/Weather and Airport Detail | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| Mainecoon | Pandas | Dask | Polars | [NYC Parking Tickets](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets?select=Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| n & t | Pandas | Polars | Dask | [Spotify Charts]((https://www.kaggle.com/datasets/dhruvildave/spotify-charts)) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| DANS | Pandas | PyArrow | Dask | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| Group IDK | Pandas | Polars | Dask | [Amazon Books Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews?select=Books_rating.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| KKK | Pandas | PyArrow | Dask | [DDoS Dataset](https://www.kaggle.com/datasets/devendra416/ddos-datasets) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| LCLY | Pandas | Polars | Dask | [UKHousePrice]([[https://www.kaggle.com/datasets/devendra416/ddos-datasets](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid/discussion?sort=hotness )] | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 
 
 ## Contribution 🛠️

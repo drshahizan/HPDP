@@ -43,9 +43,9 @@
    - [Raw Dataset](https://drive.google.com/file/d/1LvokKS7OMZyWrZxFSy82rm7E0IJOgSAn/view?usp=sharing)
    - [Cleaned Dataset](https://drive.google.com/file/d/1d6JlsQBuqvSLAUfd-pEv9-NKANgPHwK-/view?usp=sharing)
 
-5. **Slides:** [Here](https://www.canva.com/design/DAGn8du-u-Q/xCM9Oj-Yl8Q5xfIWJ6aVeQ/edit?utm_content=DAGn8du-u-Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+5. **Slides:** [Here](Documents/HPDP_PresentationSlide.pdf)
 
-6. **Reports:** [Here](https://docs.google.com/document/d/1BfCmPJnahCZlheN-WwguYUIdVNcpxVi_9MGO4RRjAR4/edit?usp=sharing)
+6. **Reports:** [Here](Documents/HPDP_ProjectReport.pdf)
 
 <br>
 

@@ -69,7 +69,23 @@ A Python-based web scraper that extracts car listings from [Carlist.my](https://
 | <img src="https://github.com/user-attachments/assets/6bbc160f-7b0e-47d9-9d90-0a8453cc2115" width="48"/> `polars` | A high-performance DataFrame library built in Rust, optimized for speed and low memory usage—great for large-scale data wrangling and lightning-fast computations. |
 
 ---
+## 🛠️ System Architecture
+![SystemArchitecture-Page-1 drawio](https://github.com/user-attachments/assets/704c2c3a-7942-4cfd-a69b-c9602e1bb285)
+<br>
+## 🔧 Architecture of Tools and Frameworks Used
+![SystemArchitecture-Page-2 drawio (1)](https://github.com/user-attachments/assets/4ad1e7af-f32c-4bb5-a4a4-7a0f56d68bc1)
 
+## 🔗 Data Details
+
+  - Original dataset containing **175,545 rows** and **17 columns**. Includes some missing values in `location`, `fuel type`, and `body type`.
+
+  - Cleaned version of the dataset with missing values replaced and invalid URL entries removed. Final shape: **175,545 rows × 16 columns**.
+
+---
+
+## 📊 Dataset Overview
+
+This dataset contains car listings from various regions in Malaysia. The dataset includes key attributes such as car name, price, location, brand, year of manufacture, and more. It provides valuable insights for car buyers, sellers, and analysts interested in the automotive market.
 ## 📊 Data Description
 
 | Column Name        | Description                                                              |
@@ -144,5 +160,9 @@ These measurements help compare how efficiently each method performed under simi
 
 ---
 
-> ✅ **Conclusion**: While Pandas is easy to use, DuckDB and Polars significantly outperform it in terms of speed and efficiency—especially Polars in throughput and DuckDB in low memory usage.
-
+## ✅ Conclusion
+The best library is Polars. While Pandas is easy to use, DuckDB and Polars significantly outperform it in terms of speed and efficiency—especially Polars in throughput and DuckDB in low memory usage.
+## 🥇 Winner
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6bbc160f-7b0e-47d9-9d90-0a8453cc2115" width="300px"/>
+</p>

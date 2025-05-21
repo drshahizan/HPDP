@@ -81,39 +81,41 @@ The project follows a multi-stage data pipeline:
 
 This repository contains all deliverables for the project:
 
-* **`/Report`**:
-    * `HPDP Project 1.pdf`: The final project report detailing the background, methodology, results, and conclusions.
-* **`/Code`**:
-    * `Web_Scraping/`: Contains the script(s) used for scraping data from Mudah.my (e.g., `webScrape.py`). *(Adjust folder/file name as per your actual structure)*
-    * `Data_Cleaning/`: Contains the script(s) for cleaning the raw scraped data (e.g., `Data_Cleaning_Script.py` or the initial part of your `All Python code.docx`). *(Adjust folder/file name)*
-    * `Sequential_Processing/`: Script for the baseline sequential query processing (e.g., `Sequential_Pandas.ipynb` or `.py`). *(Adjust folder/file name)*
-    * `Multithreading/`: Script for the multithreaded query processing (e.g., `Multithreading_Pandas.ipynb` or `.py` - your part). *(Adjust folder/file name)*
-    * `Multiprocessing/`: Script for the multiprocessing approach using `joblib` (e.g., `Multiprocessing_Joblib.ipynb` or `.py`). *(Adjust folder/file name)*
-    * `Distributed_Computing_Spark/`: Script for the Spark-based query processing (e.g., `Spark_PySpark.ipynb` or `.py`). *(Adjust folder/file name)*
-* **`/Dataset`**:
-    * `raw_car_data.csv` (or `.json`): The raw dataset collected before cleaning. *(Link or actual file - adjust as needed)*
-    * `cleaned_car_data.csv` (or `.json`): The final cleaned dataset (115,001 records) used for analysis. *(Link or actual file - adjust as needed)*
-* **`/Presentation`**:
-    * `Project_Presentation_Slides.pptx` (or `.pdf`): Slides used for the project presentation. *(Adjust file name)*
-* `README.md`: This file.
+- **`/data`**:
+  - `cleaned_Data.csv`: The final cleaned dataset used for analysis (115,001 records).
+  - `raw_data.csv`: The raw dataset collected before cleaning.
+
+- **`/img`**:
+  - `SystemArchitecture.png`: Visual representation of the system architecture.
+  - `Throughput.png`: Graph showing throughput evaluation.
+  - `cpuUsage.png`: CPU usage comparison chart.
+  - `memoryUsage.png`: Memory usage comparison chart.
+  - `querytime.png`: Query execution time comparison chart.
+
+- **`/p1`**: Scripts and notebooks related to the main data pipeline and optimization methods.
+  - `mainCrawler.py`: Web scraping script for collecting raw data.
+  - `clean_data.ipynb`: Data cleaning script.
+  - `before_optimized_pipeline.ipynb`: Baseline sequential query processing.
+  - `multithreaded_supabase_queries.ipynb`: Multithreading-based query processing.
+  - `optimized_pipeline_multiprocessing.ipynb`: Multiprocessing optimization using `joblib`.
+  - `optimize_pipeline_distributed_computing.ipynb`: Distributed computing optimization using Spark.
+
+- **`/p2`**: Evaluation results and comparative analysis.
+  - `Before_Optimization_Sequential.csv`: Output from the baseline sequential query processing.
+  - `After_Optimization_Multithreading.csv`: Output from multithreaded query processing.
+  - `After_Optimization_Multiprocessing.csv`: Output from multiprocessing approach.
+  - `After_Optimization_Distributed_Computing.csv`: Output from distributed (Spark) processing.
+  - `evaluation_charts.pdf`: Charts and comparative graphs summarizing performance metrics.
+
+- **`/report`**:
+  - `HPDP Project 1 - Group CrawlOps report.pdf`: Final project report including background, methodology, results, and conclusions.
+  - `Presentation Slide.pdf`: Slide deck used during the project presentation.
+
+- `README.md`: This file.
 
 *(Please adjust the file paths and names above to match your actual repository structure.)*
 
-## 5. How to Run the Code
-
-*(This section should be filled in by your team with specific instructions for each script if they are intended to be runnable by others. Consider including:)*
-* Prerequisites (e.g., Python version, Java for Spark).
-* How to install dependencies (e.g., `pip install -r requirements.txt`).
-* Instructions for setting up Supabase credentials (e.g., updating placeholder variables in the scripts).
-* Order of execution if scripts depend on each other (e.g., run cleaning before analysis).
-* Example commands to run each script.
-
-**Example for Multithreading Script:**
-1.  Ensure Python 3.x is installed along with `pandas`, `supabase`, `psutil`.
-2.  Update `SUPABASE_URL` and `SUPABASE_KEY` placeholders in the script (`Multithreading/Multithreading_Pandas.py`).
-3.  Run the script from the terminal: `python Multithreading/Multithreading_Pandas.py`
-
-## 6. Key Findings & Performance
+## 5. Key Findings & Performance
 
 The project evaluated four different processing strategies. Our performance analysis (detailed in Section 6 of the report) showed the following ranking for overall efficiency on our specific dataset and queries:
 
@@ -136,7 +138,7 @@ Distributed computing (Spark), while powerful for very large datasets, incurred 
 
 ![Throughput Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/CrawlOps/img/Throughput.png)
 
-## 7. Challenges and Limitations
+## 6. Challenges and Limitations
 
 Key challenges included:
 * Ensuring web scraping reliability against website layout changes.
@@ -148,7 +150,7 @@ Limitations include the scalability constraints of Supabase for high-throughput 
 
 *(Refer to Section 7 "Challenges & Limitations" in the `HPDP Project 1.pdf` for a full discussion.)*
 
-## 8. Conclusion
+## 7. Conclusion
 
 This project successfully demonstrated the development of a web scraping and data processing pipeline, alongside a comparative evaluation of different optimization techniques. The findings underscore that the choice of optimization strategy is highly dependent on the specific workload, data size, and system architecture, with multithreading proving most effective for our particular use case and dataset scale.
 
