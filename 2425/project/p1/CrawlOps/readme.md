@@ -59,6 +59,7 @@ The project follows a multi-stage data pipeline:
     * Metrics were collected for each query under each processing strategy to compare their effectiveness.
 
 **(Refer to the `HPDP Project 1.pdf` report in this repository for a detailed architectural diagram in Section 2.1, Page 7.)**
+![web crawler diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/CrawlOps/img/SystemArchitecture.png)
 
 ## 3. Tools and Frameworks Used
 
@@ -126,6 +127,14 @@ Multithreading demonstrated the best performance, significantly reducing query e
 Distributed computing (Spark), while powerful for very large datasets, incurred overhead that made it less performant for our dataset size (approx. 115,000 records) compared to single-machine concurrent approaches.
 
 *(Refer to Section 6 "Performance Evaluation" and Section 8.1 "Summary of findings" in the `HPDP Project 1.pdf` for detailed metrics, charts, and discussion.)*
+
+![Query Time Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/CrawlOps/img/querytime.png)
+
+![Memory Usage Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/CrawlOps/img/memoryUsage.png)
+
+![CPU Usage Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/CrawlOps/img/cpuUsage.png)
+
+![Throughput Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/CrawlOps/img/Throughput.png)
 
 ## 7. Challenges and Limitations
 
