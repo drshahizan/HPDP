@@ -26,9 +26,24 @@
   </tr>
 </table>
 
-<p>
-  <b>SLIDES: </b><a href="https://www.canva.com/design/DAGn8du-u-Q/xCM9Oj-Yl8Q5xfIWJ6aVeQ/edit?utm_content=DAGn8du-u-Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Click Me</a>
-</p>
+### Links to full code repo or dataset
+1. **Pandas:**
+   - [Part 1](Codes/P1_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1xi-2SBSYWeEue9q_BF58WCiihWX9j6nN?usp=sharing)
+   - [Part 2](Codes/P2_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
+
+2. **Polars:**
+   - [Part 1](Codes/P1_POLARS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1Mo98HWNSUhlKcTMXERXbh2yYHhQ4BhvP?usp=sharing)
+   - [Part 2](Codes/P2_POLARS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1MjQbbpOWY6xCiv9GxZ842zNhea_vK2YT?usp=sharing)
+
+3. **PySpark:**
+   - [Part 1](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1KUD0RVBLRetTi0Wer8ButoaDxbkJjIcR?usp=sharing)
+   - [Part 2](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1zFGwWiYsAkjxCqtm6u2Y1qsc5w_N72WL?usp=sharing)
+
+4. **Dataset**
+   - [Raw Dataset](https://drive.google.com/file/d/1LvokKS7OMZyWrZxFSy82rm7E0IJOgSAn/view?usp=sharing)
+   - [Cleaned Dataset](https://drive.google.com/file/d/1d6JlsQBuqvSLAUfd-pEv9-NKANgPHwK-/view?usp=sharing)
+
+5. **Slides** [Here](https://www.canva.com/design/DAGn8du-u-Q/xCM9Oj-Yl8Q5xfIWJ6aVeQ/edit?utm_content=DAGn8du-u-Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <br>
 
@@ -1100,22 +1115,6 @@ By adopting these improvements, the project has the potential to evolve into a r
 </table>
 
 
-### Links to full code repo or dataset
-1. **Pandas:**
-   - [Part 1](Codes/P1_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1xi-2SBSYWeEue9q_BF58WCiihWX9j6nN?usp=sharing)
-   - [Part 2](Codes/P2_PANDAS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1_StmE7ovcoBiV6SbCMLnO9KXCIxy2tR8?usp=sharing)
-
-2. **Polars:**
-   - [Part 1](Codes/P1_POLARS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1Mo98HWNSUhlKcTMXERXbh2yYHhQ4BhvP?usp=sharing)
-   - [Part 2](Codes/P2_POLARS.ipynb) [Here to Colab](https://colab.research.google.com/drive/1MjQbbpOWY6xCiv9GxZ842zNhea_vK2YT?usp=sharing)
-
-3. **PySpark:**
-   - [Part 1](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1KUD0RVBLRetTi0Wer8ButoaDxbkJjIcR?usp=sharing)
-   - [Part 2](Codes/P1_PYSPARK.ipynb) [Here to Colab](https://colab.research.google.com/drive/1zFGwWiYsAkjxCqtm6u2Y1qsc5w_N72WL?usp=sharing)
-
-4. **Dataset**
-   - [Raw Dataset](https://drive.google.com/file/d/1LvokKS7OMZyWrZxFSy82rm7E0IJOgSAn/view?usp=sharing)
-   - [Cleaned Dataset](https://drive.google.com/file/d/1d6JlsQBuqvSLAUfd-pEv9-NKANgPHwK-/view?usp=sharing)
 
 
 
