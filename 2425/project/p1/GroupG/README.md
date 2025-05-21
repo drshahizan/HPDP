@@ -1,20 +1,38 @@
-# Group G - Malaysia News Analysis
+<h1 align="center"> 
+  Group G - Malaysia News Analysis
+</h1>
 
-| Name                                   | Matric Number |
-|----------------------------------------|----------------|
-| CHEN PYNG HAW                         | A22EC0042      |
-| MUHAMMAD DANIAL BIN AHMAD SYAHIR     | A22EC0206      |
-| LOW JIE SHENG                         | A22EC0075      |
-| NADHRAH NURSABRINA BINTI ZULAINI      | A22EC0224      |
+<table border="1" align="center">
+  <tr>
+    <th>Name</th>
+    <th>Matric Number</th>
+  </tr>
+  <tr>
+    <td>CHEN PYNG HAW</td>
+    <td>A22EC0042</td>
+  </tr>
+  <tr>
+    <td>MUHAMMAD DANIAL BIN AHMAD SYAHIR</td>
+    <td>A22EC0206</td>
+  </tr>
+  <tr>
+    <td>LOW JIE SHENG</td>
+    <td>A22EC0075</td>
+  </tr>
+  <tr>
+    <td>NADHRAH NURSABRINA BINTI ZULAINI</td>
+    <td>A22EC0224</td>
+  </tr>
+</table>
 
----
+<br>
+
 
 # The Edge Malaysia Web Scraper
 
 A high-performance web crawler to extract over 100,000 articles from [The Edge Malaysia](https://theedgemalaysia.com/). Using the site's public API, the team collected news data from the "Malaysia" section, cleaned and structured it, then applied optimization techniques like multithreading, Dask, and Polars to enhance processing speed and efficiency. The project concludes with a performance comparison before and after optimization.
 
 
----
 ## 📂 Project Files
 
 | File Name                     | Description                                | Link |
@@ -26,7 +44,7 @@ A high-performance web crawler to extract over 100,000 articles from [The Edge M
 | **Optimization Code**        | Performance-optimized transformation code  | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/performances_after.ipynb) 
 | **Evaluation Chart**         | Visual comparison of optimization results  | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p2) |
 | **Project Report**           | Final detailed documentation               | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](report/HPDP_GroupG_FinalReport.pdf) |
-| **Presentation Slides**      | Slides for project presentation            | ![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)(report/HPDP-GroupG-Slide.pdf) |
+| **Presentation Slides**      | Slides for project presentation            | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](report/HPDP_GroupG_Slide.pdf) |
 
 
 ---
