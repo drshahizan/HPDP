@@ -109,14 +109,13 @@ bdm/your_group/
 ## 🧑‍🤝‍🧑 Group Work and Submission
 
 * Each group must consist of **2 students** only.
-* Complete the **Google Sheet** to register your group:
-  [📋 Group Registration Sheet]()
 
 **Submit**:
 
 1. `big_data.md` – the final Markdown write-up
 2. `big_data.ipynb` – the annotated Colab notebook with working code
 3. Push to the correct folder in GitHub
+4. Documentation
 
 ## 📌 Important Notes
 
