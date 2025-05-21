@@ -7,7 +7,6 @@
 
 # 📘 Assignment 2: Mastering Big Data Handling
 
-**Assignment Title**: Mastering Big Data Handling
 
 **Due Date**: **4 June 2025 5:00 PM**
 
@@ -28,7 +27,6 @@ By the end of this assignment, students should be able to:
 1. Identify challenges and limitations in traditional big data processing.
 2. Apply strategies to manage and analyze large datasets efficiently.
 3. Compare performance between traditional and optimized methods.
-4. Collaborate using GitHub and document work in Markdown and Jupyter Notebooks.
 
 ## 📝 Assignment Tasks
 
@@ -139,6 +137,13 @@ bdm/your_group/
 | Conclusion & Reflection          | 10      |
 | GitHub Submission                | 5       |
 | **Total**                        | **100** |
+
+## Submission
+
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
