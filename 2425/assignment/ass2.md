@@ -106,13 +106,13 @@ bdm/your_group/
 └── 📄 big_data.ipynb     ← Colab Notebook with code
 ```
 
-> 💡 Use this GitHub structure: [https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm)
+> 💡 Use this GitHub structure: [will inform later]()
 
 ## 🧑‍🤝‍🧑 Group Work and Submission
 
 * Each group must consist of **2 students** only.
 * Complete the **Google Sheet** to register your group:
-  [📋 Group Registration Sheet](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=524983437)
+  [📋 Group Registration Sheet]()
 
 **Submit**:
 
