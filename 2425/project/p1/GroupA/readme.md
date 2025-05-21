@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group A - Appartment Pricing Analysis
+  Group A - NST News Web Scraping Project
   <br>
 </h1>
 
