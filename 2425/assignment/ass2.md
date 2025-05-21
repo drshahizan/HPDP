@@ -146,6 +146,7 @@ bdm/your_group/
 | wns & YX | Pandas | Dask | Polars | 2019 Airline Delays w/Weather and Airport Detail | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | Mainecoon | Pandas | Dask | Polars | [NYC Parking Tickets](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets?select=Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | n & t | Pandas | Polars | Dask | [Spotify Charts]((https://www.kaggle.com/datasets/dhruvildave/spotify-charts)) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| DANS | Pandas | PyArrow | Dask | [Anime Dataset 2023]((https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 
 
 ## Contribution 🛠️
