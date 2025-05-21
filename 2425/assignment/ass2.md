@@ -8,9 +8,11 @@
 # 📘 Assignment 2: Mastering Big Data Handling
 
 **Assignment Title**: Mastering Big Data Handling
-**Weightage**: \[Insert % or marks if applicable]
+
 **Due Date**: **4 June 2025 5:00 PM**
+
 **Group Work**: Yes (2 students per group)
+
 **Submission Platform**: GitHub (via provided structure) and Google Colab
 
 ## 📌 Introduction
