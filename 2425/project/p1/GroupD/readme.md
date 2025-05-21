@@ -61,12 +61,36 @@ This project is structured in 4 main stages:
 
 ## 📁 Project Structure
 
-| No | Folder / File |
-|----|----------------|
-| 1  | [`data`](./data) |
+## 📁 Project File Structure
+
+| No | Folder / File | Description |
+|----|---------------|-------------|
+| 1  | [`data`](./data) | 
+|    | [`Item_list.csv`](https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/GroupD/data/Item_list.csv) | Raw product dataset collected from PG Mall before cleaning. Contains product name, price, location, and link with some duplicates, null values, and uncleaned fields. |
+|    | [`Item_By_Category`](#) | Folder containing raw product datasets by subcategory (product name and link only). |
+|    | [`merged_product_list.csv`](#) | Merged dataset of all raw subcategory data from `Item_By_Category`. |
+|    | [`updated_item_list.csv`](#) | Raw dataset with product name, price, location, link, and product type. |
+|    | [`Item_list_cleaned.csv`](#) | Cleaned dataset using Pandas. |
+|    | [`Item_list_cleaned_optimized.csv`](#) | Cleaned dataset using Polars. |
+|    | [`Item_list_cleaned_dask.csv.ipynb`](#) | Cleaned dataset using Dask. |
+
 | 2  | [`p1`](./p1) |
+|    | [`PgmallScraping_withoutOptimization.ipynb`](#) | Basic web scraping and data collection without performance optimization. |
+|    | [`PgmallScraping_multithreading.ipynb`](#) | Web scraping using multithreading to improve performance. |
+|    | [`PgmallBySubCategory.ipynb`](#) | Scrapes product data by subcategory. |
+|    | [`Map_ProductType.ipynb`](#) | Maps raw products to product type categories. |
+|    | [`Cleaning_Process_withoutOptimization.ipynb`](#) | Cleaning using Pandas (nulls, duplicates, fields). |
+|    | [`Cleaning_Process_withPolar.ipynb`](#) | Cleaning using Polars for better performance. |
+|    | [`Cleaning_Process_withDask.ipynb`](#) | Cleaning using Dask for scalability. |
+
 | 3  | [`p2`](./p2) |
+|    | [`Chart.ipynb`](#) | Bar chart visualization for performance metrics. |
+|    | [`performance_log_scraping.csv`](#) | Performance data before scraping optimization. |
+|    | [`performance_log_scrapingoptimized.csv`](#) | Performance data after scraping optimization. |
+
 | 4  | [`report`](./report) |
+|    | *(Add report files here if applicable)* | *(Descriptions can be added similarly.)* |
+
 
 ---
 
