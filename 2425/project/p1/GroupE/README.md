@@ -27,6 +27,25 @@
 </table>
 
 
+
+
+<div align="center">
+
+| File Name                     | Description                                | Link |
+|------------------------------|--------------------------------------------|------|
+| **Raw Dataset**              | Cleaned and raw data with URLs             | [Click Here](data/NST_News_Articles.xlsx) |
+| **Clean Dataset**            | Preprocessed data in zip file           | [Click Here](data/cleaned_data.zip) |
+| **Web Crawler Script**       | Python script to scrape the New Straits Time         | [Click Here](p1/main_crawler.ipynb) |
+| **Data Cleaning Code**       | Script to clean and preprocess the data    | [Click Here](p1/clean_data.ipynb) |
+| **Optimization Code**        | Performance-optimized transformation code  | [Click Here](p1/optimize_pipeline.ipynb) |
+| **Performance Before Optimization** | The performance metrics before optimize                 | [Click Here](p2/performance_before.csv)|
+| **Performance After Optimization** | The performance metrics after optimize                 | [Click Here](p2/performance_after.csv)|
+| **Evaluation Chart**         | Visual comparison of optimization results  | [Click Here](p2/evaluation_charts.ipynb) |
+| **Project Report**           | Final documentation               | [Click Here](report/Final_Report.pdf)|
+| **Presentation Slides**      | Presentation Slides for project presentation            | [Click Here](report/Presentation_Slides(GroupE).pptx) |
+| **TurnitIn Report**      | TurnItin generated report            | [Click Here](report/HPDP_Group_E_Report_Turnitin.pdf) |
+</div>
+
 ## 1.0 Introduction
 ### 1.1 Background of the Project
 Online news platforms have become an important source of information on a wide range of topics which includes politics, economics, social issues, and also events that are happening around the world. With the increasing availability of public data on news websites, web scraping is a powerful tool to automate the collection of large volumes of content for different purposes such as sentiment analysis, trend detection, and content archiving.
