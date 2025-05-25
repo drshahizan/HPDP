@@ -153,6 +153,8 @@ bdm/your_group/
 | MAS |  |  |  | [Social Graphs]([[https://www.kaggle.com/datasets/wolfram77/graphs-social)] | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | BingChiling | Pandas|Polars|Dask | [IMDB Review](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 |Transformer|Pandas|Polars|Dask| [Transactions Data](https://www.kaggle.com/datasets/ismetsemedov/transactions?select=synthetic_fraud_data.csv)| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| WorldPopulation | Pandas | Polars | Dask | [World Population Data](https://www.kaggle.com/datasets/joebeachcapital/world-population-data) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+
 
 
 
