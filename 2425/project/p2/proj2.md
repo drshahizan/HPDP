@@ -5,99 +5,78 @@
 <a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# 📄 Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers
+# 📄 Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka
 
 ## Project Synopsis
-This project introduces students to real-world applications of high-performance computing (HPC) in large-scale web data processing. Students will work collaboratively in diverse teams to design, develop, and optimize a web crawler capable of extracting a minimum of **100,000 structured records** from a **Malaysian website**. Emphasis is placed on the practical implementation of **multithreading, multiprocessing, and distributed processing** techniques to improve the efficiency and scalability of the system. 
 
-Through hands-on experience, students will explore data collection, cleaning, transformation, and storage, while addressing technical challenges such as crawl delays, ethical scraping, and performance bottlenecks. The project culminates with a comprehensive performance evaluation comparing pre- and post-optimization results. Deliverables include a final technical report, source code, cleaned dataset, performance analysis, and a group presentation. 
+This project offers students a hands-on opportunity to design and develop a **real-time sentiment analysis pipeline** using **Apache technologies**. The focus is on collecting and analyzing large volumes of **social media or public review data** to understand user sentiments about a product, event, or social issue relevant to **Malaysia**.
 
-This project aims to develop students' technical skills in high-performance computing, critical thinking in system optimization, and collaboration in diverse teams—key competencies for data science professionals.
+Students will explore **natural language processing (NLP)** techniques to clean and process text, develop **machine learning or deep learning models** for sentiment classification, and implement a scalable system architecture using **Apache Spark** for big data processing and **Apache Kafka** for real-time data streaming. The processed insights will be stored and visualized using tools such as **Elasticsearch** or **Apache Druid**.
 
-📊 **Weightage**: 15% of total course assessment  
+The project emphasizes **real-time analytics**, **pipeline integration**, and **insight communication** through dashboards and reports, fostering critical thinking, data engineering skills, and teamwork in solving modern data science challenges.
+
+📊 **Weightage**: 15% of total course assessment
 🕓 Project Duration: 4 Weeks
-📅 **Submission Deadline**: **Friday, 16 May 2025**  
-📤 **Submission Format**: All final documents must be uploaded via e-learning and github  
-👥 **Assignment Type**: **4 students per group (Max)**. 
-> 📌 Each group must include students from **different genders, races, or backgrounds** to encourage diversity and collaboration across cultures and perspectives.
+📅 **Submission Deadline**: **Friday, 20 June 2025**
+📤 **Submission Format**: Final documents via e-learning and GitHub
+👥 **Assignment Type**: **4 students per group (Max)**
+
+> 📌 Each group must include students from **different genders, races, or backgrounds** to promote diverse and inclusive teamwork.
 
 ## 🧠 **What Is This Project About?**
 
-This project gives you the chance to **design, build, and optimize a high-performance data processing system** that collects information from the internet. You will create a **web crawler** to extract data from a **Malaysian website** and then process this data using **advanced computing techniques** to make the process faster and more efficient.
+You will build a system that **monitors and analyzes public sentiment** in real-time using cutting-edge big data technologies. Choose a dataset from **Twitter, online reviews, or news sources**, clean it, and classify each text entry as **positive, negative, or neutral** using your trained model. Your pipeline will run continuously or on-demand using Apache tools, and the insights will be made visible using dashboards.
 
-### 💡 What makes this “high-performance”?
-You are expected to use computing methods that improve performance, such as:
-- **Multithreading** – running multiple tasks at the same time
-- **Multiprocessing** – using multiple CPU cores for different parts of the program
-- **Distributed computing** – spreading the task across several machines or processes (e.g., using Spark)
+### ⚙️ Technologies Involved
 
-You will also **compare the performance before and after optimization**, and show what makes your design better.
+* **Apache Kafka**: Stream text data from live or batched sources.
+* **Apache Spark**: Process large-scale data in parallel, apply machine learning models.
+* **Apache Elasticsearch or Druid**: Store and visualize sentiment trends.
+* **NLP Libraries**: NLTK, spaCy, or Hugging Face Transformers for preprocessing and modeling.
 
 ## 🎯 **Project Goals**
 
-By the end of this project, you will be able to:
-1. Build a **web crawler** to extract large amounts of data from a real-world Malaysian website.
-2. Process and clean the data to prepare it for analysis or storage.
-3. Apply **high-performance computing techniques** to improve the speed and efficiency of your solution.
-4. Work as part of a **diverse, collaborative team**.
-5. Evaluate your system’s performance and explain how it was improved.
-6. Present your work professionally through reports and presentations.
+By completing this project, you will be able to:
+
+1. Set up a **real-time streaming pipeline** with Apache Kafka and Spark.
+2. Preprocess text data using **standard NLP techniques**.
+3. Train and deploy a **sentiment classification model** (ML or deep learning).
+4. Store and visualize results using **Elasticsearch/Druid dashboards**.
+5. Collaborate in a diverse team and present actionable insights to stakeholders.
 
 ## 📌 Project Requirements
 
 ### ✅ Technical Requirements:
-- Crawl and collect **at least 100,000 records** from a single Malaysian website.
-- Store the data in **CSV, JSON, or database**.
-- Clean and process the data (e.g., remove duplicates, standardize fields).
-- Apply at least **two optimization methods** to make your system faster and more efficient.
-- Include performance comparison **(before vs after optimization)**
-  
+
+* Collect or stream data from **Malaysian-relevant sources** (e.g., Twitter, Shopee, local news).
+* Preprocess data using NLP methods (cleaning, stemming, tokenization).
+* Build and train a sentiment model (at least 2 approaches, e.g., Naive Bayes + LSTM).
+* Implement **real-time processing** using Apache Kafka and Spark.
+* Store output in **Elasticsearch or Druid** and produce **visual dashboards**.
+* Compare the performance of the model across batch and streaming modes.
+
 ### ✅ Deliverables
-| No. | Item | Description |
-|-----|------|-------------|
-| 1 | **Final Report** | A complete document with background, methods, results, and discussion. Must be uploaded to Turnitin (PDF). |
-| 2 | **Source Code** | Your crawler and processing pipeline, well organized and commented. Submit as GitHub link or ZIP file. |
-| 3 | **Clean Dataset** | At least 100,000 valid, structured records in CSV/JSON/database. |
-| 4 | **Performance Comparison** | Include charts or tables comparing performance before and after optimization. |
-| 5 | **Presentation Slides** | 10-minute group presentation explaining your project. |
+
+| No. | Item                    | Description                                                                                      |
+| --- | ----------------------- | ------------------------------------------------------------------------------------------------ |
+| 1   | **Final Report**        | Detailed document including architecture, model results, and findings. PDF uploaded to Turnitin. |
+| 2   | **Source Code**         | Python/Scala scripts, model files, and config files (GitHub or ZIP).                             |
+| 3   | **Dashboard/Dataset**   | A working visualization dashboard and exported clean dataset.                                    |
+| 4   | **Model Comparison**    | Evaluation of different models and real-time vs batch results.                                   |
+| 5   | **Presentation Slides** | A clear, concise 10-minute group presentation.                                                   |
 
 ## 🔗 Quick Access to Supporting Resources
 
-- 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)  
-- 🧭 [Step-by-Step Project Guide](p1_step.md)  
-- 🧾 [Assessment Rubric](p1_rubric.md)  
-- 🔗 [Recommended Repositories & Tools](p1_tools.md)  
-- ✅ [Checklist & Timeline Tracker](p1_checklist.md)  
-- 📄 [Sample Report Structure](p1_report.md)  
-- 📁 [GitHub Folder Submission Template](p1_github.md)
+* 🗃️ [Sample Dataset Sources (Twitter, Reviews, News)](p2_data.md)
+* 🛠️ [Apache Spark & Kafka Setup Guide](p2_setup.md)
+* 📊 [Visualization Tools & Examples](p2_visual.md)
+* 🧠 [Sentiment Model Training Tips](p2_model.md)
+* 📄 [Final Report Template](p2_report.md)
+* 📁 [GitHub Folder Submission Template](p2_github.md)
 
 ## Submission
 
-1. Web scraping
-   
-| Team | Website | Tools |  Open in GitHub |
-| ----- | ----- | ------ | ------ | 
-| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
-| Group A |   [NST(World,Business,ASEAN](https://www.nst.com.my/)     | Selenium + Web-Driver Manager |   [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupA)     |
-| Data Drillers     | [Carlist](https://www.carlist.my/cars-for-sale/malaysia)       | Beautiful Soup + Request       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupB)        |
-| HyperData | [lazada](https://www.lazada.com.my/catalog/?q=Women%27s%20Fashion&price=0-25) | Beautiful Soup + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)|
-| Group D | [pgmall(kesihatan dan kecantikan](https://pgmall.my/category?path=1&page=4129) | Beautiful Soup + Request| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupD)|
-| Group E | [NST (News)](https://www.nst.com.my/news) | Beautiful Soup + Playwright + Asyncio | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
-| CrawlOps | [mudah.my (car)](https://www.mudah.my/malaysia/cars-for-sale) | Pandas + Beautiful Soup + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps)|
-| Group G | [The Edge Malaysia](https://theedgemalaysia.com/) |  Requests  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)      |
-
-2. Performance Comparison
-
-| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
-| ----- | ----- | ------ | ------ |  ------ | :------: | 
-| Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
-| Group A      |  Selenium        |   Threading        |    WebDriver Manager       |  NST World, Business, ASEAN News Articles       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupA) 
-| Data Drillers      |  Pandas        |   DuckDB        |    Polars       |  Car Lists Analysis       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupB)                 |
-| HyperData  |   pandas   |  polar  |   pySpark      |   Women's Purchase Analysis      |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)   |
-|  Group D     |   Pandas     |   Dask        |    Polar       |   Beauty & Health Item Analysis      |                  |
-| Group E | Pandas | Polars | Modin | News Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
-| CrawlOps | joblib | concurrent.futures | PySpark    | Car Market Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps) |
-| Group G | Pandas | Polars  | Dask  |  Malaysia News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)  |
+All final project components must be uploaded to both **e-learning** and a shared **GitHub repository** by **Friday, 20 June 2025** at 11:59 PM. Ensure your group name, members, and contact are clearly stated.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
