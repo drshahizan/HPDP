@@ -76,7 +76,7 @@ By completing this project, you will be able to:
 
 ## Submission
 
-All final project components must be uploaded to both **e-learning** and a shared **GitHub repository** by **Friday, 20 June 2025** at 11:59 PM. Ensure your group name, members, and contact are clearly stated.
+All final project components must be uploaded to both **e-learning** and a shared **GitHub repository** by **Friday, 27 June 2025** at 11:59 PM. Ensure your group name, members, and contact are clearly stated.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
