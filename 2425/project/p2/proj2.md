@@ -77,6 +77,11 @@ By completing this project, you will be able to:
 ## Submission
 
 All final project components must be uploaded to both **e-learning** and a shared **GitHub repository** by **Friday, 27 June 2025** at 11:59 PM. Ensure your group name, members, and contact are clearly stated.
+   
+| Team | Website | Tools |  Open in GitHub |
+| ----- | ----- | ------ | ------ | 
+| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
