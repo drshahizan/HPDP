@@ -15,11 +15,11 @@ Students will explore **natural language processing (NLP)** techniques to clean 
 
 The project emphasizes **real-time analytics**, **pipeline integration**, and **insight communication** through dashboards and reports, fostering critical thinking, data engineering skills, and teamwork in solving modern data science challenges.
 
-📊 **Weightage**: 15% of total course assessment
-🕓 Project Duration: 4 Weeks
-📅 **Submission Deadline**: **Friday, 20 June 2025**
-📤 **Submission Format**: Final documents via e-learning and GitHub
-👥 **Assignment Type**: **4 students per group (Max)**
+- 📊 **Weightage**: 15% of total course assessment
+- 🕓 Project Duration: 4 Weeks
+- 📅 **Submission Deadline**: **Friday, 20 June 2025**
+- 📤 **Submission Format**: Final documents via e-learning and GitHub
+- 👥 **Assignment Type**: **4 students per group (Max)**
 
 > 📌 Each group must include students from **different genders, races, or backgrounds** to promote diverse and inclusive teamwork.
 
