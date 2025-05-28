@@ -16,6 +16,12 @@ In the modern data-driven world, organizations face the challenge of managing an
 ## 📄 [Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers](../project/p1/proj1.md)
 This project introduces students to real-world applications of high-performance computing (HPC) in large-scale web data processing. Students will work collaboratively in diverse teams to design, develop, and optimize a web crawler capable of extracting a minimum of **100,000 structured records** from a **Malaysian website**. Emphasis is placed on the practical implementation of **multithreading, multiprocessing, and distributed processing** techniques to improve the efficiency and scalability of the system. Through hands-on experience, students will explore data collection, cleaning, transformation, and storage, while addressing technical challenges such as crawl delays, ethical scraping, and performance bottlenecks. The project culminates with a comprehensive performance evaluation comparing pre- and post-optimization results. Deliverables include a final technical report, source code, cleaned dataset, performance analysis, and a group presentation. This project aims to develop students' technical skills in high-performance computing, critical thinking in system optimization, and collaboration in diverse teams—key competencies for data science professionals.
 
+
+## 📄 [Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka](../project/p2/proj2.md)
+This project offers students a hands-on opportunity to design and develop a **real-time sentiment analysis pipeline** using **Apache technologies**. The focus is on collecting and analyzing large volumes of **social media or public review data** to understand user sentiments about a product, event, or social issue relevant to **Malaysia**.
+
+Students will explore **natural language processing (NLP)** techniques to clean and process text, develop **machine learning or deep learning models** for sentiment classification, and implement a scalable system architecture using **Apache Spark** for big data processing and **Apache Kafka** for real-time data streaming. The processed insights will be stored and visualized using tools such as **Elasticsearch** or **Apache Druid**.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
