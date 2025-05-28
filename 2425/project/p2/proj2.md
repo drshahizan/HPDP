@@ -59,7 +59,7 @@ By completing this project, you will be able to:
 
 | No. | Item                    | Description                                                                                      |
 | --- | ----------------------- | ------------------------------------------------------------------------------------------------ |
-| 1   | **Final Report**        | Detailed document including architecture, model results, and findings. PDF uploaded to Turnitin. |
+| 1   | **Final Report**        | Detailed document including architecture, model results, use case and findings. PDF uploaded to Turnitin. |
 | 2   | **Source Code**         | Python/Scala scripts, model files, and config files (GitHub or ZIP).                             |
 | 3   | **Dashboard/Dataset**   | A working visualization dashboard and exported clean dataset.                                    |
 | 4   | **Model Comparison**    | Evaluation of different models and real-time vs batch results.                                   |
