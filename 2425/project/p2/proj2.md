@@ -17,7 +17,7 @@ The project emphasizes **real-time analytics**, **pipeline integration**, and **
 
 - 📊 **Weightage**: 15% of total course assessment
 - 🕓 Project Duration: 4 Weeks
-- 📅 **Submission Deadline**: **Friday, 28 June 2025**
+- 📅 **Submission Deadline**: **Friday, 27 June 2025**
 - 📤 **Submission Format**: Final documents via e-learning and GitHub
 - 👥 **Assignment Type**: **4 students per group (Max)**
 
