@@ -6,7 +6,7 @@
     <th>Matric Number</th>
   </tr>
   <tr>
-    <td width=80%>Tiew Chuan Rong</td>
+    <td width=80%>TIEW CHUAN RONG</td>
     <td>A22EC0112</td>
   </tr>
   <tr>
