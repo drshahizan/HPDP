@@ -19,7 +19,7 @@
 ## Files Path
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-| **Big_data.md**              |            | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](2425/assignment/A2/bdm/Transformer/big_data.md)
+| **Big_data.md**              |            | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.md)
 
 ## Introduction
    In today’s digital world, companies collect a huge amount of data every day. So, it is important to select a efficient technique to handle this huge data. It is because with a correct tool we can load and process data faster and efficiently. This project is about learning how to deal with big data using real tools used by data engineer.
