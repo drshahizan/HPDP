@@ -7,9 +7,7 @@
 
 ## 🧑‍💻 Team Members
 
--   Member 1: [Your Name] (APU ID: XXXXXXXX)
-    
--   Member 2: [Your Partner's Name] (APU ID: XXXXXXXX)
+-   Member 1: CHEN PYNG HAW A22EC0042
     
 
 ## 📂 Project Structure
@@ -63,18 +61,16 @@ We compared execution time and memory usage across all libraries and strategies.
 
 ## 📎 Links
 
--   👉 [big_data.md](https://chatgpt.com/g/g-p-682dddf85f0c8191b77b18f1204749c6-ass2-big-data/c/big_data.md)
+-   👉 [big_data.md](/big_data.md)
     
--   👉 [Colab Notebook (big_data.ipynb)](https://chatgpt.com/g/g-p-682dddf85f0c8191b77b18f1204749c6-ass2-big-data/c/big_data.ipynb)
+-   👉 [Colab Notebook (big_data.ipynb)](big_data.ipynb)
     
 
 ## 📅 Submission Info
 
--   Folder Path: `bdm/your_group/`
+-   Folder Path: `bdm/BingChiling/`
     
 -   Submission Date: **4 June 2025, 5:00 PM**
     
 
-----------
 
-> For more details, refer to the full report or contact the contributors above.
