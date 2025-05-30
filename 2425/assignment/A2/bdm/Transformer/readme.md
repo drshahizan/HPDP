@@ -27,3 +27,8 @@
 - Pandas
 - Polars
 - Dask
+
+## Data Details
+**Data source:** [Kaggle - Transaction Data](https://www.kaggle.com/datasets/ismetsemedov/transactions) <br>
+**File size:** 2.93GB <br>
+**Data Shape:** (7483766, 24)<br>
