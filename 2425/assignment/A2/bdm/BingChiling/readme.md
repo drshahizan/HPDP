@@ -61,7 +61,7 @@ We compared execution time and memory usage across all libraries and strategies.
 
 ## 📎 Links
 
--   👉 [big_data.md](/big_data.md)
+-   👉 [big_data.md](big_data.md)
     
 -   👉 [Colab Notebook (big_data.ipynb)](big_data.ipynb)
     
