@@ -72,7 +72,7 @@ We loaded the full CSV file using `pandas.read_csv()` and looked at:
   (74383766, 24) : (rows, columns)
 
 - the names of the columns
-  ![image](https://github.com/user-attachments/assets/c2113dfd-04d9-4b33-98fc-c5b6cb8a5c51)
+![image](https://github.com/user-attachments/assets/c2113dfd-04d9-4b33-98fc-c5b6cb8a5c51)
 
 
 - the data types for each column.<br>
@@ -157,7 +157,8 @@ We focus on comparing:
 | Sampling |27.03|906.22|
 
 <br> **Visualization of comparative analysis** <br>
-![image](https://github.com/user-attachments/assets/58ea0b93-5bb8-41f6-8097-dee177432eb9)
+![Untitled](https://github.com/user-attachments/assets/f99c73fc-6753-4437-b902-4480eb49ffc5)
+
 
 ### Part2: Camparing the performance of using different library or tools to handle large dataset.
 
@@ -173,17 +174,18 @@ We focus on comparing:
     
 
 ### Benefits
-
+- In terms of Processing/Execution Time, the **Load Less Data** and **Sampling** technique performed the best.
+- In terms of Memory Usage, the **Chunking** and **Sampling** technique consumed the least memory.
+- These techniques are applied using the **Pandas** library only.
 
     
 
 ### Limitations
 
 
-    
 
 ### Learning Reflection
 
-This assignment provided deep insights into how memory, performance, and parallelism vary between data libraries. We now better understand which tools to use based on dataset size and task type.
+This assignment showed how memory and performance differs between different libraries. This helps us understand which tools to use based on dataset size and task type.
 
 
