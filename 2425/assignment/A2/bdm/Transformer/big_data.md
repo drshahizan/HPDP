@@ -17,9 +17,9 @@
 
 # Assignment Tasks
 ## Task1: Dataset Selection <br>
-We had select a dataset larger than 700MB from Kaggle which is the Transaction data.
+We had select a dataset larger than 700MB from Kaggle which is the Transaction data.<br>
 **Data Details** <br>
-Data source: Kaggle - Transaction Data <br>
+Data source: [Kaggle - Transaction Data](https://www.kaggle.com/datasets/ismetsemedov/transactions) <br>
 File size: 2.93GB <br>
 Data Shape: (7483766, 24) <br>
 ## Task 2: Load and Inspect Data <br>
