@@ -163,3 +163,27 @@ We focus on comparing:
 
 ## 📌 Task 5: Conclusion & Reflection
 
+### Summary of Findings
+
+-   **Polars** is the best in terms of execution time and memory due to its optimized nature.
+    
+-   **Dask** is useful for distributed or larger-than-memory datasets.
+    
+-   **Pandas** is easiest to use but is slow and not suitable for large scale data.
+    
+
+### Benefits
+
+
+    
+
+### Limitations
+
+
+    
+
+### Learning Reflection
+
+This assignment provided deep insights into how memory, performance, and parallelism vary between data libraries. We now better understand which tools to use based on dataset size and task type.
+
+
