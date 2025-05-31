@@ -85,20 +85,25 @@ In this part, we used five strategies to work with our large dataset to observe 
 We apply the following five strategies to our dataset: <br>
 
 ### 📉 1. Load Less Data
+Instead of loading the entire dataset, we only picked the columns or rows we needed. This is helpful when we don’t need all the data detail. <br><br>
+**Example**: We used the usecols argument in read_csv() to load only a few important columns.
 
-Load only required columns or filter relevant rows during read operation.
 ### 📦 2. Use Chunking
+Since the dataset is very large, we didn’t load all at once. Instead, we read it in smaller parts with chunks. This prevents the system from crashing or running out of memory. <br><br>
+**Example**: We used chunksize=100000 to read 100,000 rows into chunk at a time using pandas.read_csv(chunksize=...).
 
-Process the data in small chunks using pandas.read_csv(chunksize=...).
 ### 🧮 3. Optimize Data Types
-
+Some columns take up more space than they need. So, We changed their data types to smaller or more efficient ones. This can helped reduce the memory used by the dataset. <br><br>
+**Example**: We converted strings with repeated values into category type, and used float32 instead of float64.
 Convert columns to appropriate types (e.g., category, float32) to reduce memory usage.
-### 🔍 4. Sampling
 
-Apply random or stratified sampling to reduce the dataset size for fast prototyping.
+### 🔍 4. Sampling
+We are using random sampling to reduce the dataset size. So, We took a smaller random portion of the dataset to test our code quickly without waiting too long. This is great for trying things out before working with the full dataset.<br><br>
+**Example**: We used .sample(frac=0.1) to get 10% of the data, we used skip that help randomly select only a portion of the dataset and skip the rest when loading.
 
 ### ⚡ 5. Parallel Processing with Dask
 
 Use Dask DataFrame to read and process large files in parallel.
 
+## Task4 : Comparative Analysis
 
