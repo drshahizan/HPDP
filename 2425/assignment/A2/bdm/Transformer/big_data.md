@@ -100,7 +100,7 @@ Since the dataset is very large, we didn’t load all at once. Instead, we read 
 Some columns take up more space than they need. So, We changed their data types to smaller or more efficient ones. This can helped reduce the memory used by the dataset. <br><br>
 **Example**: We converted strings with repeated values into category type, and used float32 instead of float64.
 Convert columns to appropriate types (e.g., category, float32) to reduce memory usage.<br><br>
-**Code Snippets**-
+**Code Snippets**-<br>
 ![image](https://github.com/user-attachments/assets/a12e48ac-519d-40c0-a735-514e076421df)
 
 ### 🔍 4. Sampling
