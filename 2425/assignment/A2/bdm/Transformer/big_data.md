@@ -19,7 +19,7 @@
 # 📝 Assignment Tasks
 
 ## 📂 Task 1: Dataset Selection  
-We selected a dataset larger than 700MB from Kaggle which is the Transaction data.  
+We selected a dataset larger than 700MB from Kaggle which is the Transaction data. Below show the details of the data and description of the column of the dataset:  
 
 ### 📊 Data Details
 - **Dataset**: Transaction Data  
