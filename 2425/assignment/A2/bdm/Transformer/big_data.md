@@ -68,8 +68,9 @@ Below is a detailed breakdown of the columns in the file:
 ## 🔍 Task 2: Load and Inspect Data  
 To start working with our dataset, we used **Pandas**, a popular Python library for data analysis.  
 We loaded the full CSV file using `pandas.read_csv()` and looked at:
-- the number of rows and columns (called the **shape**),
-  
+- the number of rows and columns (shape) <br>
+  ![image](https://github.com/user-attachments/assets/2ed1415b-87a4-436c-93f9-6a01a4facafb)
+
 - the names of the columns
   ![image](https://github.com/user-attachments/assets/06b4356e-0007-4262-89f7-2f207b30d7d1)
 
@@ -80,21 +81,22 @@ We loaded the full CSV file using `pandas.read_csv()` and looked at:
 This step helped us understand what kind of data we are working with and prepared for further data handling tasks.
 
 ## 🛠️Task 3: Apply Big Data Handling Strategies
-Apply the following five strategies to your dataset:
+In this part, we used five strategies to work with our large dataset to observe the result of the performance of using different strategies applying to handle big dataset. These methods help save time, memory, and make processing faster. <br><br>
+We apply the following five strategies to our dataset: <br>
 
-Load Less Data
+### 📉 1. Load Less Data
 
 Load only required columns or filter relevant rows during read operation.
-Use Chunking
+### 📦 2. Use Chunking
 
 Process the data in small chunks using pandas.read_csv(chunksize=...).
-Optimize Data Types
+### 🧮 3. Optimize Data Types
 
 Convert columns to appropriate types (e.g., category, float32) to reduce memory usage.
-Sampling
+### 🔍 4. Sampling
 
 Apply random or stratified sampling to reduce the dataset size for fast prototyping.
-Parallel Processing with Dask
+###⚡ 5. Parallel Processing with Dask
 
 Use Dask DataFrame to read and process large files in parallel.
 
