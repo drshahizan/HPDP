@@ -110,8 +110,8 @@ We are using random sampling to reduce the dataset size. So, We took a smaller r
 ![image](https://github.com/user-attachments/assets/edcaa089-243e-45ba-bd63-6fdccb3f8e23)
 
 ## 📊 Task4 : Comparative Analysis
-### Part1: Camparing the performance of optimized strategies in handling large dataset
-In this part, we compare the performance of optimized strategies we used earlier in handling large dataset. These optimized methods include:
+### Part1: Camparing the performance of different optimized strategies in handling large dataset
+In this part, we compare the performance of different optimized strategies we used earlier in handling large dataset. These optimized methods include:
 
 1. Load less data (Loading only selected columns)
 
@@ -133,4 +133,8 @@ We focus on comparing:
 | Use chunk|162.15|48.51|
 | Optimize data types |229.73|3981.57|
 | Sampling |27.03|906.22|
+
+<br> **Visualization of comparative analysis** <br>
+![image](https://github.com/user-attachments/assets/58ea0b93-5bb8-41f6-8097-dee177432eb9)
+
 
