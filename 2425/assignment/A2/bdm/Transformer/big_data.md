@@ -62,3 +62,4 @@ Below is a detailed breakdown of the columns in the file
 
 ## Task 2: Load and Inspect Data <br>
 To start working with our dataset, we used Pandas, a popular Python library for data analysis. We loaded the full CSV file using pandas.read_csv() and understand what kind of data it has. We looked at the number of rows and columns (called the shape), the names of the columns, and the data types for each column.
+
