@@ -89,12 +89,18 @@ Instead of loading the entire dataset, we only picked the columns or rows we nee
 **Example**: We used the usecols argument in read_csv() to load only a few important columns. <br><br>
 **Code Snippets**-
 ![image](https://github.com/user-attachments/assets/9f22722a-0452-4f58-a72e-0a3d0e36dc29)
+<br><br>**Outputs**-<br>
+![image](https://github.com/user-attachments/assets/d36b2d74-c069-43f5-aa6d-2231f186cca8)
+
 
 ### 📦 2. Use Chunking
 Since the dataset is very large, we didn’t load all at once. Instead, we read it in smaller parts with chunks. This prevents the system from crashing or running out of memory. <br><br>
 **Example**: We used chunksize=100000 to read 100,000 rows into chunk at a time using pandas.read_csv(chunksize=...). <br><br>
 **Code Snippets**-
 ![image](https://github.com/user-attachments/assets/8ec7d86e-5939-416b-baa1-04272642ba81)
+<br><br>**Outputs**-<br>
+![image](https://github.com/user-attachments/assets/8d552104-f5f7-4c46-bfb1-962019568706)
+
 
 ### 🧮 3. Optimize Data Types
 Some columns take up more space than they need. So, We changed their data types to smaller or more efficient ones. This can helped reduce the memory used by the dataset. <br><br>
@@ -102,12 +108,17 @@ Some columns take up more space than they need. So, We changed their data types 
 Convert columns to appropriate types (e.g., category, float32) to reduce memory usage.<br><br>
 **Code Snippets**-<br>
 ![image](https://github.com/user-attachments/assets/a12e48ac-519d-40c0-a735-514e076421df)
+<br><br>**Outputs**-<br>
+![image](https://github.com/user-attachments/assets/5c7f6438-e658-4e81-8d88-c866c57de25a)
 
 ### 🔍 4. Sampling
 We are using random sampling to reduce the dataset size. So, We took a smaller random portion of the dataset to test our code quickly without waiting too long. This is great for trying things out before working with the full dataset.<br><br>
 **Example**: We used .sample(frac=0.1) to get 10% of the data, we used skip that help randomly select only a portion of the dataset and skip the rest when loading.<br><br>
 **Code Snippets**-<br>
 ![image](https://github.com/user-attachments/assets/edcaa089-243e-45ba-bd63-6fdccb3f8e23)
+<br><br>**Outputs**-<br>
+![image](https://github.com/user-attachments/assets/02eb2b8f-2225-4315-b17c-380b6a6fbf62)
+
 
 ## 📊 Task4 : Comparative Analysis
 ### Part1: Camparing the performance of different optimized strategies in handling large dataset
@@ -137,4 +148,7 @@ We focus on comparing:
 <br> **Visualization of comparative analysis** <br>
 ![image](https://github.com/user-attachments/assets/58ea0b93-5bb8-41f6-8097-dee177432eb9)
 
+### Part2: Camparing the performance of using different library or tools to handle large dataset.
+
+## 📌 Task 5: Conclusion & Reflection
 
