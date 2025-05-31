@@ -69,14 +69,14 @@ Below is a detailed breakdown of the columns in the file:
 To start working with our dataset, we used **Pandas**, a popular Python library for data analysis.  
 We loaded the full CSV file using `pandas.read_csv()` and looked at:
 - the number of rows and columns (shape) <br>
-  ![image](https://github.com/user-attachments/assets/2ed1415b-87a4-436c-93f9-6a01a4facafb)
+  (74383766, 24) : (rows, columns)
 
 - the names of the columns
-  ![image](https://github.com/user-attachments/assets/06b4356e-0007-4262-89f7-2f207b30d7d1)
+  ![image](https://github.com/user-attachments/assets/c2113dfd-04d9-4b33-98fc-c5b6cb8a5c51)
+
 
 - the data types for each column.<br>
-  ![image](https://github.com/user-attachments/assets/d965020f-0e0e-4de7-9cb1-c8e88cb880db) <br>
-
+  ![image](https://github.com/user-attachments/assets/5cfbde8f-be11-4fb2-9a8c-0b294439ce13)<br>
 
 This step helped us understand what kind of data we are working with and prepared for further data handling tasks.
 
@@ -88,36 +88,47 @@ We apply the following five strategies to our dataset: <br>
 Instead of loading the entire dataset, we only picked the columns or rows we needed. This is helpful when we don’t need all the data detail. <br><br>
 **Example**: We used the usecols argument in read_csv() to load only a few important columns. <br><br>
 **Code Snippets**-
-![image](https://github.com/user-attachments/assets/9f22722a-0452-4f58-a72e-0a3d0e36dc29)
+![image](https://github.com/user-attachments/assets/f477cb31-7313-45b5-9296-adc1e726b9ec)
+
 <br><br>**Outputs**-<br>
-![image](https://github.com/user-attachments/assets/d36b2d74-c069-43f5-aa6d-2231f186cca8)
+![image](https://github.com/user-attachments/assets/9c63f2f7-df67-4ab5-b0ae-15138b510185)
+
 
 
 ### 📦 2. Use Chunking
 Since the dataset is very large, we didn’t load all at once. Instead, we read it in smaller parts with chunks. This prevents the system from crashing or running out of memory. <br><br>
-**Example**: We used chunksize=100000 to read 100,000 rows into chunk at a time using pandas.read_csv(chunksize=...). <br><br>
-**Code Snippets**-
-![image](https://github.com/user-attachments/assets/8ec7d86e-5939-416b-baa1-04272642ba81)
+**Example**: We used chunksize=100000 to read 100,000 rows into chunk at a time using pandas.read_csv(chunksize=...). 
+
+<br><br>**Code Snippets**-
+![image](https://github.com/user-attachments/assets/ee2b9f74-16f5-40da-bc97-7d43cce5825b)
+
 <br><br>**Outputs**-<br>
-![image](https://github.com/user-attachments/assets/8d552104-f5f7-4c46-bfb1-962019568706)
+![image](https://github.com/user-attachments/assets/61bd6233-12ac-4cb4-9ea9-f605acfae0cb)
+
 
 
 ### 🧮 3. Optimize Data Types
 Some columns take up more space than they need. So, We changed their data types to smaller or more efficient ones. This can helped reduce the memory used by the dataset. <br><br>
 **Example**: We converted strings with repeated values into category type, and used float32 instead of float64.
 Convert columns to appropriate types (e.g., category, float32) to reduce memory usage.<br><br>
+
 **Code Snippets**-<br>
-![image](https://github.com/user-attachments/assets/a12e48ac-519d-40c0-a735-514e076421df)
+![image](https://github.com/user-attachments/assets/9b070d6e-3ae0-4af5-867c-a32a2f4dd12d)
+
 <br><br>**Outputs**-<br>
-![image](https://github.com/user-attachments/assets/5c7f6438-e658-4e81-8d88-c866c57de25a)
+![image](https://github.com/user-attachments/assets/da97ef81-c567-4b38-aa3d-9eb4edadd410)
+
 
 ### 🔍 4. Sampling
 We are using random sampling to reduce the dataset size. So, We took a smaller random portion of the dataset to test our code quickly without waiting too long. This is great for trying things out before working with the full dataset.<br><br>
 **Example**: We used .sample(frac=0.1) to get 10% of the data, we used skip that help randomly select only a portion of the dataset and skip the rest when loading.<br><br>
+
 **Code Snippets**-<br>
-![image](https://github.com/user-attachments/assets/edcaa089-243e-45ba-bd63-6fdccb3f8e23)
+![image](https://github.com/user-attachments/assets/928bee48-6005-4d16-913b-badc833a6989)
+
 <br><br>**Outputs**-<br>
-![image](https://github.com/user-attachments/assets/02eb2b8f-2225-4315-b17c-380b6a6fbf62)
+![image](https://github.com/user-attachments/assets/5a4e091d-35e0-4a13-98e4-1bd4d687c500)
+
 
 
 ## 📊 Task4 : Comparative Analysis
