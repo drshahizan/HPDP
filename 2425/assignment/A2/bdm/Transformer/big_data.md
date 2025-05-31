@@ -69,9 +69,33 @@ Below is a detailed breakdown of the columns in the file:
 To start working with our dataset, we used **Pandas**, a popular Python library for data analysis.  
 We loaded the full CSV file using `pandas.read_csv()` and looked at:
 - the number of rows and columns (called the **shape**),
-- the names of the columns, and
-- the **data types** for each column.  
+  
+- the names of the columns
+  ![image](https://github.com/user-attachments/assets/06b4356e-0007-4262-89f7-2f207b30d7d1)
 
-This first step helped us understand what kind of data we’re working with and prepared us for further data handling tasks.
+- the data types for each column.<br>
+  ![image](https://github.com/user-attachments/assets/d965020f-0e0e-4de7-9cb1-c8e88cb880db) <br>
+
+
+This step helped us understand what kind of data we are working with and prepared for further data handling tasks.
+
+## 🛠️Task 3: Apply Big Data Handling Strategies
+Apply the following five strategies to your dataset:
+
+Load Less Data
+
+Load only required columns or filter relevant rows during read operation.
+Use Chunking
+
+Process the data in small chunks using pandas.read_csv(chunksize=...).
+Optimize Data Types
+
+Convert columns to appropriate types (e.g., category, float32) to reduce memory usage.
+Sampling
+
+Apply random or stratified sampling to reduce the dataset size for fast prototyping.
+Parallel Processing with Dask
+
+Use Dask DataFrame to read and process large files in parallel.
 
 
