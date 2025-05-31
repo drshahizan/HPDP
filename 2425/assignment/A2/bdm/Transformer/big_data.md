@@ -16,4 +16,6 @@
 <br>
 
 # Assignment Tasks
-## Task1
+## Task1: Dataset Selection <br>
+
+## Task 2: Load and Inspect Data <br>
