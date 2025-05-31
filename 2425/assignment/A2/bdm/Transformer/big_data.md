@@ -160,7 +160,18 @@ We focus on comparing:
 ![Untitled](https://github.com/user-attachments/assets/f99c73fc-6753-4437-b902-4480eb49ffc5)
 
 
-### Part2: Camparing the performance of using different library or tools to handle large dataset.
+### Part 2: Comparing the performance of using different library or tools to handle large dataset.
+
+To test the the limits and performance across 3 different libraries which are Pandas, Dask, and Polars, we decided on the simplest task which is loading the data. The perforamance metrics used remain the same which are **Execution Time**, and **Memory Usage**.
+
+Pandas: 
+- 
+
+Polars:
+-
+
+Dask: 
+- 
 
 ## 📌 Task 5: Conclusion & Reflection
 
