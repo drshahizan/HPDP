@@ -96,7 +96,8 @@ Convert columns to appropriate types (e.g., category, float32) to reduce memory 
 ### 🔍 4. Sampling
 
 Apply random or stratified sampling to reduce the dataset size for fast prototyping.
-###⚡ 5. Parallel Processing with Dask
+
+### ⚡ 5. Parallel Processing with Dask
 
 Use Dask DataFrame to read and process large files in parallel.
 
