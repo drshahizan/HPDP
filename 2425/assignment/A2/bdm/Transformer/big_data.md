@@ -1,4 +1,5 @@
 # <div align='center'>📘 Assignment 2: Mastering Big Data Handling</div>
+
 <table border="solid" align="center">
   <tr>
     <th>Name</th>
@@ -15,18 +16,20 @@
 </table>
 <br>
 
-# Assignment Tasks
-## Task1: Dataset Selection <br>
-We had select a dataset larger than 700MB from Kaggle which is the Transaction data.<br>
-### **Data Details** 
--**Dataset**: Transaction Data <br>
--**Data source**: [Kaggle - Transaction Data](https://www.kaggle.com/datasets/ismetsemedov/transactions) <br>
--**File size**: 2.93GB <br>
--**Data Shape**: (7483766, 24) <br>
--**Domain**: Explore Realistic Patterns in Financial Transactions for Fraud Detection <br>
+# 📝 Assignment Tasks
 
-### Dataset Column Descriptions
-Below is a detailed breakdown of the columns in the file
+## 📂 Task 1: Dataset Selection  
+We selected a dataset larger than 700MB from Kaggle which is the Transaction data.  
+
+### 📊 Data Details
+- **Dataset**: Transaction Data  
+- **Data source**: [Kaggle - Transaction Data](https://www.kaggle.com/datasets/ismetsemedov/transactions)  
+- **File size**: 2.93GB  
+- **Data Shape**: (7,483,766 rows, 24 columns)  
+- **Domain**: Explore Realistic Patterns in Financial Transactions for Fraud Detection  
+
+### 🧾 Dataset Column Descriptions
+Below is a detailed breakdown of the columns in the file:
 
 | Column Name           | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
@@ -60,6 +63,15 @@ Below is a detailed breakdown of the columns in the file
 | └─ max_single_amount  | └─ Maximum single transaction amount in the last hour.                      |
 | is_fraud              | Whether the transaction was fraudulent (True or False).                     |
 
-## Task 2: Load and Inspect Data <br>
-To start working with our dataset, we used Pandas, a popular Python library for data analysis. We loaded the full CSV file using pandas.read_csv() and understand what kind of data it has. We looked at the number of rows and columns (called the shape), the names of the columns, and the data types for each column.
+---
+
+## 🔍 Task 2: Load and Inspect Data  
+To start working with our dataset, we used **Pandas**, a popular Python library for data analysis.  
+We loaded the full CSV file using `pandas.read_csv()` and looked at:
+- the number of rows and columns (called the **shape**),
+- the names of the columns, and
+- the **data types** for each column.  
+
+This first step helped us understand what kind of data we’re working with and prepared us for further data handling tasks.
+
 
