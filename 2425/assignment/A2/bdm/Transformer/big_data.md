@@ -109,9 +109,21 @@ We are using random sampling to reduce the dataset size. So, We took a smaller r
 **Code Snippets**-<br>
 ![image](https://github.com/user-attachments/assets/edcaa089-243e-45ba-bd63-6fdccb3f8e23)
 
-### ⚡ 5. Parallel Processing with Dask
-
-Use Dask DataFrame to read and process large files in parallel.
-
 ## 📊 Task4 : Comparative Analysis
+### Part1
+In this part, we compare the performance of optimized strategies we used earlier in handling large dataset. These optimized methods include:
+
+1. Load less dsata (Loading only selected columns)
+
+2. Use chunk (Reading the data in small chunks)
+
+3. Optimize data types (Changing data types to save memory)
+
+4. Sampling (Using a smaller sample of the data)
+
+We focus on comparing:
+
+**Memory usage**: How much RAM is used when reading the data
+
+**Execution time**: How long it takes to load or process the data
 
