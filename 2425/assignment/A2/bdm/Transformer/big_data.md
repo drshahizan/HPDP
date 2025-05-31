@@ -110,10 +110,10 @@ We are using random sampling to reduce the dataset size. So, We took a smaller r
 ![image](https://github.com/user-attachments/assets/edcaa089-243e-45ba-bd63-6fdccb3f8e23)
 
 ## 📊 Task4 : Comparative Analysis
-### Part1
+### Part1: Camparing the performance of optimized strategies in handling large dataset
 In this part, we compare the performance of optimized strategies we used earlier in handling large dataset. These optimized methods include:
 
-1. Load less dsata (Loading only selected columns)
+1. Load less data (Loading only selected columns)
 
 2. Use chunk (Reading the data in small chunks)
 
@@ -125,5 +125,12 @@ We focus on comparing:
 
 **Memory usage**: How much RAM is used when reading the data
 
-**Execution time**: How long it takes to load or process the data
+**Processing time**: How long it takes to load or process the data <br>
+
+|**Optimized Strategies**|**Processing Time (S)**|**Memory Usage (MB)**|
+|------------------------|-------------------|----------------|
+| Load less data|62.19|4347.03|
+| Use chunk|162.15|48.51|
+| Optimize data types |229.73|3981.57|
+| Sampling |27.03|906.22|
 
