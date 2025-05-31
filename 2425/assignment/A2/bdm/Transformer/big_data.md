@@ -106,7 +106,7 @@ Convert columns to appropriate types (e.g., category, float32) to reduce memory 
 ### 🔍 4. Sampling
 We are using random sampling to reduce the dataset size. So, We took a smaller random portion of the dataset to test our code quickly without waiting too long. This is great for trying things out before working with the full dataset.<br><br>
 **Example**: We used .sample(frac=0.1) to get 10% of the data, we used skip that help randomly select only a portion of the dataset and skip the rest when loading.<br><br>
-**Code Snippets**-
+**Code Snippets**-<br>
 ![image](https://github.com/user-attachments/assets/edcaa089-243e-45ba-bd63-6fdccb3f8e23)
 
 ### ⚡ 5. Parallel Processing with Dask
