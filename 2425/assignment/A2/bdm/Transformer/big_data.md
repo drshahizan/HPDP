@@ -94,6 +94,8 @@ We loaded the full CSV file using `pandas.read_csv()` and looked at:
 This step helped us understand what kind of data we are working with and prepared for further data handling tasks.
 
 ## 🛠️Task 3: Apply Big Data Handling Strategies
+
+### 🔧 Part1: Camparing the performance of different optimized strategies in handling large dataset
 In this part, we used five strategies to work with our large dataset to observe the result of the performance of using different strategies applying to handle big dataset. These methods help save time, memory, and make processing faster. <br><br>
 We apply the following five strategies to our dataset: <br>
 
@@ -155,10 +157,49 @@ We are using random sampling to reduce the dataset size. So, We took a smaller r
 |Memory Usage (MB)|906.22| <br>
 ![image](https://github.com/user-attachments/assets/5a4e091d-35e0-4a13-98e4-1bd4d687c500) 
 
+### 🧪 Part 2: Comparing the performance of using different library or tools to handle large dataset.
+### 1. Pandas
+Pandas is the most popular Python libraries for data analysis. It is easy to use and has many built-in functions for handling, cleaning, and analyzing data. However, when dealing with very large files, Pandas can be slow and use a lot of memory because it loads the whole dataset into memory at once.
 
+**Code Snippet**- <br>
+![image](https://github.com/user-attachments/assets/34b5beaf-8e2e-42a8-8396-444ab114e85c)
+
+<br><br>**Outputs**-<br>
+|**Metric**|**Value**|
+|----------|---------|
+|Processing Time (S)|106.48|
+|Memory Usage (MB)|9062.15|
+![image](https://github.com/user-attachments/assets/adc46a5a-4ddb-46ed-9417-e98333085c56)
+ <br>
+
+### 2. Polars
+Polars is a fast and memory-efficient data processing library. It works much faster than Pandas when handling large files and uses less memory because it’s built in Rust. Polars also uses multiple CPU cores by default, which helps it process data more quickly.
+**Code Snippet**- <br>
+![image](https://github.com/user-attachments/assets/d4b5a477-8374-4c9b-8d00-a0ce85c0ca8e)
+
+<br><br>**Outputs**-<br>
+|**Metric**|**Value**|
+|----------|---------|
+|Processing Time (S)|15.30|
+|Memory Usage (MB)|2528.16|
+![image](https://github.com/user-attachments/assets/2ce03d10-8116-4e6d-aba3-d3f439d2bb34)
+ <br>
+
+ ### 3. Dask
+Dask is a powerful library for handling really big datasets that don’t fit in memory. It works by breaking large data files into smaller parts (chunks) and processes them in parallel. This makes it useful for scaling up data processing to multiple CPU cores or even across many computers.
+ **Code Snippet**- <br>
+ ![image](https://github.com/user-attachments/assets/fe421b32-3be7-46d9-b01a-898988f330bc)
+
+<br><br>**Outputs**-<br>
+|**Metric**|**Value**|
+|----------|---------|
+|Processing Time (S)|106.75|
+|Memory Usage (MB)|3466.69|
+![image](https://github.com/user-attachments/assets/d5390377-ddeb-47fd-89cb-eba9204f91dc)
+ <br>
 
 ## 📊 Task4 : Comparative Analysis
-### Part1: Camparing the performance of different optimized strategies in handling large dataset
+### 🔧 Part1: Camparing the performance of different optimized strategies in handling large dataset
 In this part, we compare the performance of different optimized strategies we used earlier in handling large dataset. These optimized methods include:
 
 1. Load less data (Loading only selected columns)
@@ -186,18 +227,20 @@ We focus on comparing:
 ![Untitled](https://github.com/user-attachments/assets/f99c73fc-6753-4437-b902-4480eb49ffc5)
 
 
-### Part 2: Comparing the performance of using different library or tools to handle large dataset.
+### 🧪 Part 2: Comparing the performance of using different library or tools to handle large dataset.
 
 To test the the limits and performance across 3 different libraries which are Pandas, Dask, and Polars, we decided on the simplest task which is loading the data. The performance metrics used remain the same which are **Execution Time**, and **Memory Usage**.
 
-Pandas: 
-- 
+|**Library**|**Processing Time (S)**|**Memory Usage (MB)**|
+|------------------------|-------------------|----------------|
+| Pandas|106.48|9012.65|
+| Polars|15.30|2528.16|
+| Dask |106.75|3466.69|
 
-Polars:
--
 
-Dask: 
-- 
+<br> **Visualization of comparative analysis** <br>
+![image](https://github.com/user-attachments/assets/0e7e3997-e930-4d6e-8434-abf7139f1602)
+
 
 ## 📌 Task 5: Conclusion & Reflection
 
