@@ -175,31 +175,110 @@ To fully benefit, chunking should ideally be combined with **streamed processing
 
 This method is best when you want to **incrementally process** or **conditionally load** massive datasets.
 
-### 4.3 Optimize Data Types
+## 4.3 ⚙️ Optimized During Load
 
-* `astype()` usage (e.g., float32, category)
-* Before/after memory usage
-* Code snippet
-* Benefit/limitation
+This strategy involves specifying **data types explicitly during the CSV load** to reduce memory usage. Converting some columns to **categorical types** and using smaller numeric types can significantly optimize RAM consumption.
 
-### 4.4 Sampling
+### ✅ What Was Done
 
-* Strategy (5% sample)
-* Code snippet
-* Metrics
-* Benefit/limitation
+- Defined specific `dtype` mappings for columns (`int16` for `rank`, `category` for `region` and `chart`, `float32` for `streams`).
+- Parsed the `date` column as a datetime object to optimize date handling.
+- Loaded the entire dataset with these optimized data types.
+
+### 🧾 Code Snippet
+
+```python
+dtypes = {
+    'rank': 'int16',
+    'chart': 'category',
+    'region': 'category',
+    'streams': 'float32'
+}
+
+df_opt = pd.read_csv(
+    'spotify_data/charts.csv',
+    dtype=dtypes,
+    parse_dates=['date']
+)
+````
+
+### 📈 Results
+
+| Metric             | Value                      |
+| ------------------ | -------------------------- |
+| 🔹 Load Time       | **191.54 seconds**         |
+| 🔹 Memory Usage    | **8557.44 MB** (\~8.56 GB) |
+| 🔹 DataFrame Shape | `(26,173,514, 9)`          |
+
+> 🧠 **Data Types**
+> Key optimized columns:
+>
+> * `rank` → `int16`
+> * `region`, `chart` → `category`
+> * `streams` → `float32`
+> * `date` → `datetime64[ns]`
+>   Other columns remain as `object`.
+
+---
+
+### 📌 Observation
+
+Explicitly defining data types during load **substantially reduces memory usage** (\~36% reduction compared to full traditional load).
+However, this optimization comes at the cost of **longer load times**, likely due to type conversions and parsing overhead.
+This method is effective for large datasets where memory is a bottleneck and **accurate type representation** benefits downstream processing or querying.
+
+## 4.4 🎲 Sampling
+
+Sampling involves loading a **random subset of rows** instead of the full dataset, which drastically reduces memory use and load time. This approach is useful for exploratory analysis when working with very large datasets.
+
+### ✅ What Was Done
+
+- Used a **5% random sample** of rows from the CSV file during loading.
+- Employed the `skiprows` parameter with a lambda function and `random.random()` to randomly skip rows.
+
+### 🧾 Code Snippet
+
+```python
+import random
+
+df_sample = pd.read_csv(
+    'spotify_data/charts.csv',
+    skiprows=lambda i: i > 0 and random.random() > 0.05
+)
+````
+
+### 📈 Results
+
+| Metric             | Value             |
+| ------------------ | ----------------- |
+| 🔹 Load Time       | **36.32 seconds** |
+| 🔹 Memory Usage    | **672.75 MB**     |
+| 🔹 DataFrame Shape | `(1,311,034, 9)`  |
+
+---
+
+### 📌 Observation
+
+Random sampling offers a representative subset of the full dataset, maintaining the overall data distribution and key patterns. This makes it effective for exploratory analysis and prototyping while keeping resource use low. However, since it's only a fraction of the data, rare events or outliers may be underrepresented or missed entirely.
+
+---
+
 
 ## 5. 📊 Comparative Analysis
 
-| Strategy            | Time Taken | Memory Usage | Ease of Processing | Notes |
-| ------------------- | ---------- | ------------ | ------------------ | ----- |
-| Traditional Load    |            |              |                    |       |
-| Load Less Data      |            |              |                    |       |
-| Chunking            |            |              |                    |       |
-| Optimize Data Types |            |              |                    |       |
-| Sampling            |            |              |                    |       |
+| Strategy            | Time Taken (seconds) | Memory Usage (MB) | Ease of Processing                | Notes                                                                                 |
+| ------------------- | -------------------- | ----------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
+| Traditional Load    | 81.13                | 13431.49          | Moderate                         | Loads entire dataset; high memory and time usage due to full data size               |
+| Load Less Data      | 69.64                | 7266.65           | Easier                          | Loads only selected columns, reducing memory and load time significantly             |
+| Chunking            | 77.43                | 13431.49          | Harder                         | Loads data in chunks to handle large data, but total memory usage similar to full load |
+| Optimize Data Types | 191.54               | 8557.44           | Moderate to Hard                | Longer load time due to type conversion but memory reduced from full load             |
+| Sampling            | 36.32                | 672.75            | Easiest                        | Loads small representative sample, drastically reducing time and memory               |
 
-*(Add chart/bar graph for visual comparison if possible)*
+> **Note:**  
+> - Ease of processing reflects how straightforward it is to handle and manipulate the data after loading, with Sampling being easiest and Chunking requiring more manual effort.  
+> - Sampling offers the benefit of a representative subset for faster experimentation or prototyping but may not capture all variability in data.
+
+
 
 ## 6. 🧠 Conclusion & Reflection
 
