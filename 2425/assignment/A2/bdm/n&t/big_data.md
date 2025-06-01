@@ -132,11 +132,48 @@ df_less = pd.read_csv('spotify_data/charts.csv', usecols=use_cols)
 Column filtering offers a quick memory improvement and simplifies analysis by removing irrelevant data. However, the **massive row count (26M+)** and presence of **string-heavy columns** still result in **significant memory consumption**.
 This step is a solid first move, but further strategies are needed to make the dataset more manageable.
 
-### 4.2 Chunking
+## 4.2 🍰 Chunking
 
-* Code snippet
-* Metrics
-* Benefit/limitation
+Instead of loading the entire dataset at once, **chunking** allows reading large files in smaller, manageable parts. This approach improves performance and makes it possible to **process datasets that might not fit in memory** all at once — especially useful in limited environments like Google Colab.
+
+### ✅ What Was Done
+
+- Used `pandas.read_csv()` with `chunksize=500000` to read the file in 53 smaller parts.
+- Each chunk was stored in memory temporarily and concatenated after timing.
+- Total row count and memory usage were tracked post-concatenation.
+
+### 🧾 Code Snippet
+
+```python
+chunk_size = 500000
+chunks = []
+for chunk in pd.read_csv('spotify_data/charts.csv', chunksize=chunk_size):
+    chunks.append(chunk)
+
+df_full = pd.concat(chunks, ignore_index=True)
+````
+
+### 📈 Results
+
+| Metric                  | Value                         |
+| ----------------------- | ----------------------------- |
+| 🔹 Chunks Processed     | **53**                        |
+| 🔹 Total Rows Processed | **26,173,514**                |
+| 🔹 Load Time            | **77.43 seconds**             |
+| 🔹 Memory Usage         | **13,431.49 MB** (\~13.43 GB) |
+
+> 🧠 **Data Types**
+> Same as full load: `object` for strings, `int64`/`float64` for numbers.
+
+---
+
+### 📌 Observation
+
+Chunking breaks the load process into smaller pieces, helping avoid **immediate memory spikes** and reducing the chance of **crashes or kernel failures**.
+However, **concatenating all chunks at once** still results in high memory usage — similar to the traditional full load.
+To fully benefit, chunking should ideally be combined with **streamed processing**, where each chunk is processed (e.g., filtered, aggregated) before moving to the next — avoiding full memory build-up.
+
+This method is best when you want to **incrementally process** or **conditionally load** massive datasets.
 
 ### 4.3 Optimize Data Types
 
