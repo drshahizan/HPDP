@@ -31,21 +31,69 @@ This dataset contains daily rankings for Spotify’s **Top 200** and **Viral 50*
 > The dataset includes a mix of categorical (`region`, `chart`, `trend`) and numerical (`rank`, `streams`) data. The text-heavy columns such as `title` and `artist` consume memory due to their string nature.
 
 
-## 2. 🧪 Initial Data Inspection
+## 2. ⏱️📊 Measurement Techniques: Time & Memory
 
-* Code snippet for inspecting the data (head, info, etc.)
-* Short analysis of what you observed
+To evaluate and compare the performance of various big data handling strategies, we consistently measured both **execution time** and **memory usage**.
+
+### 🧪 Tools Used
+
+- **`time` module** – to track how long each strategy took to run.
+- **`pandas.DataFrame.memory_usage(deep=True)`** – to calculate the full memory footprint of the loaded data.
+
+### ⏱️ Time Measurement Snippet
+
+```python
+import time
+
+start_time = time.time()
+# Data loading or processing code here
+end_time = time.time()
+
+print("Time Taken:", (end_time - start_time:.2f), "seconds")
+```
+
+### 🧠 Memory Usage Snippet
+
+```python
+memory_usage = df.memory_usage(deep=True).sum() / (1024**3)
+print("Memory Usage:", (memory_usage:.2f), "GB")
+```
+
+These tools were used after each strategy to benchmark improvements in resource efficiency and processing speed.
+
 
 ## 3. 🐼 Traditional Data Load (Baseline)
 
-* Full load using `pd.read_csv()`
-* Measure:
 
-  * Load time
-  * Memory usage
-* Code snippet
-* Output metrics (create a table or bar chart)
-* Short discussion of baseline issues
+As a baseline, we loaded the full dataset using the most common method:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("spotify_charts.csv")
+```
+
+This straightforward approach loads **all columns** and **all rows** into memory with no optimizations. It represents how most users initially interact with CSV data — but it's not suited for very large datasets.
+
+### ⚙️ What This Does:
+- Loads 26+ million rows and 9 columns directly into memory.
+- No filtering, column selection, or type optimization is applied.
+- Used as the **baseline** to compare all optimized strategies.
+
+---
+
+### 📌 Observations:
+
+- **Time Taken:** ~20.92 seconds  
+- **Memory Usage:** ~1.88 GB  
+- **Ease of Processing:**  
+  ❌ Not ideal for machines with <8 GB RAM.  
+  ❌ Slower performance when performing downstream operations (e.g., filtering, grouping).  
+  ❌ High memory overhead due to default object datatypes for strings.  
+  ❌ Not scalable for larger datasets (4GB+ CSVs).
+
+> ⚠️ This traditional approach becomes impractical when working with gigabyte-scale datasets, especially on platforms like Google Colab or limited-memory machines.
+
 
 ## 4. ⚙️ Big Data Handling Strategies
 
