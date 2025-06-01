@@ -19,8 +19,9 @@
 ## Files Path
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-| **big_data.md**              |            | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.md)|
-|**big_data.ipynb**||[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.ipynb)|
+| **big_data.md**              |This is a md file thats about the whole report of this  Assignment 2: Mastering Big Data Handling| [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.md)|
+|**big_data.ipynb**| This is google colab file that contain the source code for comparing the performace between optimized technique|[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.ipynb)|
+|**big_data(Library).ipynb**|This is google colab file that contain the source code for comparing the performace between different library|[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data(Library).ipynb)|
 
 ## Introduction
    In today’s digital world, companies collect a huge amount of data every day. So, it is important to select a efficient technique to handle this huge data. It is because with a correct tool we can load and process data faster and efficiently. This project is about learning how to deal with big data using real tools used by data engineer.
