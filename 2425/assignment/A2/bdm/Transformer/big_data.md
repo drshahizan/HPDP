@@ -159,12 +159,12 @@ We are using random sampling to reduce the dataset size. So, We took a smaller r
 
 ### 🧪 Part 2: Comparing the performance of using different library or tools to handle large dataset.
 ### 1. Pandas
-Pandas is the most popular Python libraries for data analysis. It is easy to use and has many built-in functions for handling, cleaning, and analyzing data. However, when dealing with very large files, Pandas can be slow and use a lot of memory because it loads the whole dataset into memory at once.
+Pandas is the most popular Python libraries for data analysis. It is easy to use and has many built-in functions for handling, cleaning, and analyzing data. However, when dealing with very large files, Pandas can be slow and use a lot of memory because it loads the whole dataset into memory at once.<br>
 
 **Code Snippet**- <br>
 ![image](https://github.com/user-attachments/assets/34b5beaf-8e2e-42a8-8396-444ab114e85c)
 
-<br><br>**Outputs**-<br>
+<br>**Outputs**-<br>
 |**Metric**|**Value**|
 |----------|---------|
 |Processing Time (S)|106.48|
@@ -173,11 +173,12 @@ Pandas is the most popular Python libraries for data analysis. It is easy to use
  <br>
 
 ### 2. Polars
-Polars is a fast and memory-efficient data processing library. It works much faster than Pandas when handling large files and uses less memory because it’s built in Rust. Polars also uses multiple CPU cores by default, which helps it process data more quickly.
+Polars is a fast and memory-efficient data processing library. It works much faster than Pandas when handling large files and uses less memory because it’s built in Rust. Polars also uses multiple CPU cores by default, which helps it process data more quickly.<br>
+
 **Code Snippet**- <br>
 ![image](https://github.com/user-attachments/assets/d4b5a477-8374-4c9b-8d00-a0ce85c0ca8e)
 
-<br><br>**Outputs**-<br>
+<br>**Outputs**-<br>
 |**Metric**|**Value**|
 |----------|---------|
 |Processing Time (S)|15.30|
@@ -186,11 +187,12 @@ Polars is a fast and memory-efficient data processing library. It works much fas
  <br>
 
  ### 3. Dask
-Dask is a powerful library for handling really big datasets that don’t fit in memory. It works by breaking large data files into smaller parts (chunks) and processes them in parallel. This makes it useful for scaling up data processing to multiple CPU cores or even across many computers.
+Dask is a powerful library for handling really big datasets that don’t fit in memory. It works by breaking large data files into smaller parts (chunks) and processes them in parallel. This makes it useful for scaling up data processing to multiple CPU cores or even across many computers. <br>
+
  **Code Snippet**- <br>
  ![image](https://github.com/user-attachments/assets/fe421b32-3be7-46d9-b01a-898988f330bc)
 
-<br><br>**Outputs**-<br>
+<br>**Outputs**-<br>
 |**Metric**|**Value**|
 |----------|---------|
 |Processing Time (S)|106.75|
