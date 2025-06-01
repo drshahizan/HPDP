@@ -1,6 +1,6 @@
 # 📊 Assignment 2: Mastering Big Data Handling 🚀
 
-## Course: HPDP SECP3133-01
+**Course:** *HPDP SECP3133-01*
 
 ---
 
@@ -9,46 +9,58 @@
 | Name                     | Matric Number |
 | :----------------------- | :------------ |
 | THEVAN RAJU A/L JEGANATH | A22EC0286     |
-| NAVACHANDER NAVASANTAR| A22EC0226 |
+| NAVACHANDER NAVASANTAR   | A22EC0226     |
 
 ---
 
-### ✨ Project Overview
+### 🌟 Introduction
 
-This assignment delves into the critical area of **big data handling**. The primary objective is to explore and compare various strategies for efficiently processing large datasets that exceed typical memory limits. We begin by implementing and analyzing fundamental techniques within the **Pandas library**, focusing on how methods like **loading less data, chunking, optimizing data types, and sampling** impact **load time, memory usage, and overall processing efficiency**. Subsequently, this project will extend to comparing the performance and suitability of different big data libraries, such as **Dask** and **PySpark**, to identify the most effective tools for handling truly massive datasets and ensuring robust, crash-free data processing.
+Welcome to our deep dive into the world of **Big Data Handling**!
+In this project, we tackle the challenges of working with datasets **too large to fit in memory**, using real-world data and smart optimization strategies.
 
----
+We start by experimenting with **Pandas-based methods** like:
 
-### 📚 Dataset Used
+* 🚪 *Loading only what's needed*
+* 📦 *Chunk-wise processing*
+* 🧠 *Optimized data types*
+* 🎯 *Random sampling*
 
-**Dataset Name:** Spotify Charts
-
-**Source:** [Click Here▶️](https://www.kaggle.com/datasets/dhruvildave/spotify-charts)
-
-**Key Characteristics:**
-* **Size:** Approximately 3.48 GB (downloaded size)
-* **Records:** Over 26 million records
-* **Domain:** Music Streaming, Entertainment, Chart Data, Time Series Analysis
-* **Why Chosen:** Its immense size and rich structure make it an ideal real-world scenario for demonstrating big data handling complexities and the effectiveness of various optimization strategies.
+Then, we extend the analysis by exploring **scalable data tools** like **Dask** and **PySpark**, evaluating their performance on large-scale data workflows.
 
 ---
 
-### 🛠️ Libraries Explored (Current Focus)
+### 🎵 Dataset Overview
 
-* **Pandas:** The primary library used for data manipulation and the implementation of various big data handling strategies.
-* `time`, `psutil`, `os`, `gc`: Utilized for performance monitoring (measuring execution time and memory usage) and resource management.
+**📂 Dataset:** Spotify Charts
+**🔗 Source:** [🎧 View on Kaggle](https://www.kaggle.com/datasets/dhruvildave/spotify-charts)
 
-*(Further big data libraries like Dask and PySpark will be explored in subsequent phases of this assignment.)*
+| Feature     | Description                                              |
+| ----------- | -------------------------------------------------------- |
+| 💾 Size     | \~3.48 GB (compressed)                                   |
+| 📈 Records  | Over 26 million entries                                  |
+| 🎶 Domain   | Music Streaming, Entertainment                           |
+| 📊 Use Case | Time-Series, Chart Tracking, Analytics                   |
+| ✅ Reason    | Ideal size & structure for simulating big data scenarios |
+
+---
+
+### 🛠️ Libraries Used (Phase 1)
+
+| Library  | Purpose                        |
+| -------- | ------------------------------ |
+| `pandas` | Data manipulation & processing |
+| `time`   | Track execution time           |
+| `gc`     | Manual memory cleanup          |
+| `random` | Sampling rows during data load |
+
+> 🔜 **Coming Up:** Dask and PySpark exploration in Phase 2!
 
 ---
 
 ### 🔗 Project Navigation
 
-Explore the project's code and detailed report using the links below:
-
-
-| Resource                 | Description                                    | Link
-| :----------------------- | :--------------------------------------------- |  :---------------------------------------------
-| **Codebase** | `big_data.ipynb`         | `https://colab.research.google.co|
-| **Main Report** | `big_data.md`            | `big_data.md`                                                            |
-| **Dataset Source** | Spotify Charts (Kaggle)  | [https://www.kaggle.com/datasets/dhruvildave/spotify-charts](https://www.kaggle.com/datasets/dhruvildave/spotify-charts) |
+| 🔍 Resource           | 📄 Description                    | 🔗 Link                                                                     |
+| --------------------- | --------------------------------- | --------------------------------------------------------------------------- |
+| 🧠 **Main Report**    | In-depth analysis & write-up      | [`big_data.md`](big_data.md)                                                |
+| 💻 **Code Notebook**  | Full implementation in Colab      | [Open in Colab ▶️](https://colab.research.google.com/your-link-here)        |
+| 📦 **Dataset Source** | Original Spotify dataset (Kaggle) | [Go to Dataset](https://www.kaggle.com/datasets/dhruvildave/spotify-charts) |
