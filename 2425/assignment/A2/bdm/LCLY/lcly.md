@@ -10,7 +10,7 @@
       <td>A22EC0038</td>
   </tr>
   <tr>
-    <td width=80%>cHAI YU TONG</td>
+    <td width=80%>CHAI YU TONG</td>
     <td>A22EC0145</td>
   </tr>
 </table>
@@ -19,5 +19,5 @@
 ## Files Path
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-|**lcly.ipynb**||[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.ipynb)|
+|**lcly.ipynb**||[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)]()|
 
