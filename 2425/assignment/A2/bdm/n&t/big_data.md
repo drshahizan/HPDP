@@ -30,15 +30,20 @@ This dataset contains daily rankings for Spotify’s **Top 200** and **Viral 50*
 > 📌 **Observation:**  
 > The dataset includes a mix of categorical (`region`, `chart`, `trend`) and numerical (`rank`, `streams`) data. The text-heavy columns such as `title` and `artist` consume memory due to their string nature.
 
+## 2. ⏱️📊 Measurement Techniques: Time, Memory & Sampling
 
-## 2. ⏱️📊 Measurement Techniques: Time & Memory
+To evaluate and compare the performance of various big data handling strategies, we used a consistent set of tools to measure **execution time**, **memory usage**, and **sampling behavior**.
 
-To evaluate and compare the performance of various big data handling strategies, we consistently measured both **execution time** and **memory usage**.
+### 🧪 Libraries Used
 
-### 🧪 Tools Used
+| Library  | Purpose                                                                                              |
+| -------- | ---------------------------------------------------------------------------------------------------- |
+| `time`   | To track how long each strategy took to complete.                                                    |
+| `pandas` | For data manipulation and calculating memory usage using `DataFrame.memory_usage(deep=True)`.        |
+| `gc`     | Used to manually trigger garbage collection after each experiment, ensuring cleaner memory tracking. |
+| `random` | Used in the **sampling strategy** to randomly select \~5% of the dataset for efficient loading.      |
 
-- **`time` module** – to track how long each strategy took to run.
-- **`pandas.DataFrame.memory_usage(deep=True)`** – to calculate the full memory footprint of the loaded data.
+---
 
 ### ⏱️ Time Measurement Snippet
 
@@ -49,17 +54,43 @@ start_time = time.time()
 # Data loading or processing code here
 end_time = time.time()
 
-print("Time Taken:", (end_time - start_time:.2f), "seconds")
+print("Time Taken:", round(end_time - start_time, 2), "seconds")
 ```
+
+---
 
 ### 🧠 Memory Usage Snippet
 
 ```python
-memory_usage = df.memory_usage(deep=True).sum() / (1024**3)
-print("Memory Usage:", (memory_usage:.2f), "GB")
+memory_MB = df.memory_usage(deep=True).sum() / (1024 ** 2)
+print("Memory Usage:", round(memory_MB, 2), "MB")
 ```
 
-These tools were used after each strategy to benchmark improvements in resource efficiency and processing speed.
+---
+
+### 🧹 Garbage Collection Snippet
+
+```python
+import gc
+
+# After processing
+del df  # Remove DataFrame
+gc.collect()  # Reclaim memory
+```
+
+---
+
+### 🎯 Random Sampling Snippet
+
+```python
+import random
+import pandas as pd
+
+# Load ~5% of the dataset
+df_sample = pd.read_csv('data.csv', skiprows=lambda i: i > 0 and random.random() > 0.05)
+```
+
+These tools allowed us to **objectively benchmark** each strategy and make data-driven decisions on which technique is more efficient for large-scale datasets.
 
 
 ## 3. 🐼 Traditional Data Load (Baseline)
