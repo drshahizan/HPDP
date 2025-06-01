@@ -71,7 +71,7 @@ We loaded the full CSV file using `pandas.read_csv()` and looked at:
 - the number of rows and columns (shape) <br>
   (74383766, 24) : (rows, columns)
 
-- the names of the columns
+- the names of the columns <br>
 ![image](https://github.com/user-attachments/assets/c2113dfd-04d9-4b33-98fc-c5b6cb8a5c51)
 
 
@@ -87,7 +87,7 @@ We apply the following five strategies to our dataset: <br>
 ### 📉 1. Load Less Data
 Instead of loading the entire dataset, we only picked the columns or rows we needed. This is helpful when we don’t need all the data detail. <br><br>
 **Example**: We used the usecols argument in read_csv() to load only a few important columns. <br><br>
-**Code Snippets**-
+**Code Snippets**- <br>
 ![image](https://github.com/user-attachments/assets/f477cb31-7313-45b5-9296-adc1e726b9ec)
 
 <br><br>**Outputs**-<br>
@@ -99,7 +99,7 @@ Instead of loading the entire dataset, we only picked the columns or rows we nee
 Since the dataset is very large, we didn’t load all at once. Instead, we read it in smaller parts with chunks. This prevents the system from crashing or running out of memory. <br><br>
 **Example**: We used chunksize=100000 to read 100,000 rows into chunk at a time using pandas.read_csv(chunksize=...). 
 
-<br><br>**Code Snippets**-
+<br><br>**Code Snippets**- <br>
 ![image](https://github.com/user-attachments/assets/ee2b9f74-16f5-40da-bc97-7d43cce5825b)
 
 <br><br>**Outputs**-<br>
