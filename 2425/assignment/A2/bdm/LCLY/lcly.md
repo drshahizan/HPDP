@@ -6,12 +6,12 @@
     <th>Matric Number</th>
   </tr>
   <tr>
-    <td width=80%>TIEW CHUAN RONG</td>
-    <td>A22EC0112</td>
+    <td width=80%>BERNICE LIM JING XUAN<d>
+      <td>A22EC0038</td>
   </tr>
   <tr>
-    <td width=80%>DANIAL HARRIZ BIN MOHD ASINEH @MOHD ASNEH</td>
-    <td>A22EC0152</td>
+    <td width=80%>cHAI YU TONG</td>
+    <td>A22EC0145</td>
   </tr>
 </table>
 <br>
@@ -19,6 +19,5 @@
 ## Files Path
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-| **big_data.md**              |            | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.md)|
-|**big_data.ipynb**||[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.ipynb)|
+|**lcly.ipynb**||[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](big_data.ipynb)|
 
