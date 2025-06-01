@@ -25,7 +25,7 @@ We start by experimenting with **Pandas-based methods** like:
 * 🧠 *Optimized data types*
 * 🎯 *Random sampling*
 
-Then, we extend the analysis by exploring **scalable data tools** like **Dask** and **Polar**, evaluating their performance on large-scale data workflows.
+Then, we extend the analysis by exploring **scalable data tools** like **Dask** and **Polars**, evaluating their performance on large-scale data workflows.
 
 ---
 
@@ -53,7 +53,7 @@ Then, we extend the analysis by exploring **scalable data tools** like **Dask** 
 | `gc`     | Manual memory cleanup          |
 | `random` | Sampling rows during data load |
 
-> 🔜 **Coming Up:** Dask and PySpark exploration in Phase 2!
+> 🔜 **Coming Up:** Dask and Polars exploration in Phase 2!
 
 ---
 
