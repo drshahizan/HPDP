@@ -175,7 +175,7 @@ To fully benefit, chunking should ideally be combined with **streamed processing
 
 This method is best when you want to **incrementally process** or **conditionally load** massive datasets.
 
-## 4.3 ⚙️ Optimized During Load
+## 4.3 ⚙️ Optimized Data
 
 This strategy involves specifying **data types explicitly during the CSV load** to reduce memory usage. Converting some columns to **categorical types** and using smaller numeric types can significantly optimize RAM consumption.
 
@@ -281,11 +281,30 @@ Random sampling offers a representative subset of the full dataset, maintaining 
 > - Ease of processing reflects how straightforward it is to handle and manipulate the data after loading, with Sampling being easiest and Chunking requiring more manual effort.  
 > - Sampling offers the benefit of a representative subset for faster experimentation or prototyping but may not capture all variability in data.
 
-
-
 ## 6. 🧠 Conclusion & Reflection
 
-* Key takeaways
-* Benefits vs limitations
-* What you learned from this assignment
+### 🔑 Key Takeaways
+
+* **Traditional loading** of large datasets is straightforward but can be very costly in both **time (81.13s)** and **memory (13.4GB)**.
+* **Loading less data** significantly reduces memory usage and improves speed, making it a practical first step for quick insights or testing.
+* **Chunking** allows for scalable processing of large files without overwhelming memory, while still preserving full dataset access.
+* **Optimizing data types during load** drastically cuts memory usage (**\~36% less than full load**) but may come with longer loading time due to parsing and type conversion.
+* **Random sampling** provides a highly efficient way to analyze data quickly with minimal memory use, especially when full dataset access is not required.
+
+### ✅ Benefits vs ❗Limitations
+
+| Strategy             | Benefits                                                     | Limitations                                                        |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
+| Full Load            | Simple, complete access to all data                          | High memory and time cost                                          |
+| Load Less Data       | Fast and lightweight                                         | Doesn’t reflect entire dataset                                     |
+| Chunking             | Memory-efficient, good for big data pipelines                | Requires extra logic to process incrementally                      |
+| Optimized Data Types | Huge memory savings                                          | More complex setup, slower initial load                            |
+| Sampling (Random)    | Very fast, minimal resource use, good for prototyping or EDA | Risk of missing important patterns if sample is not representative |
+
+### 📘 What I Learned from This Assignment
+
+* Efficient **big data handling** isn't just about raw computing power — it’s about **strategy and technique**.
+* Understanding the **trade-offs between memory, speed, and completeness** is key when dealing with large datasets.
+* I gained hands-on experience with **chunking, data type optimization, and sampling**, all of which are essential techniques for real-world data engineering and analytics.
+* Even without advanced tools like Dask or Spark, **plain pandas** combined with good practices can handle surprisingly large files.
 
