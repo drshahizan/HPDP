@@ -265,6 +265,9 @@ Random sampling offers a representative subset of the full dataset, maintaining 
 
 
 ## 5. 📊 Comparative Analysis
+![Strategy Comparison Graph](strategy_comparison.png)
+
+*Figure: Load Time and Memory Usage across different data loading strategies.*
 
 | Strategy            | Time Taken (seconds) | Memory Usage (MB) | Ease of Processing                | Notes                                                                                 |
 | ------------------- | -------------------- | ----------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
