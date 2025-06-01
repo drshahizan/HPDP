@@ -63,46 +63,74 @@ These tools were used after each strategy to benchmark improvements in resource 
 
 
 ## 3. 🐼 Traditional Data Load (Baseline)
+As a baseline, we loaded the full dataset using the most common method — reading **all rows** and **all columns** into memory without any optimization. This represents the default approach many users take when first working with large CSV files.
 
+### ✅ What Was Done
 
-As a baseline, we loaded the full dataset using the most common method:
+- Loaded the full dataset with **no column filtering** or **data type optimization**.
+- Used standard `pandas.read_csv()` on the entire file.
+
+### 🧾 Code Snippet
 
 ```python
-import pandas as pd
+df = pd.read_csv("spotify_data/charts.csv")
+````
 
-df = pd.read_csv("spotify_charts.csv")
-```
+### 📈 Results
 
-This straightforward approach loads **all columns** and **all rows** into memory with no optimizations. It represents how most users initially interact with CSV data — but it's not suited for very large datasets.
+| Metric             | Value                         |
+| ------------------ | ----------------------------- |
+| 🔹 Load Time       | **81.13 seconds**             |
+| 🔹 Memory Usage    | **13,431.49 MB** (\~13.43 GB) |
+| 🔹 DataFrame Shape | `(26,173,514, 9)`             |
 
-### ⚙️ What This Does:
-- Loads 26+ million rows and 9 columns directly into memory.
-- No filtering, column selection, or type optimization is applied.
-- Used as the **baseline** to compare all optimized strategies.
+> 🧠 **Data Types**
+> All columns loaded in default types — most strings default to `object`, and numbers as `int64` or `float64`.
 
----
 
-### 📌 Observations:
+### 📌 Observation
 
-- **Time Taken:** ~20.92 seconds  
-- **Memory Usage:** ~1.88 GB  
-- **Ease of Processing:**  
-  ❌ Not ideal for machines with <8 GB RAM.  
-  ❌ Slower performance when performing downstream operations (e.g., filtering, grouping).  
-  ❌ High memory overhead due to default object datatypes for strings.  
-  ❌ Not scalable for larger datasets (4GB+ CSVs).
-
-> ⚠️ This traditional approach becomes impractical when working with gigabyte-scale datasets, especially on platforms like Google Colab or limited-memory machines.
+This baseline method is **simple but very inefficient** for large-scale data.
+The **full 9-column load** puts immense pressure on memory (13+ GB), especially due to multiple `object` columns (`title`, `artist`, `url`, etc.).
+> ⚠️ While convenient for exploration, this method is **impractical** for use on machines with limited RAM or when working within platforms like **Google Colab**, where session crashes are common with datasets this size.
 
 
 ## 4. ⚙️ Big Data Handling Strategies
 
-### 4.1 Load Less Data
+## 4.1 🧃 Load Less Data
 
-* **What was done**
-* Code snippet
-* Time & memory comparison
-* Benefit/limitation
+One of the simplest yet most effective strategies for handling large datasets is to **load only the necessary columns** rather than the entire file. This reduces both **memory usage** and **I/O overhead** during the reading process.
+
+### ✅ What Was Done
+
+- Selected **only 5 relevant columns**: `title`, `rank`, `date`, `artist`, and `region`.
+- Used the `usecols` parameter in `pandas.read_csv()` to load a subset of the data.
+
+### 🧾 Code Snippet
+
+```python
+use_cols = ['title', 'rank', 'date', 'artist', 'region']
+df_less = pd.read_csv('spotify_data/charts.csv', usecols=use_cols)
+````
+
+### 📈 Results
+
+| Metric             | Value                      |
+| ------------------ | -------------------------- |
+| 🔹 Load Time       | **69.64 seconds**          |
+| 🔹 Memory Usage    | **7266.65 MB** (\~7.27 GB) |
+| 🔹 DataFrame Shape | `(26,173,514, 5)`          |
+
+> 🧠 **Data Types**
+> `title`, `artist`, `date`, `region` → `object` (string)
+> `rank` → `int64`
+
+---
+
+### 📌 Observation
+
+Column filtering offers a quick memory improvement and simplifies analysis by removing irrelevant data. However, the **massive row count (26M+)** and presence of **string-heavy columns** still result in **significant memory consumption**.
+This step is a solid first move, but further strategies are needed to make the dataset more manageable.
 
 ### 4.2 Chunking
 
