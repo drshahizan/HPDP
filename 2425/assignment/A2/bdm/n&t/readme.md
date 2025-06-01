@@ -25,7 +25,7 @@ We start by experimenting with **Pandas-based methods** like:
 * 🧠 *Optimized data types*
 * 🎯 *Random sampling*
 
-Then, we extend the analysis by exploring **scalable data tools** like **Dask** and **PySpark**, evaluating their performance on large-scale data workflows.
+Then, we extend the analysis by exploring **scalable data tools** like **Dask** and **Polar**, evaluating their performance on large-scale data workflows.
 
 ---
 
