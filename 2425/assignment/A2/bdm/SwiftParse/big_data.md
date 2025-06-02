@@ -71,10 +71,30 @@ What it does:
 - Computes the average delay rate.
 
 - Adds a delay percentage column.
+
 2. Dask
+![Data Processing using Dask](./images/Part2_Dask.png)
+
+What it does:
+- Reads the CSV using lazy loading (doesn’t load all data at once).
+
+- Drops duplicates in parallelized chunks.
+
+- Groups data the same way as Pandas, but the operation is lazy until .compute() is called.
+
+- Final result is converted to a Pandas DataFrame for output.
 
 3. Polars
+![Data Processing using Polars](./images/Part2_Polars.png)
 
+What it does:
+- Uses Polars' lazy API for deferred computation.
+
+- Groups and aggregates using efficient Polars expressions.
+
+- Adds a calculated delay_pct column.
+
+- Triggers execution with .collect() (similar to .compute() in Dask).
 
 ---
 
