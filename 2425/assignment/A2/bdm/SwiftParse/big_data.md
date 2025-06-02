@@ -62,6 +62,19 @@ Below is a table describing 26 columns in the dataset:
 | `AWND`                          | Maximum wind speed (mph) on the day of departure                         |
 
 ---
+## 🧪 Load and Inspect Data
+Before applying the five optimization techniques, the full dataset was loaded using standard pandas.read_csv() to understand the baseline performance and structure of the data. This initial step allowed us to observe the raw resource usage when handling the full 1.27GB CSV file (full_data_flightdelay.csv) without any optimization.
+
+Initial Loading Results:
+
+- Execution Time: 35.45 seconds
+
+- Memory Used: 3961.75 MB
+
+<br></br>
+![Data Processing using Pandas](./images/Load.png)
+
+This result highlights the performance limitations of loading large datasets without strategy. It also highlights the need to explore alternative methods for optimizing execution time and memory efficiency.
 
 ## 🧪 Strategy Implementations
 
@@ -164,10 +177,30 @@ A side-by-side comparison of each technique was conducted based on:
 
 ## 📌 Conclusion & Reflection
 
+In summary, **Chunking** had the best performance among the 5 big data handling techniques with the lowest exeuction time and memory usage. Meanwhile, **Sampling** was efficient in memory but still took longer time to process. **Parallel Processing** with Dask showed improvement in time but consumed significantly more memory. **Optimize Data Types** helped reduce memory but didn’t significantly improve time. Techniques like chunking and sampling significantly reduce memory usage and load time, making them practical choices for handling large datasets without overwhelming system resources.
 
+For part 2, Polars was the fastest, with the execution time under 9 seconds, but required the highest memory. Pandas used the least memory, but its performance was noticeably slower.
+Dask offered parallel processing but suffered in both speed and memory compared to the others, possibly due to overhead and compute operations. In conclusion, Polars is suitable for maximum speed when memory is not a constraint. Pandas should be used when working with smaller datasets or limited RAM while Dask should be applied in distributed environments or for chunk-based workloads where parallel execution is needed but compute power is sufficient.
+
+| Method                         | Benefits                                        | Limitations                                          |
+| ------------------------------ | ----------------------------------------------- | ---------------------------------------------------- |
+| **Load Less Data**             | - Reduces overall memory usage                  | - Still takes time depending on file read scope      |
+| **Chunking**                   | - Fastest loading time<br>- Lowest memory usage | - Mostly beneficial for loading, not full processing |
+| **Sampling**                   | - Low memory usage                              | - Slower processing compared to chunking             |
+| **Optimize Data Types**        | - Significantly reduces memory usage            | - Minimal impact on execution time                   |
+| **Parallel Processing (Dask)** | - Improved loading time via parallel execution  | - Very high memory consumption                       |
+
+### Reflection
+This assignment provided valuable insights into various techniques for handling big data. These methods demonstrated how different strategies affect execution time and memory usage, which is crucial when working with large-scale datasets.
+
+Running the experiments on platforms like Google Colab highlighted practical limitations of cloud-based environments — limited resources can sometimes lead to runtime crashes, especially with large files or resource-intensive tasks. This underscores the importance of selecting strategies that align with the capabilities of the execution environment.
+
+The comparison between Pandas, Dask, and Polars revealed that each library has strengths suited to specific use cases. Polars offers exceptional speed but at the cost of higher memory usage. Pandas is memory-efficient and well-suited for smaller datasets, though it is slower. Dask supports parallel processing and is beneficial in distributed settings but may incur additional overhead.
+
+Overall, the experience emphasized the importance of scalable data processing strategies and the thoughtful selection of tools based on task complexity and system limitations.
 
 ---
 
-## 🔗 GitHub Submission
+## 🔗 Reference
 
-📁 Repository Structure:
+1. [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations?resource=download)
