@@ -118,3 +118,13 @@ Our experiments yielded significant insights into the effectiveness of each stra
 
 ## Conclusion
 The choice of data handling strategy or library is highly dependent on the specific task, dataset size, available resources, and analytical goals. For rapid insights, sampling is highly effective. For single-node processing of large files, Polars offers remarkable performance. For truly out-of-core or distributed computations, Dask remains the go-to solution despite its overhead for simpler tasks. Understanding these trade-offs is crucial for efficient big data processing.
+
+## Files and Links
+> *For detailed methodology, code, individual run outputs and in-depth discussion, please refer to the full notebook and the comprehensive PDF report.*
+
+| File Name            | Description | Link |
+|---------------------|-------------|------|
+| **readme.md**       | An introduction to the project, its description, data details, key highlights and navigation links to other key files. | [![View Readme](https://img.shields.io/badge/View-Readme-brightgreen?logo=markdown&logoColor=white)](readme.md) |
+| **big_data.md**     | A detailed overview of the project, including strategies explored, performance comparisons, and key takeaways. | [![Read](https://img.shields.io/badge/View-Readme-brightgreen?logo=markdown&logoColor=white)](big_data.md) |
+| **big_data.ipynb**  | The annotated Google Colab notebook containing all working code implementations, step-by-step analysis, and output comparisons. | [![Open in Jupyter](https://img.shields.io/badge/Open-Jupyter-F37626?logo=jupyter&logoColor=white)](big_data.ipynb) |
+| **report.pdf**      | A comprehensive academic report with introduction, dataset selection, implementation details, results, comparisons, and reflections. | [![View Report](https://img.shields.io/badge/View-Report-4D7FFF?logo=readthedocs&logoColor=white)](report.pdf) |
