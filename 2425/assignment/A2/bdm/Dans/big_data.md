@@ -48,12 +48,21 @@ The dataset contains records of residential property sales in the UK, including 
 
 ### 2.2 Initial Loading
 The dataset was too large to load using standard Pandas methods, so we used chunked reading and preprocessing.
+Due to the size of the dataset, ~4 GB, it was impractical to load the dataset directly into a standard pandas. read_csv() without running out of memory. To avoid this, we conducted a structured multi-step loading process:
+
+🧩 Kaggle API We secure authentication and downloaded the respective dataset using the Kaggle API.
+
+🗜️ Compressed File Handling: The data was extracted from a `. zip file of >1.csv file(s).
+![Image](https://github.com/user-attachments/assets/155d2058-51dd-4293-bdf9-f0b2db2cdb5b)
+
 
 ### 2.3 Basic Inspection
 Initial inspection was done using:
 - `nrows` to sample a small portion
 - Memory usage and dtype evaluations
 - Structure and completeness checks
+
+![Image](https://github.com/user-attachments/assets/799b027e-8cd1-491c-9940-4a31d6c858f5)
 
 ---
 
@@ -65,17 +74,23 @@ Implemented:
 - **Data Type Optimization** by converting string/object columns to `category`
 - **Sampling** with `skiprows` and `nrows` to simulate a sample-based analysis
 
+![Image](https://github.com/user-attachments/assets/1fc65edb-806d-4610-9fd0-a4287bcf4178)
+
 ### 3.2 Parallel Processing with Dask
 Used Dask to:
 - Load large CSV using `dd.read_csv()`
 - Optimize memory via column selection
 - Compute results lazily and in parallel using `.compute()`
 
+![Image](https://github.com/user-attachments/assets/dc3a534a-77bf-48ac-a480-ad6b7b514593)
+
 ### 3.3 Polars for High Performance
 Polars was used as a modern, Rust-backed alternative:
 - Used `pl.read_csv()` for fast ingestion
 - Queried and filtered data using its expression syntax
 - Monitored execution speed and memory usage
+
+![Image](https://github.com/user-attachments/assets/7d1862e4-c0d6-4147-8d6e-da4611d37b6e)
 
 ---
 
@@ -127,11 +142,11 @@ Polars was used as a modern, Rust-backed alternative:
 
 ### 5.3 Personal Reflection
 
-#### Author 1
+#### MUHAMMAD ANAS BIN MOHD PIKRI
 > Processing the anime dataset during this assignment was enjoyable and full of lessons. I’ve loved anime as someone who watches it, but learning about the data behind it made me admire how large and challenging data in media can be. When I began, I did not realize how much memory and processing capability was needed to handle the whole dataset with Pandas. I had problems with slow performance and game crashes. Yet, using sampling and shrinking the kinds of data stored helped clarify how to deal with large files.
 Being able to use Dask and Polars introduced me to ways of working with large amounts of data efficiently. It is clear to me from using Dask and Polars that selecting proper tools is very important. Through this, I am better equipped to use big data tools and ready to deal with situations that appear in data analytics.
 
-#### Author 2
+#### MUHAMMAD DANIAL BIN AHMAD SYAHIR
 > The project let me learn through actions how to deal with large volumes of data and work with the latest libraries in this area. Learning with the anime dataset was interesting because it combined technical topics with my hobby. At the start, I depended on Pandas, but soon I realized they had limitations when I tried to use the entire file. I noticed that making the application more efficient with chunking and selective loading was necessary.
 Using Dask and Polars was a huge improvement. Seeing the Polars process the full dataset in seconds made me realize how much faster it is than when Pandas tries to handle only part of it. Considering this made me realize how important it is to use the newest technologies. In general, taking part in this project boosted my knowledge in programming and helped me consider performance, memory and scalability for big data.
 
