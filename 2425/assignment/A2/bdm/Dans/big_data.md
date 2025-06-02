@@ -142,11 +142,11 @@ Polars was used as a modern, Rust-backed alternative:
 
 ### 5.3 Personal Reflection
 
-#### Author 1
+#### MUHAMMAD ANAS BIN MOHD PIKRI
 > Processing the anime dataset during this assignment was enjoyable and full of lessons. I’ve loved anime as someone who watches it, but learning about the data behind it made me admire how large and challenging data in media can be. When I began, I did not realize how much memory and processing capability was needed to handle the whole dataset with Pandas. I had problems with slow performance and game crashes. Yet, using sampling and shrinking the kinds of data stored helped clarify how to deal with large files.
 Being able to use Dask and Polars introduced me to ways of working with large amounts of data efficiently. It is clear to me from using Dask and Polars that selecting proper tools is very important. Through this, I am better equipped to use big data tools and ready to deal with situations that appear in data analytics.
 
-#### Author 2
+#### MUHAMMAD DANIAL BIN AHMAD SYAHIR
 > The project let me learn through actions how to deal with large volumes of data and work with the latest libraries in this area. Learning with the anime dataset was interesting because it combined technical topics with my hobby. At the start, I depended on Pandas, but soon I realized they had limitations when I tried to use the entire file. I noticed that making the application more efficient with chunking and selective loading was necessary.
 Using Dask and Polars was a huge improvement. Seeing the Polars process the full dataset in seconds made me realize how much faster it is than when Pandas tries to handle only part of it. Considering this made me realize how important it is to use the newest technologies. In general, taking part in this project boosted my knowledge in programming and helped me consider performance, memory and scalability for big data.
 
