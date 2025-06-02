@@ -27,17 +27,33 @@ In this assignment, we explored practical techniques for handling large-scale da
     <th>Link</th>
   </tr>
   <tr>
-    <th>big_data.md</th>
-    <th>Explanation on big_data.md</th>
-    <th>link</th>
+    <td><code>big_data.md</code></td>
+    <td>This markdown file contains the full report of the assignment. It includes the analysis of big data handling strategies and performance comparison between Pandas, Dask, and Polars.</td>
+    <td>
+      <a href="[https://github.com/yourusername/your-repo/blob/main/big_data.md](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/SwiftParse/big_data.md)">
+        <img src="https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github" alt="Open in GitHub">
+      </a>
+    </td>
   </tr>
-    <tr>
-    <th>big_data.pynb</th>
-    <th>Explanation on big_data.pynb</th>
-    <th>link</th>
-  </tr>  <tr>
-    <th>kaggle.json</th>
-    <th>Explanation on kaggle.json</th>
-    <th>link</th>
+  <tr>
+    <td><code>big_data.ipynb</code></td>
+    <td>Google Colab notebook containing the code implementation for all five big data strategies and the performance benchmarking of three libraries (Pandas, Dask, Polars).</td>
+    <td>
+      <a href="[https://github.com/yourusername/your-repo/blob/main/big_data.ipynb](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/SwiftParse/big_data.ipynb)">
+        <img src="https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github" alt="Open in GitHub">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td><code>kaggle.json</code></td>
+    <td>This file is used for authenticating and accessing the Kaggle API to download the dataset programmatically.</td>
+    <td>
+      <a href="[https://github.com/yourusername/your-repo/blob/main/kaggle.json](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/SwiftParse/kaggle.json)">
+        <img src="https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github" alt="Open in GitHub">
+      </a>
+    </td>
   </tr>
 </table>
+
+
+
