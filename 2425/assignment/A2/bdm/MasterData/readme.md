@@ -39,7 +39,7 @@
     </td>
   </tr>
   <tr>
-    <td>Codes in Colab</td>
+    <td>Codes (big_data.ipynb)</td>
     <td align="center">
       <a href="https://colab.research.google.com/drive/1iOuh4RfTRTRovZAPjQXSE9nilerqCWDL?usp=sharing"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=30px height=28px></a>
     </td>
