@@ -19,5 +19,5 @@
 ## Files Path
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-|**lcly.ipynb**||[![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)]()|
+|**biddata.md**||[View the Big Data report](https://github.com/2425/assignment/blob/main/A2/bdm/LCLY/big_data.md)()|
 
