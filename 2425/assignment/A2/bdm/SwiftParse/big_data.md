@@ -5,6 +5,7 @@ This project explores **various strategies** for efficiently handling large-scal
 The performance evaluation is divided into two parts:
 
 Part 1: Big Data Handling Strategies
+<br></br>
 **Objective**: Compare five strategic approaches for reading and optimizing large datasets using Pandas and Dask.
 
 - 📌 Load Less Data  
@@ -14,6 +15,7 @@ Part 1: Big Data Handling Strategies
 - 📌 Parallel Processing with Dask  
 
 Part 2: Data Processing using 3 different libraries
+<br></br>
 **Objective**: Benchmark three Python libraries using traditional and optimized data processing pipelines.
 
 - 🐼 **Pandas** (Traditional Processing)  
@@ -24,6 +26,10 @@ Part 2: Data Processing using 3 different libraries
 ## 📂 Dataset Description
 
 The dataset used in this project is full_data_flightdelay.csv (size: 1.27 GB), containing 6489062 of flight records from 2019. It simulates real-world big data challenges by combining flight schedules, weather conditions, and airline operations.
+
+- Dataset: [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations?resource=download)
+- Size: 1.27 GB
+- Records in dataset: 6489062
 
 Below is a table describing 26 columns in the dataset:
 | Column                          | Description                                                              |
@@ -158,11 +164,7 @@ A side-by-side comparison of each technique was conducted based on:
 
 ## 📌 Conclusion & Reflection
 
-- **Pandas** is simple but memory-heavy for large files.
-- **Chunking and dtype optimization** greatly improved efficiency.
-- **Dask** offers excellent parallelism but requires lazy evaluation understanding.
-- **Polars** outperformed Pandas and Dask in both time and memory in most scenarios.
-- Choosing the right tool depends on the dataset size and available resources.
+
 
 ---
 
