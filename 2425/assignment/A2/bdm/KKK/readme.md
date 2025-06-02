@@ -1,7 +1,7 @@
 # 📚Assignment 2:  Mastering Big Data Handling🚀
 
 ## Group Name: KKK
-👨‍💻 Group Members
+**👨‍💻 Group Members**
 - KOH LI HUI (A22EC0059)
 - KOH SU XUAN (A22EC0060)
 
