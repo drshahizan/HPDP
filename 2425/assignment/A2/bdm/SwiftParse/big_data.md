@@ -70,7 +70,7 @@ A side-by-side comparison of each technique was conducted based on:
 
 ### Part 2: Data Processing using 3 different libraries
 ### 📈 Library Comparison Chart
-![Library Comparison Chart](./images/comparison_libraries.png)
+![Library Comparison Chart](./images/chart2.png)
 
 
 
