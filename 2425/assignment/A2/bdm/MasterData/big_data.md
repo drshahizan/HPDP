@@ -164,7 +164,7 @@ In part 2 of handling our dataset, we performed the action of loading the datase
 </table>
 
 #### 4.2.2 Part 2 (Comparing Between Libraries)
-<table border="1" cellpadding="8" cellspacing="0">
+<table border="1">
   <thead>
     <tr>
       <th>Metrics/Libraries</th>
@@ -220,12 +220,169 @@ Dask, which is made for parallel processing, demonstrates a mix of outcomes. Alt
 
 # 5.0 Conclusion and Reflection
 ### 5.1 Summary of Findings
+It is clear from the evaluation that using the “Load Less Data” method in Pandas provides the best performance and is therefore suitable for tasks that require high speed. Even though “Optimize Data Type” and “Chunking” are not very fast, they use a lot of memory and “Optimize Data Type” also uses the most CPU. The “Sampling” strategy uses less CPU power, but it is not efficient when processing a lot of data because it delivers the weakest throughput. Dask’s parallel approach saves memory, but it generally takes longer and offers less throughput than Pandas’ best techniques which means parallelization may not be necessary for small datasets.
+
+In every important performance metric, Polars is much faster than Pandas and Dask. It has the shortest execution time, requires the least memory and provides the greatest throughput which is perfect for large and fast data workloads. While pandas are useful and used by many, they are not as fast or efficient with memory as other libraries. Dask is designed for parallel and distributed computing and uses less memory than Pandas, but it is slower for most tasks which means its benefits are best seen in very large-scale or distributed environments. In general, Polars is the best library for handling data processing that requires speed, low memory usage and high throughput.
 
 ### 5.2 Benefits and Limitations of Each Strategies
+<table border="1">
+  <tr>
+    <th></th>
+    <th width=40%>Benefits</th>
+    <th width=40%>Limitations</th>
+  </tr>
+  <tr>
+    <td>Load Less Data</td>
+    <td>
+      <ul>
+        <li>Among all strategies, this one took the least time to run.</li>
+        <li>The highest throughput makes handling data very efficient.</li>
+        <li>Because it uses very little memory, it is suitable for places with limited memory.</li>
+        <li>Useful when there is only need to look at a small part of the data.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>May cause insights to be lost if important details are found in the excluded data.</li>
+        <li>This approach is not suitable when processing the whole dataset which is necessary (for example, in training models or combining all the data).</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Chunking</td>
+    <td>
+      <ul>
+        <li>Processes big files in sections, so the memory does not get overloaded.</li>
+        <li>Less RAM is used when loading the small dataset than when loading the full dataset.</li>
+        <li>Prevents crashes that happen because of memory errors.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>The program executes longer because it has to read and process the data more than once.</li>
+        <li>The data is processed at a slow rate.</li>
+        <li>Makes the code more complicated because it needs to manage and merge the results from different chunks.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Optimize Data Type</td>
+    <td>
+      <ul>
+        <li>Reduces the amount of memory used for future calculations when used properly.</li>
+        <li>Improves how well the system works after data has been optimized and less RAM is needed.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>During optimization, the program used a lot of memory which might be because of temporary conversions or copying.</li>
+        <li>The high CPU usage indicates that the application uses a lot of system resources.</li>
+        <li>May result in losing data or encountering errors when the wrong data type is used (for example, changing float to int).</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Sampling</td>
+    <td>
+      <ul>
+        <li>Analyzing is allowed and testing quickly using a small sample of the data.</li>
+        <li>The CPU is being used very little and memory is used less than it is when processing all the data.</li>
+        <li>Can be used to create models and test ideas.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Because the throughput is low and the execution time is long, the performance is not efficient.</li>
+        <li>If the way samples are chosen is biased, the findings may not reflect the whole population.</li>
+        <li>Should not be used for final production or analysis that needs all the data.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Parallel Processing with Dask</td>
+    <td>
+      <ul>
+        <li>Since the model uses very little memory, it is perfect for working with large datasets that RAM cannot handle.</li>
+        <li>Can be used in programs that use multiple cores or distributed systems.</li>
+        <li>Good for situations where data does not fit in memory and for real-time streaming.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>The longest execution time suggests that there is some overhead involved in setting up the parallelization.</li>
+        <li>Because of the low throughput, the system is not efficient for handling small tasks.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>
+      <ul>
+        <li>Many people use and support it and there is a lot of information available.</li>
+        <li>Many functions: Allows users to handle, clean, transform and study data in many ways.</li>
+        <li>Easy to pick up and work with, especially for those who are just starting to code.</li>
+        <li>Easy to use with other Python libraries, including NumPy, Matplotlib and Scikit-learn.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Too much memory is used: Not recommended for datasets that are larger than the system’s RAM.</li>
+        <li>It takes more time to execute queries than newer libraries like Polars.</li>
+        <li>Default is single-threaded: Does not fully use multi-core processors which can make large-scale operations run slower.</li>
+        <li>A lower throughput rate means the system is processing data more slowly.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Polars</td>
+    <td>
+      <ul>
+        <li>Due to its Rust backend, this engine offers the fastest performance: quickest code execution and most rows per second.</li>
+        <li>The program uses very little memory: It is designed to use memory efficiently.</li>
+        <li>It is multi-threaded by design: All CPU cores are used automatically for better speed.</li>
+        <li>Lazy evaluation is available: It helps by carrying out computations only when needed.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Not as mature: There are fewer people in the community and not as many tutorials or tools available as there are in Pandas.</li>
+        <li>Limited features (at the moment): It lacks some of the specialized functions found in Pandas.</li>
+        <li>API differences: Users who know Pandas will have to learn a bit of the Polars way.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Dask</td>
+    <td>
+      <ul>
+        <li>Can handle both parallel and distributed computing and can be used on a laptop or a cluster.</li>
+        <li>The low memory usage makes it good for working with data that is larger than the available RAM.</li>
+        <li>Pandas-compatible API: Helps users who already use Pandas make the switch.</li>
+        <li>Perfect for streaming and handling big data, as it can also work with cloud storage and distributed file systems.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>The benchmark shows that it takes the longest time to execute.</li>
+        <li>The lower throughput is caused by the extra work needed for task scheduling and lazy execution.</li>
+        <li>More difficult to learn: People need to know about delayed execution and task graphs.</li>
+        <li>Not as helpful for small to medium data sets, as the overhead can be greater than the advantages unless you are working with huge or complex workloads.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ### 5.3 Personal Reflection
 #### 5.3.1 Kek Jesslyn
+By studying these data processing strategies and libraries, I have learned how different ways of working and tools can affect how fast tasks are completed, how much memory is used, how efficient the CPU is and the overall throughput. It was very clear to me that using “Load Less Data” can boost Pandas’ performance, so I learned that being careful with data in the beginning is very important. I found out that Pandas and similar tools help a lot, but they may not be suitable for working with huge datasets. Looking into Polars was very interesting, I realized how much better modern libraries are at handling large datasets. In addition, Dask showed me how parallel and distributed computing can be useful for working with large amounts of data in the future. By doing this assignment, I now see more clearly the trade-offs among usability, speed and scalability which makes me more careful when choosing tools and strategies for data processing. Now, I feel more assured about picking the right solution for different project requirements.
 
 #### 5.2.2 Tan Jun Yuan
+This assignment gave us a solid hands-on experience in managing large datasets efficiently using Python. By working with a 2.86GB file containing about 3 million rows, we faced real-world challenges like memory limits and slow processing. We explored techniques such as chunking, sampling, data type optimization, and parallel processing with Dask, and saw how even small changes like converting object types to categories or loading only specific columns can greatly reduce memory use and improve speed. Using Google Colab also highlighted the importance of building scalable solutions within limited resources. Overall, this project improved our problem-solving skills and deepened our understanding of big data handling in real-world scenarios.
 
 # 6.0 Reference
+- McKinney, W. (2022). _Python for data analysis: Data wrangling with pandas, NumPy, and Jupyter_ (3rd ed.). O’Reilly Media.
+  (https://wesmckinney.com/book/)
+- Dask Development Team. (2024). _Dask documentation_. Dask.
+  (https://docs.dask.org/en/stable/)
+- MohamedBakhet. (2022). _Amazon books reviews_ [Data set]. Kaggle.
+  (https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
