@@ -85,8 +85,6 @@ Polars was used as a modern, Rust-backed alternative:
 ### 4.1 Metrics Used
 - **Processing Time**
 - **Memory Usage**
-- **Throughput**
-- **DataFrame Shape**
 
 ### 4.2 Summary
 
