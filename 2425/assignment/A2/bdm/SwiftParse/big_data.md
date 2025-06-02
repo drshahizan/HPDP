@@ -150,7 +150,7 @@ A side-by-side comparison of each technique was conducted based on:
 
 ![Execution Comparison](./images/chart2.png)
 
-![Memory Usage Comparison ](./images/chart3.jpg)
+![Memory Usage Comparison ](./images/chart3.png)
 
 ---
 
