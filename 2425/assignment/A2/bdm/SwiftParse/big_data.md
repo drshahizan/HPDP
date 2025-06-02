@@ -23,11 +23,37 @@ Part 2: Data Processing using 3 different libraries
 
 ## 📂 Dataset Description
 
-The dataset used contains millions of flight records with various features including:
+The dataset used in this project is full_data_flightdelay.csv (size: 1.27 GB), containing 6489062 of flight records from 2019. It simulates real-world big data challenges by combining flight schedules, weather conditions, and airline operations.
 
-- `MONTH`, `DAY_OF_WEEK`, `DEP_DEL15`, `CONCURRENT_FLIGHTS`, `CARRIER_NAME`, etc.
-- Weather data: `AWND`, `PRCP`, `TMAX`, etc.
-- The dataset size is substantial enough to simulate real-world big data challenges.
+Below is a table describing 26 columns in the dataset:
+| Column                          | Description                                                              |
+| ------------------------------- | ------------------------------------------------------------------------ |
+| `MONTH`                         | Month of the year (1-12)                                                 |
+| `DAY_OF_WEEK`                   | Day of the week (1=Monday, 7=Sunday)                                     |
+| `DEP_DEL15`                     | **Target:** Binary indicator (1 = Departure delayed over 15 mins)        |
+| `DEP_TIME_BLK`                  | Departure time block                                                     |
+| `DISTANCE_GROUP`                | Distance group to be flown by the aircraft                               |
+| `SEGMENT_NUMBER`                | Segment index of the tail number for the day                             |
+| `CONCURRENT_FLIGHTS`            | Flights departing concurrently within the same time block at the airport |
+| `NUMBER_OF_SEATS`               | Number of seats on the aircraft                                          |
+| `CARRIER_NAME`                  | Name of the airline carrier                                              |
+| `AIRPORT_FLIGHTS_MONTH`         | Average monthly flights at the airport                                   |
+| `AIRLINE_FLIGHTS_MONTH`         | Average monthly flights by the airline                                   |
+| `AIRLINE_AIRPORT_FLIGHTS_MONTH` | Average monthly flights by the airline at the airport                    |
+| `AVG_MONTHLY_PASS_AIRPORT`      | Average monthly passengers at the airport                                |
+| `AVG_MONTHLY_PASS_AIRLINE`      | Average monthly passengers on the airline                                |
+| `FLT_ATTENDANTS_PER_PASS`       | Flight attendants per passenger for the airline                          |
+| `GROUND_SERV_PER_PASS`          | Ground service staff per passenger for the airline                       |
+| `PLANE_AGE`                     | Age of the aircraft in years                                             |
+| `DEPARTING_AIRPORT`             | Airport code for departure                                               |
+| `LATITUDE`                      | Latitude of the departing airport                                        |
+| `LONGITUDE`                     | Longitude of the departing airport                                       |
+| `PREVIOUS_AIRPORT`              | Airport code of previous flight segment                                  |
+| `PRCP`                          | Precipitation (inches) on the day of departure                           |
+| `SNOW`                          | Snowfall (inches) on the day of departure                                |
+| `SNWD`                          | Snow depth (inches) on the ground                                        |
+| `TMAX`                          | Maximum temperature (°F) on the day of departure                         |
+| `AWND`                          | Maximum wind speed (mph) on the day of departure                         |
 
 ---
 
