@@ -29,13 +29,13 @@
   <tr>
     <td>Report (big_data.md)</td>
     <td align="center">
-      <a href="2425/assignment/A2/bdm/MasterData/big_data.md"><img src="https://github.com/user-attachments/assets/2e0abbaa-3b7f-450f-92f6-41fd0e6e4dad" width=24px height=23px></a>
+      <a href="big_data.md"><img src="https://github.com/user-attachments/assets/2e0abbaa-3b7f-450f-92f6-41fd0e6e4dad" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Report (PDF)</td>
     <td align="center">
-      <a href="2425/assignment/A2/bdm/MasterData/MasterData_Report.pdf"><img src="https://github.com/user-attachments/assets/fc7537be-11d2-483a-8503-e26e925eab68" width=25px height=23px></a>
+      <a href="MasterData_Report.pdf"><img src="https://github.com/user-attachments/assets/fc7537be-11d2-483a-8503-e26e925eab68" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@
   <tr>
     <td>Codes (PDF)</td>
     <td align="center">
-      <a href="2425/assignment/A2/bdm/MasterData/MasterData_Codes.pdf"><img src="https://github.com/user-attachments/assets/fc7537be-11d2-483a-8503-e26e925eab68" width=25px height=23px></a>
+      <a href="MasterData_Codes.pdf"><img src="https://github.com/user-attachments/assets/fc7537be-11d2-483a-8503-e26e925eab68" width=25px height=23px></a>
     </td>
   </tr>
 </table>
