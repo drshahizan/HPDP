@@ -41,7 +41,7 @@ The dataset contains records of residential property sales in the UK with fields
 To begin the data analysis, the UK Housing Prices Paid dataset was loaded directly into the Colab environment using basic file handling methods. The dataset was obtained from Kaggle and extracted within the environment prior to analysis.
 <br><br>
 The following code snippet was used to list the dataset contents after ensuring the files were available:
-![Dataset Contents](https://raw.githubusercontent.com/2425/assignment/main/A2/bdm/LCLY/image/lcly/1.png)
+![Dataset Contents](https://raw.githubusercontent.com/drshahizan/HPDP/main/2425/assignment/A2/bdm/LCLY/image/lcly/1.png)
 
 ### 2.3 Basic Inspection
 - Shape: 10 rows × 11 columns  
