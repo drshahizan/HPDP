@@ -18,8 +18,10 @@
 
 ## Files Path
 
-| File Name    | Link                                               |
-|--------------|----------------------------------------------------|
-| **bigdata.md** | [View Big Data Report on GitHub](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/LCLY/big_data.md) |
+| File Name            | Link                                                                                                          |
+|----------------------|---------------------------------------------------------------------------------------------------------------|
+| **bigdata.md**       | [View Big Data Report on GitHub](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/LCLY/big_data.md) |
+| **lcly_assignment2_hpdp** | [Open Google Colab Notebook](https://colab.research.google.com/drive/1BkDEjprPYTbnFw2E-qjaw4zH5DW2cn-r?usp=sharing#scrollTo=9NRaSbxPE0of)           |
+
 
 
