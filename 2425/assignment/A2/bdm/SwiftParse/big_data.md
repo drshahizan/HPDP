@@ -39,8 +39,17 @@ We implemented **five data-loading and cleaning strategies** with Pandas, and us
 
 
 ### Part 2: Data Processing using 3 different libraries
+In this part, the dataset undergoes data cleaning and analysis using Pandas, Dask, and Polars to compare their performance. The cleaning process included checking for null values and duplicates. Duplicated rows were found and removed , while no missing values were detected.
 
+For the analysis, the data processing focused on evaluating airline performance by calculating the departure delay rate specifically the proportion of flights delayed more than 15 minutes. The analysis is grouped by month and carrier. The corresponding delay percentage was computed.
 
+Each library was used to execute the same task, and the execution time and memory usage were recorded to assess their efficiency and identify which library handled the dataset most effectively for this type of analysis.
+
+1. Pandas
+
+2. Dask
+
+3. Polars
 
 
 ---
