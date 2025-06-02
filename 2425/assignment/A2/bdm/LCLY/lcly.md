@@ -17,7 +17,9 @@
 <br>
 
 ## Files Path
-| File Name                      Link |
-|------------------------------|------|
-|**bigdata.md**||[View Big Data Report on GitHub](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/LCLY/big_data.md)|
+
+| File Name    | Link                                               |
+|--------------|----------------------------------------------------|
+| **bigdata.md** | [View Big Data Report on GitHub](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/LCLY/big_data.md) |
+
 
