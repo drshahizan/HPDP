@@ -7,7 +7,6 @@
 3. [Big Data Handling Strategies](#3-big-data-handling-strategies)
 4. [Comparative Analysis](#4-comparative-analysis)
 5. [Conclusion and Reflection](#5-conclusion-and-reflection)
-6. [References](#6-references)
 
 ---
 
