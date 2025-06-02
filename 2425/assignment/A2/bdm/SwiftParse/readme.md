@@ -18,6 +18,8 @@
   </tr>
 </table>
 
+In this assignment, we explored practical techniques for handling large-scale datasets efficiently using Python. Our focus was on applying five big data strategies—loading less data, chunking, optimizing data types, sampling, and parallel processing with Dask—to a real-world airline delay dataset exceeding 700MB. We evaluated each strategy’s performance in terms of memory usage and execution time. Additionally, we compared three popular data processing libraries—Pandas, Dask, and Polars—by performing the same delay rate analysis across all three, allowing us to benchmark their efficiency and scalability in processing and cleaning large datasets.
+
 <table border="solid" align="center">
   <tr>
     <th>File Name</th>
