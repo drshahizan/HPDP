@@ -46,7 +46,22 @@ For the analysis, the data processing focused on evaluating airline performance 
 Each library was used to execute the same task, and the execution time and memory usage were recorded to assess their efficiency and identify which library handled the dataset most effectively for this type of analysis.
 
 1. Pandas
+![Data Processing using Pandas](./images/Part2_Pandas.png)
 
+What it does:
+- Reads the full CSV into memory with pd.read_csv().
+
+- Removes duplicates directly in memory.
+
+- Groups data by MONTH and CARRIER_NAME, then:
+
+- Counts total flights,
+
+- Sums delayed flights (DEP_DEL15 == 1),
+
+- Computes the average delay rate.
+
+- Adds a delay percentage column.
 2. Dask
 
 3. Polars
