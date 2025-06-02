@@ -79,6 +79,7 @@ This exercise highlighted that there is no one-size-fits-all solution when worki
  - By understanding and applying these techniques, we can make informed decisions about how to handle large-scale data efficiently in real-world scenarios.
 
 📝 Summary
+
 In summary, this assignment emphasized the importance of efficient data handling strategies when working with large datasets. By applying techniques such as selective loading, chunking, data type optimization, sampling, and parallel processing, we can significantly improve performance and reduce resource consumption.
 
 Whether you're analyzing flight delays or tackling any other big data problem, choosing the right approach can make all the difference between a sluggish process and a smooth, scalable workflow.
