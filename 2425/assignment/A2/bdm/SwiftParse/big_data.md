@@ -74,12 +74,16 @@ A side-by-side comparison of each technique was conducted based on:
 
 
 ### 📈 Technique Comparison Chart
-![Technique Comparison Chart](./images/comparison_techniques.png)
+![Comparison Table](./images/Table1.jpg)
+
+![Execution Comparison](./images/Chart1-1.jpg)
+
+![Memory Usage Comparison ](./images/Chart1-2.jpg)
 
 
 ### Part 2: Data Processing using 3 different libraries
 ### 📈 Library Comparison Chart
-![Library Comparison Chart](./images/chart2.png)
+![Comparison Chart](./images/chart2.png)
 
 
 
