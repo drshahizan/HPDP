@@ -25,6 +25,6 @@ This project focuses on Mastering Big Data Handling using Python. We explore var
 |------------------------------|--------------------------------------------|------|
 | **big_data.md**  |A detailed overview of the project, including the strategies explored, performance comparisons, and key takeaways.| [![Markdown](https://img.shields.io/badge/Read-MD-lightgrey?logo=markdown&logoColor=black)](big_data.md)|
 |**big_data.ipynb**| The annotated Google Colab notebook containing all the working code implementations, step-by-step analysis, and outputs for each strategy and library comparison.|[![Jupyter](https://img.shields.io/badge/Open-Jupyter-orange?logo=jupyter&logoColor=white)](big_data.ipynb)|
-|**HPDP Assignment 2 Report.pdf**|The comprehensive academic report detailing the introduction, dataset selection, detailed implementation code and results, performance comparison, discussion, conclusion, and reflections.|[![Report](https://img.shields.io/badge/View-Report-blue?logo=readthedocs&logoColor=white)](https://github.com/username/repo/blob/main/report.pdf)|
+|**HPDP Assignment 2 Report.pdf**|The comprehensive academic report detailing the introduction, dataset selection, detailed implementation code and results, performance comparison, discussion, conclusion, and reflections.|[![Report](https://img.shields.io/badge/View-Report-blue?logo=readthedocs&logoColor=white)](HPDP Assignment 2 Report.pdf)|
 
 **Dive in and explore how we tackled the challenges of big data!**
