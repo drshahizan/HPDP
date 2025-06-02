@@ -48,12 +48,21 @@ The dataset contains records of residential property sales in the UK, including 
 
 ### 2.2 Initial Loading
 The dataset was too large to load using standard Pandas methods, so we used chunked reading and preprocessing.
+Due to the size of the dataset, ~4 GB, it was impractical to load the dataset directly into a standard pandas. read_csv() without running out of memory. To avoid this, we conducted a structured multi-step loading process:
+
+🧩 Kaggle API We secure authentication and downloaded the respective dataset using the Kaggle API.
+
+🗜️ Compressed File Handling: The data was extracted from a `. zip file of >1.csv file(s).
+![Image](https://github.com/user-attachments/assets/155d2058-51dd-4293-bdf9-f0b2db2cdb5b)
+
 
 ### 2.3 Basic Inspection
 Initial inspection was done using:
 - `nrows` to sample a small portion
 - Memory usage and dtype evaluations
 - Structure and completeness checks
+
+![Image](https://github.com/user-attachments/assets/799b027e-8cd1-491c-9940-4a31d6c858f5)
 
 ---
 
@@ -65,17 +74,23 @@ Implemented:
 - **Data Type Optimization** by converting string/object columns to `category`
 - **Sampling** with `skiprows` and `nrows` to simulate a sample-based analysis
 
+![Image](https://github.com/user-attachments/assets/1fc65edb-806d-4610-9fd0-a4287bcf4178)
+
 ### 3.2 Parallel Processing with Dask
 Used Dask to:
 - Load large CSV using `dd.read_csv()`
 - Optimize memory via column selection
 - Compute results lazily and in parallel using `.compute()`
 
+![Image](https://github.com/user-attachments/assets/dc3a534a-77bf-48ac-a480-ad6b7b514593)
+
 ### 3.3 Polars for High Performance
 Polars was used as a modern, Rust-backed alternative:
 - Used `pl.read_csv()` for fast ingestion
 - Queried and filtered data using its expression syntax
 - Monitored execution speed and memory usage
+
+![Image](https://github.com/user-attachments/assets/7d1862e4-c0d6-4147-8d6e-da4611d37b6e)
 
 ---
 
