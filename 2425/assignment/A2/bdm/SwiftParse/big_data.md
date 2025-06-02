@@ -133,9 +133,8 @@ A side-by-side comparison of each technique was conducted based on:
 
 - **Execution Time (s)**
 - **Memory Used (MB)**
+
 ###  Part 1: Big Data Handling Strategies
-
-
 
 ### 📈 Technique Comparison Chart
 ![Comparison Table](./images/Table1.jpg)
@@ -147,9 +146,11 @@ A side-by-side comparison of each technique was conducted based on:
 
 ### Part 2: Data Processing using 3 different libraries
 ### 📈 Library Comparison Chart
-![Comparison Chart](./images/chart2.png)
+![Comparison Chart](./images/table2.png)
 
+![Execution Comparison](./images/chart2.png)
 
+![Memory Usage Comparison ](./images/chart3.jpg)
 
 ---
 
