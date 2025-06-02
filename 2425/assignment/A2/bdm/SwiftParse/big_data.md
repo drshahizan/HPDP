@@ -55,7 +55,7 @@ For the analysis, the data processing focused on evaluating airline performance 
 Each library was used to execute the same task, and the execution time and memory usage were recorded to assess their efficiency and identify which library handled the dataset most effectively for this type of analysis.
 
 1. Pandas
-<br>
+<br></br>
 ![Data Processing using Pandas](./images/Part2_Pandas.png)
 
 What it does:
@@ -74,7 +74,7 @@ What it does:
 - Adds a delay percentage column.
 
 2. Dask
-<br>
+<br></br>
 ![Data Processing using Dask](./images/Part2_Dask.png)
 
 What it does:
@@ -87,7 +87,7 @@ What it does:
 - Final result is converted to a Pandas DataFrame for output.
 
 3. Polars
-<br>
+<br></br>
 ![Data Processing using Polars](./images/Part2_Polars.png)
 
 What it does:
