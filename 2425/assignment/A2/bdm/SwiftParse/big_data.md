@@ -48,7 +48,7 @@ Below is a table describing 26 columns in the dataset:
 | `DEPARTING_AIRPORT`             | Airport code for departure                                               |
 | `LATITUDE`                      | Latitude of the departing airport                                        |
 | `LONGITUDE`                     | Longitude of the departing airport                                       |
-| `PREVIOUS_AIRPORT`              | Airport code of previous flight segment                                  |
+| `PREVIOUS_AIRPORT`              | Previous airport that aircraft departed from                                  |
 | `PRCP`                          | Precipitation (inches) on the day of departure                           |
 | `SNOW`                          | Snowfall (inches) on the day of departure                                |
 | `SNWD`                          | Snow depth (inches) on the ground                                        |
