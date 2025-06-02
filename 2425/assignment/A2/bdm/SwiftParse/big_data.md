@@ -36,6 +36,15 @@ The dataset used contains millions of flight records with various features inclu
 We implemented **five data-loading and cleaning strategies** with Pandas, and used **Dask and Polars** for parallel and optimized processing:
 
 ###  Part 1: Big Data Handling Strategies
+In this step-by-step comparison, five different data processing strategies were applied using only the Pandas library to evaluate their effectiveness in terms of execution time and memory usage. 
+
+1. The **"Load Less Data"** strategy focused on minimizing the volume of data read into memory by selecting only necessary columns or filtering rows during import. This approach showed a balanced performance, with moderate execution time and memory usage. 
+2. The **"Chunking"** method processed data in smaller batches using Pandas' `chunksize` parameter, which resulted in the fastest execution time and nearly zero memory usage, making it highly efficient for very large datasets that cannot be loaded entirely into memory. 
+3. The **"Optimize Data Types"** strategy involved converting data columns to more memory-efficient types (such as changing float64 to float32 or object to category), which significantly reduced memory consumption but incurred a higher execution time due to the computational cost of conversion.
+4. **"Sampling"** involved selecting a subset of the data to work with, reducing the memory footprint dramatically, but similar to data type optimization, it took longer to execute—likely due to the effort needed to create a representative sample. Lastly,
+5. **"Parallel with Dask"**, while still using Pandas under the hood, distributed the workload across multiple cores. This led to better speed than loading all data at once, but it consumed the highest amount of memory due to the overhead from parallel processing.
+
+Overall, each strategy has its trade-offs: chunking stands out as the most memory-efficient and fastest, while others like data type optimization and sampling are useful for long-term performance gains despite longer initial processing times.
 
 
 ### Part 2: Data Processing using 3 different libraries
