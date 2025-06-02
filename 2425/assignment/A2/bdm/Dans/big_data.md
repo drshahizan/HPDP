@@ -89,7 +89,7 @@ Polars was used as a modern, Rust-backed alternative:
 ### 4.2 Summary
 
 #### Traditional Pandas (Baseline)
-- Crashed on full load due to memory exhaustion
+- Handled full dataset successfully
 - High memory usage
 - Simple syntax, but not scalable
 
