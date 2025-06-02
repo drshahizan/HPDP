@@ -27,6 +27,7 @@
 5. [Conclusion and Reflection](#5-conclusion-and-reflection)
 6. [References](#6-references)
 
+<a name="1-introduction"></a>
 # <img src="https://github.com/user-attachments/assets/ec2cacd2-740e-4aea-a186-0c35bc115e45" width=43px height=40px> 1. Introduction
 ### 1.1 Background of the Project
 Nowadays, with big data becoming more common, many companies rely on their ability to process and analyse huge amounts of data to get useful insights. However, the usual data processing tools often can’t cope well with very large datasets, especially when the file size goes beyond a few hundred megabytes due to memory problems and slow processing.
@@ -46,6 +47,7 @@ The goal is to explore how these different methods can improve performance, espe
 The dataset used for this assignment was taken from Kaggle. The main file we’re working with is <b>Book_rating.csv</b>, which comes from a bigger collection of Amazon book reviews. The file is around <b>2.86GB</b> in size which is big enough to really test out different big data processing methods.
 This dataset contains <b>millions of book reviews and ratings</b> made by users, plus extra info like the book title, author name, user ID, and the review text. With all this data, it’s great not just for exploring patterns and trends but also for testing how well different data loading and processing techniques work.
 
+<a name="2-dataset-overview-and-inspection"></a>
 # <img src="https://github.com/user-attachments/assets/7e00a8b0-f6f9-424b-abfb-71d56ac67a1a" width=43px height=40px> 2. Dataset Overview and Inspection
 ### 2.1 Dataset Description
 - **Source:** [Kaggle (Amazon Books Reviews Dataset)](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
@@ -90,6 +92,7 @@ Observations:
 - When loaded fully into **Pandas**, the dataset uses around **229MB of memory**. That’s still okay for most systems, but optimising it can help improve processing speed and efficiency.
 - Columns like review/text, review/summary, and profileName have **text data**, which can vary a lot in length and might be sparse
 
+<a name="3-big-data-handling-strategies-and-loading-data-using-different-libraries"></a>
 # <img src="https://github.com/user-attachments/assets/e5d567b0-8ac4-42a8-94f1-0b7506de87cb" width=43px height=40px> 3. Big Data Handling Strategies and Loading Data Using Different Libraries
 ### 3.1 Part 1 (5 Big Data Strategies)
 In part 1 of handling our dataset, we performed five big data handling strategies by using **Pandas** library to see which strategy has a better performance.
@@ -137,6 +140,7 @@ In part 2 of handling our dataset, we performed the action of loading the datase
 ![image](https://github.com/user-attachments/assets/94118897-7859-4a76-8db6-68447fc1c75a)
 
 
+<a name="4-comparative-analysis"></a>
 # <img src="https://github.com/user-attachments/assets/bf9a03a5-df6b-4e8a-8641-46e4b872b83f" width=43px height=40px> 4. Comparative Analysis
 ### 4.1 Metrics Used
 - Code execution time (s)
@@ -247,6 +251,7 @@ Pandas is a well-known tool, but it takes the most time (55.8117s) and uses the 
 
 Dask, which is made for parallel processing, demonstrates a mix of outcomes. Although it uses less memory than Pandas (428.5369 MB), it takes the longest to run (81.2019s) and has the lowest number of rows processed per second (36944.93). The fact that it uses 28% of the CPU means it takes up a lot of resources for handling distributed tasks.
 
+<a name="5-conclusion-and-reflection"></a>
 # <img src="https://github.com/user-attachments/assets/b35663ff-9d7f-4b7c-93b4-c91e8133f547" width=43px height=40px> 5. Conclusion and Reflection
 ### 5.1 Summary of Findings
 It is clear from the evaluation that using the “Load Less Data” method in Pandas provides the best performance and is therefore suitable for tasks that require high speed. Even though “Optimize Data Type” and “Chunking” are not very fast, they use a lot of memory and “Optimize Data Type” also uses the most CPU. The “Sampling” strategy uses less CPU power, but it is not efficient when processing a lot of data because it delivers the weakest throughput. Dask’s parallel approach saves memory, but it generally takes longer and offers less throughput than Pandas’ best techniques which means parallelization may not be necessary for small datasets.
@@ -408,6 +413,7 @@ By studying these data processing strategies and libraries, I have learned how d
 #### 5.2.2 Tan Jun Yuan
 This assignment gave us a solid hands-on experience in managing large datasets efficiently using Python. By working with a 2.86GB file containing about 3 million rows, we faced real-world challenges like memory limits and slow processing. We explored techniques such as chunking, sampling, data type optimization, and parallel processing with Dask, and saw how even small changes like converting object types to categories or loading only specific columns can greatly reduce memory use and improve speed. Using Google Colab also highlighted the importance of building scalable solutions within limited resources. Overall, this project improved our problem-solving skills and deepened our understanding of big data handling in real-world scenarios.
 
+<a name="6-references"></a>
 # <img src="https://github.com/user-attachments/assets/6f9087b7-2c68-4045-afc9-3f88b11bf29e" width=43px height=40px> 6. References
 - McKinney, W. (2022). _Python for data analysis: Data wrangling with pandas, NumPy, and Jupyter_ (3rd ed.). O’Reilly Media.
   (https://wesmckinney.com/book/)
