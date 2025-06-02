@@ -179,8 +179,8 @@ A side-by-side comparison of each technique was conducted based on:
 
 In summary, **Chunking** had the best performance among the 5 big data handling techniques with the lowest exeuction time and memory usage. Meanwhile, **Sampling** was efficient in memory but still took longer time to process. **Parallel Processing** with Dask showed improvement in time but consumed significantly more memory. **Optimize Data Types** helped reduce memory but didn’t significantly improve time. Techniques like chunking and sampling significantly reduce memory usage and load time, making them practical choices for handling large datasets without overwhelming system resources.
 
-For part 2, Polars was the fastest, with the execution time under 9 seconds, but required the highest memory. Pandas used the least memory, but its performance was noticeably slower.
-Dask offered parallel processing but suffered in both speed and memory compared to the others, possibly due to overhead and compute operations. In conclusion, Polars is suitable for maximum speed when memory is not a constraint. Pandas should be used when working with smaller datasets or limited RAM while Dask should be applied in distributed environments or for chunk-based workloads where parallel execution is needed but compute power is sufficient.
+For part 2, **Polars** was the fastest, with the execution time under 9 seconds, but required the highest memory. **Pandas** used the least memory, but its performance was noticeably slower.
+**Dask** offered parallel processing but suffered in both speed and memory compared to the others, possibly due to overhead and compute operations. In conclusion, Polars is suitable for maximum speed when memory is not a constraint. Pandas should be used when working with smaller datasets or limited RAM while Dask should be applied in distributed environments or for chunk-based workloads where parallel execution is needed but compute power is sufficient.
 
 | Method                         | Benefits                                        | Limitations                                          |
 | ------------------------------ | ----------------------------------------------- | ---------------------------------------------------- |
@@ -204,3 +204,4 @@ Overall, the experience emphasized the importance of scalable data processing st
 ## 🔗 Reference
 
 1. [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations?resource=download)
+2. [Source Code](https://colab.research.google.com/drive/1wUMZHJUkx59CJcZO5pYSnyD-rbPrztir?usp=sharing#scrollTo=7MG1r2tM2sLW)
