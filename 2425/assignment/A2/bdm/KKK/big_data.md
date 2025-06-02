@@ -1,24 +1,28 @@
 # Assignment 2: Mastering Big Data Handling 📊<br>
 This repository presents our journey through efficient big data processing in Python, a core component of the SECP3133 High Performance Data Processing course. Our goal was to conquer large datasets by implementing and comparing various optimization strategies and powerful data processing libraries.
 
-## 🎯 Project Focus
-We delved into a massive 2.57 GB "School Donation Dataset" from Kaggle, analyzing how different approaches impact crucial performance metrics like execution time and memory consumption.
+## 📌 Introduction
+This project tackles the challenge of efficiently processing large datasets (exceeding 700MB) using Python. We explored various optimization strategies and data processing libraries to manage and analyze a 2.57 GB [School Donation Dataset](https://www.kaggle.com/datasets/perkymaster/school-donations?select=Projects.csv) from Kaggle, focusing on performance metrics like execution time and memory consumption.
 
-## ✨ Our Big Data Strategies ✨
+## 🎯 Project Focus
+Our core objective was to gain hands-on experience with real-world big data handling techniques. We systematically implemented and benchmarked different approaches to identify their strengths, weaknesses and optimal use cases.
+
+## ✨ Big Data Handling Strategies Explored ✨
 We explored and benchmarked five key strategies to handle the data efficiently:
-- Load Less Data 🤏: Only loading the columns that truly matter, significantly cutting down memory usage.
-- Chunking 📦: Processing the dataset in smaller, manageable pieces to avoid overwhelming memory.
-- Optimize Data Types 🧠: Smartly converting data types (e.g., object to category, downcasting numbers) for a leaner memory footprint.
-- Sampling 🎲: Taking a representative slice of the data for quick insights and rapid prototyping.
-- Parallel Processing with Dask ⚡: Harnessing Dask's power for out-of-core and parallel computations on distributed data.
+1.  **Load Less Data 🤏:** Selectively loading only essential columns or a subset of rows to minimize memory overhead.
+2.  **Chunking 📦:** Processing the dataset in smaller, sequential chunks to handle files larger than available RAM.
+3.  **Optimize Data Types 🧠:** Converting data columns to more memory-efficient types (e.g., `object` to `category`, downcasting numeric types).
+4.  **Sampling 🎲:** Using a representative subset of the data for rapid analysis and prototyping.
+5.  **Parallel Processing with Dask ⚡:** Leveraging Dask DataFrames for parallel and out-of-core computation.
 
 ## 📚 Libraries Conducted 📚
 In addition to the strategies, we conducted a comparative analysis of three prominent Python libraries for big data processing:
-- Pandas 🐼: The widely used library for data manipulation, serving as our sequential baseline.
-- Polars 🐻‍❄️: A high-performance DataFrame library written in Rust, designed for speed and memory efficiency.
-- Dask ⚙️: A flexible library for parallel computing, extending Pandas and NumPy to larger-than-memory datasets.
+-   **Pandas 🐼:** Serving as our baseline for traditional, sequential data manipulation.
+-   **Polars 🐻‍❄️:** A modern, high-performance DataFrame library built in Rust, known for its speed and memory efficiency.
+-   **Dask ⚙️:** A flexible library for parallel computing, enabling scalable processing of large datasets.
 
-## 📈 Performance at a Glance 📉
+## 📈 Performance Summary 📉
+Our experiments yielded significant insights into the effectiveness of each strategy and library.
 <h3>Optimized Strategies Performance</h3>
 <table style="width:100%; border-collapse: collapse;">
     <thead>
@@ -69,6 +73,11 @@ In addition to the strategies, we conducted a comparative analysis of three prom
     </tbody>
 </table>
 
+**Key Findings (Strategies):**
+-   **Sampling** proved to be the most efficient for quick exploration due to minimal data processing.
+-   **Load Less Data** and **Optimize Data Types** are highly effective for reducing memory and improving speed when more of the data is required.
+-   **Dask** showed its strength in memory management, though its overhead made it slower for simpler read operations compared to specialized strategies on this specific task.
+
 <br>
 
 <h3>Data Processing Libraries Performance</h3>
@@ -102,3 +111,10 @@ In addition to the strategies, we conducted a comparative analysis of three prom
         </tr>
     </tbody>
 </table>
+
+**Key Findings (Libraries):**
+-   **Polars** demonstrated superior speed and memory efficiency for reading the entire large dataset on a single node.
+-   **Dask** excels in scenarios requiring distributed computing or handling datasets far exceeding system memory, though it has startup/coordination overhead.
+
+## Conclusion
+The choice of data handling strategy or library is highly dependent on the specific task, dataset size, available resources, and analytical goals. For rapid insights, sampling is highly effective. For single-node processing of large files, Polars offers remarkable performance. For truly out-of-core or distributed computations, Dask remains the go-to solution despite its overhead for simpler tasks. Understanding these trade-offs is crucial for efficient big data processing.
