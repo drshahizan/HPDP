@@ -24,7 +24,7 @@ This analysis used information on thousands of anime from a dataset such as thei
 ### 1.3 Dataset Source
 - **Dataset**: Anime Review
 - **Source**: [Kaggle]( https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)
-- **Size**: ~3GB CSV file
+- **Size**: ~4GB CSV file
 
 ---
 
