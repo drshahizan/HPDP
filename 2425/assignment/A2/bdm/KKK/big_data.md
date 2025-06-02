@@ -73,6 +73,11 @@ Our experiments yielded significant insights into the effectiveness of each stra
     </tbody>
 </table>
 
+**Graphs and Charts**
+
+![download](https://github.com/user-attachments/assets/00061e26-efbb-4064-a7d3-b3b8f857f383)
+
+
 **Key Findings (Strategies):**
 -   **Sampling** proved to be the most efficient for quick exploration due to minimal data processing.
 -   **Load Less Data** and **Optimize Data Types** are highly effective for reducing memory and improving speed when more of the data is required.
@@ -111,6 +116,11 @@ Our experiments yielded significant insights into the effectiveness of each stra
         </tr>
     </tbody>
 </table>
+
+**Graphs and Charts**
+
+![download (1)](https://github.com/user-attachments/assets/6c81fb70-4649-4a40-ac94-57c8a5265c2b)
+
 
 **Key Findings (Libraries):**
 -   **Polars** demonstrated superior speed and memory efficiency for reading the entire large dataset on a single node.
