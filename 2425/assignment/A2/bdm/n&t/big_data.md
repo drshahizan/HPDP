@@ -371,6 +371,7 @@ Polars really outshined the other libraries by loading the dataset in just 22.47
 
 
 ## 5. 📊 Comparative Analysis
+### 5.1 Comparative Analysis between Strategies
 ![Strategy Comparison Graph](strategy_comparison.png)
 
 <p align="center"><em>Figure: Load Time and Memory Usage across different data loading strategies.</em></p>
@@ -416,7 +417,51 @@ In terms of memory, **Sampling** again performs best by loading only 5% of the d
 | Optimized Data Types | Huge memory savings                                          | More complex setup, slower initial load                            |
 | Sampling (Random)    | Very fast, minimal resource use, good for prototyping or EDA | Risk of missing important patterns if sample is not representative |
 
-### 📘 What I Learned from This Assignment
+### 5.2 Comparative Analysis between Libraries
+![Strategy Comparison Graph](strategy_comparison.png)
+
+<p align="center"><em>Figure: Load Time and Memory Usage across different data loading strategies.</em></p>
+
+### 📈 Analysis of Load Time and Memory Usage Charts
+
+**🕒 Load Time by Libraries**  
+The left graph shows how long it took each library to load the entire 26 million-row Spotify dataset. Polars stood out as the fastest, wrapping up the load in just 22.47 seconds, thanks to its efficient execution engine built on Rust and its columnar data structure. Pandas followed with a time of 81.13 seconds, which, while not as quick, is still perfectly fine for many applications. Dask, designed for parallel and distributed tasks, surprisingly took the longest at 97.38 seconds, primarily due to the `.compute()` overhead during the final evaluation stage.
+
+**💾 Memory Usage by Libraries**  
+The chart on the right shows how much memory each library uses. Polars once again came out on top, using just 3335.75 MB, while Dask took second place at 4932.25 MB, thanks to its lazy evaluation and chunked processing. On the other hand, Pandas, which is known for being an eager in-memory processor, consumed the most memory at 13431.49 MB, making it the least efficient option for handling large datasets in this comparison.
+
+
+| Library | Load Time (seconds) | Memory Usage (MB) | Performance Efficiency | Notes                                                                 |
+|---------|---------------------|--------------------|-------------------------|-----------------------------------------------------------------------|
+| Pandas  | 81.13               | 13,431.49          | Moderate                | High memory and moderately slow; not suitable for very large datasets |
+| Dask    | 97.38               | 4,932.25           | Moderate to Low         | Parallelized, but slower due to lazy computation overhead in `.compute()` |
+| Polars  | 22.47               | 3,335.75           | High                    | Fastest and most memory-efficient; ideal for large-scale data         |
+
+
+> **Note:**  
+> - While Pandas is a favorite among many for its rich features, it can struggle with large datasets due to high memory usage and slower loading times.  
+> - Dask steps in with its ability to process data in parallel and is generally more memory-friendly than Pandas. However, its `.compute()` function can slow things down a bit, which might offset its benefits when you're importing data one piece at a time.
+> - On the other hand, Polars stands out as the fastest and most memory-efficient library, making it an excellent choice for handling large-scale data processing tasks, especially when resources are tight.
+
+## 6. 🧠 Conclusion & Reflection
+
+### 🔑 Key Takeaways
+
+* **Polars** stands out among all the libraries in this comparison, offering fast loading times and low memory usage, making it perfect for large-scale data analysis.
+* **Pandas** is easy to use and has great community support, it does come with some downsides, like high memory consumption and average performance speed.
+* **Dask**, which is built for scalability, can run into extra computational costs when it needs to load the entire dataset at once, making it less than ideal for tasks that require loading the whole dataset.
+
+### ✅ Benefits vs ❗Limitations
+
+| Library | ✅ Benefits | ❗ Limitations |
+|---------|-------------|----------------|
+| Pandas  | Simple to use, well-supported | High memory and longer load time |
+| Dask    | Scales well, handles out-of-core data | Slower due to lazy `.compute()` evaluation |
+| Polars  | Extremely fast and memory-efficient | Still growing in community and ecosystem |
+
+
+
+### 📘 What Have Been Learned from This Assignment
 
 * Efficient **big data handling** isn't just about raw computing power — it’s about **strategy and technique**.
 * Understanding the **trade-offs between memory, speed, and completeness** is key when dealing with large datasets.
