@@ -263,6 +263,15 @@ To test the the limits and performance across 3 different libraries which are Pa
     
 
 ### Limitations
+- **Dataset Specificity**: The findings are based on the characteristics of the particular dataset used for this assignment. Performance differences and the effectiveness of techniques might vary with different data sizes, structures (e.g., number of columns, data types, sparsity), or complexities.
+
+- **Scope of Operations**: The analysis likely focused on a specific set of data processing operations (e.g., loading, filtering, aggregations). The performance profiles and optimal library choices could differ for more complex tasks such as intricate joins, advanced transformations, or machine learning feature engineering.
+
+- **Hardware and Environment Dependency**: The observed execution times and memory usage are tied to the specific hardware (CPU, RAM) and software environment (operating system, Python version, library versions) on which the tests were conducted. Results may vary significantly on different systems or configurations.
+
+- **Technique Applicability (Pandas-centric)**: The "Load Less Data," "Chunking," and "Sampling" techniques were primarily explored and applied within the context of the Pandas library. The study did not extensively investigate how these or other optimization techniques might interact with or benefit Polars or Dask, which are already designed for high performance and memory efficiency.
+
+- **Dask's Distributed Potential**: While Dask's strength lies in distributed computing, if the analysis was performed on a single machine, its full capabilities for handling truly massive, distributed datasets might not have been fully demonstrated or benchmarked against its potential.
 
 
 
