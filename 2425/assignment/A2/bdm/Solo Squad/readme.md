@@ -63,7 +63,7 @@ We applied and benchmarked five key big data handling strategies:
 | File           | Description | Link                          |
 |----------------|-------------|-------------------------------|
 | `big_data.md`  | Complete Markdown report showing dataset details, applied strategies, memory and time metrics, and final reflection | [![View Report](https://img.shields.io/badge/View-Report-brightgreen?logo=markdown&logoColor=white)](big_data.md) |
-| `big_data.ipynb` | Fully working Google Colab notebook with all strategies implemented | [![Jupyter](https://img.shields.io/badge/Open-Jupyter-F37626?logo=jupyter&logoColor=white)]([big_data.ipynb]|
+| `big_data.ipynb` | Fully working Google Colab notebook with all strategies implemented | [![Jupyter](https://img.shields.io/badge/Open-Jupyter-F37626?logo=jupyter&logoColor=white)](https://colab.research.google.com/drive/1VTU_URXoo4UkVCz3YLNsNDDwbUj16tqx?usp=sharing) |
 
 ---
 
