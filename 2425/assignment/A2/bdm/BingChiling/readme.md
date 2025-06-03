@@ -3,9 +3,15 @@
 # Big Data Assignment 2: Mastering Big Data Handling with IMDB Review Dataset
 
 
-## 🧑‍💻 Team Members
-
--   Member 1: CHEN PYNG HAW A22EC0042
+<table border="solid" align="center">
+  <tr>
+    <th>Name</th>
+    <th>Matric Number</th>
+  </tr>
+  <tr>
+    <td width=80%>CHEN PYNG HAW</td>
+    <td>A22EC0042</td>
+</table>
     
 
 ## 📂 Project Structure
@@ -15,6 +21,11 @@
 | `big_data.md`     | Main report with explanations, code snippets, tables | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/BingChiling/big_data.md) |
 | `big_data.ipynb`  | Full Colab notebook with working code | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/BingChiling/big_data.ipynb) |
 
+## 📦 Dataset
+
+-   Source: [Kaggle - IMDB Review Dataset](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset)
+    
+-   Size: ~1.07 GB (JSON format)
 
 ## 📄 Description
 
@@ -39,11 +50,7 @@ The project is divided into two comparative analyses:
     
 2.  **Library-level comparison** of Pandas, Polars, and Dask focusing on the performance of normal full dataset loading.
 
-## 📦 Dataset
 
--   Source: [Kaggle - IMDB Review Dataset](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset)
-    
--   Size: ~1.07 GB (JSON format)
     
 
 
