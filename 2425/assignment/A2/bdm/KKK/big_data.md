@@ -29,7 +29,6 @@ Our experiments yielded significant insights into the effectiveness of each stra
         <tr style="background-color:#f2f2f2;">
             <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Strategy</th>
             <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Execution Time (seconds)</th>
-            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Memory Used (MB)</th>
             <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Memory Used (%)</th>
             <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">CPU Usage (%)</th>
         </tr>
@@ -37,38 +36,33 @@ Our experiments yielded significant insights into the effectiveness of each stra
     <tbody>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Strategy 1: Load Less Data</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">25.61</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">83.61</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">0.64</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">12.65</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">23.65</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.75</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">21.68</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Strategy 2: Chunking</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">40.23</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">699.82</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">5.39</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">5.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">40.14</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">5.70</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">22.85</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Strategy 3: Optimize Data Types</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">43.07</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">553.51</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">4.26</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">47.60</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">42.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">4.44</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">39.42</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Strategy 4: Sampling</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">19.43</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">21.62</td>
             <td style="border: 1px solid #ddd; padding: 8px;">0.00</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">0.00</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">28.20</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">26.27</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Strategy 5: Dask Parallel</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">61.51</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">43.58</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">0.34</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">38.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">60.21</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">1.01</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">28.87</td>
         </tr>
     </tbody>
 </table>
@@ -100,19 +94,19 @@ Our experiments yielded significant insights into the effectiveness of each stra
             <td style="border: 1px solid #ddd; padding: 8px;">Pandas</td>
             <td style="border: 1px solid #ddd; padding: 8px;">55.76</td>
             <td style="border: 1px solid #ddd; padding: 8px;">75.20</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">58.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.50</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Dask</td>
             <td style="border: 1px solid #ddd; padding: 8px;">73.76</td>
             <td style="border: 1px solid #ddd; padding: 8px;">45.30</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">39.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.27</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">Polars</td>
             <td style="border: 1px solid #ddd; padding: 8px;">8.86</td>
             <td style="border: 1px solid #ddd; padding: 8px;">39.13</td>
-            <td style="border: 1px solid #ddd; padding: 8px;">38.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.50</td>
         </tr>
     </tbody>
 </table>
