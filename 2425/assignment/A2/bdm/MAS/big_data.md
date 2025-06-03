@@ -107,10 +107,10 @@
 ### 5.3 Personal Reflection
 
 #### Maisarah Binti Rizal
-> I have developed a clearer view of big data processing and the importance of selecting the right tools for the job by completing this project. I have learned that while pandas is suitable for small and quick data tasks, libraries like Dask and Polars offer excellent options when dealing with big data. I was especially thrilled to see how Polars with its optimized architecture processed data extremely fast. This project provided me with greater confidence in applying scalable data solutions to future projects, and it further reaffirmed my interest in data engineering and performance optimization.<br>
+
 
 #### Nadhrah NurSabrina Binti Zulaini
-> This project allowed me to learn how to link Kaggle to Google Collab which was very useful because I could never run a 3 GB dataset on my own laptop. We also tried Polars, it is quite new for me but what I found after I started using it is that it is very fast and the code is simple. This project taught me the importance of choosing the right tool for the right task. I learned how to work with large datasets using Pandas, Dask, and Polars, and realized that performance can vary greatly depending on the method used. Most importantly, I learned how to work smarter with big data and the value of deepening my knowledge in my own field.<br>
+
 
 ---
 ## 6. References
