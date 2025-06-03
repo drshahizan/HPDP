@@ -155,7 +155,7 @@ bdm/your_group/
 |Transformer|Pandas|Polars|Dask| [Transactions Data](https://www.kaggle.com/datasets/ismetsemedov/transactions?select=synthetic_fraud_data.csv)| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Transformer) |
 | GHIS | Pandas | Polars | PyArrow | [GitHub Issues](https://www.kaggle.com/datasets/davidshinn/github-issues/data) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | ID | Pandas | Polars | Dask | [Data Expo 2009: Airline On Time Data](https://www.kaggle.com/datasets/wenxingdi/data-expo-2009-airline-on-time-data) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/ID) |
-| Solo Squad | Pandas | Polars | Dask | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset?select=final_animedataset.csv) | [![Open in GitHub]([https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github](https://github.com/drshahizan/HPDP/tree/main/2425/assignment/A2/bdm/Solo%20Squad))](A2/bdm/Solo Squad) |
+| Solo Squad | Pandas | Polars | Dask | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset?select=final_animedataset.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Solo Squad) |
 
 
 
