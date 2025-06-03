@@ -70,10 +70,10 @@ We applied and benchmarked five key big data handling strategies:
 ## 📈 Charts
 
 - **Execution Time Comparison**  
-  ![Execution Time Chart](execution_time.png)
+  ![Execution Time Chart](executionTime.png)
 
 - **Memory Usage Comparison**  
-  ![Memory Usage Chart](memory_usage.png)
+  ![Memory Usage Chart](memoryUsage.png)
 
 You can find the Python code to generate these charts inside **Task 4 notebook**.
 
