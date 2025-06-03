@@ -84,10 +84,33 @@ We implemented **five data-loading and cleaning strategies** with Pandas, and us
 In this step-by-step comparison, five different data processing strategies were applied using only the Pandas library to evaluate their effectiveness in terms of execution time and memory usage. 
 
 1. The **"Load Less Data"** strategy focused on minimizing the volume of data read into memory by selecting only necessary columns or filtering rows during import. This approach showed a balanced performance, with moderate execution time and memory usage. 
+<br></br>
+![Load Less Data](./images/T1.png)
+Our approach read only these 9 columns: 'MONTH', 'DAY_OF_WEEK', 'DEP_DEL15', 'CONCURRENT_FLIGHTS', 'CARRIER_NAME', 'AIRPORT_FLIGHTS_MONTH', 'AIRLINE_FLIGHTS_MONTH', 'PREVIOUS_AIRPORT', 'AWND'. Thus, the code loads only the selected columns from the CSV. This approach will make the program faster as it reads less data from disk and uses less memory which it doesn't store unwanted columns. Therefore, it is more efficient than loading the entire file and then dropping columns.
+
 2. The **"Chunking"** method processed data in smaller batches using Pandas' `chunksize` parameter, which resulted in the fastest execution time and nearly zero memory usage, making it highly efficient for very large datasets that cannot be loaded entirely into memory. 
+<br></br>
+![Chunking](./images/T2.png)
+Chunking Process divides the large file by reading the CSV in smaller pieces (chunks) of 100,000 rows at a time instead of loading the entire file into memory at once. It processes each chunk separately and prints the chunk's shape for every 100,000-row chunk. Our approach will only processes first 3 chunks
+
 3. The **"Optimize Data Types"** strategy involved converting data columns to more memory-efficient types (such as changing float64 to float32 or object to category), which significantly reduced memory consumption but incurred a higher execution time due to the computational cost of conversion.
-4. **"Sampling"** involved selecting a subset of the data to work with, reducing the memory footprint dramatically, but similar to data type optimization, it took longer to execute—likely due to the effort needed to create a representative sample. Lastly,
+<br></br>
+![DOptimize Data Types](./images/T3.png)
+This approach loads the CSV file while minimizing memory usage by specifying optimal data types for each column. The code uses a dictionary (dtypes_optimized) to assign compact data types such as:
+
+- Small integers (int8, int16) for numeric columns with limited range
+- category type for repetitive text values (like airport codes)
+- 32-bit floats (float32) instead of default 64-bit
+
+4. **"Sampling"** involved selecting a subset of the data to work with, reducing the memory footprint dramatically, but similar to data type optimization, it took longer to execute—likely due to the effort needed to create a representative sample.
+<br></br>
+![Sampling](./images/T4.png)
+This approach applied simple random sampling which every row in the original dataset has an equal 1% chance of being selected and the selection is random and unbiased. The code reads the entire CSV file (pd.read_csv(file_path)) and takes a 1% random sample using .sample(frac=0.01). "random_state=42" ensures reproducibility (same random sample each run).
+
 5. **"Parallel with Dask"**, while still using Pandas under the hood, distributed the workload across multiple cores. This led to better speed than loading all data at once, but it consumed the highest amount of memory due to the overhead from parallel processing.
+<br></br>
+![Parallel with Dask](./images/T5.png)
+This approach loads data lazily (doesn't load into memory immediately) and only loads specified columns (memory optimization). .compute() triggers actual loading of data into memory (converts Dask DataFrame → pandas DataFrame). Dask approach does not load data immediately. Instead, it builds a task graph and executes only when .compute() is called.
 
 Overall, each strategy has its trade-offs: chunking stands out as the most memory-efficient and fastest, while others like data type optimization and sampling are useful for long-term performance gains despite longer initial processing times.
 
