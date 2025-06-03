@@ -299,13 +299,75 @@ df_sample = pd.read_csv(
 | 🔹 Memory Usage    | **672.75 MB**     |
 | 🔹 DataFrame Shape | `(1,311,034, 9)`  |
 
+## 4.5 📚 Loading using Dask
+
+Dask is a parallel computing library that extends Pandas-like syntax to larger-than-memory datasets. It reads data lazily and processes it in chunks, enabling scalable data loading and manipulation across multiple cores or even distributed systems.
+
+### ✅ What Was Done
+
+- Used Dask’s lazy `read_csv()` method to load dataset in chunks and computed the full dataframe with `.compute()`. Measured the time, memory, and shape post-load.
+
+### 🧾 Code Snippet
+
+```python
+import dask.dataframe as dd
+
+dask_df = dd.read_csv('spotify_data/charts.csv', dtype={'streams': 'float64'})
+dask_df = dask_df.compute()
+````
+
+### 📈 Results
+
+| Metric             | Value             |
+| ------------------ | ----------------- |
+| 🔹 Load Time       | **97.38 seconds** |
+| 🔹 Memory Usage    | **4932.25 MB**     |
+| 🔹 DataFrame Shape | `(26173514, 9)`  |
+
+### 📌 Observation
+
+Dask took a total of 97.38 seconds to load the dataset and used around 4,932.25 MB of memory. Even though Dask is designed for parallel and out-of-core processing, the .compute() step really stretches out the load time in this full load scenario. It shines when it comes to handling chunked or distributed data, but it does introduce some extra overhead for single-session loads.
+
+
+## 4.6 📚 Loading using Polars
+
+Polars is a lightning-fast DataFrame library crafted in Rust. It uses a columnar memory layout and takes advantage of multi-threading to deliver impressive speed and efficiency, especially when handling large datasets.
+
+### ✅ What Was Done
+
+- Used `pl.read_csv()` to efficiently load the data, taking full advantage of Polars’ impressive performance features. Gathered metrics on how long the load took, how much memory it used with `estimated_size()`, and the overall data structure.
+
+### 🧾 Code Snippet
+
+```python
+import polars as pl
+
+polars_df = pl.read_csv('spotify_data/charts.csv')
+polars_time = end_time - start_time
+polars_mem = polars_df.estimated_size('mb')
+
+````
+
+### 📈 Results
+
+| Metric             | Value             |
+| ------------------ | ----------------- |
+| 🔹 Load Time       | **22.47 seconds** |
+| 🔹 Memory Usage    | **3335.75 MB**     |
+| 🔹 DataFrame Shape | `(26173514, 9)`  |
+
+
 ---
 
 ### 📌 Observation
 
-Random sampling offers a representative subset of the full dataset, maintaining the overall data distribution and key patterns. This makes it effective for exploratory analysis and prototyping while keeping resource use low. However, since it's only a fraction of the data, rare events or outliers may be underrepresented or missed entirely.
+Polars really outshined the other libraries by loading the dataset in just 22.47 seconds and using around 3,335.75 MB of memory. Thanks to its column-oriented data storage and a Rust-driven backend, it’s incredibly fast and efficient with memory. This makes Polars an excellent choice for handling large datasets where speed and minimal resource consumption are crucial.
+
+
 
 ---
+
+
 
 
 ## 5. 📊 Comparative Analysis
