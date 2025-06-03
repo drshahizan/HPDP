@@ -1,5 +1,3 @@
----
-
 # 📘 Assignment 2: Mastering Big Data Handling  
 ### Group Members:
 | Name              | Matric No       |
@@ -16,7 +14,6 @@ We used Python tools like **Pandas**, **Dask**, and **Polars** to process a data
 
 Our focus was on the **MyAnimeList final_animedataset.csv**, which includes rich data about users, anime titles, genres, and ratings — ideal for exploring big data handling techniques.
 
----
 
 ## 🧾 Dataset Used
 
