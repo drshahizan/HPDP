@@ -53,7 +53,15 @@ Then, we extend the analysis by exploring **scalable data tools** like **Dask** 
 | `gc`     | Manual memory cleanup          |
 | `random` | Sampling rows during data load |
 
-> 🔜 **Coming Up:** Dask and Polars exploration in Phase 2!
+### 🛠️ Libraries Used (Phase 2)
+
+| Library  | Purpose                        |
+| -------- | ------------------------------ |
+| `dask` | Scalable and parallel data processing |
+| `polars` | Fast, memory-efficient dataframe library |
+| `time`   | Track execution time           |
+| `gc`     | Manual memory cleanup          |
+
 
 ---
 
