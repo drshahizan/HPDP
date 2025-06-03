@@ -35,10 +35,6 @@
 
 ### 2.3 Basic Inspection
 
-**Sample Preview (via df.head())**
-
-
-**Data Types (via df.dtypes and df.info()):**
 
 ---
 
@@ -81,7 +77,7 @@
 
 | **Strategies / Metrics**      | **Load Less Data** | **Chunking** | **Optimise Data Type** | **Sampling** | **Parallel Processing with Dask** |
 |------------------------------|--------------------|--------------|------------------------|--------------|-------------------------------|
-| **Processing Time (seconds)** | 0            | 0      | 0                | 0       | 114.8009                     |
+| **Processing Time (seconds)** | 0            | 0      | 0                | 0       | 0                    |
 | **Memory Usage (MB)**        | 0            | 0      | 0                | 0        | 0                      |
 | **Throughput (records/sec)** | 0         | 0    | 0             | 0    | 0                    |
 
