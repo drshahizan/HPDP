@@ -190,6 +190,6 @@ This hands-on experience helped us understand the trade-offs between different l
 **Solo Squad**  
 A single-member team working on high-performance data processing using modern tools.
 
-📌 *Made with ❤️ for HPDP Class — Dr. Shahizan bin Yusoff*
+📌 *Made with ❤️ for HPDP Class — C.Mrhumi*
 
 ---
