@@ -81,9 +81,6 @@ From over 3.3 million tracks submitted to the Spotify Lyrics API, about **960,00
 
 ---
 
-Here’s a clean and well-structured markdown for your **📝 Task 2: Load and Inspect Data**, including **Loading Strategy** and **Dataset Inspection** sections:
-
----
 
 ## 📝 Task 2: Load and Inspect Data
 
@@ -188,51 +185,246 @@ df.info()
 
 ## 🛠️ Task 3: Apply Big Data Handling Strategies
 
+### 📊 Performance Measurement Setup
+
+**Code**
+```python
+def measure_performance(func, description="", *args, **kwargs):
+    process = psutil.Process(os.getpid())
+    total_ram = psutil.virtual_memory().total / 1024 / 1024  # MB
+
+    cpu_percent = []
+
+    def track_cpu():
+        while not done[0]:
+            cpu_percent.append(process.cpu_percent(interval=0.1))
+
+    done = [False]
+    cpu_thread = threading.Thread(target=track_cpu)
+    cpu_thread.start()
+
+    mem_before = process.memory_info().rss / 1024 / 1024  # MB
+    start_time = time.time()
+
+    try:
+        result = func(*args, **kwargs)
+        success = True
+    except Exception as e:
+        result = None
+        success = False
+        error_message = str(e)
+
+    end_time = time.time()
+    mem_after = process.memory_info().rss / 1024 / 1024  # MB
+    done[0] = True
+    cpu_thread.join()
+
+    exec_time = round(end_time - start_time, 4)
+    mem_diff_mb = mem_after - mem_before
+    mem_percent_after = (mem_after / total_ram) * 100
+    mem_diff_percent = (mem_diff_mb / total_ram) * 100
+
+    if isinstance(result, pd.DataFrame):
+        num_records = len(result)
+        throughput = round(num_records / exec_time, 2) if exec_time > 0 else None
+    else:
+        throughput = None
+
+    performance = {
+        "Description": description,
+        "Memory Used (MB)": round(mem_diff_mb, 2),
+        "Execution Time (s)": exec_time,
+        "Success": success,
+        "Average CPU (%)": round(sum(cpu_percent) / len(cpu_percent), 2) if cpu_percent else 0.0,
+        "Throughput (records/sec)": throughput
+    }
+
+    if not success:
+        performance["Error"] = error_message
+
+    return performance, result
+```
+
+**Explanation**:
+To evaluate the effectiveness of different big data handling strategies, a custom `measure_performance` function was implemented. This function captures key performance metrics such as memory usage, CPU load, execution time, and throughput (records per second). This allows for objective comparison between various optimization techniques.
+
+**Implementation Summary**:
+
+* Tracks memory usage before and after the function call using `psutil`.
+* Monitors CPU usage during execution in a separate thread.
+* Measures execution time using timestamps.
+* Computes throughput for DataFrame-based results.
+* Returns a dictionary of performance metrics and the result of the executed function.
+---
 ### 1. Load Less Data  
+
+**Code**:
+```python
+def load_less_data_pandas(file_path):
+    selected_columns = [
+        'danceability', 'energy', 'loudness', 'speechiness',
+        'acousticness', 'instrumentalness', 'liveness',
+        'valence', 'tempo', 'duration_ms'
+    ]
+
+    df = pd.read_csv(file_path, usecols=selected_columns)
+    return df
+
+performance_less_data, df_less_data = measure_performance(
+    load_less_data_pandas,
+    description="Load Less Data with Pandas",
+    file_path="songs_with_attributes_and_lyrics.csv"
+)
+
+performance_df = pd.DataFrame([performance_less_data])
+display(performance_df)
+```
+
 **Explanation**:  
-*Describe the idea of only loading required columns or rows.*  
+When working with large datasets, it's often unnecessary to load all available columns into memory. By selecting only the relevant columns required for the task, memory usage and load time can be significantly reduced.
 
 **Implementation Summary**:  
-*Mention what columns/rows were selected.*
+Only these columns were loaded from the CSV:
+
+* `danceability`, `energy`, `loudness`, `speechiness`,
+  `acousticness`, `instrumentalness`, `liveness`,
+  `valence`, `tempo`, `duration_ms`
 
 **Output Summary**:  
-*Screenshot or result description.*
+![image](https://github.com/user-attachments/assets/7c06b263-e209-4469-9211-fc0ecca2b19b)
+
 
 ---
 
 ### 2. Use Chunking  
+
+**Code**:
+```python
+# Read and concatenate chunks of 10,000 rows
+def load_with_chunking(filepath):
+    chunks = []
+    for chunk in pd.read_csv(filepath, chunksize=10000):
+        chunk.columns = chunk.columns.str.strip()
+        chunks.append(chunk)
+    df = pd.concat(chunks, ignore_index=True)
+    return df
+
+performance_chunking, df_chunked = measure_performance(
+    load_with_chunking, 
+    description="Chunked Load", 
+    filepath="songs_with_attributes_and_lyrics.csv"
+)
+
+performance_df = pd.DataFrame([performance_chunking])
+display(performance_df)
+```
+
 **Explanation**:  
-*Briefly explain chunking and why it's useful.*  
+Chunking is a memory-efficient strategy where large datasets are loaded in smaller parts (chunks) instead of all at once. This approach prevents memory overload and allows processing of datasets that may not fit entirely into memory. It’s especially useful for big data scenarios where performance and resource management are critical.
 
 **Implementation Summary**:  
-*Chunk size and method.*  
+The dataset was loaded in chunks of 10,000 rows using `pandas.read_csv()` with the chunksize parameter. Each chunk was processed and then concatenated into a single DataFrame using pd.concat(). Column names were also stripped of leading/trailing whitespace for consistency.
 
 **Output Summary**:  
-*Result of processing with chunks.*
+![image](https://github.com/user-attachments/assets/3155b298-3912-430c-808a-ad18667e3942)
+
 
 ---
 
-### 3. Optimize Data Types  
+### 3. Optimize Data Types 
+**Code**:
+```python
+def optimized_load(filepath, usecols=None, dtype_map=None):
+    df = pd.read_csv(filepath, usecols=usecols, dtype=dtype_map)
+    return df
+
+# Define arguments for optimized_load
+load_args = {
+    "filepath": "songs_with_attributes_and_lyrics.csv",
+    "usecols": [
+        'danceability', 'energy', 'loudness', 'speechiness',
+        'acousticness', 'instrumentalness', 'liveness',
+        'valence', 'tempo', 'duration_ms'
+    ],
+    "dtype_map": {
+        'danceability': 'float32',
+        'energy': 'float32',
+        'loudness': 'float32',
+        'speechiness': 'float32',
+        'acousticness': 'float32',
+        'instrumentalness': 'float32',
+        'liveness': 'float32',
+        'valence': 'float32',
+        'tempo': 'float32',
+        'duration_ms': 'float32'
+    }
+}
+
+performance_optimize_load, df_optimize_load = measure_performance(
+    optimized_load, 
+    description="Optimized Load with Dtype",
+    **load_args
+)
+
+performance_df = pd.DataFrame([performance_optimize_load])
+display(performance_df)
+
+df_optimize_load.info()
+
+```
+
 **Explanation**:  
-*Importance of reducing memory by adjusting data types.*
+In large datasets, memory usage can become a major bottleneck, especially when working on machines with limited resources. By default, pandas uses data types like `float64`, which consume more memory than necessary.
+This strategy focuses on optimizing memory by explicitly converting numeric columns to more memory-efficient types, such as `float32`. This can significantly reduce memory consumption without compromising the precision required for analysis.
 
 **Implementation Summary**:  
-*Which columns were optimized and how.*
+Only the numeric audio feature columns were loaded, and each was explicitly cast to `float32` using the `dtype` argument in `pd.read_csv`.
+The selected columns include:
+
+* `'danceability'`, `'energy'`, `'loudness'`, `'speechiness'`, `'acousticness'`, `'instrumentalness'`, `'liveness'`, `'valence'`, `'tempo'`, `'duration_ms'`
+
+This reduces their memory footprint compared to the default `float64`.
 
 **Output Summary**:  
-*Memory usage before vs after.*
+![image](https://github.com/user-attachments/assets/661097a0-6161-4697-904c-ccbb740dbb93)
+
 
 ---
 
 ### 4. Sampling  
+**Code**:
+```python
+def sampling(filepath, sample_fraction=0.1, usecols=None, dtype_map=None):
+    df = pd.read_csv(filepath, usecols=usecols, dtype=dtype_map)
+    sampled_df = df.sample(frac=sample_fraction, random_state=42)
+    return sampled_df
+
+# Define arguments for sampling
+load_args = {
+    "filepath": "songs_with_attributes_and_lyrics.csv",
+    "sample_fraction": 0.1,
+}
+
+performance_sampling, df_sampling = measure_performance(
+    sampling, 
+    description="Sampling",
+    **load_args
+)
+
+performance_df = pd.DataFrame([performance_sampling])
+display(performance_df)
+
+print(f"\nRows: {df_sampling.shape[0]}")
+```
 **Explanation**:  
-*What sampling was done and why.*
+Sampling is a technique used to reduce the size of a dataset by selecting a smaller, representative subset of the data. This is particularly useful for exploratory data analysis or testing models, as it reduces memory usage and speeds up computations. In this case, we randomly sampled **10%** of the dataset to work with a smaller, yet statistically representative, portion of the full data.
+
 
 **Implementation Summary**:  
-*How sampling was applied (random/stratified/etc.)*
+We applied **random sampling** using `pandas.DataFrame.sample()` with `frac=0.1`, which selects 10% of the rows from the dataset. A fixed `random_state=42` was used to ensure the sample is reproducible. No stratification or grouping was applied, making this a simple random sample across the entire dataset.
 
 **Output Summary**:  
-*Size of sample and representation summary.*
+![image](https://github.com/user-attachments/assets/0314bde3-8368-4f9c-b09e-0236bd1e8e94)
 
 ---
 
