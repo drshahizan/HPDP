@@ -311,7 +311,16 @@ Random sampling offers a representative subset of the full dataset, maintaining 
 ## 5. 📊 Comparative Analysis
 ![Strategy Comparison Graph](strategy_comparison.png)
 
-*Figure: Load Time and Memory Usage across different data loading strategies.*
+<p align="center"><em>Figure: Load Time and Memory Usage across different data loading strategies.</em></p>
+
+### 📈 Analysis of Load Time and Memory Usage Charts
+
+**🕒 Load Time by Strategy**  
+The first chart shows that **Sampling** is the fastest strategy, as it only processes a small portion of the dataset (random sampling with `frac=0.05`, or 5%). **Load Less Data** and **Chunking** offer moderate performance, completing faster than a full load but slower than sampling. **Optimized dtypes** took the longest due to additional type conversions after loading.
+
+**💾 Memory Usage by Strategy**  
+In terms of memory, **Sampling** again performs best by loading only 5% of the dataset. **Load Less Data** also helps reduce memory by loading only selected columns. **Optimized dtypes** lowers memory usage compared to a full load but still consumes more than Sampling. **Chunking**, although loaded in parts, ends up using high memory after all chunks are concatenated.
+
 
 | Strategy            | Time Taken (seconds) | Memory Usage (MB) | Ease of Processing                | Notes                                                                                 |
 | ------------------- | -------------------- | ----------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
