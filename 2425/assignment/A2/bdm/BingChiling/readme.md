@@ -1,9 +1,7 @@
+
 ﻿
-# Big Data Assignment 2: Readme
+# Big Data Assignment 2: Mastering Big Data Handling with IMDB Review Dataset
 
-## 📘 Project Title
-
-**Mastering Big Data Handling with IMDB Review Dataset**
 
 ## 🧑‍💻 Team Members
 
@@ -12,65 +10,40 @@
 
 ## 📂 Project Structure
 
-```
-bdm/your_group/
-├── big_data.md        # Main report with explanations, code snippets, tables
-├── big_data.ipynb     # Full Colab notebook with working code and screenshots
-└── readme.md          # This file (project overview)
+| File Name         | Explanation                                                                                                   | Link                                                                                                                                 |
+|----------|-------------|---------------|
+| `big_data.md`     | Main report with explanations, code snippets, tables | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/BingChiling/big_data.md) |
+| `big_data.ipynb`  | Full Colab notebook with working code | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/BingChiling/big_data.ipynb) |
 
-```
 
 ## 📄 Description
 
-This project explores big data handling strategies using the IMDB Review Dataset (~1GB). We benchmarked three Python libraries: **Pandas**, **Polars**, and **Dask** across five strategies:
+This project investigates efficient big data handling strategies using the **IMDB Review Dataset** (~1GB, over 1 million records). The objective is to evaluate and compare the performance of three prominent Python data processing libraries — **Pandas**, **Polars**, and **Dask** — when working with large-scale datasets.
 
--   Normal Load
+To achieve this, we applied and benchmarked the following five data handling techniques:
+
+-   **Load Less Data** – Load only relevant columns to reduce memory usage and improve efficiency.
     
--   Load Less Data
+-   **Use Chunking** – Process the dataset in smaller chunks to prevent memory overload.
     
--   Use Chunking
+-   **Optimize Data Types** – Convert data columns to more memory-efficient types (e.g., `category`, `float32`, `int8`).
     
--   Optimize Data Types
+-   **Sampling** – Randomly sample a subset of the data to enable faster prototyping (not supported natively in Dask).
     
--   Sampling (where supported)
+-   **Parallel Processing with Dask** – Leverage Dask’s partitioned and parallel execution model for scalable data processing.
     
 
-## 📊 Outcome
+The project is divided into two comparative analyses:
 
-We compared execution time and memory usage across all libraries and strategies. Charts and detailed analysis are provided in the main report (`big_data.md`).
-
-## 🛠️ Tools & Libraries
-
--   Python (Google Colab)
+1.  **Strategy-level comparison** (using Pandas and Dask) to measure how each technique affects performance.
     
--   Pandas
-    
--   Polars
-    
--   Dask
-    
--   Matplotlib (for visualization)
-    
+2.  **Library-level comparison** of Pandas, Polars, and Dask focusing on the performance of normal full dataset loading.
 
 ## 📦 Dataset
 
 -   Source: [Kaggle - IMDB Review Dataset](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset)
     
 -   Size: ~1.07 GB (JSON format)
-    
-
-## 📎 Links
-
--   👉 [big_data.md](big_data.md)
-    
--   👉 [Colab Notebook (big_data.ipynb)](big_data.ipynb)
-    
-
-## 📅 Submission Info
-
--   Folder Path: `bdm/BingChiling/`
-    
--   Submission Date: **4 June 2025, 5:00 PM**
     
 
 
