@@ -7,7 +7,7 @@
 
 📅 **Submission Date:** 4 June 2025  
 
----
+
 
 ## 📌 Overview
 
@@ -15,7 +15,7 @@ This repository contains our submission for **Assignment 2: Mastering Big Data H
 
 We used Python tools like **Pandas**, **Dask**, and **Polars** to process a dataset larger than 700MB, and compared performance across methods.
 
----
+
 
 ## 🧾 Dataset Used
 
@@ -28,6 +28,6 @@ We used Python tools like **Pandas**, **Dask**, and **Polars** to process a data
 | **Columns Used** | `event_time`, `event_type`, `category_code`, `brand`, `price` |
 | **Domain** | E-commerce user behavior tracking |
 
----
+
 
 ## 📁 Folder Structure
