@@ -124,7 +124,7 @@ Polars was used as a modern, Rust-backed alternative:
 ### 5.1 Summary of Findings
 | Library  | Time     | Memory  | Notes                        |
 |----------|----------|---------|------------------------------|
-| Pandas   | 116.48s  | 7.68 GB    | Eager loading failed         |
+| Pandas   | 116.48s  | 7.68 GB    | moderate but stable         |
 | Dask     | 138.83s    | 9.34 GB    | Slow but stable              |
 | Polars   | 37.52s      | 7.22 GB    | Fastest and most efficient   |
 
