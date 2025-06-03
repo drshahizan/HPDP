@@ -418,9 +418,9 @@ In terms of memory, **Sampling** again performs best by loading only 5% of the d
 | Sampling (Random)    | Very fast, minimal resource use, good for prototyping or EDA | Risk of missing important patterns if sample is not representative |
 
 ### 5.2 Comparative Analysis between Libraries
-![Strategy Comparison Graph](strategy_comparison.png)
+![Libraries Comparison Graph](libraries_comparison.png)
 
-<p align="center"><em>Figure: Load Time and Memory Usage across different data loading strategies.</em></p>
+<p align="center"><em>Figure: Load Time and Memory Usage across different data loading libraries.</em></p>
 
 ### 📈 Analysis of Load Time and Memory Usage Charts
 
