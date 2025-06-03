@@ -62,5 +62,5 @@ Then, we extend the analysis by exploring **scalable data tools** like **Dask** 
 | 🔍 Resource           | 📄 Description                    | 🔗 Link                                                                     |
 | --------------------- | --------------------------------- | --------------------------------------------------------------------------- |
 | 🧠 **Main Report**    | In-depth analysis & write-up      | [`big_data.md`](big_data.md)                                                |
-| 💻 **Code Notebook**  | Full implementation in Colab      | [Open in Colab ▶️](https://colab.research.google.com/your-link-here)        |
+| 💻 **Code Notebook**  | Full implementation in ipynb file | [Open the Colab ▶️](big_data.ipynb)        |
 | 📦 **Dataset Source** | Original Spotify dataset (Kaggle) | [Go to Dataset](https://www.kaggle.com/datasets/dhruvildave/spotify-charts) |
