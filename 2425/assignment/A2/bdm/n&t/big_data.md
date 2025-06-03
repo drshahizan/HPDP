@@ -116,7 +116,20 @@ df = pd.read_csv("spotify_data/charts.csv")
 | 🔹 DataFrame Shape | `(26,173,514, 9)`             |
 
 > 🧠 **Data Types**
-> All columns loaded in default types — most strings default to `object`, and numbers as `int64` or `float64`.
+All columns loaded in default types — most strings default to `object`, and numbers as `int64` or `float64`.
+>
+
+| Column  | Data Type |
+|---------|-----------|
+| title   | object    |
+| rank    | int64     |
+| date    | object    |
+| artist  | object    |
+| url     | object    |
+| region  | object    |
+| chart   | object    |
+| trend   | object    |
+| streams | float64   |
 
 
 ### 📌 Observation
