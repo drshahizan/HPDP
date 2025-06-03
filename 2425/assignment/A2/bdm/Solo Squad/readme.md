@@ -63,6 +63,6 @@ A single-member team working on high-performance data processing using modern to
 
 ---
 
-📌 *Made with ❤️ for HPDP Class — Dr. Shahizan bin Yusoff*
+📌 *Made with ❤️ for HPDP Class — C.Mrhumi*
 
 ---
