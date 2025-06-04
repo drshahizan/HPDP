@@ -455,4 +455,6 @@ The chart on the right shows how much memory each library uses. Polars once agai
 * Understanding the **trade-offs between memory, speed, and completeness** is key when dealing with large datasets.
 * I gained hands-on experience with **chunking, data type optimization, and sampling**, all of which are essential techniques for real-world data engineering and analytics.
 * Even without advanced tools like Dask or Polar, **plain pandas** combined with good practices can handle surprisingly large files.
+* Exploring Dask taught me how parallel processing and lazy evaluation can scale data workflows beyond memory limits — but also showed the cost of .compute() when full evaluation is triggered.
+* Using Polars revealed the performance advantages of newer, low-level libraries — particularly how Rust-powered backends and columnar storage can dramatically reduce load times and memory usage. It’s a powerful alternative for modern data pipelines where efficiency is critical.
 
