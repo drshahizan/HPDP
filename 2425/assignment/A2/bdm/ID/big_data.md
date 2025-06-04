@@ -216,15 +216,185 @@ Memory Used: 742.20 MB
 
 #### 2. Use Chunking
 Chunking involves reading the data in smaller pieces (chunks) instead of all at once. It allows processing large files that wouldn't otherwise fit in memory. This is useful for filtering, aggregating, or saving summarized results from big files.
+```
+print("Original shape:", df.shape)
+print()
+
+chunksize = 100000
+chunk_iter = pd.read_csv(file_path, chunksize=chunksize)
+
+# Start Time
+start_time = time.time()
+process = psutil.Process(os.getpid())
+start_memory = process.memory_info().rss / 1024 ** 2
+
+for i, chunk in enumerate(chunk_iter):
+    print(f"Chunk {i+1}: {chunk.shape}")
+    # Example: summarize a column
+    print(chunk['Year'].value_counts().head())
+    print()
+    if i == 2:
+        break
+
+# End Time
+end_time = time.time()
+end_memory = process.memory_info().rss / 1024 ** 2
+
+execution_time_2 = end_time - start_time
+memory_used_2 = end_memory - start_memory
+
+print(f"Execution Time: {execution_time_2:.2f} seconds")
+print(f"Memory Used: {memory_used_2:.2f} MB")
+```
+
+The Output : 
+```
+Original shape: (7453215, 29)
+
+Chunk 1: (100000, 29)
+Year
+2007    100000
+Name: count, dtype: int64
+
+Chunk 2: (100000, 29)
+Year
+2007    100000
+Name: count, dtype: int64
+
+Chunk 3: (100000, 29)
+Year
+2007    100000
+Name: count, dtype: int64
+
+Execution Time: 0.76 seconds
+Memory Used: 1.05 MB
+```
 
 #### 3. Optimize Data Types
 Changing data types to more memory-efficient formats (e.g., converting float64 to float32 or object to category) can significantly reduce memory consumption and speed up processing.
+```
+dtypes_optimized = {
+    'Year': 'int16',
+    'Month': 'int8',
+    'DayofMonth': 'int8',
+    'DayOfWeek': 'int8',
+    'DepTime': 'float32',
+    'CRSDepTime': 'int16',
+    'ArrTime': 'float32',
+    'CRSArrTime': 'int16',
+    'UniqueCarrier': 'category',
+    'FlightNum': 'int32',
+    'TailNum': 'category',
+    'ActualElapsedTime': 'float32',
+    'CRSElapsedTime': 'float32',
+    'AirTime': 'float32',
+    'ArrDelay': 'float32',
+    'DepDelay': 'float32',
+    'Origin': 'category',
+    'Dest': 'category',
+    'Distance': 'int16',
+    'TaxiIn': 'int8',
+    'TaxiOut': 'int8',
+    'Cancelled': 'int8',
+    'CancellationCode': 'category',
+    'Diverted': 'int8',
+    'CarrierDelay': 'float32',
+    'WeatherDelay': 'float32',
+    'NASDelay': 'float32',
+    'SecurityDelay': 'float32',
+    'LateAircraftDelay': 'float32'
+}
+
+# Start Time
+start_time = time.time()
+process = psutil.Process(os.getpid())
+start_memory = process.memory_info().rss / 1024 ** 2
+
+df3 = pd.read_csv(file_path, dtype=dtypes_optimized)
+
+# End time
+end_time = time.time()
+end_memory = process.memory_info().rss / (1024 * 1024)  # MB
+
+execution_time_3 = end_time - start_time
+memory_used_3 = end_memory - start_memory
+
+print(df3.info())
+print(df3.head())
+
+print(f"Execution Time: {execution_time_3:.2f} seconds")
+print(f"Memory Used: {memory_used_3:.2f} MB")
+```
+
+The Output : 
+```
+[5 rows x 29 columns]
+Execution Time: 34.30 seconds
+Memory Used: 460.50 MB
+```
 
 #### 4. Sampling
 Sampling means analyzing a small, representative subset of the dataset instead of the full dataset. It helps in quicker testing and prototyping of models and visualizations without compromising too much on insights.
+```
+# Start time
+process = psutil.Process(os.getpid())
+start_time = time.time()
+start_memory = process.memory_info().rss / (1024 * 1024)  # MB
+
+sample_fraction = 0.01  # 1%
+df4 = pd.read_csv(file_path).sample(frac=sample_fraction, random_state=42)
+
+# End time
+end_time = time.time()
+end_memory = process.memory_info().rss / (1024 * 1024)  # MB
+
+print(df4.head())
+print(f"Shape of Sampled Data: {df4.shape}")
+
+execution_time_4 = end_time - start_time
+memory_used_4 = end_memory - start_memory
+
+print(f"Execution Time: {execution_time_4:.2f} seconds")
+print(f"Memory Used: {memory_used_4:.2f} MB")
+```
+
+The Output : 
+```
+Shape of Sampled Data: (74532, 29)
+Execution Time: 36.62 seconds
+Memory Used: -3.36 MB
+```
 
 #### 5. Parallel Processing with Dask
 Dask allows parallel and distributed computing with a pandas-like interface. It can handle large datasets by breaking them into smaller tasks and executing them in parallel across multiple cores or machines.
+```
+import dask.dataframe as dd
+# Start time
+process = psutil.Process(os.getpid())
+start_time = time.time()
+start_memory = process.memory_info().rss / (1024 * 1024)  # MB
+
+# Load dataset with Dask
+df_dask = dd.read_csv(file_path, usecols=columns, assume_missing=True)
+
+df_dask = df_dask.compute()
+
+end_time = time.time()
+end_memory = process.memory_info().rss / (1024 * 1024)
+
+# Calculate performance
+execution_time_5 = end_time - start_time
+memory_used_5 = end_memory - start_memory
+
+print(f"Execution Time: {execution_time_5:.2f} seconds")
+print(f"Memory Used: {memory_used_5:.2f} MB")
+```
+
+The Output : 
+```
+Execution Time: 23.13 seconds
+Memory Used: 1515.06 MB
+```
 
 
 
