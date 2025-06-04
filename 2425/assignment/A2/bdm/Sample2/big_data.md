@@ -6,20 +6,6 @@
 
 ---
 
-## 📌 Introduction
-
-*Write a brief overview of the importance of big data handling and what this assignment covers.*
-
----
-
-## 🎯 Learning Outcomes
-
-1. Identify challenges and limitations in traditional big data processing.
-2. Apply strategies to manage and analyze large datasets efficiently.
-3. Compare performance between traditional and optimized methods.
-
----
-
 ## 📝 Task 1: Dataset Selection
 
 ### 📌 Dataset Overview
@@ -542,7 +528,8 @@ In this approach, we use **Dask**, a parallel computing library, to handle the C
    * The `measure_performance()` function wraps this entire process to capture metrics like **execution time** and **memory usage**, helping us compare it with other approaches (e.g., pure Pandas).
 
 **Output**:  
-![image](https://github.com/user-attachments/assets/9b6f6903-2469-4f35-aa1a-690dc3ecd4b5)
+![image](https://github.com/user-attachments/assets/1940a747-ee2c-49ce-a20d-6eb68fda979a)
+
 
 
 ---
@@ -621,7 +608,6 @@ This section compares five different optimization techniques used to improve CSV
 * **Optimize Data Types** performed best in overall.
 
 ---
-here
 
 ### 📘 Part 2: Comparison Between Pandas, Dask, and Polars
 
@@ -631,76 +617,98 @@ In this section, we compare the performance of three major data-processing libra
 
 | Library | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
 | ------- | ---------------- | ------------------ | ----------- | ------------------------ |
-| Pandas  | *e.g., 800*      | *e.g., 45.0*       | *e.g., 40%* | *e.g., 75,000*           |
-| Dask    | *e.g., 420*      | *e.g., 18.2*       | *e.g., 60%* | *e.g., 125,000*          |
-| Polars  | *e.g., 300*      | *e.g., 9.5*        | *e.g., 35%* | *e.g., 160,000*          |
-
-> ✅ *Note: Replace with your actual measurements.*
+| Pandas  | 2324.79     | 32.9665       | 99.66% | 28979.51           |
+| Dask    | 1653.96      | 74.9795       | 89.78% | 12750.78          |
+| Polars  | 1579.88      | 5.0251        | 97.89% | 190109.65          |
 
 ---
 
 ### 📊 Visual Comparison
+![image](https://github.com/user-attachments/assets/155ef1d3-6c38-40f2-9765-0dcfbd27ceed)
 
-```python
-# DataFrame for library comparison
-library_data = pd.DataFrame({
-    'Library': ['Pandas', 'Dask', 'Polars'],
-    'Memory Used (MB)': [...],
-    'Execution Time (s)': [...],
-    'Avg CPU (%)': [...],
-    'Throughput (records/sec)': [...]
-})
 
-# Bar plots
-fig, axes = plt.subplots(2, 2, figsize=(12, 10))
-sns.barplot(x="Library", y="Memory Used (MB)", data=library_data, ax=axes[0, 0])
-sns.barplot(x="Library", y="Execution Time (s)", data=library_data, ax=axes[0, 1])
-sns.barplot(x="Library", y="Avg CPU (%)", data=library_data, ax=axes[1, 0])
-sns.barplot(x="Library", y="Throughput (records/sec)", data=library_data, ax=axes[1, 1])
-
-for ax in axes.flat:
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=0)
-
-plt.tight_layout()
-plt.show()
-```
-
----
 
 ### 🧠 Interpretation:
+The performance comparison between **Pandas**, **Dask**, and **Polars** reveals key differences in their execution behavior and efficiency:
 
-* **Polars** offers the best performance in all categories, especially execution time and memory usage.
-* **Dask** is excellent for parallel processing and handles large files well without fully loading them into memory.
-* **Pandas** is easy to use and widely supported but may struggle with large datasets in terms of memory and speed.
+* **Polars** outperforms both Pandas and Dask in every aspect. With the **lowest memory usage**, **fastest execution time (5.03s)**, and **highest throughput (190k records/sec)**, it is exceptionally well-optimized for fast and efficient data processing, especially with CSV files.
+
+* **Pandas** performs reasonably well, loading the data in **\~33 seconds** with a relatively high memory footprint. It is still a strong choice for datasets that fit into memory and for tasks requiring immediate results with minimal setup.
+
+* **Dask**, while designed for large-scale distributed processing, shows **significantly slower performance (75s)** and the **lowest throughput** among the three. This slower speed is largely due to the need to **fall back on the Python engine (`engine='python'`)** to handle malformed or inconsistent CSV rows in the dataset. This fallback is **much slower** than the default C engine, as it parses files in pure Python for robustness at the cost of speed.
+
+  > ⚠️ **Note**: Dask is still valuable when working with datasets that are **too large to fit into memory**, as it supports out-of-core processing and parallel computation. However, in this benchmark, the dataset had formatting issues (e.g., bad lines), which required extra handling and slowed down Dask significantly.
 
 ---
-
-Let me know if you want to include an executive summary or recommendations based on the results.
-
-here
-
 
 ## 🧠 Task 5: Conclusion & Reflection
 
 ### 🔹 Summary of Observations  
-*Summarize the main findings from each strategy.*
+Our exploration of big data handling techniques yielded several key insights into optimizing performance for large datasets.
+
+For **memory- and performance-efficient techniques**:
+* **Load Less Data** significantly reduced memory usage and improved loading times by focusing only on necessary columns.
+* **Chunking** allowed us to process the large dataset in manageable parts, preventing memory overload, though it resulted in higher execution time compared to selective loading.
+* **Data Type Optimization** proved to be the most effective strategy among the optimizations, achieving the lowest memory footprint and one of the fastest execution times by converting columns to more memory-efficient data types.
+* **Sampling** drastically reduced the dataset size, leading to lower memory usage and faster processing for exploratory analysis, though at the cost of working with a subset of the data.
+* **Parallel Processing with Dask** demonstrated its ability to handle larger-than-memory datasets by distributing computation, but its performance was significantly impacted by the need to use a slower Python engine for malformed lines in our specific dataset.
+
+When comparing **different libraries for full dataset loading**:
+* **Polars** emerged as the clear winner, exhibiting superior performance in terms of memory efficiency, execution speed, and throughput, making it an excellent choice for fast data processing.
+* **Pandas** provided a straightforward and reasonably performant solution for loading the full dataset, suitable when the data fits within available memory.
+* **Dask**, while powerful for distributed computing, showed the slowest performance due to issues with bad lines in the CSV requiring a less efficient parsing engine.
+---
 
 ### 🔹 Benefits & Limitations  
-- **Load Less Data**:  
-- **Chunking**:  
-- **Data Type Optimization**:  
-- **Sampling**:  
-- **Dask Parallel Processing**:  
+#### Part 1: Memory- and Performance-Efficient Techniques
 
+* **Load Less Data**:
+    * **Benefits**: Substantially reduces memory consumption and load times by only loading relevant columns.
+    * **Limitations**: Requires prior knowledge of which columns are essential for the analysis; not suitable if all columns are needed.
+* **Chunking**:
+    * **Benefits**: Enables processing of datasets larger than available memory; provides a way to handle data in batches.
+    * **Limitations**: Can be slower than loading the entire dataset at once due to overhead of reading and concatenating chunks; may require additional logic for processing across chunk boundaries.
+* **Data Type Optimization**:
+    * **Benefits**: Significantly reduces memory usage by fitting data into smaller, appropriate types (e.g., `float32` instead of `float64`).
+    * **Limitations**: Requires careful consideration of data ranges to avoid overflow or loss of precision; manual type mapping can be tedious for many columns.
+* **Sampling**:
+    * **Benefits**: Dramatically reduces processing time and memory for quick exploratory analysis or model prototyping; useful when full data is not needed.
+    * **Limitations**: Results are based on a subset and may not accurately represent the entire dataset; can miss rare patterns or outliers present in the full data.
+* **Dask Parallel Processing**:
+    * **Benefits**: Designed for out-of-core and parallel processing, making it ideal for datasets that exceed memory limits; scales well to multi-core machines or clusters.
+    * **Limitations**: Can incur overhead for scheduling tasks and managing distributed data; performance can degrade if data formatting issues require fallback to less efficient parsing engines.
+
+#### Part 2: Loading Dataset with Different Libraries
+
+* **Pandas**:
+    * **Benefits**: Widely adopted, intuitive API, and excellent for in-memory data manipulation; robust for datasets that fit into RAM.
+    * **Limitations**: Can struggle with very large datasets that exceed available memory, leading to memory errors; single-threaded for most operations.
+* **Dask**:
+    * **Benefits**: Provides a familiar Pandas-like API for out-of-core and parallel computing; integrates well with the Python data science ecosystem.
+    * **Limitations**: Can be slower for smaller datasets due to parallelization overhead; performance is highly dependent on data cleanliness, as malformed data can force less efficient processing.
+* **Polars**:
+    * **Benefits**: Extremely fast and memory-efficient due to Rust backend and multi-threaded design; excels at eager execution for large datasets.
+    * **Limitations**: Newer library with a smaller community compared to Pandas; its API, while similar to Pandas, has differences that require a learning curve for existing Pandas users.
+---
 ### 🔹 Reflection  
-*What did you learn about handling big data, and how will it be useful in the future?*
+Through this assignment, we gained a deeper understanding of the complexities involved in handling big data, particularly when faced with resource constraints. The most significant learning for us was that there isn't a one-size-fits-all solution; the best strategy depends heavily on the **dataset's characteristics**, the **available computational resources**, and the **specific analytical task**.
+
+For instance, we learned the critical importance of **proactive memory management** through techniques like selective column loading and data type optimization, which can significantly reduce memory footprint and speed up processing. The experience with Dask highlighted the trade-off between **robustness and speed** when dealing with imperfect data; while it can handle large-scale, out-of-core processing, data quality issues can severely impact its performance. Conversely, Polars demonstrated the power of modern data libraries designed for **speed and efficiency**, proving that significant performance gains are possible with the right tools.
+
+These insights will be incredibly useful in our future endeavors, especially when working on projects involving large-scale data. We now understand the importance of:
+1.  **Profiling and benchmarking**: Always measuring performance to identify bottlenecks and validate the effectiveness of chosen strategies.
+2.  **Strategic data loading**: Applying techniques like `usecols`, `chunksize`, and `dtype` optimization from the outset to avoid memory issues.
+3.  **Choosing the right tool**: Selecting libraries like Polars or Dask based on data size, memory constraints, and the need for parallelization.
+4.  **Data cleanliness**: Recognizing that data quality directly impacts processing efficiency, especially with tools designed for high performance.
+
+This assignment has equipped us with practical skills to approach big data challenges more effectively, ensuring efficient and scalable data handling in real-world scenarios.
 
 ---
 
 ## 📁 Folder Structure
 
 ```plaintext
-bdm/your_group/
+bdm/Sample2/
 ├── big_data.md        ← This file
 ├── readme.md          ← Brief intro and links
 └── big_data.ipynb     ← Code notebook
