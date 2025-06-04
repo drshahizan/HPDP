@@ -161,7 +161,7 @@ print_strategy_results(
 ```
 Output: 
 
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/LoadLessData.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/LoadLessData.png)
 
 - **Optimize Data Types**<br>
 
@@ -194,7 +194,7 @@ print_strategy_results(
 ```
 Output: 
 
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/OptimizeDataTypes.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/OptimizeDataTypes.png)
 
 - **Sampling**<br>
 
@@ -224,7 +224,7 @@ print_strategy_results(
 ```
 Output: 
 
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Sampling.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/Sampling.png)
 
 - **Chunking**<br>
 
@@ -269,7 +269,7 @@ print_strategy_results(
 ```
 Output: 
 
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Chunking.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/Chunking.png)
 
 
 - **Parallel Processing with Dask**<br>
