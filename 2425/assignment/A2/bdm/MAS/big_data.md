@@ -125,7 +125,7 @@ print(f"\n    🧮 Total Memory : {mem_usage.sum():.4f} MB")
 ```
 
 Output:
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/RawDataOutput.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/RawDataOutput.png)
 
 ---
 
@@ -255,9 +255,9 @@ Output:
 
 | Library | Visualization |
 |---------|---------------|
-| Pandas  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/PandasRawData.png) |  
-| Dask    |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/DaskRawData1.png) |
-| Polars  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/PolarsRawData.png) |
+| Pandas  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/PandasRawData.png) |  
+| Dask    |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/DaskRawData1.png) |
+| Polars  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/PolarsRawData.png) |
 
 ---
 
