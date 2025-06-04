@@ -397,26 +397,6 @@ In terms of memory, **Sampling** again performs best by loading only 5% of the d
 > - Ease of processing reflects how straightforward it is to handle and manipulate the data after loading, with Sampling being easiest and Chunking requiring more manual effort.  
 > - Sampling offers the benefit of a representative subset for faster experimentation or prototyping but may not capture all variability in data.
 
-## 6. 🧠 Conclusion & Reflection
-
-### 🔑 Key Takeaways
-
-* **Traditional loading** of large datasets is straightforward but can be very costly in both **time (81.13s)** and **memory (13.4GB)**.
-* **Loading less data** significantly reduces memory usage and improves speed, making it a practical first step for quick insights or testing.
-* **Chunking** allows for scalable processing of large files without overwhelming memory, while still preserving full dataset access.
-* **Optimizing data types during load** drastically cuts memory usage (**\~36% less than full load**) but may come with longer loading time due to parsing and type conversion.
-* **Random sampling** provides a highly efficient way to analyze data quickly with minimal memory use, especially when full dataset access is not required.
-
-### ✅ Benefits vs ❗Limitations
-
-| Strategy             | Benefits                                                     | Limitations                                                        |
-| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
-| Full Load            | Simple, complete access to all data                          | High memory and time cost                                          |
-| Load Less Data       | Fast and lightweight                                         | Doesn’t reflect entire dataset                                     |
-| Chunking             | Memory-efficient, good for big data pipelines                | Requires extra logic to process incrementally                      |
-| Optimized Data Types | Huge memory savings                                          | More complex setup, slower initial load                            |
-| Sampling (Random)    | Very fast, minimal resource use, good for prototyping or EDA | Risk of missing important patterns if sample is not representative |
-
 ### 5.2 Comparative Analysis between Libraries
 ![Libraries Comparison Graph](libraries_comparison.png)
 
@@ -446,18 +426,26 @@ The chart on the right shows how much memory each library uses. Polars once agai
 ## 6. 🧠 Conclusion & Reflection
 
 ### 🔑 Key Takeaways
-
-* **Polars** stands out among all the libraries in this comparison, offering fast loading times and low memory usage, making it perfect for large-scale data analysis.
-* **Pandas** is easy to use and has great community support, it does come with some downsides, like high memory consumption and average performance speed.
+* **Traditional loading (Pandas)** of large datasets is straightforward but can be very costly in both **time )** and **memory **.
+* **Loading less data** significantly reduces memory usage and improves speed, making it a practical first step for quick insights or testing.
+* **Chunking** allows for scalable processing of large files without overwhelming memory, while still preserving full dataset access.
+* **Optimizing data types during load** drastically cuts memory usage but may come with longer loading time due to parsing and type conversion.
+* **Random sampling** provides a highly efficient way to analyze data quickly with minimal memory use, especially when full dataset access is not required.
+* * **Polars** stands out among all the libraries in this comparison, offering fast loading times and low memory usage, making it perfect for large-scale data analysis.
 * **Dask**, which is built for scalability, can run into extra computational costs when it needs to load the entire dataset at once, making it less than ideal for tasks that require loading the whole dataset.
 
 ### ✅ Benefits vs ❗Limitations
 
-| Library | ✅ Benefits | ❗ Limitations |
-|---------|-------------|----------------|
-| Pandas  | Simple to use, well-supported | High memory and longer load time |
+| Strategy/Library            | Benefits                                                     | Limitations                                                        |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
+| Full Load(Pandas)            | Simple, complete access to all data                  | High memory and time cost                                          |
+| Load Less Data       | Fast and lightweight                                         | Doesn’t reflect entire dataset                                     |
+| Chunking             | Memory-efficient, good for big data pipelines                | Requires extra logic to process incrementally                      |
+| Optimized Data Types | Huge memory savings                                          | More complex setup, slower initial load                            |
+| Sampling (Random)    | Very fast, minimal resource use, good for prototyping or EDA | Risk of missing important patterns if sample is not representative |
 | Dask    | Scales well, handles out-of-core data | Slower due to lazy `.compute()` evaluation |
 | Polars  | Extremely fast and memory-efficient | Still growing in community and ecosystem |
+
 
 
 
@@ -466,5 +454,5 @@ The chart on the right shows how much memory each library uses. Polars once agai
 * Efficient **big data handling** isn't just about raw computing power — it’s about **strategy and technique**.
 * Understanding the **trade-offs between memory, speed, and completeness** is key when dealing with large datasets.
 * I gained hands-on experience with **chunking, data type optimization, and sampling**, all of which are essential techniques for real-world data engineering and analytics.
-* Even without advanced tools like Dask or Spark, **plain pandas** combined with good practices can handle surprisingly large files.
+* Even without advanced tools like Dask or Polar, **plain pandas** combined with good practices can handle surprisingly large files.
 
