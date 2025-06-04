@@ -182,11 +182,19 @@ dtype: object
 In this part, we used five strategies to work with our large dataset to observe the result of the performance of using different strategies applying to handle big dataset. These methods help save time, memory, and make processing faster.
 
 #### 1. Load Less Data
-#### 2. Load Less Data
-#### 3. Load Less Data
-#### 4. Load Less Data
-#### 5. Load Less Data
+Instead of loading the entire dataset at once, we can read only the necessary columns or rows. This reduces memory usage and speeds up loading time, especially during initial exploration or debugging.
 
+#### 2. Use Chunking
+Chunking involves reading the data in smaller pieces (chunks) instead of all at once. It allows processing large files that wouldn't otherwise fit in memory. This is useful for filtering, aggregating, or saving summarized results from big files.
+
+#### 3. Optimize Data Types
+Changing data types to more memory-efficient formats (e.g., converting float64 to float32 or object to category) can significantly reduce memory consumption and speed up processing.
+
+#### 4. Sampling
+Sampling means analyzing a small, representative subset of the dataset instead of the full dataset. It helps in quicker testing and prototyping of models and visualizations without compromising too much on insights.
+
+#### 5. Parallel Processing with Dask
+Dask allows parallel and distributed computing with a pandas-like interface. It can handle large datasets by breaking them into smaller tasks and executing them in parallel across multiple cores or machines.
 
 
 
