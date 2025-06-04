@@ -26,17 +26,27 @@
 ### 1.1 Background of the Project
 In a data-driven world, the ability to manipulate large datasets is essential to transforming raw data into useful insights. Traditional tools, such as Pandas, can run into memory problems when working with large files. This project uses contemporary modules written in Python, such as Dask, Pandas, and Polars to evaluate the various ways of optimizing data loading, processing, and analysis. The aim is to know the performance of all options based on the speed, memory usage, and ease of implementation of each approach based on a real e-commerce dataset.
 
-</div>
-
 ### 1.2 Objectives
+This project's key aims include:
 
+ 1. To inspect and analyze a huge e-commerce dataset.
+ 2. To put various large data handling techniques into practice and evaluate them:
+- Load Less Data
+- Use Chunking
+- Optimize Data Types
+- Apply Sampling
+ - Dask and Polars are used for parallel processing.
+ 3. To measure performance using throughput, memory use, and execution time.
 
 ### 1.3 Dataset Source
-- **Dataset:** 
-- **Source:** 
-- 
+- **Dataset:** eCommerce behavior data from multi category store
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store))
+- **Size:** 5.67GB (2019-Oct.csv)
+- **Number of Records:**
+- **Features/Columns:** 
 
 ---
+</div>
 
 ## 2. Dataset Overview and Inspection
 
