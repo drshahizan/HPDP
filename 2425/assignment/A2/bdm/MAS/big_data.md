@@ -1,3 +1,12 @@
+<h1 align="center"> 
+  Assignment 2 - MAS(eCommerce Behavior Data from Multi Category Store)
+</h1>
+
+| Name              | Matric No       |
+|-------------------|-----------------|
+| MAISARAH BINTI RIZAL   | A22EC0192      |
+| NADHRAH NURSABRINA BINTI ZULAINI  | A22EC0224    |
+
 ---
 
 ## 📚 Table of Contents
