@@ -23,7 +23,7 @@ By the end of this assignment, students should be able to:
 ### Task 1: Dataset Selection
 
 - **Dataset Source**: [Amazon Books Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews?select=Books_rating.csv)
-- **Dataset Size**: 700MB+
+- **Dataset Size**: 2.07GB (Approximately before zip)
 - **Domain**: Book Reviews
 - **Number of Records**: 1,010,293
 
