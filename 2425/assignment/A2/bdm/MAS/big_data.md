@@ -208,25 +208,19 @@ Output:
 - **Parallel Processing with Dask**<br>
 
 ```
-start_time = time.time()
+#  📊 Strategy 5: Parallel Processing with Dask
+def run_dask():
+    start = time.time()
+    ddf = dd.read_csv(FILENAME, usecols=USECOLS)
+    mean = ddf[ddf['event_type'] == TARGET_EVENT_TYPE][MEASUREMENT_COLUMN].mean().compute()
+    shape = (len(ddf), len(ddf.columns))
+    mem = ddf.memory_usage(index=True, deep=True).sum().compute() / (1024 ** 2)
+    t = time.time() - start
+    throughput = shape[0] / t if t > 0 else float('nan')
+    return {"mean": mean, "shape": shape, "mem": mem, "time": t, "throughput": throughput}
 
-# Read CSV with Dask
-ddf = dd.read_csv(filename, usecols=['event_type', 'price'])
-
-# Filter and compute mean
-mean_price_after = ddf[ddf['event_type'] == TARGET_EVENT_TYPE][MEASUREMENT_COLUMN].mean().compute()
-
-shape_after = (len(ddf), len(ddf.columns))
-time_after = time.time() - start_time
-mem_after = ddf.memory_usage(index=True, deep=True).sum().compute() / (1024 ** 2)
-throughput_after = shape_after[0] / time_after if time_after > 0 else 0
-
-print(f"Shape: {shape_after}")
-print(f"Memory Usage: {mem_after:.2f} MB")
-print(f"Processing Time: {time_after:.2f} seconds")
-print(f"Throughput: {throughput_after:.0f} rows/sec")
-print(f"Mean Purchase Price: {mean_price_after:.2f}")
-print("-" * 50)
+dask_result= run_dask()
+results.append(print_strategy_results("Strategy 5a: Dask Processing", dask_result["mean"], dask_result["mem"], dask_result["time"], dask_result["throughput"]))
 
 ```
 
