@@ -21,8 +21,12 @@
 
 ## 1. Introduction
 
+<div align="justify">
+  
 ### 1.1 Background of the Project
+In a data-driven world, the ability to manipulate large datasets is essential to transforming raw data into useful insights. Traditional tools, such as Pandas, can run into memory problems when working with large files. This project uses contemporary modules written in Python, such as Dask, Pandas, and Polars to evaluate the various ways of optimizing data loading, processing, and analysis. The aim is to know the performance of all options based on the speed, memory usage, and ease of implementation of each approach based on a real e-commerce dataset.
 
+</div>
 
 ### 1.2 Objectives
 
