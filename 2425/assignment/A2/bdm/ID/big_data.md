@@ -183,6 +183,36 @@ In this part, we used five strategies to work with our large dataset to observe 
 
 #### 1. Load Less Data
 Instead of loading the entire dataset at once, we can read only the necessary columns or rows. This reduces memory usage and speeds up loading time, especially during initial exploration or debugging.
+```
+columns = [
+    'Year', 'Month', 'DayOfWeek', 'DepTime', 'ArrTime',
+    'DepDelay', 'ArrDelay', 'UniqueCarrier', 'Origin', 'Dest',
+    'Distance', 'Cancelled', 'Diverted'
+]
+
+# Start Time
+start_time = time.time()
+process = psutil.Process(os.getpid())
+start_memory = process.memory_info().rss / 1024 ** 2
+
+df1 = pd.read_csv(file_path, usecols=columns)
+
+# End Time
+end_time = time.time()
+end_memory = process.memory_info().rss / 1024 ** 2
+
+execution_time_1 = end_time - start_time
+memory_used_1 = end_memory - start_memory
+
+print(f"Execution Time: {execution_time_1:.2f} seconds")
+print(f"Memory Used: {memory_used_1:.2f} MB")
+```
+
+The Output :
+```
+Execution Time: 15.02 seconds
+Memory Used: 742.20 MB
+```
 
 #### 2. Use Chunking
 Chunking involves reading the data in smaller pieces (chunks) instead of all at once. It allows processing large files that wouldn't otherwise fit in memory. This is useful for filtering, aggregating, or saving summarized results from big files.
