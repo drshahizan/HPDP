@@ -396,11 +396,70 @@ Execution Time: 23.13 seconds
 Memory Used: 1515.06 MB
 ```
 
+#### Comparison Between Step 1 - 5
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Data
+steps = comparison_table['Step'].tolist()
+execution_times = comparison_table['Execution Time (s)'].tolist()
+memory_used = comparison_table['Memory Used (MB)'].tolist()
+
+x = np.arange(len(steps))  # Label locations
+
+# Plot 1: Execution Time
+fig1, ax1 = plt.subplots(figsize=(10, 7))
+bars1 = ax1.bar(x, execution_times, color='skyblue')
+ax1.set_title('Execution Time Comparison')
+ax1.set_xlabel('Technique')
+ax1.set_ylabel('Execution Time (seconds)')
+ax1.set_xticks(x)
+ax1.set_xticklabels(steps,  ha='center')
+ax1.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Add value labels
+for bar in bars1:
+    height = bar.get_height()
+    ax1.annotate(f'{height:.2f}',
+                 xy=(bar.get_x() + bar.get_width() / 2, height),
+                 xytext=(0, 3),
+                 textcoords="offset points",
+                 ha='center', va='bottom')
+
+plt.tight_layout()
+
+# Plot 2: Memory Used
+fig2, ax2 = plt.subplots(figsize=(10, 7))
+bars2 = ax2.bar(x, memory_used, color='salmon')
+ax2.set_title('Memory Usage Comparison')
+ax2.set_xlabel('Technique')
+ax2.set_ylabel('Memory Used (MB)')
+ax2.set_xticks(x)
+ax2.set_xticklabels(steps,  ha='center')
+ax2.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Add value labels
+for bar in bars2:
+    height = bar.get_height()
+    ax2.annotate(f'{height:.2f}',
+                 xy=(bar.get_x() + bar.get_width() / 2, height),
+                 xytext=(0, 3),
+                 textcoords="offset points",
+                 ha='center', va='bottom')
+
+plt.tight_layout()
+plt.show()
+```
+![image](https://github.com/user-attachments/assets/6bc9a23a-3e98-47f1-b627-96d01fd31199)
+
+![image](https://github.com/user-attachments/assets/280d2273-b03d-4fca-bb40-5b4f611530c2)
+
 
 
 
 ### Task 4: Comparative Analysis
-![image](https://raw.githubusercontent.com/MuhammadImanFirdaus/Photos/refs/heads/main/Screenshot%202025-06-03%20004351.png?token=GHSAT0AAAAAADDVYJY73HAMPXRANPUDRCCE2B54MQQ)
+![image](https://github.com/user-attachments/assets/eb1ace96-7963-4c05-b32b-a3d77be833ec)
 
 1. Execution Time
 Pandas : Completed the task in 34.45 seconds .
