@@ -431,7 +431,7 @@ The chart on the right shows how much memory each library uses. Polars once agai
 * **Chunking** allows for scalable processing of large files without overwhelming memory, while still preserving full dataset access.
 * **Optimizing data types during load** drastically cuts memory usage but may come with longer loading time due to parsing and type conversion.
 * **Random sampling** provides a highly efficient way to analyze data quickly with minimal memory use, especially when full dataset access is not required.
-* * **Polars** stands out among all the libraries in this comparison, offering fast loading times and low memory usage, making it perfect for large-scale data analysis.
+* **Polars** stands out among all the libraries in this comparison, offering fast loading times and low memory usage, making it perfect for large-scale data analysis.
 * **Dask**, which is built for scalability, can run into extra computational costs when it needs to load the entire dataset at once, making it less than ideal for tasks that require loading the whole dataset.
 
 ### ✅ Benefits vs ❗Limitations
