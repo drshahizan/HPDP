@@ -121,7 +121,9 @@ Several strategies were applied to manage and process the large dataset, primari
 
 These strategies focused on reducing memory footprint and processing time using Pandas.
 
-**4.1.1. Load Less Data** Loading only essential columns can significantly reduce memory usage and improve load times, especially when not all data is needed for a specific analysis.
+**4.1.1. Load Less Data** 
+
+Loading only essential columns can significantly reduce memory usage and improve load times, especially when not all data is needed for a specific analysis.
 
 -   **Explanation**: Instead of loading all 9 columns, only 5 important columns (`review_id`, `reviewer`, `movie`, `rating`, `spoiler_tag`) were selected.
 -   **Code Snippet (Pandas)**:
@@ -149,7 +151,9 @@ These strategies focused on reducing memory footprint and processing time using 
     -   Execution time: 16.92 seconds
 -   **Analysis**: This strategy provided a substantial reduction in memory (from ~1371 MB to ~235 MB) with a comparable load time.
 
-**4.1.2. Use Chunking** Chunking allows processing large files in segments, preventing memory overload. Each chunk is read and can be processed individually.
+**4.1.2. Use Chunking** 
+
+Chunking allows processing large files in segments, preventing memory overload. Each chunk is read and can be processed individually.
 
 -   **Explanation**: The data was read in chunks of 200,000 rows using Pandas `read_json(chunksize=...)`.
 -   **Code Snippet (Pandas)**:
@@ -185,7 +189,9 @@ These strategies focused on reducing memory footprint and processing time using 
     -   Total execution time: 16.37 seconds
 -   **Analysis**: While chunking processes the entire dataset, it does so with a much smaller memory footprint at any given time (memory for one chunk). Total processing time was comparable to a full load.
 
-**4.1.3. Optimize Data Types** Converting columns to more memory-efficient data types (e.g., `category` for low-cardinality strings, smaller integer/float types) can drastically reduce memory usage.
+**4.1.3. Optimize Data Types** 
+
+Converting columns to more memory-efficient data types (e.g., `category` for low-cardinality strings, smaller integer/float types) can drastically reduce memory usage.
 
 -   **Explanation**: Columns like `review_id`, `reviewer`, and `movie` were converted to `category`. `rating` was changed to `float32`, `spoiler_tag` to `int8`, and `review_date` to `datetime`.
 -   **Code Snippet (Pandas)**:
@@ -218,7 +224,9 @@ These strategies focused on reducing memory footprint and processing time using 
     -   Execution time: 20.66 seconds
 -   **Analysis**: Optimizing data types can lead to significant memory savings. The actual memory reduction can vary; in this specific notebook run, the reduction shown was not as drastic as theoretically possible, but the principle holds.
 
-**4.1.4. Sampling** Working with a representative subset of the data (a sample) can speed up initial development, exploration, and model prototyping.
+**4.1.4. Sampling** 
+
+Working with a representative subset of the data (a sample) can speed up initial development, exploration, and model prototyping.
 
 -   **Explanation**: A 10% random sample of the dataset was taken.
 -   **Code Snippet (Pandas)**:
