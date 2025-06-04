@@ -362,11 +362,7 @@ I learnt that simple optimizations like only selecting important columns, or opt
 
 I also had an opportunity to use Dask and Polars . While both are valuable tools for processing big data. Polars was notable for how fast it could process a large file and relatively low memory compared to the future options, which would suit modern data processing workflows.
 
-By processing our data into chunks, it allowed me to better set the memory conditions and left a notable impression on the value of streaming techniques for large marked files.
-
-In the end, the project reiterated the value of selecting the most appropriate data processing tool relating to the task at hand, whether it be maximizing memory constraints with Pandas, utilizing Dask for scaling purposes or maximising performance with Polars.
-
-I would like to examine distributed computing frameworks moving forward and to apply these techniques to bigger datasets, especially for my ability to deal with anything close to real world data!.
+In the end, this assignment reiterated the value of selecting the most appropriate data processing tool relating to the task at hand, whether it be maximizing memory constraints with Pandas, utilizing Dask for scaling purposes or maximising performance with Polars.
 
 </div>
 
