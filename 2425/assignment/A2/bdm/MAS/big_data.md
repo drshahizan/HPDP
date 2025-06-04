@@ -63,13 +63,32 @@ This project's key aims include:
 
 ## 2. Dataset Overview and Inspection
 
-### 2.1 Dataset Description
+### 2.1 Initial Loading
 
+  ```
+ 🔽 STEP 1: Install kaggle CLI
+!pip install -q kaggle
 
-### 2.2 Initial Loading
+# 🔽 STEP 2: Upload kaggle.json API token
+from google.colab import files
+print("Please upload your kaggle.json file:")
+files.upload()
 
+# 🔽 STEP 3: Set up Kaggle CLI config
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
 
-### 2.3 Basic Inspection
+# 🔽 STEP 4: Download your desired dataset
+# Replace with your actual competition or dataset name
+!kaggle datasets download mkechinov/ecommerce-behavior-data-from-multi-category-store
+
+!unzip ecommerce-behavior-data-from-multi-category-store.zip
+!ls
+
+```
+
+### 2.2 Basic Inspection
 
 
 ---
