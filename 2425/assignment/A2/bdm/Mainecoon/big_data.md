@@ -191,7 +191,6 @@ Our analysis demonstrates that:
 3. **For processing speed**: Polars outperforms both Pandas and Dask
 4. **For overall performance**: Polars offers the best balance of speed and resource usage
 
-This project provides practical insights into handling large datasets efficiently, allowing data professionals to make informed decisions about which techniques and libraries to use based on their specific requirements and constraints.
 ---
 ## ✅ Reflection
 
