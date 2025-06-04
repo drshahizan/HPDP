@@ -315,6 +315,11 @@ Output:
 ## 4. Comparative Analysis
 
 ### 4.1 Metrics Used
+| Metric  | Description |
+|----------|----------|
+| Processing Time (s)   | Total time taken to compute the mean purchase price. |
+| Memory Usage (MB)     | Memory consumed during processing (peak or total).   |
+| Throughput (rows/sec)   | Number of rows processed per second.   |
 
 
 ### 4.2 Results Summary
@@ -337,6 +342,42 @@ Output:
 | Polars   | 0   | 0      |                      |
 
 ### 4.3 Discussion
+🔍 Performance Overview
+From the comparative analysis, it is evident that different strategies yield varying levels of performance in terms of memory usage , processing speed , and throughput . Traditional methods like loading the full dataset into memory with Pandas are simple but inefficient for large datasets due to high memory consumption and slower execution times.
+
+🧠 Strategy Insights
+1. Load Less Data
+- Pros : Fast, low memory usage.
+- Cons : May not represent full dataset accurately.
+- Best For : Quick exploratory analysis or prototyping.
+2. Chunked Processing
+- Pros : Handles large files without loading everything at once.
+- Cons : Slower than optimized libraries due to sequential processing.
+- Best For : Limited RAM environments.
+3. Optimize Data Types
+- Pros : Reduces memory usage significantly without sacrificing accuracy.
+- Cons : Slight increase in preprocessing effort.
+- Best For : General-purpose optimization with Pandas.
+4. Sampling
+- Pros : Extremely fast and lightweight.
+- Cons : Provides approximate results only.
+- Best For : Preliminary analysis or hypothesis testing.
+5. Parallel Processing (Dask)
+- Pros : Excellent for out-of-core computation; scales well.
+- Cons : More complex setup and slightly higher memory overhead.
+- Best For : Large datasets exceeding available RAM.
+⚙️ Library Comparison
+
+| Library  |Pandas | Dask | Polars       |
+|----|----------------------------------------|----------------------------------------------------------------------|-------------------------------------------|
+| 1  | Simple and widely used                 | Parallelizes operations and supports lazy evaluation.                |Blazing-fast in-memory processing.         |
+|2   | Not efficient for large-scale data.    | Efficient for large datasets.                                        | Low memory footprint.                     |
+| 3  | High memory usage and moderate speed.  |Slightly slower than Polars but better for distributed computing.     |  Ideal for large datasets fitting in RAM. |
+
+📈 Throughput & Efficiency
+- Polars consistently showed the highest throughput and lowest memory usage.
+- Dask offered a good balance between scalability and performance.
+- Traditional Pandas was the slowest and most memory-intensive.
 
 ---
 
