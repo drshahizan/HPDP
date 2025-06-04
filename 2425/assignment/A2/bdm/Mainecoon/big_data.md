@@ -28,8 +28,8 @@ This project focuses on efficiently managing large datasets using Python and sca
 
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-| **Raw Dataset**              | Original dataset with parking tickets data | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](https://drive.google.com/file/d/1eK8V7xZXzvBDPVBAppC2TzItXCjdHnkr/view?usp=sharing) |
-| **Google Collab**      | Code to load and inspect data              | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](notebooks/data_loading.ipynb) |
+| **Raw Dataset**              | Original dataset with parking tickets data | [![Download](https://img.shields.io/badge/Download-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets?select=Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv)|
+| **Google Collab**      | Code to load and inspect data              | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/Mainecoon/big_data.ipynb) |
 
 
 ---
