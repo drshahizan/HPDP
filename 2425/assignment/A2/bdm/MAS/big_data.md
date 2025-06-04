@@ -168,15 +168,9 @@ print("-" * 50)
 
 ```
 
-```
-Shape: (42448764, 2)
-Memory Usage: 812.49 MB
-Processing Time: 157.33 seconds
-Throughput: 269811 rows/sec
-Mean Purchase Price: 309.56
---------------------------------------------------
+Output: 
 
-```
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/DaskOutput.png)
 
 ### 3.2 Part 2: Comparing Libraries Reading Raw Data
 
