@@ -306,9 +306,9 @@ Output:
 
 | Library | Visualization |
 |---------|---------------|
-| Pandas  |  |  
-| Dask    |  | 
-| Polars  |  |
+| Pandas  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/PandasRawData.png) |  
+| Dask    |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/DaskRawData.png) |
+| Polars  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/PolarsRawData.png) |
 
 ---
 
