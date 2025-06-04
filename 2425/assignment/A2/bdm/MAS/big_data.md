@@ -90,6 +90,39 @@ files.upload()
 
 ### 2.2 Basic Inspection
 
+  ```
+import pandas as pd
+
+# Only load first 10,000 rows to avoid crash
+filename = '2019-Oct.csv'
+df_sample = pd.read_csv(filename)
+
+print("📊" + "="*40)
+print("     🔍 DATASET INSPECTION REPORT")
+print("📊" + "="*40 + "\n")
+
+# Shape
+print("🧾 Shape (Rows, Columns):")
+print(f"    ➤ {df_sample.shape[0]} rows, {df_sample.shape[1]} columns\n")
+
+# Column Names
+print("📌 Column Names:")
+print("    ➤ " + "\n    ➤ ".join(df_sample.columns.tolist()) + "\n")
+
+# Data Types
+print("⚙️ Data Types:")
+for col, dtype in df_sample.dtypes.items():
+    print(f"    ➤ {col.ljust(20)} : {dtype}")
+print()
+
+# Memory Usage
+print("💾 Memory Usage (MB):")
+mem_usage = df_sample.memory_usage(deep=True) / (1024 ** 2)
+for col, usage in mem_usage.items():
+    print(f"    ➤ {col.ljust(20)} : {usage:.4f} MB")
+print(f"\n    🧮 Total Memory : {mem_usage.sum():.4f} MB")
+
+```
 
 ---
 
