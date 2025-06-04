@@ -78,9 +78,118 @@ To demonstrate effective big data handling by:
 - (You can add more tools here as you progress)
 ### Task 2: Load and Inspect Data
 ---
+In this task, we focus on importing the large dataset into the environment, tracking performance metrics (execution time and memory usage), and performing a basic inspection of the data structure.
+
+
+- Import relevant libraries/frameworks
+- Load the dataset into Google Colab
+- Calculate execution time and memory used
+
+Code Snippet 
+```python
+import pandas as pd
+import time
+import psutil
+import os
+
+# Start time and memory usage
+start_time = time.time()
+process = psutil.Process(os.getpid())
+start_memory = process.memory_info().rss / 1024 ** 2
+
+# Load the dataset
+file_path = '/content/2007.csv'
+df = pd.read_csv(file_path)
+
+# End time and memory usage
+end_time = time.time()
+end_memory = process.memory_info().rss / 1024 ** 2
+
+# Calculate execution time and memory usage
+execution_time_normal = end_time - start_time
+memory_used_normal = end_memory - start_memory
+
+print(f"Execution Time: {execution_time_normal:.2f} seconds")
+print(f"Memory Used: {memory_used_normal:.2f} MB")
+```
+
+The output 
+```
+Performance Metrics
+Execution Time: 32.53 seconds
+Memory Used: 1636.44 MB
+```
+
+- Find relevant information(shape, columns names, datatypes)
+```
+print("Shape (Rows, Columns):")
+print(df.shape)
+
+print()
+print("nColumn Names:")
+print(df.columns.tolist())
+
+print()
+print("nData Types:")
+print(df.dtypes)
+```
+
+The Output : 
+```
+Shape (Rows, Columns):
+(7453215, 29)
+
+nColumn Names:
+['Year', 'Month', 'DayofMonth', 'DayOfWeek', 'DepTime', 'CRSDepTime', 'ArrTime', 'CRSArrTime', 'UniqueCarrier', 'FlightNum', 'TailNum', 'ActualElapsedTime', 'CRSElapsedTime', 'AirTime', 'ArrDelay', 'DepDelay', 'Origin', 'Dest', 'Distance', 'TaxiIn', 'TaxiOut', 'Cancelled', 'CancellationCode', 'Diverted', 'CarrierDelay', 'WeatherDelay', 'NASDelay', 'SecurityDelay', 'LateAircraftDelay']
+
+nData Types:
+Year                   int64
+Month                  int64
+DayofMonth             int64
+DayOfWeek              int64
+DepTime              float64
+CRSDepTime             int64
+ArrTime              float64
+CRSArrTime             int64
+UniqueCarrier         object
+FlightNum              int64
+TailNum               object
+ActualElapsedTime    float64
+CRSElapsedTime       float64
+AirTime              float64
+ArrDelay             float64
+DepDelay             float64
+Origin                object
+Dest                  object
+Distance               int64
+TaxiIn                 int64
+TaxiOut                int64
+Cancelled              int64
+CancellationCode      object
+Diverted               int64
+CarrierDelay           int64
+WeatherDelay           int64
+NASDelay               int64
+SecurityDelay          int64
+LateAircraftDelay      int64
+dtype: object
+```
+
 
 ### Task 3: Apply Big Data Handling Strategies
 ---
+
+In this part, we used five strategies to work with our large dataset to observe the result of the performance of using different strategies applying to handle big dataset. These methods help save time, memory, and make processing faster.
+
+#### 1. Load Less Data
+#### 2. Load Less Data
+#### 3. Load Less Data
+#### 4. Load Less Data
+#### 5. Load Less Data
+
+
+
+
 
 ### Task 4: Comparative Analysis
 ![image](https://raw.githubusercontent.com/MuhammadImanFirdaus/Photos/refs/heads/main/Screenshot%202025-06-03%20004351.png?token=GHSAT0AAAAAADDVYJY73HAMPXRANPUDRCCE2B54MQQ)
