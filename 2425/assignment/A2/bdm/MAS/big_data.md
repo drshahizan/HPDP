@@ -226,7 +226,7 @@ results.append(print_strategy_results("Strategy 5a: Dask Processing", dask_resul
 
 Output: 
 
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/DaskOutput.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/Dask.png)
 
 - **Parallel Processing with Polars**<br>
 
@@ -277,21 +277,21 @@ Output:
 
 | **Strategies / Metrics**      | **Memory Usage (MB)** | **Execution Time (s)** | **Execution Time (s)** |
 |------------------------------|--------------------|--------------|------------------------|
-| **Load Less Data** | 6.58679   |           0.00918031 |             1.08929e+07               |
-| **Optimize Data Types**        | 0.477244  |           0.00191927 |             5.21032e+07                |
-| **Sampling** | 0.0126791 |           0.00188279 |        531126   |
-| **Chunked Processing** | 0.477244  |          74.4943     |          9971.89    |
-| **Dask** | 812.491     |         226.977      |        187018            |
-| **Polars** |488.621     |          18.8699     |             2.24955e+06            |
+| **Load Less Data**       | 6.59   |  0.091 | 1096665  |
+| **Optimize Data Types**  | 0.48   |  0.004 | 20500020 |
+| **Sampling**             | 0.01   |  0.001 | 531126   |
+| **Chunked Processing**   | 0.48   | 76.22  | 9746     |
+| **Dask**                 | 812.49 | 215.79 | 196717   |
+| **Polars**               |488.62  | 36.47  | 1163987  |
 
 
 #### Part 2: Library Comparison
 
 | Library  | Time (s) | Memory (MB) | Throughput (records/sec)       |
 |----------|----------|-------------|--------------------------------|
-| Pandas   | 0 | 0     | 0                    |
-| Dask     | 0   | 0     | 0                 |
-| Polars   | 0   | 0      |                      |
+| Pandas   | 131.9022 | 2796.11     | 321820.01                   |
+| Dask     | 0.48   | 37.07     | 206332                 |
+| Polars   |0.42  |    0.13   |       237443               |
 
 ### 4.3 Discussion
 🔍 Performance Overview
@@ -299,7 +299,7 @@ From the comparative analysis, it is evident that different strategies yield var
 
 🧠 Strategy Insights
 
-| Library  | Pros | Cons | Best For       |
+| Method  | Pros | Cons | Best For       |
 |----------|----------|-------------|--------------------------------|
 | Load Less Data   | Fast, low memory usage | May not represent full dataset accurately     | Quick exploratory analysis or prototyping                    |
 | Optimize Data Types     | Reduces memory usage significantly without sacrificing accuracy   | Slight increase in preprocessing effort     |  General-purpose optimization with Pandas                 |
@@ -362,6 +362,11 @@ Each data-handling strategy has its own strengths and weaknesses depending on sy
 
 #### Maisarah Binti Rizal
 
+As I reflect on the completion of this assignment, I am proud of the progress I’ve made in understanding and applying different data processing strategies to handle large datasets efficiently. This project has not only deepened my technical knowledge but also sharpened my problem-solving skills when working with real-world e-commerce data.
+At the beginning of the assignment, I found myself relying heavily on traditional methods such as loading full datasets into memory using Pandas. While this approach was straightforward, it quickly became apparent that it wasn't scalable for large files due to high memory usage and slower execution times.
+I particularly enjoyed learning how to benchmark each strategy by measuring metrics like processing time, memory usage, and throughput. Visualizing these results in tables and graphs helped me better understand trade-offs between accuracy, speed, and resource usage.
+This experience has reinforced the importance of choosing the right tool and technique for the task at hand. It also highlighted the value of iterative experimentation—trying different approaches, analyzing their impact, and refining them for better outcomes.
+Overall, this assignment has been a valuable learning journey that I will carry forward into future data analysis and engineering tasks. I look forward to exploring even more advanced tools and techniques in my upcoming projects.
 
 #### Nadhrah NurSabrina Binti Zulaini
 
@@ -378,6 +383,8 @@ In the end, this assignment reiterated the value of selecting the most appropria
 ---
 ## 6. References
 
+1. eCommerce behavior data from multi category store. (2019, December 9). Kaggle. https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store/data?select=2019-Oct.csv
 
+2. Narayan, N. (2023, May 28). Data processing at scale: comparison of pandas, polars, and Dask. Medium. https://medium.com/@nandeda.narayan/data-processing-at-scale-comparison-of-pandas-polars-and-dask-333ae65c0a45 
 
 
