@@ -44,7 +44,7 @@ Then, we extend the analysis by exploring **scalable data tools** like **Dask** 
 
 ---
 
-### 🛠️ Libraries Used (Phase 1)
+### 🛠️ Libraries Used
 
 | Library  | Purpose                        |
 | -------- | ------------------------------ |
