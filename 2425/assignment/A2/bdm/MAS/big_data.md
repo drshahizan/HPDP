@@ -326,11 +326,14 @@ Output:
 
 #### Part 1: Strategy Comparison
 
-| **Strategies / Metrics**      | **Load Less Data** | **Chunking** | **Optimise Data Type** | **Sampling** | **Parallel Processing with Dask** |
-|------------------------------|--------------------|--------------|------------------------|--------------|-------------------------------|
-| **Processing Time (seconds)** | 0            | 0      | 0                | 0       | 0                    |
-| **Memory Usage (MB)**        | 0            | 0      | 0                | 0        | 0                      |
-| **Throughput (records/sec)** | 0         | 0    | 0             | 0    | 0                    |
+| **Strategies / Metrics**      | **Memory Usage (MB)** | **Execution Time (s)** | **Execution Time (s)** |
+|------------------------------|--------------------|--------------|------------------------|
+| **Load Less Data** | 6.58679   |           0.00918031 |             1.08929e+07               |
+| **Optimize Data Types**        | 0.477244  |           0.00191927 |             5.21032e+07                |
+| **Sampling** | 0.0126791 |           0.00188279 |        531126   |
+| **Chunked Processing** | 0.477244  |          74.4943     |          9971.89    |
+| **Dask** | 812.491     |         226.977      |        187018            |
+| **Polars** |488.621     |          18.8699     |             2.24955e+06            |
 
 
 #### Part 2: Library Comparison
