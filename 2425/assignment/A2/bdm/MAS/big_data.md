@@ -45,6 +45,7 @@ This project's key aims include:
 - **Domain:** The dataset falls under the E-Commerce / Retail domain, focusing on user behavior tracking in an online multi-category store. It provides insights into how users interact with products across different categories and brands. 
 - **Number of Records:** Over 10 millions entries (42448764rows x 9 columns)
 - **Features/Columns:**
+
 | Column Name       | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
 | `event_time`      | Time when event happened (in UTC)                                           |
