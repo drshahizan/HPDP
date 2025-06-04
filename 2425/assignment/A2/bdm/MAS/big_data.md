@@ -132,15 +132,144 @@ Output:
 ## 3. Big Data Handling Strategies
 
 ### 3.1 Part 1: Strategies with Pandas & Dask
-**3.1.1 Load Less Data**<br>
+- **Load Less Data**<br>
+```
+usecols = ['event_type', 'price']
 
-- **Chunking**<br>
+df_lite = pd.read_csv(
+    '2019-Oct.csv',
+    usecols=usecols,
+    nrows=100_000
+)
 
+import time
+
+start_time = time.time()
+mean_price_lite = compute_mean_purchase_price(df_lite)
+exec_time_lite = time.time() - start_time
+
+throughput_lite = len(df_lite) / exec_time_lite if exec_time_lite > 0 else float('nan')
+
+print_strategy_results(
+    "Load Less Data",
+    mean_price_lite,
+    df_lite.memory_usage(deep=True).sum() / (1024 ** 2),
+    exec_time_lite,
+    throughput_lite
+)
+
+```
+Output: 
+
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/LoadLessData.png)
 
 - **Optimize Data Types**<br>
 
+```
+dtype_mapping = {
+    'event_type': 'category',
+    'price': 'float32'
+}
+
+df_optimized = pd.read_csv(
+    '2019-Oct.csv',
+    usecols=usecols,
+    dtype=dtype_mapping,
+    nrows=100_000
+)
+
+start_time = time.time()
+mean_price_optimized = compute_mean_purchase_price(df_optimized)
+exec_time_optimized = time.time() - start_time
+
+throughput_optimized = len(df_optimized) / exec_time_optimized if exec_time_optimized > 0 else float('nan')
+
+print_strategy_results(
+    "Optimize Data Types",
+    mean_price_optimized,
+    df_optimized.memory_usage(deep=True).sum() / (1024 ** 2),
+    exec_time_optimized,
+    throughput_optimized
+)
+```
+Output: 
+
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/OptimizeDataType.png)
 
 - **Sampling**<br>
+
+```
+df_sample = pd.read_csv(
+    '2019-Oct.csv',
+    usecols=usecols,
+    dtype=dtype_mapping,
+    nrows=100_000  # Optional: limit rows for speed
+)
+
+df_sample = df_sample.sample(frac=0.01, random_state=42)
+
+start_time = time.time()
+mean_price_sample = compute_mean_purchase_price(df_sample)
+exec_time_sample = time.time() - start_time
+
+throughput_sample = len(df_sample) / exec_time_sample if exec_time_sample > 0 else float('nan')
+
+print_strategy_results(
+    "Sampling",
+    mean_price_sample,
+    df_sample.memory_usage(deep=True).sum() / (1024 ** 2),
+    exec_time_sample,
+    throughput_sample
+)
+```
+Output: 
+
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Sampling.png)
+
+- **Chunking**<br>
+
+```
+import time
+
+start_time = time.time()
+
+chunksize = 100_000
+total_sum = 0
+total_count = 0
+peak_memory = 0  # Initialize before loop
+
+for chunk in pd.read_csv(
+    '2019-Oct.csv',
+    usecols=['event_type', 'price'],
+    dtype={'event_type': 'category', 'price': 'float32'},
+    chunksize=chunksize
+):
+    # Measure memory usage of current chunk
+    mem = chunk.memory_usage(deep=True).sum() / (1024 ** 2)
+    if mem > peak_memory:
+        peak_memory = mem
+
+    # Apply filtering
+    filtered_chunk = chunk[chunk['event_type'] == TARGET_EVENT_TYPE]
+
+    # Aggregate
+    total_sum += filtered_chunk['price'].sum()
+    total_count += len(filtered_chunk)
+
+# Final result
+mean_price_chunked = total_sum / total_count
+exec_time_chunked = time.time() - start_time
+print_strategy_results(
+    "Chunked Processing",
+    mean_price_chunked,
+    peak_memory,
+    exec_time_chunked,
+    total_count / exec_time_chunked if exec_time_chunked > 0 else 0
+)
+```
+Output: 
+
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Chunking.png)
 
 
 - **Parallel Processing with Dask**<br>
