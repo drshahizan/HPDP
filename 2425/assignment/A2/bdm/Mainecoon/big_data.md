@@ -116,6 +116,9 @@ We evaluate five different data handling strategies:
 - **Data Type Optimization**: Reducing memory usage through appropriate data types
 - **Sampling**: Working with representative subsets of data
 - **Parallel Computing**: Leveraging Dask for distributed processing
+  
+  ![image](https://github.com/user-attachments/assets/484c85af-55b9-4e39-832c-2d5dc5b9f9ba)
+
 
 | Strategy | Time (s) | Memory Usage (MB) |
 |----------|----------|-------------------|
@@ -125,11 +128,17 @@ We evaluate five different data handling strategies:
 | Optimize Data Types | 29.204340 | 1362.585938 |
 | Load Less Data | 51.030053 | 1593.628906 |
 
+![image](https://github.com/user-attachments/assets/eed8cb95-6c4d-4e38-a396-6e0356dec673)
+
+
 **🔥BEST OVERALL TECHNIQUE: SAMPLING🔥**
-- Fastest Method: Chunking (0.41s)
+- Fastest Method: Sampling (0.41s)
 - Most Memory Efficient: Optimize Data Types (1362.59 MB)
 - Best Overall: Sampling (balancing speed and memory usage with composite score of 0.0061)
-  
+
+  ![image](https://github.com/user-attachments/assets/ded344dc-2a0c-400d-a686-36bd5d77b70d)
+  ![image](https://github.com/user-attachments/assets/3c075c68-c792-4109-9b88-6b750c1ad735)
+
 ---
 
 ## 🔗 Part 2 - Library Comparison
@@ -138,12 +147,17 @@ We benchmark three popular data processing libraries:
 - **Pandas**: Standard data manipulation library
 - **Dask**: Parallel and out-of-core processing
 - **Polars**: Lightning-fast DataFrame library using Rust backend
-  
+
+  ![image](https://github.com/user-attachments/assets/45d1af84-b06f-4687-ba73-97c02b77868f)
+
 | Library | Time (s) | Memory (MB) | Rows/Second |
 |---------|----------|-------------|-------------|
 | Pandas | 39.828707 | 463.757812  | 271237.227715 |
 | Dask | 47.012909 | 626.562500 | 229788.546265 |
 | Polars | 17.504646 | 585.519531 | 617152.030042 |
+
+![image](https://github.com/user-attachments/assets/a4ba7dd2-86a4-4cc8-9d99-4e8946f4e8f5)
+
 
 **🔥BEST OVERALL LIBRARY: POLARS🔥**
 - Fastest Library: Polars (17.50s)
@@ -153,6 +167,9 @@ We benchmark three popular data processing libraries:
 - Time Performance: 17.50x better than average
 - Memory Efficiency: 585.52x better than average
 - Processing Speed: 1.00x better than average
+  
+  ![image](https://github.com/user-attachments/assets/67c2dcb9-50ef-4067-bb2a-6d8563938e89)
+
 ---
 
 ## 📈 Benefits and Limitations of Each Method
