@@ -1,10 +1,19 @@
-# Assignment 2: Big Data Handling and Optimization Using 2009 Airline On Time Data 
-## 👥 Group Members
+# <div align='center'>📘 Assignment 2: Mastering Big Data Handling Using 2009 Airline On Time Data </div>
 
-| Name               | Matric Number |
-|--------------------|---------------|
-| Muhammad Iman Firdaus Bin Baharuddin        | A22EC0216       |
-| Muhammad Ariff Danish Bin Hashnan         | A22EC0204       |
+<table border="solid" align="center">
+  <tr>
+    <th>Name</th>
+    <th>Matric Number</th>
+  </tr>
+  <tr>
+    <td width=80%>Muhammad Ariff Danish Bin Hashnan</td>
+    <td>A22EC0204</td>
+  </tr>
+  <tr>
+    <td width=80%>Muhammad Iman Firdaus Bin Baharuddin</td>
+    <td>A22EC0216</td>
+  </tr>
+</table>
 
 ---
 
@@ -13,11 +22,6 @@
 In today's data-centric landscape, managing and processing large datasets has become a critical skill for data professionals. Traditional tools often struggle with memory and speed limitations when handling data volumes exceeding several hundred megabytes. This project—Assignment 2: Mastering Big Data Handling—provides practical experience in overcoming such limitations by applying scalable data processing techniques using Python and modern data libraries.
 
 The project utilizes a real-world dataset, the 2007 U.S. Airline On-Time Performance Data, which is over 2GB in size and contains more than 7 million rows. The goal is to explore various strategies for efficient big data handling and compare their performance against traditional methods.
-
-
-## 📌 Key Observations
-### ✅ Benefits & Limitations of Each Method
----
 
 ## 🧪 Tasks & Implementation
 
