@@ -126,7 +126,6 @@ print(f"\n    🧮 Total Memory : {mem_usage.sum():.4f} MB")
 
 Output:
 
-![image](2425/assignment/A2/bdm/MAS/RawDataOutput.png)
 
 ---
 
