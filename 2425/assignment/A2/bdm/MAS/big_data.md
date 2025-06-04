@@ -145,6 +145,38 @@ Output:
 
 - **Parallel Processing with Dask**<br>
 
+```
+start_time = time.time()
+
+# Read CSV with Dask
+ddf = dd.read_csv(filename, usecols=['event_type', 'price'])
+
+# Filter and compute mean
+mean_price_after = ddf[ddf['event_type'] == TARGET_EVENT_TYPE][MEASUREMENT_COLUMN].mean().compute()
+
+shape_after = (len(ddf), len(ddf.columns))
+time_after = time.time() - start_time
+mem_after = ddf.memory_usage(index=True, deep=True).sum().compute() / (1024 ** 2)
+throughput_after = shape_after[0] / time_after if time_after > 0 else 0
+
+print(f"Shape: {shape_after}")
+print(f"Memory Usage: {mem_after:.2f} MB")
+print(f"Processing Time: {time_after:.2f} seconds")
+print(f"Throughput: {throughput_after:.0f} rows/sec")
+print(f"Mean Purchase Price: {mean_price_after:.2f}")
+print("-" * 50)
+
+```
+
+```
+Shape: (42448764, 2)
+Memory Usage: 812.49 MB
+Processing Time: 157.33 seconds
+Throughput: 269811 rows/sec
+Mean Purchase Price: 309.56
+--------------------------------------------------
+
+```
 
 ### 3.2 Part 2: Comparing Libraries Reading Raw Data
 
