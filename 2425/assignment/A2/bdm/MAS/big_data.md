@@ -123,7 +123,7 @@ for col, usage in mem_usage.items():
 print(f"\n    🧮 Total Memory : {mem_usage.sum():.4f} MB")
 
 ```
-[image]2425/assignment/A2/bdm/MAS/RawDataOutput.png
+
 ---
 
 ## 3. Big Data Handling Strategies
