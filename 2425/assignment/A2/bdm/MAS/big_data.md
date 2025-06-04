@@ -40,11 +40,19 @@ This project's key aims include:
 
 ### 1.3 Dataset Source
 - **Dataset:** eCommerce behavior data from multi category store
-- **Source:** [Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store))
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store)
 - **Size:** 5.67GB (2019-Oct.csv)
-- **Number of Records:**
+- **Number of Records:** Over 10 millions entries (42448764rows x 9 columns)
 - **Features/Columns:** 
-
+  - event_time: Time when event happened at (in UTC).
+  - event_type: Only one kind of event: purchase.
+  - product_id: ID of a product
+  - category_id:Product's category ID
+  - category_code: Product's category taxonomy (code name) if it was possible to make it. Usually present for meaningful categories and skipped for different kinds of accessories.
+  - brand: Downcased string of brand name. Can be missed.
+  - price: Float price of a product. Present.
+  - user_id: Permanent user ID.
+  - user_session: Temporary user's session ID. Same for each user's session. Is changed every time user come back to online store from a long pause.
 ---
 </div>
 
