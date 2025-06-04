@@ -275,7 +275,7 @@ Output:
 
 #### Part 1: Strategy Comparison
 
-| **Strategies / Metrics**      | **Memory Usage (MB)** | **Execution Time (s)** | **Execution Time (s)** |
+| **Strategies / Metrics**      | **Memory Usage (MB)** | **Execution Time (s)** | **Throughput (records/sec)** |
 |------------------------------|--------------------|--------------|------------------------|
 | **Load Less Data**       | 6.59   |  0.091 | 1096665  |
 | **Optimize Data Types**  | 0.48   |  0.004 | 20500020 |
@@ -283,6 +283,13 @@ Output:
 | **Chunked Processing**   | 0.48   | 76.22  | 9746     |
 | **Dask**                 | 812.49 | 215.79 | 196717   |
 | **Polars**               |488.62  | 36.47  | 1163987  |
+
+**Charts**
+| Metrics | Visualization |
+|---------|---------------|
+| Memory Usage  |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/MemoryUsage.png) |  
+| Execution Time    |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/ExecutionTime.png) |
+| Throughput   |![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/Throughput.png) |
 
 
 #### Part 2: Library Comparison
@@ -306,6 +313,8 @@ From the comparative analysis, it is evident that different strategies yield var
 | Sampling   | Extremely fast and lightweight  | Provides approximate results only      |  Preliminary analysis or hypothesis testing                    |
 | Chunking   | Handles large files without loading everything at once  | Slower than optimized libraries due to sequential processing      |  Limited RAM environments                    |
 | Parallel Processing (Dask)   | Excellent for out-of-core computation; scales well   | More complex setup and slightly higher memory overhead     |  Large datasets exceeding available RAM                    |
+| Parallel Processing (Polars)  |Blazing-fast performance, very low memory footprint, easy syntax | Requires data to fit in RAM |High-performance analytics on large datasets that fit in memory|
+
 
 
 ⚙️ Library Comparison
