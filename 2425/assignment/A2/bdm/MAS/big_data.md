@@ -194,7 +194,7 @@ print_strategy_results(
 ```
 Output: 
 
-![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/OptimizeDataType.png)
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/OptimizeDataTypes.png)
 
 - **Sampling**<br>
 
