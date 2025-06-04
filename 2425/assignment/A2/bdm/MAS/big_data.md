@@ -123,7 +123,8 @@ for col, usage in mem_usage.items():
 print(f"\n    🧮 Total Memory : {mem_usage.sum():.4f} MB")
 
 ```
-
+OUTPUT:
+[image]https://github.com/drshahizan/HPDP/commit/49f6d1903abf7326f8d12cad43a77086d210d11e
 ---
 
 ## 3. Big Data Handling Strategies
