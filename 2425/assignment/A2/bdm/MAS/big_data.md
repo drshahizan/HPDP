@@ -134,30 +134,14 @@ Output:
 ### 3.1 Part 1: Strategies with Pandas & Dask
 - **Load Less Data**<br>
 ```
-usecols = ['event_type', 'price']
-
-df_lite = pd.read_csv(
-    '2019-Oct.csv',
-    usecols=usecols,
-    nrows=100_000
-)
-
-import time
-
-start_time = time.time()
-mean_price_lite = compute_mean_purchase_price(df_lite)
-exec_time_lite = time.time() - start_time
-
-throughput_lite = len(df_lite) / exec_time_lite if exec_time_lite > 0 else float('nan')
-
-print_strategy_results(
-    "Load Less Data",
-    mean_price_lite,
-    df_lite.memory_usage(deep=True).sum() / (1024 ** 2),
-    exec_time_lite,
-    throughput_lite
-)
-
+# 📊 Strategy 1: Load Less Data
+df_lite = pd.read_csv(FILENAME, usecols=USECOLS, nrows=100_000)
+start = time.time()
+mean_lite = compute_mean_purchase_price(df_lite)
+time_lite = time.time() - start
+mem_lite = df_lite.memory_usage(deep=True).sum() / (1024 ** 2)
+throughput_lite = len(df_lite) / time_lite if time_lite > 0 else float('nan')
+results.append(print_strategy_results("Strategy 1: Load Less Data", mean_lite, mem_lite, time_lite, throughput_lite))
 ```
 Output: 
 
@@ -166,31 +150,14 @@ Output:
 - **Optimize Data Types**<br>
 
 ```
-dtype_mapping = {
-    'event_type': 'category',
-    'price': 'float32'
-}
-
-df_optimized = pd.read_csv(
-    '2019-Oct.csv',
-    usecols=usecols,
-    dtype=dtype_mapping,
-    nrows=100_000
-)
-
-start_time = time.time()
-mean_price_optimized = compute_mean_purchase_price(df_optimized)
-exec_time_optimized = time.time() - start_time
-
-throughput_optimized = len(df_optimized) / exec_time_optimized if exec_time_optimized > 0 else float('nan')
-
-print_strategy_results(
-    "Optimize Data Types",
-    mean_price_optimized,
-    df_optimized.memory_usage(deep=True).sum() / (1024 ** 2),
-    exec_time_optimized,
-    throughput_optimized
-)
+# 📊 Strategy 2: Optimize Data Types
+df_optimized = pd.read_csv(FILENAME, usecols=USECOLS, dtype=DTYPE_MAP, nrows=100_000)
+start = time.time()
+mean_opt = compute_mean_purchase_price(df_optimized)
+time_opt = time.time() - start
+mem_opt = df_optimized.memory_usage(deep=True).sum() / (1024 ** 2)
+throughput_opt = len(df_optimized) / time_opt if time_opt > 0 else float('nan')
+results.append(print_strategy_results("Strategy 2: Optimize Data Types", mean_opt, mem_opt, time_opt, throughput_opt))
 ```
 Output: 
 
@@ -199,28 +166,14 @@ Output:
 - **Sampling**<br>
 
 ```
-df_sample = pd.read_csv(
-    '2019-Oct.csv',
-    usecols=usecols,
-    dtype=dtype_mapping,
-    nrows=100_000  # Optional: limit rows for speed
-)
-
-df_sample = df_sample.sample(frac=0.01, random_state=42)
-
-start_time = time.time()
-mean_price_sample = compute_mean_purchase_price(df_sample)
-exec_time_sample = time.time() - start_time
-
-throughput_sample = len(df_sample) / exec_time_sample if exec_time_sample > 0 else float('nan')
-
-print_strategy_results(
-    "Sampling",
-    mean_price_sample,
-    df_sample.memory_usage(deep=True).sum() / (1024 ** 2),
-    exec_time_sample,
-    throughput_sample
-)
+# 📊 Strategy 3: Sampling
+df_sampled = df_optimized.sample(frac=0.01, random_state=42)
+start = time.time()
+mean_samp = compute_mean_purchase_price(df_sampled)
+time_samp = time.time() - start
+mem_samp = df_sampled.memory_usage(deep=True).sum() / (1024 ** 2)
+throughput_samp = len(df_sampled) / time_samp if time_samp > 0 else float('nan')
+results.append(print_strategy_results("Strategy 3: Sampling", mean_samp, mem_samp, time_samp, throughput_samp))
 ```
 Output: 
 
@@ -229,43 +182,23 @@ Output:
 - **Chunking**<br>
 
 ```
-import time
-
-start_time = time.time()
-
-chunksize = 100_000
+# 📊 Strategy 4: Chunked Processing
 total_sum = 0
 total_count = 0
-peak_memory = 0  # Initialize before loop
+peak_mem = 0
+start = time.time()
 
-for chunk in pd.read_csv(
-    '2019-Oct.csv',
-    usecols=['event_type', 'price'],
-    dtype={'event_type': 'category', 'price': 'float32'},
-    chunksize=chunksize
-):
-    # Measure memory usage of current chunk
+for chunk in pd.read_csv(FILENAME, usecols=USECOLS, dtype=DTYPE_MAP, chunksize=CHUNKSIZE):
+    filtered = chunk[chunk['event_type'] == TARGET_EVENT_TYPE]
+    total_sum += filtered['price'].sum()
+    total_count += len(filtered)
     mem = chunk.memory_usage(deep=True).sum() / (1024 ** 2)
-    if mem > peak_memory:
-        peak_memory = mem
+    peak_mem = max(peak_mem, mem)
 
-    # Apply filtering
-    filtered_chunk = chunk[chunk['event_type'] == TARGET_EVENT_TYPE]
-
-    # Aggregate
-    total_sum += filtered_chunk['price'].sum()
-    total_count += len(filtered_chunk)
-
-# Final result
-mean_price_chunked = total_sum / total_count
-exec_time_chunked = time.time() - start_time
-print_strategy_results(
-    "Chunked Processing",
-    mean_price_chunked,
-    peak_memory,
-    exec_time_chunked,
-    total_count / exec_time_chunked if exec_time_chunked > 0 else 0
-)
+mean_chunk = total_sum / total_count
+time_chunk = time.time() - start
+throughput_chunk = total_count / time_chunk if time_chunk > 0 else float('nan')
+results.append(print_strategy_results("Strategy 4: Chunked Processing", mean_chunk, peak_mem, time_chunk, throughput_chunk))
 ```
 Output: 
 
@@ -300,6 +233,29 @@ print("-" * 50)
 Output: 
 
 ![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/DaskOutput.png)
+
+- **Parallel Processing with Polars**<br>
+
+```
+# Strategy 5b: Polars
+def run_polars():
+    start = time.time()
+    df_pl = pl.read_csv(FILENAME, columns=USECOLS)
+    mean = df_pl.filter(pl.col('event_type') == TARGET_EVENT_TYPE)[MEASUREMENT_COLUMN].cast(pl.Float64).mean()
+    shape = df_pl.shape
+    mem = df_pl.estimated_size() / (1024 ** 2)
+    t = time.time() - start
+    throughput = shape[0] / t if t > 0 else float('nan')
+    return {"mean": mean, "shape": shape, "mem": mem, "time": t, "throughput": throughput}
+
+polars_result = run_polars()
+results.append(print_strategy_results("Strategy 5b: Polars Processing", polars_result["mean"], polars_result["mem"], polars_result["time"], polars_result["throughput"]))
+
+```
+
+Output: 
+
+![image](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/MAS/Output/Polars.png)
 
 ### 3.2 Part 2: Comparing Libraries Reading Raw Data
 
