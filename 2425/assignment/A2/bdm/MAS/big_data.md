@@ -250,7 +250,6 @@ def run_polars():
 
 polars_result = run_polars()
 results.append(print_strategy_results("Strategy 5b: Polars Processing", polars_result["mean"], polars_result["mem"], polars_result["time"], polars_result["throughput"]))
-
 ```
 
 Output: 
