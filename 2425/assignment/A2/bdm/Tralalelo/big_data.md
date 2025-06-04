@@ -276,6 +276,14 @@ Dask improved performance for large datasets, but it can introduce some overhead
 
 ---
 
+### References
+
+- **Pandas Documentation**: [https://pandas.pydata.org/pandas-docs/stable/](https://pandas.pydata.org/pandas-docs/stable/)
+- **Dask Documentation**: [https://docs.dask.org/en/stable/](https://docs.dask.org/en/stable/)
+- **Polars Documentation**: [https://pola-rs.github.io/polars-book/](https://pola-rs.github.io/polars-book/)
+- **Amazon Books Reviews Dataset**: [https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
+
+
 ### 📁 File and Folder Structure
 
 Place your files in your respective group folder inside the `bdm/` directory as follows:
