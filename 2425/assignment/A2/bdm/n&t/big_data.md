@@ -426,7 +426,7 @@ The chart on the right shows how much memory each library uses. Polars once agai
 ## 6. 🧠 Conclusion & Reflection
 
 ### 🔑 Key Takeaways
-* **Traditional loading (Pandas)** of large datasets is straightforward but can be very costly in both **time )** and **memory **.
+* **Traditional loading (Pandas)** of large datasets is straightforward but can be very costly in both **time** and **memory**.
 * **Loading less data** significantly reduces memory usage and improves speed, making it a practical first step for quick insights or testing.
 * **Chunking** allows for scalable processing of large files without overwhelming memory, while still preserving full dataset access.
 * **Optimizing data types during load** drastically cuts memory usage but may come with longer loading time due to parsing and type conversion.
