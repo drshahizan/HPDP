@@ -47,6 +47,9 @@ This project focuses on efficiently managing large datasets using Python and sca
 ## 🔗 Data Details
 
 - **Original Dataset**: Contains over **10,803,028 rows** of data and **43 columns** related to parking violations in NYC.
+- **Title**: NYC Parking Violations Issued - Fiscal Year 2017
+- **Source**: [NYC Open Data](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets)
+- **Size**: ~1.4 GB (uncompressed CSV)
 
 ### Columns
 
@@ -106,9 +109,50 @@ This dataset contains detailed information about parking violations in New York 
 ---
 
 ## 🔗 Part 1 - Technique Comparison
+
+We evaluate five different data handling strategies:
+- **Load Less Data**: Selecting only necessary columns
+- **Chunking**: Processing data in smaller, manageable pieces
+- **Data Type Optimization**: Reducing memory usage through appropriate data types
+- **Sampling**: Working with representative subsets of data
+- **Parallel Computing**: Leveraging Dask for distributed processing
+
+| Strategy | Time (s) | Memory Usage (MB) |
+|----------|----------|-------------------|
+| Chunking | 0.409643 | 1602.972656 |
+| Sampling | 0.697728 | 1364.191406 |
+| Parallel Processing (Dask) | 1.513881 | 1612.601562 |
+| Optimize Data Types | 29.204340 | 1362.585938 |
+| Load Less Data | 51.030053 | 1593.628906 |
+
+**🔥BEST OVERALL TECHNIQUE: SAMPLING🔥**
+- Fastest Method: Chunking (0.41s)
+- Most Memory Efficient: Optimize Data Types (1362.59 MB)
+- Best Overall: Sampling (balancing speed and memory usage with composite score of 0.0061)
+  
 ---
 
 ## 🔗 Part 2 - Library Comparison
+
+We benchmark three popular data processing libraries:
+- **Pandas**: Standard data manipulation library
+- **Dask**: Parallel and out-of-core processing
+- **Polars**: Lightning-fast DataFrame library using Rust backend
+  
+| Library | Time (s) | Memory (MB) | Rows/Second |
+|---------|----------|-------------|-------------|
+| Pandas | 39.828707 | 463.757812  | 271237.227715 |
+| Dask | 47.012909 | 626.562500 | 229788.546265 |
+| Polars | 17.504646 | 585.519531 | 617152.030042 |
+
+**🔥BEST OVERALL LIBRARY: POLARS🔥**
+- Fastest Library: Polars (17.50s)
+- Most Memory Efficient: Pandas (463.76 MB)
+- Best Processing Speed: Polars (617,152 rows/second)
+- Combined Score: 0.323
+- Time Performance: 17.50x better than average
+- Memory Efficiency: 585.52x better than average
+- Processing Speed: 1.00x better than average
 ---
 
 ## 📈 Benefits and Limitations of Each Method
@@ -138,7 +182,17 @@ This dataset contains detailed information about parking violations in New York 
   - May require adjustments for compatibility with existing Pandas-based workflows.
 
 ---
+## 🔍 Conclusion
 
+Our analysis demonstrates that:
+
+1. **For quick exploratory analysis**: Chunking and sampling are most efficient
+2. **For memory-constrained environments**: Data type optimization provides the best results
+3. **For processing speed**: Polars outperforms both Pandas and Dask
+4. **For overall performance**: Polars offers the best balance of speed and resource usage
+
+This project provides practical insights into handling large datasets efficiently, allowing data professionals to make informed decisions about which techniques and libraries to use based on their specific requirements and constraints.
+---
 ## ✅ Reflection
 
 This assignment enhanced our understanding of big data handling techniques. We learned the importance of choosing the right tools for specific tasks, especially when dealing with large datasets. The experience reinforced the need for efficient data processing strategies to extract meaningful insights without compromising performance. Overall, mastering these techniques equips us with essential skills for navigating the data-driven landscape more effectively.
