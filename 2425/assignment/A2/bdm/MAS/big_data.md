@@ -331,7 +331,23 @@ From the comparative analysis, it is evident that different strategies yield var
 
 ## 5. Conclusion and Reflection
 
+<div align="justify">
+  
 ### 5.1 Summary of Findings
+
+The purpose of this project was to explore different ways for working with large datasets through modern Python tools such as Pandas, Dask, and Polars . We focused on calculating the mean purchase price from a real-world e-commerce dataset (2019-Oct.csv). The methods were compared based on memory consumption , wall time , and throughput .
+
+Results showed that loading in full data using a traditional method based on Pandas , while intuitive and easy to do, is not scalable with large datasets due to relatively high memory consumption and run time. Where loading only required columns , as well converting column data types , or sampling were used to optimize memory and performance for exploratory analysis, Pandas can still be used effectively.
+
+In the strategies for optimization:
+- Optimize Data Types was the most effective in containing memory usage while preserving accuracy.
+- Load Less Data resulted in improved performance, as it limited the data to only relevant columns and rows.
+- Sampling provided the best runtime performance, but it sacrificed accuracy making it more suited for quick prototyping rather than production level analytics.
+- Chunking allowed the whole file to be processed while in restricted memory environments, but it introduces additional complexity to the code and longer run time than Dask and Polars. 
+- Dask was also able to scale and perform out-of-core calculations, but it was still slower than Polars in raw speed and performance and not as memory efficient. 
+- Polars was the highest performing library in all cases, with extremely fast run time and low memory usage, and therefore was an excellent choice for single-node big data analytics. 
+
+  In summary, Polars provided the best balance of run-time speed, memory efficiency and ease of use, with Pandas optimized methods following closely behind. Dask is still useful in terms of distributed computing or in scenarios where you want lazy evaluation, but its performance will not come close to Polars' performance running on local nodes.
 
 
 ### 5.2 Benefits & Limitations
@@ -346,6 +362,8 @@ From the comparative analysis, it is evident that different strategies yield var
 
 #### Nadhrah NurSabrina Binti Zulaini
 
+
+</div>
 
 ---
 ## 6. References
