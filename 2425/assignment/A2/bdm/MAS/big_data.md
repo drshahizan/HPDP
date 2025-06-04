@@ -346,8 +346,17 @@ In the strategies for optimization:
 
 ### 5.2 Benefits & Limitations
 
-| Tool     | Benefits                                  | Limitations                                |
-|----------|-------------------------------------------|--------------------------------------------
+Each data-handling strategy has its own strengths and weaknesses depending on system resources, accuracy needs, and performance goals. Here's a comparison of all methods used in this assignment:
+
+| Tool                  | Benefits                                      | Limitations                                     |
+|-----------------------|-----------------------------------------------|-------------------------------------------------|
+| **Full Pandas Load**  | Simple to use, accurate results               | Very slow, high memory usage                    |
+| **Load Less Data**    | Fast execution, reduced memory usage          | Limited scope (only specific columns/rows)      |
+| **Chunking**          | Processes large files safely in parts          | More complex code, slower than optimized tools  |
+| **Optimize Data Types** | Reduces memory without losing accuracy     | Requires prior knowledge of efficient types     |
+| **Sampling**          | Extremely fast, minimal resource usage        | Results are approximate, not fully accurate     |
+| **Dask**              | Supports parallel and out-of-core processing  | Slower than Polars, higher memory footprint     |
+| **Polars**            | Extremely fast, low memory usage              | Slightly different API from Pandas              |
 
 ### 5.3 Personal Reflection
 
