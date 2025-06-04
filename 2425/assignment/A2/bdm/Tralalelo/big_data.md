@@ -2,11 +2,22 @@
 # 📘 Assignment 2: Mastering Big Data Handling
 
 **Group Members**:
-- **M1**: LEE YIK HONG (A21BE0376)
-- **M2**: WONG JUN JI (A22EC0117)
 
-**Due Date**: **4 June 2025 5:00 PM**  
-**Submission Platform**: GitHub and Google Colab
+<table border="1" align="center" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Name</th>
+    <th>Matric Number</th>
+  </tr>
+  <tr>
+    <td>LEE YIK HONG</td>
+    <td>A21BE0376</td>
+  </tr>
+  <tr>
+    <td>WONG JUN JI</td>
+    <td>A22EC0117</td>
+  </tr>
+</table>
+
 
 ## 📌 Introduction
 
