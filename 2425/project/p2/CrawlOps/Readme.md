@@ -10,7 +10,7 @@ Make sure you have:
 
 * ✅ **Python 3.8 – 3.11** (Recommended: Python 3.10)
 * ✅ **Java 11 (JDK)** installed and `JAVA_HOME` set
-* ✅ Download the zip file, extract it and open it in code editor application
+* ✅ Download the kafka + spark folder and open it in code editor application
 
 ---
 
