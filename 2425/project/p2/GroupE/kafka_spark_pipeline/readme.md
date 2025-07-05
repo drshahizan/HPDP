@@ -91,10 +91,35 @@ python producer.py
 
 ## 📊 Accessing Kibana Dashboard
 
-Visit [http://localhost:5601](http://localhost:5601) in your browser.
+Once the data is being streamed into **Elasticsearch**, you can access and visualize it using **Kibana**.
 
-- Go to **Discover** to explore raw comment data.
-- Or create a **Dashboard** for real-time sentiment analytics.
+### ✅ Step-by-Step Guide
+
+1. **Open Kibana:**  
+   Visit [http://localhost:5601](http://localhost:5601) in your browser.
+
+2. **Create a Data View:**  
+   - Navigate to **Stack Management** > **Data Views**  
+   - Click **Create data view**
+   - Set the name to something like `youtube-comments*` (or match your index pattern)
+   - Click **Create data view**
+
+3. **Explore Data in Discover:**  
+   - Go to **Discover** in the sidebar
+   - Select your created data view
+   - View real-time comment data with fields like `comment_text`, `sentiment`, `video_id`, etc.
+
+4. **Open or Create a Dashboard:**  
+   - Navigate to **Dashboard** in the sidebar
+   - You can:
+     - Open an existing dashboard (if you imported one from the `/dashboard` folder)
+     - Or click **Create dashboard**, then **Add from library** to include saved visualizations (like pie charts, bar graphs, sentiment over time)
+
+---
+
+📌 *Tip: To import a pre-built dashboard, go to **Stack Management > Saved Objects**, click **Import**, and select the `.ndjson` file inside the `dashboard/` folder.*
+
+
 
 ---
 
