@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<table border="solid" align="center">
+<table border="solid" align="left">
   <tr>
     <th>Name</th>
     <th>Matric Number</th>
@@ -22,9 +22,7 @@
   </tr>
 </table>
 
----
-
-<table border="solid" align="center">
+<table border="solid" align="right">
   <tr>
     <th>Materials</th>
     <th>Link</th>
@@ -42,6 +40,9 @@
     <td>A22EC0107</td>
   </tr>
 </table>
+
+---
+
 
 ## Table of Contents
 
