@@ -190,4 +190,71 @@ The overall perception in the data set is found as mostly positive and has been 
 The abundance of words like the names of the country of residence (Malaysia), the city (KL), and the notion of love in the word cloud and the positive connotations attached to them indicate a great level of national pride and curiosity of the citizens regarding local tourist information, and the loving interaction with the audience. Moreover, positive tones are also used due to the words such as ‘thank, beautiful, and so on, which makes it obvious that much of the audience contact is pleasant and is considered to be appreciative.  
 One of the major insights is variation of model behavior. As opposed to Naive Bayes, which is optimistic, LSTM is more objective towards the comments. This implies that the choice of models can also affect the sentiment analysis significantly and has to be addressed when forming the conclusions or making the business decisions based on the sentiment information.
 
+---
+
+### 6.0 Optimisation & Comparison
+
+In this part, the application of the batch data processing technique as well as the use of live stream data processing in sentiment analysis was compared, and the usage of various models of machine learning was also tested: Naive Bayes, LSTM, and Hugging Face.
+
+When looking at the comparison of batch data and a live example of data, the two methods are used to accommodate functionality in different operations. Batch data processing tabulates significant amounts of the comments at preset frequencies and this alone makes it fit to be used in conducting periodic reports, trend extraction, and historical mining. It is also effective in processing capabilities, as the calculations could be carried out outside of rush time, and complex, resource- intensive models could be deployed without the requirement to be time critical. Batch processing, however, is not real-time sensitive and hence can not be used where there is a need to monitor sentiments immediately or handle a crisis-like situation.
+
+Conversely, live stream data processing can monitor in real time the incoming comments and as soon as a shift in sentiment is noted, a viral topic is identified, or there is a prospect of negative publicity, it can be taken into account. This is especially useful in social media handling, internet marketing campaigns and PR exercises. The trade-off, however, is that it is demanding, as it requires optimised simpler models and infrastructure that will respond to a flow of constant data without latency. Moreover, in live stream applications, there is also an unavoidable need whereby the models used need to be able to make quick predictions, albeit at the cost of maintaining an ever so slightly less accurate result than more involved models.
+
+The comparison of the three models of sentiment analysis demonstrated significant differences among the models regarding their performance and their tendency to predict. The Naive Bayes model is a classical probabilistic classifier whose results came out faster and consumed very little computational power. It presented considerable bias towards positive based on the fact that 75.53 percent of the comments were identified as positive and there was a low sensitivity of it describing subtle or mixed opinions which defaulted to positive labels.
+
+As one of the deep learning models, the LSTM (Long Short-Term Memory) showed a better accuracy of capturing the contextual sentiment and the order of words in comments. It foresaw a more even split with 43.37% positive sentiments and 53.99% neutral remarks and this reflects its ability to search for a more neutral or ambiguous tone. It, however, took more computational power and time and therefore proved more convenient in batch processing unless there is infrastructure for deep learning inference in real time.
+
+The Hugging Technique model that considers the transformer-based architectures provided a compromise between accuracy and responsiveness. It formed a relatively neutral spread of the sentiments where 51.36 were positive, 40.8 were neutral and 7.83 were negative. It averaged a confidence of 0.812, with a variable confidence range of 0.695–0.928 due to a batch setting (and 0.677–0.928 when working with live data), offering itself as reliable when non-real-time applications are required.
+
+In short, the best structure is the one that targets an operational goal. Naive Bayes is suggested where lightweight and fast predictions during the real-time environment are needed and not much importance is placed on accuracy. LSTM is the best in a more detailed sentiment analysis in batch decisions. The Hugging Face models offer a general purpose that can maintain both the accuracy and the speed of processing that can be used in both live and batch applications, provided they have the infrastructure to support them.
+
+---
+
+#### Table 1: Batch vs Live Stream Data Processing
+
+| Aspect               | Batch Processing                                      | Live Stream Processing                                    |
+|----------------------|--------------------------------------------------------|------------------------------------------------------------|
+| Definition           | Periodic processing of large comment datasets          | Continuous, real-time processing of incoming comments      |
+| Use Cases            | Trend analysis, historical insights, periodic sentiment reporting | Live sentiment tracking, social media alerts, crisis response |
+| Advantages           | - High accuracy models <br> - Lower urgency <br> - Scheduled runs | - Immediate feedback <br> - Time-sensitive sentiment detection |
+| Limitations          | - No real-time feedback <br> - Delayed results         | - Requires fast, optimized models <br> - Higher infrastructure demand |
+| Best Model Types     | LSTM, Hugging Face (transformers)                      | Naive Bayes, Optimized Hugging Face                        |
+
+---
+
+#### Table 2: Sentiment Model Comparison
+
+| Model         | Type                      | Strengths                                              | Limitations                                              | Sentiment Distribution (%)                       |
+|---------------|---------------------------|--------------------------------------------------------|----------------------------------------------------------|--------------------------------------------------|
+| Naive Bayes   | Probabilistic (classical) | Fast and lightweight <br> Low computation cost         | Biased toward positivity <br> Poor nuance handling        | Positive: 75.53 <br> Neutral: 20.95 <br> Negative: 3.51 |
+| LSTM          | Deep Learning (RNN)       | High accuracy <br> Good at capturing word sequence/context | Slower <br> High resource demand                       | Positive: 43.37 <br> Neutral: 53.99 <br> Negative: 2.64 |
+| Hugging Face  | Transformer-based         | Balanced output <br> Suitable for both batch and live setups | Requires optimization for real-time inference         | Positive: 51.36 <br> Neutral: 40.8 <br> Negative: 7.83 |
+
+---
+
+### 7.0 Conclusion & Future Work
+
+In conclusion, this project has proven as a success in the creation of a real-time sentiment analysis pipeline of YouTube comments owing to travel experiences in Malaysia. The combination of Apache Kafka, Spark, Elasticsearch, and Kibana through a Dockerized architecture offered us the possibility to create a performative and scalable big data architecture that could manage to ingest, process, and visualise a live sentiment trend. By having various sentiment classification models (Naive Bayes, LSTM and the transformer model offered by Hugging Face) available it was possible to compare the accuracy and behaviour in detail and the model offered by Hugging Face was found to be the most accurate in its predictions and giving a suitably balanced result of sentiment in its viewpoints.
+
+The result of the analysis showed that the overall public perception of traveling in Malaysia is more than positive since the keywords linked to the positive attitude are occasionally repeated like, Malaysia, love, beautiful, and thanks. The presentation of real-time data streaming, as well as the visualisation in Kibana dashboards, was very effective in presenting data in real-time that can be acted upon, demonstrating the practical application of incorporating the real-time analytics in the tourism marketing approach or any other PR efforts.
+
+In future research, there are a few aspects that may be expanded and improved. To begin with, The trending data should be extended to other platforms, such as Twitter, Instagram, or TripAdvisor to obtain a more comprehensive picture of how the people view Malaysian tourism. Second, the sentiment analysis could include the multi-language data of the Malay and Mandarin comments, both languages used in Malaysia, to make it better reflect the diverse linguistic environment of people online in Malaysia. Also, to enhance processing of live inference streams, it may be advisable to optimise the model serving to support real-time inference i.e., to possibly containerised LSTM and transformer model with efficient serving modules such as TensorFlow Serving or TorchServe or alike.
+
+Finally, future variants of this project may include: topic modelling or aspect-based sentiment analysis (ABSA) to determine those aspects of travelling e.g. food, accommodation, attraction or transportation that is associated with positive or negative feelings. This would enable the tourism stakeholders to have more result-driven and actionable information that they would use in improving the experience with the visitors as well as improving the reputation of Malaysia as a travel destination to the digital world.
+
+---
+
+### 8.0 References
+
+- Apache Software Foundation. (n.d.). Apache Kafka. https://kafka.apache.org/  
+- Apache Software Foundation. (n.d.). Apache Spark. https://spark.apache.org/  
+- Barbieri, F., Camacho-Collados, J., Espinosa-Anke, L., & Neves, L. (2020). TweetEval: Unified benchmark and comparative evaluation for tweet classification. In Findings of the Association for Computational Linguistics: EMNLP 2020 (pp. 1644–1650). https://aclanthology.org/2020.findings-emnlp.148/  
+- Elastic. (n.d.). Elasticsearch. https://www.elastic.co/elasticsearch/  
+- Elastic. (n.d.). Kibana. https://www.elastic.co/kibana/  
+- Google Developers. (n.d.). YouTube Data API v3. https://developers.google.com/youtube/v3  
+- Hugging Face. (n.d.). CardiffNLP/twitter-roberta-base-sentiment. https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment  
+- Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825–2830.  
+- TensorFlow. (n.d.). TensorFlow: An end-to-end open-source machine learning platform. https://www.tensorflow.org/
+
+
 
