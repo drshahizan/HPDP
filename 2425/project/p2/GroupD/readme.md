@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group D - PG Mall
+  Group D - Grab App Reviews Sentiment Analysis
   <br>
 </h1>
 
