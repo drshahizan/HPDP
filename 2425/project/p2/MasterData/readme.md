@@ -22,6 +22,53 @@
   </tr>
 </table>
 
+<h2 align="center">Table of Contents</h2>
+
+<div align="center">
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: left; width: 80%;">
+    <tr>
+      <th>Section</th>
+      <th>Title</th>
+    </tr>
+    <tr>
+      <td>1.0</td>
+      <td><a href="#10-introduction">Introduction</a></td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td><a href="#20-data-acquisition--preprocessing">Data Acquisition & Preprocessing</a></td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td><a href="#30-sentiment-model-development">Sentiment Model Development</a></td>
+    </tr>
+    <tr>
+      <td>4.0</td>
+      <td><a href="#40-apache-system-architecture">Apache System Architecture</a></td>
+    </tr>
+    <tr>
+      <td>5.0</td>
+      <td><a href="#50-analysis--results">Analysis & Results</a></td>
+    </tr>
+    <tr>
+      <td>6.0</td>
+      <td><a href="#60-optimisation--comparison">Optimisation & Comparison</a></td>
+    </tr>
+    <tr>
+      <td>7.0</td>
+      <td><a href="#70-conclusion--future-work">Conclusion & Future Work</a></td>
+    </tr>
+    <tr>
+      <td>8.0</td>
+      <td><a href="#80-references">References</a></td>
+    </tr>
+    <tr>
+      <td>9.0</td>
+      <td><a href="#90-appendix">Appendix</a></td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ### 1.0 Introduction
