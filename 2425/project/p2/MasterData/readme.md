@@ -351,7 +351,8 @@ Finally, future variants of this project may include: topic modelling or aspect-
 ---
 ### 9.0 Appendix
 -All codes and resources can be found here → 
-  <a href="https://github.com/Jesslyn19/Youtube_SentimentAnalysis" target="_blank">
+ <a href="https://github.com/Jesslyn19/Youtube_SentimentAnalysis" target="_blank">
+    https://github.com/Jesslyn19/Youtube_SentimentAnalysis
   </a>
 </p>
 
