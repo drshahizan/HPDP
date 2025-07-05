@@ -146,5 +146,48 @@ Three models were selected and compared:
 - **Hugging Face**: Used as a **reference model only**
 
 ---
+### 4.0 Apache System Architecture
+
+**Figure 1: System Architecture Diagram**
+
+The system is divided into two main pipelines: **Batch Processing** and **Real-Time Processing**, both working together to analyze YouTube comments related to “Travelling in Malaysia”.
+
+**Batch Processing:**
+
+- **Scraping & Labeling:** YouTube comments are scraped and labeled using Hugging Face models, followed by manual verification to ensure accuracy.  
+- **Model Training:** Cleaned and labeled data is used to train sentiment classification models which are LSTM and Naive Bayes.  
+- **Model Deployment:** The trained model is exported, imported into a Python prediction script, and integrated into Apache Spark for further use.
+
+**Real-Time Processing:**
+
+- **Streaming:** New comments are streamed in real time via Apache Kafka.  
+- **Sentiment Analysis:** Apache Spark consumes these streams, applies the trained sentiment model, and processes the data.  
+- **Storage & Visualization:** Processed comments with sentiment results are stored in Elasticsearch and visualized using Kibana dashboards for real-time trend monitoring.
+
+---
+
+### 5.0 Analysis & Results
+
+#### 5.1 Key Findings
+
+The sentiment analysis was performed on a total of 2,391 comments, with an average model confidence score of 0.812 from the Hugging Face model, indicating generally reliable sentiment predictions. Three models, Naive Bayes, Hugging Face, and LSTM were used to classify comments into positive, neutral, and negative categories.  
+From the Naïve Bayes model, the sentiment distribution showed a dominant 75.53% positive, 20.95% neutral, and only 3.51% negative comments. The Hugging Face model was comparatively balanced, with 51.36% positive, 40.8% neutral, and 7.83% negative. Meanwhile, the LSTM model predicted a higher number of neutral comments at 53.99%, followed by 43.37% positive, and 2.64% negative.  
+The word cloud analysis revealed that 'Malaysia', 'video', 'KL', 'love', and 'thank' were among the most frequently mentioned keywords, suggesting topics of interest and recurring themes in the comments. Additionally, the sentiment distribution by keywords indicates that words such as 'Malaysia', 'video', 'love', and 'thank' are predominantly associated with positive sentiments.
+
+
+#### 5.2 Visualizations
+
+We used Kibana to do visualizations. We did some analysis on the total number of comments that had been scrapped, average of hugging face score and some perspectives of LSTM and Naive Bayes model. Besides, we use a word cloud to show which word is frequently used. We did pie charts on different models such as Naive Bayes, Hugging Face and LSTM Model to know their distribution on each type of sentiment (negative, neutral, positive). Not only that, a histogram is constructed to know what are the Top 15 appearance keywords.
+
+**Figure 2: Dashboard Part 1**  
+**Figure 3: Dashboard Part 2**  
+**Figure 4: Dashboard Part 3**
+
+
+#### 5.3 Insights
+
+The overall perception in the data set is found as mostly positive and has been emphasized by Naive Bayes model that found more than three-quarters in the comments as positive. Overall, it implies that the general attitude towards the comments is rather positive and appraisive, as well as encouraging and affirming. Hugging Face and the LSTM models however present a less optimistic picture where a larger percentage of neutral remarks, denoting a different sense of sentiment based on the sensitivity and requirements of a specified model.  
+The abundance of words like the names of the country of residence (Malaysia), the city (KL), and the notion of love in the word cloud and the positive connotations attached to them indicate a great level of national pride and curiosity of the citizens regarding local tourist information, and the loving interaction with the audience. Moreover, positive tones are also used due to the words such as ‘thank, beautiful, and so on, which makes it obvious that much of the audience contact is pleasant and is considered to be appreciative.  
+One of the major insights is variation of model behavior. As opposed to Naive Bayes, which is optimistic, LSTM is more objective towards the comments. This implies that the choice of models can also affect the sentiment analysis significantly and has to be addressed when forming the conclusions or making the business decisions based on the sentiment information.
 
 
