@@ -22,8 +22,6 @@
   </tr>
 </table>
 
-# 🇲🇾 Real-Time Sentiment Analysis of YouTube Comments on Malaysian Travel
-
 ---
 
 ### 1.0 Introduction
