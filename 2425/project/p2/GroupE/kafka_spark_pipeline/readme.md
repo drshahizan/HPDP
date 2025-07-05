@@ -119,8 +119,6 @@ Once the data is being streamed into **Elasticsearch**, you can access and visua
 
 📌 *Tip: To import a pre-built dashboard, go to **Stack Management > Saved Objects**, click **Import**, and select the `.ndjson` file inside the `dashboard/` folder.*
 
-
-
 ---
 
 ## 📁 Project Structure
