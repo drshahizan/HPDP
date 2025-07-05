@@ -22,9 +22,9 @@
   </tr>
 </table>
 
-<h2 align="center">Table of Contents</h2>
+<h2 align="left">Table of Contents</h2>
 
-<div align="center">
+<div align="left">
   <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: left; width: 80%;">
     <tr>
       <th>Section</th>
