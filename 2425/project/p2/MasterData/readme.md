@@ -49,6 +49,18 @@
     </td>
   </tr>
   <tr>
+    <td>Raw Data</td>
+    <td align="center">
+      <a href="data/raw_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Cleaned Data</td>
+    <td align="center">
+      <a href="data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px？</a>
+    </td>
+  </tr>
+  <tr>
     <td>Preprocess & Train Model using LSTM</td>
     <td align="center">
       <a href="https://colab.research.google.com/drive/1N-RZTtoYd0g6aEhUH-EVTlpkRKovmuAZ"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
