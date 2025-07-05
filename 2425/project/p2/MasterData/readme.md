@@ -186,6 +186,11 @@ Three models were selected and compared:
 
 **Figure 1: System Architecture Diagram**
 
+<p align="center">
+  <img src="./Image/Architecture.png" 
+       alt="Architecture Diagram" width="60%">
+</p>
+
 The system is divided into two main pipelines: **Batch Processing** and **Real-Time Processing**, both working together to analyze YouTube comments related to “Travelling in Malaysia”.
 
 **Batch Processing:**
@@ -218,19 +223,19 @@ We used Kibana to do visualizations. We did some analysis on the total number of
 **Figure 2: Dashboard Part 1**  
 <p align="center">
   <img src="./Image/Dashboard_p1.png" 
-       alt="Web Crawler System Architecture" width="60%">
+       alt="Dashboard_Part1" width="60%">
 </p>
 
 **Figure 3: Dashboard Part 2**  
 <p align="center">
   <img src="./Image/Dashboard_p2.png" 
-       alt="Web Crawler System Architecture" width="60%">
+       alt="Dashboard_Part2" width="60%">
 </p>
 
 **Figure 4: Dashboard Part 3**
 <p align="center">
   <img src="./Image/Dashboard_p3.png" 
-       alt="Web Crawler System Architecture" width="60%">
+       alt="Dashboard_Part3" width="60%">
 </p>
 
 
