@@ -220,11 +220,13 @@ We used Kibana to do visualizations. We did some analysis on the total number of
   <img src="./Image/Dashboard_p1.png" 
        alt="Web Crawler System Architecture" width="60%">
 </p>
+
 **Figure 3: Dashboard Part 2**  
 <p align="center">
   <img src="./Image/Dashboard_p2.png" 
        alt="Web Crawler System Architecture" width="60%">
 </p>
+
 **Figure 4: Dashboard Part 3**
 <p align="center">
   <img src="./Image/Dashboard_p3.png" 
