@@ -40,7 +40,8 @@
 - [3.3 Evaluation](#33-evaluation)
 
 ### 4.0 Apache System Architecture
-
+- [4.0 Apache System Architecture](#40-apache-system-architecture)
+  
 ### 5.0 Analysis & Results
 - [5.1 Key Findings](#51-key-findings)
 - [5.2 Visualizations](#52-visualizations)
