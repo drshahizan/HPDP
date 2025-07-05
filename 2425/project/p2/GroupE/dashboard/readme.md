@@ -21,3 +21,12 @@ Your dashboard will now be available under the **Dashboards** section of Kibana.
 
 📌 *Note: You must have data already streaming into Elasticsearch for the visualizations to display correctly.*
 
+## 🖼️ Kibana Dashboard Preview
+
+<img src="project dashboard2_page-0001.jpg" alt="Kibana Dashboard" width="700"/>
+<img src="Screenshot 2025-06-30 152743.png" alt="Kibana Dashboard" width="700"/>
+<img src="Screenshot 2025-06-30 152755.png" alt="Kibana Dashboard" width="700"/>
+<img src="Screenshot 2025-06-30 152819.png" alt="Kibana Dashboard" width="700"/>
+<img src="Screenshot 2025-06-30 152830.png" alt="Kibana Dashboard" width="700"/>
+<img src="Screenshot 2025-06-30 152841.png" alt="Kibana Dashboard" width="700"/>
+<img src="Screenshot 2025-06-30 152850.png" alt="Kibana Dashboard" width="700"/>
