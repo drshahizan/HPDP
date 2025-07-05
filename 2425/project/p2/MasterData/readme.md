@@ -38,8 +38,6 @@ We used the **YouTube Data API** to retrieve comments from 10 YouTube videos fea
 
 Two models—**Naive Bayes** and **LSTM**—were trained and evaluated for classification performance. Then, a streaming data pipeline was developed using **Dockerized Apache Kafka** to send new YouTube comments into **Apache Spark Structured Streaming** for real-time predictions with all three models: Naive Bayes, LSTM, and Hugging Face. Results were stored in **Elasticsearch** and visualized on a **Kibana dashboard**.
 
----
-
 #### 1.2 Objectives
 
 The main objectives of this project are:
@@ -51,7 +49,6 @@ The main objectives of this project are:
 - 📊 Visualize trends using **Kibana dashboards**  
 - 🧠 Apply multiple models (Naive Bayes, LSTM, Hugging Face) to classify sentiments as **positive**, **neutral**, or **negative**
 
----
 
 #### 1.3 Scope
 
@@ -73,24 +70,25 @@ This project involves the following components:
 Comments were collected from over 20 YouTube videos related to Malaysian travel experiences. These videos were chosen for their relevance, popularity, and location diversity.
 
 **Sample URLs:**
-https://www.youtube.com/watch?v=fqlaE_NSjS0
-https://www.youtube.com/watch?v=UKy1WGdlXdg
-https://www.youtube.com/watch?v=S2NDPhOeSfI
-https://www.youtube.com/watch?v=kNR61myFC1s
-https://www.youtube.com/watch?v=KH3wGlxHg_4
-https://www.youtube.com/watch?v=Qx4KNva9DWk
-https://www.youtube.com/watch?v=G1UrANBKY_k
-https://www.youtube.com/watch?v=ze6M63y8Rm4
-https://www.youtube.com/watch?v=ajxkQYxLNdY
-https://www.youtube.com/watch?v=g6fb0yzziMM
-https://www.youtube.com/watch?v=Xv0velteJnc
-https://www.youtube.com/watch?v=LtPBMvHa8Y8
-https://www.youtube.com/watch?v=stSMG6tvsrw
-https://www.youtube.com/watch?v=EVG-IH8cMYs
-https://www.youtube.com/watch?v=jgK-sFaxr6E
-https://www.youtube.com/watch?v=jobgAn1GQrI
-https://www.youtube.com/watch?v=GrECQdICe6A
----
+
+- https://www.youtube.com/watch?v=fqlaE_NSjS0  
+- https://www.youtube.com/watch?v=UKy1WGdlXdg  
+- https://www.youtube.com/watch?v=S2NDPhOeSfI  
+- https://www.youtube.com/watch?v=kNR61myFC1s  
+- https://www.youtube.com/watch?v=KH3wGlxHg_4  
+- https://www.youtube.com/watch?v=Qx4KNva9DWk  
+- https://www.youtube.com/watch?v=G1UrANBKY_k  
+- https://www.youtube.com/watch?v=ze6M63y8Rm4  
+- https://www.youtube.com/watch?v=ajxkQYxLNdY  
+- https://www.youtube.com/watch?v=g6fb0yzziMM  
+- https://www.youtube.com/watch?v=Xv0velteJnc  
+- https://www.youtube.com/watch?v=LtPBMvHa8Y8  
+- https://www.youtube.com/watch?v=stSMG6tvsrw  
+- https://www.youtube.com/watch?v=EVG-IH8cMYs  
+- https://www.youtube.com/watch?v=jgK-sFaxr6E  
+- https://www.youtube.com/watch?v=jobgAn1GQrI  
+- https://www.youtube.com/watch?v=GrECQdICe6A  
+
 
 #### 2.2 Tools
 
@@ -101,7 +99,6 @@ https://www.youtube.com/watch?v=GrECQdICe6A
 - **Jupyter Notebook** – EDA and experimentation  
 - **NLTK**, **spaCy**, **Hugging Face Transformers** – for NLP
 
----
 
 #### 2.3 Cleaning Steps
 
@@ -130,7 +127,7 @@ Three models were selected and compared:
   - Pretrained model: `cardiffnlp/twitter-roberta-base-sentiment`  
   - Trained on **social media sentiment** and used directly for inference
 
----
+
 
 #### 3.2 Training Process
 
@@ -140,7 +137,7 @@ Three models were selected and compared:
 - **LSTM**: Used **GloVe word embeddings** + padded sequences
 - **Hugging Face**: Used out-of-the-box for inference
 
----
+
 
 #### 3.3 Evaluation
 
