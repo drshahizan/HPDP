@@ -24,107 +24,37 @@
 
 <h2 align="left">Table of Contents</h2>
 
-<div align="left">
+<h2 align="center">Table of Contents</h2>
+
+<div align="center">
   <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 90%; text-align: left;">
     <tr>
-      <th style="width: 10%;">Section</th>
+      <th style="width: 10;">Section</th>
       <th>Title</th>
     </tr>
-    <tr>
-      <td>1.0</td>
-      <td>Introduction</td>
-    </tr>
-    <tr>
-      <td>1.1</td>
-      <td>&emsp;Background</td>
-    </tr>
-    <tr>
-      <td>1.2</td>
-      <td>&emsp;Objectives</td>
-    </tr>
-    <tr>
-      <td>1.3</td>
-      <td>&emsp;Scope</td>
-    </tr>
-    <tr>
-      <td>2.0</td>
-      <td>Data Acquisition & Preprocessing</td>
-    </tr>
-    <tr>
-      <td>2.1</td>
-      <td>&emsp;Sources</td>
-    </tr>
-    <tr>
-      <td>2.2</td>
-      <td>&emsp;Tools</td>
-    </tr>
-    <tr>
-      <td>2.3</td>
-      <td>&emsp;Cleaning Steps</td>
-    </tr>
-
-    <tr>
-      <td>3.0</td>
-      <td>Sentiment Model Development</td>
-    </tr>
-    <tr>
-      <td>3.1</td>
-      <td>&emsp;Model Choice</td>
-    </tr>
-    <tr>
-      <td>3.2</td>
-      <td>&emsp;Training Process</td>
-    </tr>
-    <tr>
-      <td>3.3</td>
-      <td>&emsp;Evaluation</td>
-    </tr>
-
-    <tr>
-      <td>4.0</td>
-      <td>Apache System Architecture</td>
-    </tr>
-
-    <tr>
-      <td>5.0</td>
-      <td>Analysis & Results</td>
-    </tr>
-    <tr>
-      <td>5.1</td>
-      <td>&emsp;Key Findings</td>
-    </tr>
-    <tr>
-      <td>5.2</td>
-      <td>&emsp;Visualizations</td>
-    </tr>
-    <tr>
-      <td>5.3</td>
-      <td>&emsp;Insights</td>
-    </tr>
-
-    <tr>
-      <td>6.0</td>
-      <td>Optimisation & Comparison</td>
-    </tr>
-
-    <tr>
-      <td>7.0</td>
-      <td>Conclusion & Future Work</td>
-    </tr>
-
-    <tr>
-      <td>8.0</td>
-      <td>References</td>
-    </tr>
-
-    <tr>
-      <td>9.0</td>
-      <td>Appendix</td>
-    </tr>
+    <tr><td>1.0</td><td>Introduction</td></tr>
+    <tr><td>1.1</td><td>&emsp;Background</td></tr>
+    <tr><td>1.2</td><td>&emsp;Objectives</td></tr>
+    <tr><td>1.3</td><td>&emsp;Scope</td></tr>
+    <tr><td>2.0</td><td>Data Acquisition & Preprocessing</td></tr>
+    <tr><td>2.1</td><td>&emsp;Sources</td></tr>
+    <tr><td>2.2</td><td>&emsp;Tools</td></tr>
+    <tr><td>2.3</td><td>&emsp;Cleaning Steps</td></tr>
+    <tr><td>3.0</td><td>Sentiment Model Development</td></tr>
+    <tr><td>3.1</td><td>&emsp;Model Choice</td></tr>
+    <tr><td>3.2</td><td>&emsp;Training Process</td></tr>
+    <tr><td>3.3</td><td>&emsp;Evaluation</td></tr>
+    <tr><td>4.0</td><td>Apache System Architecture</td></tr>
+    <tr><td>5.0</td><td>Analysis & Results</td></tr>
+    <tr><td>5.1</td><td>&emsp;Key Findings</td></tr>
+    <tr><td>5.2</td><td>&emsp;Visualizations</td></tr>
+    <tr><td>5.3</td><td>&emsp;Insights</td></tr>
+    <tr><td>6.0</td><td>Optimisation & Comparison</td></tr>
+    <tr><td>7.0</td><td>Conclusion & Future Work</td></tr>
+    <tr><td>8.0</td><td>References</td></tr>
+    <tr><td>9.0</td><td>Appendix</td></tr>
   </table>
 </div>
-
-
 
 ---
 
