@@ -47,16 +47,16 @@
 - [5.3 Insights](#53-insights)
 
 ### 6.0 Optimisation & Comparison
+- [6.0 Optimisation & Comparison](#60-optimisation--comparison)
 
 ### 7.0 Conclusion & Future Work
+- [7.0 Conclusion & Future Work](#70-conclusion--future-work)
 
 ### 8.0 References
+- [8.0 References](#80-references)
 
 ### 9.0 Appendix
-- [Figure 4: Video Examples](#figure-4-video-examples)
-- [Figure 5: Comment Examples](#figure-5-comment-examples)
-- [GitHub Code Repository](#github-code-repository)
-
+- [9.0 Appendix](#90-appendix)
 ---
 
 ### 1.0 Introduction
