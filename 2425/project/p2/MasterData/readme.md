@@ -24,37 +24,40 @@
 
 <h2 align="left">Table of Contents</h2>
 
-<h2 align="center">Table of Contents</h2>
+## Table of Contents
 
-<div align="center">
-  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 90%; text-align: left;">
-    <tr>
-      <th style="width: 10;">Section</th>
-      <th>Title</th>
-    </tr>
-    <tr><td>1.0</td><td>Introduction</td></tr>
-    <tr><td>1.1</td><td>&emsp;Background</td></tr>
-    <tr><td>1.2</td><td>&emsp;Objectives</td></tr>
-    <tr><td>1.3</td><td>&emsp;Scope</td></tr>
-    <tr><td>2.0</td><td>Data Acquisition & Preprocessing</td></tr>
-    <tr><td>2.1</td><td>&emsp;Sources</td></tr>
-    <tr><td>2.2</td><td>&emsp;Tools</td></tr>
-    <tr><td>2.3</td><td>&emsp;Cleaning Steps</td></tr>
-    <tr><td>3.0</td><td>Sentiment Model Development</td></tr>
-    <tr><td>3.1</td><td>&emsp;Model Choice</td></tr>
-    <tr><td>3.2</td><td>&emsp;Training Process</td></tr>
-    <tr><td>3.3</td><td>&emsp;Evaluation</td></tr>
-    <tr><td>4.0</td><td>Apache System Architecture</td></tr>
-    <tr><td>5.0</td><td>Analysis & Results</td></tr>
-    <tr><td>5.1</td><td>&emsp;Key Findings</td></tr>
-    <tr><td>5.2</td><td>&emsp;Visualizations</td></tr>
-    <tr><td>5.3</td><td>&emsp;Insights</td></tr>
-    <tr><td>6.0</td><td>Optimisation & Comparison</td></tr>
-    <tr><td>7.0</td><td>Conclusion & Future Work</td></tr>
-    <tr><td>8.0</td><td>References</td></tr>
-    <tr><td>9.0</td><td>Appendix</td></tr>
-  </table>
-</div>
+### 1.0 Introduction
+- [1.1 Background](#11-background)
+- [1.2 Objectives](#12-objectives)
+- [1.3 Scope](#13-scope)
+
+### 2.0 Data Acquisition & Preprocessing
+- [2.1 Sources](#21-sources)
+- [2.2 Tools](#22-tools)
+- [2.3 Cleaning Steps](#23-cleaning-steps)
+
+### 3.0 Sentiment Model Development
+- [3.1 Model Choice](#31-model-choice)
+- [3.2 Training Process](#32-training-process)
+- [3.3 Evaluation](#33-evaluation)
+
+### 4.0 Apache System Architecture
+
+### 5.0 Analysis & Results
+- [5.1 Key Findings](#51-key-findings)
+- [5.2 Visualizations](#52-visualizations)
+- [5.3 Insights](#53-insights)
+
+### 6.0 Optimisation & Comparison
+
+### 7.0 Conclusion & Future Work
+
+### 8.0 References
+
+### 9.0 Appendix
+- [Figure 4: Video Examples](#figure-4-video-examples)
+- [Figure 5: Comment Examples](#figure-5-comment-examples)
+- [GitHub Code Repository](#github-code-repository)
 
 ---
 
