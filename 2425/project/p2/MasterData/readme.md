@@ -22,6 +22,27 @@
   </tr>
 </table>
 
+---
+
+<table border="solid" align="center">
+  <tr>
+    <th>Materials</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td width=80%>BERNICE LIM JING XUAN</td>
+    <td>A22EC0038</td>
+  </tr>
+  <tr>
+    <td width=80%>KEK JESSLYN</td>
+    <td>A22EC0057</td>
+  </tr>
+  <tr>
+    <td width=80%>TAN JUN YUAN</td>
+    <td>A22EC0107</td>
+  </tr>
+</table>
+
 ## Table of Contents
 
 ### 1.0 Introduction
