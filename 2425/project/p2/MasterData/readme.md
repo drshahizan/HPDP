@@ -22,8 +22,6 @@
   </tr>
 </table>
 
-<h2 align="left">Table of Contents</h2>
-
 ## Table of Contents
 
 ### 1.0 Introduction
