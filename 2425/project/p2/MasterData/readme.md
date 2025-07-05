@@ -187,11 +187,10 @@ Three models were selected and compared:
 ---
 ### 4.0 Apache System Architecture
 
-**Figure 1: System Architecture Diagram**
-
 <p align="center">
   <img src="./Image/Architecture.png" 
-       alt="Architecture Diagram" width="60%">
+       alt="Architecture Diagram" width="60%"><br>
+  <b>Figure 1:</b> System Architecture Diagram
 </p>
 
 The system is divided into two main pipelines: **Batch Processing** and **Real-Time Processing**, both working together to analyze YouTube comments related to “Travelling in Malaysia”.
@@ -223,22 +222,22 @@ The word cloud analysis revealed that 'Malaysia', 'video', 'KL', 'love', and 'th
 
 We used Kibana to do visualizations. We did some analysis on the total number of comments that had been scrapped, average of hugging face score and some perspectives of LSTM and Naive Bayes model. Besides, we use a word cloud to show which word is frequently used. We did pie charts on different models such as Naive Bayes, Hugging Face and LSTM Model to know their distribution on each type of sentiment (negative, neutral, positive). Not only that, a histogram is constructed to know what are the Top 15 appearance keywords.
 
-**Figure 2: Dashboard Part 1**  
 <p align="center">
   <img src="./Image/Dashboard_p1.png" 
-       alt="Dashboard_Part1" width="60%">
+       alt="Dashboard_Part1" width="60%"><br>
+  <b>Figure 2:</b> Dashboard Part 1
 </p>
 
-**Figure 3: Dashboard Part 2**  
 <p align="center">
   <img src="./Image/Dashboard_p2.png" 
-       alt="Dashboard_Part2" width="60%">
+       alt="Dashboard_Part2" width="60%"><br>
+  <b>Figure 3:</b> Dashboard Part 2
 </p>
 
-**Figure 4: Dashboard Part 3**
 <p align="center">
   <img src="./Image/Dashboard_p3.png" 
-       alt="Dashboard_Part3" width="60%">
+       alt="Dashboard_Part3" width="60%"><br>
+  <b>Figure 4:</b> Dashboard Part 3
 </p>
 
 
