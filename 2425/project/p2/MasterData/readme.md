@@ -24,8 +24,10 @@
 
 <h2 align="left">Table of Contents</h2>
 
-<div align="left">
-  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: left; width: 80%;">
+<h2 align="left">Table of Contents</h2>
+
+<div align="center">
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: left; width: 90%;">
     <tr>
       <th>Section</th>
       <th>Title</th>
@@ -35,12 +37,48 @@
       <td><a href="#10-introduction">Introduction</a></td>
     </tr>
     <tr>
+      <td>1.1</td>
+      <td><a href="#11-background">Background</a></td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td><a href="#12-objectives">Objectives</a></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td><a href="#13-scope">Scope</a></td>
+    </tr>
+    <tr>
       <td>2.0</td>
       <td><a href="#20-data-acquisition--preprocessing">Data Acquisition & Preprocessing</a></td>
     </tr>
     <tr>
+      <td>2.1</td>
+      <td><a href="#21-sources">Sources</a></td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td><a href="#22-tools">Tools</a></td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td><a href="#23-cleaning-steps">Cleaning Steps</a></td>
+    </tr>
+    <tr>
       <td>3.0</td>
       <td><a href="#30-sentiment-model-development">Sentiment Model Development</a></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td><a href="#31-model-choice">Model Choice</a></td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td><a href="#32-training-process">Training Process</a></td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td><a href="#33-evaluation">Evaluation</a></td>
     </tr>
     <tr>
       <td>4.0</td>
@@ -49,6 +87,18 @@
     <tr>
       <td>5.0</td>
       <td><a href="#50-analysis--results">Analysis & Results</a></td>
+    </tr>
+    <tr>
+      <td>5.1</td>
+      <td><a href="#51-key-findings">Key Findings</a></td>
+    </tr>
+    <tr>
+      <td>5.2</td>
+      <td><a href="#52-visualizations">Visualizations</a></td>
+    </tr>
+    <tr>
+      <td>5.3</td>
+      <td><a href="#53-insights">Insights</a></td>
     </tr>
     <tr>
       <td>6.0</td>
@@ -68,6 +118,7 @@
     </tr>
   </table>
 </div>
+
 
 ---
 
