@@ -216,8 +216,20 @@ The word cloud analysis revealed that 'Malaysia', 'video', 'KL', 'love', and 'th
 We used Kibana to do visualizations. We did some analysis on the total number of comments that had been scrapped, average of hugging face score and some perspectives of LSTM and Naive Bayes model. Besides, we use a word cloud to show which word is frequently used. We did pie charts on different models such as Naive Bayes, Hugging Face and LSTM Model to know their distribution on each type of sentiment (negative, neutral, positive). Not only that, a histogram is constructed to know what are the Top 15 appearance keywords.
 
 **Figure 2: Dashboard Part 1**  
+<p align="center">
+  <img src="./Image/Dashboard_p1.png" 
+       alt="Web Crawler System Architecture" width="60%">
+</p>
 **Figure 3: Dashboard Part 2**  
+<p align="center">
+  <img src="./Image/Dashboard_p2.png" 
+       alt="Web Crawler System Architecture" width="60%">
+</p>
 **Figure 4: Dashboard Part 3**
+<p align="center">
+  <img src="./Image/Dashboard_p3.png" 
+       alt="Web Crawler System Architecture" width="60%">
+</p>
 
 
 #### 5.3 Insights
