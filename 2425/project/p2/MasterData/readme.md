@@ -348,5 +348,34 @@ Finally, future variants of this project may include: topic modelling or aspect-
 - Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825–2830.  
 - TensorFlow. (n.d.). TensorFlow: An end-to-end open-source machine learning platform. https://www.tensorflow.org/
 
+---
+<h2 align="center">9.0 Appendix</h2>
+
+<p align="center">
+  All codes and resources can be found here → 
+  <a href="https://github.com/Jesslyn19/Youtube_SentimentAnalysis" target="_blank">
+    https://github.com/Jesslyn19/Youtube_SentimentAnalysis
+  </a>
+</p>
+
+<br>
+
+<div align="center">
+  <figure>
+    <img src="path_to_your_image/video_example.png" alt="Video Examples" width="600">
+    <figcaption><strong>Figure 4:</strong> Examples of Video related to “Travelling in Malaysia” on YouTube</figcaption>
+  </figure>
+</div>
+
+<br>
+
+<div align="center">
+  <figure>
+    <img src="path_to_your_image/comments_example.png" alt="Comment Examples" width="600">
+    <figcaption><strong>Figure 5:</strong> Examples of Comments under Videos related to “Travelling in Malaysia” on YouTube</figcaption>
+  </figure>
+</div>
+
+
 
 
