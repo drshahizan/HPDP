@@ -209,26 +209,120 @@ The Hugging Technique model that considers the transformer-based architectures p
 In short, the best structure is the one that targets an operational goal. Naive Bayes is suggested where lightweight and fast predictions during the real-time environment are needed and not much importance is placed on accuracy. LSTM is the best in a more detailed sentiment analysis in batch decisions. The Hugging Face models offer a general purpose that can maintain both the accuracy and the speed of processing that can be used in both live and batch applications, provided they have the infrastructure to support them.
 
 ---
-
-#### Table 1: Batch vs Live Stream Data Processing
-
-| Aspect               | Batch Processing                                      | Live Stream Processing                                    |
-|----------------------|--------------------------------------------------------|------------------------------------------------------------|
-| Definition           | Periodic processing of large comment datasets          | Continuous, real-time processing of incoming comments      |
-| Use Cases            | Trend analysis, historical insights, periodic sentiment reporting | Live sentiment tracking, social media alerts, crisis response |
-| Advantages           | - High accuracy models <br> - Lower urgency <br> - Scheduled runs | - Immediate feedback <br> - Time-sensitive sentiment detection |
-| Limitations          | - No real-time feedback <br> - Delayed results         | - Requires fast, optimized models <br> - Higher infrastructure demand |
-| Best Model Types     | LSTM, Hugging Face (transformers)                      | Naive Bayes, Optimized Hugging Face                        |
+<div align="center">
+  <table border="1" style="border-collapse: collapse; text-align: center;">
+    <caption><strong>Table 1: Batch vs Live Stream Data Processing</strong></caption>
+    <tr>
+      <th>Aspect</th>
+      <th>Batch Processing</th>
+      <th>Live Stream Processing</th>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>Periodic processing of large comment datasets</td>
+      <td>Continuous, real-time processing of incoming comments</td>
+    </tr>
+    <tr>
+      <td>Use Cases</td>
+      <td>Trend analysis, historical insights, periodic sentiment reporting</td>
+      <td>Live sentiment tracking, social media alerts, crisis response</td>
+    </tr>
+    <tr>
+      <td>Advantages</td>
+      <td>
+        - High accuracy models<br>
+        - Lower urgency<br>
+        - Scheduled runs
+      </td>
+      <td>
+        - Immediate feedback<br>
+        - Time-sensitive sentiment detection
+      </td>
+    </tr>
+    <tr>
+      <td>Limitations</td>
+      <td>
+        - No real-time feedback<br>
+        - Delayed results
+      </td>
+      <td>
+        - Requires fast, optimized models<br>
+        - Higher infrastructure demand
+      </td>
+    </tr>
+    <tr>
+      <td>Best Model Types</td>
+      <td>LSTM, Hugging Face (transformers)</td>
+      <td>Naive Bayes, Optimized Hugging Face</td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-#### Table 2: Sentiment Model Comparison
+<div align="center">
+  <table border="1" style="border-collapse: collapse; text-align: center;">
+    <caption><strong>Table 2: Sentiment Model Comparison</strong></caption>
+    <tr>
+      <th>Model</th>
+      <th>Type</th>
+      <th>Strengths</th>
+      <th>Limitations</th>
+      <th>Sentiment Distribution (%)</th>
+    </tr>
+    <tr>
+      <td>Naive Bayes</td>
+      <td>Probabilistic (classical)</td>
+      <td>
+        Fast and lightweight<br>
+        Low computation cost
+      </td>
+      <td>
+        Biased toward positivity<br>
+        Poor nuance handling
+      </td>
+      <td>
+        Positive: 75.53<br>
+        Neutral: 20.95<br>
+        Negative: 3.51
+      </td>
+    </tr>
+    <tr>
+      <td>LSTM</td>
+      <td>Deep Learning (RNN)</td>
+      <td>
+        High accuracy<br>
+        Good at capturing word sequence/context
+      </td>
+      <td>
+        Slower<br>
+        High resource demand
+      </td>
+      <td>
+        Positive: 43.37<br>
+        Neutral: 53.99<br>
+        Negative: 2.64
+      </td>
+    </tr>
+    <tr>
+      <td>Hugging Face</td>
+      <td>Transformer-based</td>
+      <td>
+        Balanced output<br>
+        Suitable for both batch and live setups
+      </td>
+      <td>
+        Requires optimization for real-time inference
+      </td>
+      <td>
+        Positive: 51.36<br>
+        Neutral: 40.8<br>
+        Negative: 7.83
+      </td>
+    </tr>
+  </table>
+</div>
 
-| Model         | Type                      | Strengths                                              | Limitations                                              | Sentiment Distribution (%)                       |
-|---------------|---------------------------|--------------------------------------------------------|----------------------------------------------------------|--------------------------------------------------|
-| Naive Bayes   | Probabilistic (classical) | Fast and lightweight <br> Low computation cost         | Biased toward positivity <br> Poor nuance handling        | Positive: 75.53 <br> Neutral: 20.95 <br> Negative: 3.51 |
-| LSTM          | Deep Learning (RNN)       | High accuracy <br> Good at capturing word sequence/context | Slower <br> High resource demand                       | Positive: 43.37 <br> Neutral: 53.99 <br> Negative: 2.64 |
-| Hugging Face  | Transformer-based         | Balanced output <br> Suitable for both batch and live setups | Requires optimization for real-time inference         | Positive: 51.36 <br> Neutral: 40.8 <br> Negative: 7.83 |
 
 ---
 
