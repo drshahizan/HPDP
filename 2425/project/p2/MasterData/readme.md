@@ -412,8 +412,16 @@ Finally, future variants of this project may include: topic modelling or aspect-
 </p>
 
 <br>
-
+<p align="center">
+  <img src="./Image/Example_1.png" 
+       alt="Example_1" width="60%">
+</p>
 <p align="center"><b>Figure 4:</b> Examples of videos related to “Travelling in Malaysia” on YouTube</p>
+
+<p align="center">
+  <img src="./Image/Example_2.png" 
+       alt="Exampe_2" width="60%">
+</p>
 <p align="center"><b>Figure 5:</b> Examples of comments under videos related to “Travelling in Malaysia” on YouTube</p>
 
 
