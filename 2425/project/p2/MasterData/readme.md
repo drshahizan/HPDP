@@ -208,7 +208,6 @@ The Hugging Technique model that considers the transformer-based architectures p
 
 In short, the best structure is the one that targets an operational goal. Naive Bayes is suggested where lightweight and fast predictions during the real-time environment are needed and not much importance is placed on accuracy. LSTM is the best in a more detailed sentiment analysis in batch decisions. The Hugging Face models offer a general purpose that can maintain both the accuracy and the speed of processing that can be used in both live and batch applications, provided they have the infrastructure to support them.
 
----
 <div align="center">
   <table border="1" style="border-collapse: collapse; text-align: center;">
     <caption><strong>Table 1: Batch vs Live Stream Data Processing</strong></caption>
@@ -258,7 +257,6 @@ In short, the best structure is the one that targets an operational goal. Naive 
   </table>
 </div>
 
----
 
 <div align="center">
   <table border="1" style="border-collapse: collapse; text-align: center;">
