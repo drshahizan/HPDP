@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  MasterData - Real-Time Sentiment on Youtube's Video Comments related to Travelling in Malaysia
+  MasterData - Real-Time Sentiment on Youtube's Video Comments related to Traveling in Malaysia
   <br>
 </h1>
 
