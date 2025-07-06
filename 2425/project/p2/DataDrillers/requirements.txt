@@ -32,4 +32,4 @@ scikit-learn==1.4.2
 #       streamlit run streamlit_dashboard.py
 
 # Optional: To run everything at once (producer + consumer + dashboard):
-#       python run_all.py
+#       python run_all_pipeline.py
