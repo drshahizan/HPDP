@@ -392,7 +392,7 @@ Kibana connects to Elasticsearch and allows users to build real-time dashboards.
 ### 4.2 Workflow Diagram and Data Flow
 
 **Figure 4.2.1: Workflow Diagram**  
-*(See attached image: `Workflow Diagram.png`)*
+![Kafka + Spark + Elasticsearch Workflow Diagram-Page-1 drawio (1)](https://github.com/user-attachments/assets/1df34d7b-00a0-420d-b2e6-c8cc59f069e9)
 
 #### Step-by-Step Data Flow:
 
@@ -492,6 +492,10 @@ This visual dashboard enabled us to:
 - Monitor public sentiment trends in **real-time**, directly from social media engagement
 
 Overall, the system demonstrated the feasibility and value of using modern big data technologies for live sentiment analysis of culturally significant online content.
+
+### 5.2 Visualization 
+[PIC]
+
 ## 6.0 Optimization & Comparison
 
 ### 6.1 Model Optimization
