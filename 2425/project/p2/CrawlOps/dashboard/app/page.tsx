@@ -13,7 +13,7 @@ import { createClient } from "@supabase/supabase-js"
 
 // Replace the supabase configuration
 const supabaseUrl = "https://qavwgrhcqquyjcgdjedp.supabase.co"
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhdndncmhjcXF1eWpjZ2RqZWRwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1NDMwNDcsImV4cCI6MjA2NzExOTA0N30.35MBkB2jyTCXcYWxXJJ1w8wJK1YDEQc2QIBjmfjqr1g"
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ""
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Update the interface to match your table structure
