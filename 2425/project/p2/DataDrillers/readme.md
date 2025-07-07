@@ -17,7 +17,7 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 |------------------------|------|
 | 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF icon"/>]() |
 | 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/281/281760.png" width="40" alt="Slides icon"/>]() |
-| 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="Video icon"/>]() |
+| 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="Video icon"/>](https://youtu.be/7pEr9hx8oP4) |
 | 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/924/924374.png" width="40" alt="Data icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
 | 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/3406/3406954.png" width="40" alt="Cleaned data icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
 | ⚙️ **Preprocessing**    | [<img src="https://cdn-icons-png.flaticon.com/512/8636/8636876.png" width="40" alt="Preprocessing icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
