@@ -108,6 +108,9 @@ This architecture ensures scalable, near real-time sentiment analysis with a rob
 | **Kibana**              | Visualization tool for Elasticsearch data                                 |
 | **Python**              | Primary programming language used across the entire pipeline              |
 
+Certainly! Here's a clean and organized **`README.md`** section titled **Step-by-Step Pipeline Execution (Full Flow)**, written in Markdown format suitable for GitHub:
+
+````markdown
 ## 🚀 Step-by-Step Pipeline Execution (Full Flow)
 
 This section outlines the full setup and execution flow for running the sentiment analysis project using Apache Kafka, Apache Spark, Elasticsearch, and Kibana.
@@ -116,13 +119,15 @@ This section outlines the full setup and execution flow for running the sentimen
 
 ### I. ⚙️ Kafka Setup & Data Ingestion (Producer)
 
-#### 1️⃣ Start Zookeeper Server (Kafka Prerequisite)Certainly! Here's the continuation of your Markdown code from where you left off:
-
-```markdown
-```
+#### 1️⃣ Start Zookeeper Server (Kafka Prerequisite)
+```bash
+# In Command Prompt / Terminal 1
+cd C:\kafka
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+````
 
 * **Technology:** Apache Kafka (Zookeeper)
-* ✅ Keep this window running.
+* Keep this window running.
 
 #### 2️⃣ Start Kafka Server
 
@@ -133,7 +138,7 @@ cd C:\kafka
 ```
 
 * **Technology:** Apache Kafka
-* ✅ Keep this window running.
+* Keep this window running.
 
 #### 3️⃣ Start Grab Reviews Producer
 
@@ -144,13 +149,13 @@ python grab_review_producer.py
 ```
 
 * **Technology:** Python, Kafka
-* 🟢 Streams Grab reviews to `grab_app_reviews_raw` Kafka topic.
+* Continuously fetches Grab reviews and streams them into `grab_app_reviews_raw` Kafka topic.
 
 ---
 
 ### II. 🤖 Machine Learning Model Training
 
-> These steps use static review data (`grab_reviews.csv`) for training and only need to be run once.
+> You may run these while the producer is running. These use static CSV data (`grab_reviews.csv`) for model training.
 
 #### 4️⃣ Train and Save Logistic Regression Model
 
@@ -161,7 +166,7 @@ python grab_reviews_LR.py
 ```
 
 * **Technology:** Apache Spark (MLlib), Python
-* 💾 Saves model in the `lr_model` directory.
+* Trains and saves model in the `lr_model` directory.
 
 #### 5️⃣ Train and Save Naive Bayes Model
 
@@ -172,7 +177,7 @@ python grab_reviews_NB.py
 ```
 
 * **Technology:** Apache Spark (MLlib), Python
-* 💾 Saves model in the `nb_model` directory.
+* Trains and saves model in the `nb_model` directory.
 
 ---
 
@@ -187,7 +192,7 @@ elasticsearch.bat
 ```
 
 * **Technology:** Elasticsearch
-* 🌐 Wait for `http://localhost:9200` to confirm it is active.
+* Wait for `http://localhost:9200` to confirm it is active.
 
 #### 7️⃣ Start Kibana Server
 
@@ -198,7 +203,7 @@ kibana.bat
 ```
 
 * **Technology:** Kibana
-* 🌐 Wait for `http://localhost:5601` to confirm it's running.
+* Wait for `http://localhost:5601` to confirm it's running.
 
 ---
 
@@ -213,7 +218,7 @@ python spark_sentiment_consumer.py
 ```
 
 * **Technology:** Apache Spark, Kafka, Elasticsearch, Python
-* 📡 Connects to Kafka, applies trained models, sends sentiment predictions to Elasticsearch (`grab_reviews_sentiment` index).
+* Applies trained models on streamed data and indexes results to Elasticsearch.
 
 #### 9️⃣ Access Kibana Dashboard
 
@@ -222,12 +227,8 @@ python spark_sentiment_consumer.py
 * Click **Create data view**
 
   * Name: `grab_reviews_sentiment*`
-  * Click **Create data view**
-* ✅ You should now see real-time sentiment data appearing.
-* You can now build custom visualizations and dashboards using this index.
-
----
-
+  * Confirm and save
+ ---
 
 
 
