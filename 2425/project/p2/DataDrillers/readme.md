@@ -8,9 +8,11 @@ This project implements a **real-time sentiment analysis pipeline** for user rev
 The primary goal is to extract, process, analyze, and visualize sentiments from digital media in real-time, enabling organizations to make data-driven decisions swiftly.
 
 ---
-<div align="center">
 
 ## 📂 Project Documentation
+<div align="center">
+
+
 
 | Document Type          | Link |
 |------------------------|------|
