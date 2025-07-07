@@ -17,15 +17,18 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 | 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
 | 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
 | 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="YouTube"/>](https://youtu.be/7pEr9hx8oP4) |
-| 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="40" alt="CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
-| 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="40" alt="CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
+| 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
+| 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
 | ⚙️ **Preprocessing**    | [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="Colab"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
 | 🤖 **Model Training**   | [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="Colab"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
+| ⚡ **Kafka & Spark Pipeline** | [<img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="40" alt="Pipeline"/>](https://github.com/drshahizan/HPDP/tree/main/2425/project/p2/DataDrillers/kafka_spark_pipeline) |
 | 📊 **Dashboard**        | [<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" width="40" alt="Streamlit"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/dashboard/streamlit_dashboard.py) |
-| ⚡ **Kafka|Spark Pipeline** | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Apache_kafka-icon.svg/1200px-Apache_kafka-icon.svg.png" width="40" alt="Apache"/>](https://github.com/drshahizan/HPDP/tree/main/2425/project/p2/DataDrillers/kafka_spark_pipeline) |
+
 
 </div>
+
 ---
+
 ## ✨ Features
 
 * **Real-time Data Ingestion**: Continuously scrapes new reviews from the Google Play Store and streams them to Kafka.
