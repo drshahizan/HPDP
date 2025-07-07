@@ -494,7 +494,25 @@ This visual dashboard enabled us to:
 Overall, the system demonstrated the feasibility and value of using modern big data technologies for live sentiment analysis of culturally significant online content.
 
 ### 5.2 Visualization 
-[PIC]
+![project dashboard2_page-0001](https://github.com/user-attachments/assets/e0431cbc-6488-467d-919e-c159453e1c9a) <br><br>
+
+![Screenshot 2025-06-30 152743](https://github.com/user-attachments/assets/14366173-ccf3-43f9-901a-d9a0420e40b0) <br>
+This dashboard shows the total number of comments that are collected by the real-time sentiment analysis into the Elasticsearch. It collected 6829 data from YouTube videos. <br><br>
+
+![Screenshot 2025-06-30 152755](https://github.com/user-attachments/assets/fa38c8e7-9888-48f8-8634-ad6bf1520033) <br>
+This dashboard shows that the comments are collected from 7 different YouTube videos. <br><br>
+
+![Screenshot 2025-06-30 152819](https://github.com/user-attachments/assets/5223b3f8-9f14-45f1-91c0-da1779ec9322) <br>
+This pie chart visualizes the sentiment analysis of all 6829 collected comments. The comments are categorized into 3 sentiment classification which are positive, negative and neutral. From the pie chart, we can see that the majority of comments are negative sentiment, which is 68.93% of the comments. About 16.05% of the comments are neutral and 15.02% of the comments are positive. As a result, this pie chart tells us that most people give bad comments and are dissatisfied across the analyzed video. <br><br>
+
+![Screenshot 2025-06-30 152830](https://github.com/user-attachments/assets/e5f68a60-1c09-4893-b486-bddaae2b5d0b) <br>
+This line graph displays sentiment analysis of YouTube comments across 7 Malaysian Hari Raya music videos. This line graph compares the sentiment analysis between the 7 YouTube videos. Based on the legend, we can see that it includes video from Iman Troye, Sufian Suhaimi, Aisha Retno, Siti Nurhaliza, Nyanyian Ramai, Meriah Lain Macam and iamNEETA. The comments are categorized into 3 sentiment classifications. The analysis reveals that the negative sentiment appears to be highest across all the videos, with comments ranging from 450 to 820. While the positive sentiment reveals itself to be the lowest across all the videos, with comments ranging from 100 to 250. Besides that, this line chart tells us that the Iman Troye YouTube video has a bad sentiment, as it contains the highest negative sentiment and lowest neutral and positive sentiment. This line chart shows that  iamNEETA has a very good review due to it having the lowest negative sentiment and highest neutral and positive sentiment among all the videos.<br><br>
+
+![Screenshot 2025-06-30 152841](https://github.com/user-attachments/assets/61335b9f-de43-4802-8410-8a6e1721fc53) <br>
+This dashboard shows the details of the YouTube video that was collected from YouTube in table format. The details of the video are video title, publication date, viewer count, likes, and comment count. From the table we can see that the video title with Siti Nurhaliza has the most viewers, which is around 26 million views. The video with the most likes is iamNEETA and Meriah Lain Macam, which has around 10K likes. Besides that, we can see that the number of comments every video consistently gets is around 1000 comments.<br><br>
+![Screenshot 2025-06-30 152850](https://github.com/user-attachments/assets/9a4ea2d8-c82e-4c57-8fb0-b66ba14053d4) <br>
+This word cloud visualizes the top 50 comments that will frequently exist in the 7 YouTube videos analyzed. The word size indicates the frequency of the word appearing in the comments. The larger the size of the word, the more often it appears in the comments of the YouTube video. From this word cloud, we can see that the comments appear to be primarily in Malay. Through this word cloud, we can see that the phrases that appear frequently in these 7 videos are “selamat hari raya,” “best lagu raya ni,” “sedap lagu ni,” “suka lagu ni,” and more. The YouTube videos we scrape are Hari Raya-related music videos so the comments are mostly relevant to the Hari Raya music comments.<br><br>
+
 
 ## 6.0 Optimization & Comparison
 
