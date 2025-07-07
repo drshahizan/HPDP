@@ -26,6 +26,8 @@
   </tr>
 </table>
 
+<div align="center">
+
 | Name                      | Description                                                  | Links |
 | :------------------------ | :----------------------------------------------------------- | :---- |
 | grab_reviews_raw.csv       | Unprocessed datasets.                                        | [View CSV](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/GroupD/data/raw_data/grab_reviews_raw.csv) |
@@ -39,3 +41,6 @@
 | HPDP Report 2.pdf | Comprehensive project report.                                | [View File](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/GroupD/reports/HPDP%20Report%202.pdf) |
 | Grab App.pptx | Presentation slides for stakeholders.                      | [View File](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/GroupD/reports/Grab%20APP.pptx) |    
 | Pictures | All visualisation pictures.                      | [View Folder](https://github.com/drshahizan/HPDP/tree/main/2425/project/p2/GroupD/dashboard/Pictures) |  
+
+
+</div>
