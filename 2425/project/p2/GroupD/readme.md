@@ -116,11 +116,119 @@ This section outlines the full setup and execution flow for running the sentimen
 
 ### I. ⚙️ Kafka Setup & Data Ingestion (Producer)
 
-#### 1️⃣ Start Zookeeper Server (Kafka Prerequisite)
+#### 1️⃣ Start Zookeeper Server (Kafka Prerequisite)Certainly! Here's the continuation of your Markdown code from where you left off:
+
+```markdown
+```
+
+* **Technology:** Apache Kafka (Zookeeper)
+* ✅ Keep this window running.
+
+#### 2️⃣ Start Kafka Server
+
 ```bash
-# In Command Prompt / Terminal 1
+# In Command Prompt / Terminal 2
 cd C:\kafka
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
+* **Technology:** Apache Kafka
+* ✅ Keep this window running.
+
+#### 3️⃣ Start Grab Reviews Producer
+
+```bash
+# In Command Prompt / Terminal 3
+cd your\project\directory
+python grab_review_producer.py
+```
+
+* **Technology:** Python, Kafka
+* 🟢 Streams Grab reviews to `grab_app_reviews_raw` Kafka topic.
+
+---
+
+### II. 🤖 Machine Learning Model Training
+
+> These steps use static review data (`grab_reviews.csv`) for training and only need to be run once.
+
+#### 4️⃣ Train and Save Logistic Regression Model
+
+```bash
+# In Command Prompt / Terminal 4
+cd your\project\directory
+python grab_reviews_LR.py
+```
+
+* **Technology:** Apache Spark (MLlib), Python
+* 💾 Saves model in the `lr_model` directory.
+
+#### 5️⃣ Train and Save Naive Bayes Model
+
+```bash
+# In Command Prompt / Terminal 5
+cd your\project\directory
+python grab_reviews_NB.py
+```
+
+* **Technology:** Apache Spark (MLlib), Python
+* 💾 Saves model in the `nb_model` directory.
+
+---
+
+### III. 📡 Elasticsearch & Kibana Setup
+
+#### 6️⃣ Start Elasticsearch Server
+
+```bash
+# In Command Prompt / Terminal 6
+cd C:\elasticsearch-8.x.x\bin
+elasticsearch.bat
+```
+
+* **Technology:** Elasticsearch
+* 🌐 Wait for `http://localhost:9200` to confirm it is active.
+
+#### 7️⃣ Start Kibana Server
+
+```bash
+# In Command Prompt / Terminal 7
+cd C:\kibana-8.x.x\bin
+kibana.bat
+```
+
+* **Technology:** Kibana
+* 🌐 Wait for `http://localhost:5601` to confirm it's running.
+
+---
+
+### IV. 🔁 Spark Streaming Consumer & Visualization
+
+#### 8️⃣ Start Spark Sentiment Consumer
+
+```bash
+# In Command Prompt / Terminal 8
+cd your\project\directory
+python spark_sentiment_consumer.py
+```
+
+* **Technology:** Apache Spark, Kafka, Elasticsearch, Python
+* 📡 Connects to Kafka, applies trained models, sends sentiment predictions to Elasticsearch (`grab_reviews_sentiment` index).
+
+#### 9️⃣ Access Kibana Dashboard
+
+* Open your browser and visit: [http://localhost:5601](http://localhost:5601)
+* Go to **Analytics → Discover**
+* Click **Create data view**
+
+  * Name: `grab_reviews_sentiment*`
+  * Click **Create data view**
+* ✅ You should now see real-time sentiment data appearing.
+* You can now build custom visualizations and dashboards using this index.
+
+---
+
+
 
 
 ## 📊 Dashboard Visualizations
