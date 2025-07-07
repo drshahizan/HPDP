@@ -17,6 +17,7 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 | Document Type          | Link |
 |------------------------|------|
 | 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/final_report.pdf) |
+| 📄 **Final Report (Turnitin)**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/Turnitin_FinalProject_DataDrillers.pdf) |
 | 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/888/888882.png" width="40" alt="PPTX"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/presentation_slides.pptx) |
 | 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="YouTube"/>](https://youtu.be/7pEr9hx8oP4) |
 | 📂 **Raw Data**         | [<img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
