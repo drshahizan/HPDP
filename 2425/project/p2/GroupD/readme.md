@@ -123,7 +123,7 @@ This architecture ensures scalable, near real-time sentiment analysis with a rob
 ![Number of Reviews](dashboard/Pictures/Number%20of%20Reviews.jpg)
 
 ### 👥 Number of Users
-![Number of Users](dashboard/Pictures/Number%20of%20sers.jpg)
+![Number of Users](dashboard/Pictures/Number%20of%20users.jpg)
 
 ### 😊 Overall Sentiment
 ![Overall Sentiment](dashboard/Pictures/Overall%20Sentiment.jpg)
