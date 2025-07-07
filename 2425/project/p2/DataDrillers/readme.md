@@ -8,9 +8,9 @@
 | 📄 **Final Report**     | [View PDF Report]() |
 | 📊 **Presentation Slides** | [Download Slides]() |
 | 🎬 **Presentation Video** | [Watch Video]() |
-| 📂 **Raw Data**         | [View Raw Data]() |
-| 🧹 **Cleaned Data**     | [View Cleaned Data]() |
-| ⚙️ **Preprocessing**    | [View Preprocessing Notebook]() |
+| 📂 **Raw Data**         | [View Raw Data](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
+| 🧹 **Cleaned Data**     | [View Cleaned Data](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
+| ⚙️ **Preprocessing**    | [View Preprocessing Notebook](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
 | 🤖 **Model Training**   | [View Training Notebook](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
 
 ---
