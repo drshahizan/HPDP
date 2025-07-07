@@ -108,9 +108,6 @@ This architecture ensures scalable, near real-time sentiment analysis with a rob
 | **Kibana**              | Visualization tool for Elasticsearch data                                 |
 | **Python**              | Primary programming language used across the entire pipeline              |
 
-Certainly! Here's a clean and organized **`README.md`** section titled **Step-by-Step Pipeline Execution (Full Flow)**, written in Markdown format suitable for GitHub:
-
-````markdown
 ## 🚀 Step-by-Step Pipeline Execution (Full Flow)
 
 This section outlines the full setup and execution flow for running the sentiment analysis project using Apache Kafka, Apache Spark, Elasticsearch, and Kibana.
