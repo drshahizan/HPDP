@@ -175,15 +175,50 @@ Follow these steps to set up and run the Real-Time Sentiment Analysis pipeline.
 
 ---
 
-## 📊 Dashboard Usage
+## 📊 Dashboard Visualization
 
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+<div style="width: 45%;">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/dashboard1.jpg" width="60%"><br>
+<em>Interactive dashboard interface with sentiment distribution and trend analysis components.</em>
+</div>
+
+<div style="width: 45%;">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/dashboard2.png" width="60%"><br>
+<em>Detailed metrics view displaying key performance indicators and review statistics.</em>
+</div>
+
+<div style="width: 45%;">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/dashboardshopee.png" width="60%"><br>
+<em>The comprehensive dashboard provides real-time sentiment analysis.</em>
+</div>
+
+<div style="width: 30%;">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/positiveshopee.png" width="60%"><br>
+<em>Positive sentiment analysis</em>
+</div>
+
+<div style="width: 30%;">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/neutralshopee.png" width="60%"><br>
+<em>Neutral sentiment analysis</em>
+</div>
+
+<div style="width: 30%;">
+<img src="https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/negativeshopee.png" width="60%"><br>
+<em>Negative sentiment analysis</em>
+</div>
+
+</div>
+
+### 🖥️ Dashboard Usage
 Once `run_all_pipeline.py` is executed, the Streamlit dashboard will automatically open in your web browser (usually at `http://localhost:8501`).
 
-* Use the **sidebar filters** to select specific e-wallet applications or a custom date range.
-* Observe the **Key Sentiment Measures** for an immediate quantitative overview.
-* Analyze the **Sentiment Distribution (Pie Chart)** for overall sentiment proportions.
-* Track **Sentiment Trend Over Time (Line Chart)** to identify fluctuations.
-* Review the **Latest Reviews** table for qualitative context and specific issues.
+- Use the **sidebar filters** to select specific applications or date ranges
+- View **Key Sentiment Measures** for quantitative insights
+- Examine **Sentiment Distribution** via interactive pie chart
+- Track **Sentiment Trends** with time-series visualization
+- Explore **Latest Reviews** for qualitative feedback
 
 ---
 
