@@ -31,6 +31,17 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 
 ---
 
+## 👥 Group B - Data Drillers
+
+| No | Name                           | Matric No   |
+|----|--------------------------------|-------------|
+| 1  | Muhammad Anas Bin Mohd Pikri   | A21SC0464   |
+| 2  | Mulyani Binti Saripuddin       | A22EC0223   |
+| 3  | Aliatul Izzah Binti Jasman     | A22EC0136   |
+| 4  | Thevan Raju A/L Jeganath       | A22EC0286   |
+
+---
+
 ## ✨ Features
 
 * **Real-time Data Ingestion**: Continuously scrapes new reviews from the Google Play Store and streams them to Kafka.
@@ -57,17 +68,16 @@ The sentiment analysis focuses on user reviews for the following popular Malaysi
 
 ---
 
-## 🛠️ Technologies Used
+## 🧰 Technologies Used
 
-* **Apache Kafka**: High-throughput, fault-tolerant distributed streaming platform for data ingestion.
-* **Apache Spark**: Unified analytics engine for large-scale data processing and real-time stream processing.
-* **Python**: Primary programming language for scraping, Kafka producers, Spark consumer logic, and dashboard.
-* **TensorFlow / Keras**: For building and training the LSTM sentiment model.
-* **Scikit-learn**: For the Naive Bayes model and general machine learning utilities.
-* **NLTK, `emoji`, `regex`**: For text preprocessing.
-* **Streamlit**: For creating the interactive web dashboard.
-* **`google-play-scraper`**: Python library for extracting Google Play Store reviews.
-* **Google Colab**: Environment used for model development and training.
+| Technology             | Description                                       |
+|------------------------|---------------------------------------------------|
+| Apache Kafka       | Real-time streaming platform                      |
+| Apache Spark       | Structured streaming for processing data         |
+| TensorFlow (LSTM)  | Pre-trained model for sentiment classification    |
+| **Google Play Scraper**| Tool for scraping app reviews                     |
+| Streamlit          | Web-based dashboard to visualize live analytics   |
+| Python             | Programming language used for all components      |
 
 ---
 
@@ -188,15 +198,3 @@ We've explored several areas for improvement:
 
 ---
 
-## 🤝 Contribution
-
-This project was prepared by Group B - Data Drillers for the SECP3133 High Performance Data Processing course, Session 24/25-2, Section 01, under the supervision of Dr. Mohd Shahizan Bin Othman.
-
-**Prepared by:**
-
-1.  MUHAMMAD ANAS BIN MOHD PIKRI (A21SC0464)
-2.  MULYANI BINTI SARIPUDDIN (A22EC0223)
-3.  ALIATUL IZZAH BINTI JASMAN (A22EC0136)
-4.  THEVAN RAJU A/L JEGANATH (A22EC0286)
-
----
