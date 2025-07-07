@@ -8,23 +8,23 @@ This project implements a **real-time sentiment analysis pipeline** for user rev
 The primary goal is to extract, process, analyze, and visualize sentiments from digital media in real-time, enabling organizations to make data-driven decisions swiftly.
 
 ---
-
-<p align="center">
+<div align="center">
 
 ## 📂 Project Documentation
 
 | Document Type          | Link |
 |------------------------|------|
-| 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF icon"/>]() |
-| 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/281/281760.png" width="40" alt="Slides icon"/>]() |
-| 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="Video icon"/>](https://youtu.be/7pEr9hx8oP4) |
-| 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/924/924374.png" width="40" alt="Data icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
-| 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/3406/3406954.png" width="40" alt="Cleaned data icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
-| ⚙️ **Preprocessing**    | [<img src="https://cdn-icons-png.flaticon.com/512/8636/8636876.png" width="40" alt="Preprocessing icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
-| 🤖 **Model Training**   | [<img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="40" alt="Model icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
+| 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
+| 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
+| 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="YouTube"/>](https://youtu.be/7pEr9hx8oP4) |
+| 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="40" alt="CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
+| 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="40" alt="CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
+| ⚙️ **Preprocessing**    | [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="Colab"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
+| 🤖 **Model Training**   | [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="Colab"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
+| 📊 **Dashboard**        | [<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" width="40" alt="Streamlit"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/dashboard/streamlit_dashboard.py) |
+| ⚡ **Kafka|Spark Pipeline** | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Apache_kafka-icon.svg/1200px-Apache_kafka-icon.svg.png" width="40" alt="Apache"/>](https://github.com/drshahizan/HPDP/tree/main/2425/project/p2/DataDrillers/kafka_spark_pipeline) |
 
-</p>
-
+</div>
 ---
 ## ✨ Features
 
