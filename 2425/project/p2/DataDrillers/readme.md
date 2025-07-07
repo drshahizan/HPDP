@@ -76,7 +76,7 @@ The sentiment analysis focuses on user reviews for the following popular Malaysi
 ## 🧠 Project Architecture
 <div align="center">
    
-![Architecture Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/ArchitectureDiagram.png)<br>
+![Architecture Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/images/ArchitectureDiagram.png)<br>
 *The architecture diagram illustrates the real-time data flow from Google Play reviews through Kafka and Spark to a live dashboard.*
 
 </div>
