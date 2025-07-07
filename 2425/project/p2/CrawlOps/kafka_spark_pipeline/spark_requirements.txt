@@ -1,0 +1,3 @@
+pyspark==3.4.1
+supabase==1.0.3
+python-dotenv==1.0.0 
