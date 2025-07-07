@@ -113,21 +113,23 @@ This architecture ensures scalable, near real-time sentiment analysis with a rob
 ### 📈 Overall Dashboard
 ![Overall Dashboard](dashboard/Pictures/Overall%20Dashboard.jpg)
 
+### 🕒 Review Trends
+![Review Trends](dashboard/Pictures/Review%20Trends.jpg)
+
+### 📉 User Trends
+![User Trends](dashboard/Pictures/User%20Trends.jpg)
+
 ### 🧾 Number of Reviews
 ![Number of Reviews](dashboard/Pictures/Number%20of%20Reviews.jpg)
 
 ### 👥 Number of Users
-![Number of Users](dashboard/Pictures/Number%20of%20Users.jpg)
+![Number of Users](dashboard/Pictures/Number%20of%20sers.jpg)
 
 ### 😊 Overall Sentiment
 ![Overall Sentiment](dashboard/Pictures/Overall%20Sentiment.jpg)
 
-### 🕒 Review Trends
-![Review Trends](dashboard/Pictures/Review%20Trends.jpg)
-
 ### 📊 Sentiment Division
 ![Sentiment Division](dashboard/Pictures/Sentiment%20Division.jpg)
 
-### 📉 User Trends
-![User Trends](dashboard/Pictures/User%20Trends.jpg)
+
 
