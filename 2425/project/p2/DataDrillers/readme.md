@@ -17,7 +17,7 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 | Document Type          | Link |
 |------------------------|------|
 | 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
-| 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
+| 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>](https://www.canva.com/design/DAGscq6_NME/sjBGaitWn6PP1ycUNS8BCA/edit?utm_content=DAGscq6_NME&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="YouTube"/>](https://youtu.be/7pEr9hx8oP4) |
 | 📂 **Raw Data**         | [<img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
 | 🧹 **Cleaned Data**     | [<img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
