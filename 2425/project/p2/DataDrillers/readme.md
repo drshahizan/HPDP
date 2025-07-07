@@ -17,8 +17,8 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 | 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
 | 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF"/>]() |
 | 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="YouTube"/>](https://youtu.be/7pEr9hx8oP4) |
-| 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
-| 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
+| 📂 **Raw Data**         | [<img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
+| 🧹 **Cleaned Data**     | [<img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width="40" alt="Excel CSV"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
 | ⚙️ **Preprocessing**    | [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="Colab"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
 | 🤖 **Model Training**   | [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="Colab"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
 | ⚡ **Kafka & Spark Pipeline** | [<img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="40" alt="Pipeline"/>](https://github.com/drshahizan/HPDP/tree/main/2425/project/p2/DataDrillers/kafka_spark_pipeline) |
