@@ -55,7 +55,7 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
   - 📈 **Line chart showing sentiment over time**
   - ☁️ **Word cloud per sentiment**
   - 📋 **Table with latest 20 reviews**
-  - 🔍 **Filters by app, setiment and date**
+  - 🔍 **Filters by app, sentiment and date**
 ---
 
 
