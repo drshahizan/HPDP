@@ -1,17 +1,22 @@
 # Real-Time Sentiment Analysis of Malaysian E-Wallet Reviews
 
 ---
-## Project Documentation
+
+<p align="center">
+
+## 📂 Project Documentation
 
 | Document Type          | Link |
 |------------------------|------|
-| 📄 **Final Report**     | [View PDF Report]() |
-| 📊 **Presentation Slides** | [Download Slides]() |
-| 🎬 **Presentation Video** | [Watch Video]() |
-| 📂 **Raw Data**         | [View Raw Data](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
-| 🧹 **Cleaned Data**     | [View Cleaned Data](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
-| ⚙️ **Preprocessing**    | [View Preprocessing Notebook](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
-| 🤖 **Model Training**   | [View Training Notebook](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
+| 📄 **Final Report**     | [<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40" alt="PDF icon"/>]() |
+| 📊 **Presentation Slides** | [<img src="https://cdn-icons-png.flaticon.com/512/281/281760.png" width="40" alt="Slides icon"/>]() |
+| 🎬 **Presentation Video** | [<img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40" alt="Video icon"/>]() |
+| 📂 **Raw Data**         | [<img src="https://cdn-icons-png.flaticon.com/512/924/924374.png" width="40" alt="Data icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/e_wallet_reviews.zip) |
+| 🧹 **Cleaned Data**     | [<img src="https://cdn-icons-png.flaticon.com/512/3406/3406954.png" width="40" alt="Cleaned data icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/data/cleaned_reviews.csv) |
+| ⚙️ **Preprocessing**    | [<img src="https://cdn-icons-png.flaticon.com/512/8636/8636876.png" width="40" alt="Preprocessing icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/preprocessing.ipynb) |
+| 🤖 **Model Training**   | [<img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="40" alt="Model icon"/>](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
+
+</p>
 
 ---
 ## 🚀 Project Overview
