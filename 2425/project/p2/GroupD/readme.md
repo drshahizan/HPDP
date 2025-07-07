@@ -146,13 +146,13 @@ python grab_review_producer.py
 ```
 
 * **Technology:** Python, Kafka
-* Continuously fetches Grab reviews and streams them into `grab_app_reviews_raw` Kafka topic.
+* Continuously fetches Grab reviews and streams them into `grab_reviews_full` Kafka topic.
 
 ---
 
 ### II. 🤖 Machine Learning Model Training
 
-> You may run these while the producer is running. These use static CSV data (`grab_reviews.csv`) for model training.
+> You may run these while the producer is running. These use Kafka topic `grab_reviews_full` for model training.
 
 #### 4️⃣ Train and Save Logistic Regression Model
 
@@ -163,18 +163,7 @@ python grab_reviews_LR.py
 ```
 
 * **Technology:** Apache Spark (MLlib), Python
-* Trains and saves model in the `lr_model` directory.
-
-#### 5️⃣ Train and Save Naive Bayes Model
-
-```bash
-# In Command Prompt / Terminal 5
-cd your\project\directory
-python grab_reviews_NB.py
-```
-
-* **Technology:** Apache Spark (MLlib), Python
-* Trains and saves model in the `nb_model` directory.
+* Trains and saves model in the `lr_model_score_labeling` directory.
 
 ---
 
@@ -220,11 +209,14 @@ python spark_sentiment_consumer.py
 #### 9️⃣ Access Kibana Dashboard
 
 * Open your browser and visit: [http://localhost:5601](http://localhost:5601)
-* Go to **Analytics → Discover**
+* Go to **Stack Management → Under Kibana, Data Views**
 * Click **Create data view**
 
-  * Name: `grab_reviews_sentiment*`
+  * Name: `Grab App Sentiment Analysis*`
   * Confirm and save
+ 
+* Go to **Dashboard → Create Visualization**
+* Create the visualization
  ---
 
 
