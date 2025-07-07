@@ -92,3 +92,16 @@ The architecture of this sentiment analysis project is designed to support effic
 
 This architecture ensures scalable, near real-time sentiment analysis with a robust pipeline from data ingestion to insightful visualization.
 
+## 🧰 Technologies Used
+
+| Technology        | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Google Play Scraper** | Extracts user reviews from Google Play Store efficiently                   |
+| **Apache Kafka**        | Distributed event streaming platform used for real-time data ingestion   |
+| **Apache Spark (PySpark)** | Big data processing framework used for preprocessing and model training |
+| **Parquet**             | Columnar storage format for efficient data storage and retrieval         |
+| **Naive Bayes**         | Supervised ML algorithm used for sentiment classification                |
+| **Logistic Regression** | Another ML model used for binary/multi-class sentiment classification     |
+| **Elasticsearch**       | Real-time search and analytics engine for storing processed data          |
+| **Kibana**              | Visualization tool for Elasticsearch data                                 |
+| **Python**              | Primary programming language used across the entire pipeline              |
