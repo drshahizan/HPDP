@@ -1,7 +1,19 @@
 # Real-Time Sentiment Analysis of Malaysian E-Wallet Reviews
 
 ---
+## Project Documentation
 
+| Document Type          | Link |
+|------------------------|------|
+| 📄 **Final Report**     | [View PDF Report]() |
+| 📊 **Presentation Slides** | [Download Slides]() |
+| 🎬 **Presentation Video** | [Watch Video]() |
+| 📂 **Raw Data**         | [View Raw Data]() |
+| 🧹 **Cleaned Data**     | [View Cleaned Data]() |
+| ⚙️ **Preprocessing**    | [View Preprocessing Notebook]() |
+| 🤖 **Model Training**   | [View Training Notebook]() |
+
+---
 ## 🚀 Project Overview
 
 This project implements a **real-time sentiment analysis pipeline** for user reviews of popular Malaysian e-wallet and e-commerce applications (Touch 'n Go, Boost, Grab, Setel, Shopee) from the Google Play Store. Leveraging the power of **Apache Kafka** for data ingestion and **Apache Spark Streaming** for real-time processing and sentiment prediction, the system provides immediate insights into public opinion. The results are visualized through an interactive **Streamlit dashboard**.
