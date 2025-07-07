@@ -42,17 +42,22 @@ The primary goal is to extract, process, analyze, and visualize sentiments from 
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* **Real-time Data Ingestion**: Continuously scrapes new reviews from the Google Play Store and streams them to Kafka.
-* **Robust Data Preprocessing**: Cleans and prepares raw review text using Natural Language Processing (NLP) techniques.
-* **Dual Sentiment Models**:
-    * **Naive Bayes (TF-IDF)**: Fast and lightweight for quick inference.
-    * **LSTM Neural Network (Keras)**: More accurate, capturing nuanced Malay language context. (Chosen for final real-time implementation due to better performance on Malay text).
-* **Scalable Real-time Processing**: Utilizes Apache Spark Streaming for distributed and fault-tolerant sentiment classification.
-* **Interactive Dashboard**: A Streamlit-based dashboard provides real-time visualizations of sentiment distribution, trends, and the latest reviews.
-
+- ✅ **Live review scraping in Bahasa Melayu**
+- ✅ **Streams reviews to Kafka every 60 seconds**
+- ✅ **Uses pre-trained LSTM model to classify sentiment**:
+  - Positive 😊
+  - Neutral 😐
+  - Negative 😠
+- ✅ **Real-time interactive dashboard with**:
+  - 📊 **Pie chart for sentiment distribution**
+  - 📈 **Line chart showing sentiment over time**
+  - ☁️ **Word cloud per sentiment**
+  - 📋 **Table with latest 20 reviews**
+  - 🔍 **Filters by app, setiment and date**
 ---
+
 
 ## 🎯 Target Applications
 
@@ -65,6 +70,16 @@ The sentiment analysis focuses on user reviews for the following popular Malaysi
 | Grab         | `com.grabtaxi.passenger`    |
 | Setel        | `com.setel.mobile`          |
 | Shopee Pay   | `com.shopeepay.my`          |
+
+---
+
+## 🧠 Project Architecture
+<div align="center">
+   
+![Architecture Diagram](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/reports/ArchitectureDiagram.png)<br>
+*The architecture diagram illustrates the real-time data flow from Google Play reviews through Kafka and Spark to a live dashboard.*
+
+</div>
 
 ---
 
