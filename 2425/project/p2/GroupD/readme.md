@@ -49,6 +49,8 @@
 
 ## 🏗️ System Architecture
 
+![System Architecture](Pictures/architecture.png)
+
 The architecture of this sentiment analysis project is designed to support efficient processing and real-time analysis of Grab App reviews. It consists of **five main phases**:
 
 1. **Data Collection**
