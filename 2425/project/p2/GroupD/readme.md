@@ -110,15 +110,14 @@ This architecture ensures scalable, near real-time sentiment analysis with a rob
 
 
 ## 📊 Dashboard Visualizations
+### 📈 Overall Dashboard
+![Overall Dashboard](dashboard/Pictures/Overall%20Dashboard.jpg)
 
 ### 🧾 Number of Reviews
 ![Number of Reviews](dashboard/Pictures/Number%20of%20Reviews.jpg)
 
 ### 👥 Number of Users
 ![Number of Users](dashboard/Pictures/Number%20of%20Users.jpg)
-
-### 📈 Overall Dashboard
-![Overall Dashboard](dashboard/Pictures/Overall%20Dashboard.jpg)
 
 ### 😊 Overall Sentiment
 ![Overall Sentiment](dashboard/Pictures/Overall%20Sentiment.jpg)
