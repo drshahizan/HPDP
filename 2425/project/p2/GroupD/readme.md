@@ -44,3 +44,49 @@
 
 
 </div>
+
+## 🏗️ System Architecture
+
+The architecture of this sentiment analysis project is designed to support efficient processing and real-time analysis of Grab App reviews. It consists of **five main phases**:
+
+1. **Data Collection**
+2. **Data Preparation**
+3. **Model Training**
+4. **Stream Data Collection**
+5. **Visualization**
+
+### 🔹 1. Data Collection
+
+- Review data for the **Grab App** is extracted from the Google Play Store using the [`google-play-scraper`](https://github.com/danieliu/google-play-scraper) library.
+- Apache Kafka is used as a **message broker**, allowing the collected review data to be sent to a Kafka topic for further processing.
+
+### 🔹 2. Data Preparation
+
+- The collected data is preprocessed using **Apache Spark (PySpark)**.
+- Preprocessing steps include cleaning, normalizing, and structuring the text to prepare it for model training.
+- PySpark efficiently handles large volumes of data streamed from Kafka.
+
+### 🔹 3. Model Training
+
+- Cleaned data is saved in **Parquet** format and split into training and testing datasets.
+- Two supervised machine learning models are trained using PySpark:
+  - **Naive Bayes**
+  - **Logistic Regression**
+- The models are evaluated using metrics such as **accuracy**, **F1 score**, and **confusion matrix**.
+
+### 🔹 4. Stream Data Collection
+
+- Real-time app reviews are continuously collected from Kafka (`grab_reviews_final` topic).
+- Incoming data is preprocessed to match the format used during training.
+- The trained model is loaded and applied to the streaming data to predict sentiment.
+
+### 🔹 5. Visualization
+
+- The sentiment predictions are indexed into **Elasticsearch** under the index `grab_reviews_sentiment`.
+- **Kibana** is used to visualize the sentiment trends with dashboards showing the distribution of:
+  - Positive reviews
+  - Neutral reviews
+  - Negative reviews
+
+This architecture ensures scalable, near real-time sentiment analysis with a robust pipeline from data ingestion to insightful visualization.
+
