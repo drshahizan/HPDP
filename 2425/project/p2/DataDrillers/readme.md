@@ -11,7 +11,7 @@
 | 📂 **Raw Data**         | [View Raw Data]() |
 | 🧹 **Cleaned Data**     | [View Cleaned Data]() |
 | ⚙️ **Preprocessing**    | [View Preprocessing Notebook]() |
-| 🤖 **Model Training**   | [View Training Notebook]() |
+| 🤖 **Model Training**   | [View Training Notebook](https://github.com/drshahizan/HPDP/blob/main/2425/project/p2/DataDrillers/notebooks/model_training.ipynb) |
 
 ---
 ## 🚀 Project Overview
