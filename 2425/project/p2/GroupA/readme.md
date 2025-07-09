@@ -43,7 +43,7 @@
   <tr>
     <td>Presentation Slides</td>
     <td align="center">
-      <a href="reports/presentation_slides.pptx"><img src="https://github.com/user-attachments/assets/c09e2ce5-80ce-4236-9508-c65d1f079cda" width=25px height=23px></a>
+      <a href="reports/presentation_slide.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
