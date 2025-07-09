@@ -1,0 +1,75 @@
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.1
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.6.1
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:29092,PLAINTEXT_HOST://0.0.0.0:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.13.4
+    depends_on:
+      - elasticsearch
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+
+  spark:
+    image: bitnami/spark:3.4.2
+    depends_on:
+      - kafka
+      - elasticsearch
+    ports:
+      - "8080:8080"  # Spark Master UI
+      - "7077:7077"  # Spark Master Port
+    volumes:
+      - ./:/opt/bitnami/spark/work # Maps your project directory into the container
+    environment:
+      SPARK_MODE: master
+      SPARK_MASTER_URL: spark://spark:7077
+
+   # --- ADD THIS NEW SERVICE ---
+  spark-worker:
+    image: bitnami/spark:3.4.2
+    depends_on:
+      - spark # Ensures the master is started first
+    volumes:
+      - ./:/opt/bitnami/spark/work
+    environment:
+      SPARK_MODE: worker
+      SPARK_MASTER_URL: spark://spark:7077 # Tells the worker where to find the master
+      SPARK_WORKER_CORES: 2  # Number of cores the worker can use
+      SPARK_WORKER_MEMORY: 2g # Amount of memory the worker can use
