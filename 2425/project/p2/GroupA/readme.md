@@ -182,7 +182,7 @@ The analysis of the Reddit comments yielded several key insights:
 
 ### Kibana Dashboard
 
-![Kibana Dashboard](https://i.imgur.com/gO0Xq5B.png)
+![Kibana Dashboard](pipeline_architeture.png)
 
 ---
 
