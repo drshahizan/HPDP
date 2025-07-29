@@ -47,6 +47,12 @@
     </td>
   </tr>
   <tr>
+    <td>Presentation Video</td>
+    <td align="center">
+      <a href="https://youtu.be/EY0r6jGFGqY?si=8LtOilehTcim6CJN"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+    </td>
+  </tr>
+  <tr>
     <td>Raw Data</td>
     <td align="center">
       <a href="data/raw_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
