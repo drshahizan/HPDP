@@ -156,7 +156,7 @@ bdm/your_group/
 | GHIS | Pandas | Polars | PyArrow | [GitHub Issues](https://www.kaggle.com/datasets/davidshinn/github-issues/data) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/GHIS) |
 | ID | Pandas | Polars | Dask | [Data Expo 2009: Airline On Time Data](https://www.kaggle.com/datasets/wenxingdi/data-expo-2009-airline-on-time-data) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/ID) |
 | Solo Squad | Pandas | Polars | Dask | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset?select=final_animedataset.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Solo%20Squad) |
-
+| Tralalelo | Pandas | Polars | Dask | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset?select=final_animedataset.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Tralalelo) |
 
 
 
