@@ -91,13 +91,13 @@ By the end of this project, you will be able to:
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
-| Group A      |  Selenium        |   Threading        |    WebDriver Manager       |  NST World, Business, ASEAN News Articles       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupA) 
+| Group A      |  Selenium        |   Threading        |    WebDriver Manager       |  NST World, Business, ASEAN News Articles       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupA) 
 | Data Drillers      |  Pandas        |   DuckDB        |    Polars       |  Car Lists Analysis       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupB)                 |
-| HyperData  |   pandas   |  polar  |   pySpark      |   Women's Purchase Analysis      |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupC)   |
-|  Group D     |   Pandas     |   Dask        |    Polar       |   Beauty & Health Item Analysis      | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupD)  |                 |
-| Group E | Pandas | Polars | Modin | News Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupE) |
-| CrawlOps | joblib | concurrent.futures | PySpark    | Car Market Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/CrawlOps) |
-| Group G | Pandas | Polars  | Dask  |  Malaysia News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/GroupG)  |
+| HyperData  |   pandas   |  polar  |   pySpark      |   Women's Purchase Analysis      |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupC)   |
+|  Group D     |   Pandas     |   Dask        |    Polar       |   Beauty & Health Item Analysis      | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupD)  |                 |
+| Group E | Pandas | Polars | Modin | News Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupE) |
+| CrawlOps | joblib | concurrent.futures | PySpark    | Car Market Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](CrawlOps) |
+| Group G | Pandas | Polars  | Dask  |  Malaysia News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupG)  |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
