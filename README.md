@@ -13,14 +13,14 @@ The information on this Github is part of the materials for the subject High Per
 
 ## 🔥 Important Things
 
-- ✅ **[Tasks to Complete Before the First Lecture](./2425/materials/essentials.md)**:
+- ✅ **[Tasks to Complete Before the First Lecture](./2526/materials/essentials.md)**:
 Before attending the first lecture, make sure you've completed all the essential tasks. These include setting up your learning environment, accessing the course materials, and preparing to fully engage in the class from day one. 📝💻
 
-- 🧑‍🎓 **[Student Information](./2425/student/)**: Access personal and academic information relevant to your student profile.
+- 🧑‍🎓 **[Student Information](./2526/student/)**: Access personal and academic information relevant to your student profile.
   
 - 📚 **[Course Information](./images/CI_HPDP_SCSP3133%2024252.pdf)**: Find detailed course content, schedules, and requirements for the current semester.
 
-- 📅 **[Weekly Schedule](./2425/materials/schedule.md)**: A week-by-week breakdown of course topics.
+- 📅 **[Weekly Schedule](./2526/materials/schedule.md)**: A week-by-week breakdown of course topics.
 
 - 📝 **[Assignment](./2425/assignment)**: View and download current assignments, submission guidelines, and deadlines.
   
