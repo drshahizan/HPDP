@@ -25,20 +25,20 @@ Welcome to the **High-Performance Data Processing (HPDP)** class! We are excited
 
 5. **Student Information Submission** 🔗  
    Once you have been added as a **collaborator** on the GitHub repository, please update your student information:  
-   - **Edit** the student information file at: [HPDP Student Information](https://github.com/drshahizan/HPDP/blob/main/2425/student/readme.md)  
+   - **Edit** the student information file at: [HPDP Student Information](https://github.com/drshahizan/HPDP/blob/main/2526/student/readme.md)  
    - Refer to this **example**: [Student Info Sample](https://github.com/drshahizan/HPDP/blob/main/student.md)  
    - Provide the following details:  
      - **GitHub ID**  
      - **GitHub Profile Link**  
      - **LinkedIn Profile Link**  
      - **Portfolio Link**  
-   - **Create a personal folder** in the directory: [Student Directory](https://github.com/drshahizan/HPDP/tree/main/2425/student).  
+   - **Create a personal folder** in the directory: [Student Directory](https://github.com/drshahizan/HPDP/tree/main/2526/student).  
    - Name the folder using your **GitHub ID** and include your **personal details & portfolio link** inside.  
 
 ## 🎯 **Final Reminder**  
 Please **complete these tasks before our first class**, as they are crucial for effective collaboration and learning.  
 
-We look forward to an exciting and insightful semester ahead! 🚀 
+We look forward to an exciting and insightful semester ahead 🚀 
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
