@@ -22,9 +22,9 @@ Before attending the first lecture, make sure you've completed all the essential
 
 - 📅 **[Weekly Schedule](./2526/materials/schedule.md)**: A week-by-week breakdown of course topics.
 
-- 📝 **[Assignment](./2425/assignment)**: View and download current assignments, submission guidelines, and deadlines.
+- 📝 **[Assignment](./2526/assignment)**: View and download current assignments, submission guidelines, and deadlines.
   
-- 💡 **[Lab Exercise](./2425/lab)**: Engage with exercises designed to complement your coursework and enhance learning.
+- 💡 **[Lab Exercise](./2526/lab)**: Engage with exercises designed to complement your coursework and enhance learning.
 
 - ❓ **[Quiz](./2425/quiz)**: Test your knowledge and track your progress through quizzes.
 
