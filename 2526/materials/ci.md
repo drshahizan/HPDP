@@ -7,8 +7,8 @@
 
 # Course Information
 
-- [Penerangan berkaitan kursus]()
-- [Slaid Course Information]()
+- [Penerangan berkaitan kursus](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/IQD4OcwO_RASSZUrDRNcogLtAWf9mThmwp9my5O_vGiWzFY?e=yWQzNz)
+- [Slaid Course Information](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/IQAlWZ6_ZWNfSZgvr5D6y1XfAbgZoXLfMKXAwrKTQij0iXc?e=TKuo2k)
 
 
 ## Contribution 🛠️
