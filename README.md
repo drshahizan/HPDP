@@ -24,7 +24,7 @@ Before attending the first lecture, make sure you've completed all the essential
 
 - 📝 **[Assignment](./2526/assignment)**: View and download current assignments, submission guidelines, and deadlines.
   
-- 💡 **[Lab Exercise](./2526/lab)**: Engage with exercises designed to complement your coursework and enhance learning.
+- 💡 **[Lab](./2526/lab)**: Engage with exercises designed to complement your coursework and enhance learning.
 
 - ❓ **[Quiz](./2425/quiz)**: Test your knowledge and track your progress through quizzes.
 
