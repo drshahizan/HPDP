@@ -24,8 +24,6 @@
 **Outcome:**  
 Build a strong cloud foundation and prepare for the **AWS Certified Cloud Practitioner** exam.
 
-🔗 [Access the course here](https://awsacademy.instructure.com/courses/116794)
-
 ### 2. 🟦 [**AWS Academy Cloud Developing**](https://awsacademy.instructure.com/courses/164138)  
 **Level:** Intermediate  
 **Purpose:** Learn how to **build, test, and deploy cloud-native applications** using AWS services and development tools.
@@ -40,8 +38,6 @@ Build a strong cloud foundation and prepare for the **AWS Certified Cloud Practi
 **Outcome:**  
 Gain skills for real-world cloud app development and prepare for the **AWS Certified Developer – Associate** exam.
 
-🔗 [Access the course here](https://awsacademy.instructure.com/courses/116797)
-
 ### 3. 🟦 [**AWS Academy Lab Project – Cloud Data Pipeline Builder**](https://awsacademy.instructure.com/courses/164139)  
 **Level:** Advanced / Project-Based  
 **Purpose:** Apply your knowledge through a **hands-on data engineering project** using AWS tools.
@@ -55,8 +51,6 @@ Gain skills for real-world cloud app development and prepare for the **AWS Certi
 
 **Outcome:**  
 Develop a working cloud data pipeline project and enhance your portfolio with hands-on experience in cloud data solutions.
-
-🔗 [Access the course here](https://awsacademy.instructure.com/courses/116796)
 
 
 ## 🧭 **Step-by-Step Guide to Learn AWS Academy**
