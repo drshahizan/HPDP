@@ -122,7 +122,7 @@ Gain skills for real-world cloud app development and prepare for the **AWS Certi
 **Outcome:**  
 Develop a working cloud data pipeline project and enhance your portfolio with hands-on experience in cloud data solutions.
 
-## [Video](https://liveutm-my.sharepoint.com/:v:/g/personal/shahizan_live_utm_my/IQATjfwAnuatQIO2W_ryYT8eAT9gXkwwqiQbxNSLReWokjo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7ms6GE)
+## 📹[Video](https://liveutm-my.sharepoint.com/:v:/g/personal/shahizan_live_utm_my/IQATjfwAnuatQIO2W_ryYT8eAT9gXkwwqiQbxNSLReWokjo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7ms6GE)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
