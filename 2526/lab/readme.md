@@ -9,8 +9,6 @@
 
 ### 🔑 [Step-by-Step Guide to Logging into AWS Academy](login.md)
 
-## 🌐 **AWS Academy Learning Path**
-
 ## 🧭 **Step-by-Step Guide to Learn AWS Academy**
 
 ### 🔹 Step 1: **Understand the Course Sequence**
@@ -81,6 +79,7 @@ You can take practice exams and continue using AWS Free Tier to refine your skil
 - Join AWS Academy student communities
 - Use additional resources: [AWS Skill Builder](https://skillbuilder.aws), [AWS YouTube Channel](https://www.youtube.com/user/AmazonWebServices)
 
+## 🌐 **AWS Academy Learning Path**
 
 ### 1. 🟦 [**AWS Academy Cloud Foundations**](https://awsacademy.instructure.com/courses/164137)  
 **Level:** Beginner  
