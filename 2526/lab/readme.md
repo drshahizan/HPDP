@@ -11,7 +11,7 @@
 
 ## 🌐 **AWS Academy Learning Path**
 
-### 1. 🟦 [**AWS Academy Cloud Foundations**](https://awsacademy.instructure.com/courses/116794)  
+### 1. 🟦 [**AWS Academy Cloud Foundations**](https://awsacademy.instructure.com/courses/164137)  
 **Level:** Beginner  
 **Purpose:** This course introduces students to the **core concepts of cloud computing** and how Amazon Web Services (AWS) operates as a cloud service provider.
 
@@ -26,7 +26,7 @@ Build a strong cloud foundation and prepare for the **AWS Certified Cloud Practi
 
 🔗 [Access the course here](https://awsacademy.instructure.com/courses/116794)
 
-### 2. 🟦 [**AWS Academy Cloud Developing**](https://awsacademy.instructure.com/courses/116797)  
+### 2. 🟦 [**AWS Academy Cloud Developing**](https://awsacademy.instructure.com/courses/164138)  
 **Level:** Intermediate  
 **Purpose:** Learn how to **build, test, and deploy cloud-native applications** using AWS services and development tools.
 
@@ -42,7 +42,7 @@ Gain skills for real-world cloud app development and prepare for the **AWS Certi
 
 🔗 [Access the course here](https://awsacademy.instructure.com/courses/116797)
 
-### 3. 🟦 [**AWS Academy Lab Project – Cloud Data Pipeline Builder**](https://awsacademy.instructure.com/courses/116796)  
+### 3. 🟦 [**AWS Academy Lab Project – Cloud Data Pipeline Builder**](https://awsacademy.instructure.com/courses/164139)  
 **Level:** Advanced / Project-Based  
 **Purpose:** Apply your knowledge through a **hands-on data engineering project** using AWS tools.
 
