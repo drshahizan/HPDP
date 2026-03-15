@@ -30,7 +30,7 @@
 |18 | Najma Shakirah Binti Shahrulzaman |  |  |  |  |
 |19 | Nawwarah Auni Binti Nazrudin |  |  |  |  |
 |20 | Ng Yu Hin |  |  |  |  |
-|21 | Nurul Adriana Binti Kamal Jefri |  |  |  |  |
+|21 | Nurul Adriana Binti Kamal Jefri | AdrianaJfry04 | [:octocat:](https://github.com/adrianajfry04) | <a href="https://www.linkedin.com/in/adriana-jefri-86797a24b/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
 |23 | Pravinraj A/L Sivabathi |  |  |  |  |
 |24 | Syarifah Dania Binti Syed Abu Bakar |  |  |  |  |
