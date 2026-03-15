@@ -29,7 +29,7 @@
 |17 | Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong |  |  |  |  |
 |18 | Najma Shakirah Binti Shahrulzaman |  |  |  |  |
 |19 | Nawwarah Auni Binti Nazrudin |  |  |  |  |
-|20 | Ng Yu Hin |  |  |  |  |
+|20 | Ng Yu Hin | Rick8704 | [:octocat:](https://github.com/Rick8704) | <a href="https://www.linkedin.com/in/yu-hin-ng-475777298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="Rick8704"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |21 | Nurul Adriana Binti Kamal Jefri |  |  |  |  |
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
 |23 | Pravinraj A/L Sivabathi |  |  |  |  |
