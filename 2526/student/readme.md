@@ -35,7 +35,7 @@
 |23 | POH LOK YEE |  |  |  |  |
 |24 | SABRINA HENG WEI QI |  |  |  |  |
 |25 | SAFIYA NURSYAHADAH BINTI MASNOOR |  |  |  |  |
-|26 | TAN ZHI MING |  |  |  |  |
+|26 | TAN ZHI MING |ZHIMING04  |[:octocat:](https://github.com/ZHIMING04)  ||<a href="[https://www.linkedin.com/in/abdul-muhaimin-65390b23b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app](https://www.linkedin.com/in/zhimingtan/)" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a>  |<a href="[ZHIMING04](https://github.com/ZHIMING04/ZHIMING04/edit/master/README.md)"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
 
 
 ## Contribution 🛠️
