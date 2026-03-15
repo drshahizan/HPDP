@@ -34,7 +34,7 @@
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
 |23 | Pravinraj A/L Sivabathi |  |  |  |  |
 |24 | Syarifah Dania Binti Syed Abu Bakar |  |  |  |  |
-|25 | Tan Yi Ya |  |  |  |  |
+|25 | Tan Yi Ya | tanyiya | [:octocat:](https://github.com/tanyiya) | <a href="https://www.linkedin.com/in/tanyiya04/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="tanyiya"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |26 | Teh Ru Qian |  |  |  |  |
 |27 | Woo Cheng Shuan |  |  |  |  |
 |28 | Yasmin Batrisyia Binti Zahiruddin |  |  |  |  |
