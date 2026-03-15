@@ -22,7 +22,7 @@
 |10 | Lam Yoke Yu |  |  |  |  |
 |11 | Mohamed Alif Fathi Bin Abdul Latif |  |  |  |  |
 |12 | Muhammad Adam Bin Razali |  |  |  |  |
-|13 | Muhammad Afiq Danial Bin Rozaidie |  |  |  |  |
+|13 | Muhammad Afiq Danial Bin Rozaidie | Afiq0412 | [:octocat:](https://github.com/Afiq0412) | <a href="https://www.linkedin.com/in/afiq-danial-2954b4298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="Afiq0412"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |14 | Muhammad Afiq Danish Bin Mohd Hazni |  |  |  |  |
 |15 | Muhammad Naim Bin Abdullah |  |  |  |  |
 |16 | Muhammad Syahmi Faris Bin Rusli |  |  |  |  |
