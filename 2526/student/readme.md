@@ -32,7 +32,7 @@
 |20 | Ng Yu Hin |  |  |  |  |
 |21 | Nurul Adriana Binti Kamal Jefri |  |  |  |  |
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
-|23 | Pravinraj A/L Sivabathi |  |  |  |  |
+|23 | Pravinraj A/L Sivabathi | SDPRAVINRAJ | [:octocat:](https://github.com/SDPRAVINRAJ) | <a href="https://www.linkedin.com/in/pravinraj-sivabathi-4004b7298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="SDPRAVINRAJ"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |24 | Syarifah Dania Binti Syed Abu Bakar |  |  |  |  |
 |25 | Tan Yi Ya |  |  |  |  |
 |26 | Teh Ru Qian |  |  |  |  |
