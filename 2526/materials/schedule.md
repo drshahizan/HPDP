@@ -10,9 +10,9 @@
 | **Week** | **Topics** |
 |:-------:|:-----------|
 | 1 | - [Course Information](ci.md) <br> - [Introduction to cloud computing, high performance computing, and data processing](w1.md) |
-| 2 | The High-Performance Technologies for Big and Fast Data Analytics |
-| 3 | Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers |
-| 4 | Big and Fast Data Analytics Yearning for High-Performance Computing |
+| 2 | [The High-Performance Technologies for Big and Fast Data Analytics](w2.md) |
+| 3 | [Optimizing High-Performance Data Processing for Large-Scale Web Crawlers](w3.md) |
+| 4 | [Big and Fast Data Analytics Yearning for High-Performance Computing](w4.md) |
 | 5 | [MongoDB and Big Data](w5.md) |
 | 6 | Storage Infrastructures for High-Performance Big Data Analytics |
 | 7 | Real-Time Analytics Using High-Performance Computing |
