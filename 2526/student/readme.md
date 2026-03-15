@@ -31,7 +31,7 @@
 |19 | Nawwarah Auni Binti Nazrudin |  |  |  |  |
 |20 | Ng Yu Hin |  |  |  |  |
 |21 | Nurul Adriana Binti Kamal Jefri |  |  |  |  |
-|22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
+|22 | Nurul Asyikin Binti Khairul Anuar | NASYIKINKHAI | [:octocat:](https://github.com/NASYIKINKHAI) | <a href="https://www.linkedin.com/in/nurul-asyikin-19973229a/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="NASYIKINKHAI"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |23 | Pravinraj A/L Sivabathi |  |  |  |  |
 |24 | Syarifah Dania Binti Syed Abu Bakar |  |  |  |  |
 |25 | Tan Yi Ya |  |  |  |  |
