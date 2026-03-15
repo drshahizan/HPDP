@@ -26,7 +26,7 @@
 |14 | Muhammad Afiq Danish Bin Mohd Hazni |  |  |  |  |
 |15 | Muhammad Naim Bin Abdullah |  |  |  |  |
 |16 | Muhammad Syahmi Faris Bin Rusli |  |  |  |  |
-|17 | Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong | aflahh12  | [:octocat:](https://github.com/aflahh12) | <a href="https://www.linkedin.com/in/aflah-boo-273b37299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
+|17 | Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong | aflahh12  | [:octocat:](https://github.com/aflahh12) | <a href="https://www.linkedin.com/in/aflah-boo-273b37299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="aflahh12"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |18 | Najma Shakirah Binti Shahrulzaman |  |  |  |  |
 |19 | Nawwarah Auni Binti Nazrudin |  |  |  |  |
 |20 | Ng Yu Hin |  |  |  |  |
