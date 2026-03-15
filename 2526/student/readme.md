@@ -13,7 +13,7 @@
 | 1 | Afif Shaqir Irfan Bin Arqam |  |  |  |  |
 | 2 | Ahmad Adib Zikri Bin A. Mazlam |  |  |  |  |
 | 3 | Ahmad Ziyaad Bin Mohd Abbas |  |  |  |  |
-| 4 | Anis Safiyya Binti Janai |  |  |  |  |
+| 4 | Anis Safiyya Binti Janai | anissj | [:octocat:](https://github.com/anissj) | <a href="https://www.linkedin.com/in/anissafiyya"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="anissj"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 5 | Choh Jing Yi |  |  |  |  |
 | 6 | Dheshieghan A/L Saravana Moorthy |  |  |  |  |
 | 7 | Goe Jie Ying |  |  |  |  |
