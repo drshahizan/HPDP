@@ -28,7 +28,7 @@
         <li><strong>👯 Pursued my foundational education in</strong> <em>Physical Science at UTM</em>.</li>
         <li>💬 My hobbies include <strong>Programming, Basketball, and Badminton</strong>.</li>
         <li>🌟 Main languages: <strong>PYTHON,MYSQL,MONGODB,JAVA,PHP, C++</strong>.</li>
-        <li>📄 Explore my resume <a href="https://drive.google.com/file/d/1vJMP-EwU6M-VDOMaPv3mIBWSGwrAIcNj/view?usp=sharing" target="_blank">here</a>.</li>
+        <li>📄 Explore my resume <a href="https://drive.google.com/file/d/1_P83Unx_NP_qcRxLJZyurMGWqmrJ-ZqH/view?usp=drive_link" target="_blank">here</a>.</li>
     </ul>
 <hr>
 
