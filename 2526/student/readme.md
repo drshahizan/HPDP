@@ -14,7 +14,7 @@
 | 2 | Ahmad Adib Zikri Bin A. Mazlam |  |  |  |  |
 | 3 | Ahmad Ziyaad Bin Mohd Abbas |  |  |  |  |
 | 4 | Anis Safiyya Binti Janai |  |  |  |  |
-| 5 | Choh Jing Yi |  |  |  |  |
+| 5 | Choh Jing Yi | chohjingyia23cs0296 | [:octocat:](https://github.com/chohjingyia23cs0296) | <a href="www.linkedin.com/in/chohjingyi"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="chohjingyia23cs0296"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
 | 6 | Dheshieghan A/L Saravana Moorthy |  |  |  |  |
 | 7 | Goe Jie Ying |  |  |  |  |
 | 8 | Harini A/P Sangaran |  |  |  |  |
