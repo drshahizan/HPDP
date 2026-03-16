@@ -15,7 +15,7 @@
 | 3 | Ahmad Ziyaad Bin Mohd Abbas |  |  |  |  |
 | 4 | Anis Safiyya Binti Janai |  |  |  |  |
 | 5 | Choh Jing Yi | chohjingyia23cs0296 | [:octocat:](https://github.com/chohjingyia23cs0296) | <a href="https://www.linkedin.com/in/chohjingyi"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/chohjingyia23cs0296"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
-| 6 | Dheshieghan A/L Saravana Moorthy |  |  |  |  |
+| 6 | Dheshieghan A/L Saravana Moorthy | dheshieghan227 | [:octocat:](https://github.com/dheshieghan227) | <a href="https://www.linkedin.com/in/dheshieghan-saravana-moorthy-5855011b8"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/dheshieghan227"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 7 | Goe Jie Ying |  |  |  |  |
 | 8 | Harini A/P Sangaran |  |  |  |  |
 | 9 | Iman Abadi Bin Mohd Nizwan |  |  |  |  |
