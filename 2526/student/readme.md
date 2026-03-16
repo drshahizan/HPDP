@@ -28,7 +28,7 @@
 |16 | Muhammad Syahmi Faris Bin Rusli |  |  |  |  |
 |17 | Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong |  |  |  |  |
 |18 | Najma Shakirah Binti Shahrulzaman |  |  |  |  |
-|19 | Nawwarah Auni Binti Nazrudin |  |  |  |  |
+|19 | Nawwarah Auni Binti Nazrudin | nawwarahauni | [:octocat:](https://github.com/nawwarahauni) | <a href="https://www.linkedin.com/in/nawwarah-auni-262895299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a>  | <a href="https://nawwarahauni.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |20 | Ng Yu Hin |  |  |  |  |
 |21 | Nurul Adriana Binti Kamal Jefri |  |  |  |  |
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
