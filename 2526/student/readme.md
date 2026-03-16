@@ -30,7 +30,7 @@
 |18 | Najma Shakirah Binti Shahrulzaman |  |  |  |  |
 |19 | Nawwarah Auni Binti Nazrudin | nawwarahauni | [:octocat:](https://github.com/nawwarahauni) | <a href="https://www.linkedin.com/in/nawwarah-auni-262895299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a>  | <a href="https://nawwarahauni.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |20 | Ng Yu Hin |  |  |  |  |
-|21 | Nurul Adriana Binti Kamal Jefri |  |  |  |  |
+|21 | Nurul Adriana Binti Kamal Jefri | AdrianaJfry04 | [:octocat:](https://github.com/adrianajfry04) | <a href="https://www.linkedin.com/in/adriana-jefri-86797a24b/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
 |23 | Pravinraj A/L Sivabathi | SDPRAVINRAJ | [:octocat:](https://github.com/SDPRAVINRAJ) | <a href="https://www.linkedin.com/in/pravinraj-sivabathi-4004b7298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="SDPRAVINRAJ"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |24 | Syarifah Dania Binti Syed Abu Bakar |  |  |  |  |
