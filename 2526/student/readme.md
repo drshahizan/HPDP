@@ -19,7 +19,7 @@
 | 7 | Goe Jie Ying |  |  |  |  |
 | 8 | Harini A/P Sangaran |  |  |  |  |
 | 9 | Iman Abadi Bin Mohd Nizwan |  |  |  |  |
-|10 | Lam Yoke Yu |  |  |  |  |
+|10 | Lam Yoke Yu | Yuylam | [:octocat:](https://github.com/Yuylam) | <a href="https://www.linkedin.com/in/yuylam/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/Yuylam"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |11 | Mohamed Alif Fathi Bin Abdul Latif |  |  |  |  |
 |12 | Muhammad Adam Bin Razali |  |  |  |  |
 |13 | Muhammad Afiq Danial Bin Rozaidie | Afiq0412 | [:octocat:](https://github.com/Afiq0412) | <a href="https://www.linkedin.com/in/afiq-danial-2954b4298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="Afiq0412"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
