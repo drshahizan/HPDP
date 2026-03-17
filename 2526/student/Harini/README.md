@@ -1,3 +1,7 @@
+<p align="center">
+    <img  alt="self pic" src="https://github.com/drshahizan/HPDP/blob/main/2526/student/Harini/photo.jpg" width="280" height="380">
+</p>
+
 <h1 align="center">Hi 👋 I'm Harini Sangaran</h1>
 <h3 align="center">UTM Johor Bahru Undergraduate 🏫</h3>
 
