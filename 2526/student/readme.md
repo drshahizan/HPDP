@@ -17,7 +17,7 @@
 | 5 | Choh Jing Yi | chohjingyia23cs0296 | [:octocat:](https://github.com/chohjingyia23cs0296) | <a href="https://www.linkedin.com/in/chohjingyi"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/chohjingyia23cs0296"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 6 | Dheshieghan A/L Saravana Moorthy | dheshieghan227 | [:octocat:](https://github.com/dheshieghan227) | <a href="https://www.linkedin.com/in/dheshieghan-saravana-moorthy-5855011b8"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/dheshieghan227"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 7 | Goe Jie Ying | jygoe | [:octocat:](https://github.com/jygoe)  | <a href="https://www.linkedin.com/in/goejieying"><img src="../../images/linkedin.png" width="24px" height="24px"></a>  | <a href="Goe Jie Ying"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
-| 8 | Harini A/P Sangaran |  |  |  |  |
+| 8 | Harini A/P Sangaran | harinisangaran | [:octocat:](https://github.com/harinisangaran) | <a href="https://www.linkedin.com/in/harini-sangaran-8b85612aa/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 | 9 | Iman Abadi Bin Mohd Nizwan |  |  |  |  |
 |10 | Lam Yoke Yu |  |  |  |  |
 |11 | Mohamed Alif Fathi Bin Abdul Latif |  |  |  |  |
