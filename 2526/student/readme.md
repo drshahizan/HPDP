@@ -20,7 +20,7 @@
 | 8 | Harini A/P Sangaran | harinisangaran | [:octocat:](https://github.com/harinisangaran) | <a href="https://www.linkedin.com/in/harini-sangaran-8b85612aa/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="./Harini/README.md"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 9 | Iman Abadi Bin Mohd Nizwan |  |  |  |  |
 |10 | Lam Yoke Yu |  |  |  |  |
-|11 | Mohamed Alif Fathi Bin Abdul Latif |  |  |  |  |
+|11 | Mohamed Alif Fathi Bin Abdul Latif | AlifFathi | [:octocat:](https://github.com/AlifFathi) | <a href="https://www.linkedin.com/in/mohamed-alif-fathi-abdul-latif-46b48229a"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="AlifFathi"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |12 | Muhammad Adam Bin Razali |  |  |  |  |
 |13 | Muhammad Afiq Danial Bin Rozaidie | Afiq0412 | [:octocat:](https://github.com/Afiq0412) | <a href="https://www.linkedin.com/in/afiq-danial-2954b4298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="Afiq0412"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |14 | Muhammad Afiq Danish Bin Mohd Hazni |  |  |  |  |
