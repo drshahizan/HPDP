@@ -1,5 +1,5 @@
 <p align="center">
-    <img  alt="self pic" src="https://github.com/drshahizan/HPDP/blob/main/2526/student/Harini/photo_2026-03-16_22-22-38.jpg" width="280" height="380">
+    <img  alt="self pic" src="https://github.com/drshahizan/HPDP/blob/main/2526/student/Harini/photo_2026-03-16_22-22-38.jpg" width="200" height="300">
 </p>
 
 <h1 align="center">Hi 👋 I'm Harini Sangaran</h1>
