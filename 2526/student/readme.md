@@ -36,7 +36,7 @@
 |24 | Syarifah Dania Binti Syed Abu Bakar |  |  |  |  |
 |25 | Tan Yi Ya | tanyiya | [:octocat:](https://github.com/tanyiya) | <a href="https://www.linkedin.com/in/tanyiya04/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://tanyiya.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |26 | Teh Ru Qian | TehRuQian | [:octocat:](https://github.com/TehRuQian) | <a href="https://www.linkedin.com/in/ru-qian-teh-6745b9295/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/TehRuQian"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
-|27 | Woo Cheng Shuan |  |  |  |  |
+|27 | Woo Cheng Shuan | Woo-Cheng-Shuan | [:octocat:](https://github.com/Woo-Cheng-Shuan) | <a href="https://www.linkedin.com/in/cheng-shuan-woo-08534329a/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://woo-cheng-shuan.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |28 | Yasmin Batrisyia Binti Zahiruddin |  |  |  |  |
 
 ## Contribution 🛠️
