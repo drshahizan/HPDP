@@ -33,7 +33,7 @@
 |21 | Nurul Adriana Binti Kamal Jefri | adrianajfry04 | [:octocat:](https://github.com/AdrianaJfry04) | <a href="https://www.linkedin.com/in/adriana-jefri-86797a24b/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://adrianajfry04.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |22 | Nurul Asyikin Binti Khairul Anuar |  |  |  |  |
 |23 | Pravinraj A/L Sivabathi | SDPRAVINRAJ | [:octocat:](https://github.com/SDPRAVINRAJ) | <a href="https://www.linkedin.com/in/pravinraj-sivabathi-4004b7298/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="SDPRAVINRAJ"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
-|24 | Syarifah Dania Binti Syed Abu Bakar | syarifahdania |  |  |  |
+|24 | Syarifah Dania Binti Syed Abu Bakar | syarifahdania |  [:octocat:](https://github.com/syarifahdania) |  <a href="https://www.linkedin.com/in/syarifahdania8504"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 |25 | Tan Yi Ya | tanyiya | [:octocat:](https://github.com/tanyiya) | <a href="https://www.linkedin.com/in/tanyiya04/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://tanyiya.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |26 | Teh Ru Qian | TehRuQian | [:octocat:](https://github.com/TehRuQian) | <a href="https://www.linkedin.com/in/ru-qian-teh-6745b9295/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/TehRuQian"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |27 | Woo Cheng Shuan |  |  |  |  |
