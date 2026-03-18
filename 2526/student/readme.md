@@ -27,7 +27,7 @@
 |15 | Muhammad Naim Bin Abdullah |  |  |  |  |
 |16 | Muhammad Syahmi Faris Bin Rusli |  |  |  |  |
 |17 | Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong |  |  |  |  |
-|18 | Najma Shakirah Binti Shahrulzaman |  |  |  |  |
+|18 | Najma Shakirah Binti Shahrulzaman | Najma-Shakirah | [:octocat:](https://github.com/Najma-Shakirah) | <a href="www.linkedin.com/in/najma-shakirah"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="Najma-Shakirah"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |19 | Nawwarah Auni Binti Nazrudin | nawwarahauni | [:octocat:](https://github.com/nawwarahauni) | <a href="https://www.linkedin.com/in/nawwarah-auni-262895299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a>  | <a href="https://nawwarahauni.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |20 | Ng Yu Hin |  |  |  |  |
 |21 | Nurul Adriana Binti Kamal Jefri | adrianajfry04 | [:octocat:](https://github.com/AdrianaJfry04) | <a href="https://www.linkedin.com/in/adriana-jefri-86797a24b/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://adrianajfry04.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
