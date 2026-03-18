@@ -6,7 +6,6 @@ management through academic projects. Proficient in SQL and Python, and web-base
 modern frameworks and technologies. I'm intrigued about leveraging technology to address real-world issues and transforming complicated data into insights that can be put into practice. 
 
 ## About me🧐:
-- 🌺 Name: Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong
 - 🏠 Based in Johor
 - 💬 Malay(ms) English(en) 中文(zh) 
 - 📫 Any inquiries can reach me at nabilaflah0312@gmail.com
