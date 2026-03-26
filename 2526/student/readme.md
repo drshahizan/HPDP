@@ -9,7 +9,7 @@
 
 | No. | Name                                     | ID | Github | Linked in | Portfolio |
 |----:|------------------------------------------|----|:------:|:---------:|:---------:|
-| 0 | LING YU QIAN | |  |  |  |  |
+| 0 | LING YU QIAN | lingyuqian0301 | [:octocat:](https://github.com/lingyuqian0301) | <a href="https://www.linkedin.com/in/ling-yu-qian-90514025b"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://web4me-ai-team.github.io/lingyuqian/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 1 | AIN NURNABILA BINTI MOHD AZHAR |  |  |  |  |
 | 2 | BRENDAN CHIA YAN FEI |  |  |  |  |
 | 3 | CHAU YING JIA |  |  |  |  |
