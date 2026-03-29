@@ -37,7 +37,7 @@
 |25 | Tan Yi Ya | tanyiya | [:octocat:](https://github.com/tanyiya) | <a href="https://www.linkedin.com/in/tanyiya04/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://tanyiya.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |26 | Teh Ru Qian | TehRuQian | [:octocat:](https://github.com/TehRuQian) | <a href="https://www.linkedin.com/in/ru-qian-teh-6745b9295/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/TehRuQian"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |27 | Woo Cheng Shuan |  |  |  |  |
-|28 | Yasmin Batrisyia Binti Zahiruddin | yAsmin241 | [:octocat:](https://github.com/yAsmin241) | <a href="https://www.linkedin.com/in/yasmin-batrisyia-zahiruddin/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://yasmin241.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
+|28 | Yasmin Batrisyia Binti Zahiruddin | yAsmin241 | [:octocat:](https://github.com/yAsmin241) | <a href="https://www.linkedin.com/in/yasmin-batrisyia-zahiruddin/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="yAsmin241"><img src="../../images/portfolio.png" width="24px" height="24px"></a>|
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
