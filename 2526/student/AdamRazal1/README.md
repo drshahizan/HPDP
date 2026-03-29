@@ -26,9 +26,9 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AdamRazal1&show_icons=true&theme=radical" alt="adamrazal1's GitHub Stats" />
-</p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adamrazal1&show_icons=true&locale=en" alt="adamrazal1" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adamrazal1&" alt="adamrazal1" /></p>
 
 ---
 
