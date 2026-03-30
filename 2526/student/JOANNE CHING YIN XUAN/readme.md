@@ -85,12 +85,4 @@ Foundation in Science – UTM SPACE
 
 ---
 
-### 📈 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=JOANNE-321&show_icons=true&theme=react&count_private=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JOANNE-321&layout=compact&theme=react" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=JOANNE-321&theme=react" />
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=JOANNE-321&label=VISITORS&countColor=%232ccce4)
