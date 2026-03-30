@@ -13,7 +13,7 @@
 | 1 | AIN NURNABILA BINTI MOHD AZHAR |  |  |  |  |
 | 2 | BRENDAN CHIA YAN FEI | brendan-chia | [:octocat:](https://github.com/brendan-chia)  | <a href="https://www.linkedin.com/in/brendan-chia-8a0a9329a/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 | 3 | CHAU YING JIA | chauyingjia | [:octocat:](https://github.com/chauyingjia) | <a href="https://www.linkedin.com/in/chau-ying-jia-949717299"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
-| 4 | CHERYL CHEONG KAH VOON |  |  |  |  |
+| 4 | CHERYL CHEONG KAH VOON | Cheryl322 | [:octocat:](https://github.com/Cheryl322) | <a href="[https://www.linkedin.com/in/cheryl-cheong-1701a727b/](https://www.linkedin.com/in/cheryl-cheong-1701a727b/)"><img src="../../images/linkedin.png" width="24px" height="24px"></a>|  |
 | 5 | CHEW CHIU XIAN |  |  |  |  |
 | 6 | CHUA JIA LIN | ChuaJiaLin | [:octocat:](https://github.com/ChuaJiaLin) | <a href="[www.linkedin.com/in/chua-jia-lin-21921929a](https://www.linkedin.com/in/chua-jia-lin-21921929a/)"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://chuajialin.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 7 | DAMIYA AINA BINTI BASIR ABD SHAMMAD |  |  |  |  |
