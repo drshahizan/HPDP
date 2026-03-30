@@ -30,7 +30,7 @@
 |18 | LUBNA AL HAANI BINTI RADZUAN |  |  |  |  |
 |19 | NEO LI XIN |  |  |  |  |
 |20 | NUR FIRZANA BINTI BADRUS HISHAM | firzanabadrus | [:octocat:](https://github.com/firzanabadrus) | <a href="https://www.linkedin.com/in/firzanabadrus"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/firzanabadrus"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
-|21 | NURAISYAH BINTI MOHD ZIKRE |  |  |  |  |
+|21 | NURAISYAH BINTI MOHD ZIKRE | nuraisyah04 |  [:octocat:](https://github.com/nuraisyah04) | <a href="www.linkedin.com/in/nuraisyah-mohd-zikre-021505296"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/nuraisyah04"><img src="../../images/portfolio.png" width="24px" height="24px"></a>   |
 |22 | NURUL IKA SYAFINY BINTI AZHAR |  ikaazhar  | [:octocat:](https://github.com/ikaazhar)  | <a href="https://www.linkedin.com/in/ikaazhar/" ><img src="../../images/linkedin.png" width="24px" height="24px" ></a> | <a href="https://ikaazhar.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |23 | POH LOK YEE |  |  |  |  |
 |24 | SABRINA HENG WEI QI | SabrinaHeng | [:octocat:](https://github.com/SabrinaHeng) | <a href="https://www.linkedin.com/in/sabrina-heng-408398243/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/SabrinaHeng"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
