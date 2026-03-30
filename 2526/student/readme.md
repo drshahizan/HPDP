@@ -23,7 +23,7 @@
 |11 | FARRA NURZAHIN BINTI ZAHARIL ANUAR |  |  |  |  |
 |12 | GUI KAH SIN |  |  |  |  |
 |13 | JOANNE CHING YIN XUAN |  |  |  |  |
-|14 | LAU YAN KAI |  |  |  |  |
+|14 | LAU YAN KAI |  lauyankai | [:octocat:](https://github.com/lauyankai) |  <a href="https://www.linkedin.com/in/lauyankai/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/lauyankai"><img src="../../images/portfolio.png" width="24px" height="24px"></a>   |
 |15 | LAU YEE WEN |  |  |  |  |
 |16 | LEE YIN SHEN | leeyinshen0818 | [:octocat:](https://github.com/leeyinshen0818) | <a href="https://www.linkedin.com/in/lee-yin-shen-86ba87297/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/leeyinshen0818"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |17 | LIM YU HAN |  |  |  |  |
