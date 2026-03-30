@@ -20,7 +20,7 @@
 | 8 | DAMIYA AINA BINTI BASIR ABD SHAMMAD |  |  |  |  |
 | 9 | DAYANG FARAH FARZANA BINTI ABANG IDHAM|  |  |  |  |
 |10 | ELIJAH SHE YU SHENG | ELIJAHSHE04 | [:octocat:](https://github.com/ELIJAHSHE04) |<a href="https://www.linkedin.com/in/elijah-she-34a008299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="https://elijah0413.github.io/elijahshe0413.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
-|11 | EVELYN GOH YUAN QI |  |  |  |  |
+|11 | EVELYN GOH YUAN QI | evelynngoh | [:octocat:](https://github.com/evelynngoh) | <a href="https://www.linkedin.com/in/evelyn-goh-5751472a9/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="2526/student/Evelyn Goh Yuan Qi"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
 |12 | FARRA NURZAHIN BINTI ZAHARIL ANUAR |  |  |  |  |
 |13 | GUI KAH SIN | GUIKAHSIN | [:octocat:](https://github.com/GUIKAHSIN) |<a href="https://www.linkedin.com/in/guikahsin/?locale=zh"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="https://github.com/sean-seah/HPDP/tree/main/2526/student/GUIKAHSIN"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 14 | JOANNE CHING YIN XUAN | JOANNE-321 | [:octocat:](https://github.com/JOANNE-321) | <a href="https://www.linkedin.com/in/joanne-ching-972b8b269/?originalSubdomain=my"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/JOANNE-321/HPDP/tree/main/2526/student/Joanne%20Ching%20Yin%20Xuan"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
