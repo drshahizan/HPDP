@@ -25,7 +25,7 @@
 |13 | JOANNE CHING YIN XUAN |  |  |  |  |
 |14 | LAU YAN KAI |  |  |  |  |
 |15 | LAU YEE WEN |  |  |  |  |
-|16 | LEE YIN SHEN | leeyinshen0818 | [:octocat:](https://github.com/leeyinshen0818) | <a href="https://www.linkedin.com/in/lee-yin-shen-86ba87297/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/Lee%20Yin%20Shen"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
+|16 | LEE YIN SHEN | leeyinshen0818 | [:octocat:](https://github.com/leeyinshen0818) | <a href="https://www.linkedin.com/in/lee-yin-shen-86ba87297/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/leeyinshen0818"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |17 | LIM YU HAN |  |  |  |  |
 |18 | LUBNA AL HAANI BINTI RADZUAN |  |  |  |  |
 |19 | NEO LI XIN |  |  |  |  |
