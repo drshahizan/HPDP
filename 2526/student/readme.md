@@ -11,7 +11,7 @@
 |----:|------------------------------------------|----|:------:|:---------:|:---------:|
 | 0 | LING YU QIAN | lingyuqian0301 | [:octocat:](https://github.com/lingyuqian0301) | <a href="https://www.linkedin.com/in/ling-yu-qian-90514025b"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://web4me-ai-team.github.io/lingyuqian/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 1 | AIN NURNABILA BINTI MOHD AZHAR |  |  |  |  |
-| 2 | BRENDAN CHIA YAN FEI | brendan-chia | [:octocat:](https://github.com/brendan-chia)  | <a href="https://www.linkedin.com/in/brendan-chia-8a0a9329a/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
+| 2 | BRENDAN CHIA YAN FEI | brendan-chia | [:octocat:](https://github.com/brendan-chia)  | <a href="https://www.linkedin.com/in/brendan-chia-8a0a9329a/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="https://brendan-chia.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 3 | CHAU YING JIA | chauyingjia | [:octocat:](https://github.com/chauyingjia) | <a href="https://www.linkedin.com/in/chau-ying-jia-949717299"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 | 4 | CHERYL CHEONG KAH VOON | Cheryl322 | [:octocat:](https://github.com/Cheryl322) | <a href="[https://www.linkedin.com/in/cheryl-cheong-1701a727b/](https://www.linkedin.com/in/cheryl-cheong-1701a727b/)"><img src="../../images/linkedin.png" width="24px" height="24px"></a>|  |
 | 5 | CHEW CHIU XIAN |  |  |  |  |
