@@ -29,7 +29,7 @@
 |17 | LIM YU HAN |  |  |  |  |
 |18 | LUBNA AL HAANI BINTI RADZUAN |  |  |  |  |
 |19 | NEO LI XIN |  |  |  |  |
-|20 | NUR FIRZANA BINTI BADRUS HISHAM |  |  |  |  |
+|20 | NUR FIRZANA BINTI BADRUS HISHAM | firzanabadrus | [:octocat:](https://github.com/firzanabadrus) | <a href="https://www.linkedin.com/in/firzanabadrus"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="[https://.github.io/lingyuqian/](https://github.com/firzanabadrus)"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
 |21 | NURAISYAH BINTI MOHD ZIKRE |  |  |  |  |
 |22 | NURUL IKA SYAFINY BINTI AZHAR |  |  |  |  |
 |23 | POH LOK YEE |  |  |  |  |
