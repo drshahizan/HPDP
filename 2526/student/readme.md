@@ -33,7 +33,7 @@
 |21 | NURAISYAH BINTI MOHD ZIKRE |  |  |  |  |
 |22 | NURUL IKA SYAFINY BINTI AZHAR |  |  |  |  |
 |23 | POH LOK YEE |  |  |  |  |
-|24 | SABRINA HENG WEI QI |  |  |  |  |
+|24 | SABRINA HENG WEI QI | SabrinaHeng | [:octocat:](https://github.com/SabrinaHeng) | <a href="https://www.linkedin.com/in/sabrina-heng-408398243/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  |
 |25 | SAFIYA NURSYAHADAH BINTI MASNOOR |  |  |  |  |
 |26 | TAN ZHI MING |ZHIMING04  |[:octocat:](https://github.com/ZHIMING04)  |<a href="https://www.linkedin.com/in/zhimingtan/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |<a href="[ZHIMING04](https://github.com/ZHIMING04/ZHIMING04/edit/master/README.md)"><img src="../../images/portfolio.png" width="24px" height="24px"></a>  |
 
