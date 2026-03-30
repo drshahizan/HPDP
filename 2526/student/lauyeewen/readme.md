@@ -51,20 +51,13 @@
 
 ---
 
-## 📂 Featured Projects
-
----
-
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lauyeewen123&show_icons=true&count_private=true&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauyeewen123&layout=compact&theme=vue&show_icons=true" />
-</p>
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lauyeewen123&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=prussian&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=lauyeewen123&locale=en&mode=weekly&theme=prussian&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+</div>
+<br/>
 ---
 
 ## 🌐 Connect with Me
@@ -75,9 +68,6 @@
   </a>
   <a href="https://instagram.com/_yeewennnn_">
     <img src="https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-  <a href="https://www.facebook.com/Yee Wen Lau">
-    <img src="https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/lau-yee-wen-068b5a299/">
     <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
