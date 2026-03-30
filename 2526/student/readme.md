@@ -21,7 +21,7 @@
 | 9 | ELIJAH SHE YU SHENG |  |  |  |  |
 |10 | EVELYN GOH YUAN QI |  |  |  |  |
 |11 | FARRA NURZAHIN BINTI ZAHARIL ANUAR |  |  |  |  |
-|12 | GUI KAH SIN |  |  |  |  |
+|12 | GUI KAH SIN | GUIKAHSIN | [:octocat:](https://github.com/GUIKAHSIN) |<a href="[https://www.linkedin.com/in/guikahsin/](https://www.linkedin.com/in/guikahsin/?locale=zh)"><img src="../../images/linkedin.png" width="24px" height="24px"></a>  |  |
 |13 | JOANNE CHING YIN XUAN |  |  |  |  |
 |14 | LAU YAN KAI |  lauyankai | [:octocat:](https://github.com/lauyankai) |  <a href="https://www.linkedin.com/in/lauyankai/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://github.com/lauyankai"><img src="../../images/portfolio.png" width="24px" height="24px"></a>   |
 |15 | LAU YEE WEN |  |  |  |  |
