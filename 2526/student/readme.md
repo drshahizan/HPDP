@@ -18,7 +18,7 @@
 | 6 | CHUA JIA LIN | ChuaJiaLin | [:octocat:](https://github.com/ChuaJiaLin) | <a href="https://www.linkedin.com/in/chua-jia-lin-21921929a/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> | <a href="https://chuajialin.github.io/"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 | 7 | DAMIYA AINA BINTI BASIR ABD SHAMMAD |  |  |  |  |
 | 8 | DAYANG FARAH FARZANA BINTI ABANG IDHAM|  |  |  |  |
-|9 | ELIJAH SHE YU SHENG | ELIJAHSHE04 | [:octocat:](https://github.com/ELIJAHSHE04) |<a href="https://www.linkedin.com/in/elijah-she-34a008299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="https://github.com/ELIJAHSHE04"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
+|9 | ELIJAH SHE YU SHENG | ELIJAHSHE04 | [:octocat:](https://github.com/ELIJAHSHE04) |<a href="https://www.linkedin.com/in/elijah-she-34a008299/"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="[https://github.com/ELIJAHSHE04](https://elijah0413.github.io/elijahshe0413.github.io/)"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
 |10 | EVELYN GOH YUAN QI |  |  |  |  |
 |11 | FARRA NURZAHIN BINTI ZAHARIL ANUAR |  |  |  |  |
 |12 | GUI KAH SIN | GUIKAHSIN | [:octocat:](https://github.com/GUIKAHSIN) |<a href="https://www.linkedin.com/in/guikahsin/?locale=zh"><img src="../../images/linkedin.png" width="24px" height="24px"></a> |  <a href="https://github.com/sean-seah/HPDP/tree/main/2526/student/GUIKAHSIN"><img src="../../images/portfolio.png" width="24px" height="24px"></a> |
