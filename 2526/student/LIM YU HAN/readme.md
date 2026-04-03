@@ -53,25 +53,17 @@ A **full-stack web-based system** developed to digitalize cooperative management
 
 **🔧 Key Features:**
 - Online membership registration & approval system  
-- Loan application & tracking  
-- Savings account management (deposit, transfer, transactions)  
-- Financial report generation (PDF download)  
-- Admin dashboard for approval & monitoring  
+- Loan application & tracking
+- Financial report generation (PDF download) 
 
 **🛠️ Tech Used:**
 PHP, MySQL, HTML, CSS, Laragon, MVC Architecture  
 
 ---
 
-## 🎓 Education
-- 🎓 **Universiti Teknologi Malaysia (UTM)**  
-  Bachelor of Computer Science (Data Engineering)
-
----
-
 ## 🤝 Connect With Me
 <p align="left">
-<a href="https://linkedin.com/in/lim-yu-han-695215268" target="blank">
+<a href="https://www.linkedin.com/in/yu-han-lim-695215268/" target="blank">
 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
 </a>
 <a href="https://instagram.com/yyuhan13" target="blank">
