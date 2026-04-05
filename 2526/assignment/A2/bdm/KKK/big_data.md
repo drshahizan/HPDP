@@ -1,0 +1,134 @@
+# Assignment 2: Mastering Big Data Handling 📊<br>
+This repository presents our journey through efficient big data processing in Python, a core component of the SECP3133 High Performance Data Processing course. Our goal was to conquer large datasets by implementing and comparing various optimization strategies and powerful data processing libraries.
+
+## 📌 Introduction
+This project tackles the challenge of efficiently processing large datasets (exceeding 700MB) using Python. We explored various optimization strategies and data processing libraries to manage and analyze a 2.57 GB [School Donation Dataset](https://www.kaggle.com/datasets/perkymaster/school-donations?select=Projects.csv) from Kaggle, focusing on performance metrics like execution time and memory consumption.
+
+## 🎯 Project Focus
+Our core objective was to gain hands-on experience with real-world big data handling techniques. We systematically implemented and benchmarked different approaches to identify their strengths, weaknesses and optimal use cases.
+
+## ✨ Big Data Handling Strategies Explored ✨
+We explored and benchmarked five key strategies to handle the data efficiently:
+1.  **Load Less Data 🤏:** Selectively loading only essential columns or a subset of rows to minimize memory overhead.
+2.  **Chunking 📦:** Processing the dataset in smaller, sequential chunks to handle files larger than available RAM.
+3.  **Optimize Data Types 🧠:** Converting data columns to more memory-efficient types (e.g., `object` to `category`, downcasting numeric types).
+4.  **Sampling 🎲:** Using a representative subset of the data for rapid analysis and prototyping.
+5.  **Parallel Processing with Dask ⚡:** Leveraging Dask DataFrames for parallel and out-of-core computation.
+
+## 📚 Libraries Conducted 📚
+In addition to the strategies, we conducted a comparative analysis of three prominent Python libraries for big data processing:
+-   **Pandas 🐼:** Serving as our baseline for traditional, sequential data manipulation.
+-   **Polars 🐻‍❄️:** A modern, high-performance DataFrame library built in Rust, known for its speed and memory efficiency.
+-   **Dask ⚙️:** A flexible library for parallel computing, enabling scalable processing of large datasets.
+
+## 📈 Performance Summary 📉
+Our experiments yielded significant insights into the effectiveness of each strategy and library.
+<h3>Optimized Strategies Performance</h3>
+<table style="width:100%; border-collapse: collapse;">
+    <thead>
+        <tr style="background-color:#f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Strategy</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Execution Time (seconds)</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Memory Used (%)</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">CPU Usage (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Strategy 1: Load Less Data</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">23.65</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.75</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">21.68</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Strategy 2: Chunking</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">40.14</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">5.70</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">22.85</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Strategy 3: Optimize Data Types</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">42.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">4.44</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">39.42</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Strategy 4: Sampling</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">21.62</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">26.27</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Strategy 5: Dask Parallel</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">60.21</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">1.01</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">28.87</td>
+        </tr>
+    </tbody>
+</table>
+
+**Graphs and Charts**
+
+![download](https://github.com/user-attachments/assets/00061e26-efbb-4064-a7d3-b3b8f857f383)
+
+
+**Key Findings (Strategies):**
+-   **Sampling** proved to be the most efficient for quick exploration due to minimal data processing.
+-   **Load Less Data** and **Optimize Data Types** are highly effective for reducing memory and improving speed when more of the data is required.
+-   **Dask** showed its strength in memory management, though its overhead made it slower for simpler read operations compared to specialized strategies on this specific task.
+
+<br>
+
+<h3>Data Processing Libraries Performance</h3>
+<table style="width:100%; border-collapse: collapse;">
+    <thead>
+        <tr style="background-color:#f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Library</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Execution Time (seconds)</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Memory Used (%)</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">CPU Usage (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Pandas</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">55.76</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">75.20</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.50</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Dask</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">73.76</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">45.30</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.27</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Polars</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">8.86</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">39.13</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">0.50</td>
+        </tr>
+    </tbody>
+</table>
+
+**Graphs and Charts**
+
+![download (1)](https://github.com/user-attachments/assets/6c81fb70-4649-4a40-ac94-57c8a5265c2b)
+
+
+**Key Findings (Libraries):**
+-   **Polars** demonstrated superior speed and memory efficiency for reading the entire large dataset on a single node.
+-   **Dask** excels in scenarios requiring distributed computing or handling datasets far exceeding system memory, though it has startup/coordination overhead.
+
+## Conclusion
+The choice of data handling strategy or library is highly dependent on the specific task, dataset size, available resources, and analytical goals. For rapid insights, sampling is highly effective. For single-node processing of large files, Polars offers remarkable performance. For truly out-of-core or distributed computations, Dask remains the go-to solution despite its overhead for simpler tasks. Understanding these trade-offs is crucial for efficient big data processing.
+
+## Files and Links
+> *For detailed methodology, code, individual run outputs and in-depth discussion, please refer to the full notebook and the comprehensive PDF report.*
+
+| File Name            | Description | Link |
+|---------------------|-------------|------|
+| **readme.md**       | An introduction to the project, its description, data details, key highlights and navigation links to other key files. | [![View Readme](https://img.shields.io/badge/View-Readme-brightgreen?logo=markdown&logoColor=white)](readme.md) |
+| **big_data.md**     | A detailed overview of the project, including strategies explored, performance comparisons, and key takeaways. | [![Read](https://img.shields.io/badge/View-Readme-brightgreen?logo=markdown&logoColor=white)](big_data.md) |
+| **big_data.ipynb**  | The annotated Google Colab notebook containing all working code implementations, step-by-step analysis, and output comparisons. | [![Open in Jupyter](https://img.shields.io/badge/Open-Jupyter-F37626?logo=jupyter&logoColor=white)](big_data.ipynb) |
+| **report.pdf**      | A comprehensive academic report with introduction, dataset selection, implementation details, results, comparisons, and reflections. | [![View Report](https://img.shields.io/badge/View-Report-4D7FFF?logo=readthedocs&logoColor=white)](report.pdf) |
