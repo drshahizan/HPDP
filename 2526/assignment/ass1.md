@@ -9,82 +9,181 @@
 
 This assignment is designed to develop students' skills in academic writing and critical analysis. Students are required to write a short academic paper based on a selected topic, demonstrating their ability to research, evaluate, and present information in a structured and scholarly format. The assignment encourages independent learning, proper citation practices, and the use of digital tools to support academic work. It also aims to cultivate discipline in managing writing processes through log book documentation.
 
-📊 **Weightage**: 10% of total course assessment  
-📅 **Submission Deadline**: **Friday, 18 April 2025**  
-📤 **Submission Format**: Upload **PDF format** via e-learning  
-📝 **File Name Format**: `Your Name.pdf`  
-👤 **Assignment Type**: **Individual**
+## 📊 Assignment Information
+
+* **Type**: Individual
+* **Weightage**: 10%
+* **Submission Deadline**: **Monday, 27 April 2026**
+* **Format**: PDF
+* **File Name**: `YourName.pdf`
+* **Submission**: e-Learning
 
 📎 **File**:
 1. [Instruction and rubric](Assignment%201%20AW.pdf)
 2. [Template Assignment 1](Format%20Assigment%201.docx)
+   
+## 📌 Assignment Overview
 
----
+This assignment aims to develop your ability to:
 
-### 📌 **Instructions**
+* Write a **structured academic paper**
+* Conduct **critical analysis of technologies**
+* Perform **comparative evaluation (MANDATORY)**
+* Use **high-quality academic sources (Scopus/WoS only)**
 
-1. **Choose One Topic** from the list provided on the next page.
-2. **Create a Short Academic Paper** that includes the following elements:
-   - **Title** (Create your own, based on your selected topic)
-   - **Abstract**
-   - **Keywords** (3–5 keywords)
-   - **Introduction**
-   - **Main Body** (must include content and comparative analysis of previous technologies, systems, or platforms)
-   - **Conclusion**
-   - **References** (use APA style; minimum of **7 references**)
+You are required to **NOT just describe**, but to:
 
-3. **Formatting Guidelines**:
-   - Maximum **length**: **Three (3) pages only**
-   - Follow standard academic writing format
-   - Use proper grammar, punctuation, and paragraphing
-   - Include relevant **graphics/tables**, if applicable (with proper citation)
+> analyse, compare, and critically evaluate modern data processing technologies.
 
-4. **Citation and Plagiarism**:
-   - All references must be cited using **APA style**
-   - Plagiarism is strictly prohibited. Any plagiarised work will receive **ZERO (0)** marks.
-   - Include a **Turnitin report** with your submission
 
-5. **Log Book Requirement**:
-   - Maintain a **log book** to record your writing process. Include:
-     - Dates of research and writing
-     - Search engine keywords
-     - AI prompts used (if applicable)
-     - Your name and brief description of the task done
-   - Submit the log book together with your paper
+## 📚 Topic Selection
 
-6. **Use of Resources**:
-   - You may include images, charts, or data from online resources
-   - All visuals must be properly credited in the citation or with source links
+You must choose **ONE (1) topic** from the list below.
 
-7. **Academic Phrasing**:
-   - Refer to this resource for academic phrase examples:  
-     👉 https://www.phrasebank.manchester.ac.uk/
+### 📚 Topics Overview (28 Topics)
 
-#### Topic
+| No. | Topic                             | Focus Area                       | Example Tools                              |  Student |
+| --- | --------------------------------- | -------------------------------- | ------------------------------------------ |---|
+| 1   | Data-Centric AI Systems           | Data quality, model optimisation | TensorFlow, PyTorch                        |
+| 2   | Generative AI in Data Processing  | LLMs, automation                 | ChatGPT, Gemini                            |
+| 3   | Explainable AI (XAI)              | Transparency, interpretability   | SHAP, LIME                                 |
+| 4   | AI for Real-Time Decision Making  | Intelligent automation           | AI systems                                 |
+| 5   | AI in Smart Applications          | Smart city, healthcare           | AI platforms                               |
+| 6   | Modern Data Architectures         | Lakehouse, Data Mesh             | Databricks                                 |
+| 7   | Distributed Data Processing       | Large-scale analytics            | Apache Spark                               |
+| 8   | Real-Time Analytics Systems       | Streaming analytics              | Apache Flink                               |
+| 9   | Data Engineering Pipelines        | ETL/ELT workflows                | Airflow                                    |
+| 10  | Big Data Visualization            | Dashboards                       | Power BI                                   |
+| 11  | Cloud-Native Architectures        | Microservices                    | Docker, Kubernetes                         |
+| 12  | Serverless Computing              | Event-driven computing           | AWS Lambda                                 |
+| 13  | Multi-Cloud & Hybrid Cloud        | Scalability                      | Amazon Web Services, Google Cloud Platform |
+| 14  | Cloud Security & Governance       | Data protection                  | Cloud tools                                |
+| 15  | GPU Computing for AI              | Deep learning acceleration       | NVIDIA                                     |
+| 16  | Parallel Computing Models         | Performance optimisation         | MPI, OpenMP                                |
+| 17  | HPC for Big Data Analytics        | High-speed processing            | HPC clusters                               |
+| 18  | Event-Driven Architecture         | Messaging systems                | Apache Kafka                               |
+| 19  | Stream Processing Systems         | Real-time pipelines              | Spark Streaming                            |
+| 20  | Fault-Tolerant Systems            | Reliability                      | Distributed systems                        |
+| 21  | NoSQL Databases                   | Flexible schema                  | MongoDB                                    |
+| 22  | Graph Databases                   | Relationship analytics           | Neo4j                                      |
+| 23  | Columnar Databases                | Analytical queries               | Apache HBase                               |
+| 24  | NewSQL Systems                    | Scalable transactions            | Clustrix                                   |
+| 25  | Edge Computing Systems            | Low latency                      | Edge AI                                    |
+| 26  | IoT Data Processing               | Sensor pipelines                 | IoT platforms                              |
+| 27  | Digital Twin Systems              | Simulation                       | Azure Digital Twins                        |
+| 28  | Quantum Computing & Future Trends | Next-gen computing               | IBM Quantum                                |
 
-| No | Topics                              | Tools / Technology                                  | Student(s)                                      |
-|----|-------------------------------------|-----------------------------------------------------|--------------------------------------------------|
-| 1  | High-performance                    | Hadoop / Cloudera                                   | Yingxi                                           |
-| 2  | Distributed software                | Apache Hadoop                                       | Iman Firdaus                                     |
-| 3  | Distributed software                | Apache Spark                                        | Low Jie Sheng                                                 |
-| 4  | In-memory systems                   | SAP HANA                                            | Koh Li Hui                                       |
-| 5  | Cloud Computing                     | AWS                                                 | Bernice, Navachander                             |
-| 6  | Cloud Computing                     | Google Cloud                                        | Koh Su Xuan, Mulyani                             |
-| 7  | In-database systems                 | SAS                                                 | Goh Jiale                                        |
-| 8  | Cluster Computing                   | The Virtual SMP Alternative (www.scalemp.com)       |                                                  |
-| 9  | Cluster computing                   | Hadoop                                              | Wan Nur, Marhumi                                 |
-| 10 | Grid Computing                      | Hadoop                                              |                                                  |
-| 11 | GPU Clusters                        | Nvidia                                              | Jesslyn, Danial Harriz                           |
-| 12 | Big data analytics                  | Select any platform                                 | Tan Jun Yuan, Thevan Raju                        |
-| 13 | Architecture data analytics         | Select any platform and previous study              | Ariff                                                 |
-| 14 | Real-Time Analytics Platforms       | Apache Drill                                        | Danial                                           |
-| 15 | Stream Analytics                    | Apache Spark                                        | Chai Yu Tong, Anas                               |
-| 16 | No-SQL                              | MongoDB                                             | Chen Pyng Haw, Wong Jun Ji                       |
-| 17 | Storage Area Network                | Google File System (GFS)                            | Chuan Rong                                       |
-| 18 | Data Models of NoSQL Databases      | Cover all, such as document in MongoDB              | Lee Yik Hong, Yong Wern Jie                                     |
-| 19 | Columnar databases                  | Apache HBase                                        | Sabrina                                          |
-| 20 | Graph Databases                     | Neo4j                                               | Maisarah                                         |
-| 21 | NewSQL                              | Clustrix                                            | Izzah                                            |
+## 📝 Paper Structure (MANDATORY)
+
+Your paper must include:
+
+1. **Title**
+2. **Abstract (150–250 words)**
+3. **Keywords (3–5)**
+4. **Introduction**
+5. **Main Body**
+
+   * Technology explanation
+   * Architecture discussion
+   * **Comparative Analysis (HIGH WEIGHTAGE)**
+6. **Conclusion**
+7. **References (APA Style)**
+
+## ⚠️ IMPORTANT: Comparative Analysis (Highest Marks)
+
+You MUST compare:
+
+| Traditional System | Modern System |
+| ------------------ | ------------- |
+| Hadoop MapReduce   | Apache Spark  |
+| MySQL              | MongoDB       |
+| CPU Computing      | GPU Computing |
+
+👉 Without comparison = **low marks**
+
+## 📐 Formatting Guidelines
+
+* Maximum: **3 pages only**
+* Format: **IEEE template**
+* Language: **Formal academic English**
+* Include:
+
+  * Architecture diagram
+  * Tables
+  * Case study
+
+## 📚 Reference Requirement (VERY IMPORTANT)
+
+* Minimum: **7 references**
+* MUST be from:
+
+  * **Scopus-indexed sources**
+  * **Web of Science (WoS)**
+
+❌ NOT allowed:
+
+* Blogs
+* Wikipedia
+* Random websites
+
+✔ Suggested sources:
+
+* IEEE Xplore
+* Scopus
+* Web of Science
+* ACM Digital Library
+
+## 🚫 Plagiarism Policy
+
+* Plagiarism = **ZERO (0) marks**
+* Submit:
+
+  * ✔ Paper
+  * ✔ Turnitin report
+
+## 📒 Log Book Requirement
+
+You must include a **log book** with:
+
+* Date of work
+* Search keywords
+* Databases used
+* AI prompts used
+* Task description
+
+## ⭐ Strategy to Score High Marks
+
+To achieve **excellent grade**, include:
+
+✔ Comparison (Before vs After)
+✔ Architecture diagram
+✔ Real-world case study (Netflix, Tesla, etc.)
+✔ Critical discussion (NOT descriptive)
+
+## ✅ Submission Checklist
+
+Before submitting:
+
+* [ ] Title is clear and specific
+* [ ] Abstract includes findings
+* [ ] Comparative analysis included
+* [ ] Diagram included and explained
+* [ ] Minimum 7 Scopus/WoS references
+* [ ] APA citation format correct
+* [ ] Turnitin report attached
+* [ ] Log book complete
+* [ ] PDF named correctly
+
+## 💡 Final Advice
+
+Start early.
+Read academic papers.
+Think critically.
+
+> A strong paper is not about **what the technology is**,
+> but **why it is better (or not)**.
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
