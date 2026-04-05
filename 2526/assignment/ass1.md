@@ -19,7 +19,7 @@ This assignment is designed to develop students' skills in academic writing and 
 * **Submission**: e-Learning
 
 📎 **File**:
-1. [Instruction and rubric](Assignment%201%20AW.pdf)
+1. [Instruction and rubric](HPDP_AW_Student_Briefing.pdf.pdf)
 2. [Template Assignment 1](Format%20Assigment%201.docx)
    
 ## 📌 Assignment Overview
