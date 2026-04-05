@@ -42,36 +42,37 @@ You must choose **ONE (1) topic** from the list below.
 
 ### 📚 Topics Overview (28 Topics)
 
-| No. | Topic                             | Focus Area                       | Example Tools                              |  Student |
-| --- | --------------------------------- | -------------------------------- | ------------------------------------------ |---|
-| 1   | Data-Centric AI Systems           | Data quality, model optimisation | TensorFlow, PyTorch                        |
-| 2   | Generative AI in Data Processing  | LLMs, automation                 | ChatGPT, Gemini                            |
-| 3   | Explainable AI (XAI)              | Transparency, interpretability   | SHAP, LIME                                 |
-| 4   | AI for Real-Time Decision Making  | Intelligent automation           | AI systems                                 |
-| 5   | AI in Smart Applications          | Smart city, healthcare           | AI platforms                               |
-| 6   | Modern Data Architectures         | Lakehouse, Data Mesh             | Databricks                                 |
-| 7   | Distributed Data Processing       | Large-scale analytics            | Apache Spark                               |
-| 8   | Real-Time Analytics Systems       | Streaming analytics              | Apache Flink                               |
-| 9   | Data Engineering Pipelines        | ETL/ELT workflows                | Airflow                                    |
-| 10  | Big Data Visualization            | Dashboards                       | Power BI                                   |
-| 11  | Cloud-Native Architectures        | Microservices                    | Docker, Kubernetes                         |
-| 12  | Serverless Computing              | Event-driven computing           | AWS Lambda                                 |
-| 13  | Multi-Cloud & Hybrid Cloud        | Scalability                      | Amazon Web Services, Google Cloud Platform |
-| 14  | Cloud Security & Governance       | Data protection                  | Cloud tools                                |
-| 15  | GPU Computing for AI              | Deep learning acceleration       | NVIDIA                                     |
-| 16  | Parallel Computing Models         | Performance optimisation         | MPI, OpenMP                                |
-| 17  | HPC for Big Data Analytics        | High-speed processing            | HPC clusters                               |
-| 18  | Event-Driven Architecture         | Messaging systems                | Apache Kafka                               |
-| 19  | Stream Processing Systems         | Real-time pipelines              | Spark Streaming                            |
-| 20  | Fault-Tolerant Systems            | Reliability                      | Distributed systems                        |
-| 21  | NoSQL Databases                   | Flexible schema                  | MongoDB                                    |
-| 22  | Graph Databases                   | Relationship analytics           | Neo4j                                      |
-| 23  | Columnar Databases                | Analytical queries               | Apache HBase                               |
-| 24  | NewSQL Systems                    | Scalable transactions            | Clustrix                                   |
-| 25  | Edge Computing Systems            | Low latency                      | Edge AI                                    |
-| 26  | IoT Data Processing               | Sensor pipelines                 | IoT platforms                              |
-| 27  | Digital Twin Systems              | Simulation                       | Azure Digital Twins                        |
-| 28  | Quantum Computing & Future Trends | Next-gen computing               | IBM Quantum                                |
+| No. | Topic Area                        | Tool / Technology Focus                             | Student |---|
+| --- | --------------------------------- | --------------------------------------------------- |
+| 1   | High-Performance Computing        | Hadoop / Cloudera                                   |
+| 2   | Distributed Software              | Apache Hadoop                                       |
+| 3   | Distributed Software              | Apache Spark                                        |
+| 4   | In-Memory Systems                 | SAP HANA                                            |
+| 5   | Cloud Computing                   | Amazon Web Services                                 |
+| 6   | Cloud Computing                   | Google Cloud Platform                               |
+| 7   | In-Database Systems               | SAS                                                 |
+| 8   | Cluster Computing                 | ScaleMP (Virtual SMP Alternative)                   |
+| 9   | Cluster Computing                 | Hadoop                                              |
+| 10  | Grid Computing                    | Hadoop                                              |
+| 11  | GPU Clusters                      | NVIDIA CUDA                                         |
+| 12  | Big Data Analytics                | Select any platform                                 |
+| 13  | Architecture for Data Analytics   | Select any platform and compare with previous study |
+| 14  | Real-Time Analytics Platforms     | Apache Drill                                        |
+| 15  | Stream Analytics                  | Apache Spark Streaming                              |
+| 16  | NoSQL Databases                   | MongoDB                                             |
+| 17  | Storage Area Network              | Google File System (GFS)                            |
+| 18  | Data Models of NoSQL Databases    | Cover all models (e.g., document model in MongoDB)  |
+| 19  | Columnar Databases                | Apache HBase                                        |
+| 20  | Graph Databases                   | Neo4j                                               |
+| 21  | NewSQL Systems                    | Clustrix                                            |
+| 22  | Data-Centric AI Systems           | TensorFlow / PyTorch                                |
+| 23  | Generative AI in Data Processing  | ChatGPT / Gemini                                    |
+| 24  | Modern Data Architectures         | Databricks (Lakehouse / Data Mesh)                  |
+| 25  | Cloud-Native Architectures        | Docker / Kubernetes                                 |
+| 26  | Serverless Computing              | AWS Lambda                                          |
+| 27  | Edge Computing Systems            | Edge AI devices                                     |
+| 28  | Quantum Computing & Future Trends | IBM Quantum                                         |
+
 
 ## 📝 Paper Structure (MANDATORY)
 
