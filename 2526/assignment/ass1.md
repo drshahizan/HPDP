@@ -42,8 +42,8 @@ You must choose **ONE (1) topic** from the list below.
 
 ### 📚 Topics Overview (28 Topics)
 
-| No. | Topic Area                        | Tool / Technology Focus                             | Student |---|
-| --- | --------------------------------- | --------------------------------------------------- |
+| No. | Topic Area                        | Tool / Technology Focus                             | Student |
+| --- | --------------------------------- | --------------------------------------------------- |---|
 | 1   | High-Performance Computing        | Hadoop / Cloudera                                   |
 | 2   | Distributed Software              | Apache Hadoop                                       |
 | 3   | Distributed Software              | Apache Spark                                        |
