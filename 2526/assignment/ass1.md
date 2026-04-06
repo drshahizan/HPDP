@@ -53,7 +53,7 @@ You must choose **ONE (1) topic** from the list below.
 | 7   | In-Database Systems               | SAS                                                 | Afiq Danial
 | 8   | Cluster Computing                 | ScaleMP (Virtual SMP Alternative)                   |
 | 9   | Cluster Computing                 | Hadoop                                              | Najma 
-| 10  | Grid Computing                    | Hadoop                                              |
+| 10  | Grid Computing                    | Hadoop                                              | Anis Safiyya
 | 11  | GPU Clusters                      | NVIDIA CUDA                                         |
 | 12  | Big Data Analytics                | Select any platform                                 | Adriana
 | 13  | Architecture for Data Analytics   | Select any platform and compare with previous study |
