@@ -67,7 +67,7 @@ You must choose **ONE (1) topic** from the list below.
 | 21  | NewSQL Systems                    | Clustrix                                            |
 | 22  | Data-Centric AI Systems           | TensorFlow / PyTorch                                |
 | 23  | Generative AI in Data Processing  | ChatGPT / Gemini                                    |
-| 24  | Modern Data Architectures         | Databricks (Lakehouse / Data Mesh)                  |
+| 24  | Modern Data Architectures         | Databricks (Lakehouse / Data Mesh)                  | Adib
 | 25  | Cloud-Native Architectures        | Docker / Kubernetes                                 |
 | 26  | Serverless Computing              | AWS Lambda                                          |
 | 27  | Edge Computing Systems            | Edge AI devices                                     |
