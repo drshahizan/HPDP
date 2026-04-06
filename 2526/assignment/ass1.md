@@ -71,7 +71,7 @@ You must choose **ONE (1) topic** from the list below.
 | 25  | Cloud-Native Architectures        | Docker / Kubernetes                                 |
 | 26  | Serverless Computing              | AWS Lambda                                          |
 | 27  | Edge Computing Systems            | Edge AI devices                                     |
-| 28  | Quantum Computing & Future Trends | IBM Quantum                                         |
+| 28  | Quantum Computing & Future Trends | IBM Quantum                                         | Ng Yu Hin
 
 
 ## 📝 Paper Structure (MANDATORY)
