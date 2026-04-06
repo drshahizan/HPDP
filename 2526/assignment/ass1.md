@@ -58,7 +58,7 @@ You must choose **ONE (1) topic** from the list below.
 | 12  | Big Data Analytics                | Select any platform                                 |
 | 13  | Architecture for Data Analytics   | Select any platform and compare with previous study |
 | 14  | Real-Time Analytics Platforms     | Apache Drill                                        | Yasmin
-| 15  | Stream Analytics                  | Apache Spark Streaming                              |
+| 15  | Stream Analytics                  | Apache Spark Streaming                              | Iman Abadi
 | 16  | NoSQL Databases                   | MongoDB                                             | Lam Yoke Yu
 | 17  | Storage Area Network              | Google File System (GFS)                            | Goe Jie Ying
 | 18  | Data Models of NoSQL Databases    | Cover all models (e.g., document model in MongoDB)  |
