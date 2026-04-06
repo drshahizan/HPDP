@@ -55,7 +55,7 @@ You must choose **ONE (1) topic** from the list below.
 | 9   | Cluster Computing                 | Hadoop                                              |
 | 10  | Grid Computing                    | Hadoop                                              |
 | 11  | GPU Clusters                      | NVIDIA CUDA                                         |
-| 12  | Big Data Analytics                | Select any platform                                 |
+| 12  | Big Data Analytics                | Select any platform                                 | Adriana
 | 13  | Architecture for Data Analytics   | Select any platform and compare with previous study |
 | 14  | Real-Time Analytics Platforms     | Apache Drill                                        | Yasmin
 | 15  | Stream Analytics                  | Apache Spark Streaming                              | Iman Abadi
