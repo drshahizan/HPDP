@@ -61,7 +61,7 @@ You must choose **ONE (1) topic** from the list below.
 | 15  | Stream Analytics                  | Apache Spark Streaming                              | Iman Abadi
 | 16  | NoSQL Databases                   | MongoDB                                             | Lam Yoke Yu
 | 17  | Storage Area Network              | Google File System (GFS)                            | Goe Jie Ying
-| 18  | Data Models of NoSQL Databases    | Cover all models (e.g., document model in MongoDB)  |
+| 18  | Data Models of NoSQL Databases    | Cover all models (e.g., document model in MongoDB)  | Mukhritz
 | 19  | Columnar Databases                | Apache HBase                                        |
 | 20  | Graph Databases                   | Neo4j                                               | Nurul Asyikin
 | 21  | NewSQL Systems                    | Clustrix                                            |
