@@ -44,7 +44,7 @@ You must choose **ONE (1) topic** from the list below.
 
 | No. | Topic Area                        | Tool / Technology Focus                             | Student |
 | --- | --------------------------------- | --------------------------------------------------- |---|
-| 1   | High-Performance Computing        | Hadoop / Cloudera                                   |
+| 1   | High-Performance Computing        | Hadoop / Cloudera                                   | Ziyaad
 | 2   | Distributed Software              | Apache Hadoop                                       |
 | 3   | Distributed Software              | Apache Spark                                        | Syahmi
 | 4   | In-Memory Systems                 | SAP HANA                                            | Teh Ru Qian
