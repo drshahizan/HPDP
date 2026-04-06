@@ -60,7 +60,7 @@ You must choose **ONE (1) topic** from the list below.
 | 14  | Real-Time Analytics Platforms     | Apache Drill                                        |
 | 15  | Stream Analytics                  | Apache Spark Streaming                              |
 | 16  | NoSQL Databases                   | MongoDB                                             |
-| 17  | Storage Area Network              | Google File System (GFS)                            |
+| 17  | Storage Area Network              | Google File System (GFS)                            | Goe Jie Ying
 | 18  | Data Models of NoSQL Databases    | Cover all models (e.g., document model in MongoDB)  |
 | 19  | Columnar Databases                | Apache HBase                                        |
 | 20  | Graph Databases                   | Neo4j                                               |
