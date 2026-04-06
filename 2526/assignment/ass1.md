@@ -45,11 +45,11 @@ You must choose **ONE (1) topic** from the list below.
 | No. | Topic Area                        | Tool / Technology Focus                             | Student |
 | --- | --------------------------------- | --------------------------------------------------- |---|
 | 1   | High-Performance Computing        | Hadoop / Cloudera                                   | Ziyaad
-| 2   | Distributed Software              | Apache Hadoop                                       |
+| 2   | Distributed Software              | Apache Hadoop                                       | Alif Fathi
 | 3   | Distributed Software              | Apache Spark                                        | Syahmi
 | 4   | In-Memory Systems                 | SAP HANA                                            | Teh Ru Qian
 | 5   | Cloud Computing                   | Amazon Web Services                                 | Afiq Danish
-| 6   | Cloud Computing                   | Google Cloud Platform                               | Alif Fathi
+| 6   | Cloud Computing                   | Google Cloud Platform                               | 
 | 7   | In-Database Systems               | SAS                                                 | Afiq Danial
 | 8   | Cluster Computing                 | ScaleMP (Virtual SMP Alternative)                   |
 | 9   | Cluster Computing                 | Hadoop                                              | Najma 
