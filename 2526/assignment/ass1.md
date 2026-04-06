@@ -48,7 +48,7 @@ You must choose **ONE (1) topic** from the list below.
 | 2   | Distributed Software              | Apache Hadoop                                       | Alif Fathi
 | 3   | Distributed Software              | Apache Spark                                        | Syahmi
 | 4   | In-Memory Systems                 | SAP HANA                                            | Teh Ru Qian
-| 5   | Cloud Computing                   | Amazon Web Services                                 | Afiq Danish
+| 5   | Cloud Computing                   | Amazon Web Services                                 | 
 | 6   | Cloud Computing                   | Google Cloud Platform                               | 
 | 7   | In-Database Systems               | SAS                                                 | Afiq Danial
 | 8   | Cluster Computing                 | ScaleMP (Virtual SMP Alternative)                   |
@@ -56,7 +56,7 @@ You must choose **ONE (1) topic** from the list below.
 | 10  | Grid Computing                    | Hadoop                                              | Anis Safiyya
 | 11  | GPU Clusters                      | NVIDIA CUDA                                         |
 | 12  | Big Data Analytics                | Select any platform                                 | Adriana
-| 13  | Architecture for Data Analytics   | Select any platform and compare with previous study |
+| 13  | Architecture for Data Analytics   | Select any platform and compare with previous study | Afiq Danish
 | 14  | Real-Time Analytics Platforms     | Apache Drill                                        | Yasmin
 | 15  | Stream Analytics                  | Apache Spark Streaming                              | Iman Abadi
 | 16  | NoSQL Databases                   | MongoDB                                             | Lam Yoke Yu
