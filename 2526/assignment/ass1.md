@@ -50,7 +50,7 @@ You must choose **ONE (1) topic** from the list below.
 | 4   | In-Memory Systems                 | SAP HANA                                            |
 | 5   | Cloud Computing                   | Amazon Web Services                                 | Afiq Danish
 | 6   | Cloud Computing                   | Google Cloud Platform                               | Alif Fathi
-| 7   | In-Database Systems               | SAS                                                 |
+| 7   | In-Database Systems               | SAS                                                 | Afiq Danial
 | 8   | Cluster Computing                 | ScaleMP (Virtual SMP Alternative)                   |
 | 9   | Cluster Computing                 | Hadoop                                              | Najma 
 | 10  | Grid Computing                    | Hadoop                                              |
