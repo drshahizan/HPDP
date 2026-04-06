@@ -64,7 +64,7 @@ You must choose **ONE (1) topic** from the list below.
 | 18  | Data Models of NoSQL Databases    | Cover all models (e.g., document model in MongoDB)  | Mukhritz
 | 19  | Columnar Databases                | Apache HBase                                        | Nawwarah Auni
 | 20  | Graph Databases                   | Neo4j                                               | Nurul Asyikin
-| 21  | NewSQL Systems                    | Clustrix                                            |
+| 21  | NewSQL Systems                    | Clustrix                                            | Adam
 | 22  | Data-Centric AI Systems           | TensorFlow / PyTorch                                | Aflah
 | 23  | Generative AI in Data Processing  | ChatGPT / Gemini                                    | Afif Shaqir
 | 24  | Modern Data Architectures         | Databricks (Lakehouse / Data Mesh)                  | Adib
