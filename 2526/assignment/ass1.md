@@ -47,7 +47,7 @@ You must choose **ONE (1) topic** from the list below.
 | 1   | High-Performance Computing        | Hadoop / Cloudera                                   |
 | 2   | Distributed Software              | Apache Hadoop                                       |
 | 3   | Distributed Software              | Apache Spark                                        | Syahmi
-| 4   | In-Memory Systems                 | SAP HANA                                            |
+| 4   | In-Memory Systems                 | SAP HANA                                            | Teh Ru Qian
 | 5   | Cloud Computing                   | Amazon Web Services                                 | Afiq Danish
 | 6   | Cloud Computing                   | Google Cloud Platform                               | Alif Fathi
 | 7   | In-Database Systems               | SAS                                                 | Afiq Danial
