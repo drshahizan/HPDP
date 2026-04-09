@@ -49,7 +49,7 @@ You must choose **ONE (1) topic** from the list below.
 | 3   | Distributed Software              | Apache Spark                                        | Syahmi
 | 4   | In-Memory Systems                 | SAP HANA                                            | Teh Ru Qian
 | 5   | Cloud Computing                   | Amazon Web Services                                 | Harini
-| 6   | Cloud Computing                   | Google Cloud Platform                               | 
+| 6   | Cloud Computing                   | Google Cloud Platform                               | Pravinraj
 | 7   | In-Database Systems               | SAS                                                 | Afiq Danial
 | 8   | Cluster Computing                 | ScaleMP (Virtual SMP Alternative)                   |
 | 9   | Cluster Computing                 | Hadoop                                              | Najma 
