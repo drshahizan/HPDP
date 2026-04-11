@@ -68,7 +68,7 @@ You must choose **ONE (1) topic** from the list below.
 | 22  | Data-Centric AI Systems           | TensorFlow / PyTorch                                | Aflah
 | 23  | Generative AI in Data Processing  | ChatGPT / Gemini                                    | Afif Shaqir
 | 24  | Modern Data Architectures         | Databricks (Lakehouse / Data Mesh)                  | Adib
-| 25  | Cloud-Native Architectures        | Docker / Kubernetes                                 |
+| 25  | Cloud-Native Architectures        | Docker / Kubernetes                                 | Dheshieghan
 | 26  | Serverless Computing              | AWS Lambda                                          | Tan Yi Ya
 | 27  | Edge Computing Systems            | Edge AI devices                                     | Naim
 | 28  | Quantum Computing & Future Trends | IBM Quantum                                         | Ng Yu Hin
