@@ -7,12 +7,14 @@
 
 # 📘 Assignment 2: Mastering Big Data Handling
 
+**[Student Briefing and Guidance Document](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/IQDruqzF5F8mSrljcx9KS85ZAaCbWKHUnp7OZpTw3vA9ONA?e=L3p80A)**
 
 **Due Date**: **4 May 2025 5:00 PM**
 
 **Group Work**: Yes (2 students per group)
 
 **Submission Platform**: GitHub (via provided structure) and Google Colab
+
 
 ## 📌 Introduction
 
