@@ -8,7 +8,7 @@
 # 📘 Assignment 2: Mastering Big Data Handling
 
 
-**Due Date**: **4 June 2025 5:00 PM**
+**Due Date**: **4 May 2025 5:00 PM**
 
 **Group Work**: Yes (2 students per group)
 
