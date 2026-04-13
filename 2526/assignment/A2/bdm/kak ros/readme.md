@@ -39,8 +39,8 @@ Our project focuses on mastering scalable big data techniques using tools such a
 - **Name**: Airline Delay and Cancellation Data, 2009 - 2018  
 - **Source**: [Kaggle](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2009.csv)  
 - **Domain**: Transportation  
-- **File Size**: 7 GB  
-- **Shape**: ?? rows × ?? columns  
+- **File Size**: 7.62 GB  
+- **Shape**: 61,556,964 rows × 28 columns  
 
 ### 📘 Description
 
