@@ -145,6 +145,7 @@ bdm/your_group/
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | Sample2 | Pandas | Dask | Polars | [🎹 960K Spotify Songs With Lyrics data 🎵](https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Sample2) |
+| beep | Pandas | Dask | Polars | [eCommerce behavior data from multi category store](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Sample2) |
 
 
 
