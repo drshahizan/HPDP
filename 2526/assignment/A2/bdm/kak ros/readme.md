@@ -17,6 +17,7 @@
 
 ---
 
+
 ## 🗂️ Project Files
 
 | File Name                     | Description                                                                    | Link |
@@ -26,6 +27,7 @@
 
 ---
 
+
 ## 📖 Introduction
 
 In the modern era of global transportation and logistics, the aviation industry generates massive amounts of telemetry and scheduling data every single day. Efficiently handling this scale of data requires specialized tools and techniques that go beyond standard memory limits.
@@ -34,6 +36,7 @@ Our project focuses on mastering scalable big data techniques using tools such a
 
 ---
 
+
 ## 🎵 Dataset Overview
 
 - **Name**: Airline Delay and Cancellation Data, 2009 - 2018  
@@ -41,6 +44,7 @@ Our project focuses on mastering scalable big data techniques using tools such a
 - **Domain**: Transportation  
 - **File Size**: 7.62 GB  
 - **Shape**: 61,556,964 rows × 28 columns  
+
 
 ### 📘 Description
 
@@ -51,11 +55,13 @@ This dataset is a comprehensive compilation of flight tracking records collected
 - specific delay categorizations  
 - And more...
 
+
 ### ⚠️ Notes
 
 - Cancelled or diverted flights will naturally be missing arrival times and airborne durations.  
 - Specific delay reason columns (e.g., Weather Delay, Carrier Delay) contain null values if the flight departed on time. 
 - The sheer size of the uncompressed data exceeds standard RAM capacities, requiring strategic loading methods.  
+
 
 ### 🔍 Key Features
 
@@ -66,6 +72,7 @@ This dataset is a comprehensive compilation of flight tracking records collected
 
 ---
 
+
 ## ⚙️ Techniques Used
 
 - Selective data loading: Utilizing usecols to extract only essential features.  
@@ -75,6 +82,7 @@ This dataset is a comprehensive compilation of flight tracking records collected
 - Parallel processing: Distributing computational workloads across multiple cores using Dask and Polars.   
 
 ---
+
 
 ## 📊 Library Benchmarking
 
@@ -92,6 +100,7 @@ Each was tested and compared based on:
 - Processing throughput (records/second)  
 
 ---
+
 
 ## 🎯 Conclusion
 
