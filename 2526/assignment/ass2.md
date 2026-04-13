@@ -157,6 +157,7 @@ bdm/your_group/
 | gawr-jus | Pandas | PyArrow | Polars | [Flight Delay Dataset — 2024](https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 | gepuk | Pandas | Dask | Polars | [2019-airline-delays-and-cancellations](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | |
 | group6 | Pandas | Dask | Polars | [NYC Yellow Taxi Trip Data](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data) | |
+| scubaa | Pandas | Dask | PyArrow | [The MOTHER OF ALL MOVIE REVIEW DATASETS](https://www.kaggle.com/datasets/bwandowando/rotten-tomatoes-9800-movie-critic-and-user-reviews) | |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
