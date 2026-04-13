@@ -149,6 +149,7 @@ bdm/your_group/
 | Sayur | Pandas | Dask | Polars | [Pakistan Carbon monoxide 2022 - 2025](https://www.kaggle.com/datasets/muhammadbilal77511/pakistan-carbon-monoxide-2022-2025) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 | DataPulse | Pandas | Dask | Polars | [Brazil Hourly Weather Surface Dataset](https://www.kaggle.com/datasets/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 | Horang | Pandas | PyArrow | Polars | [Genius Song Lyrics](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
+| gepukers | Pandas | Dask | Polars | [Los Angeles Crime Data 2020-2026](https://www.kaggle.com/datasets/aliafzal9323/los-angeles-crime-data-2020-2026) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
