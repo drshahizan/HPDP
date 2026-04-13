@@ -152,6 +152,7 @@ bdm/your_group/
 | nyamuk | Pandas | Dask | Polars | [Los Angeles Crime Data 2020-2026](https://www.kaggle.com/datasets/aliafzal9323/los-angeles-crime-data-2020-2026) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 | Data Miner | Pandas | Dask | Polars | [NYC Yellow Taxi Trip Data](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data?select=yellow_tripdata_2016-03.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 | kak ros | Pandas | Dask | Polars | [Los Angeles Crime Data 2020-2026](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2009.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
+| DuaTiga | Pandas | Dask | Polars | [Review in STEAM](https://www.kaggle.com/datasets/kieranpoc/steam-reviews) | 
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
