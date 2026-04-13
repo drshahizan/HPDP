@@ -154,6 +154,7 @@ bdm/your_group/
 | kak ros | Pandas | Dask | Polars | [Airline Delay and Cancellation Data](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2009.csv) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/kak%ros) |
 | DuaTiga | Pandas | Dask | Polars | [Review in STEAM](https://www.kaggle.com/datasets/kieranpoc/steam-reviews) | 
 | Ayam | Pandas | Dask | Polars | [NYC Parking Ticket](https://www.kaggle.com/datasets/new-york-city/nyc-parking-tickets) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
+| gawr-jus | Pandas | PyArrow | Polars | [Flight Delay Dataset — 2024](https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024)]() | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
