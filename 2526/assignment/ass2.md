@@ -147,7 +147,7 @@ bdm/your_group/
 | Sample2 | Pandas | Dask | Polars | [🎹 960K Spotify Songs With Lyrics data 🎵](https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Sample2) |
 | beep | Pandas | Dask | Polars | [Amazon Books Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](A2/bdm/Sample2) |
 | Sayur | Pandas | Dask | Polars | [Pakistan Carbon monoxide 2022 - 2025](https://www.kaggle.com/datasets/muhammadbilal77511/pakistan-carbon-monoxide-2022-2025) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
-
+| DataPulse | Pandas | Dask | Polars | [Brazil Hourly Weather Surface Dataset](https://www.kaggle.com/datasets/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]() |
 
 
 ## Contribution 🛠️
