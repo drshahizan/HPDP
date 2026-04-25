@@ -62,8 +62,8 @@ By the end of this project, you will be able to:
 | 5 | **Presentation Slides** | 10-minute group presentation explaining your project. |
 
 ## 🔗 Quick Access to Supporting Resources
-
-- 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)  
+https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/p1_tools.md
+- 🌐 [Suggested Malaysian Websites for Crawling](p1/p1_web.md)  
 - 🧭 [Step-by-Step Project Guide](p1_step.md)  
 - 🧾 [Assessment Rubric](p1_rubric.md)  
 - 🔗 [Recommended Repositories & Tools](p1_tools.md)  
