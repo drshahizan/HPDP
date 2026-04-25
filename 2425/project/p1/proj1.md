@@ -63,7 +63,7 @@ By the end of this project, you will be able to:
 
 ## 🔗 Quick Access to Supporting Resources
 https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/p1_tools.md
-- 🌐 [Suggested Malaysian Websites for Crawling](p1/p1_web.md)  
+- 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)  
 - 🧭 [Step-by-Step Project Guide](p1_step.md)  
 - 🧾 [Assessment Rubric](p1_rubric.md)  
 - 🔗 [Recommended Repositories & Tools](p1_tools.md)  
