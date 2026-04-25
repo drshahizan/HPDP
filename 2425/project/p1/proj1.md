@@ -77,7 +77,7 @@ https://github.com/drshahizan/HPDP/blob/main/2425/project/p1/p1_tools.md
    
 | Team | Website | Tools |  Open in GitHub |
 | ----- | ----- | ------ | ------ | 
-| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A1) |
+| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
 | Group A |   [NST(World,Business,ASEAN](https://www.nst.com.my/)     | Selenium + Web-Driver Manager |   [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupA)     |
 | Data Drillers     | [Carlist](https://www.carlist.my/cars-for-sale/malaysia)       | Beautiful Soup + Request       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupB)        |
 | HyperData | [lazada](https://www.lazada.com.my/catalog/?q=Women%27s%20Fashion&price=0-25) | Beautiful Soup + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupC)|
