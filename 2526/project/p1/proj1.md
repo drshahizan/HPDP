@@ -14,10 +14,17 @@ Through hands-on experience, students will explore data collection, cleaning, tr
 
 This project aims to develop students' technical skills in high-performance computing, critical thinking in system optimization, and collaboration in diverse teams—key competencies for data science professionals.
 
-📊 **Weightage**: 15% of total course assessment  
-🕓 Project Duration: 4 Weeks
-📅 **Submission Deadline**: **Friday, 16 May 2025**  
-📤 **Submission Format**: All final documents must be uploaded via e-learning and github  
+| Item               | Details                                                                  |
+| ------------------ | ------------------------------------------------------------------------ |
+| Course Title       | High Performance Data Processing                                         |
+| Project Title      | Optimizing High Performance Data Processing for Large Scale Web Crawlers |
+| Project Type       | Group Project (Maximum **3 students per group**)                         |
+| Duration           | 4 Weeks                                                                  |
+| Weightage          | 15% of total course assessment                                           |
+| Submission Date    | **Monday, 25 May 2025**                                                  |
+| Submission Channel | e-Learning Portal, Turnitin, GitHub                                      |
+
+
 👥 **Assignment Type**: **4 students per group (Max)**. 
 > 📌 Each group must include students from **different genders, races, or backgrounds** to encourage diversity and collaboration across cultures and perspectives.
 
