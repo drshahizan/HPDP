@@ -16,6 +16,7 @@ This project aims to develop students' technical skills in high-performance comp
 
 | Item               | Details |
 | ------------------ | ------------------------------------------------------------------------ |
+| Document| [Assignment brief]()|
 | Project Type       | Group Project (Maximum **3 students per group**) |
 | Duration           | 4 Weeks |
 | Weightage          | 15% of total course assessment |
