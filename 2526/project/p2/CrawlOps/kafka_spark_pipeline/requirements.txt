@@ -1,0 +1,4 @@
+praw==7.7.1
+kafka-python==2.0.2 
+tensorflow==2.13.0
+numpy>=1.22.0 

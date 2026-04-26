@@ -1,0 +1,19 @@
+{
+  "grab_reviews_sentiment": {
+    "mappings": {
+      "properties": {
+        "original_score": { "type": "long" },
+        "probability_vector": { "type": "float" },
+        "processing_timestamp": { "type": "date" },
+        "replied_at": { "type": "date" },
+        "reply_content": { "type": "text" },
+        "review_content": { "type": "text" },
+        "review_id": { "type": "keyword" },
+        "sentiment": { "type": "keyword" },
+        "thumbs_up_count": { "type": "long" },
+        "timestamp": { "type": "date" },
+        "username": { "type": "text" }
+      }
+    }
+  }
+}
