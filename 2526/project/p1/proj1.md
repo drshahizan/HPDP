@@ -16,7 +16,7 @@ This project aims to develop students' technical skills in high-performance comp
 
 | Item               | Details |
 | ------------------ | ------------------------------------------------------------------------ |
-| Document| [Assignment brief]()|
+| Document| [Assignment brief](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/HPDP_Project1_Assignment_Brief.pdf)|
 | Project Type       | Group Project (Maximum **3 students per group**) |
 | Duration           | 4 Weeks |
 | Weightage          | 15% of total course assessment |
