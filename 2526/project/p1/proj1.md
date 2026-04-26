@@ -16,8 +16,6 @@ This project aims to develop students' technical skills in high-performance comp
 
 | Item               | Details                                                                  |
 | ------------------ | ------------------------------------------------------------------------ |
-| Course Title       | High Performance Data Processing                                         |
-| Project Title      | Optimizing High Performance Data Processing for Large Scale Web Crawlers |
 | Project Type       | Group Project (Maximum **3 students per group**)                         |
 | Duration           | 4 Weeks                                                                  |
 | Weightage          | 15% of total course assessment                                           |
