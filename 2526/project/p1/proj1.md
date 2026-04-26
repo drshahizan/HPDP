@@ -81,26 +81,12 @@ By the end of this project, you will be able to:
 | Team | Website | Tools |  Open in GitHub |
 | ----- | ----- | ------ | ------ | 
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
-| Group A |   [NST(World,Business,ASEAN](https://www.nst.com.my/)     | Selenium + Web-Driver Manager |   [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupA)     |
-| Data Drillers     | [Carlist](https://www.carlist.my/cars-for-sale/malaysia)       | Beautiful Soup + Request       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupB)        |
-| HyperData | [lazada](https://www.lazada.com.my/catalog/?q=Women%27s%20Fashion&price=0-25) | Beautiful Soup + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupC)|
-| Group D | [pgmall(kesihatan dan kecantikan](https://pgmall.my/category?path=1&page=4129) | Beautiful Soup + Request| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupD)|
-| Group E | [NST (News)](https://www.nst.com.my/news) | Beautiful Soup + Playwright + Asyncio | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupE) |
-| CrawlOps | [mudah.my (car)](https://www.mudah.my/malaysia/cars-for-sale) | Pandas + Beautiful Soup + Selenium |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](CrawlOps)|
-| Group G | [The Edge Malaysia](https://theedgemalaysia.com/) |  Requests  |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupG)      |
 
 2. Performance Comparison
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
-| Group A      |  Selenium        |   Threading        |    WebDriver Manager       |  NST World, Business, ASEAN News Articles       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupA) 
-| Data Drillers      |  Pandas        |   DuckDB        |    Polars       |  Car Lists Analysis       | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupB)                 |
-| HyperData  |   pandas   |  polar  |   pySpark      |   Women's Purchase Analysis      |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupC)   |
-|  Group D     |   Pandas     |   Dask        |    Polar       |   Beauty & Health Item Analysis      | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupD)  |                 |
-| Group E | Pandas | Polars | Modin | News Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupE) |
-| CrawlOps | joblib | concurrent.futures | PySpark    | Car Market Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](CrawlOps) |
-| Group G | Pandas | Polars  | Dask  |  Malaysia News Analysis    | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](GroupG)  |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
