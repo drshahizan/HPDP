@@ -23,7 +23,7 @@ This project aims to develop students' technical skills in high-performance comp
 | Submission Date    | **Monday, 25 May 2025** |
 | Submission Channel | e-Learning Portal, Turnitin, GitHub |
 
-👥 **Assignment Type**:**
+👥 **Assignment Type**:
 > 📌 Each group must include students from **different genders, races, or backgrounds** to encourage diversity and collaboration across cultures and perspectives.
 
 ## 🧠 **What Is This Project About?**
