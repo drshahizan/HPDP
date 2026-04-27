@@ -88,6 +88,7 @@ By the end of this project, you will be able to:
 | WebMiner | [propertyguru.com](https://www.propertyguru.com.my) | PlayWright | [![Open in GitHub](hi)](placeholder)
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Shopping | [shein.com.my](https://www.shein.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 
 
 2. Performance Comparison
