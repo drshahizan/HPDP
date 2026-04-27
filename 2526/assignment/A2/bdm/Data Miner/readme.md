@@ -13,10 +13,6 @@
     <td>Ng Yu Hin</td>
     <td>A23CS0148</td>
   </tr>
-  <tr>
-    <td>Muhammad Afiq Danish Bin Mohd Hazni</td>
-    <td>[Insert Matric]</td>
-  </tr>
 </table>
 
 ---
