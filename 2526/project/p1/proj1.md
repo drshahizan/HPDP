@@ -84,6 +84,7 @@ By the end of this project, you will be able to:
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
 | Vege | [mudah.my](https://www.mudah.my) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
 | Pravin | https://www.carsome.my/ 
+| Dhesh | [lazada.com.my](https://www.lazada.com.my) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
 
 
 2. Performance Comparison
