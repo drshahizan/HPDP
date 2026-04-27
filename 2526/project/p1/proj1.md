@@ -88,7 +88,7 @@ By the end of this project, you will be able to:
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Shopping | [shein.com.my](https://www.shein.com) | Scrapy | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
 | temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
-| jobSeeker | [carlist.com.my](https://www.carlist.com/my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| jobSeeker | [carlist.com.my](https://www.carlist.my/used-cars-for-sale) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Reporter | [nst.com.my](https://www.nst.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 
