@@ -86,7 +86,7 @@ By the end of this project, you will be able to:
 | LazData | [lazada.com.my](https://www.lazada.com.my) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
 | WebMiner | [propertyguru.com](https://www.propertyguru.com.my) | PlayWright | [![Open in GitHub](hi)](placeholder)
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
-| Shopping | [shein.com.my](https://www.shein.com) | Scrapy | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](2526/project/p1/shopping)
+| Shopping | [shein.com.my](https://www.shein.com) | Scrapy | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/shopping)
 | temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | jobSeeker | [temu.com.my](https://www.temu.com/my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
