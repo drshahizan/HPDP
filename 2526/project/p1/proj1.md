@@ -91,6 +91,7 @@ By the end of this project, you will be able to:
 | Fast&Furious | [carlist.com.my](https://www.carlist.my/used-cars-for-sale) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Reporter | [nst.com.my](https://www.nst.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Ayam Gepuk | [Edge Malaysia](https://theedgemalaysia.com/) | Selenium | 
 
 
 2. Performance Comparison
