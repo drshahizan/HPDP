@@ -86,6 +86,7 @@ By the end of this project, you will be able to:
 | Scrape Master | [Carsome.my](https://www.carsome.my/) | Beautiful Soup |  [![Open in GitHub](hi)](placeholder) |
 | Dhesh | [lazada.com.my](https://www.lazada.com.my) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
 | WebMiner | [propertyguru.com](https://www.propertyguru.com.my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 
 
 2. Performance Comparison
