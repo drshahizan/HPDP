@@ -90,6 +90,7 @@ By the end of this project, you will be able to:
 | temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | jobSeeker | [temu.com.my](https://www.temu.com/my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Reporter | [nst.com.my](https://www.nst.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 
 
 2. Performance Comparison
