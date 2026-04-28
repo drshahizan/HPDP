@@ -106,7 +106,9 @@ Compare between Pandas, Dask, and Polars </p>
 Explain satu2 Pandas, Polars, Dask
 
 ## 6. Conclusion and Reflection
-Summary of key observations, personal reflection on learning, and discussion of scalability. 
+<h4> 🔷Summary of key observations </h4>
+<h4> 🔷Personal reflection on learning </h4> 
+<h4> 🔷Discussion of scalability </h4> 
 
 
 ## References
