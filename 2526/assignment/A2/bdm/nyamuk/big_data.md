@@ -35,6 +35,8 @@ Chosen libraries: </p>
 Brief explanation why select Library 2 and Library 3..
 
 ## 3. Data Loading and Inspection
+<h4> 🔷Load Strategy </h4>
+<h4> 🔷Data Inspection </h4>
 Show your initial loading code and the results of your data inspection. 
 
 ## 4. Big Data Handling Strategies (For each strategy: explanation, code snippet, output or screenshot, and discussion )
