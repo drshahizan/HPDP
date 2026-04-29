@@ -17,14 +17,14 @@
 </table> 
 
 ## 1. Dataset Description
-- **Name:** Los Angeles Crime Data 2020-2026 </p>
-- **Source:** [Kaggle-aliafzal9323](https://www.kaggle.com/datasets/aliafzal9323/los-angeles-crime-data-2020-2026) </p>
-- **File size:** 12.63 GB </p>
-- **Domain:** Criminal </p>
-- **Shape:** 5,348,822 rows × 44 columns  </p>
+- **Name:** UK Housing Prices Paid </p>
+- **Source:** [Kaggle-hm-land-registry](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid) </p>
+- **File size:** 2.41 GB </p>
+- **Domain:** Housing </p>
+- **Shape:** 22,489,348 rows × 11 columns  </p>
 
 ### 📖 Description
-This dataset contains comprehensive records of crime incidents that are reported in Los Angeles from 2020 to 2026, sourced from open public data platforms. It captures details of reported incidents, responsible agencies, types of reported problems, and so on. This dataset provides valuable insights into crime patterns, reporting behaviours, and regional distribution of incidents which makes it well suited for time-series analysis, geospatial mapping, and categorical crime trend analysis.
+This dataset contains comprehensive records of 
 
 ## 2. Library Choices
 Chosen libraries: </p>
