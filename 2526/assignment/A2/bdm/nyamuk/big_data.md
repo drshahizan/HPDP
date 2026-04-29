@@ -24,7 +24,7 @@
 - **Shape:** 22,489,348 rows × 11 columns  </p>
 
 ### 📖 Description
-This dataset contains comprehensive records of 
+This dataset contains comprehensive records of all registered property sales in England and Wales that were sold for full market value. It captures details of reported transactions, legal ownership types, property classifications, and geographical markers. This dataset provide a valuable insights into economic trends, purchasing behaviours, and regional distribution of property values which makes it well-suited for time-series analysis, geospatial mapping, and categorical market trend analysis.
 
 ## 2. Library Choices
 Chosen libraries: </p>
