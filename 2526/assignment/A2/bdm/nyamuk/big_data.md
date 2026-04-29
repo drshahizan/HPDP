@@ -11,8 +11,8 @@
     <td>A23CS0252</td>
   </tr>
   <tr>
-    <td>Yasmin</td>
-    <td>A23CS</td>
+    <td>Yasmin Batrisyia Binti Zahiruddin</td>
+    <td>A23CS0201</td>
   </tr>
 </table> 
 
