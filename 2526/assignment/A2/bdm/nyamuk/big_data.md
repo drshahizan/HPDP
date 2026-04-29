@@ -107,9 +107,9 @@ Explain satu2 Pandas, Polars, Dask
 
 ## 6. Conclusion and Reflection
 <h4> 🔷Summary of key observations </h4>
+<h4> 🔷Discussion of scalability </h4>
 <h4> 🔷Personal reflection on learning </h4> 
-<h4> 🔷Discussion of scalability </h4> 
-
+ 
 
 ## References
 Afzal, A. (2020). _Los Angeles Crime Data 2020-2026_. Kaggle.com. https://www.kaggle.com/datasets/aliafzal9323/los-angeles-crime-data-2020-2026 
