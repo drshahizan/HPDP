@@ -36,6 +36,13 @@ Brief explanation why select Library 2 and Library 3..
 
 ## 3. Data Loading and Inspection
 <h4> 🔷Load Strategy </h4>
+The following steps are taken to efficiently load the dataset in Google Colab: </p>
+1. Imported kaggle.json. </p>
+2. Configured Kaggle API Credentials. </p>
+3. Download dataset from Kaggle using Kaggle CLI to fetch dataset directly into Colab. </p>
+4. Unzipped the dataset file. </p>
+5. Loaded sample of rows using pd.read_csv(). </p>
+
 <h4> 🔷Data Inspection </h4>
 Show your initial loading code and the results of your data inspection. 
 
