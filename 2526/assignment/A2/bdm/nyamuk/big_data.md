@@ -78,8 +78,8 @@ Discussion: </p>
 
 | Strategy | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
 | --------- | --------------- | ------------------| ------------| -------------------------|
-| Load Less Data |  |  |  |  |
-| Chunking |  |  |  |  |
+| Load Less Data | 1091.0 | 32.6389 | 99.68	 | 689035.11 |
+| Chunking | 5705.58 | 65.076	 | 99.2 | 345585.9 |
 | Optimized Data Types |  |  |  |  |
 | Sampling |  |  |  |  |
 | Parallel with <Dask> |  |  |  |  |
