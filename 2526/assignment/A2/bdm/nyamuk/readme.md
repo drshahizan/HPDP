@@ -28,32 +28,32 @@
 
 ## 📖 Introduction
 
-In today’s data driven urban environments, large volumes of information are being generated continuously through public report systems, administrative processes, and community interactions in big cities. To handle and analyze such large-scale data, it requires advanced tools and techniques to process beyond typical memory constraints.
+In today’s data driven urban environments, large volumes of information are being generated continuously through public report systems, administrative processes, and community interactions in big cities. Advanced tools and techniques are required to handle and anlyze such large-scale of dataset to process beyond typical memory constraints.
 
-This project aims to develop skills in scalable big data processing using tools like Pandas, Dask, and Polars. We applied various optimisation methods to efficiently load and process a large real-world crime dataset, followed by performance benchmarking to evaluate memory usage, execution time, CPU utilisation, and overall processing efficiency.
+This project aims to develop skills in scalable big data processing using tools like Pandas, Dask, and Polars. We applied various optimisation methods to efficiently load and process a large real-world housing dataset, followed by performance benchmarking to evaluate memory usage, execution time, CPU utilisation, and overall processing efficiency.
 
 ---
 
 ## 👮 Dataset Overview
 
-- **Name**: Los Angeles Crime Data 2020-2026
-- **Source**: [Kaggle – aliafzal9323](https://www.kaggle.com/datasets/aliafzal9323/los-angeles-crime-data-2020-2026)
-- **Domain**: Criminal
-- **File Size**: 12.63 GB
-- **Shape**: 5,348,822 rows × 44 columns
+- **Name**: UK Housing Prices Paid
+- **Source**: [Kaggle-hm-land-registry](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid)
+- **Domain**: Housing
+- **File Size**: 2.41 GB
+- **Shape**: 22,489,348 rows × 11 columns
 
 ### 📘 Description
 
-This dataset contains comprehensive records of crime incidents that are reported in Los Angeles from 2020 to 2026, sourced from open public data platforms. It captures details of reported incidents, responsible agencies, types of reported problems, and so on. This dataset provides valuable insights into crime patterns, reporting behaviours, and regional distribution of incidents which makes it well suited for time-series analysis, geospatial mapping, and categorical crime trend analysis.
+This dataset contains comprehensive records of all registered property sales in England and Wales that were sold for full market value. It captures details of reported transactions, legal ownership types, property classifications, and geographical markers. This dataset provide a valuable insights into economic trends, purchasing behaviours, and regional distribution of property values which makes it well-suited for time-series analysis, geospatial mapping, and categorical market trend analysis.
 
 ### 🔍 Key Features
 
-- Temporal details: created date and time of reported incidents
-- Agency information: department responsible for handling cases
-- Incidents categories: type of problem or complaint reported
-- Case status: current progress (in progress, closed)
-- Regional data: areas of where the incident took placed
-- Geolocation data: latitude and longitude coordinates for mapping
+- Price: The total sales amount that is essential for valuation and economic modeling.
+- Date of Transfer: The specific transaction date, which is ideal for longitudinal time-series analysis.
+- Property Type: Classification (Detached, Semi, Terraced, Flat) for comparing market sectors
+- Old/New Build: A marker for new construction versus established residential stock.
+- Tenure: Indicates ownership type (Freehold/Leasehold), reflecting legal property status.
+- Address Hierarchy: Granular location data from Postcode to Country.
 
 ### ⚠️ Notes
 
