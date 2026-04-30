@@ -32,7 +32,9 @@ Chosen libraries: </p>
 |--------- | -----------| ---------- |
 | Pandas | Dask | Polars |
 
-Brief explanation why select Library 2 and Library 3..
+- Dask is chosen besides Pandas as it enables to process the data through parallel processing and distributed processing of datasets which divides them into a smaller segments for simultaneous processing. It uses lazy evaluation as it performs calculations only when necessary which leads to reduced memory consumption and increased system operational capacity.
+
+- Polars is chosen as it is a high-performance DataFrame library that is written in Rust which allows to execute the programs more faster while using less memory consumptions. It uses multi-threading method which enables it to perform data operations at a speed that exceeds Pandas when handling large datasets.
 
 ## 3. Data Loading and Inspection
 <h4> 🔷Load Strategy </h4>
