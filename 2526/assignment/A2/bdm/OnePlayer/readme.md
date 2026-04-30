@@ -37,7 +37,7 @@ This project focuses on mastering scalable big data handling techniques using **
 - **Domain**: Telecommunications / Geospatial Analytics
 - **Selected File**: `Asia towers.csv`
 - **File Size**: ~1.56GB
-- **Shape**: 13.37 Million rows x 18 columns
+- **Shape**: 13.38 Million rows x 18 columns
 
 ### 📘 Description
 
