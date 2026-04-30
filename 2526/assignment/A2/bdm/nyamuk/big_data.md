@@ -39,11 +39,40 @@ Chosen libraries: </p>
 ## 3. Data Loading and Inspection
 <h4> 🔷Load Strategy </h4>
 The following steps are taken to efficiently load the dataset in Google Colab: </p>
-1. Imported kaggle.json. </p>
+1. kaggle.json is imported using Google Colab import files feature. </p>
+
+``` python
+  from google.colab import files
+  files.upload()
+```
+
 2. Configured Kaggle API Credentials. </p>
-3. Download dataset from Kaggle using Kaggle CLI to fetch dataset directly into Colab. </p>
+
+```bash
+  !mkdir -p ~/.kaggle
+  !cp kaggle.json ~/.kaggle/
+  !chmod 600 ~/.kaggle/kaggle.json
+```
+
+3. Download the dataset from Kaggle using Kaggle CLI to retrieve dataset directly into Colab. </p>
+
+```bash
+  !kaggle datasets download -d hm-land-registry/uk-housing-prices-paid
+```
+
 4. Unzipped the dataset file. </p>
-5. Loaded sample of rows using pd.read_csv(). </p>
+
+```bash
+  !unzip uk-housing-prices-paid.zip
+```
+
+5. Loaded sample of rows using pd.read_csv() and display first 5 rows of the dataset. </p>
+
+```bash
+  df = pd.read_csv('price_paid_records.csv', low_memory=False)
+  display(df.head())
+  df.info()
+```
 
 <h4> 🔷Data Inspection </h4>
 Show your initial loading code and the results of your data inspection. 
