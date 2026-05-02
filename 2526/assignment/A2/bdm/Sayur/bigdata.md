@@ -134,11 +134,13 @@ print(f"Total Size: {total_size_bytes} bytes")
 print(f"Total Size: {total_size_mb:.2f} MB")
 print(f"Total Size: {total_size_gb:.2f} GB")
 ```
-
-This cell calculates and displays the individual and combined file sizes of the two CSV files in bytes, MB, and GB, giving an immediate sense of the dataset's scale before loading it into memory.
-
+```
+===== TOTAL DATASET SIZE =====
+* Total Size: 1687123365 bytes
+* Total Size: 1608.97 MB
+* Total Size: 1.57 GB
+```
 ---
-
 #### 📐 Number of Rows and Columns
 
 ```python
@@ -167,6 +169,22 @@ print("Total Rows:", total_rows)
 
 Rather than loading the full dataset into memory just to inspect its dimensions, this cell counts rows by iterating over file lines (fast and memory-efficient) and reads zero rows to infer column count. This gives the dataset shape without any significant memory overhead.
 
+Output:
+```
+===== TOTAL DATASET SIZE =====
+Total Size: 1687123365 bytes
+Total Size: 1608.97 MB
+Total Size: 1.57 GB
+/content/co_data/processed/year_2024.csv
+Rows: 8939142 Columns: 9 
+
+/content/co_data/processed/year_2025.csv
+Rows: 9487238 Columns: 9 
+
+===== TOTAL =====
+Total Rows: 18426380
+```
+
 ---
 
 #### 📋 Load Full Dataset using Pandas
@@ -185,6 +203,13 @@ The two CSV files are loaded individually and concatenated into a single DataFra
 combined_df.head()
 ```
 
+| # | date       | latitude  | longitude | co_column | co_quality | year | month | day | day_of_week |
+|---|------------|-----------|-----------|-----------|------------|------|--------|-----|-------------|
+| 0 | 2024-01-01 | 23.690218 | 73.982162 | 0.053744  | 1.0        | 2024 | 1      | 1   | 0           |
+| 1 | 2024-01-01 | 23.691870 | 69.942146 | 0.039776  | 1.0        | 2024 | 1      | 1   | 0           |
+| 2 | 2024-01-01 | 23.692059 | 70.382019 | 0.040581  | 1.0        | 2024 | 1      | 1   | 0           |
+| 3 | 2024-01-01 | 23.692949 | 72.901031 | 0.046814  | 0.7        | 2024 | 1      | 1   | 0           |
+| 4 | 2024-01-01 | 23.698761 | 70.938744 | 0.042255  | 0.7        | 2024 | 1      | 1   | 0           |
 ---
 
 #### 📐 Shape of the Dataset
@@ -193,7 +218,10 @@ combined_df.head()
 combined_df.shape
 print(f"Rows: {combined_df.shape[0]}, Columns: {combined_df.shape[1]}")
 ```
-
+output:
+```
+Rows: 18426380, Columns: 9
+```
 ---
 
 #### 🏷️ Column Names and Data Types
@@ -201,6 +229,29 @@ print(f"Rows: {combined_df.shape[0]}, Columns: {combined_df.shape[1]}")
 ```python
 print("===== Column Names and Datatypes =====")
 combined_df.info()
+```
+output:
+
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 18426380 entries, 0 to 18426379
+Data columns (total 9 columns):
+
+# Column       Dtype
+
+---
+
+0   date         object
+1   latitude     float64
+2   longitude    float64
+3   co_column    float64
+4   co_quality   float64
+5   year         int64
+6   month        int64
+7   day          int64
+8   day_of_week  int64
+dtypes: float64(4), int64(4), object(1)
+memory usage: 1.2+ GB
 ```
 
 ---
@@ -217,6 +268,11 @@ print("Overall Missing %:", (total_missing / total_cells) * 100)
 
 This cell computes the total number of null values across all cells and expresses it as a percentage of the total cell count. Understanding missingness is critical before applying any optimisation or analysis strategy.
 
+output:
+```
+Total Missing Values: 0
+Overall Missing %: 0.0
+```
 ---
 
 #### 💾 Initial Memory Usage
@@ -233,6 +289,11 @@ print("Memory Usage (GB):", memory_bytes / (1024 * 1024 * 1024))
 
 `psutil` is used to query the Resident Set Size (RSS) of the current process — the actual physical RAM consumed. This baseline measurement is taken after loading the full dataset with default pandas settings, providing a reference point against which optimised loading strategies will be compared.
 
+Output:
+```Memory Usage (Bytes): 1594888192
+Memory Usage (MB): 1521.00390625
+Memory Usage (GB): 1.4853553771972656
+```
 > **Initial Memory Usage for this dataset is approximately 1.49 GB.**
 
 ---
@@ -359,6 +420,22 @@ display(result1.head())
 
 In this function, only the five most analytically relevant columns are selected and passed to `pd.read_csv(usecols=SELECTED_COLS)`. After loading, rows where `co_quality <= 0.5` are dropped using boolean indexing. This ensures only high-quality readings are retained, reducing dataset size further.
 
+Output:
+#### Performance Summary
+
+| Description           | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|----------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| S1 – Load Less Data  | 24.8159           | 1521.02           | 4285.32          | 2246.12           | 2764.3           | 725.1            | 102.83      | 18426380 | 742523.14          | True    |
+
+#### First 5 Rows
+| # | date       | latitude  | longitude | co_column | co_quality |
+|---|------------|-----------|-----------|-----------|------------|
+| 0 | 2024-01-01 | 23.690218 | 73.982162 | 0.053744  | 1.0        |
+| 1 | 2024-01-01 | 23.691870 | 69.942146 | 0.039776  | 1.0        |
+| 2 | 2024-01-01 | 23.692059 | 70.382019 | 0.040581  | 1.0        |
+| 3 | 2024-01-01 | 23.692949 | 72.901031 | 0.046814  | 0.7        |
+| 4 | 2024-01-01 | 23.698761 | 70.938744 | 0.042255  | 0.7        |
+
 #### 5.2 Compare with Full Dataset
 
 A baseline unoptimised loader is also deployed to provide a fair reference point:
@@ -386,6 +463,12 @@ perf_full, result_full = measure_performance(
 comparison_df1 = pd.DataFrame([perf_full, perf1])
 display(comparison_df1)
 ```
+Output:
+
+| # | Description           | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|---|----------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| 0 | Full Dataset         | 22.9832           | 2246.55           | 4708.71          | 3495.99           | 2462.16          | 1249.44          | 100.35      | 18426380 | 801732.57          | True    |
+| 1 | S1 – Load Less Data  | 24.8159           | 1521.02           | 4285.32          | 2246.12           | 2764.30          | 725.10           | 102.83      | 18426380 | 742523.14          | True    |
 
 **What the results show**: Load Less Data reduces memory usage significantly compared to loading the full dataset. By restricting columns to only what is needed and filtering rows with poor quality, peak memory consumption is substantially lower. Execution time may also be faster due to reduced I/O. The trade-off is that columns excluded at load time cannot be recovered without re-reading the file.
 
@@ -422,8 +505,26 @@ print(perf_df2.to_string(index=False))
 print('==== First 5 Rows ====')
 display(result2.head())
 ```
-
 The dataset is loaded in chunks of 500,000 rows using `pd.read_csv(chunksize=500000)`. Each chunk is appended to a list, and all chunks are concatenated at the end with `pd.concat()`. The `parse_dates=['date']` argument ensures the date column is parsed correctly across all chunks.
+
+Output:
+
+#### Performance Summary
+
+| Description     | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|-----------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| S2 – Chunking   | 28.4443           | 8760.81           | 9746.23          | 9746.23           | 985.43           | 985.42           | 95.33       | 18426380 | 647805.71          | True    |
+
+#### First 5 Rows
+
+| # | date       | latitude  | longitude | co_column | co_quality | year | month | day | day_of_week |
+|---|------------|-----------|-----------|-----------|------------|------|--------|-----|-------------|
+| 0 | 2024-01-01 | 23.690218 | 73.982162 | 0.053744  | 1.0        | 2024 | 1      | 1   | 0           |
+| 1 | 2024-01-01 | 23.691870 | 69.942146 | 0.039776  | 1.0        | 2024 | 1      | 1   | 0           |
+| 2 | 2024-01-01 | 23.692059 | 70.382019 | 0.040581  | 1.0        | 2024 | 1      | 1   | 0           |
+| 3 | 2024-01-01 | 23.692949 | 72.901031 | 0.046814  | 0.7        | 2024 | 1      | 1   | 0           |
+| 4 | 2024-01-01 | 23.698761 | 70.938744 | 0.042255  | 0.7        | 2024 | 1      | 1   | 0           |
+
 
 #### 6.2 Compare with Full Dataset
 
@@ -431,6 +532,12 @@ The dataset is loaded in chunks of 500,000 rows using `pd.read_csv(chunksize=500
 comparison_df2 = pd.DataFrame([perf_full, perf2])
 display(comparison_df2)
 ```
+Output:
+
+| # | Description     | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|---|----------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| 0 | Full Dataset   | 22.9832           | 2246.55           | 4708.71          | 3495.99           | 2462.16          | 1249.44          | 100.35      | 18426380 | 801732.57          | True    |
+| 1 | S2 – Chunking  | 24.8721           | 3496.20           | 6054.74          | 5369.88           | 2558.55          | 1873.68          | 100.26      | 18426380 | 740845.36          | True    |
 
 **What the results show**: Chunking takes longer than a direct full load and may exhibit slightly lower throughput due to the overhead of repeated iterator calls and the final `pd.concat()` step. However, it is valuable precisely for its controlled memory behaviour — peak memory usage remains bounded by chunk size, making it the preferred approach when the dataset approaches or exceeds available RAM.
 
@@ -534,12 +641,77 @@ display(result3.head())
 
 The function explicitly maps each column to a smaller type at read time (`dtype=dtype_map`). It also includes a detailed memory breakdown that compares theoretical default memory versus optimised memory per column, displaying the exact savings in MB. `del df` and `copy=False` in `pd.concat()` are used to avoid holding duplicate frames in memory during the merge.
 
+Output:
+
+#### Dataset Overview
+
+**Rows**: 18,426,380
+
+#### Memory Optimisation Summary
+
+| Column        | Before           | After            | Saved     |
+|---------------|------------------|------------------|-----------|
+| date          | float64/int64    | datetime64[ns]   | -0.0 MB   |
+| latitude      | float64/int64    | float32          | -73.7 MB  |
+| longitude     | float64/int64    | float32          | -73.7 MB  |
+| co_column     | float64/int64    | float32          | -73.7 MB  |
+| co_quality    | float64/int64    | float32          | -73.7 MB  |
+| year          | float64/int64    | int16            | -110.6 MB |
+| month         | float64/int64    | int8             | -129.0 MB |
+| day           | float64/int64    | int8             | -129.0 MB |
+| day_of_week   | float64/int64    | int8             | -129.0 MB |
+
+**Total memory (default)**   : 1326.70 MB  
+**Total memory (optimised)** : 534.37 MB  
+**Total saved**              : 792.33 MB (59.7% reduction)
+
+---
+
+#### Performance Summary
+
+| Description               | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|---------------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| S3 – Type Optimisation    | 93.8127           | 5369.9            | 8089.64          | 5803.79           | 2719.74          | 433.89           | 106.92      | 18426380 | 196416.69          | True    |
+
+---
+
+| Column       | Datatype        |
+|--------------|-----------------|
+| date         | datetime64[ns]  |
+| latitude     | float32         |
+| longitude    | float32         |
+| co_column    | float32         |
+| co_quality   | float32         |
+| year         | int16           |
+| month        | int8            |
+| day          | int8            |
+| day_of_week  | int8            |
+
+---
+
+#### First 5 Rows
+
+| # | date       | latitude  | longitude | co_column | co_quality | year | month | day | day_of_week |
+|---|------------|-----------|-----------|-----------|------------|------|--------|-----|-------------|
+| 0 | 2024-01-01 | 23.690218 | 73.982162 | 0.053744  | 1.0        | 2024 | 1      | 1   | 0           |
+| 1 | 2024-01-01 | 23.691870 | 69.942146 | 0.039776  | 1.0        | 2024 | 1      | 1   | 0           |
+| 2 | 2024-01-01 | 23.692059 | 70.382019 | 0.040581  | 1.0        | 2024 | 1      | 1   | 0           |
+| 3 | 2024-01-01 | 23.692949 | 72.901031 | 0.046814  | 0.7        | 2024 | 1      | 1   | 0           |
+| 4 | 2024-01-01 | 23.698761 | 70.938744 | 0.042255  | 0.7        | 2024 | 1      | 1   | 0           |
+
 #### 7.2 Compare with Full Dataset
 
 ```python
 comparison_df3 = pd.DataFrame([perf_full, perf3])
 display(comparison_df3)
 ```
+Output:
+
+
+| # | Description              | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|---|--------------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| 0 | Full Dataset            | 22.9832           | 2246.55           | 4708.71          | 3495.99           | 2462.16          | 1249.44          | 100.35      | 18426380 | 801732.57          | True    |
+| 1 | S3 – Type Optimisation  | 93.8127           | 5369.90           | 8089.64          | 5803.79           | 2719.74          | 433.89           | 106.92      | 18426380 | 196416.69          | True    |
 
 **What the results show**: Type optimisation reduces peak memory usage considerably, particularly for integer columns where `int64 → int8` yields an 8× reduction. The trade-off is a slight increase in execution time due to the overhead of explicit type conversion during parsing. However, the long-term benefit of holding a smaller DataFrame in memory far outweighs the one-time conversion cost, especially for repeated downstream operations.
 
@@ -586,12 +758,43 @@ display(result4.head())
 
 The function loads both CSV files, concatenates them, then calls `.sample(frac=0.01, random_state=42)` to extract 1% of rows. `del combined` is called immediately after sampling to release the full DataFrame from memory. `reset_index(drop=True)` ensures the sampled DataFrame has a clean sequential index.
 
+Output:
+
+**Full dataset rows:** 18,426,380  
+**Sample rows:** 184,264 (1%)
+
+---
+
+#### Performance Metrics
+
+| Description         | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records  | Throughput (rec/s) | Success |
+|---------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|----------|---------------------|---------|
+| S4 – Sampling       | 23.1939           | 5802.98           | 8039.09          | 5810.53           | 2236.11          | 7.55             | 99.53       | 184264   | 7944.5             | True    |
+
+---
+
+#### First 5 Rows
+
+| # | date       | latitude  | longitude | co_column | co_quality | year | month | day | day_of_week |
+|---|------------|-----------|-----------|-----------|------------|------|--------|-----|-------------|
+| 0 | 2024-05-19 | 24.302645 | 68.102135 | 0.042030  | 0.7        | 2024 | 5      | 19  | 6           |
+| 1 | 2025-10-19 | 29.340410 | 77.164177 | 0.040205  | 1.0        | 2025 | 10     | 19  | 6           |
+| 2 | 2025-08-25 | 32.451294 | 63.637543 | 0.026824  | 0.7        | 2025 | 8      | 25  | 0           |
+| 3 | 2025-02-03 | 26.733234 | 63.875324 | 0.025472  | 0.7        | 2025 | 2      | 3   | 0           |
+| 4 | 2025-02-16 | 36.198658 | 77.259872 | 0.009917  | 0.7        | 2025 | 2      | 16  | 6           |
+
 #### 8.2 Compare with Full Dataset
 
 ```python
 comparison_df4 = pd.DataFrame([perf_full, perf4])
 display(comparison_df4)
 ```
+Output:
+
+| # | Description        | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records    | Throughput (rec/s) | Success |
+|---|--------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|------------|---------------------|---------|
+| 0 | Full Dataset       | 22.9832           | 2246.55           | 4708.71          | 3495.99           | 2462.16          | 1249.44          | 100.35      | 18426380   | 801732.57          | True    |
+| 1 | S4 – Sampling      | 23.1939           | 5802.98           | 8039.09          | 5810.53           | 2236.11          | 7.55             | 99.53       | 184264     | 7944.50            | True    |
 
 **What the results show**: Sampling drastically reduces the number of records in the working DataFrame, resulting in lower memory usage and fast post-load operations. However, because the full dataset still has to be loaded before sampling, peak memory during execution is similar to the full-load baseline. Throughput is low relative to the number of records retained in the final output, as most loaded records are discarded. This strategy is best suited for prototyping and exploration rather than production pipelines.
 
@@ -654,6 +857,22 @@ print(perf_df5.to_string(index=False))
 
 `dd.read_csv()` reads the files lazily without loading data into memory. A `groupby` aggregation computing the mean CO column and quality per year is then defined as a deferred computation graph. `.compute()` triggers parallel execution across partitions. Because only the small summary DataFrame is returned, peak memory is very low. `assume_missing=True` ensures Dask safely handles columns that may contain nulls.
 
+Output:
+
+#### Dask Parallel Processing Summary (S5)
+
+**Partitions:** 25  
+**Columns:** ['date', 'latitude', 'longitude', 'co_column', 'co_quality', 'year', 'month', 'day', 'day_of_week']  
+**Rows (estimated):** 18,426,380  
+
+---
+
+#### Performance Metrics
+
+| Description        | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records | Throughput (rec/s) | Success |
+|--------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|---------|---------------------|---------|
+| S5 – Dask Parallel  | 51.7232           | 5809.55           | 6344.47          | 5993.02           | 534.92           | 183.47           | 156.14      | 2       | 0.04               | True    |
+
 #### 9.1.2 Strategy Comparison Summary
 
 ```python
@@ -667,6 +886,16 @@ print("STRATEGY COMPARISON SUMMARY")
 print("="*80)
 print(summary.to_string(index=False))
 ```
+Output:
+#### Strategy Comparison Summary
+
+| Strategy              | Exec Time (s) | Peak Memory (MB) | CPU Avg (%) | Throughput (rec/s) |
+|-----------------------|--------------|------------------|-------------|---------------------|
+| S1 – Load Less Data   | 24.8159      | 2764.30          | 102.83      | 742523.14           |
+| S2 – Chunking         | 24.8721      | 2558.55          | 100.26      | 740845.36           |
+| S3 – Type Optimisation| 93.8127      | 2719.74          | 106.92      | 196416.69           |
+| S4 – Sampling         | 23.1939      | 2236.11          | 99.53       | 7944.50             |
+| S5 – Dask Parallel    | 51.7232      | 534.92           | 156.14      | 0.04                |
 
 **Key Observations**:
 
@@ -724,6 +953,13 @@ perf_pl, result_pl = measure_performance(strategy5_polars, "S5 – Polars Parall
 
 `pl.scan_csv()` creates a lazy DataFrame (LazyFrame) without reading any data. The `schema_overrides` dictionary applies type optimisation at scan time, equivalent to Strategy 3. A grouped aggregation is declared as a lazy operation, and `.collect()` triggers Polars' parallel query execution engine. The result is converted to a pandas DataFrame for consistency with the rest of the benchmark.
 
+#### Performance Metrics of Polars
+
+| Description             | Execution Time (s) | Memory Before (MB) | Peak Memory (MB) | Memory After (MB) | Peak Usage (MB) | Net Change (MB) | CPU Avg (%) | Records | Throughput (rec/s) | Success |
+|-------------------------|-------------------|-------------------|------------------|-------------------|------------------|------------------|-------------|---------|---------------------|---------|
+| S5 – Polars Parallel    | 4.3666            | 5953.33           | 7077.64          | 6151.78           | 1124.31          | 198.45           | 175.19      | 2       | 0.46               | True    |
+
+
 #### 9.2.2 Strategy Comparison Summary (Polars)
 
 ```python
@@ -739,7 +975,17 @@ else:
 final_comparison = pd.DataFrame(all_strategies)
 display(final_comparison[['Description', 'Execution Time (s)', 'Peak Usage (MB)', 'CPU Avg (%)']])
 ```
+Output:
 
+#### Comparison between Polar and Other Strategies
+
+| Description             | Execution Time (s) | Peak Usage (MB) | CPU Avg (%) |
+|-------------------------|-------------------|------------------|-------------|
+| S1 – Load Less Data     | 24.8159           | 2764.30          | 102.83      |
+| S2 – Chunking           | 24.8721           | 2558.55          | 100.26      |
+| S3 – Type Optimisation  | 93.8127           | 2719.74          | 106.92      |
+| S4 – Sampling           | 23.1939           | 2236.11          | 99.53       |
+| S5 – Polars Parallel    | 4.3666            | 1124.31          | 175.19      |
 ---
 
 ## 📊 Task 4: Comparative Analysis
@@ -844,11 +1090,12 @@ for ax, cfg in zip(axes, metrics_cfg):
 plt.tight_layout()
 plt.show()
 ```
-output:
-<img width="1389" height="1014" alt="download" src="https://github.com/user-attachments/assets/e25b06ef-6a36-465b-bdfa-1013fe61a866" />
 
 This chart plots all six strategy variants across four performance metrics, with the best-performing bar per metric highlighted with a darker border. The `metrics_cfg` list drives the subplot generation loop, keeping the chart code DRY and easily extendable.
 
+Output:
+
+<img width="1389" height="1014" alt="download" src="https://github.com/user-attachments/assets/c5c3ded6-a299-4201-a560-a35f35a180ed" />
 ---
 
 ### 📘 Part 2: Comparison Between Pandas, Dask, and Polars
@@ -1007,6 +1254,32 @@ for col in ["Load Time (s)", "Process Time (s)", "Total Time (s)", "Peak Memory 
     best_idx = comp_df[col].idxmin()
     print(f"  {col:<22}: {comp_df.loc[best_idx, 'Library']}  ({comp_df.loc[best_idx, col]})")
 ```
+Output
+#### Section 5 — Comparative Analysis Results
+
+**Operation:** Load + Full Dataset Compute  
+**Runs averaged:** 2  
+
+---
+
+#### Library Performance Comparison
+
+| Library | Load Time (s) | Process Time (s) | Total Time (s) | Peak Memory (MB) | Runs Averaged |
+|----------|---------------|------------------|------------------|------------------|---------------|
+| Pandas   | 21.7419       | 1.1073           | 22.8492          | 2653.48          | 2             |
+| Dask     | 0.0610        | 117.7634         | 117.8244         | 1621.75          | 2             |
+| Polars   | 0.0007        | 11.6148          | 11.6155          | 147.46           | 2             |
+
+---
+
+#### Best Per Metric
+
+| Metric              | Best Library | Value     |
+|---------------------|--------------|-----------|
+| Load Time (s)       | Polars       | 0.0007    |
+| Process Time (s)    | Pandas       | 1.1073    |
+| Total Time (s)      | Polars       | 11.6155   |
+| Peak Memory (MB)    | Polars       | 147.46    |
 
 #### 10.7 Visualisation (Bar Chart)
 
@@ -1058,24 +1331,26 @@ for ax, cfg in zip(axes, metrics_cfg):
 plt.tight_layout()
 plt.show()
 ```
-Output:
-<img width="1289" height="887" alt="download" src="https://github.com/user-attachments/assets/46855fa7-627c-45d7-9f3c-ec072ed653d6" />
 This chart compares Pandas, Dask, and Polars across four metrics: load time, process time, total time, and peak memory. Each bar is labelled with its exact value, and the best-performing library per metric is highlighted with a darker border for easy identification.
 
+Output:
+
+<img width="1289" height="887" alt="download" src="https://github.com/user-attachments/assets/72678d74-5213-43f3-84c3-c3a950db4d1d" />
 ---
 
 ### 🧠 Summary of Interpretation
 
 #### Part 1 — Five Optimisation Strategies
 
-| Strategy            | Peak Memory | Exec Time | CPU Avg | Throughput     |
-| ------------------- | ----------- | --------- | ------- | -------------- |
-| S1 – Load Less Data | Low         | Fast      | Moderate| Moderate       |
-| S2 – Chunking       | Moderate    | Moderate  | Low     | High           |
-| S3 – Type Optimisation | Moderate | Slow      | Moderate| Moderate      |
-| S4 – Sampling       | Low (post)  | Fastest   | Moderate| Low            |
-| S5 – Dask Parallel  | Lowest      | Slow      | Highest | Very Low       |
-| S5 – Polars Parallel| Very Low    | Fast      | High    | High           |
+
+| Strategy              | Peak Memory (MB) | Exec Time (s) | CPU Avg (%) | Throughput (rec/s) |
+|-----------------------|------------------|---------------|-------------|---------------------|
+| S1 – Load Less Data   | 2764.30          | 24.8159       | 102.83      | 742523.14           |
+| S2 – Chunking         | 2558.55          | 24.8721       | 100.26      | 740845.36           |
+| S3 – Type Optimisation| 2719.74          | 93.8127       | 106.92      | 196416.69           |
+| S4 – Sampling         | 2236.11          | 23.1939       | 99.53       | 7944.50             |
+| S5 – Dask Parallel    | 534.92           | 51.7232       | 156.14      | 0.04                |
+| S5 – Polars Parallel  | 1124.31          | 4.3666        | 175.19      | 0.46                |
 
 #### Part 2 — Library Comparison (Full Load + Compute)
 
@@ -1108,3 +1383,4 @@ If this dataset were to grow by 10x, standard Pandas would fail entirely on a lo
 2. Pandas Documentation: https://pandas.pydata.org/docs/
 3. Dask Documentation: https://docs.dask.org/
 4. Polars Documentation: https://pola.rs/
+
