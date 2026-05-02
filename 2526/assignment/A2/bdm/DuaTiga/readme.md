@@ -28,7 +28,7 @@
 
 ## Introduction📝
 
-Nowadays, not so many people love to write a review and post in online. Despite the struggke, we still manage to have books review from Amazon. A large amount of datasets was found to be handled with specialized tools and techniques.
+Nowadays, not so many people love to write a review and post in online. Despite the struggle, we still manage to have books review from Amazon. A large amount of datasets was found to be handled with specialized tools and techniques.
 
 So, our project is to understand and mastering the uzilization of tools such as Pandas, Dask, and Polars. We apply techniques that required to load and process the datasets and focused on devices that used on memory used, trace memory allocation, execution time, and CPU usage percentage.
 
