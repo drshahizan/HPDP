@@ -498,7 +498,6 @@ From the results, it shows that load less data performed best among others strat
 
 
 ### 5.2 Comparison Between Libraries
-Compare between Pandas, Dask, and Polars </p>
 
 <h4> Summary Table </h4>
 
@@ -509,7 +508,9 @@ Compare between Pandas, Dask, and Polars </p>
 | Dask |2220.73|80.6522|123.53|278843.58|
 
 <h4> Visual Comparison </h4>
-![image](https://github.com/yAsmin241/HPDP-A2/blob/e3d25f76e0f0aa50a5f12767b20d32f95c2539d5/Screenshot%202026-05-03%20031149.png)
+
+![image](https://github.com/yAsmin241/HPDP-A2/blob/3076ec3063c7484ea8f3cc095be8a69464a3014f/Screenshot%202026-05-03%20031149.png)
+
 
 <h4> Interpretation: </h4>
 The library performance results showcase a strategic trade-off between execution speed and hardware resource management. Polars stands out as the highest-performing library for speed, delivering a throughput of over 2.4 million records per second and completing the task in just 9.2 seconds, though it requires the most memory (7.4 GB) and CPU power (181%) to do so. Dask offers the opposite advantage by being the most memory-efficient, using only 2.2 GB of RAM, about 3.5 times less than Polars while taking the longest time to execute at 80.6 seconds. Pandas occupies the middle ground, providing a balanced performance with moderate memory usage (3.7 GB) and a 65 second execution time, making it the standard choice for general analysis where extreme speed or massive scalability is not the primary concern.
