@@ -532,6 +532,12 @@ The library performance results showcase a strategic trade-off between execution
 
 ## 6. Conclusion and Reflection
 <h4> 🔷Summary of key observations </h4>
+- The "Load Less Data" strategy emerged as the most effective optimization for general use because achieving the highest throughput (705,251 records/sec) by simply reducing the analytical scope to essential columns.
+- Chunking prevents system crashes during the loading phase, it can lead to significant memory spikes (5,722 MB) during the final concatenation phase if the entire dataset is reconstructed.
+- Data Type Optimization and Sampling proved to be the most "RAM-friendly" strategies, drastically reducing memory usage to as low as 21.6 MB
+- Polars specialist in speed by using a multi-threaded Rust engine to achieve unprecedented speeds (9.2s total execution)
+- Dask specialist in scalability by t is the most memory-efficient library (2.2 GB) for full dataset processing.
+- Pandas is the Generalist where it remains the standard for datasets that fit comfortably in memory but lacks the modern multi-core optimizations seen in Polars or the distributed capabilities of Dask.
 
 <h4> 🔷Discussion of scalability </h4>
 
@@ -547,6 +553,7 @@ The library performance results showcase a strategic trade-off between execution
 
 This assignment provide a new experience for me on how to strategically handle the data when standard tools hit their limit. Even though there is some challenges during the data inspections as the system keep crashing due to limitations of RAM, we had successfully changed the data and run without crashing without limiting the rows of the dataset. This hands-on activity also highlights the importance of selecting appropriate methods and libraries based on the dataset size, system resources, and specific analysis goals. Ultimately, I learned on how to balancing the processing speed with memory constraints using all of the strategies. -_Nabil Aflah Boo_
 
+Working with the UK Housing Prices Paid dataset has enhance my practical lesson in handling big data. The primary challenge i faced was managing system crashes caused by RAM exhaustion. However, i do overcome this problem by implementing chunking solution to read the file in manageable segments of 100,000 rows. This allowed to keep the system stable during the ingestion phase. Moreover, i do analyse the differnce between that 3 library which are pandas, polars and dask. Polars offered incredible speed, Dask is good at memory-efficient, and pandas is the general ones. Overal, this project has changed my perspective from just by focusing on the codes to writing code effectively that is resource-aware.
 
 ## References
 _UK Housing Prices Paid_. (n.d.). Www.kaggle.com. https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid 
