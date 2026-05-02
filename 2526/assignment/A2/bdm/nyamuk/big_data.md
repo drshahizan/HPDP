@@ -174,7 +174,7 @@ def measure_performance(func, description="", *args, **kwargs):
 This code defines a benchmarking wrapper designed to quantify the efficiency of different data-loading methods. It captures a comprehensive snapshot of how a specific function impacts system resources in real-time.
 
 **Implementation Summary**:
-The measure_performance function operates through four synchronized stages:
+
 * uses the psutil library to identify the current system process and launches a background threading loop.
 * Before the target function (func) runs, the code records a "before" timestamp and measures the Resident Set Size (RSS)
 * The function executes the data-loading task within a try-except block. This ensures that even if a library (like Dask or Polars) crashes due to an Out-of-Memory (OOM) error, the script captures the failure and the error message rather than stopping entirely.
