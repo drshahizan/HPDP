@@ -43,3 +43,8 @@ So, our project is to understand and mastering the uzilization of tools such as 
 - **Structure**: 3,000,000 rows X 10 column
 
 
+## Description📝
+
+The datasets capture a large-scale collection of human-written books reviews. It contains roughly **3 million** individual reviews covering over **212,000 unique books**. Plus, it also includes both a concise summary and the full-length review in text. There are also score for rate the books and section for others user to indicate whether the review is helpful or not. 
+
+
