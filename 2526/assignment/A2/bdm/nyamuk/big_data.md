@@ -26,6 +26,21 @@
 ### 📖 Description
 This dataset contains comprehensive records of all registered property sales in England and Wales that were sold for full market value. It captures details of reported transactions, legal ownership types, property classifications, and geographical markers. This dataset provide a valuable insights into economic trends, purchasing behaviours, and regional distribution of property values which makes it well-suited for time-series analysis, geospatial mapping, and categorical market trend analysis.
 
+### Data Column Description
+
+| Column Name        | Data Type | Description                                                         |
+| ------------------ | --------- | ------------------------------------------------------------------- |
+| Transaction unique identifier | object (string) | A unique reference number assigned to each specific sale transaction |
+| Price | int64 | the sale price of the property in GBP |
+| Date of Transfer | object (date) | The exact date when the sale was completed and the property changed hands |
+| Property Type | object | The type of property sold: D= Detached, S= Semi-Detached, T= Terraced, F= Flats/Maisonettes, O= Other |
+| Old/New | object | Indicates if the property is newly built (N) or an established residential building (Y) |
+| Duration | object | The tenure of the property: F= Freehold, L= Leasehold |
+| Town/City | object | The town or city where the property is located |
+| Country | object | The country where the property is situated |
+| PPDCategory Type | object | Indicates the category of price paid entry: A= Standard price paid entry, B= Additional price paid entry |
+| Record Status | object | Indicates the status of the record: A= Addition, C= Change, D= Delete |
+
 ## 2. Library Choices
 Chosen libraries: </p>
 | Library 1 | Library 2 | Library 3 |
@@ -517,9 +532,21 @@ The library performance results showcase a strategic trade-off between execution
 
 ## 6. Conclusion and Reflection
 <h4> 🔷Summary of key observations </h4>
+
 <h4> 🔷Discussion of scalability </h4>
+
+| Strategy | Benefits | Limitations |
+| -------- | -------- | ----------- |
+| Load less data | Achieves the highest throughput and fastest execution by filtering only 6 columns at ingestion which make it most performant full-load strategy | Scans all rows sequentially and degrades proportionally as row count grows |
+| Chunking | Enables processing of large files to fit in memory at once by 10,000 row increments | Driving peak memory to the highest of all strategies |
+| Dtype optimization | Reduce column memory by casting columns to efficient types | Incurs slowest execution and lowest throughput due to overhead of dtype casting and date parsing on every chunk |
+| Sampling | Achieves the lowest memory usage and fast execution by retaining only 10% of rows per chunk | Discards 90% of records, make it less suitable for tasks required full dataset accuracy|
+| Dask parallel processing | Reads the CSV lazily and defers computation until needed | Low CPU utilization on a local setup |
+
 <h4> 🔷Personal reflection on learning </h4> 
- 
+
+This assignment provide a new experience for me on how to strategically handle the data when standard tools hit their limit. Even though there is some challenges during the data inspections as the system keep crashing due to limitations of RAM, we had successfully changed the data and run without crashing without limiting the rows of the dataset. This hands-on activity also highlights the importance of selecting appropriate methods and libraries based on the dataset size, system resources, and specific analysis goals. Ultimately, I learned on how to balancing the processing speed with memory constraints using all of the strategies. -_Nabil Aflah Boo_
+
 
 ## References
 _UK Housing Prices Paid_. (n.d.). Www.kaggle.com. https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid 
