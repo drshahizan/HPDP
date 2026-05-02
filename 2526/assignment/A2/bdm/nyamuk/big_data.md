@@ -75,10 +75,112 @@ The following steps are taken to efficiently load the dataset in Google Colab: <
 ```
 
 <h4> 🔷Data Inspection </h4>
-Show your initial loading code and the results of your data inspection. 
+Below is the initial loading code and the results of the data inspection. 
+
+#### 📌 First 5 Rows
+```python
+# Load the dataset
+df = pd.read_csv("price_paid_records.csv")
+
+# Display the first 5 rows
+df.head(5)
+```
+
+![image](https://github.com/yAsmin241/HPDP-A2/blob/e27ef8b724b83bee4fd03356b2bbf082320d2329/Screenshot%202026-05-03%20022530.png)
+
+#### 📐 Shape of the Dataset
+```python
+print(f"\nDataset Shape:\nRows: {df.shape[0]}, Columns: {df.shape[1]}")
+```
+
+![image](https://github.com/yAsmin241/HPDP-A2/blob/ebc86b961c0d93aa6961030f73cb13c65c5857f9/Screenshot%202026-05-03%20023211.png)
+
+#### 🏷️ Column Names and Data Types
+```python
+display(df.dtypes.to_frame(name='Data Type').T)
+```
+![image](https://github.com/yAsmin241/HPDP-A2/blob/ad655d7d771f4051c5193e46e3be6004460c3ef6/Screenshot%202026-05-03%20023727.png)
 
 ## 4. Big Data Handling Strategies (For each strategy: explanation, code snippet, output or screenshot, and discussion )
-### 4.1 Load Less Data
+
+### **Part 1: Memory- and Performance-Efficient Techniques**
+This part focuses on optimizing data loading using strategies such as selective column loading, chunking, type optimization, sampling, and parallelization.
+
+### 📊 Performance Measurement Setup
+
+**Code**
+```python
+def measure_performance(func, description="", *args, **kwargs):
+    process = psutil.Process(os.getpid())
+    total_ram = psutil.virtual_memory().total / 1024 / 1024  # MB
+
+    cpu_percent = []
+
+    def track_cpu():
+        while not done[0]:
+            cpu_percent.append(process.cpu_percent(interval=0.1))
+
+    done = [False]
+    cpu_thread = threading.Thread(target=track_cpu)
+    cpu_thread.start()
+
+    mem_before = process.memory_info().rss / 1024 / 1024  # MB
+    start_time = time.time()
+
+    try:
+        result = func(*args, **kwargs)
+        success = True
+    except Exception as e:
+        result = None
+        success = False
+        error_message = str(e)
+
+    end_time = time.time()
+    mem_after = process.memory_info().rss / 1024 / 1024  # MB
+
+    done[0] = True
+    cpu_thread.join()
+
+    exec_time = round(end_time - start_time, 4)
+    mem_diff_mb = mem_after - mem_before
+    # mem_percent_after = (mem_after / total_ram) * 100
+    # mem_diff_percent = (mem_diff_mb / total_ram) * 100
+
+    # convert dask to pandas safely
+    if isinstance(result, dd.DataFrame):
+      result = result.head(100000)
+
+    if isinstance(result, (pd.DataFrame, pl.DataFrame)):
+        num_records = len(result)
+        throughput = round(num_records / exec_time, 2)
+    else:
+        throughput = None
+
+    performance = {
+        "Description": description,
+        "Memory Used (MB)": round(mem_diff_mb, 2),
+        "Execution Time (s)": exec_time,
+        "Success": success,
+        "Average CPU (%)": round(sum(cpu_percent) / len(cpu_percent), 2) if cpu_percent else 0.0,
+        "Throughput (records/sec)": throughput
+    }
+
+    if not success:
+        performance["Error"] = error_message
+
+    return performance, result
+```
+**Explanation**:
+This code defines a benchmarking wrapper designed to quantify the efficiency of different data-loading methods. It captures a comprehensive snapshot of how a specific function impacts system resources in real-time.
+
+**Implementation Summary**:
+The measure_performance function operates through four synchronized stages:
+* uses the psutil library to identify the current system process and launches a background threading loop.
+* Before the target function (func) runs, the code records a "before" timestamp and measures the Resident Set Size (RSS)
+* The function executes the data-loading task within a try-except block. This ensures that even if a library (like Dask or Polars) crashes due to an Out-of-Memory (OOM) error, the script captures the failure and the error message rather than stopping entirely.
+* After execution, it handles Dask objects by converting a subset to Pandas to prevent infinite processing. It then calculates throughput by dividing the number of records processed by the total execution time
+
+### 1. Load Less Data
 **Explain:** </p>
 This strategy uses the ``` cols ``` parameter within ``` pd.read_csv() ``` function to restrict to only necessary data to be loaded into the environment. The selected columns are ``` Price, Date of Transfer, Property Type, Old/New, Duration, and Town/City ```. By filtering these columns, the system able to avoids the overhead of parsing and storing irrelevant columns, which also directly minimize the initial memory used.
 
@@ -116,7 +218,7 @@ From this strategy, it requires only 1093.57 MB of memory and execution time of 
 
 </p>
 
-### 4.2 Chunking
+### 2. Chunking
 **Explain:** </p>
 This strategy uses an interative loading technique to break a large file into smaller parts using discrete segments that is defined by ``` chunksize ``` parameter. This helps to prevent the system crashes by ensuring that only small portions of file, which is ``` 10,000 ``` to be processed in the limited RAM.
 
@@ -150,25 +252,230 @@ This strategy uses an interative loading technique to break a large file into sm
 The results show a significant increase in memory usage of 5722.25 MB and execution time of 61.0781 seconds compared to load less data strategy. This performance degradation happened as the code appends all chunks into a list and concatenates them which effectively reconstructcs the entire dataset in memory and using a high computational cost during the final merge.
 </p>
 
-### 4.3 Data Type Optimisation
+### 3. Data Type Optimisation
 Explain: </p>
+The code optimizes memory by selectively loading only the six essential columns and discarding irrelevant data immediately. It assigns specific data types, such as category for repeating text and int32 for numbers, to significantly shrink the memory footprint compared to default settings. The process utilizes chunking to read the file in manageable segments of 100,000 rows, which prevents the system from crashing under a single massive load. Finally, these optimized segments are stitched back together into a high-performance DataFrame ready for analysis.
+</p>
+
 Code: </p>
+```bash
+def optimized_chunked(file_path):
+  cols = ['Price', 'Date of Transfer', 'Property Type', 'Old/New', 'Duration', 'Town/City']
+
+  dtype_map = {
+      'Price': 'int32',
+      'Property Type':'category',
+      'Old/New' : 'category',
+      'Duration': 'category',
+      'Town/City': 'object'
+  }
+
+  chunks = []
+
+  for chunk in pd.read_csv(
+      file_path,
+      usecols=cols,
+      dtype=dtype_map,
+      parse_dates=['Date of Transfer'],
+      chunksize=100000
+  ):
+        chunks.append(chunk)
+
+  return pd.concat(chunks, ignore_index=True)
+
+performance_opt, df_opt = measure_performance(
+    optimized_chunked,
+    description="Optimized Load with Dtype",
+    file_path=file_path
+)
+
+display(pd.DataFrame([performance_opt]))
+df_opt.info()
+```
+
 Output: </p>
+![image](https://github.com/yAsmin241/HPDP-A2/blob/d859e4337390d5d12d0554cf9c5ca1958e2c81a4/Screenshot%202026-05-03%20024801.png)
+
 Discussion: </p>
+The code concludes with two diagnostic tools which are measure_performance to quantify the Time vs. Memory trade-off and df_opt.info() where 60% to 80% reduction in memory consumption
+</p>
 
-
-### 4.4 Sampling
+### 4. Sampling
 Explain: </p>
+The code creates a representative subset of the data by reading the file in blocks of 10,000 rows and immediately extracting a 10% random sample from each segment. By using a fixed random seed, it ensures that this selection is reproducible for consistent testing, while the chunking mechanism prevents the system from overloading its memory with the entire file. This strategy allows you to build and verify your analysis on a statistically balanced version of the full dataset while keeping the hardware requirements extremely low.
+</p>
+
 Code: </p>
+```bash
+def sampling_chunked(file_path, sample_fraction=0.1):
+  cols = [
+      'Price', 'Date of Transfer', 'Property Type', 'Old/New', 'Duration', 'Town/City'
+  ]
+
+  sampled_chunks = []
+
+  for  chunk in pd.read_csv(
+      file_path,
+      usecols=cols,
+      chunksize=10000
+  ):
+
+      sampled_chunk = chunk.sample(frac=sample_fraction, random_state=42)
+      sampled_chunks.append(sampled_chunk)
+
+  return pd.concat(sampled_chunks, ignore_index=True)
+
+
+performance_sample, df_sample = measure_performance(
+    sampling_chunked,
+    description="Sampling",
+    file_path=file_path
+)
+
+display(pd.DataFrame([performance_sample]))
+
+print("Sample rows:", df_sample.shape[0])
+df_sample.head()
+```
 Output: </p>
+![image](https://github.com/yAsmin241/HPDP-A2/blob/c936da7cb8ac7be69255ec5e33d77430bfc47d19/Screenshot%202026-05-03%20025454.png)
+
 Discussion: </p>
+The analysis focuses on the practical balance between data integrity and computational speed. By sampling from every chunk across the entire file rather than just the top, the code maintains a statistically representative slice that captures the full chronological and geographical diversity of the records. While this method significantly reduces the final memory footprint for analysis, it doesn't drastically cut the initial loading time because the computer must still scan the entire disk to find the sample rows.
+</p>
 
 
-### 4.5 Parallel Processing
+### 5. Parallel Processing
 Explain: </p>
+The code implements parallel processing through lazy evaluation, meaning it maps out the data structure without immediately loading it into memory to save resources. By using Dask DataFrames, it partitions the large CSV into smaller virtual pieces that can be processed across multiple CPU cores simultaneously.
+</p>
+
 Code: </p>
+```bash
+def optimized_load_dask(file_path):
+  cols = [
+      'Price', 'Date of Transfer', 'Property Type', 'Old/New', 'Duration', 'Town/City'
+  ]
+
+  ddf = dd.read_csv(
+      file_path,
+      usecols=cols,
+      assume_missing=True,
+      on_bad_lines="skip"
+  )
+
+  ddf.columns = ddf.columns.str.strip()
+
+  ddf['Date of Transfer'] = dd.to_datetime(
+      ddf['Date of Transfer'],
+      errors='coerce'
+  )
+
+  return ddf
+
+performance_dask, df_dask = measure_performance(
+    optimized_load_dask,
+    description="Parallel Processing with Dask",
+    file_path=file_path
+)
+
+display(pd.DataFrame([performance_dask]))
+
+df_dask.head(10)
+```
+
 Output: </p>
+![image](https://github.com/yAsmin241/HPDP-A2/blob/d20152aa2417aeb5cae82bfb53f2e6cb5c93c0ab/Screenshot%202026-05-03%20030240.png)
+
 Discussion: </p>
+By utilizing parallelism, Dask distributes tasks across all available CPU cores, dramatically reducing processing time compared to the one-by-one approach of standard Pandas. This method provides infinite scalability, allowing even modest hardware to handle massive files (e.g., 100GB) without crashing, as it only loads specific data partitions into RAM when needed. However, this comes with a "lazy evaluation" trade-off, where the initial load appears near-instant because the actual computation is deferred until a result is explicitly requested.
+</p>
+
+### 🔹 **Part 2: Loading Dataset with Different Libraries**
+
+This section compares how various data libraries handle CSV file loading and performance. Different tools and ecosystems (Pandas, Dask, Polars, Vaex) are explored.
+
+#### 1. Using **Pandas** (Traditional)
+```python
+def load_with_chunking():
+    chunk_size = 100000
+    chunks = []
+    for chunk in pd.read_csv("price_paid_records.csv", chunksize=chunk_size):
+        chunks.append(chunk)
+    df = pd.concat(chunks, axis=0)
+    return df
+
+# creates the 'performance_chunking' dictionary AND the 'df' variable
+performance_chunking, df = measure_performance(load_with_chunking, description="Load with Pandas")
+
+# Convert the performance results to a DataFrame for that pretty GitHub-style table
+performance_df = pd.DataFrame([performance_chunking])
+
+# Display the result
+display(performance_df)
+```
+
+**Explanation**:  
+This code defines a function that reads a large CSV file in segments of 100,000 rows to prevent memory overload. Each segment is appended to a list, which is then concatenated into a single, unified DataFrame. To evaluate this method, the function is passed into the measure_performance wrapper, which captures system metrics like RAM usage and execution time. The resulting performance data is then converted into a structured table and displayed to show the efficiency of the chunking strategy.
+
+**Output**:  
+![image](https://github.com/yAsmin241/HPDP-A2/blob/bc508c65b19eb2a1da28cc6c67cfbf8a5b1318be/Screenshot%202026-05-03%20033718.png)
+
+#### 2. Using **Polars**
+```python
+def load_with_polars(filepath):
+    df = pl.read_csv(filepath)
+    return df
+
+performance_polars, df_polars = measure_performance(
+    load_with_polars,
+    description="Load with Polars",
+    filepath="price_paid_records.csv"
+)
+
+performance_polars = pd.DataFrame([performance_polars])
+display(performance_polars)
+```
+
+**Explanation**:  
+This code demonstrates the implementation of the Polars library to perform high-speed data ingestion. By utilizing pl.read_csv(), the script leverages Polars' multi-threaded Rust engine to load the dataset far more rapidly than standard Pandas. The performance metrics are converted into a structured table, providing a clear view of the library's throughput and efficiency for large-scale data tasks.
+
+**Output**:  
+![image](https://github.com/yAsmin241/HPDP-A2/blob/dccf9cee104330f6b26b22cb4aa1b8b1145ab454/Screenshot%202026-05-03%20034001.png)
+
+#### 3. Using **Dask**
+```python
+def load_full_data_dask_and_compute(file_path):
+    # Dask setup (lazy)
+    ddf = dd.read_csv(
+        file_path,
+        assume_missing=True,
+        quoting=3,
+        on_bad_lines='skip',
+        dtype=str
+    )
+
+    # Trigger computation and return the pandas DataFrame
+    # This is where the main memory usage occurs
+    df = ddf.compute()
+    return df
+
+# Measure the performance of the loading and computation
+performance_dask_compute, df_dask_computed = measure_performance(
+    load_full_data_dask_and_compute,
+    description="Load with Dask",
+    file_path="price_paid_records.csv"
+)
+
+performance_df_compute = pd.DataFrame([performance_dask_compute])
+display(performance_df_compute)
+```
+
+**Explanation**: 
+This code transitions Dask from a "lazy" planning tool to an active processing engine by explicitly calling the .compute() method, which forces the distributed data partitions into a single, standard Pandas DataFrame. dd.read_csv maps out the file structure to save resources, the .compute() command triggers the actual data ingestion and CPU-intensive calculations across all available cores.
+
+**Output**: 
+![image](https://github.com/yAsmin241/HPDP-A2/blob/3076ec3063c7484ea8f3cc095be8a69464a3014f/Screenshot%202026-05-03%20034249.png)
 
 ## 5. Comparative Analysis
 ### 5.1 Comparison of Optimized Loading Strategies
@@ -197,14 +504,15 @@ Compare between Pandas, Dask, and Polars </p>
 
 | Library | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
 | --------|-----------------|---------------------| ----------- | ------------------------ |
-| Pandas |  |  |  |  |
-| Dask |  |  |  |  |
-| Polars |  |  |  |  |
+| Pandas |3727.15|65.2052|99.27|344901.14|
+| Polars |7412.44|9.2270|181.34|2437341.28|
+| Dask |2220.73|80.6522|123.53|278843.58|
 
 <h4> Visual Comparison </h4>
+![image](https://github.com/yAsmin241/HPDP-A2/blob/e3d25f76e0f0aa50a5f12767b20d32f95c2539d5/Screenshot%202026-05-03%20031149.png)
 
 <h4> Interpretation: </h4>
-Explain satu2 Pandas, Polars, Dask
+The library performance results showcase a strategic trade-off between execution speed and hardware resource management. Polars stands out as the highest-performing library for speed, delivering a throughput of over 2.4 million records per second and completing the task in just 9.2 seconds, though it requires the most memory (7.4 GB) and CPU power (181%) to do so. Dask offers the opposite advantage by being the most memory-efficient, using only 2.2 GB of RAM, about 3.5 times less than Polars while taking the longest time to execute at 80.6 seconds. Pandas occupies the middle ground, providing a balanced performance with moderate memory usage (3.7 GB) and a 65 second execution time, making it the standard choice for general analysis where extreme speed or massive scalability is not the primary concern.
 
 ## 6. Conclusion and Reflection
 <h4> 🔷Summary of key observations </h4>
