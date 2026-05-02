@@ -75,7 +75,6 @@ import psutil
 import time
 import csv
 import polars as pl
-import pyarrow.compute as pc
 import threading
 import seaborn as sns
 import matplotlib.pyplot as plt
