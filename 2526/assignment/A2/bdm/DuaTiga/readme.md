@@ -38,8 +38,8 @@ So, our project is to understand and mastering the uzilization of tools such as 
 
 - **Name**: Amazon Books Reviews
 - **Source**: [Kaggle - mohamedbakhet](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
-- **Domain**: Entertainment
-- **File Size**: 3.04GB
+- **Domain**: Entertainment / Literature / User Reviews
+- **File Size**: 2.86 GB
 - **Structure**: 3,000,000 rows X 10 column
 
 
