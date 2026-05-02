@@ -59,7 +59,7 @@ Three libraries evaluated for big data processing performance:
 
 ---
 
-## 3. Data Loading and Inspection
+## 3. Data Loading and Inspection 📝
 
 ### Step 1 — Import Libraries
 
@@ -208,7 +208,7 @@ df.count()
 
 ---
 
-## 4. Big Data Handling Strategies
+## 4. Big Data Handling Strategies 🛠️
 
 ### 4.1 Load Less Data
 
@@ -454,7 +454,7 @@ Polars outperforms Dask in both execution time and memory efficiency. Polars com
 
 ---
 
-## 5. Comparison Analysis
+## 5. Comparison Analysis 🔍
 
 This function evaluates any given function under consistent conditions, tracking execution time (over multiple runs), memory usage before and after execution, peak memory via `tracemalloc`, and average CPU utilization via a background monitoring thread.
 
@@ -699,7 +699,7 @@ This explains why Dask has the highest execution time **(184s)** despite its sca
 
 Thus, **Polars provides the best balance of speed and efficiency** in this experiment due to its modern columnar architecture and Rust-based execution engine, while Pandas and Dask trade performance for flexibility and scalability respectively.
 
-## 6. Conclusion and Reflection
+## 6. Conclusion and Reflection 🧠
 
 ### 6.1 Conclusion
 
