@@ -18,11 +18,11 @@
 
 ## 1. Dataset Description 📊
 
-- **Name:** Amazon Books Reviews
-- **Source:** <https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews>
-- **File Size:** 2.86 GB
-- **Domain:** Entertainment / Literature / User Reviews
-- **Records:** 3,000,000 rows
+- **Name**: Amazon Books Reviews
+- **Source**: [Kaggle - mohamedbakhet](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
+- **Domain**: Entertainment / Literature / User Reviews
+- **File Size**: 2.86 GB
+- **Structure**: 3,000,000 rows X 10 columns
 
 | Column/Attribute | Description |
 |---|---|
@@ -709,9 +709,13 @@ In addition to library comparison, the memory and processing strategies also had
 
 ### 6.2 Reflection
 
-Through this assignment, we gained a deeper understanding of how different tools and strategies behave when working with large datasets. One key insight was that performance differences between libraries are strongly influenced by their internal architecture. We observed that Polars significantly outperformed both Pandas and Dask in speed, which challenged the assumption that distributed frameworks are always the most efficient option. We also learned that memory optimization techniques such as datatype conversion and column filtering can meaningfully improve efficiency without altering the dataset’s analytical value.
+Through this assignment, we gained a deeper understanding of how different tools and strategies behave when working with large datasets. The most surprising result was Dask's underperformance. We expected it to outpace Pandas given its parallel execution model, but at 184 seconds it was nearly three times slower. This came down to the overhead of building and scheduling task graphs even for simple operations, that coordination cost on a single machine easily erased any performance gains. We also did not expect Polars' peak memory usage (573 MB) to differ so drastically from Pandas' spike of 3,928 MB, which is a meaningful gap in real pipelines where memory is shared across processes.
 
-From a scalability perspective, we realized that the suitability of each tool changes as data size increases. For datasets around 700 MB, all methods are manageable, but at scales such as 10 GB or more, Pandas becomes increasingly impractical due to memory constraints. Dask becomes more relevant in distributed environments where multiple nodes can share computation, but it introduces overhead that limits its effectiveness on a single machine. Polars, however, remains highly scalable for large in-memory workloads due to its efficient execution model, although for extremely large datasets (100 GB to TB scale), even Polars would need to be complemented by distributed systems like Apache Spark or cloud-based platforms.
+If we repeated this assignment or are have to handle a large datasets, we would run each library in an isolated environment to prevent memory from earlier runs affecting later measurements.
+
+Our almost 3 GB dataset has clear limits when scaled up. Pandas would struggle well before 10 GB since it loads everything into RAM, while Polars scales further but remains bounded by available physical memory. Dask, despite performing worst here, is ironically the most scalable of the three — its lazy, partition-based model supports datasets larger than memory and can extend to a cluster with minimal code changes. Beyond 100 GB, none of our approaches would be sufficient without tools like Apache Spark or cloud solutions such as Google BigQuery.
+
+This assignment made us realise that choosing a library is really choosing an architecture — what works at above 700 MB may completely fall apart at 1 TB
 
 ## References
 
