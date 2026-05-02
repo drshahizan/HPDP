@@ -14,3 +14,14 @@
     <td>A23CS0205</td>
   </tr>
 </table>
+
+---
+
+## 🗂️ Project Files
+
+| File Name                     | Description                                                                    | Link |
+|------------------------------|--------------------------------------------------------------------------------|------|
+| `big_data.md`                | A markdown file + Detailed explanation                             | [![Open](https://img.shields.io/badge/View-Markdown-blue?logo=markdown)](big_data.md) |
+| `big_data.ipynb`             | Google Colab notebook for data insertion and processing       | [![Open](https://img.shields.io/badge/Open-Notebook-green?logo=jupyter)](big_data.ipynb) |
+
+---
