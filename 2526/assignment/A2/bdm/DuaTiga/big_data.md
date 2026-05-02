@@ -49,11 +49,11 @@ Three libraries evaluated for big data processing performance:
 
 **Reasons for choosing Polars:**
 - Built in Rust, making it extremely fast and memory efficient compared to Pandas
-- Uses lazy evaluation — plans the full query first, optimizes it, then executes in one pass
+- Uses lazy evaluation which means plans the full query first, optimizes it, then executes in one pass
 - Processes data using all CPU cores by default without any extra configuration
 
 **Reasons for choosing Dask:**
-- Processes data in partitions (chunks) so it never loads the full dataset into RAM — ideal when data is larger than memory
+- Processes data in partitions (chunks) so it never loads the full dataset into RAM so its ideal when data is larger than memory
 - When the dataset doesn't "fit in memory", Dask can extend computation to disk
 - Allows easy scaling to clusters or a single machine based on dataset size
 
@@ -281,7 +281,7 @@ Execution Time taken   : 41.64 seconds
 
 **Discussion:**
 
-The results demonstrate how chunking enables efficient processing of large datasets without overwhelming system memory. The 3,000,000-row dataset was successfully processed in 100 chunks of 30,000 rows each, showing that data can be handled incrementally rather than all at once. This ensures scalability, as each chunk is small enough to fit comfortably in memory.
+The results demonstrate how chunking enables efficient processing of large datasets without overwhelming system memory. The 3,000,000 rows dataset was successfully processed in 100 chunks of 30,000 rows each, showing that data can be handled incrementally rather than all at once. This ensures scalability, as each chunk is small enough to fit comfortably in memory.
 
 The total execution time of 41.64 seconds represents a reasonable trade-off between memory efficiency and performance. While chunking introduces slight overhead due to repeated read operations, it allows large-scale data processing on machines with limited resources — highly effective for big data scenarios where full dataset loading is impractical.
 
@@ -289,7 +289,7 @@ The total execution time of 41.64 seconds represents a reasonable trade-off betw
 
 ### 4.3 Optimized Data Types
 
-This strategy applies datatype optimization to reduce memory usage by converting columns to more efficient types. Numeric columns are downcast from larger types (e.g., `int64`, `float64`) into smaller ones, while string columns with low uniqueness are converted to `category` type.
+This strategy applies datatype optimization to reduce memory usage by converting columns to more efficient types. Numeric columns are downcast from larger types such as `int64`, `float64` into smaller ones like `int32`, `float32`. While string columns with low uniqueness are converted to `category` type.
 
 ```python
 df_mem = pd.read_csv("Books_rating.csv")
@@ -332,7 +332,7 @@ dtypes: category(5), float32(2), int32(1), object(2)
 
 **Discussion:**
 
-Datatype optimization leads to a moderate but meaningful reduction in memory usage. By converting numeric columns to smaller types (`float32`, `int32`) and transforming several string columns into `category`, the dataset size decreased from 3679.50 MB to 3026.93 MB — saving 652.56 MB (17.7%) without removing any data.
+Datatype optimization leads to a moderate but meaningful reduction in memory usage. By converting numeric columns to smaller types (`float32`, `int32`) and transforming several string columns into `category`, the dataset size decreased from 3679.50 MB to 3026.93 MB and saving 652.56 MB (17.7%) without removing any data.
 
 Five columns were converted to `category`, effective for columns like `Id`, `User_id`, and `profileName` where values repeat frequently. The two remaining `object` columns (`review/summary` and `review/text`) still consume significant memory due to unstructured text, explaining why the overall reduction is limited compared to column filtering. This approach complements other techniques such as column selection and chunking.
 
@@ -378,7 +378,7 @@ Rows: 300000, Columns: 10
 
 **Discussion:**
 
-The 10% sample (300,000 rows) closely preserves the statistical properties of the original 3,000,000-row dataset. Key metrics such as mean, median, and quartiles for `Price`, `review/score`, and `review/time` remain nearly identical. For example, the mean review score changes only slightly (4.215 → 4.217), indicating the sample is representative.
+The 10% sample (300,000 rows) closely preserves the statistical properties of the original 3,000,000 rows dataset. Key metrics such as mean, median, and quartiles for `Price`, `review/score`, and `review/time` remain nearly identical. For example, the mean review score changes only slightly (4.215 → 4.217), indicating the sample is representative.
 
 Some differences exist in extreme values — the maximum price in the sample (716.63) is lower than the original (995.00), showing that rare outliers may not always be captured. Sampling significantly reduces computational cost, memory usage, and processing time, making it ideal for quick exploratory analysis and prototyping. However, it may miss rare events or subtle patterns critical for anomaly detection or high-stakes decisions.
 
@@ -449,7 +449,7 @@ Time   : 20.14 seconds
 | Dask | 2877.83 | 100.76 |
 | Polars | 2716.75 | 20.14 |
 
-Polars outperforms Dask in both execution time and memory efficiency. Polars completes the operation in 20.14 seconds — roughly 5× faster than Dask's 100.76 seconds. Dask's lazy, distributed-style execution introduces overhead from task scheduling and partition management, beneficial for cluster computing but slower for single-machine workloads. Polars' Rust-based columnar engine executes operations more directly and efficiently.
+Polars outperforms Dask in both execution time and memory efficiency. Polars completes the operation in range of 10.00 to 20.14 seconds which roughly 5 to 10 times faster than Dask's on average 100.76 seconds. Dask's lazy, distributed-style execution introduces overhead from task scheduling and partition management, beneficial for cluster computing but slower for single-machine workloads. Polars' Rust-based columnar engine executes operations more directly and efficiently.
 
 ---
 
@@ -712,7 +712,7 @@ Through this assignment, we gained a deeper understanding of how different tools
 
 If we repeated this assignment or are have to handle a large datasets, we would run each library in an isolated environment to prevent memory from earlier runs affecting later measurements.
 
-Our almost 3 GB dataset has clear limits when scaled up. Pandas would struggle well before 10 GB since it loads everything into RAM, while Polars scales further but remains bounded by available physical memory. Dask, despite performing worst here, is ironically the most scalable of the three — its lazy, partition-based model supports datasets larger than memory and can extend to a cluster with minimal code changes. Beyond 100 GB, none of our approaches would be sufficient without tools like Apache Spark or cloud solutions such as Google BigQuery.
+Our almost 3 GB dataset has clear limits when scaled up. Pandas would struggle well before 10 GB since it loads everything into RAM, while Polars scales further but remains bounded by available physical memory. Dask, despite performing worst here, is ironically the most scalable of the three which are its lazy, partition-based model supports datasets larger than memory and can extend to a cluster with minimal code changes. Beyond 100 GB, none of our approaches would be sufficient without tools like Apache Spark or cloud solutions such as Google BigQuery.
 
 This assignment made us realise that choosing a library is really choosing an architecture — what works at above 700 MB may completely fall apart at 1 TB
 
