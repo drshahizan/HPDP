@@ -8,7 +8,7 @@
   <tr>
     <td>Najma Shakirah binti Shahrulzaman
 </td>
-    <td>A23CS</td>
+    <td>A23CS0140</td>
   </tr>
   <tr>
     <td>Syarifah Dania binti Syed Abu Bakar
@@ -18,7 +18,7 @@
    <tr>
     <td>Nawwarah Auni binti NazrudinNawarrah Auni
 </td>
-    <td>A23CS</td>
+    <td>A23CS0143</td>
   </tr>
 </table>
 
