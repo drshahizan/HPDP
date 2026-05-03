@@ -13,12 +13,12 @@
 
 ### 📌 Dataset Overview
 
-* **Dataset Name**: _Cell Towers Worldwide: Location Data by Continent (Asia)_ 
-* **Source**: [Kaggle - zakariaeyoussefi](https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent) |
-* **File**: _Asia towers.csv _
-* **File Size**: _~1.46 GB _
-* **Domain**: _Telecommunications / Network Infrastructure _
-* **Number of Records**: _13.38 million rows × 18 columns_ 
+* **Dataset Name**: *Cell Towers Worldwide: Location Data by Continent (Asia)*
+* **Source**: [Kaggle - zakariaeyoussefi](https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent) 
+* **File**: *Asia towers.csv*
+* **File Size**: *~1.46 GB*
+* **Domain**: *Telecommunications / Network Infrastructure*
+* **Number of Records**: *13.38 million rows × 18 columns* 
 
 This dataset contains geographical and technical information of cell towers located across Asia.
 It is sourced from OpenCelliD, the world's largest open database of cell towers, and is 
