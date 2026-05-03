@@ -52,3 +52,35 @@ types including integers, floats, strings, and categorical values.
 | **Country** | object | The country of the cell tower |
 | **Network** | object | The company that owns the cell tower |
 | **Continent** | object | The continent of the cell tower |
+
+---
+
+## 📔 2. Library Choices
+
+| Library | Type |
+|---|---|
+| **Pandas** | Baseline |
+| **Dask** | Scalable |
+| **Polars** | Scalable |
+
+### Library 1: Pandas
+Pandas is the most widely used data manipulation library in Python. It serves as the 
+baseline for this assignment, providing a reference point for performance comparison 
+against scalable libraries. All strategies are first implemented in Pandas before being 
+compared against Dask and Polars.
+
+### Library 2: Dask
+Dask was selected as the second library because it mirrors the Pandas API closely, 
+making it straightforward to implement equivalent operations. Dask is designed to handle 
+datasets that are too large to fit into memory by breaking them into smaller partitions 
+and processing them in parallel across multiple CPU cores. This makes it particularly 
+suitable for large CSV files like the Asia towers dataset.
+
+### Library 3: Polars
+Polars was selected as the third library because of its exceptional performance on large 
+datasets. Written in Rust, Polars is designed from the ground up for speed and efficiency. 
+It supports lazy evaluation, allowing it to optimise query plans before execution, and 
+natively utilises all available CPU cores for parallel processing. Its distinct type system 
+and memory management also make it an interesting contrast to both Pandas and Dask.
+
+---
