@@ -767,5 +767,192 @@ Polars:
 
 <img width="949" height="89" alt="image" src="https://github.com/user-attachments/assets/bc588cb3-8c99-40a2-b399-aa166c205295" />
 
+---
+## 📊 Task 4: Comparative Analysis
 
+This section presents a structured comparison of Pandas, Dask and Polars across all 
+five strategies using three key performance metrics which are **Total Time, Memory Peak and 
+DataFrame Size**. The results are presented in comparison tables and visualised in a bar chart, followed by a critical discussion of the findings.
+
+### 📋 5.1 Comparison Tables
+
+#### Total Time (s)
+
+| Strategy | Pandas | Dask | Polars |
+|---|---|---|---|
+| Chunking | 56.4329 | 47.3624 | 13.3918 |
+| Data Type Optimisation | 19.0760 | 8.8978 | 15.5614 |
+| Load Full Data | 57.9719 | 57.0755 | 47.2004 |
+| Load Less Data | 2.1053 | 54.7907 | 8.2624 |
+| Sampling | 65.9153 | 45.2316 | 24.0326 |
+
+#### Memory Peak (MB)
+
+| Strategy | Pandas | Dask | Polars |
+|---|---|---|---|
+| Chunking | 3675.78 | 3067.64 | 0.00 |
+| Data Type Optimisation | 436.78 | 364.89 | 0.00 |
+| Load Full Data | 6123.15 | 3062.78 | 0.01 |
+| Load Less Data | 229.73 | 1837.78 | 0.01 |
+| Sampling | 6123.15 | 900.06 | 0.00 |
+
+> ⚠️ **Note:** Memory Peak for Polars have value of 0 or closer to 0 because Polars is written in Rust and 
+> manages its own memory outside of Python's memory allocator. As a result, 
+> `tracemalloc` which only monitors Python memory allocations is unable to track 
+> Polars memory usage.
+
+#### DataFrame Size (MB)
+
+| Strategy | Pandas | Dask | Polars |
+|---|---|---|---|
+| Chunking | 4213.35 | 2224.70 | 1714.45 |
+| Data Type Optimisation | 41.01 | 22.10 | 61.99 |
+| Load Full Data | 4214.69 | 2224.70 | 1714.45 |
+| Load Less Data | 110.85 | 1064.20 | 860.10 |
+| Sampling | 431.68 | 223.11 | 171.44 |
+
+
+### 📊 5.2 Average Performance Chart
+
+The chart below shows the average performance of each library across all five strategies 
+for each metric.
+
+<img width="1791" height="617" alt="image" src="https://github.com/user-attachments/assets/f1b3c7ca-2760-49f2-9cd3-a50a731b7874" />
+
+
+### 🧠 5.3 Critical Discussion
+
+#### 1. Execution Time
+Polars consistently outperforms both Pandas and Dask in terms of execution time with an 
+average of 21.69 seconds across all strategies, compared to 40.30 seconds for Pandas and 
+42.67 seconds for Dask. This is primarily due to Polars being written in Rust and designed 
+from the ground up for performance. It natively utilises all available CPU cores for 
+parallel processing without any additional configuration. Dask, despite being a parallel 
+processing library, does not always outperform Pandas because of the overhead involved in 
+managing partitions and coordinating tasks across cores. This overhead is particularly 
+noticeable in simpler operations such as Load Less Data where Dask took 54.79 seconds 
+compared to only 2.11 seconds for Pandas.
+
+#### 2. Memory Peak
+Pandas consistently shows the highest memory peak across all strategies with an average 
+of 3317.72 MB, followed by Dask at 1846.63 MB. This demonstrates that Dask is more 
+memory efficient than Pandas due to its partitioned processing approach, where only a 
+portion of the data exists in memory at any one time. Memory Peak for Polars could not 
+be tracked using `tracemalloc` because Polars manages its own memory in Rust outside of 
+Python's memory allocator. This is a known limitation of Python-based memory tracking 
+tools when used with libraries that manage its memory outside.
+
+#### 3. DataFrame Size
+Polars produces the most compact DataFrames with an average size of 904.49 MB, followed 
+by Dask at 1151.76 MB and Pandas at 1802.32 MB. Pandas produces the largest DataFrame 
+size because it uses default data types which are often wasteful, such as storing all 
+integers as `int64` and all strings as `object`. The smaller DataFrame size in Polars is 
+attributed to its efficient internal memory representation using the Apache Arrow format, 
+which stores data in a columnar format that is both compact and cache-friendly. 
+Interestingly, Dask produces smaller DataFrames than Pandas in most strategies despite 
+converting integer columns to float when `assume_missing=True` is used, due to its 
+more efficient internal partitioned storage.
+
+## 🧠 Task 5: Conclusion and Reflection
+
+### 🔹 5.1 Summary of Observation
+
+Based on the comparative analysis conducted across all five strategies, the following 
+key observations were identified:
+
+- **Polars** is the fastest and most memory efficient library overall, making it the 
+most suitable choice for large scale data processing. Its Rust-based architecture and 
+native parallel processing capabilities give it a significant performance advantage s
+over both Pandas and Dask by achieving an average execution time of 21.69 seconds 
+compared to 40.30 seconds for Pandas and 42.67 seconds for Dask.
+
+- **Data Type Optimisation** had the greatest impact on memory consumption which reduce
+the DataFrame size from the default loaded size to just 41.01 MB for Pandas, 22.10 MB 
+for Dask and 61.99 MB for Polars. This demonstrates that choosing the right data types 
+at load time is one of the most impactful strategies for reducing memory footprint.
+
+- **Load Less Data** was the most effective strategy for reducing both load time and 
+memory usage in Pandas, loading only 12 out of 18 columns and reducing the DataFrame 
+size to 110.85 MB compared to 4214.69 MB when loading all columns.
+
+- **Dask** offers a good balance between scalability and familiarity due to its 
+Pandas-like API, making it a suitable choice when transitioning from Pandas to a 
+more scalable solution. However, its partition management overhead can sometimes 
+result in slower execution times than Pandas for simpler operations such as Load 
+Less Data.
+
+- **Pandas** remains the most straightforward and easiest library to use but is the 
+least scalable of the three. It consistently shows the highest memory peak across all 
+strategies with an average of 3317.72 MB, making it unsuitable for very large datasets 
+that exceed available RAM.
+
+- For production data pipelines dealing with datasets at the scale of this assignment 
+and beyond, **Polars** is the recommended choice, with **Dask** as a viable alternative 
+when a Pandas-compatible API is preferred.
+
+
+### 🔹 5.2 Reflection
+
+This assignment provided valuable hands-on experience working with large-scale datasets 
+that go beyond the comfortable limits of everyday data processing tools. The most 
+surprising finding was that Dask did not always outperform Pandas despite being a 
+parallel processing library. For simpler operations, Dask took significantly longer 
+than Pandas due to the overhead of managing partitions and coordinating tasks across 
+cores, highlighting that parallel processing libraries are most beneficial only when 
+the dataset is large enough to justify the coordination overhead.
+
+Polars consistently outperformed both Pandas and Dask across almost all strategies, 
+which was unexpected given that it is a relatively newer library. This demonstrated 
+the significant performance advantage that can be gained by using a library written 
+in a compiled language like Rust rather than Python. Working with Google Colab also 
+presented real challenges in terms of session management and memory limitations which
+highlights the importance of persisting data and results to external storage such 
+as Google Drive in real-world data engineering workflows. If I were to repeat this 
+assignment, I would find a larger dataset than this to test the capabilities of the libraries and learn more about its hidden advantages.
+
+### 🔹 5.3 Scalability Discussion
+
+The strategies and libraries used in this assignment were tested on a 1.46 GB dataset. 
+However, real-world data pipelines often deal with datasets that are orders of magnitude 
+larger. The following discussion considers how each strategy and library would scale 
+beyond the current dataset size:
+
+- **At 10 GB:** Pandas would likely struggle due to its single-threaded nature and high 
+memory consumption. Chunking would still be viable but slow. Dask and Polars would 
+handle this size comfortably due to their parallel processing capabilities.
+
+- **At 100 GB:** Pandas would be completely infeasible without chunking. Dask would 
+remain viable as it is designed to handle datasets larger than available RAM through 
+its partitioned processing approach. Polars would also handle this size well but may 
+require a machine with sufficient RAM to store the results.
+
+- **At 1 TB:** None of the libraries used in this assignment would be sufficient on a 
+single machine. At this scale, distributed computing frameworks such as **Apache Spark** 
+or cloud-based solutions such as **Google BigQuery**, **AWS Athena** or **Azure Synapse** 
+would be required. These platforms distribute the data and computation across multiple 
+machines, making it possible to process datasets of virtually unlimited size.
+
+- Among the five strategies, **Data Type Optimisation** and **Load Less Data** would 
+remain viable at any scale as they reduce the amount of data that needs to be processed 
+in the first place. **Chunking** would also remain useful but would need to be combined 
+with distributed computing frameworks at very large scales. **Sampling** would remain 
+useful for exploratory analysis but would not be suitable for production pipelines 
+requiring complete data processing.
+
+---
+
+## References
+
+- Youssefi, Z. (2024). *Cell Towers Worldwide: Location Data by Continent*. Kaggle. 
+  https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+bdm/OnePlayer/
+├── big_data.md        ← This file
+├── readme.md          ← Brief intro and links
+└── big_data.ipynb     ← Code notebook
 
