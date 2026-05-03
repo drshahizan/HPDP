@@ -24,7 +24,7 @@
 - **File Size**: 2.86 GB
 - **Structure**: 3,000,000 rows X 10 columns
 
-| Column/Attribute | Description |
+| Columns/Features | Description |
 |---|---|
 | Id | A unique identifier for the book (3 million total) |
 | Title | The full name or title of the book being reviewed |
