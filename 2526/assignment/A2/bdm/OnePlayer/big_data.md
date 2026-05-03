@@ -452,7 +452,320 @@ enough to process instantly
 
 <img width="868" height="149" alt="image" src="https://github.com/user-attachments/assets/cc9fc733-72b1-4ac8-bc64-815d8da57090" />
 
+### 3.6 Strategy 5: Parallel Processing with Scalable Libraries
 
+Parallel processing involves distributing computational tasks across multiple processor 
+cores simultaneously. Unlike standard Pandas which is single-threaded, Dask and Polars 
+are built to exploit multiple CPU cores automatically, resulting in faster processing 
+times for large datasets. In this strategy, the same five operations are implemented 
+across all three libraries to enable a direct performance comparison.
+
+
+#### Operation 1: Load Full Data
+
+**Code:**
+
+**Pandas:**
+```python
+@measure_performance
+def load_full_data_pandas():
+    df = pd.read_csv(file_path, low_memory=False)
+    return df
+
+df_pandas_full = load_full_data_pandas()
+print(f"Shape: {df_pandas_full.shape}")
+```
+
+**Dask:**
+```python
+@measure_performance
+def load_full_data_dask():
+    df = dd.read_csv(file_path, assume_missing=True, low_memory=False)
+    df = df.compute()
+    return df
+
+df_dask_full = load_full_data_dask()
+print(f"Shape: {df_dask_full.shape}")
+```
+
+**Polars:**
+```python
+@measure_performance
+def load_full_data_polars():
+    df = pl.read_csv(file_path)
+    return df
+
+df_polars_full = load_full_data_polars()
+print(f"Shape: {df_polars_full.shape}")
+```
+
+**Explanation:**
+
+The full dataset is loaded using all three libraries to establish a direct performance 
+comparison. Pandas loads the file sequentially using a single thread with `low_memory=False` 
+to ensure consistent data type inference. Dask splits the file into partitions and processes 
+them in parallel using `assume_missing=True` to handle potential missing values across 
+partitions, with `.compute()` triggering the actual execution. Polars loads the file 
+natively using all available CPU cores without any additional configuration required.
+
+**Implementation Summary:**
+
+- **Pandas** - single-threaded sequential loading with `low_memory=False`
+- **Dask** - parallel partitioned loading with `assume_missing=True` and `.compute()` to trigger execution
+- **Polars** - native parallel loading with automatic CPU core utilisation
+- All three libraries load the full dataset without any row limit
+
+**Output:**
+
+Pandas:
+
+<img width="904" height="113" alt="image" src="https://github.com/user-attachments/assets/2a9b98a8-dfd3-4b52-afe1-7a73d9430483" />
+
+Dask:
+
+<img width="884" height="109" alt="image" src="https://github.com/user-attachments/assets/0b659f9d-4964-4908-8ad6-92ed1d49426d" />
+
+Polars:
+
+<img width="891" height="111" alt="image" src="https://github.com/user-attachments/assets/ba513334-47a3-4627-8009-61cfddf8183c" />
+
+#### Operation 2: Load Less Data
+
+**Code:**
+
+**Dask:**
+```python
+@measure_performance
+def load_less_data_dask():
+    df = dd.read_csv(file_path, usecols=SELECTED_COLS, assume_missing=True, low_memory=False)
+    df = df.compute()
+    return df
+
+df_dask_less = load_less_data_dask()
+print(f"Shape: {df_dask_less.shape}")
+```
+
+**Polars:**
+```python
+@measure_performance
+def load_less_data_polars():
+    df = pl.read_csv(file_path, columns=SELECTED_COLS)
+    return df
+
+df_polars_less = load_less_data_polars()
+print(f"Shape: {df_polars_less.shape}")
+```
+
+**Explanation:**
+
+Only the selected columns are loaded using Dask and Polars to reduce memory consumption. 
+Dask uses the same `usecols` parameter as Pandas since it mirrors the Pandas API, while 
+Polars uses the `columns` parameter which is specific to its own API. Both libraries 
+load only the relevant columns in parallel across multiple CPU cores, resulting in faster 
+load times and lower memory usage compared to loading all 18 columns.
+
+**Implementation Summary:**
+
+- **Dask** - uses `usecols` parameter with `assume_missing=True` and `low_memory=False`
+- **Polars** - uses `columns` parameter specific to the Polars API
+- Both libraries load only the selected columns defined in `SELECTED_COLS`
+- Full dataset is loaded without any row limit
+
+**Output:**
+
+Dask:
+
+<img width="889" height="107" alt="image" src="https://github.com/user-attachments/assets/dc502017-b530-4825-b026-2cd5aa0cfe36" />
+
+Polars:
+
+<img width="898" height="108" alt="image" src="https://github.com/user-attachments/assets/a39ecc2b-048d-4a3f-beca-dc021aa5bd63" />
+
+#### Operation 3: Chunking
+
+**Code:**
+
+**Dask:**
+```python
+@measure_performance
+def chunking_dask():
+    df = dd.read_csv(file_path, assume_missing=True, low_memory=False, blocksize=10e6) 
+    df = df.compute()
+    return df
+
+df_dask_chunked = chunking_dask()
+```
+
+**Polars:**
+```python
+@measure_performance
+def chunking_polars():
+    df = pl.read_csv(file_path, batch_size=100000)
+    return df
+
+df_polars_chunked = chunking_polars()
+```
+
+**Explanation:**
+
+Unlike Pandas which requires manual chunking by iterating through chunks and combining 
+them using `pd.concat()`, both Dask and Polars handle chunking internally and 
+automatically. Dask splits the file into partitions of 10 MB each using the `blocksize` 
+parameter and processes them in parallel across multiple CPU cores. Polars processes the 
+file in batches of 100,000 rows at a time using the `batch_size` parameter, also 
+internally managed without any manual intervention. Both libraries return a single 
+complete DataFrame at the end without requiring any manual concatenation.
+
+**Implementation Summary:**
+
+- **Dask** - automatically partitions the file into 10 MB partitions using `blocksize=10e6`
+- **Polars** - automatically processes the file in batches of 100,000 rows using `batch_size=100_000`
+- Neither library requires manual chunk management unlike Pandas
+- Both libraries load the full dataset without any row limit
+
+**Output:**
+
+Dask:
+
+<img width="857" height="97" alt="image" src="https://github.com/user-attachments/assets/d2876e6c-df16-4aa5-af8e-d2f456d1ccb1" />
+
+Polars:
+
+<img width="859" height="92" alt="image" src="https://github.com/user-attachments/assets/300739e0-dc6f-49de-8541-80344fa67030" />
+
+#### Operation 4: Sampling
+
+**Code:**
+
+**Dask:**
+```python
+@measure_performance
+def sampling_dask():
+    df = dd.read_csv(file_path, assume_missing=True, low_memory=False)
+    df_sample = df.sample(frac=0.1, random_state=42)
+    df_sample = df_sample.compute()
+    return df_sample
+
+df_dask_sampled = sampling_dask()
+print(f"Shape: {df_dask_sampled.shape}")
+```
+
+**Polars:**
+```python
+@measure_performance
+def sampling_polars():
+    df = pl.read_csv(file_path)
+    df_sample = df.sample(fraction=0.1, seed=42)
+    return df_sample
+
+df_polars_sampled = sampling_polars()
+print(f"Shape: {df_polars_sampled.shape}")
+```
+
+**Explanation:**
+
+Both Dask and Polars load the full dataset and select a random 10% sample for analysis. 
+Dask uses the same `sample()` method as Pandas with `frac=0.1` and `random_state=42` 
+for reproducibility, but requires `.compute()` to trigger the actual execution due to 
+its lazy evaluation nature. Polars uses its own `sample()` method with `fraction=0.1` 
+and `seed=42` for reproducibility, which is executed immediately due to Polars being 
+eager by default.
+
+**Implementation Summary:**
+
+- **Dask** — uses `frac=0.1` and `random_state=42` with `.compute()` to trigger execution
+- **Polars** — uses `fraction=0.1` and `seed=42` for reproducibility
+- Both libraries sample 10% of the full dataset
+- `random_state` and `seed` ensure the same sample is selected every time
+
+**Output:**
+
+Dask:
+
+<img width="860" height="107" alt="image" src="https://github.com/user-attachments/assets/f541b8a7-9cd8-4c5e-91af-6253c08884d7" />
+
+Polars:
+
+<img width="861" height="111" alt="image" src="https://github.com/user-attachments/assets/0823e5be-dc34-4923-901b-008755806f52" />
+
+#### Operation 5: Data Type Optimisation
+
+**Code:**
+
+**Dask:**
+```python
+@measure_performance
+def data_type_optimisation_dask():
+    df = dd.read_csv(file_path, assume_missing=True, low_memory=False, dtype=OPTIMISED_DTYPES)
+    df = df.head(1000000, compute=True)
+    return df
+
+df_dask_optimised = data_type_optimisation_dask()
+print("\n=== Data Types After Optimisation ===")
+print(df_dask_optimised.dtypes.to_string())
+```
+
+**Polars:**
+```python
+POLARS_OPTIMISED_DTYPES = {
+    'Unnamed: 0'   : pl.Int32,
+    'radio'        : pl.Categorical,
+    'MCC'          : pl.Int16,
+    'MNC'          : pl.Int16,
+    'TAC'          : pl.Int32,
+    'CID'          : pl.Int64,
+    'unit'         : pl.Int16,
+    'LON'          : pl.Float32,
+    'LAT'          : pl.Float32,
+    'RANGE'        : pl.Int32,
+    'SAM'          : pl.Int32,
+    'changeable'   : pl.Int8,
+    'created'      : pl.Int32,
+    'updated'      : pl.Int32,
+    'averageSignal': pl.Int16,
+    'Country'      : pl.Categorical,
+    'Network'      : pl.Categorical,
+    'Continent'    : pl.Categorical,
+}
+
+@measure_performance
+def data_type_optimisation_polars():
+    df = pl.read_csv(file_path, schema_overrides=POLARS_OPTIMISED_DTYPES)
+    df = df.slice(0, 1000000)
+    return df
+
+df_polars_optimised = data_type_optimisation_polars()
+print("\n=== Data Types After Optimisation ===")
+print(df_polars_optimised.dtypes)
+```
+
+**Explanation:**
+
+Both Dask and Polars apply optimised data types at load time to reduce memory footprint. 
+Dask reuses the same `OPTIMISED_DTYPES` dictionary as Pandas since it mirrors the Pandas 
+API, passing it through the `dtype` parameter. The first 1,000,000 rows are retrieved 
+using `.head(1000000, compute=True)` for consistent comparison with the Pandas baseline. 
+Polars requires a separate `POLARS_OPTIMISED_DTYPES` dictionary using its own type system 
+such as `pl.Int16`, `pl.Float32` and `pl.Categorical`, passed through the 
+`schema_overrides` parameter. The first 1,000,000 rows are then selected using 
+`.slice(0, 1000000)` for consistent comparison.
+
+**Implementation Summary:**
+
+- **Dask** - reuses `OPTIMISED_DTYPES` dictionary with `dtype` parameter, retrieves first 1,000,000 rows using `.head(1000000, compute=True)`
+- **Polars** - uses separate `POLARS_OPTIMISED_DTYPES` dictionary with Polars type system, retrieves first 1,000,000 rows using `.slice(0, 1000000)`
+- Both libraries apply optimised types at load time for maximum memory efficiency
+- Results are consistent with the Pandas baseline of 1,000,000 rows
+
+**Output:**
+
+Dask:
+
+<img width="942" height="69" alt="image" src="https://github.com/user-attachments/assets/fe61c487-c1bd-4c31-bbe7-d9b68a936e80" />
+
+Polars:
+
+<img width="949" height="89" alt="image" src="https://github.com/user-attachments/assets/bc588cb3-8c99-40a2-b399-aa166c205295" />
 
 
 
