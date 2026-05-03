@@ -1,6 +1,6 @@
 # 📘 Assignment 2: Mastering Big Data Handling
 
-## **Group Information**
+**Group Information**
 - Group Name: OnePlayer
 
 | Name | Matric Number |
@@ -11,14 +11,14 @@
 
 ## 📝 1. Dataset Description
 
-| Field | Details |
-|---|---|
-| **Dataset Name** | Cell Towers Worldwide: Location Data by Continent (Asia) |
-| **Source** | [Kaggle - zakariaeyoussefi](https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent) |
-| **File** | Asia towers.csv |
-| **File Size** | ~1.46 GB |
-| **Domain** | Telecommunications / Network Infrastructure |
-| **Number of Records** | 13.38 million rows × 18 columns |
+### 📌 Dataset Overview
+
+**Dataset Name**: Cell Towers Worldwide: Location Data by Continent (Asia) |
+**Source**: [Kaggle - zakariaeyoussefi](https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent) |
+**File**: Asia towers.csv 
+**File Size**: ~1.46 GB 
+**Domain**: Telecommunications / Network Infrastructure 
+**Number of Records**: 13.38 million rows × 18 columns 
 
 This dataset contains geographical and technical information of cell towers located across Asia.
 It is sourced from OpenCelliD, the world's largest open database of cell towers, and is 
