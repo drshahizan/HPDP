@@ -57,12 +57,6 @@ types including integers, floats, strings, and categorical values.
 
 ## 📔 2. Library Choices
 
-| Library | Type |
-|---|---|
-| **Pandas** | Baseline |
-| **Dask** | Scalable |
-| **Polars** | Scalable |
-
 ### Library 1: Pandas
 Pandas is the most widely used data manipulation library in Python. It serves as the 
 baseline for this assignment, providing a reference point for performance comparison 
