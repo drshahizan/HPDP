@@ -23,19 +23,20 @@
 - **Domain**: Entertainment / Literature / User Reviews
 - **File Size**: 2.86 GB
 - **Structure**: 3,000,000 rows X 10 columns
-
+- **Dataset Description**:
+- 
 | Columns/Features | Description |
 |---|---|
-| Id | A unique identifier for the book (3 million total) |
-| Title | The full name or title of the book being reviewed |
-| Price | List price of the book at time of data collection (may contain null values) |
-| User_id | A unique identifier of the user who rated the book |
-| profileName | The display name of the reviewer |
-| review/helpfulness | A ratio (formatted as "X/Y") indicating how many people found the review helpful |
-| review/score | Numerical rating given by the reviewer, ranging from 1.0 to 5.0 |
-| review/time | The timestamp of when the review was given |
-| review/summary | A short summary provided by the user for their review |
-| review/text | The full body text of the user's review |
+| `Id` | A unique identifier for the book (3 million total) |
+| `Title` | The full name or title of the book being reviewed |
+| `Price` | List price of the book at time of data collection (may contain null values) |
+| `User_id` | A unique identifier of the user who rated the book |
+| `profileName` | The display name of the reviewer |
+| `review/helpfulness` | A ratio (formatted as "X/Y") indicating how many people found the review helpful |
+| `review/score` | Numerical rating given by the reviewer, ranging from 1.0 to 5.0 |
+| `review/time` | The timestamp of when the review was given |
+| `review/summary` | A short summary provided by the user for their review |
+| `review/text` | The full body text of the user's review |
 
 ---
 
