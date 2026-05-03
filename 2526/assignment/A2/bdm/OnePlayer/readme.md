@@ -36,7 +36,7 @@ This project focuses on mastering scalable big data handling techniques using **
 - **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent)
 - **Domain**: Telecommunications / Geospatial Analytics
 - **Selected File**: `Asia towers.csv`
-- **File Size**: ~1.56GB
+- **File Size**: ~1.46GB
 - **Shape**: 13.38 Million rows x 18 columns
 
 ### 📘 Description
