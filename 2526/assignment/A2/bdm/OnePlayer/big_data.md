@@ -78,3 +78,109 @@ natively utilises all available CPU cores for parallel processing. Its distinct 
 and memory management also make it an interesting contrast to both Pandas and Dask.
 
 ---
+
+## 📝 Task 2: Load and Inspect Data
+
+### 🔹 2.1 Loading Strategy
+To load the dataset efficiently in [Google Colab](https://colab.research.google.com/), the following steps were taken:
+
+**Step 1: Upload Kaggle API Credentials**
+The `kaggle.json` file was uploaded via the Colab file upload feature to authenticate 
+with the Kaggle API.
+
+```python
+from google.colab import files
+files.upload()
+```
+
+**Step 2: Configure Kaggle API Credentials**
+The uploaded file was moved to the `.kaggle` directory and permissions were set.
+
+```python
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+```
+
+**Step 3: Download Dataset from Kaggle**
+Only the Asia towers CSV file was downloaded using the `-f` flag to avoid downloading 
+all continent files.
+
+```python
+!kaggle datasets download \
+    -d zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent \
+    -f "Asia towers.csv" \
+    --force
+```
+
+**Step 4: Unzip the Dataset**
+The downloaded ZIP file was extracted.
+
+```python
+!unzip "Asia%20towers.csv.zip"
+```
+
+**Step 5: Save to Google Drive**
+The dataset was copied to Google Drive for persistent storage across sessions to avoid 
+re-downloading every time the Colab runtime resets.
+
+```python
+shutil.copy("Asia towers.csv", "/content/drive/MyDrive/HPDP_A2/Asia towers.csv")
+```
+
+**Step 6: Set File Path**
+The file path was set to point directly to Google Drive for all subsequent operations.
+
+```python
+file_path = "/content/drive/MyDrive/HPDP_A2/Asia towers.csv"
+```
+### 🔹 2.2 Initial Data Loading
+The dataset was loaded using Pandas with `nrows=1000000` for initial inspection to 
+avoid excessive memory consumption during the inspection phase.
+
+```python
+df = pd.read_csv(file_path, nrows=1000000)
+```
+
+### 🔹 2.3 Inspection Results
+
+#### Dataset Shape
+```python
+print("=== Dataset Shape ===")
+print(f"Rows    : {df.shape[0]:,}")
+print(f"Columns : {df.shape[1]}")
+```
+<img width="185" height="60" alt="image" src="https://github.com/user-attachments/assets/a5a5ea1f-db1b-4087-bafc-f38d6f23670a" />
+
+#### Column Names and Data Types
+```python
+print("=== Column Names and Data Type ===")
+print(df.dtypes.to_string())
+```
+<img width="276" height="338" alt="image" src="https://github.com/user-attachments/assets/8e7ddc63-91a9-4bde-8389-dcf469cdbcc0" />
+
+#### Missing Values Summary
+```python
+print("=== Missing Values Summary ===")
+missing = df.isnull().sum()
+print(missing)
+```
+<img width="254" height="362" alt="image" src="https://github.com/user-attachments/assets/badae365-6b91-4d50-88d5-a1fcd533850c" />
+
+> ✅ The dataset contains **no missing values** across all 18 columns, indicating a 
+clean and complete dataset that requires no imputation or missing value handling.
+
+#### First 5 Rows Preview
+```python
+print("=== First 5 Rows Preview ===")
+df.head()
+```
+<img width="1285" height="222" alt="image" src="https://github.com/user-attachments/assets/63c09bd7-1e5a-4590-905c-ef4b29a842f9" />
+
+
+
+
+
+
+
+
