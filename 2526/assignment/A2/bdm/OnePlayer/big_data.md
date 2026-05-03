@@ -259,6 +259,198 @@ def measure_performance(func):
 - **Auto-load**: Previous results are loaded from Drive on session reconnect
 - **Library Detection**: Library and strategy names are automatically parsed from the function name
 
+### 3.2 Strategy 1: Load Less Data
+
+**Code:**
+
+```python
+SELECTED_COLS = ['radio', 'MCC', 'MNC', 'TAC', 'LON', 'LAT', 'RANGE', 'created', 'updated']
+
+@measure_performance
+def load_less_data_pandas():
+    return pd.read_csv(file_path, usecols=SELECTED_COLS, nrows=1000000)
+
+df_less = load_less_data_pandas()
+```
+
+**Explanation:**
+
+When working with large datasets, it is often unnecessary to load all available columns 
+into memory. By selecting only the relevant columns using the `usecols` parameter and 
+limiting the number of rows to 1,000,000 using `nrows`, both memory usage and load time 
+can be significantly reduced compared to loading the full dataset with all 18 columns.
+
+**Implementation Summary:**
+
+- Only 12 out of 18 columns were loaded using `usecols`
+- Only the first 1,000,000 rows were read using `nrows`
+- Columns loaded from the CSV: `radio`, `MCC`, `MNC`, `TAC`, `LON`, `LAT`, `RANGE`, `created`, `updated`
+
+**Output:**
+
+<img width="908" height="132" alt="image" src="https://github.com/user-attachments/assets/635f7e7b-caaa-46af-90f3-2aea61c9b328" />
+
+### 3.3 Strategy 2: Chunking
+
+**Code:**
+
+```python
+@measure_performance
+def chunking_pandas():
+    chunk_size = 100000
+    chunks = []
+
+    for chunk in pd.read_csv(file_path, chunksize=chunk_size, low_memory=False):
+        chunks.append(chunk)
+
+    df = pd.concat(chunks, ignore_index=True)
+    return df
+
+df_chunked = chunking_pandas()
+```
+
+**Explanation:**
+
+Instead of loading the full dataset in a single operation, chunking reads the data in 
+smaller manageable portions of 100,000 rows at a time. The `low_memory=False` parameter 
+ensures consistent data type inference for `Network` column across all chunks by reading the entire column 
+before deciding its type. Each chunk is appended to a list and combined into a single 
+DataFrame using `pd.concat()` at the end. This ensures that only a small portion of the 
+dataset exists in memory at any one time, making it possible to process files that are 
+larger than the available RAM.
+
+**Implementation Summary:**
+
+- Chunk size of 100,000 rows per chunk
+- `low_memory=False` is used to ensure consistent data type inference for `Network` column due to its mixed data types
+- Each chunk is appended to a list and combined at the end using `pd.concat()`
+- Full dataset is loaded without any row limit
+
+**Output:**
+
+<img width="865" height="137" alt="image" src="https://github.com/user-attachments/assets/b9252ccc-f37b-4211-9bfd-606ed62af23b" />
+
+### 3.4 Strategy 3: Data Type Optimisation
+
+**Code:**
+
+**Step 1: Load dataset with default data types to observe column types before optimisation:**
+```python
+df_before = pd.read_csv(file_path, nrows=1000000)
+
+print("\n=== Data Types Before Optimisation ===")
+print(df_before.dtypes.to_string())
+```
+
+**Step 2: Define optimised data types for each column:**
+```python
+OPTIMISED_DTYPES = {
+    'Unnamed: 0'   : 'int32',    # Row index — fits in int32
+    'radio'        : 'category', # Repeated strings e.g. GSM, LTE, UMTS
+    'MCC'          : 'int16',    # Mobile country code — small integer
+    'MNC'          : 'int16',    # Mobile network code — small integer
+    'TAC'          : 'int16',    # Tracking area code — fits in int16
+    'CID'          : 'int32',    # Cell ID — fits in int32
+    'unit'         : 'int16',    # Small integer
+    'LON'          : 'float32',  # Longitude — float32 sufficient
+    'LAT'          : 'float32',  # Latitude — float32 sufficient
+    'RANGE'        : 'int16',    # Range in metres — fits in int16
+    'SAM'          : 'int16',    # Sample count — fits in int16
+    'changeable'   : 'int8',     # Binary-like flag — int8 sufficient
+    'created'      : 'int32',    # Timestamp — fits in int32
+    'updated'      : 'int32',    # Timestamp — fits in int32
+    'averageSignal': 'int16',    # Signal strength — small integer
+    'Country'      : 'category', # Repeated country names
+    'Network'      : 'category', # Repeated network names
+    'Continent'    : 'category', # Repeated continent names
+}
+```
+
+**Step 3: Load dataset with optimised data types:**
+```python
+@measure_performance
+def data_type_optimisation_pandas():
+    df = pd.read_csv(
+        file_path,
+        dtype=OPTIMISED_DTYPES,
+        nrows=1000000
+    )
+    return df
+
+df_optimised = data_type_optimisation_pandas()
+
+print("\n=== Data Types After Optimisation ===")
+print(df_optimised.dtypes.to_string())
+```
+
+**Explanation:**
+
+When Pandas loads a CSV file, it assigns default data types to each column which are 
+often wasteful. For example, integer columns are stored as `int64` by default even when 
+the values are small enough to fit in `int16` or `int8`. Similarly, columns with 
+repeated string values such as `radio`, `Country`, `Network` and `Continent` are stored 
+as `object` type which consumes significantly more memory than the `category` type. By 
+specifying optimised data types using the `dtype` parameter at load time, the memory 
+footprint of the dataset is significantly reduced before any processing begins.
+
+
+**Implementation Summary:**
+
+- Default data types are first observed without performance measurement
+- Integer columns downcast from `int64` to `int32`, `int16` or `int8` based on value range
+- Float columns downcast from `float64` to `float32` for coordinate columns
+- String columns with repeated values converted to `category` type
+- Optimised types are applied at load time using the `dtype` parameter
+- Performance is only measured after optimisation using `measure_performance`
+
+**Output:**
+
+Before Optimisation:
+
+<img width="322" height="340" alt="image" src="https://github.com/user-attachments/assets/6299619a-16d3-4ad6-9a55-7cdf2c04d1bb" />
+
+After Optimisation:
+
+<img width="955" height="139" alt="image" src="https://github.com/user-attachments/assets/7671b973-667d-4490-b745-0115d2419a3b" />
+
+<img width="300" height="340" alt="image" src="https://github.com/user-attachments/assets/4572bf62-93fc-48f1-ad44-acb42b64e433" />
+
+### 3.5 Strategy 4: Sampling
+
+**Code:**
+
+```python
+@measure_performance
+def sampling_pandas():
+    df = pd.read_csv(file_path, low_memory=False)
+    df_sample = df.sample(frac=0.1, random_state=42)
+    return df_sample
+
+df_sampled = sampling_pandas()
+print(f"Shape: {df_sampled.shape}")
+```
+
+**Explanation:**
+
+Instead of working with the full dataset, sampling selects a random representative 
+subset for analysis. The full dataset is first loaded using `low_memory=False` to 
+ensure consistent data type inference, then 10% of the rows are randomly selected 
+using the `sample()` method. The `random_state=42` parameter ensures reproducibility, 
+meaning the same sample is selected every time the code is run. This dramatically 
+shortens development cycles and makes exploratory analysis feasible even on very 
+large datasets.
+
+**Implementation Summary:**
+
+- Full dataset is loaded using `low_memory=False` to avoid mixed type warnings for `Network` column
+- 10% of rows are randomly sampled using `frac=0.1`
+- `random_state=42` is used to ensure reproducibility
+- The sample is large enough to be statistically representative while being small 
+enough to process instantly
+
+**Output:**
+
+<img width="868" height="149" alt="image" src="https://github.com/user-attachments/assets/cc9fc733-72b1-4ac8-bc64-815d8da57090" />
 
 
 
