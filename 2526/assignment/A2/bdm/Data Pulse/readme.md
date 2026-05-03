@@ -1,4 +1,4 @@
-# 📘 Assignment 2: Mastering Big Data Handling
+# Assignment 2: Mastering Big Data Handling
 
 <table border="solid" align="center">
   <tr>
@@ -17,85 +17,99 @@
 
 ---
 
-## 🗂️ Project Files
+## Project Files
 
-| File Name                | Description                                                                    | Link |
-|--------------------------|--------------------------------------------------------------------------------|------|
-| `big_data.md`            | Markdown file with detailed write-up for Assignment 2                          | [![Open](https://img.shields.io/badge/View-Markdown-blue?logo=markdown)](big_data.md) |
-| `big_data.ipynb`         | Colab notebook exploring various data loading and optimization techniques       | [![Open](https://img.shields.io/badge/Open-Notebook-green?logo=jupyter)](big_data.ipynb) |
-
----
-
-## 📖 Introduction
-
-In the modern aviation industry, massive amounts of data are generated daily from flight operations, including departure schedules, arrival times, delays, cancellations, and airline performance metrics. Handling such large-scale datasets requires efficient data processing techniques to overcome memory and computational limitations.
-
-Our project focuses on mastering scalable big data handling techniques using the **Carrier On-Time Performance Dataset**. Since the dataset is large and contains over 100 columns, traditional data loading approaches can be inefficient.
-
-To address this, we applied optimization strategies using **Pandas**, **Dask**, and **Polars**. These include column projection, chunking, sampling, optimized data types, and parallel processing. We also benchmarked performance based on memory usage, execution time, CPU utilization, and throughput.
+| File Name        | Description                                                                 | Link |
+|-----------------|-----------------------------------------------------------------------------|------|
+| `big_data.md`   | Detailed report including implementation, analysis, and findings            | [View](big_data.md) |
+| `big_data.ipynb`| Jupyter Notebook containing full code, execution results, and experiments   | [Open](big_data.ipynb) |
 
 ---
 
-## ✈️ Dataset Overview
+## Introduction
 
-- **Name**: ✈️ Carrier On-Time Performance Dataset  
-- **Source**: [Kaggle](https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset)  
+In modern data-driven industries such as aviation, large volumes of data are generated from flight operations, including departure schedules, arrival times, delays, and airline performance metrics. Processing such datasets efficiently requires appropriate data handling strategies to overcome memory limitations and improve execution performance.
+
+This project focuses on applying and evaluating scalable big data handling techniques using the Carrier On-Time Performance Dataset. Since the dataset contains over 2 million records and 109 columns, direct loading and processing can be inefficient. Therefore, multiple strategies and libraries were used to optimise performance and analyse their effectiveness.
+
+---
+
+## Dataset Overview
+
+- **Name**: Carrier On-Time Performance Dataset  
+- **Source**: https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset  
 - **Domain**: Airline / Transportation Analytics  
-- **File Size**: 841 MB
-- **Shape**: ~2 Million rows × 109 columns  
+- **File Size**: 841.30 MB  
+- **Shape**: 2,000,000 rows × 109 columns  
+
+The dataset contains detailed flight records, including airline information, route details, departure and arrival times, delay metrics, and operational performance indicators.
 
 ---
 
-## 📘 Description
+## Description
 
-This dataset contains detailed records of airline flight operations in the United States. Each row represents a single flight and includes information such as airline carrier, origin and destination airports, scheduled and actual departure/arrival times, delays, cancellations, and diversion details.
+Each row in the dataset represents a single flight record. The dataset includes key information such as airline carrier, origin and destination airports, scheduled and actual departure and arrival times, and delay-related metrics.
 
-The dataset is widely used for analyzing airline performance, identifying delay patterns, evaluating operational efficiency, and understanding factors affecting flight punctuality.
-
----
-
-## 🔍 Key Features
-
-- **Flight Information**: Airline carrier, flight number, tail number  
-- **Temporal Data**: Flight date, scheduled and actual departure/arrival times  
-- **Route Data**: Origin and destination airports and cities  
-- **Delay Metrics**: Departure delay, arrival delay, and delay categories (weather, carrier, NAS, etc.)  
-- **Flight Status**: Cancellation and diversion indicators  
-- **Operational Metrics**: Distance, airtime, elapsed time  
+For this project, a subset of 8 relevant columns was selected to improve efficiency while maintaining meaningful analysis. Based on the processed data, 859,554 flights were identified as delayed, representing approximately 42.98% of the dataset.
 
 ---
 
-## ⚙️ Strategies Applied
+## Strategies Applied
 
-- **Strategy 1: Load Less Data** (Column projection to reduce memory usage by selecting only relevant columns)  
-- **Strategy 2: Chunking** (Processing the dataset in smaller parts to avoid memory overflow)  
-- **Strategy 3: Optimized Data Types** (Downcasting numeric data and converting strings to categorical types)  
-- **Strategy 4: Sampling** (Using a subset of data for faster exploratory analysis)  
-- **Strategy 5: Parallel Processing** (Using Dask for multi-core computation on large datasets)  
-- **Benchmarking**: Measuring memory usage, execution time, CPU usage, and throughput  
+The following strategies were implemented to improve data processing performance:
 
----
-
-## 📊 Library Benchmarking
-
-We evaluated the performance of three popular data-processing libraries:
-
-- **Pandas**: The industry standard for structured data analysis  
-- **Dask**: Designed for parallel computing and large-scale data processing  
-- **Polars**: A high-performance DataFrame library optimized for speed and memory efficiency  
-
-Each was compared based on:
-- Memory consumption (MB)  
-- Execution time (seconds)  
-- Average CPU usage (%)  
-- Processing throughput (records per second)  
+- Load Less Data: Selecting only required columns to reduce unnecessary data loading  
+- Chunking: Processing the dataset in smaller parts to reduce memory usage  
+- Data Type Optimisation: Converting columns into efficient data types  
+- Sampling: Using a subset of data for faster testing and exploration  
+- Parallel Processing: Using Dask for scalable computation  
+- High-Performance Processing: Using Polars for faster execution  
 
 ---
 
-## 🎯 Conclusion
+## Library Comparison
 
-By applying multiple optimization strategies, we successfully handled a large-scale airline dataset efficiently. This project highlights the importance of choosing the right tools and techniques when working with big data.
+Three libraries were used and compared based on execution time and memory usage:
 
-Pandas is suitable for smaller datasets, while Dask enables parallel processing for larger datasets that exceed memory limits. Polars offers superior performance in terms of speed and memory efficiency.
+- Pandas: Provides simple and reliable data processing but requires loading data into memory  
+- Dask: Supports parallel processing and is suitable for larger datasets  
+- Polars: Offers high-performance execution with optimized query processing  
 
-Overall, this project demonstrates how modern data engineering techniques can significantly improve performance and scalability when dealing with real-world big data scenarios in the transportation domain.
+---
+
+## Key Findings
+
+The results show clear differences in performance between the strategies and libraries:
+
+- Polars achieved the fastest execution time at 1.56 seconds  
+- Sampling used the least memory due to processing a smaller dataset  
+- Chunking provided a balanced approach for processing the full dataset with low memory usage  
+- Data type optimisation reduced memory usage by over 90%  
+- Pandas provided a reliable baseline but was slower than optimised methods  
+- Dask was slower in this experiment due to overhead but remains useful for distributed systems  
+
+All methods produced consistent analytical results, confirming that the choice of strategy affects performance but not correctness.
+
+---
+
+## Conclusion
+
+This project demonstrates that different big data handling strategies are suitable for different scenarios. Polars is the best option when execution speed is the priority, while chunking is effective for memory-constrained environments. Data type optimisation is essential for reducing memory usage, and sampling is useful for quick analysis.
+
+Pandas remains a practical and easy-to-use option, while Dask is more suitable for larger-scale or distributed processing tasks. The key takeaway is that selecting the appropriate strategy depends on dataset size, system resources, and performance requirements.
+
+---
+
+## References
+
+- Kaggle Dataset:  
+  https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset  
+
+- Pandas Documentation:  
+  https://pandas.pydata.org/pandas-docs/stable/  
+
+- Dask Documentation:  
+  https://docs.dask.org/en/latest/  
+
+- Polars Documentation:  
+  https://docs.pola.rs/
