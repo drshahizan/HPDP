@@ -574,4 +574,240 @@ display(performance_df_s5)
 
 ---
 
+## 🛠️ Task 4: Comparative Analysis
 
+### 🔹 **Part 2: Loading Dataset with Different Libraries**
+This section compares how various data libraries handle CSV file loading and performance. Different tools and ecosystems (Pandas, Dask, Polars, Vaex) are explored.
+
+```python
+import pandas as pd
+import numpy as np
+import os
+import dask.dataframe as dd
+from IPython.display import display # Just use for display purposes
+import psutil
+import time
+import random
+import csv
+import polars as pl
+import threading
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+def measure_performance(func, description="", *args, **kwargs):
+    process = psutil.Process(os.getpid())
+    total_ram = psutil.virtual_memory().total / 1024 / 1024  # MB
+
+    cpu_percent = []
+
+    def track_cpu():
+        while not done[0]:
+            cpu_percent.append(process.cpu_percent(interval=0.1))
+
+    done = [False]
+    cpu_thread = threading.Thread(target=track_cpu)
+    cpu_thread.start()
+
+    mem_before = process.memory_info().rss / 1024 / 1024  # MB
+    start_time = time.time()
+
+    try:
+        result = func(*args, **kwargs)
+        success = True
+    except Exception as e:
+        result = None
+        success = False
+        error_message = str(e)
+
+    end_time = time.time()
+    mem_after = process.memory_info().rss / 1024 / 1024  # MB
+    done[0] = True
+    cpu_thread.join()
+
+    exec_time = round(end_time - start_time, 4)
+    mem_diff_mb = mem_after - mem_before
+    mem_percent_after = (mem_after / total_ram) * 100
+    mem_diff_percent = (mem_diff_mb / total_ram) * 100
+
+    if isinstance(result, dd.DataFrame):
+      result = result.compute()
+
+    if isinstance(result, (pd.DataFrame, pl.DataFrame)):
+        num_records = len(result)
+        throughput = round(num_records / exec_time, 2)
+    else:
+        throughput = None
+
+    performance = {
+        "Description": description,
+        "Memory Used (MB)": round(mem_diff_mb, 2),
+        "Execution Time (s)": exec_time,
+        "Success": success,
+        "Average CPU (%)": round(sum(cpu_percent) / len(cpu_percent), 2) if cpu_percent else 0.0,
+        "Throughput (records/sec)": throughput
+    }
+
+    if not success:
+        performance["Error"] = error_message
+
+    return performance, result
+```
+
+#### 1. Using **Pandas** (Traditional)
+
+```python
+def load_full_data():
+    df = pd.read_csv("yellow_tripdata_2016-03.csv")
+    return df
+
+performance, df = measure_performance(load_full_data, description="Load with Pandas")
+
+performance_df = pd.DataFrame([performance])
+display(performance_df)
+```
+**Output**:  
+<img width="774" height="83" alt="image" src="https://github.com/user-attachments/assets/1194f6ee-aa53-4b97-8cde-178a5e8f1453" />
+
+---
+
+#### 2. Using **Polars**
+
+```python
+import polars as pl
+
+def load_full_data_polars():
+    df = pl.read_csv("yellow_tripdata_2016-03.csv", infer_schema_length=10000)
+    return df
+
+performance_polars, df_polars = measure_performance(
+    load_full_data_polars,
+    description="Load with Polars"
+)
+
+performance_df_polars = pd.DataFrame([performance_polars])
+display(performance_df_polars)
+```
+
+1. **Reading the CSV with `pl.read_csv()`**:
+
+2. **Simplicity and Speed**:
+
+3. **Performance Measurement**:
+  
+**Output**:  
+<img width="763" height="68" alt="image" src="https://github.com/user-attachments/assets/a709af24-d8ee-4240-ac55-c1fb9e365bab" />
+
+---
+
+#### 3. Using **Dask**
+
+```python
+import dask.dataframe as dd
+
+def load_full_data_dask():
+    df = dd.read_csv("yellow_tripdata_2016-03.csv").compute()
+    return df
+
+performance_dask, df_dask = measure_performance(
+    load_full_data_dask,
+    description="Load with Dask"
+)
+
+performance_df_dask = pd.DataFrame([performance_dask])
+display(performance_df_dask)
+```
+
+**Explanation**:  
+
+1. **Lazy Loading with `dd.read_csv()`**:
+
+2. **Triggering Computation**:
+
+3. **Performance Measurement**:
+
+**Output**:  
+<img width="763" height="79" alt="image" src="https://github.com/user-attachments/assets/d455433f-90ba-468d-ba07-cfe19b977164" />
+
+---
+
+## 🛠️ Compare Performance
+
+### 🔹 **Part 1: Comparison of Optimized Loading Strategies**
+This section compares five different optimization techniques used to improve CSV loading performance in terms of **Memory Used**, **Execution Time**, **Average CPU Usage**, and **Throughput**.
+
+#### Compare between 5 strategies:
+1. Load Less Data
+2. Use Chunking
+3. Optimize Data Types
+4. Sampling
+5. (Simulated) Parallel Processing Strategy with Chunk Aggregation
+
+### 📋 Summary Table
+| Strategy            | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
+| ------------------- | ---------------- | ------------------ | ----------- | ------------------------ |
+| Load Less Data      | 973.72           | 48.6298	           | 93.62	    | 251100.19                |
+| Use Chunking        | 72.62            | 81.4862            |72.46        | 149852.95                |
+| Optimize Data Types | 105.06           | 271.9356           | 28.1        | 44964.53                 |
+| Sampling            | 221.85           | 29.6481            | 95.8        | 41157.11                 |
+| Parallel with Dask  | 4.65             |  0.1865            | 29.3        | 6547473.46               |
+
+---
+
+### 📊 Visual Comparison
+<img width="808" height="555" alt="image" src="https://github.com/user-attachments/assets/fcccab84-911e-47d4-9e01-a8d4c6806bf6" />
+
+### 🧠 Interpretation:
+**Parellel with Dask** performed best in overall.
+
+---
+
+### 📘 Part 2: Comparison Between Pandas, Dask, and Polars
+In this section, we compare the performance of three major data-processing libraries: **Pandas**, **Dask**, and **Polars**.
+
+### 📋 Summary Table
+
+| Library | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
+| ------- | ---------------- | ------------------ | ----------- | ------------------------ |
+| Pandas  | 3665.21          | 74.4024            | 96.43       | 164120.40                |
+| Dask    | 4343.52          | 16.0955            | 141.66      | 758656.27                |
+| Polars  | 3044.03          | 66.8097            | 133.67      | 182772.14                |
+
+---
+
+### 📊 Visual Comparison
+<img width="809" height="548" alt="image" src="https://github.com/user-attachments/assets/dedbbfa3-0845-44ae-a497-f283468f2b2b" />
+
+### 🧠 Interpretation:
+
+---
+
+## 🧠 Task 5: Conclusion & Reflection
+***MUHAMMAD SYAHMI FARIS BIN RUSLI:***
+
+***My Parts:*** Strategy 2 (Chunking), Strategy 3 (Optimized Data Types), Lobrary 2 (Polars), Library 3 (Dask), and Compare 3 Libraries
+
+***My Observartions:***
+* Chunking was the most memory efficient strategy at only 72.62 MB peak memory, though slower at 81.49 seconds due to sequential chunk processing
+* Optimized data types reduced memory significantly by downcasting int64->int8 and flot64->float32, reduced the dataset from 1770.09mb to 803.53mb and took 271.94s.
+* Polars was the fastest library at 16.10 seconds which is 4.62x faster than Pandas 74.04s becasue due to its Rust-based engine and automatic multi-core processing.
+* Dask at 66.81s performed similarly to Pandas 74.40s showing that Dask advantage only appears at larger scales or distributed environment.
+  
+***What Suprised Me:*** I expected Dask to outperform Pandas since it supports parellel processing, but it performed almost identically. I learned that dask scheduling overhead cancels out its parellelism benefits on a single machine with a dataset that still fits in RAM. I would have used Polars from the start if I knew how fast it was.
+
+***Scalability*** At 10GB, Polars and chunking would still work. At 100GB, Dask becomes necessary to distribute across cores. At 1TB, cloud solutions like Apache Spark would be required as no single machine could handle it in memory.
+
+---
+
+***NG YU HIN:***
+
+***My Parts:*** Strategy 1 (Load Less Data), Strategy 4 (Sampling), Strategy 5 (Parallel Processing), Library 1 (Pandas), and Compare 5 Strategies.
+
+***My Observations:***
+* Load Less Data is the most effective. By only loading the necessary columns, memory usage dropped to 1001.87 MB and execution time fell to 36.97 seconds, proving that minimizing I/O operations is critical.
+* Sampling was incredibly fast. This strategy is invaluable for Exploratory Data Analysis (EDA) and pipeline testing before committing compute resources to the full dataset.
+* Parallel Processing achieved the highest throughput by far but requires writing slightly more complex, framework-specific code to manage the map-reduce aggregations.
+* Pandas is highly intuitive and easy to write, but its eager loading is exceptionally heavy on RAM during peaking at around 2.4 GB for a full load and is severely bottlenecked by Python's single-core execution limit.
+
+***What Surprised Me:*** I was surprised by how quickly standard Pandas consumes memory—often using significantly more RAM than the actual file size on disk. I also didn't expect that simply dropping a few unused columns,Strategy 1 would yield such a massive, immediate improvement in both speed and memory without changing any core logic.
+
+***Overall Strategy Comparison:*** There is no single perfect strategy.The choice depends entirely on the system's constraints. If RAM is the bottleneck, Chunking and Optimizing Types are required. If time is the bottleneck, Parallel Processing and Loading Less Data are the solutions.
