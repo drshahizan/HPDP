@@ -240,7 +240,7 @@ Saved:  3002.41 MB
 
 **Discussion:**
 
-The results clearly show the impact of selective data loading on memory efficiency. Initially, loading the full dataset consumes 3679.50 MB, which can strain system resources on machines with limited RAM. After applying `usecols`, memory usage drops significantly to 677.08 MB — a saving of 3002.41 MB.
+The results clearly show the impact of selective data loading on memory efficiency. Initially, loading the full dataset consumes 3679.50 MB, which can strain system resources on machines with limited RAM. After applying `usecols`, memory usage drops significantly to 677.08 MB that actually saving 3002.41 MB of memory.
 
 This reduction highlights how unnecessary columns contribute heavily to memory overhead, particularly in large datasets with text fields or unused attributes. By limiting the dataset to only relevant features, processing becomes more efficient, faster, and less prone to memory-related issues. This is especially important in big data scenarios where optimizing resource usage directly affects scalability.
 
@@ -283,7 +283,7 @@ Execution Time taken   : 41.64 seconds
 
 The results demonstrate how chunking enables efficient processing of large datasets without overwhelming system memory. The 3,000,000 rows dataset was successfully processed in 100 chunks of 30,000 rows each, showing that data can be handled incrementally rather than all at once. This ensures scalability, as each chunk is small enough to fit comfortably in memory.
 
-The total execution time of 41.64 seconds represents a reasonable trade-off between memory efficiency and performance. While chunking introduces slight overhead due to repeated read operations, it allows large-scale data processing on machines with limited resources — highly effective for big data scenarios where full dataset loading is impractical.
+The total execution time of 41.64 seconds represents a reasonable trade-off between memory efficiency and performance. While chunking introduces slight overhead due to repeated read operations, it allows large-scale data processing on machines with limited resources which is consider highly effective for big data scenarios where full dataset loading is impractical.
 
 ---
 
@@ -378,7 +378,7 @@ Rows: 300000, Columns: 10
 
 **Discussion:**
 
-The 10% sample (300,000 rows) closely preserves the statistical properties of the original 3,000,000 rows dataset. Key metrics such as mean, median, and quartiles for `Price`, `review/score`, and `review/time` remain nearly identical. For example, the mean review score changes only slightly (4.215 → 4.217), indicating the sample is representative.
+The 10% sample (300,000 rows) closely preserves the statistical properties of the original 3,000,000 rows dataset. Key metrics such as mean, median, and quartiles for `Price`, `review/score`, and `review/time` remain nearly identical. For example, the mean review score changes only slightly from 4.215 to 4.217, indicating the sample is representative.
 
 Some differences exist in extreme values — the maximum price in the sample (716.63) is lower than the original (995.00), showing that rare outliers may not always be captured. Sampling significantly reduces computational cost, memory usage, and processing time, making it ideal for quick exploratory analysis and prototyping. However, it may miss rare events or subtle patterns critical for anomaly detection or high-stakes decisions.
 
@@ -712,11 +712,11 @@ Through this assignment, we gained a deeper understanding of how different tools
 
 If we repeated this assignment or are have to handle a large datasets, we would run each library in an isolated environment to prevent memory from earlier runs affecting later measurements.
 
-Our almost 3 GB dataset has clear limits when scaled up. Pandas would struggle well before 10 GB since it loads everything into RAM, while Polars scales further but remains bounded by available physical memory. Dask, despite performing worst here, is ironically the most scalable of the three which are its lazy, partition-based model supports datasets larger than memory and can extend to a cluster with minimal code changes. Beyond 100 GB, none of our approaches would be sufficient without tools like Apache Spark or cloud solutions such as Google BigQuery.
+For the scalability, our 3 GB dataset has clear limits when scaled up. Pandas would struggle well before 10 GB since it loads everything into RAM, while Polars scales further but remains bounded by available physical memory. Dask, despite performing worst here, is ironically the most scalable of the three which are its lazy, partition-based model supports datasets larger than memory and can extend to a cluster with minimal code changes. Beyond 100 GB, none of our approaches would be sufficient without tools like Apache Spark or cloud solutions such as Google BigQuery.
 
 This assignment made us realise that choosing a library is really choosing an architecture — what works at above 700 MB may completely fall apart at 1 TB
 
-## References
+## References 🔬
 
 - **Dataset-Kaggle: Amazon Books Reviews(Books_rating.csv)** -  https://www.google.com/url?q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fmohamedbakhet%2Famazon-books-reviews
 - **Dask:** https://www.geeksforgeeks.org/python/introduction-to-dask-in-python/
