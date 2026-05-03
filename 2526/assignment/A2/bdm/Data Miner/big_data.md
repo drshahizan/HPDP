@@ -811,7 +811,7 @@ Although Dask is built for scalable and distributed workloads, it performs the s
 * Parallel Processing achieved the highest throughput by far but requires writing slightly more complex, framework-specific code to manage the map-reduce aggregations.
 * Pandas is highly intuitive and easy to write, but its eager loading is exceptionally heavy on RAM during peaking at around 2.4 GB for a full load and is severely bottlenecked by Python's single-core execution limit.
 
-***What Surprised Me:*** I was surprised by how quickly standard Pandas consumes memory—often using significantly more RAM than the actual file size on disk. I also didn't expect that simply dropping a few unused columns,Strategy 1 would yield such a massive, immediate improvement in both speed and memory without changing any core logic.
+***What Surprised Me:*** I was surprised by how quickly standard Pandas consumes memory often using significantly more RAM than the actual file size on disk. I also didn't expect that simply dropping a few unused columns,Strategy 1 would yield such a massive, immediate improvement in both speed and memory without changing any core logic.
 
 ***Overall Strategy Comparison:*** There is no single perfect strategy.The choice depends entirely on the system's constraints. If RAM is the bottleneck, Chunking and Optimizing Types are required. If time is the bottleneck, Parallel Processing and Loading Less Data are the solutions.
 
