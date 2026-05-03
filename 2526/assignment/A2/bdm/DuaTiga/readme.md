@@ -51,6 +51,30 @@ The datasets capture a large-scale collection of human-written books reviews. It
 
 ## Technique Used🛠️
 
-- 
+- Data Loading Selection
+- Less Data Selection
+- Chunking Operation
+- Optimization Data Type
+- Sampling Methods
+- Parallel Processing with Dask and Polars
+
+---
+
+## Library📖
+There are **three** popular data-processing libraries that we used to benchmarks the performance:
+- **Pandas**
+- **Polars**
+- **Dask**
+
+For each libraries the comparison is based on:
+- Memory Used (MB)
+- Peak Memory (MB)
+- Avg Execution Time (s)
+- Avg CPU (%)
+
+---
+
+## Conclusion📌
+In the end, we are able to explore furthermore on how to handle datasets that are big and required high-end specification hardware. We used various of technique and tools to perform the excecution. The output gained from the execution is compared for each library from memory used, peak memory, execution time, and average CPU used. So, by completing this assignment we have the vision on how data-related career manage the data, from data load to data visualization.
 
 
