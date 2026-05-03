@@ -177,7 +177,87 @@ df.head()
 ```
 <img width="1285" height="222" alt="image" src="https://github.com/user-attachments/assets/63c09bd7-1e5a-4590-905c-ef4b29a842f9" />
 
+---
 
+## 🛠️ Task 3: Apply Big Data Handling Strategies
+
+### 3.1 Performance Measurement Function Setup
+
+Before implementing the strategies, a custom performance measurement function is set up 
+to automatically track and record execution time and memory usage for every strategy 
+function. The results are auto-saved to Google Drive after every run to prevent data 
+loss across sessions.
+
+#### Results Storage Setup
+The following code checks if a previous results file exists in Google Drive and loads 
+it. If not, it starts a fresh results list.
+
+```python
+RESULTS_PATH = "/content/drive/MyDrive/HPDP_A2/performance_results.csv"
+
+if os.path.exists(RESULTS_PATH):
+    performance_results = pd.read_csv(RESULTS_PATH).to_dict('records')
+    print(f"✅ Loaded {len(performance_results)} existing results from Drive!")
+else:
+    performance_results = []
+    print("✅ Starting fresh performance results!")
+```
+
+#### Performance Measurement Decorator
+The `measure_performance` decorator is applied to every strategy function. It 
+automatically measures and records the following metrics:
+
+```python
+def measure_performance(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        process = psutil.Process(os.getpid())
+        mem_before = process.memory_info().rss / 1024**2
+
+        tracemalloc.start()
+        start = time.time()
+        result = func(*args, **kwargs)
+        total_time = time.time() - start
+        _, mem_peak_traced = tracemalloc.get_traced_memory()
+        tracemalloc.stop()
+
+        mem_after = process.memory_info().rss / 1024**2
+        mem_peak_traced = mem_peak_traced / 1024**2
+        mem_peak = mem_peak_traced if mem_peak_traced > 0 else mem_after
+
+        if isinstance(result, pd.DataFrame):
+            df_mem = result.memory_usage(deep=True).sum() / 1024**2
+        elif isinstance(result, pl.DataFrame):
+            df_mem = result.estimated_size() / 1024**2
+        elif isinstance(result, dd.DataFrame):
+            df_mem = result.memory_usage(deep=True).sum().compute() / 1024**2
+        else:
+            df_mem = 0.0
+
+        performance_results.append({
+            'Strategy'           : strategy,
+            'Library'            : library,
+            'Total Time (s)'     : round(total_time, 4),
+            'Memory Before (MB)' : round(mem_before, 2),
+            'Memory After (MB)'  : round(mem_after, 2),
+            'Memory Peak (MB)'   : round(mem_peak, 2) if mem_peak is not None else 'N/A',
+            'DataFrame Size (MB)': round(df_mem, 2)
+        })
+
+        pd.DataFrame(performance_results).to_csv(RESULTS_PATH, index=False)
+        return result
+    return wrapper
+```
+
+#### Implementation Summary
+- **Execution Time**: Measured using `time.time()` before and after the function runs
+- **Memory Before**: Actual RAM usage of the Python process before execution using `psutil`
+- **Memory After**: Actual RAM usage of the Python process after execution using `psutil`
+- **Memory Peak**: Peak memory allocated during execution using `tracemalloc`
+- **DataFrame Size**: Memory usage which is the actual size of the resulting DataFrame in memory
+- **Auto-save**: Results are saved to Google Drive as `performance_results.csv` after every run
+- **Auto-load**: Previous results are loaded from Drive on session reconnect
+- **Library Detection**: Library and strategy names are automatically parsed from the function name
 
 
 
