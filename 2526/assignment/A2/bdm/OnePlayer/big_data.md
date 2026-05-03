@@ -181,7 +181,7 @@ df.head()
 
 ## 🛠️ Task 3: Apply Big Data Handling Strategies
 
-### 3.1 Performance Measurement Function Setup
+### 🔹 3.1 Performance Measurement Function Setup
 
 Before implementing the strategies, a custom performance measurement function is set up 
 to automatically track and record execution time and memory usage for every strategy 
@@ -259,7 +259,7 @@ def measure_performance(func):
 - **Auto-load**: Previous results are loaded from Drive on session reconnect
 - **Library Detection**: Library and strategy names are automatically parsed from the function name
 
-### 3.2 Strategy 1: Load Less Data
+### 🔹 3.2 Strategy 1: Load Less Data
 
 **Code:**
 
@@ -288,9 +288,9 @@ can be significantly reduced compared to loading the full dataset with all 18 co
 
 **Output:**
 
-<img width="908" height="132" alt="image" src="https://github.com/user-attachments/assets/635f7e7b-caaa-46af-90f3-2aea61c9b328" />
+<img width="905" height="94" alt="image" src="https://github.com/user-attachments/assets/b32100e8-4790-4129-a11d-faa9b0a45717" />
 
-### 3.3 Strategy 2: Chunking
+### 🔹 3.3 Strategy 2: Chunking
 
 **Code:**
 
@@ -328,9 +328,9 @@ larger than the available RAM.
 
 **Output:**
 
-<img width="865" height="137" alt="image" src="https://github.com/user-attachments/assets/b9252ccc-f37b-4211-9bfd-606ed62af23b" />
+<img width="867" height="92" alt="image" src="https://github.com/user-attachments/assets/aa9511eb-4dc7-4f35-9ac5-d4d1f617d62c" />
 
-### 3.4 Strategy 3: Data Type Optimisation
+### 🔹 3.4 Strategy 3: Data Type Optimisation
 
 **Code:**
 
@@ -411,11 +411,11 @@ Before Optimisation:
 
 After Optimisation:
 
-<img width="955" height="139" alt="image" src="https://github.com/user-attachments/assets/7671b973-667d-4490-b745-0115d2419a3b" />
+<img width="954" height="98" alt="image" src="https://github.com/user-attachments/assets/5543c492-7119-4d48-97cf-09db2983dd96" />
 
 <img width="300" height="340" alt="image" src="https://github.com/user-attachments/assets/4572bf62-93fc-48f1-ad44-acb42b64e433" />
 
-### 3.5 Strategy 4: Sampling
+### 🔹 3.5 Strategy 4: Sampling
 
 **Code:**
 
@@ -450,9 +450,9 @@ enough to process instantly
 
 **Output:**
 
-<img width="868" height="149" alt="image" src="https://github.com/user-attachments/assets/cc9fc733-72b1-4ac8-bc64-815d8da57090" />
+<img width="866" height="110" alt="image" src="https://github.com/user-attachments/assets/0c98546b-68df-4bfd-9d75-ce040a7177a6" />
 
-### 3.6 Strategy 5: Parallel Processing with Scalable Libraries
+### 🔹 3.6 Strategy 5: Parallel Processing with Scalable Libraries
 
 Parallel processing involves distributing computational tasks across multiple processor 
 cores simultaneously. Unlike standard Pandas which is single-threaded, Dask and Polars 
