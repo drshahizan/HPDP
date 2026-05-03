@@ -52,6 +52,105 @@ This dataset contains records of yellow medallion taxicab trips in New York City
 | `improvement_surcharge`  | float64   | $0.30 improvement surcharge assessed on trips at the flag drop                  |
 | `total_amount`           | float64   | The total amount charged to passengers. Does not include cash tips              |
 
+---
+
+
+## 📝 Task 2: Load and Inspect Data
+
+### 🔹 Loading Strategy
+
+To load the dataset efficiently in [Google Colab](https://colab.research.google.com/), the following steps were taken:
+
+1. **Imported `kaggle.json`**
+   Uploaded via the Colab file upload feature:
+
+   ```python
+   from google.colab import files
+   files.upload()  # Upload kaggle.json
+   ```
+
+2. **Configured Kaggle API Credentials**
+   Moved the uploaded file to the `.kaggle` directory and set proper permissions:
+
+   ```bash
+   !mkdir -p ~/.kaggle
+   !cp kaggle.json ~/.kaggle/
+   !chmod 600 ~/.kaggle/kaggle.json
+   ```
+
+3. **Downloaded Dataset from Kaggle**
+   Using Kaggle CLI to fetch the dataset directly into the Colab environment:
+
+   ```bash
+   !kaggle datasets download -d elemento/nyc-yellow-taxi-trip-data
+   ```
+
+4. **Unzipped the Dataset File**
+   Extracted the dataset ZIP file:
+
+   ```bash
+   !unzip nyc-yellow-taxi-trip-data.zip
+   ```
+
+5. **Loaded a Sample (100 Rows) Using `pandas.read_csv()`**
+   This is to allow quicker inspection without overloading memory:
+
+   ```python
+   import pandas as pd
+   df = pd.read_csv('yellow_tripdata_2016-03.csv', nrows=1000000)
+   ```
+
+---
+
+### 🔹 Dataset Inspection
+
+#### 📌 First 5 Rows
+
+```python
+df['taxi_short'] = df['total_amount'].astype(str).str.slice(0, 100) + '...'
+
+print("First 5 rows of the dataset:")
+display(df.drop(columns=['total_amount']).head())
+df = df.drop(columns=['taxi_short'])
+```
+
+| index | VendorID | tpep_pickup_datetime | tpep_dropoff_datetime | passenger_count | trip_distance | pickup_longitude | pickup_latitude | RatecodeID | store_and_fwd_flag | dropoff_longitude | dropoff_latitude | payment_type | fare_amount | extra | mta_tax | tip_amount | tolls_amount | improvement_surcharge | taxi_short |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | 1 | 2016-03-01 00:00:00 | 2016-03-01 00:07:55 | 1 | 2.50 | -73.976746 | 40.765152 | 1 | N | -74.004265 | 40.746128 | 1 | 9.0 | 0.5 | 0.5 | 2.05 | 0.00 | 0.3 | 12.35... |
+| 1 | 1 | 2016-03-01 00:00:00 | 2016-03-01 00:11:06 | 1 | 2.90 | -73.983482 | 40.767925 | 1 | N | -74.005943 | 40.733166 | 1 | 11.0 | 0.5 | 0.5 | 3.05 | 0.00 | 0.3 | 15.35... |
+| 2 | 2 | 2016-03-01 00:00:00 | 2016-03-01 00:31:06 | 2 | 19.98 | -73.782021 | 40.644810 | 1 | N | -73.974541 | 40.675770 | 1 | 54.5 | 0.5 | 0.5 | 8.00 | 0.00 | 0.3 | 63.8... |
+| 3 | 2 | 2016-03-01 00:00:00 | 2016-03-01 00:00:00 | 3 | 10.78 | -73.863419 | 40.769814 | 1 | N | -73.969650 | 40.757767 | 1 | 31.5 | 0.0 | 0.5 | 3.78 | 5.54 | 0.3 | 41.62... |
+| 4 | 2 | 2016-03-01 00:00:00 | 2016-03-01 00:00:00 | 5 | 30.43 | -73.971741 | 40.792183 | 3 | N | -74.177170 | 40.695053 | 1 | 98.0 | 0.0 | 0.0 | 0.00 | 15.50 | 0.3 | 113.8... |
+---
+
+#### 📐 Shape of the Dataset
+
+```python
+print(f"\nDataset Shape:\nRows: {df.shape[0]}, Columns: {df.shape[1]}")
+```
+
+![image](https://github.com/user-attachments/assets/ad35f73a-8f2d-4915-b5d1-12a08f6231a4)
+
+
+---
+
+#### 🏷️ Column Names and Data Types
+
+```python
+display(df.dtypes.to_frame(name='Data Type').T)
+```
+![image](https://github.com/user-attachments/assets/6e39e229-0074-474e-820f-c0a66341a62b)
+
+---
+
+#### 📋 Summary Info
+
+```python
+df.info()
+```
+
+![image](https://github.com/user-attachments/assets/8edde355-d89b-4ad9-9843-a91942abedf2)
+
 
 ---
 
