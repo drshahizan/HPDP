@@ -42,6 +42,13 @@ So, our project is to understand and mastering the uzilization of tools such as 
 - **File Size**: 2.86 GB
 - **Structure**: 3,000,000 rows X 10 column
 
+## Key Features 🔍 
+
+- **Identity**: Unique book identifier, unique reviewer identifier, reviewer's name.
+- **Financial**: Listed book price.
+- **Review Details**: Rating from 0 to 5, review headline, full review body.
+- **Feedback**: Helpful votes fraction.
+- **Temporal**: Review submission timestamp.
 
 ## Description📝
 
