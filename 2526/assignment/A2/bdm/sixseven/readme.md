@@ -1,4 +1,4 @@
-# Assignment 2: Big Data Management 
+# 📘 Assignment 2: Mastering Big Data Handling
 
 <table border="solid" align="center">
   <tr>
@@ -6,12 +6,19 @@
     <th>Matric Number</th>
   </tr>
   <tr>
-    <td>Najma Shakirah binti Shahrulzaman</td>
-    <td>A23CS0140</td>
+    <td>Najma Shakirah binti Shahrulzaman
+</td>
+    <td>A23CS</td>
   </tr>
   <tr>
-    <td>Yong Wern Jie</td>
-    <td>A22EC0121</td>
+    <td>Syarifah Dania binti Syed Abu Bakar
+</td>
+    <td>A23CS0183</td>
+  </tr>
+   <tr>
+    <td>Nawwarah Auni binti NazrudinNawarrah Auni
+</td>
+    <td>A23CS</td>
   </tr>
 </table>
 
@@ -28,31 +35,23 @@
 
 ## 📖 Introduction
 
-In the modern era of music streaming and digital content, large datasets are common in entertainment platforms like Spotify. Efficiently handling this kind of data requires specialized tools and techniques.
+In the era of big data, traditional processing tools often fail when handling large-scale datasets, leading to memory exhaustion and slow execution. This assignment focuses on mastering high-performance data handling techniques by transitioning from theory to practical implementation.  
 
-Our project focuses on mastering scalable big data techniques using tools such as Pandas, Dask, and Polars. We applied various optimization strategies to load and process a large real-world dataset, then conducted performance benchmarking on memory usage, execution time, CPU utilization, and throughput.
+We utilize the Amazon Books Reviews dataset (approx. 2.9 GB), which is large enough to challenge the limits of standard libraries like Pandas. Our objective is to apply five key strategies which are loading selective data, chunking, data type optimization, sampling, and parallel processing—to ensure efficiency. By comparing Pandas against scalable libraries like PyArrows, Polars and Dask, we evaluate improvements in execution time and memory usage, preparing us for real-world data engineering challenges. 
 
 ---
 
 ## 🎵 Dataset Overview
 
-- **Name**: 🎹 960K Spotify Songs With Lyrics Data 🎵  
-- **Source**: [Kaggle – bwandowando](https://www.kaggle.com/datasets/bwandowando/960k-spotify-songs-with-lyrics)  
-- **Domain**: Music / Entertainment  
-- **File Size**: 1.54 GB  
-- **Shape**: 955,320 rows × 17 columns  
+- **Name**: Amazon Books Reviews
+- **Source**: [Kaggle – [Mohamed Bekheet] (https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
+- **Domain**: E-commerce / Retail 
+- **File Size**: 2.8 GB
+- **Shape**: 3000000 rows x 10 columns
 
 ### 📘 Description
 
-This dataset is an enriched compilation created by merging several Spotify-related datasets, including:
-
-- Spotify 1M+ Tracks  
-- Spotify + Genius Dataset  
-- 30K Spotify Songs  
-- 6K Spotify Playlists  
-- And more...
-
-From over 3.3 million tracks submitted to the Spotify Lyrics API, around 960,000 were matched with usable lyrics. Each record includes audio features (tempo, energy, etc.), metadata (artist, album), and full song lyrics—making it suitable for both **audio analysis** and **natural language processing**.
+The Amazon Books Reviews dataset is a large-scale collection of customer feedback and book metadata from the Amazon platform. It is primarily used for analyzing consumer behavior, sentiment analysis, and high-performance data processing tasks due to its significant volume.
 
 ### ⚠️ Notes
 
@@ -87,6 +86,7 @@ We evaluated the performance of three popular data-processing libraries:
 - **Pandas**
 - **Dask**
 - **Polars**
+- **PyArrows**
 
 Each was tested and compared based on:
 
