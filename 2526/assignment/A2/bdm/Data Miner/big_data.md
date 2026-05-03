@@ -814,3 +814,15 @@ Although Dask is built for scalable and distributed workloads, it performs the s
 ***What Surprised Me:*** I was surprised by how quickly standard Pandas consumes memory—often using significantly more RAM than the actual file size on disk. I also didn't expect that simply dropping a few unused columns,Strategy 1 would yield such a massive, immediate improvement in both speed and memory without changing any core logic.
 
 ***Overall Strategy Comparison:*** There is no single perfect strategy.The choice depends entirely on the system's constraints. If RAM is the bottleneck, Chunking and Optimizing Types are required. If time is the bottleneck, Parallel Processing and Loading Less Data are the solutions.
+
+***Scalability:*** While Strategy 1 (Load Less Data) and Strategy 4 (Sampling) are excellent for optimizing workflows on datasets that almost fit into RAM, standard Pandas will definitively fail as we move toward 100GB or 1TB scales. At 100GB, Pandas will throw Out-Of-Memory (OOM) errors regardless of how few columns we load. At that scale, Strategy 5 (Parallel Processing with Dask) becomes the only viable local option because of its out-of-core, distributed computing model. However, scaling to 1TB pushes beyond the physical limits of a single machine's disk I/O and RAM entirely. At that massive scale, we would need to migrate from local Python libraries to cloud-based distributed systems like Apache Spark or Databricks to handle the workload efficiently across multiple networked nodes.
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+bdm/Sample2/
+├── big_data.md        ← This file
+├── readme.md          ← Brief intro and links
+└── big_data.ipynb     ← Code notebook
