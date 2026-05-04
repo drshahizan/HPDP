@@ -1,3 +1,40 @@
+# Assignment 2: Mastering Big Data Handling
+
+## Group Information
+**Group Name:** scubaa
+**Members:**
+1. Mohamed Alif Fathi bin Abdul Latif 
+2. Iman Abadi bin Mohd Nizwan
+---
+
+## 📝 Task 1: Dataset Selection
+
+### 📌 Dataset Overview
+
+* **Name**: Anime Dataset 2023
+* **Source**: [Kaggle: Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)
+* **Domain**: *Anime user reviews, ratings, and metadata*
+* **Files Used**: `final_animedataset.csv`
+
+### 📖 Description
+Scraped from MyAnimeList (MAL), this dataset includes extensive data on thousands of anime titles, user preferences, and reviews. It includes anonymised user interaction data, such as watch status and individual scores, along with a broad range of metadata, such as genres, studios, ratings, and airing dates.
+
+### 📊 Data Column Description
+
+| Column | Type | Unit | Description |
+| :--- | :--- | :--- | :--- |
+| `anime_id` | int | - | Unique ID assigned to each anime title by MyAnimeList |
+| `title` | string | - | The official name of the anime (English or Romaji) |
+| `type` | string | - | The format of the media (e.g., **TV**, **Movie**, **OVA**, **Special**) |
+| `score` | float | 1–10 | The global average rating based on community votes |
+| `genres` | string | - | Categorical tags describing the content (e.g., Action, Sci-Fi) |
+| `episodes` | int | - | The total number of episodes in the series |
+| `status` | string | - | Current production state (e.g., **Finished Airing**, **Currently Airing**) |
+| `members` | int | - | Total count of users who have added this anime to their list |
+| `user_id` | int | - | Anonymized unique ID for individual community members |
+| `user_rating` | int | 1–10 | The personal score assigned by a specific user to a title |
+
+
 ```python
 # Standard
 import os, time, gc, psutil, threading, random
