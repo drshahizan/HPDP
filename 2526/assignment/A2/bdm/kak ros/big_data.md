@@ -164,14 +164,16 @@ print(df_all.info())
 ```
 
 **Explanation**:  
-When working with large datasets, it's often unnecessary to load all available columns into memory. By selecting only the relevant columns required for the task, memory usage and load time can be significantly reduced.
+Instead of loading all 28 columns from the dataset, only 6 relevant columns required for analysis are selected using the `usecols` parameter in Pandas.
 
 **Implementation Summary**:  
-Only these columns were loaded from the CSV:
 
-* `danceability`, `energy`, `loudness`, `speechiness`,
-  `acousticness`, `instrumentalness`, `liveness`,
-  `valence`, `tempo`, `duration_ms`
+* `FL_DATE`, `OP_CARRIER`, `ORIGIN`, `DEST`, `DEP_DELAY`, `ARR_DELAY` *
+
+Only these columns were loaded from the CSV because they are directly relevant to:
+- Flight frequency analysis
+- Delay calculations
+- Route-based insights
 
 **Output Summary**:  
 ### Task 3.2 : Chunking
