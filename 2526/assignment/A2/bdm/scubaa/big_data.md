@@ -1,39 +1,49 @@
 # Assignment 2: Mastering Big Data Handling
 
 ## Group Information
-**Group Name:** scubaa
+**Group Name:** scubaa     
 **Members:**
 1. Mohamed Alif Fathi bin Abdul Latif 
 2. Iman Abadi bin Mohd Nizwan
 ---
 
-## 📝 Task 1: Dataset Selection
+## Task 1: Dataset Selection
 
-### 📌 Dataset Overview
+### Dataset Overview
 
 * **Name**: Anime Dataset 2023
 * **Source**: [Kaggle: Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)
 * **Domain**: *Anime user reviews, ratings, and metadata*
 * **Files Used**: `final_animedataset.csv`
 
-### 📖 Description
+### Description
 Scraped from MyAnimeList (MAL), this dataset includes extensive data on thousands of anime titles, user preferences, and reviews. It includes anonymised user interaction data, such as watch status and individual scores, along with a broad range of metadata, such as genres, studios, ratings, and airing dates.
 
-### 📊 Data Column Description
+### Data Column Description
 
 | Column | Type | Unit | Description |
 | :--- | :--- | :--- | :--- |
-| `anime_id` | int | - | Unique ID assigned to each anime title by MyAnimeList |
-| `title` | string | - | The official name of the anime (English or Romaji) |
-| `type` | string | - | The format of the media (e.g., **TV**, **Movie**, **OVA**, **Special**) |
-| `score` | float | 1–10 | The global average rating based on community votes |
-| `genres` | string | - | Categorical tags describing the content (e.g., Action, Sci-Fi) |
-| `episodes` | int | - | The total number of episodes in the series |
-| `status` | string | - | Current production state (e.g., **Finished Airing**, **Currently Airing**) |
-| `members` | int | - | Total count of users who have added this anime to their list |
-| `user_id` | int | - | Anonymized unique ID for individual community members |
-| `user_rating` | int | 1–10 | The personal score assigned by a specific user to a title |
+| `username` | string | - | The unique display name of the MyAnimeList user |
+| `anime_id` | int | - | Unique ID assigned to each anime title |
+| `my_score` | int | 0–10 | The personal rating given by the user (0 means no score) |
+| `user_id` | int | - | Anonymized unique identification number for the user |
+| `gender` | string | - | The gender associated with the user profile |
+| `title` | string | - | The official name of the anime title |
+| `type` | string | - | Media format (e.g., TV, Movie, OVA, Special) |
+| `source` | string | - | The original source material (e.g., Manga, Light Novel) |
+| `score` | float | 1–10 | The overall global average rating for the anime |
+| `scored_by` | int | - | The total count of users who rated the anime globally |
+| `rank` | float | - | The weighted score rank of the anime |
+| `popularity` | int | - | Ranking based on the number of users who added it to their list |
+| `genres` | string | - | Categorical tags describing the anime's themes and style |
 
+---
+
+## Task 2: Load and Inspect Data
+
+### Loading Strategy
+
+**1. Import Required Libraries**
 
 ```python
 # Standard
@@ -55,10 +65,6 @@ import numpy as np
 
 print("All libraries imported successfully")
 ```
-
-    All libraries imported successfully
-    
-
 
 ```python
 FILE = "final_animedataset.csv"
@@ -1065,7 +1071,12 @@ display(pd.DataFrame(results_parallel))
 
 # Comparative Analysis
 
+## Part 2: Comparison between Pandas, Dask and Polars
 
+Baseline operation: Full Load with Aggregation Operation
+Runs averaged: 3
+
+**Benchmark function:**
 ```python
 def evaluate_performance_library(
     load_fn,
@@ -1138,9 +1149,10 @@ def evaluate_performance_library(
     print(f"{'='*40}")
 
     return metrics
-```
+``` 
+This benchmarking function compares the execution time and memory usage for each library. It uses a background thread to poll the system's Resident Set Size (RSS) (`process.memory_info().rss`), capturing peak memory usage during busy operations in addition to basic before-and-after memory usage snapshots. It divides performance into load time and process time to differentiate between I/O bottlenecks and algorithmic latency by accepting a load operation function and a compute/process operation function. where the execution time are measured idepedantly.
 
-
+**Average performnce benchmark function:**
 ```python
 def evaluate_performance_library_avg(
     load_fn,
@@ -1179,47 +1191,9 @@ def evaluate_performance_library_avg(
 
     return avg_metrics
 ```
+This function runs the benchmarking function a number of times based on the `n` value and averages the metrics from each execution for each metric used. The default value of `n = 3`. 
 
-# Pandas
-def load_pandas():
-    return pd.read_csv(FILE, low_memory=False)
-
-def process_pandas(df):
-    return df.groupby("genre")["score"].mean()
-
-# PyArrow
-def load_pyarrow():
-    return pv.read_csv(FILE)
-
-def process_pyarrow(table):
-    import pyarrow.compute as pc
-    # groupby aggregation
-    return table.group_by("genre").aggregate([("score", "mean")])
-
-
-# Dask
-def load_dask():
-    return dd.read_csv(FILE)
-
-def process_dask(df):
-    return df.groupby("genre")["score"].mean().compute()
-
-
-metrics = evaluate_performance_detailed_avg(load_pandas, process_pandas, "Pandas", n=3)
-results.append(metrics)
-
-metrics = evaluate_performance_detailed_avg(load_pyarrow, process_pyarrow, "PyArrow", n=3)
-results.append(metrics)
-
-metrics = evaluate_performance_detailed_avg(load_dask, process_dask, "Dask", n=3)
-results.append(metrics)
-
-
-```python
-results_library = []
-```
-
-
+**Full Load with Pandas**
 ```python
 # Pandas
 def load_pandas():
@@ -1231,22 +1205,9 @@ def process_pandas(df):
 metrics = evaluate_performance_library_avg(load_pandas, process_pandas, "Pandas", n=3)
 results_library.append(metrics)
 ```
+The baseline Pandas operation reads the CSV file and performs an aggregation task, which is the simplest approach for a direct comparison for the otther 2 libraries.  
 
-      Run 1/3...
-    
-    ========================================
-      Strategy          : Pandas
-      Load time         : 167.31 seconds
-      Process time      : 1.94 seconds
-      Total time        : 169.25 seconds
-      Before memory     : 332.5 MB
-      After memory      : 6,400.5 MB
-      Peak memory       : 11,522.8 MB
-    ========================================
-      Run 2/3...
-    
-
-
+**Full Load with PyArrow**
 ```python
 # PyArrow
 def load_pyarrow():
@@ -1260,53 +1221,9 @@ def process_pyarrow(table):
 metrics = evaluate_performance_library_avg(load_pyarrow, process_pyarrow, "PyArrow", n=3)
 results_library.append(metrics)
 ```
+PyArrow uses a columnar alternative to the benchmark, where `load_pyarrow` converts the CSV to an Arrow Table, which usually results in faster I/O and a smaller memory footprint. The `process_pyarrow` step evaluates the efficiency of the `pyarrow.compute` engine, which employs zero-copy principles and efficient memory mapping.
 
-      Run 1/3...
-    
-    ========================================
-      Strategy          : PyArrow
-      Load time         : 14.90 seconds
-      Process time      : 0.47 seconds
-      Total time        : 15.37 seconds
-      Before memory     : 175.6 MB
-      After memory      : 2,101.6 MB
-      Peak memory       : 11,791.5 MB
-    ========================================
-      Run 2/3...
-    
-    ========================================
-      Strategy          : PyArrow
-      Load time         : 14.81 seconds
-      Process time      : 0.43 seconds
-      Total time        : 15.24 seconds
-      Before memory     : 217.2 MB
-      After memory      : 2,253.3 MB
-      Peak memory       : 11,876.5 MB
-    ========================================
-      Run 3/3...
-    
-    ========================================
-      Strategy          : PyArrow
-      Load time         : 15.29 seconds
-      Process time      : 0.42 seconds
-      Total time        : 15.70 seconds
-      Before memory     : 219.7 MB
-      After memory      : 2,230.6 MB
-      Peak memory       : 12,005.4 MB
-    ========================================
-    
-    ########################################
-      AVG RESULT (3 runs) : PyArrow
-      Avg load time         : 15.00 seconds
-      Avg process time      : 0.44 seconds
-      Avg total time        : 15.44 seconds
-      Avg before memory     : 204.2 MB
-      Avg after memory      : 2,195.2 MB
-      Avg peak memory       : 11,891.1 MB
-    ########################################
-    
-
-
+**Full Load with Dask**
 ```python
 # Dask
 def load_dask():
@@ -1317,89 +1234,26 @@ def process_dask(df):
     
 metrics = evaluate_performance_library_avg(load_dask, process_dask, "Dask", n=3)
 results_library.append(metrics)
-```
+```    
+Dask uses a lazy loading strategy, where `load_dask` only maps the file structure into metadata rather than loading data into RAM as a full DataFrame. This results in almost instant load times and a minimal initial memory footprint in the benchmark logs. The `process_dask` executes `.compute()` method within the benchmarking function and triggers the parallel execution engine.
 
-      Run 1/3...
-    
-    ========================================
-      Strategy          : Dask
-      Load time         : 0.12 seconds
-      Process time      : 99.20 seconds
-      Total time        : 99.32 seconds
-      Before memory     : 225.1 MB
-      After memory      : 302.2 MB
-      Peak memory       : 2,821.4 MB
-    ========================================
-      Run 2/3...
-    
-    ========================================
-      Strategy          : Dask
-      Load time         : 0.03 seconds
-      Process time      : 98.34 seconds
-      Total time        : 98.37 seconds
-      Before memory     : 300.2 MB
-      After memory      : 302.5 MB
-      Peak memory       : 2,544.8 MB
-    ========================================
-      Run 3/3...
-    
-    ========================================
-      Strategy          : Dask
-      Load time         : 0.03 seconds
-      Process time      : 97.46 seconds
-      Total time        : 97.49 seconds
-      Before memory     : 302.5 MB
-      After memory      : 304.7 MB
-      Peak memory       : 2,608.4 MB
-    ========================================
-    
-    ########################################
-      AVG RESULT (3 runs) : Dask
-      Avg load time         : 0.06 seconds
-      Avg process time      : 98.34 seconds
-      Avg total time        : 98.39 seconds
-      Avg before memory     : 275.9 MB
-      Avg after memory      : 303.1 MB
-      Avg peak memory       : 2,658.2 MB
-    ########################################
-    
+---
 
-
-```python
-display(pd.DataFrame(results_library))
-```
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+**Summary Result For Each Library**
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>load_time_s</th>
-      <th>process_time_s</th>
-      <th>total_time_s</th>
-      <th>before_memory_mb</th>
-      <th>after_memory_mb</th>
-      <th>peak_memory_usage_mb</th>
+      <th>Name</th>
+      <th>Load Time (s)</th>
+      <th>Process Time (s)</th>
+      <th>Total Time (s)</th>
+      <th>Before Memory (MB)</th>
+      <th>After Memory (MB)</th>
+      <th>Peak Memory Usage (MB)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>Pandas</td>
       <td>135.1022</td>
       <td>1.9331</td>
@@ -1409,7 +1263,6 @@ display(pd.DataFrame(results_library))
       <td>12029.94</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>PyArrow</td>
       <td>15.0006</td>
       <td>0.4363</td>
@@ -1419,7 +1272,6 @@ display(pd.DataFrame(results_library))
       <td>11891.13</td>
     </tr>
     <tr>
-      <th>2</th>
       <td>Dask</td>
       <td>0.0574</td>
       <td>98.3365</td>
@@ -1432,7 +1284,7 @@ display(pd.DataFrame(results_library))
 </table>
 </div>
 
-
+---
 
 ```python
 metrics_to_plot = ["total_time_s", "load_time_s", "process_time_s", "peak_memory_usage_mb"]
@@ -1463,92 +1315,12 @@ plt.tight_layout()
 plt.savefig("benchmark.png", dpi=150, bbox_inches="tight")
 plt.show()
 ```
+### Discussion 
+The benchmark results show a significant difference between execution strategies, with PyArrow being the fastest. It outperforms Pandas, finishing the complete procedure in just 15.4 seconds. It is due to its highly optimised C++ backend and columnar memory format, which enable it to consume and aggregate data with little overhead. Its ability to process the aggregation in less than half a second makes it the better option for high-performance applications where RAM is enough, even though its max memory utilisation is still large at around 12 GB.
+
+Dask on the other hand, shows strengths by having a low-memory capability that is perfect for systems with limited resources. It is shown by its Peak Memory Usage of 2,658 MB, which is lower than both Pandas and PyArrow because it does not load all data at once. However, this efficiency causes significantly higher execution time because Dask's processing time increases to over 98 seconds due to the need to handle complicated task scheduling and stream data in chunks. The near-zero load time measured demonstrates its lazy loading strategy, which delays the actual data workload until the computing phase begins.
 
 
-    ---------------------------------------------------------------------------
+Pandas performed the worst compared to the other libraries due to its eager loading and single-threaded operation. It takes almost 135 seconds to load the CSV with its peak memory utilisation at 12,029 MB. While its processing logic is quite fast once the data is in memory, the size of its initial I/O phase makes it the least scalable alternative. The findings show that each library has its own strengths and weaknesses where PyArrow excels for high throughput, Dask for handling large amounts of data even with limited memory and Pandas for smaller, simpler workloads.
 
-    ValueError                                Traceback (most recent call last)
-
-    Cell In[28], line 16
-         14 for i, metric in enumerate(metrics_to_plot):
-         15     values = [r[metric] for r in results]
-    ---> 16     bars   = axes[i].barh(names, values, color=colors[i], alpha=0.85)
-         17     axes[i].set_title(labels_map[metric], fontsize=12, fontweight="bold", pad=10)
-         18     axes[i].set_xlabel(labels_map[metric], fontsize=10)
-    
-
-    File ~\anaconda3\envs\myenv\Lib\site-packages\matplotlib\axes\_axes.py:2834, in Axes.barh(self, y, width, height, left, align, data, **kwargs)
-       2704 r"""
-       2705 Make a horizontal bar plot.
-       2706 
-       (...)   2831 :doc:`/gallery/lines_bars_and_markers/horizontal_barchart_distribution`.
-       2832 """
-       2833 kwargs.setdefault('orientation', 'horizontal')
-    -> 2834 patches = self.bar(x=left, height=height, width=width, bottom=y,
-       2835                    align=align, data=data, **kwargs)
-       2836 return patches
-    
-
-    File ~\anaconda3\envs\myenv\Lib\site-packages\matplotlib\__init__.py:1524, in _preprocess_data.<locals>.inner(ax, data, *args, **kwargs)
-       1521 @functools.wraps(func)
-       1522 def inner(ax, *args, data=None, **kwargs):
-       1523     if data is None:
-    -> 1524         return func(
-       1525             ax,
-       1526             *map(cbook.sanitize_sequence, args),
-       1527             **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
-       1529     bound = new_sig.bind(ax, *args, **kwargs)
-       1530     auto_label = (bound.arguments.get(label_namer)
-       1531                   or bound.kwargs.get(label_namer))
-    
-
-    File ~\anaconda3\envs\myenv\Lib\site-packages\matplotlib\axes\_axes.py:2583, in Axes.bar(self, x, height, width, bottom, align, **kwargs)
-       2580     if yerr is not None:
-       2581         yerr = self._convert_dx(yerr, y0, y, self.convert_yunits)
-    -> 2583 x, height, width, y, linewidth, hatch = np.broadcast_arrays(
-       2584     # Make args iterable too.
-       2585     np.atleast_1d(x), height, width, y, linewidth, hatch)
-       2587 # Now that units have been converted, set the tick locations.
-       2588 if orientation == 'vertical':
-    
-
-    File ~\anaconda3\envs\myenv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py:577, in broadcast_arrays(subok, *args)
-        570 # nditer is not used here to avoid the limit of 64 arrays.
-        571 # Otherwise, something like the following one-liner would suffice:
-        572 # return np.nditer(args, flags=['multi_index', 'zerosize_ok'],
-        573 #                  order='C').itviews
-        575 args = [np.array(_m, copy=None, subok=subok) for _m in args]
-    --> 577 shape = _broadcast_shape(*args)
-        579 result = [array if array.shape == shape
-        580           else _broadcast_to(array, shape, subok=subok, readonly=False)
-        581                           for array in args]
-        582 return tuple(result)
-    
-
-    File ~\anaconda3\envs\myenv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py:452, in _broadcast_shape(*args)
-        447 """Returns the shape of the arrays that would result from broadcasting the
-        448 supplied arrays against each other.
-        449 """
-        450 # use the old-iterator because np.nditer does not handle size 0 arrays
-        451 # consistently
-    --> 452 b = np.broadcast(*args[:64])
-        453 # unfortunately, it cannot handle 64 or more arguments directly
-        454 for pos in range(64, len(args), 63):
-        455     # ironically, np.broadcast does not properly handle np.broadcast
-        456     # objects (it treats them as scalars)
-        457     # use broadcasting to avoid allocating the full array
-    
-
-    ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 2 with shape (5,) and arg 3 with shape (3,).
-
-
-
-    
-![png](output_36_1.png)
-    
-
-
-
-```python
-
-```
+---
