@@ -251,6 +251,7 @@ df_less, metrics = measure_performance(
 optimized_mem_mb = df_less.memory_usage(deep=True).sum() / (1024**2)
 ```
 **Output**:
+<img width="413" height="186" alt="image" src="https://github.com/user-attachments/assets/dcba54e1-71c2-42e3-bcd1-7e9cf47bd188" />
 
 ![alt text](image.png)
 
