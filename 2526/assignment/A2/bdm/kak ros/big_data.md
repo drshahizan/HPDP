@@ -182,6 +182,7 @@ Only these columns were loaded from the CSV because they are directly relevant t
 3 examples were given to show the use of datain chunks in different instances. The airline along with the total number of flights operated, average delay and cancelled flight ratio per year was calculated using `chunk` function.
 
 **📚 Example 1: Airlines and Its Total Flights Operated**
+
 **Code**:
 ```python
 airline_counts = {}
@@ -210,6 +211,32 @@ airline_counts.get(airline, 0) + count
 <img width="680" height="33" alt="image" src="https://github.com/user-attachments/assets/70b428e2-7598-4f6c-81f4-f5faab3b9b23" />
 <img width="654" height="34" alt="image" src="https://github.com/user-attachments/assets/6974ea2b-6bcd-4612-a9db-22a4a7512e2a" />
 <img width="652" height="35" alt="image" src="https://github.com/user-attachments/assets/5177b3c6-62f5-4e00-9178-1c3ce78f8ce5" />
+
+**📚 Example 2: Average Delay**
+
+**Code**:
+```python
+total_delay = 0
+total_count = 0
+
+for file in files:
+    for chunk in pd.read_csv(file, usecols=["DEP_DELAY"], chunksize=100000):
+        total_delay += chunk["DEP_DELAY"].sum()
+        total_count += chunk["DEP_DELAY"].count()
+
+print("Average Delay:", total_delay / total_count)
+```
+
+**Explanation**:  
+1. `total_delay` stores sum of all delays and `total_count` stores number of valid delay entries.
+2. The dataset is read in chunks with only "DEP_DELAY" column is loaded
+3. For each chunk:
+   - `.sum()` adds all delay values in that chunk
+   - `.count()` counts non-missing values
+4. Final average is computed using `total_delay`/`total_count`.
+
+**Output Summary**:
+<img width="323" height="25" alt="image" src="https://github.com/user-attachments/assets/8b96fd12-5266-48be-a35b-f69ab60ef878" />
 
 
 ### Task 3.3 : Data Type Optimisation
