@@ -84,6 +84,45 @@ df.head()
 
 ---
 
+#### 🏷️ Column Names and Data Types
+
+```python
+display(df.dtypes.to_frame(name='Data Type').T)
+```
+
+| Column Name           | Data Type |
+| --------------------- | --------- |
+| `FL_DATE`             | object    |
+| `OP_CARRIER`          | object    |
+| `OP_CARRIER_FL_NUM`   | int64     |
+| `ORIGIN`              | object    |
+| `DEST`                | object    |
+| `CRS_DEP_TIME`        | int64     |
+| `DEP_TIME`            | float64   |
+| `DEP_DELAY`           | float64   |
+| `TAXI_OUT`            | float64   |
+| `WHEELS_OFF`          | float64   |
+| `WHEELS_ON`           | float64   |
+| `TAXI_IN`             | float64   |
+| `CRS_ARR_TIME`        | int64     |
+| `ARR_TIME`            | float64   |
+| `ARR_DELAY`           | float64   |
+| `CANCELLED`           | float64   |
+| `CANCELLATION_CODE`   | object    |
+| `DIVERTED `           | float64   |
+| `CRS_ELAPSED_TIME`    | float64   |
+| `ACTUAL_ELAPSED_TIME` | float64   |
+| `AIR_TIME`            | float64   |
+| `DISTANCE`            | float64   |
+| `CARRIER_DELAY`       | float64   |
+| `WEATHER_DELAY`       | float64   |
+| `NAS_DELAY`           | float64   |
+| `SECURITY_DELAY`      | float64   |
+| `LATE_AIRCRAFT_DELAY` | float64   |
+| `Unnamed:27`          | float64   |
+
+---
+
 ## 📌 Task 3 : Big Data Handling
 
 ### Task 3.1 : Load Less Data
