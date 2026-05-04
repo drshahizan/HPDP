@@ -682,7 +682,7 @@ Pandas performed the worst compared to the other libraries due to its eager loa
  
 This assignment benchmarked five big data handling strategies and three Python libraries against a 4.24 GB, 35-million-row anime dataset from MyAnimeList. The central findings are:
  
-1. **Column selection** is the most impactful single Pandas optimisation — reducing peak memory by 82% and load time by 76% by simply restricting to the three required columns.
+1. **Column selection** is the most impactful single Pandas optimisation. It reduce peak memory by 82% and load time by 76% by simply restricting to the three required columns.
 2. **Sampling** is the best strategy for rapid prototyping, delivering results in under 22 seconds with only 62 MB of peak memory, though it sacrifices data completeness.
 3. **PyArrow** is the fastest library for full-dataset workflows, completing a load-plus-aggregation benchmark in 15.4 seconds which is nearly 9× faster than Pandas because of its C++ multithreaded parser and columnar format.
 4. **Dask** is the most memory-efficient library for full-dataset processing, with a peak of only 2,658 MB, making it the best choice when RAM is the primary constraint.
