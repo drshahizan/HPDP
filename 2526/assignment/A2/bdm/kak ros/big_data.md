@@ -135,6 +135,45 @@ df.info()
 ## 📌 Task 3 : Big Data Handling
 
 ### Task 3.1 : Load Less Data
+**Code**:
+```python
+import pandas as pd
+
+# List all yearly files
+files = [f"{year}.csv" for year in range(2009, 2019)]
+
+# Columns we actually need
+columns_needed = [
+    "FL_DATE",
+    "OP_CARRIER",
+    "ORIGIN",
+    "DEST",
+    "DEP_DELAY",
+    "ARR_DELAY"
+]
+dfs = []
+
+for file in files:
+    df = pd.read_csv(file, usecols=columns_needed)
+    dfs.append(df)
+
+df_all = pd.concat(dfs, ignore_index=True)
+
+print(df_all.head())
+print(df_all.info())
+```
+
+**Explanation**:  
+When working with large datasets, it's often unnecessary to load all available columns into memory. By selecting only the relevant columns required for the task, memory usage and load time can be significantly reduced.
+
+**Implementation Summary**:  
+Only these columns were loaded from the CSV:
+
+* `danceability`, `energy`, `loudness`, `speechiness`,
+  `acousticness`, `instrumentalness`, `liveness`,
+  `valence`, `tempo`, `duration_ms`
+
+**Output Summary**:  
 ### Task 3.2 : Chunking
 ### Task 3.3 : Data Type Optimisation
 ### Task 3.4 : Sampling
