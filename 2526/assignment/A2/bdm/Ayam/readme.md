@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td>Afif Shaqir Irfan bin Arqam</td>
-    <td>A23CS</td>
+    <td>A23CS0204</td>
   </tr>
 </table>
 
