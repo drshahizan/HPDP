@@ -251,8 +251,10 @@ df_less, metrics = measure_performance(
 optimized_mem_mb = df_less.memory_usage(deep=True).sum() / (1024**2)
 ```
 **Output**:
+<img width="414" height="195" alt="image" src="https://github.com/user-attachments/assets/fb0c894b-d9f1-48c9-93ae-7f5c0cf460cd" />
+&nbsp;
+<img width="414" height="197" alt="image" src="https://github.com/user-attachments/assets/ce0fd92f-8f77-409d-a2c8-2b4770d0861c" />
 
-![alt text](image.png)
 
 **Results**:
 
@@ -424,6 +426,12 @@ def _dask_sample():
 
 _, metrics = measure_performance(_dask_sample)
 ```
+**Output**:
+<img width="415" height="166" alt="image" src="https://github.com/user-attachments/assets/2ef79071-39af-49ff-b2bb-08ccadbe49b3" />
+&nbsp;
+<img width="406" height="167" alt="image" src="https://github.com/user-attachments/assets/45980974-7ae8-4ade-a773-f8beded403c1" />
+&nbsp;
+<img width="403" height="139" alt="image" src="https://github.com/user-attachments/assets/35d2f3e8-d82a-4201-ad83-6c1c502892d0" />
 
 **Results**:
 
@@ -478,6 +486,10 @@ See Task 4 for full performance results and analysis.
 ---
 
 ## 🛠️ Task 4: Comparative Analysis
+
+<img width="1390" height="989" alt="image" src="https://github.com/user-attachments/assets/d11ab2c8-560b-4ff2-aa17-11209ade4489" />
+
+Across all four measured dimensions — memory usage, execution time, CPU load, and throughput — no single strategy dominates in every category, which reflects the inherent trade-offs of each approach. **Parallel Processing with Dask** used the least memory (443.41 MB) and achieved competitive throughput (454,726 records/sec), making it the most resource-efficient overall. **Data Type Optimisation** led on throughput (376,795 records/sec) and had the fastest execution time (28.67s), since it works on a smaller 200,000-row subset rather than the full dataset. **Sampling** also finished quickly (21.81s) for the same reason — it loads only 1 million rows — making both strategies ideal for rapid exploration. **Load Less Data** and **Chunking** both processed the full 10.8 million rows, which explains their higher memory and longer runtimes; however, Chunking stands out by keeping peak memory at just 58.31 MB throughout, making it the safest option when working within strict RAM limits.
 
 ### 📋 Library Comparison Table
 
@@ -558,13 +570,9 @@ Looking back at all five strategies and the three libraries, here are the main t
 
 ***My Observations:***
 
-- Polars loaded 1 million rows in 2.81 seconds while Pandas took 21.81 seconds — from the same file. The difference is huge just for sampling.
-- In the full pipeline, Polars finished in 23.76 seconds vs Pandas at 245.23 seconds. One thing I noticed though — Polars' filter step (11.02 seconds) was actually slower than Pandas' (6.13 seconds). I think it's because Polars had to fully convert everything into its column format first, which adds a bit of time before the filter can run.
-- Dask's total time (233.19 seconds) was almost the same as Pandas (245.23 seconds), but it only used 1,037 MB of memory vs Pandas' 5,026 MB. So on a single machine, Dask doesn't really save time — but it saves a lot of RAM.
+For Strategy 4, Polars loaded 1 million rows in 2.81 seconds compared to Pandas' 21.81 seconds, which was already a big gap just for sampling. In the full pipeline, Polars finished in 23.76 seconds versus Pandas at 245.23 seconds — about 10 times faster. One thing worth noting is that Polars' filter step (11.02s) was actually slower than Pandas' (6.13s), likely because Polars needs to fully convert the data into its columnar format before filtering can begin. Dask's total time (233.19s) ended up close to Pandas, but it only used 1,037 MB of memory compared to Pandas' 5,026 MB, so the trade-off is memory savings rather than speed on a single machine.
 
-***What Surprised Me:*** I didn't think Polars would be 20 times faster just at loading. I assumed the big difference would be in the computation steps, not the CSV reading part. Seeing that loading 2.1 GB takes under 12 seconds in Polars but nearly 4 minutes in Pandas was kind of eye-opening. For any project that needs to load big files often, switching to Polars seems like an easy improvement.
-
-***Scalability:*** At 10 GB, Polars might still work if the machine has enough RAM, but Pandas would likely need chunking or just crash. At 100 GB, neither Polars nor Pandas can hold that much data in memory — Dask would be needed. At 1 TB or above, even Dask on one machine isn't enough. You'd need something like Apache Spark or a cloud service like BigQuery or AWS Athena.
+What surprised me most was how much of the speed difference happened at the loading step, not the computation. I expected Polars to be faster at filtering or aggregating, but seeing a 2.1 GB file load in under 12 seconds versus nearly 4 minutes in Pandas was unexpected. On scalability, Polars could still handle 10 GB given enough RAM, but at 100 GB both Polars and Pandas would struggle and Dask becomes necessary. At 1 TB or more, even Dask on a single machine isn't enough — you'd need something like Apache Spark or a cloud solution like BigQuery or AWS Athena.
 
 ---
 
@@ -574,13 +582,9 @@ Looking back at all five strategies and the three libraries, here are the main t
 
 ***My Observations:***
 
-- Strategy 1 dropped memory from ~6,048 MB to ~2,068.93 MB just by adding `usecols` to the read call. That's a 65% reduction with almost zero extra work.
-- With chunking, the dataset was never fully in memory — peak usage stayed at 58.31 MB the whole way through 10.8 million rows. That's pretty impressive for something so straightforward.
-- Strategy 3 reduced memory from 85.18 MB to 58.28 MB on 200,000 rows by setting the right dtypes. Columns like `Registration State`, `Plate Type`, `Vehicle Body Type`, and `Vehicle Make` had the biggest impact since they each have a small set of unique values that repeat millions of times.
+Strategy 1 cut memory from around 6,048 MB down to 2,068 MB just by adding usecols to the read call — a 65% reduction with almost no extra effort. Strategy 2 kept peak memory at only 58.31 MB throughout the entire 10.8 million row file by processing one chunk at a time, which is a straightforward but effective approach when RAM is limited. Strategy 3 brought memory down from 85.18 MB to 58.28 MB on 200,000 rows by assigning proper dtypes upfront — columns like Registration State and Vehicle Make gave the biggest savings since they hold very few unique values that repeat across millions of rows.
 
-***What Surprised Me:*** I was surprised that Pandas used 5,026 MB to load a 2.1 GB file — that's more than double the file size on disk. Apparently Pandas turns every string value into a Python object, and those objects take up a lot more space than the raw text. I also didn't expect Strategy 1 to cut load time by 55%. I thought reading speed was mostly about disk speed, but it turns out parsing and storing 36 extra columns takes a lot of time too.
-
-***Scalability:*** Strategies 1 and 2 both work regardless of file size. You can chunk through a 1 TB file if you have enough time. Strategy 3 also scales well — the percentage savings stay consistent no matter how many rows you have. These three strategies are a solid foundation before you even think about bringing in more advanced libraries.
+What surprised me was that Pandas used 5,026 MB to load a 2.1 GB file — more than double the size on disk. The reason is that Pandas stores every string as a separate Python object, which carries a lot of overhead beyond the raw text. I also didn't expect Strategy 1 to speed up loading by 55%, since I assumed disk read speed was the main bottleneck. It turns out parsing and storing 36 unused columns adds significant time on its own. On scalability, Strategies 1, 2, and 3 all hold up regardless of file size since the memory savings scale proportionally — they're a solid first step before reaching for more advanced tools.
 
 ### 🌐 Scalability Outlook
 
