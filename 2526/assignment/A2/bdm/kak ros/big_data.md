@@ -242,7 +242,7 @@ print("Average Delay:", total_delay / total_count)
 
 
 
-**📚 Example 3: Cancelled Flights Ratio {er Year**
+**📚 Example 3: Cancelled Flights Ratio Per Year**
 
 **Code**:
 ```python
@@ -282,6 +282,31 @@ print("Cancelled flights ratio per year: ", year_stats)
 
 
 ### Task 3.3 : Data Type Optimisation
+Thecolumns used in all 3 examples were assigned a much more efficient data type to reduce the memory usage, improve computation speed and to allow larger data to be processed within limited resources.
+
+
+**📚 Example 1: Airlines and Its Total Flights Operated**
+
+**Code**:
+```python
+for chunk in pd.read_csv(file, usecols=["OP_CARRIER"], chunksize=100000, dtype={"OP_CARRIER": "category"}): #Optimised dtype
+```
+
+**📚 Example 2: Average Delay**
+
+**Code**:
+```python
+for chunk in pd.read_csv(file, usecols=["DEP_DELAY"], chunksize=100000, dtype={"DEP_DELAY": "float32"}): #Optimised dtype
+```
+
+**📚 Example 3: Cancelled Flights Ratio Per Year**
+
+**Code**:
+```python
+for chunk in pd.read_csv(file, usecols=["CANCELLED"], chunksize=100000, dtype={"CANCELLED": "int8"}): #Optimised dtype
+```
+
+
 ### Task 3.4 : Sampling
 **Consolidate and Measure Dataset** : Exports the fully combined DataFrame (df_all) into a single, consolidated CSV file to be used for subsequent processing. It then utilizes the os module to retrieve the physical file size on the disk, displaying the final megabytes alongside the total row and column counts for verification.
 ```python
