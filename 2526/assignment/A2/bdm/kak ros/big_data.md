@@ -47,6 +47,91 @@ To load the dataset efficiently in Google Colab without crashing the kernel, we 
    Using Kaggle CLI to fetch the dataset directly into the Colab environment:
    ```bash
    !kaggle datasets download -d yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018
+   ```
+
+2. **Unzipped the Dataset File**
+   Extracted the dataset ZIP file:
+   ```bash
+   !unzip airline-delay-and-cancellation-data-2009-2018.zip
+   ```
+
+3. **Loaded a Sample (100 Rows) Using `pandas.read_csv()`**
+   This is to allow quicker inspection without overloading memory:
+
+   ```python
+   import pandas as pd
+   df = pd.read_csv("2009.csv")
+   df.head()
+   ```
+
+---
+
+## 📌 Task 3 : Big Data Handling
+
+### Task 3.1 : Load Less Data
+### Task 3.2 : Chunking
+### Task 3.3 : Data Type Optimisation
+### Task 3.4 : Sampling
+### Task 3.5 : Parallel Processing with Scalable Libraries
+```python
+import time
+import tracemalloc
+import pandas as pd
+import dask.dataframe as dd
+import polars as pl
+
+# We will benchmark using one year so Pandas doesn't crash
+filename = "2009.csv"
+columns = ['OP_CARRIER', 'DEP_DELAY']
+
+print("--- BENCHMARKING STARTED ---\n")
+
+# 1. PANDAS (The Baseline)
+print("Running Pandas...")
+tracemalloc.start()
+start_time = time.time()
+
+df_pd = pd.read_csv(filename, usecols=columns)
+pd_result = df_pd.groupby('OP_CARRIER')['DEP_DELAY'].mean()
+
+pd_time = time.time() - start_time
+_, pd_peak = tracemalloc.get_traced_memory()
+tracemalloc.stop()
+print(f"Pandas -> Time: {pd_time:.4f} sec | Peak Memory: {pd_peak / 10**6:.2f} MB\n")
+
+# 2. DASK
+print("Running Dask...")
+tracemalloc.start()
+start_time = time.time()
+
+# Dask uses lazy evaluation, so .compute() triggers the execution
+df_dask = dd.read_csv(filename, usecols=columns)
+dask_result = df_dask.groupby('OP_CARRIER')['DEP_DELAY'].mean().compute()
+
+dask_time = time.time() - start_time
+_, dask_peak = tracemalloc.get_traced_memory()
+tracemalloc.stop()
+print(f"Dask -> Time: {dask_time:.4f} sec | Peak Memory: {dask_peak / 10**6:.2f} MB\n")
+
+# 3. POLARS
+print("Running Polars...")
+tracemalloc.start()
+start_time = time.time()
+
+# Polars lazy scanning
+q = (
+    pl.scan_csv(filename)
+    .select(columns)
+    .group_by('OP_CARRIER')
+    .agg(pl.col('DEP_DELAY').mean())
+)
+polars_result = q.collect()
+
+polars_time = time.time() - start_time
+_, polars_peak = tracemalloc.get_traced_memory()
+tracemalloc.stop()
+print(f"Polars -> Time: {polars_time:.4f} sec | Peak Memory: {polars_peak / 10**6:.2f} MB\n")
+```
 
 ---
 
