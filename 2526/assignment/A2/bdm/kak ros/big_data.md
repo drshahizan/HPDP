@@ -128,7 +128,7 @@ display(df.dtypes.to_frame(name='Data Type').T)
 ```python
 df.info()
 ```
-<img width="426" height="772" alt="image" src="https://github.com/user-attachments/assets/42248717-8b37-47e0-b533-0e3589cce730" />
+<img width="326" height="572" alt="image" src="https://github.com/user-attachments/assets/42248717-8b37-47e0-b533-0e3589cce730" />
 
 ---
 
