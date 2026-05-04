@@ -362,7 +362,7 @@ delayed_percentage = (delayed_flights / total_rows) * 100
 | Metric | Value |
 |--------|-------|
 | Execution Time | 23.54 seconds |
-| Memory Change | +46.06 MB |
+| Memory Change | -46.06 MB |
 
 ---
 
@@ -408,11 +408,17 @@ Same implementation as Section 4.5.
 
 ### 4.7 Overall Analysis
 
-All methods produced identical analytical results, confirming that different strategies affect performance but not correctness. Polars achieved the fastest execution time at 1.56 seconds due to its lazy query engine, Apache Arrow columnar memory format, and Rust-level multi-threaded execution. Sampling used the least additional memory at +0.64 MB and is most suitable for fast exploratory work. Chunking provided the best balance between memory efficiency and full dataset processing at +37.73 MB across 2,000,000 rows.
+All methods produced identical analytical results, confirming that different strategies affect performance but not correctness. Polars achieved the fastest execution time at 1.56 seconds due to its use of lazy evaluation, vectorised operations, and multi-threaded execution implemented in Rust. These features allow Polars to optimise query execution before processing and fully utilise available CPU cores, resulting in significantly faster performance compared to other libraries.
 
-Data type optimisation demonstrated the most dramatic internal memory reduction, shrinking the DataFrame from 371.95 MB to 32.50 MB — a 91.26% saving — confirming that Pandas default types are wasteful for datasets containing repeated categorical values. Dask was the slowest in this experiment due to scheduling overhead on a single machine, but remains the appropriate choice for distributed processing or datasets that genuinely exceed available RAM.
+Sampling used the least additional memory at +0.64 MB and is most suitable for fast exploratory analysis and rapid development. Chunking provided the best balance between memory efficiency and full dataset processing, maintaining low memory usage at +37.73 MB while still processing all 2,000,000 rows. This makes chunking highly practical in memory-constrained environments such as Google Colab.
 
-Memory values may vary due to Python garbage collection and OS-level memory reuse, where freed pages are reclaimed and reused during subsequent operations. Therefore, memory results should be interpreted carefully alongside execution time rather than considered independently.
+Data type optimisation demonstrated the most significant internal memory reduction, shrinking the DataFrame from 371.95 MB to 32.50 MB, representing a 91.26% reduction. This highlights that default Pandas data types are often inefficient, especially for columns with limited numeric ranges or repeated categorical values, and optimising these types can greatly improve performance.
+
+Dask was the slowest in this experiment due to overhead from task scheduling and partition coordination. While this overhead reduces performance in a single-machine environment, Dask remains a powerful solution for distributed computing scenarios and for processing datasets that exceed available system memory.
+
+From a practical perspective, the choice of strategy and library depends on the use case. Polars is most suitable for high-speed analytical tasks on large datasets that fit into memory, while Pandas remains a reliable option for small to medium-sized datasets due to its simplicity and extensive ecosystem. Dask is more appropriate for large-scale or distributed environments where parallel processing across multiple machines is required.
+
+Memory values may vary due to Python garbage collection and OS-level memory reuse, where freed memory is reclaimed and reused during execution. Therefore, memory measurements should be interpreted alongside execution time rather than as absolute values.
 
 ## 5. Results and Analysis
 
@@ -428,9 +434,9 @@ The following table summarises the execution time and memory usage of each strat
 |--------------------|-------------------|--------------------|
 | Load Less Data | 16.72 | 198.75 |
 | Chunking | 12.93 | 37.73 |
-| Data Type Optimisation | 2.79 | - |
+| Data Type Optimisation | 2.79 | 46.42 |
 | Sampling | 3.99 | 0.64 |
-| Pandas Baseline | 23.54 | 46.06 |
+| Pandas Baseline | 23.54 | - 46.06 |
 | Dask | 38.60 | 169.91 |
 | Polars | 1.56 | 47.82 |
 
@@ -450,13 +456,19 @@ The following table compares the performance of Pandas, Polars, and Dask for the
 
 | Library | Execution Time (s) | Memory Change (MB) |
 |---------|-------------------|--------------------|
-| Pandas | 23.54 | 46.06 |
+| Pandas | 23.54 |- 46.06 |
 | Polars | 1.56 | 47.82 |
 | Dask | 38.60 | 169.91 |
 
 Polars demonstrated the fastest performance due to its optimised execution model and efficient internal processing. Pandas provided a reliable and straightforward implementation but required more time to complete the same task. Dask, while slower in this experiment, remains useful for handling datasets that exceed memory limits or require distributed processing.
 
-It is important to note that memory values may vary due to Python’s garbage collection mechanism, where unused memory is released during execution. As a result, memory measurements should be interpreted alongside execution time rather than as absolute values.
+It is important to note that the recorded memory change for the Pandas baseline appeared as a negative value (-46.06 MB). This does not indicate that the operation consumed negative memory. Instead, it is a result of Python’s garbage collection and memory management behaviour.
+
+During execution, temporary objects created by Pandas may be released or reused by the Python interpreter before the final memory measurement is taken. As a result, the memory usage after execution can appear lower than before execution, leading to a negative memory change value.
+
+Therefore, memory measurements in this experiment should be interpreted as approximate indicators rather than absolute values. For more accurate analysis, peak memory usage would be a more reliable metric. Despite this fluctuation, the execution time remains a consistent and reliable measure for comparing performance across libraries.
+
+From a practical perspective, the choice of library depends on the use case. Polars is most suitable for high-speed analytical tasks on large datasets that can fit into memory. Pandas remains a reliable option for small to medium-sized datasets due to its simplicity and extensive ecosystem. Dask is more appropriate for distributed computing scenarios or datasets that exceed available memory, where parallel processing across multiple machines is required.
 
 ---
 
@@ -486,7 +498,7 @@ Polars achieved the fastest execution time at 1.56 seconds, making it the most e
 
 Among the data handling strategies, chunking proved to be the most practical approach for processing the full dataset while maintaining low memory usage. Data type optimisation resulted in a significant memory reduction of 91.26%, highlighting the importance of selecting appropriate data types when working with large datasets. Sampling was effective for quick exploratory analysis, producing results that closely matched the full dataset with minimal execution time and memory usage.
 
-Overall, the findings confirm that there is no single best method for all scenarios. The choice of strategy depends on the specific requirements, whether it is execution speed, memory efficiency, or scalability.
+Overall, the findings confirm that there is no single best method for all scenarios. The choice of strategy depends on the specific requirements, whether it is execution speed, memory efficiency, or scalability.Although Polars provides superior speed, it may have compatibility limitations compared to Pandas, which offers broader support across data science libraries and tools. Therefore, the choice between performance and compatibility must be considered when selecting a data processing library.
 
 ---
 
