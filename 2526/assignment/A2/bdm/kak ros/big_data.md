@@ -176,9 +176,11 @@ Only these columns were loaded from the CSV because they are directly relevant t
 - Route-based insights
 
 **Output Summary**:
-<img width="398" height="289" alt="image" src="https://github.com/user-attachments/assets/18795792-88d6-464d-9122-7e72d7790783" />
+<img width="398" height="339" alt="image" src="https://github.com/user-attachments/assets/18795792-88d6-464d-9122-7e72d7790783" />
 
 ### Task 3.2 : Chunking
+3 examples were given to show the use of datain chunks in different instances. The airline along with the total number of flights operated, average delay and cancelled flight ratio per year was calculated using `chunk` function.
+
 ### Task 3.3 : Data Type Optimisation
 ### Task 3.4 : Sampling
 ### Task 3.5 : Parallel Processing with Scalable Libraries
