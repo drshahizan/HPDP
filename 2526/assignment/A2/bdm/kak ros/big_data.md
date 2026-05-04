@@ -181,6 +181,37 @@ Only these columns were loaded from the CSV because they are directly relevant t
 ### Task 3.2 : Chunking
 3 examples were given to show the use of datain chunks in different instances. The airline along with the total number of flights operated, average delay and cancelled flight ratio per year was calculated using `chunk` function.
 
+**📚 Example 1: Airlines and Its Total Flights Operated**
+**Code**:
+```python
+airline_counts = {}
+
+for file in files:
+    for chunk in pd.read_csv(file, usecols=["OP_CARRIER"], chunksize=100000):
+        counts = chunk["OP_CARRIER"].value_counts()
+
+        for airline, count in counts.items():
+            airline_counts[airline] = airline_counts.get(airline, 0) + count
+
+print("Airline, Total Flights Operated: ", sorted(airline_counts.items(), key=lambda x: x[1], reverse=True)[:10])
+```
+
+**Explanation**:  
+1. A dictionary airline_counts is created to store total flight counts for each airline.
+2. The dataset is processed file by file and chunk by chunk. Only the `"OP_CARRIER"` column is loaded and each chunk contains 100,000 rows.
+3. For each chunk, `value_counts()` counts how many times each airline appears.
+4. Existing counts are updated using:
+```python
+airline_counts.get(airline, 0) + count
+```
+5. Finally, results are sorted in descending order and top 10 airlines are displayed.
+
+**Output Summary**:
+<img width="680" height="33" alt="image" src="https://github.com/user-attachments/assets/70b428e2-7598-4f6c-81f4-f5faab3b9b23" />
+<img width="654" height="34" alt="image" src="https://github.com/user-attachments/assets/6974ea2b-6bcd-4612-a9db-22a4a7512e2a" />
+<img width="652" height="35" alt="image" src="https://github.com/user-attachments/assets/5177b3c6-62f5-4e00-9178-1c3ce78f8ce5" />
+
+
 ### Task 3.3 : Data Type Optimisation
 ### Task 3.4 : Sampling
 ### Task 3.5 : Parallel Processing with Scalable Libraries
