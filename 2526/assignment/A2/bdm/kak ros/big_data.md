@@ -306,6 +306,8 @@ for chunk in pd.read_csv(file, usecols=["DEP_DELAY"], chunksize=100000, dtype={"
 for chunk in pd.read_csv(file, usecols=["CANCELLED"], chunksize=100000, dtype={"CANCELLED": "int8"}): #Optimised dtype
 ```
 
+Not all columns were used in the data analysis process, thus only columns that were used were optimised for higher efficiency.
+
 
 ### Task 3.4 : Sampling
 **Consolidate and Measure Dataset** : Exports the fully combined DataFrame (df_all) into a single, consolidated CSV file to be used for subsequent processing. It then utilizes the os module to retrieve the physical file size on the disk, displaying the final megabytes alongside the total row and column counts for verification.
