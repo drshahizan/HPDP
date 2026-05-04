@@ -1,7 +1,7 @@
 # 📘 Assignment 2: Mastering Big Data Handling
 
 **Group Members**:  
-- Student 1: *Harini A/P Sangaran, A23CS0*  
+- Student 1: *Harini A/P Sangaran, A23CS0081*  
 - Student 2: *Nurul Adriana Binti Kamal Jefri, A23CS0258*
 
 ---
