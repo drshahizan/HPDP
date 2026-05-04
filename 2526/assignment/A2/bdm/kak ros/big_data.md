@@ -55,14 +55,29 @@ To load the dataset efficiently in Google Colab without crashing the kernel, we 
    !unzip airline-delay-and-cancellation-data-2009-2018.zip
    ```
 
-3. **Loaded a Sample (100 Rows) Using `pandas.read_csv()`**
+3. **Loaded a Sample Using `pandas.read_csv()`**
    This is to allow quicker inspection without overloading memory:
 
    ```python
    import pandas as pd
    df = pd.read_csv("2009.csv")
-   df.head()
    ```
+
+---
+
+### 🔹 Dataset Inspection
+
+#### 📌 First 5 Rows
+
+```python
+pd.set_option('display.max_columns', None)
+df.head()
+```
+
+|index|FL_DATE|OP_CARRIER|OP_CARRIER_FL_NUM|ORIGIN|DEST|CRS_DEP_TIME|DEP_TIME|DEP_DELAY|TAXI_OUT|WHEELS_OFF|WHEELS_ON|TAXI_IN|CRS_ARR_TIME|ARR_TIME|ARR_DELAY|CANCELLED|CANCELLATION_CODE|DIVERTED|CRS_ELAPSED_TIME|ACTUAL_ELAPSED_TIME|AIR_TIME|DISTANCE|CARRIER_DELAY|WEATHER_DELAY|NAS_DELAY|SECURITY_DELAY|LATE_AIRCRAFT_DELAY|Unnamed:27|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+|0|2009-01-01|XE|1204|DCA|EWR|1100|1058.0|-2.0|18.0|1116.0|1158.0|8.0|1202|1206.0|4.0|0.0|NaN|0.0|62.0|68.0|42.0|199.0|NaN|NaN|NaN|NaN|NaN|NaN|
 
 ---
 
