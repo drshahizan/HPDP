@@ -1,3 +1,11 @@
+# 📘 Assignment 2: Mastering Big Data Handling
+
+**Group Members**:  
+- Student 1: *Harini A/P Sangaran, A23CS0*  
+- Student 2: *Nurul Adriana Binti Kamal Jefri, A23CS0258*
+
+---
+
 ## 📝 Task 1: Dataset Selection
 
 ### 📌 Dataset Overview
@@ -57,8 +65,7 @@ To evaluate the efficiency of big data handling strategies, we benchmarked our b
 ---
 
 ### 📊 Visual Comparison
-![Performance Comparison Chart](comparison_bar_chart.png) 
-*(Note: Upload your generated chart to GitHub and ensure the filename matches)*
+<img width="1361" height="593" alt="comparison bar chart" src="https://github.com/user-attachments/assets/b7ac6bda-ac5d-437a-bbfd-1738bf9b06a2" /> [Performance Comparison Chart]
 
 ### 🧠 Interpretation:
 The performance comparison reveals key differences in execution behavior:
