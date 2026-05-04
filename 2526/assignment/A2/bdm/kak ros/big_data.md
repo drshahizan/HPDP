@@ -176,7 +176,7 @@ Only these columns were loaded from the CSV because they are directly relevant t
 - Route-based insights
 
 **Output Summary**:
-<img width="598" height="439" alt="image" src="https://github.com/user-attachments/assets/18795792-88d6-464d-9122-7e72d7790783" />
+<img width="398" height="239" alt="image" src="https://github.com/user-attachments/assets/18795792-88d6-464d-9122-7e72d7790783" />
 
 ### Task 3.2 : Chunking
 ### Task 3.3 : Data Type Optimisation
