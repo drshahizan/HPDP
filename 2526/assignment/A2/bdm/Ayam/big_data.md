@@ -3,7 +3,7 @@
 **Course**: SECP3133 – High Performance Data Processing  
 **Group Members**:
 - Student 1: *MUHAMMAD ADAM BIN RAZALI, A23CS0116*
-- Student 2: *AFIF SHAQIR IRFAN BIN ARQAM, A23CS*
+- Student 2: *AFIF SHAQIR IRFAN BIN ARQAM, A23CS0204*
 
 ---
 
