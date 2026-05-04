@@ -22,8 +22,8 @@
 
 | File | Purpose | Open |
 |------|---------|------|
-| `big_data.md` | Full written report covering all tasks, strategies, analysis, and reflection | [![View](https://img.shields.io/badge/View-Report-blue?logo=markdown)](big_data.md) |
-| `big_data.ipynb` | Executed Jupyter notebook with annotated Python code and all outputs | [![Open](https://img.shields.io/badge/Open-Notebook-green?logo=jupyter)](big_data.ipynb) |
+| `big_data.md` | Full written report covering all tasks, strategies, analysis, and reflection | [![View](https://img.shields.io/badge/View-Report-blue?logo=markdown)](https://github.com/drshahizan/HPDP/blob/main/2526/assignment/A2/bdm/Ayam/big_data.md) |
+| `big_data.ipynb` | Executed Jupyter notebook with annotated Python code and all outputs | [![Open](https://img.shields.io/badge/Open-Notebook-green?logo=jupyter)](https://github.com/drshahizan/HPDP/blob/main/2526/assignment/A2/bdm/Ayam/big_data.ipynb) |
 
 ---
 
