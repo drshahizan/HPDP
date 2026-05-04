@@ -282,7 +282,7 @@ print("Cancelled flights ratio per year: ", year_stats)
 
 
 ### Task 3.3 : Data Type Optimisation
-Thecolumns used in all 3 examples were assigned a much more efficient data type to reduce the memory usage, improve computation speed and to allow larger data to be processed within limited resources.
+The columns used in all 3 examples were assigned a much more efficient data type to reduce the memory usage, improve computation speed and to allow larger data to be processed within limited resources.
 
 
 **📚 Example 1: Airlines and Its Total Flights Operated**
