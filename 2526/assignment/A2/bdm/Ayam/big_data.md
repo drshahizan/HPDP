@@ -569,8 +569,6 @@ Looking back at all five strategies and the three libraries, here are the main t
 
 ***My Parts:*** Strategy 4 (Sampling), Strategy 5 (Parallel Processing), and Comparative Analysis.
 
-***My Observations:***
-
 For Strategy 4, Polars loaded 1 million rows in 2.81 seconds compared to Pandas' 21.81 seconds, which was already a big gap just for sampling. In the full pipeline, Polars finished in 23.76 seconds versus Pandas at 245.23 seconds — about 10 times faster. One thing worth noting is that Polars' filter step (11.02s) was actually slower than Pandas' (6.13s), likely because Polars needs to fully convert the data into its columnar format before filtering can begin. Dask's total time (233.19s) ended up close to Pandas, but it only used 1,037 MB of memory compared to Pandas' 5,026 MB, so the trade-off is memory savings rather than speed on a single machine.
 
 What surprised me most was how much of the speed difference happened at the loading step, not the computation. I expected Polars to be faster at filtering or aggregating, but seeing a 2.1 GB file load in under 12 seconds versus nearly 4 minutes in Pandas was unexpected. On scalability, Polars could still handle 10 GB given enough RAM, but at 100 GB both Polars and Pandas would struggle and Dask becomes necessary. At 1 TB or more, even Dask on a single machine isn't enough — you'd need something like Apache Spark or a cloud solution like BigQuery or AWS Athena.
@@ -580,8 +578,6 @@ What surprised me most was how much of the speed difference happened at the load
 ***AFIF SHAQIR IRFAN BIN ARQAM:***
 
 ***My Parts:*** Task 2 (Load and Inspect Data), Strategy 1 (Load Less Data), Strategy 2 (Chunking), and Strategy 3 (Data Type Optimisation).
-
-***My Observations:***
 
 Strategy 1 cut memory from around 6,048 MB down to 2,068 MB just by adding usecols to the read call — a 65% reduction with almost no extra effort. Strategy 2 kept peak memory at only 58.31 MB throughout the entire 10.8 million row file by processing one chunk at a time, which is a straightforward but effective approach when RAM is limited. Strategy 3 brought memory down from 85.18 MB to 58.28 MB on 200,000 rows by assigning proper dtypes upfront — columns like Registration State and Vehicle Make gave the biggest savings since they hold very few unique values that repeat across millions of rows.
 
