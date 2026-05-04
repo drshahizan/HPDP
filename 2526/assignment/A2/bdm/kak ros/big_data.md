@@ -208,9 +208,9 @@ airline_counts.get(airline, 0) + count
 5. Finally, results are sorted in descending order and top 10 airlines are displayed.
 
 **Output Summary**:
-<img width="680" height="33" alt="image" src="https://github.com/user-attachments/assets/70b428e2-7598-4f6c-81f4-f5faab3b9b23" />
-<img width="654" height="34" alt="image" src="https://github.com/user-attachments/assets/6974ea2b-6bcd-4612-a9db-22a4a7512e2a" />
-<img width="652" height="35" alt="image" src="https://github.com/user-attachments/assets/5177b3c6-62f5-4e00-9178-1c3ce78f8ce5" />
+<img width="1659" height="36" alt="image" src="https://github.com/user-attachments/assets/ec84e2a5-b4e1-4aaf-8514-d4ca3b5d4995" />
+<img width="323" height="36" alt="image" src="https://github.com/user-attachments/assets/0af19bd2-01a5-4dac-a0e9-5857145fcbaf" />
+
 
 **📚 Example 2: Average Delay**
 
