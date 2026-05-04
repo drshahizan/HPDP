@@ -262,15 +262,18 @@ print("Cancelled flights ratio per year: ", year_stats)
 ```
 
 **Explanation**:  
-1. `total_delay` stores sum of all delays and `total_count` stores number of valid delay entries.
-2. The dataset is read in chunks with only "DEP_DELAY" column is loaded
-3. For each chunk:
-   - `.sum()` adds all delay values in that chunk
-   - `.count()` counts non-missing values
-4. Final average is computed using `total_delay`/`total_count`.
+1. A dictionary year_stats stores cancellation ratios for each year.
+2. For each chunk:
+   - `len(chunk)` stores the total flights
+   - "CANCELLED" column contains values 1 which means cancelled and 0 which means not cancelled
+   - `.sum()` counts total cancelled flights
+3. Cancellation ratio is computed using `cancelled`/`total`, whereby `cancelled` contains the total number of flights cancelled for the year and `total` contains the total number of flights operated in the year.
 
 **Output Summary**:
-<img width="323" height="25" alt="image" src="https://github.com/user-attachments/assets/8b96fd12-5266-48be-a35b-f69ab60ef878" />
+<img width="1549" height="31" alt="image" src="https://github.com/user-attachments/assets/bc589a83-ffde-4f43-bcc6-efbced5decb3" />
+<img width="1608" height="31" alt="image" src="https://github.com/user-attachments/assets/10025b17-8fa7-4be1-b19d-e8a5bae7814d" />
+<img width="1203" height="31" alt="image" src="https://github.com/user-attachments/assets/08325eea-cc77-4b47-9c8a-c6d8a3568df8" />
+
 
 ### Task 3.3 : Data Type Optimisation
 ### Task 3.4 : Sampling
