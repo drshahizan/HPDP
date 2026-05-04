@@ -179,7 +179,7 @@ Only these columns were loaded from the CSV because they are directly relevant t
 <img width="398" height="339" alt="image" src="https://github.com/user-attachments/assets/18795792-88d6-464d-9122-7e72d7790783" />
 
 ### Task 3.2 : Chunking
-3 examples were given to show the use of datain chunks in different instances. The airline along with the total number of flights operated, average delay and cancelled flight ratio per year was calculated using `chunk` function.
+Chunking ensures that only a small portion of data is in memory at any time and prevents memory overflow. 3 examples were given to show the use of datain chunks in different instances. The airline along with the total number of flights operated, average delay and cancelled flight ratio per year was calculated using `chunk` function.
 
 **📚 Example 1: Airlines and Its Total Flights Operated**
 
