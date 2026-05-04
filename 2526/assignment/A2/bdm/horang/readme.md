@@ -32,9 +32,7 @@ In this assignment，we explores techniques for handling and optimizing large-sc
 - **Source**: [Kaggle - Genius Song Lyrics](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information/data) 
 - **Domain**: Music / Entertainment
 - **File Size**: 9.07 GB  
-- **Dimensions**: 1,000,000 rows × 10 columns (subset of original dataset)
-
-> Note: The original dataset contains additional columns and more records. However, due to memory constraints, one high-volume column (lyrics) was excluded, and the dataset was limited to 1 million rows to ensure stable processing and fair performance benchmarking.
+- **Dimensions**: 5134856 rows × 11 columns
 
 ### 📌 Dataset Description
 This dataset contains song-related information collected up to 2022 from Genius, a platform where users contribute and annotate lyrics, poems, and other textual content—primarily music lyrics. The dataset presents several preprocessing challenges. Lyrics are stored in a structured format that often includes metadata enclosed in square brackets within the text. Additionally, the lyrical content preserves line breaks and formatting, resulting in a large number of newline characters that can complicate data loading and text processing. Other attributes, such as audio features and languages, also require cleaning and transformation before analysis.
@@ -85,7 +83,6 @@ We compared the tools based on the following metrics:
 - Memory Usage  
 - Execution Time  
 - CPU Utilization    
-- Throughput (records per second)  
 
 ---
 
