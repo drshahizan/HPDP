@@ -440,13 +440,30 @@ The following table summarises the execution time and memory usage of each strat
 | Dask | 38.60 | 169.91 |
 | Polars | 1.56 | 47.82 |
 
-From the results, Polars achieved the fastest execution time at 1.56 seconds, making it the most efficient option when speed is the primary concern. Sampling and data type optimisation also performed well due to reduced data size and improved memory efficiency.
+### Execution Time Comparison
 
-Chunking provided a good balance between performance and memory usage. It processed the full dataset while maintaining relatively low memory consumption, making it suitable for large datasets that cannot fit entirely into memory.
+![Execution Time](images/execution_time_chart.jpeg)
 
-The "Load Less Data" strategy reduced the number of columns processed but still required loading the entire dataset, resulting in higher memory usage. Pandas baseline processing was slower than most optimised methods because it loads and processes the full dataset directly.
+The chart above illustrates the execution time differences across various data processing strategies. Polars demonstrates the fastest performance, while Dask shows the slowest execution due to overhead from parallel task scheduling.
 
-Dask recorded the highest execution time in this experiment. Although it supports parallel processing, the overhead of task scheduling and partition management reduced its efficiency for this dataset size.
+---
+
+### Memory Usage Comparison
+
+![Memory Usage](images/memory_usage_chart.jpeg)
+
+The memory usage chart highlights that sampling consumes the least memory, while the "Load Less Data" strategy still results in high memory usage due to full dataset loading. Dask also shows higher memory consumption due to partition handling and overhead.
+
+
+Based on the results presented in the table and visualised in the charts above, Polars achieved the fastest execution time at 1.56 seconds, making it the most efficient option when speed is the primary concern. This superior performance is due to its optimised execution model, including lazy evaluation and multi-threaded processing.
+
+Sampling and data type optimisation also performed efficiently, as they reduce the amount of data processed and improve memory usage. In particular, data type optimisation significantly reduces the in-memory footprint of the dataset, while sampling allows faster exploratory analysis with minimal resource consumption.
+
+Chunking provided a good balance between performance and memory usage. As shown in the charts, it processes the full dataset while maintaining relatively low memory consumption, making it suitable for large datasets that cannot fit entirely into memory.
+
+The "Load Less Data" strategy reduced the number of columns processed; however, it still required loading the entire dataset, which explains the relatively high memory usage observed in the chart.
+
+Pandas baseline processing was slower compared to optimised methods because it loads and processes the full dataset in a single-threaded manner. Dask recorded the highest execution time in this experiment. Although it supports parallel processing, the overhead of task scheduling and partition management reduced its efficiency in a single-machine environment such as Google Colab.
 
 ---
 
