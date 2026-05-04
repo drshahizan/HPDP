@@ -255,6 +255,9 @@ print(f"Total rows    : {df_all.shape[0]:,}")
 print(f"Total columns : {df_all.shape[1]}")
 print(f"Combined size : {size_mb:.1f} MB")
 ```
+Output:
+<img width="217" height="57" alt="image" src="https://github.com/user-attachments/assets/fcd0016c-8ccd-4717-86d1-c640a77a6f64" />
+
 
 ### Task 3.5 : Parallel Processing with Scalable Libraries
 ```python
@@ -316,6 +319,9 @@ _, polars_peak = tracemalloc.get_traced_memory()
 tracemalloc.stop()
 print(f"Polars -> Time: {polars_time:.4f} sec | Peak Memory: {polars_peak / 10**6:.2f} MB\n")
 ```
+Output:
+<img width="421" height="184" alt="image" src="https://github.com/user-attachments/assets/e2fa6587-3f0d-40fe-b262-19fa28f33c9e" />
+
 
 ---
 
