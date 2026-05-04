@@ -143,10 +143,9 @@ To evaluate the efficiency of big data handling strategies, we benchmarked our b
 
 | Library | Execution Time (Seconds) | Peak Memory Usage (MB) | Evaluation Strategy |
 | :--- | :--- | :--- | :--- |
-| **Pandas** | [Insert Pandas Time] | [Insert Pandas Memory] | Eager, Single-threaded |
-| **Dask** | [Insert Dask Time] | [Insert Dask Memory] | Lazy, Multi-threaded |
-| **Polars** | [Insert Polars Time] | [Insert Polars Memory] | Lazy, Multi-threaded, Query Optimized |
-
+| **Pandas** | 13.3988 | 373.16 | Eager, Single-threaded |
+| **Dask** | 15.2439 | 305.21 | Lazy, Multi-threaded |
+| **Polars** | 2.5356 | 0.05 | Lazy, Multi-threaded, Query Optimized |
 ---
 
 ### 📊 Visual Comparison
