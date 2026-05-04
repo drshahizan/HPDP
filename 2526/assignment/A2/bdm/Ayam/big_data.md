@@ -263,7 +263,7 @@ optimized_mem_mb = df_less.memory_usage(deep=True).sum() / (1024**2)
 | Memory Usage    | ~6,048 MB      | ~2,068.93 MB       | ~65% reduction    |
 | Execution Time  | ~248.79 s      | ~49.51 s           | ~55% faster       |
 
-**Discussion**: Just by picking only the columns we need, we cut memory by 65% and made loading about 55% faster. There's no extra code complexity involved since it's just one extra parameter. This is probably the easiest win you can get when working with large files.
+**Explanation**: Just by picking only the columns we need, we cut memory by 65% and made loading about 55% faster. There's no extra code complexity involved since it's just one extra parameter. This is probably the easiest win you can get when working with large files.
 
 ---
 
@@ -307,7 +307,7 @@ def _chunk_process():
 | Execution Time       | ~228.67 s      |
 | Time per Chunk       | ~2.10 s        |
 
-**Discussion**: Chunking managed to go through all 10.8 million rows while only using about 58 MB of memory at any time which is very low compared to a full load. The downside is that it takes longer since everything runs one chunk after another. But if memory is your main concern, chunking is the safest option.
+**Explanation**: Chunking managed to go through all 10.8 million rows while only using about 58 MB of memory at any time which is very low compared to a full load. The downside is that it takes longer since everything runs one chunk after another. But if memory is your main concern, chunking is the safest option.
 
 ---
 
@@ -392,7 +392,7 @@ print_metrics(metrics)
 
 ![alt text](image-2.png)
 
-**Discussion**: By setting the right data types upfront, memory usage dropped from ~85.18 MB to ~58.28 MB for the same 200,000 rows — about a 31.6% reduction. The biggest savings came from columns like `Registration State` and `Plate Type` which have very few unique values but repeat a lot. This kind of column benefits the most from being stored as `category`.
+**Explanation**: By setting the right data types upfront, memory usage dropped from ~85.18 MB to ~58.28 MB for the same 200,000 rows — about a 31.6% reduction. The biggest savings came from columns like `Registration State` and `Plate Type` which have very few unique values but repeat a lot. This kind of column benefits the most from being stored as `category`.
 
 ---
 
@@ -441,7 +441,7 @@ _, metrics = measure_performance(_dask_sample)
 | Polars  | 1,000,000   | ~2.81 s        | ~2807.23 MB | ~371.90       |
 | Dask    | 1,000,000  | ~90 s          | ~2185.98 MB | ~98.60        |
 
-**Discussion**: Polars was by far the fastest at only 2.81 seconds, which is nearly 8 times faster than Pandas. This is mainly because Polars uses multiple CPU cores to read the file at the same time. Dask was the slowest here because `sample(frac=0.1)` has to go through the whole file to randomly pick rows, not just grab the first million. So if you just want a quick sample, using `nrows` in Pandas or Polars is the better choice. One thing to note though — both Polars and Dask used a lot more RAM than Pandas for this.
+**Explanation**: Polars was by far the fastest at only 2.81 seconds, which is nearly 8 times faster than Pandas. This is mainly because Polars uses multiple CPU cores to read the file at the same time. Dask was the slowest here because `sample(frac=0.1)` has to go through the whole file to randomly pick rows, not just grab the first million. So if you just want a quick sample, using `nrows` in Pandas or Polars is the better choice. One thing to note though — both Polars and Dask used a lot more RAM than Pandas for this.
 
 ---
 
