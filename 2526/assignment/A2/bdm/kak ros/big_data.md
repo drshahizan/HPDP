@@ -241,6 +241,21 @@ print("Average Delay:", total_delay / total_count)
 
 ### Task 3.3 : Data Type Optimisation
 ### Task 3.4 : Sampling
+**Consolidate and Measure Dataset** : Exports the fully combined DataFrame (df_all) into a single, consolidated CSV file to be used for subsequent processing. It then utilizes the os module to retrieve the physical file size on the disk, displaying the final megabytes alongside the total row and column counts for verification.
+```python
+import pandas as pd
+import os
+
+# Save as a single CSV for your strategies to use
+FILE_PATH = "/content/combined.csv"
+df_all.to_csv(FILE_PATH, index=False)
+
+size_mb = os.path.getsize(FILE_PATH) / 1024**2
+print(f"Total rows    : {df_all.shape[0]:,}")
+print(f"Total columns : {df_all.shape[1]}")
+print(f"Combined size : {size_mb:.1f} MB")
+```
+
 ### Task 3.5 : Parallel Processing with Scalable Libraries
 ```python
 import time
