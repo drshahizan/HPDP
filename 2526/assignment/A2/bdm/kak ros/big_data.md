@@ -208,8 +208,10 @@ airline_counts.get(airline, 0) + count
 5. Finally, results are sorted in descending order and top 10 airlines are displayed.
 
 **Output Summary**:
-<img width="1659" height="36" alt="image" src="https://github.com/user-attachments/assets/ec84e2a5-b4e1-4aaf-8514-d4ca3b5d4995" />
-<img width="323" height="36" alt="image" src="https://github.com/user-attachments/assets/0af19bd2-01a5-4dac-a0e9-5857145fcbaf" />
+<img width="677" height="30" alt="image" src="https://github.com/user-attachments/assets/ef14cd78-703e-4690-a9d5-ef938a39c4c2" />
+<img width="657" height="30" alt="image" src="https://github.com/user-attachments/assets/cdeac773-08d9-4800-a558-e6d66fa61979" />
+<img width="649" height="30" alt="image" src="https://github.com/user-attachments/assets/82c83e8b-6595-41d0-9f03-1de4e20615b0" />
+
 
 
 **📚 Example 2: Average Delay**
@@ -270,9 +272,13 @@ print("Cancelled flights ratio per year: ", year_stats)
 3. Cancellation ratio is computed using `cancelled`/`total`, whereby `cancelled` contains the total number of flights cancelled for the year and `total` contains the total number of flights operated in the year.
 
 **Output Summary**:
-<img width="1549" height="31" alt="image" src="https://github.com/user-attachments/assets/bc589a83-ffde-4f43-bcc6-efbced5decb3" />
-<img width="1608" height="31" alt="image" src="https://github.com/user-attachments/assets/10025b17-8fa7-4be1-b19d-e8a5bae7814d" />
-<img width="1203" height="31" alt="image" src="https://github.com/user-attachments/assets/08325eea-cc77-4b47-9c8a-c6d8a3568df8" />
+<img width="755" height="26" alt="image" src="https://github.com/user-attachments/assets/497be76a-a9d2-497a-8f2a-f4a19437d8ab" />
+<img width="793" height="30" alt="image" src="https://github.com/user-attachments/assets/762cf874-3821-4d27-a56d-3e7b995be5cf" />
+<img width="795" height="29" alt="image" src="https://github.com/user-attachments/assets/2894f0ff-3ceb-4b6a-b7e5-1485cf306c7f" />
+<img width="806" height="31" alt="image" src="https://github.com/user-attachments/assets/63a241eb-3809-4acc-bc26-92c96629c9f8" />
+<img width="808" height="31" alt="image" src="https://github.com/user-attachments/assets/e17cafd0-14db-4ed9-a9f2-db2c6f480100" />
+<img width="393" height="30" alt="image" src="https://github.com/user-attachments/assets/68421a10-c298-4bab-9e2c-8d5f60a5255a" />
+
 
 
 ### Task 3.3 : Data Type Optimisation
