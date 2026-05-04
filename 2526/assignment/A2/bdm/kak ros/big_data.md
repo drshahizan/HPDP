@@ -149,7 +149,7 @@ To evaluate the efficiency of big data handling strategies, we benchmarked our b
 ---
 
 ### 📊 Visual Comparison
-<img width="1361" height="593" alt="comparison bar chart" src="https://github.com/user-attachments/assets/b7ac6bda-ac5d-437a-bbfd-1738bf9b06a2" /> [Performance Comparison Chart]
+<img width="1390" height="635" alt="lalala" src="https://github.com/user-attachments/assets/095d27f4-5ba5-4505-8954-850728c3774f" /> [Performance Comparison Chart]
 
 ### 🧠 Interpretation:
 The performance comparison reveals key differences in execution behavior:
