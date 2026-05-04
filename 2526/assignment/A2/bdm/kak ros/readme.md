@@ -23,7 +23,7 @@
 | File Name                     | Description                                                                    | Link |
 |------------------------------|--------------------------------------------------------------------------------|------|
 | `big_data.md`                | Markdown file with detailed write-up for Assignment 2                          | [![Open](https://img.shields.io/badge/View-Markdown-blue?logo=markdown)](big_data.md) |
-| `Google Colab Link`             | Colab notebook exploring various data loading and optimization techniques      | [![Open](https://img.shields.io/badge/Open-Notebook-green?logo=jupyter)](https://colab.research.google.com/drive/1gCBGuZcNliWlVaoh9M0fEor9McCdIRrI?authuser=4&pli=1#scrollTo=lhxgxssSMhbK) |
+| `big_data.ipynb`             | Colab notebook exploring various data loading and optimization techniques      | [![Open](https://img.shields.io/badge/Open-Notebook-green?logo=jupyter)](big_data.ipynb) |
 
 ---
 
