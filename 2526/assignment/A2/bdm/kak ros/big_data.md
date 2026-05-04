@@ -1,4 +1,4 @@
-<img width="426" height="772" alt="image" src="https://github.com/user-attachments/assets/42248717-8b37-47e0-b533-0e3589cce730" /># 📘 Assignment 2: Mastering Big Data Handling
+# 📘 Assignment 2: Mastering Big Data Handling
 
 **Group Members**:  
 - Student 1: *Harini A/P Sangaran, A23CS0081*  
@@ -128,7 +128,7 @@ display(df.dtypes.to_frame(name='Data Type').T)
 ```python
 df.info()
 ```
-![image](<img width="426" height="772" alt="image" src="https://github.com/user-attachments/assets/e8e956f7-0827-436e-b649-5ea560126f06" />)
+![image](<img width="426" height="772" alt="image" src="https://github.com/user-attachments/assets/42248717-8b37-47e0-b533-0e3589cce730" />)
 
 ---
 
