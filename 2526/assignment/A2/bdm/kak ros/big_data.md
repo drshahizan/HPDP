@@ -260,6 +260,7 @@ Output:
 
 
 ### Task 3.5 : Parallel Processing with Scalable Libraries
+**Benchmark Library Performance** : Executes a comparative performance test using Pandas, Dask, and Polars to calculate the average departure delay per airline on a single-year dataset. It utilizes time and tracemalloc to actively record and output the execution speed and peak memory consumption for each library, establishing a direct baseline comparison.
 ```python
 import time
 import tracemalloc
