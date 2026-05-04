@@ -454,6 +454,7 @@ The chart above illustrates the execution time differences across various data p
 
 The memory usage chart highlights that sampling consumes the least memory, while the "Load Less Data" strategy still results in high memory usage due to full dataset loading. Dask also shows higher memory consumption due to partition handling and overhead.
 
+---
 
 Based on the results presented in the table and visualised in the charts above, Polars achieved the fastest execution time at 1.56 seconds, making it the most efficient option when speed is the primary concern. This superior performance is due to its optimised execution model, including lazy evaluation and multi-threaded processing.
 
