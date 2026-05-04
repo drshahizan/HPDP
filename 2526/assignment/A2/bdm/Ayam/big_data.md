@@ -487,6 +487,8 @@ See Task 4 for full performance results and analysis.
 
 ## 🛠️ Task 4: Comparative Analysis
 
+### 📊 Comparison of All 5 Strategies
+
 <img width="1390" height="989" alt="image" src="https://github.com/user-attachments/assets/d11ab2c8-560b-4ff2-aa17-11209ade4489" />
 
 Across all four measured dimensions — memory usage, execution time, CPU load, and throughput — no single strategy dominates in every category, which reflects the inherent trade-offs of each approach. **Parallel Processing with Dask** used the least memory (443.41 MB) and achieved competitive throughput (454,726 records/sec), making it the most resource-efficient overall. **Data Type Optimisation** led on throughput (376,795 records/sec) and had the fastest execution time (28.67s), since it works on a smaller 200,000-row subset rather than the full dataset. **Sampling** also finished quickly (21.81s) for the same reason — it loads only 1 million rows — making both strategies ideal for rapid exploration. **Load Less Data** and **Chunking** both processed the full 10.8 million rows, which explains their higher memory and longer runtimes; however, Chunking stands out by keeping peak memory at just 58.31 MB throughout, making it the safest option when working within strict RAM limits.
