@@ -30,7 +30,7 @@ This dataset comes from the New York City government. It has records of all park
 - **Location Details**: Street Name, House Number, and Intersecting Street.
 - **Fine Information**: Violation Description, Fine Amount, Penalty Amount, and Payment Status.
 
-We picked this dataset because it is big enough (~2.1 GB) to actually stress-test our tools. It also has mixed column types — strings, integers, dates — and a lot of repeated values in some columns, which makes strategies like data type optimisation very useful here.
+We picked this dataset because it is big enough (~2.1 GB) to actually stress-test our tools. It also has mixed column types including strings, integers, dates and a lot of repeated values in some columns, which makes strategies like data type optimisation very useful here.
 
 ### 📊 Data Column Description (Selected Columns Used)
 
@@ -263,7 +263,7 @@ optimized_mem_mb = df_less.memory_usage(deep=True).sum() / (1024**2)
 | Memory Usage    | ~6,048 MB      | ~2,068.93 MB       | ~65% reduction    |
 | Execution Time  | ~248.79 s      | ~49.51 s           | ~55% faster       |
 
-**Discussion**: Just by picking only the columns we need, we cut memory by 65% and made loading about 55% faster. There's no extra code complexity involved — it's just one extra parameter. This is probably the easiest win you can get when working with large files.
+**Discussion**: Just by picking only the columns we need, we cut memory by 65% and made loading about 55% faster. There's no extra code complexity involved since it's just one extra parameter. This is probably the easiest win you can get when working with large files.
 
 ---
 
@@ -307,7 +307,7 @@ def _chunk_process():
 | Execution Time       | ~228.67 s      |
 | Time per Chunk       | ~2.10 s        |
 
-**Discussion**: Chunking managed to go through all 10.8 million rows while only using about 58 MB of memory at any time — which is very low compared to a full load. The downside is that it takes longer since everything runs one chunk after another. But if memory is your main concern, chunking is the safest option.
+**Discussion**: Chunking managed to go through all 10.8 million rows while only using about 58 MB of memory at any time which is very low compared to a full load. The downside is that it takes longer since everything runs one chunk after another. But if memory is your main concern, chunking is the safest option.
 
 ---
 
@@ -315,7 +315,7 @@ def _chunk_process():
 
 **What it does**: When Pandas loads a CSV, it picks default types for each column — usually `int64` for numbers and `object` for text. These defaults aren't always the most efficient. Here, we map each column to a better type before loading. For columns with few unique values like `Registration State`, we use `category` instead of `object`. For integers that don't need 64 bits, we use smaller types like `Int16` or `Int32`.
 
-**Why it matters**: Take `Registration State` as an example — it only has around 65 unique values but repeats across 10 million rows. Storing it as `object` means Python creates a separate string for every single row. Switching to `category` stores the unique values once and uses a small number as a reference for each row, which saves a lot of memory. We tested this on 200,000 rows across all 43 columns to measure the difference.
+**Why it matters**: Take `Registration State` as an example it only has around 65 unique values but repeats across 10 million rows. Storing it as `object` means Python creates a separate string for every single row. Switching to `category` stores the unique values once and uses a small number as a reference for each row, which saves a lot of memory. We tested this on 200,000 rows across all 43 columns to measure the difference.
 
 **When to use it**: Best applied after you've done an initial inspection and know what's in each column. Once the types are set properly, all the operations you do after will be faster and lighter.
 
@@ -510,7 +510,6 @@ We ran the same pipeline — load, filter for NY plates, count by vehicle make �
 ### 📊 Visual Comparison
 
 ![alt text](image-3.png)
-*(Generated directly in the notebook using `matplotlib` — see `comparison_charts.png` in the repository)*
 
 Looking at the charts:
 
@@ -524,27 +523,27 @@ Looking at the charts:
 
 #### Polars Insight
 
-Polars finished the full pipeline in **23.76 seconds**, while Pandas took **245.23 seconds** — that's about **10.3 times faster**. It also used the least memory at **950 MB**, which is around one-fifth of what Pandas used.
+Polars finished the full pipeline in **23.76 seconds**, while Pandas took **245.23 seconds** that's about **10.3 times faster**. It also used the least memory at **950 MB**, which is around one-fifth of what Pandas used.
 
 A few reasons why Polars is this fast:
 
-- **Written in Rust**: Rust is a compiled language that runs close to the hardware, with no Python overhead slowing it down. That's why Polars loaded the 2.1 GB file in just 11.86 seconds — about **20 times faster** than Pandas' 238.77 seconds.
+- **Written in Rust**: Rust is a compiled language that runs close to the hardware, with no Python overhead slowing it down. That's why Polars loaded the 2.1 GB file in just 11.86 seconds  about **20 times faster** than Pandas' 238.77 seconds.
 - **Uses multiple CPU cores automatically**: Polars splits the work across all available cores without you needing to configure anything. The filter and aggregation steps both run in parallel.
 - **Columnar data storage**: Polars stores data by column instead of by row. So when you filter one column, it only reads that column's data — not the whole row. This is why memory usage stays lower.
 
 #### Pandas Insight
 
-Pandas took **245.23 seconds** total and used **5,026 MB** of peak memory — the highest of all three. That said, Pandas is still the easiest to use and has the most support online, so it's not a bad choice for smaller datasets or quick scripts.
+Pandas took **245.23 seconds** total and used **5,026 MB** of peak memory  the highest of all three. That said, Pandas is still the easiest to use and has the most support online, so it's not a bad choice for smaller datasets or quick scripts.
 
-The reason it's slow here is that it only uses one CPU core and has to load the entire file into memory before doing anything. The `read_csv()` call alone took 238.77 seconds, which is almost all the total time. Everything after that — filtering, aggregating — is fast, but the bottleneck is that initial load.
+The reason it's slow here is that it only uses one CPU core and has to load the entire file into memory before doing anything. The `read_csv()` call alone took 238.77 seconds, which is almost all the total time. Everything after that  filtering, aggregating  is fast, but the bottleneck is that initial load.
 
 #### Dask Insight
 
 Dask's load and filter steps finished almost instantly — `dd.read_csv()` in **0.6455 seconds** and the filter in **0.0656 seconds** — but that's only because they're lazy. Nothing actually gets read until `.compute()` is called, which then took **232.48 seconds** to finish. So total time was **233.19 seconds**, which is barely faster than Pandas.
 
-Where Dask really stands out is memory — it only used **1,037 MB** compared to Pandas' 5,026 MB. That's about 80% less RAM for the same job. This is because Dask processes the data in partitions instead of loading everything at once.
+Where Dask really stands out is memory  it only used **1,037 MB** compared to Pandas' 5,026 MB. That's about 80% less RAM for the same job. This is because Dask processes the data in partitions instead of loading everything at once.
 
-On a single machine with a dataset this size, Dask doesn't show a big speed advantage. The overhead from splitting and scheduling the work kind of cancels out the benefit of running in parallel. But if the data were much bigger — say 50 GB or more — or spread across multiple machines, Dask would start to pull ahead by a lot.
+On a single machine with a dataset this size, Dask doesn't show a big speed advantage. The overhead from splitting and scheduling the work kind of cancels out the benefit of running in parallel. But if the data were much bigger say 50 GB or more or spread across multiple machines, Dask would start to pull ahead by a lot.
 
 One thing worth mentioning: Dask needed us to manually specify the dtype for `House Number` and `Time First Observed` because it can't always figure out mixed types across different partitions the way Pandas can.
 
@@ -556,11 +555,11 @@ One thing worth mentioning: Dask needed us to manually specify the dtype for `Ho
 
 Looking back at all five strategies and the three libraries, here are the main takeaways:
 
-- **Strategy 1 (Load Less Data)** — done by Afif — gave the biggest immediate improvement. Just loading 7 columns instead of 43 cut memory from **~6,048 MB to ~2,068.93 MB** (about 65% less) and made loading ~55% faster. No extra effort needed.
-- **Strategy 2 (Chunking)** — done by Afif — kept peak memory at only **58.31 MB** the whole time, no matter how big the file is. The downside is it took **228.67 seconds** to go through all 109 chunks one by one.
-- **Strategy 3 (Data Type Optimisation)** — done by Afif — brought memory down from **85.18 MB to 58.28 MB** for 200,000 rows, a ~31.6% drop. Columns like `Registration State` and `Plate Type` gave the most savings since they have few unique values that repeat a lot.
-- **Strategy 4 (Sampling)** — done by Adam — showed that Polars can load 1 million rows in **2.81 seconds** while Pandas took **21.81 seconds**. For quickly testing code or exploring data, sampling with Polars is the way to go.
-- **Strategy 5 (Parallel Processing)** — done by Adam — confirmed that Polars is the fastest overall at **23.76 seconds** (10.3× faster than Pandas), Dask uses the least memory at **1,037 MB**, and Pandas is the slowest and heaviest at **245.23 seconds** and **5,026 MB**.
+- **Strategy 1 (Load Less Data)** gave the biggest immediate improvement. Just loading 7 columns instead of 43 cut memory from **~6,048 MB to ~2,068.93 MB** (about 65% less) and made loading ~55% faster. No extra effort needed.
+- **Strategy 2 (Chunking)**  kept peak memory at only **58.31 MB** the whole time, no matter how big the file is. The downside is it took **228.67 seconds** to go through all 109 chunks one by one.
+- **Strategy 3 (Data Type Optimisation)** done by Afifbrought memory down from **85.18 MB to 58.28 MB** for 200,000 rows, a ~31.6% drop. Columns like `Registration State` and `Plate Type` gave the most savings since they have few unique values that repeat a lot.
+- **Strategy 4 (Sampling)** showed that Polars can load 1 million rows in **2.81 seconds** while Pandas took **21.81 seconds**. For quickly testing code or exploring data, sampling with Polars is the way to go.
+- **Strategy 5 (Parallel Processing)** confirmed that Polars is the fastest overall at **23.76 seconds** (10.3× faster than Pandas), Dask uses the least memory at **1,037 MB**, and Pandas is the slowest and heaviest at **245.23 seconds** and **5,026 MB**.
 
 ### 💡 Personal Reflections
 
@@ -600,17 +599,6 @@ What surprised me was that Pandas used 5,026 MB to load a 2.1 GB file — more t
 At 2.1 GB, everything still worked on Colab's free tier, although Pandas did push memory usage quite high at 5,026 MB during the full pipeline. If the dataset were 10 GB, Pandas would likely fail without chunking. At 100 GB, you'd need Dask or Polars' lazy evaluation to get through it. At 1 TB, you'd have to move to a distributed system — there's no way around it on a single machine.
 
 There's no one-size-fits-all answer here. The best strategy depends on how big your data is, how much RAM you have, and whether you care more about speed or memory. For most single-machine work, Polars is the best balance of both. Chunking and Dask are what you reach for when the data is just too big to fit in RAM.
-
----
-
-## 📁 Folder Structure
-
-```plaintext
-ass2/your_group/
-├── big_data.md       ← This report
-├── readme.md         ← Group introduction and links
-└── big_data.ipynb    ← Fully executed Jupyter notebook
-```
 
 ---
 
