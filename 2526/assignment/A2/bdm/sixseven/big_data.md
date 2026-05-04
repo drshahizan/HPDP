@@ -445,7 +445,6 @@ This strategy uses Polars with its lazy API (`pl.scan_csv`). Instead of eagerly 
 
 ---
 
-
 ### 🔹 **Part 2: Loading Dataset with Different Libraries**
 
 This section compares how various data libraries handle CSV file loading and performance. Different tools and ecosystems (Pandas, Dask, Polars, Vaex) are explored.
@@ -453,248 +452,704 @@ This section compares how various data libraries handle CSV file loading and per
 #### 1. Using **Pandas** (Traditional)
 
 ```python
-def load_full_data():
-    df = pd.read_csv("songs_with_attributes_and_lyrics.csv")
-    return df
+FILE_PATH = '/content/data/Books_rating.csv'
 
-performance, df = measure_performance(load_full_data, description="Load with Pandas")
+def load_pandas(filepath):
+    return pd.read_csv(filepath)
 
-performance_df = pd.DataFrame([performance])
-display(performance_df)
+perf_pandas, df_pandas = measure_performance(
+    load_pandas,
+    description="Pandas",
+    filepath=FILE_PATH
+)
+
+print("=== Library 1: Pandas ===")
+print(f"Rows: {len(df_pandas):,}  |  Columns: {df_pandas.shape[1]}")
+display(pd.DataFrame([perf_pandas]))
+
+del df_pandas
+gc.collect()
 ```
 
 **Output**:  
-![image](https://github.com/user-attachments/assets/1410fead-440a-4198-9aad-2de9e3c7f034)
+<img width="758" height="180" alt="image" src="https://github.com/user-attachments/assets/d4b999c2-43a4-4634-a9b3-0c8e13c7a6cf" />
+
 
 
 
 ---
-#### 2. Using **Dask**
+#### 2. Using **Polars**
 
 ```python
-def load_full_data_dask_and_compute(file_path):
-    # Dask setup (lazy)
-    ddf = dd.read_csv(
-        file_path,
-        assume_missing=True,
-        quoting=3,
-        on_bad_lines='skip',
-        dtype=str
-    )
+def load_polars(filepath):
+    return pl.read_csv(filepath, infer_schema_length=10_000)
 
-    # Trigger computation and return the pandas DataFrame
-    # This is where the main memory usage occurs
-    df = ddf.compute()
-    return df
-
-# Measure the performance of the loading and computation
-performance_dask_compute, df_dask_computed = measure_performance(
-    load_full_data_dask_and_compute,
-    description="Load with Dask",
-    file_path="songs_with_attributes_and_lyrics.csv"
+perf_polars, df_polars = measure_performance(
+    load_polars,
+    description="Polars",
+    filepath='/content/data/Books_rating.csv'
 )
 
-performance_df_compute = pd.DataFrame([performance_dask_compute])
-display(performance_df_compute)
+print("=== Library 2: Polars ===")
+print(f"Rows: {len(df_polars):,}  |  Columns: {df_polars.shape[1]}")
+display(pd.DataFrame([perf_polars]))
+
+del df_polars
+gc.collect()
 ```
 
 **Explanation**:  
-In this approach, we use **Dask**, a parallel computing library, to handle the CSV file more efficiently—especially useful for large datasets that may not fit into memory at once.
+In this approach, we use **Polars**, a modern high-performance DataFrame library
+built in Rust, to load the full CSV dataset. Polars is chosen because it
+automatically parallelises CSV parsing across all available CPU cores and uses a
+columnar memory format internally, making it significantly faster and more
+memory-efficient than Pandas for large files.
+
+1. **Eager Loading with `pl.read_csv()`**:
+   - The function `pl.read_csv()` reads the **entire CSV file into a Polars
+     DataFrame** using native multi-core parallelism, each CPU core processes
+     a different segment of the file simultaneously without any manual
+     configuration.
+   - Parameters used:
+     - `infer_schema_length=10_000`: Samples only the first 10,000 rows to infer
+       column data types, rather than scanning the full file, reducing schema
+       detection time while still being accurate enough for a well-structured
+       dataset.
+
+2. **Columnar Memory Format**:
+   - Unlike Pandas which stores data row-by-row, Polars stores data
+     **column-by-column** using the Apache Arrow format internally. This makes
+     column-level reads and aggregations faster and more cache-friendly for
+     the CPU.
+   - This columnar layout also reduces memory overhead compared to Pandas'
+     default storage, even when holding the same number of rows.
+
+3. **Performance Measurement**:
+   - The `measure_performance()` function wraps this entire process to capture
+     metrics like **execution time**, **memory usage**, and **throughput**
+     (records/second), allowing a direct comparison against Pandas, Dask,
+     and PyArrow.
+
+**Output**:  
+<img width="1040" height="137" alt="image" src="https://github.com/user-attachments/assets/fdc30e7d-4417-4ff2-8db5-21dee21a6c28" />
+
+
+
+
+---
+
+#### 3. Using **Dask**
+
+```python
+def load_dask(filepath):
+    dtype_spec = {
+        'Id': 'object', 'Title': 'object', 'Price': 'float64',
+        'User_id': 'object', 'profileName': 'object',
+        'review/helpfulness': 'object', 'review/score': 'float32',
+        'review/time': 'int64', 'review/summary': 'object',
+        'review/text': 'object'
+    }
+    ddf = dd.read_csv(
+        filepath,
+        dtype=dtype_spec,
+        blocksize="64MB",
+        assume_missing=True
+    )
+    return ddf.compute()
+
+perf_dask_full, df_dask = measure_performance(
+    load_dask,
+    description="Dask",
+    filepath='/content/data/Books_rating.csv'
+)
+
+print("=== Library 3: Dask ===")
+print(f"Rows: {len(df_dask):,}  |  Columns: {df_dask.shape[1]}")
+display(pd.DataFrame([perf_dask_full]))
+
+del df_dask
+gc.collect()
+```
+
+**Explanation**:  
+In this approach, we use **Dask**, a parallel computing library that mirrors the
+Pandas API but is designed for datasets too large to fit comfortably in memory.
+Rather than loading the full 2.8 GB file at once, Dask splits it into smaller
+partitions and processes them in parallel across multiple CPU threads.
 
 1. **Lazy Loading with `dd.read_csv()`**:
-
-   * The function `dd.read_csv()` reads the CSV file **lazily**, meaning it doesn’t load all data into memory immediately.
-   * Parameters used:
-
-     * `assume_missing=True`: Ensures columns with mixed types (like numeric and nulls) are safely interpreted as floats.
-     * `quoting=3`: Ignores quote characters in the data.
-     * `on_bad_lines='skip'`: Skips malformed rows to avoid loading issues.
-     * `dtype=str`: Treats all columns as strings for uniformity.
+   - The function `dd.read_csv()` reads the CSV file **lazily**, meaning it does
+     not load any data into memory immediately, it only builds a partition plan.
+   - Parameters used:
+     - `blocksize="64MB"`: Splits the 2.8 GB file into approximately 44 partitions
+       of 64 MB each, which are then read and processed in parallel across
+       multiple threads.
+     - `dtype=dtype_spec`: Explicitly defines the data type for all 10 columns,
+       preventing Dask from inferring types independently per partition  which
+       would be slow and prone to type conflicts between partitions.
+     - `assume_missing=True`: Safely handles NaN values in columns that would
+       otherwise be treated as strict integer types, preventing partition-level
+       errors during loading.
 
 2. **Triggering Computation**:
-
-   * `.compute()` explicitly triggers the loading of the full dataset into a **Pandas DataFrame**.
-   * This is the step where actual memory usage happens, converting Dask’s lazy operations into real data.
+   - `.compute()` explicitly triggers the loading of all partitions in parallel
+     and assembles them into a **single Pandas DataFrame**.
+   - This is the step where actual memory usage occurs, converting Dask's lazy
+     partition plan into real in-memory data.
 
 3. **Performance Measurement**:
-
-   * The `measure_performance()` function wraps this entire process to capture metrics like **execution time** and **memory usage**, helping us compare it with other approaches (e.g., pure Pandas).
-
+   - The `measure_performance()` function wraps this entire process to capture
+     metrics like **execution time**, **memory usage**, and **throughput**
+     (records/second), allowing a direct comparison of Dask's parallel loading
+     strategy against the other three libraries.
 **Output**:  
-![image](https://github.com/user-attachments/assets/1940a747-ee2c-49ce-a20d-6eb68fda979a)
-
+<img width="1007" height="134" alt="image" src="https://github.com/user-attachments/assets/8199577d-a52e-4a1b-8a39-6120e2d10497" />
 
 
 ---
 
-#### 3. Using **Polars**
+#### 4. Using **PyArrows**
 
 ```python
-def load_with_polars(filepath):
-    df = pl.read_csv(filepath)
-    return df
+def load_pyarrow(filepath):
+    table = pv.read_csv(filepath)
+    return table.to_pandas()
 
-performance_polars, df_polars = measure_performance(
-    load_with_polars,
-    description="Load with Polars",
-    filepath="songs_with_attributes_and_lyrics.csv"
+perf_pyarrow, df_pyarrow = measure_performance(
+    load_pyarrow,
+    description="PyArrow",
+    filepath='/content/data/Books_rating.csv'
 )
 
-performance_df = pd.DataFrame([performance_polars])
-display(performance_df)
+print("=== Library 4: PyArrow ===")
+print(f"Rows: {len(df_pyarrow):,}  |  Columns: {df_pyarrow.shape[1]}")
+display(pd.DataFrame([perf_pyarrow]))
+
+del df_pyarrow
+gc.collect()
 ```
 
 **Explanation**:  
-In this method, we use **Polars**, a fast and efficient DataFrame library built for performance and optimized for modern hardware (e.g., multi-threaded CPUs).
+In this approach, we use **PyArrow**, a Python library implementing the Apache
+Arrow columnar memory format, to load the full CSV dataset. PyArrow's CSV reader
+is one of the fastest raw file readers available in Python, using multi-threaded
+I/O and a columnar storage layout that is architecturally more efficient than
+Pandas' row-oriented format.
 
-1. **Reading the CSV with `pl.read_csv()`**:
+1. **Columnar Loading with `pv.read_csv()`**:
+   - The function `pv.read_csv()` (from `pyarrow.csv`) reads the CSV file into
+     an **Arrow Table** using multi-threaded I/O, multiple threads handle
+     different parts of the file simultaneously without any manual configuration.
+   - Data is stored **column-by-column** in contiguous memory blocks, making
+     column-level reads extremely fast and cache-efficient compared to Pandas'
+     row-oriented layout.
+   - No additional parameters are needed, PyArrow automatically detects column
+     types and handles parsing with sensible defaults.
 
-   * Polars reads the entire CSV file eagerly (i.e., it loads data into memory immediately).
-   * It is written in Rust and designed for **blazing-fast performance**, making it significantly faster than Pandas and even Dask in many cases.
-   * It also handles large datasets well and often uses **less memory** due to efficient memory allocation and data structures.
-
-2. **Simplicity and Speed**:
-
-   * The function is straightforward: `pl.read_csv(filepath)` loads the data into a **Polars DataFrame** with a single line.
-   * No need to specify data types or handle bad lines unless needed—Polars automatically infers them efficiently.
+2. **Converting to Pandas DataFrame**:
+   - `.to_pandas()` converts the Arrow Table into a standard **Pandas DataFrame**
+     after loading is complete.
+   - This conversion step is necessary to maintain consistency with the other
+     libraries so that `measure_performance()` can compute `len(result)` for
+     throughput calculation.
+   - The conversion adds a small overhead, but the raw loading speed of PyArrow
+     typically compensates for this cost.
 
 3. **Performance Measurement**:
-
-   * The `measure_performance()` wrapper captures key performance metrics like **execution time** and **memory usage**, providing a direct comparison with Pandas and Dask.
-
-**Output**:  
-![image](https://github.com/user-attachments/assets/9e04ad8d-47fc-4383-a948-9c94b4be4616)
+   - The `measure_performance()` function wraps this entire process to capture
+     metrics like **execution time**, **memory usage**, and **throughput**
+     (records/second), allowing a direct comparison of PyArrow's columnar
+     loading approach against Pandas, Polars, and Dask.
 
 ---
+**Output**:  
+<img width="1085" height="155" alt="image" src="https://github.com/user-attachments/assets/4e7cc0b0-6a7b-4d13-a5d1-45e519466f0d" />
+### Summary
+
+| Library | Loading Style | Parallelism | Key Parameter |
+|---------|--------------|-------------|---------------|
+| **Pandas** | Eager, single-threaded |  None | `pd.read_csv()` |
+| **Polars** | Eager, multi-core |  Automatic (Rust) | `infer_schema_length=10_000` |
+| **Dask** | Lazy, partition-based |  Multi-threaded | `blocksize="64MB"` |
+| **PyArrow** | Eager, columnar multi-threaded |  Multi-threaded I/O | `.to_pandas()` for compatibility |
+
+
 
 ## 📊 Task 4: Comparative Analysis
 
-### 🔍 Part 1: Comparison of Optimized Loading Strategies
+---
 
-This section compares five different optimization techniques used to improve CSV loading performance in terms of **Memory Used**, **Execution Time**, **Average CPU Usage**, and **Throughput**.
+### 🔍 Part 1: Comparison of Data Handling Strategies
 
-#### ✅ Strategies Compared:
+This section compares the five big data handling strategies applied to the Amazon
+Books Reviews dataset (1.06 GB, 3 million rows), measuring execution time and
+memory usage across each approach.
 
-1. **Load Less Data**
-2. **Use Chunking**
-3. **Optimize Data Types**
-4. **Sampling**
-5. **Parallel Processing with Dask**
+#### Analysis
 
-### 📋 Summary Table
+The five strategies reveal a clear trade-off between speed, memory efficiency,
+and data completeness:
 
-| Strategy            | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
-| ------------------- | ---------------- | ------------------ | ----------- | ------------------------ |
-| Load Less Data      | 48.34      | 19.4726	       | 98.39	  | 49059.7           |
-| Use Chunking        | 165.15      | 29.8092        | 99.07  | 32047.82           |
-| Optimize Data Types | 79.67       | 17.7305        | 99.06  | 53880.04           |
-| Sampling            | 61.79      | 34.3492       | 97.89  | 2781.2            |
-| Parallel with Dask  | 1565.71      | 75.243       | 95.1 | 12706.13          |
+- **Strategy 1 (Load Less Data)** was the most balanced overall with low memory
+  (396.42 MB) and fast execution (20.65s), making it the most practical choice
+  when only specific columns are needed for analysis. By restricting the CSV
+  parser to 4 columns via `usecols`, unselected columns never enter RAM at all.
+
+- **Strategy 2 (Chunking)** consumed the most memory (2,999.67 MB) despite
+  being designed as a memory-saving technique. The overhead comes from
+  concatenating 30 individual chunk DataFrames via `pd.concat()`, which
+  temporarily holds both the chunk copies and the merged result in memory
+  simultaneously. It also had the second slowest execution time (43.89s).
+
+- **Strategy 3 (Data Type Optimisation)** offered a good middle ground with
+  moderate memory (424.60 MB) with reasonable execution time (30.27s). By
+  downcasting numerics to `float32`/`int32` and converting high-cardinality
+  string columns to `category`, it reduces long-term in-memory footprint after
+  loading without sacrificing any rows or columns.
+
+- **Strategy 4 (Sampling)** was the slowest strategy (53.74s) and still
+  memory-heavy (2,851.59 MB), since the **full dataset must be loaded into RAM
+  before sampling can occur**. It is best reserved for rapid prototyping and
+  exploratory analysis where representativeness matters more than speed.
+
+- **Strategy 5a (Parallel Processing — Dask)** used the least memory (18.03 MB)
+  by computing only aggregated scalar results rather than materialising the full
+  dataset. CPU utilisation exceeded 100%, confirming active multi-core
+  parallelism across partitions. However, execution time was high (95.38s) due
+  to Dask's task scheduling overhead.
+
+- **Strategy 5b (Parallel Processing — Polars)** was the fastest strategy by
+  far (4.03s), leveraging Rust-based multi-core parallelism with lazy evaluation
+  via `scan_csv`. However, memory usage was high (2,482.94 MB) because Polars
+  materialised the full result set during `.collect()`.
+
+#### Summary Table — Big Data Handling Strategies
+
+| Strategy | Execution Time (s) | Memory Used (MB) | Best For | Trade-off |
+|---|---|---|---|---|
+| **1 — Load Less Data (Pandas)** | 20.65 | 396.42 | Reducing columns loaded into RAM | Only a subset of columns is available |
+| **2 — Chunking (Pandas)** | 43.89 | 2,999.67 | Processing data too large for RAM at once | Higher peak RAM due to slow `pd.concat()` step |
+| **3 — Data Type Optimisation (Pandas)** | 30.27 | 424.60 | Long-term in-memory efficiency after load | Extra CPU time for type conversion |
+| **4 — Sampling (Pandas)** | 53.74 | 2,851.59 | Rapid prototyping & exploratory analysis | Full dataset loaded before sampling; not representative |
+| **5a — Parallel Processing (Dask)** | 95.38 | 18.03 | CPU-bound aggregations on very large files | High scheduler overhead; slow for simple full loads |
+| **5b — Parallel Processing (Polars)** | 4.03 | 2,482.94 | Fastest execution via Rust multi-core parallelism | High memory when full result is materialised via `.collect()` |
 
 ---
 
 ### 📊 Visual Comparison
-![image](https://github.com/user-attachments/assets/e477357a-1529-47d1-959c-35c5cea6ad64)
 
-### 🧠 Interpretation:
+<img width="1189" height="589" alt="image" src="https://github.com/user-attachments/assets/09f2ac2d-c164-40cf-adad-8efd9c70fc77" />
 
-* **Optimize Data Types** performed best in overall.
+<img width="1189" height="589" alt="image" src="https://github.com/user-attachments/assets/9a2f7f8a-fd02-4b23-9dc1-7ccaede3e342" />
+
+<img width="1289" height="589" alt="image" src="https://github.com/user-attachments/assets/12456110-8a04-4cd3-b200-41a1866fa2eb" />
+
+
+---
+
+### 🧠 Interpretation
+
+- **Strategy 1 (Load Less Data)** strikes the best balance between speed and
+  memory, making it the most practical strategy for day-to-day use when full
+  column coverage is not required.
+
+- **Strategy 2 (Chunking)** is counterproductive for this dataset — it uses more
+  memory than a plain full load and is slower, due to the `pd.concat()` overhead.
+  It only becomes beneficial when the dataset genuinely exceeds available RAM.
+
+- **Strategy 3 (Data Type Optimisation)** is the best strategy for long-term
+  in-memory efficiency. It loads all columns but at a reduced memory footprint,
+  making it ideal when downstream analysis requires the full dataset.
+
+- **Strategy 4 (Sampling)** is only suitable for exploratory analysis and quick
+  iteration. The high memory and slow load time make it unsuitable as a
+  production data loading strategy.
+
+- **Strategy 5a (Dask)** is the best choice when memory is the hard constraint,
+  particularly for aggregation workloads on datasets that exceed available RAM.
+  Its low memory footprint (18.03 MB) is unmatched, but the scheduling overhead
+  makes it slow for simple loads.
+
+- **Strategy 5b (Polars)** is the overall fastest strategy at 4.03s, best suited
+  when execution speed is the top priority and the dataset fits within available
+  RAM. Its high memory usage (2,482.94 MB) is the key trade-off.
 
 ---
 
-### 📘 Part 2: Comparison Between Pandas, Dask, and Polars
+### 📘 Part 2: Strategy 5 — Deep Dive: Parallel Computing (Dask vs Polars)
 
-In this section, we compare the performance of three major data-processing libraries: **Pandas**, **Dask**, and **Polars**.
-
-### 📋 Summary Table
-
-| Library | Memory Used (MB) | Execution Time (s) | Avg CPU (%) | Throughput (records/sec) |
-| ------- | ---------------- | ------------------ | ----------- | ------------------------ |
-| Pandas  | 2324.79     | 32.9665       | 99.66% | 28979.51           |
-| Dask    | 1653.96      | 74.9795       | 89.78% | 12750.78          |
-| Polars  | 1579.88      | 5.0251        | 97.89% | 190109.65          |
+Both Dask and Polars apply **parallel computing** to process the Amazon Books
+Reviews dataset (1.06 GB, 3 million rows), but they achieve parallelism in
+fundamentally different ways which explains why their results differ so
+dramatically across every metric.
 
 ---
+
+**Execution Time**
+
+Polars completed in just **4.03 seconds**, making it **~23× faster** than Dask
+which took **95.38 seconds**. This difference stems from their architectures:
+Polars compiles the entire lazy query plan into a single optimised execution
+graph in Rust before touching the file, eliminating any overhead between steps.
+Dask, on the other hand, must coordinate ~44 individual partitions through a
+task scheduler, each partition is read, processed, and tracked independently,
+and the scheduler overhead accumulates significantly across all of them even
+though they run in parallel.
+
+**Memory Usage**
+
+Dask used only **18.03 MB** of memory, while Polars consumed **2,482.94 MB**.
+This is the most striking contrast between the two. Dask achieved such low
+memory because it was configured to compute only scalar aggregates (row count
+and average score), no full DataFrame was ever materialised in RAM. Polars,
+despite its efficient columnar format, had to fully `.collect()` the entire
+query result into memory to return it from the function, meaning all 3 million
+rows were loaded at once. This makes Dask the clear winner when memory is the
+primary constraint.
+
+**CPU Utilisation**
+
+Both libraries confirmed active multi-core parallelism through CPU usage
+exceeding 100%. Dask's CPU utilisation of **137.13%** reflects its thread-based
+partition scheduler distributing work across cores. Polars achieves the same
+effect transparently via its Rust runtime, which automatically spawns worker
+threads during `.collect()` without any user configuration needed.
+
+**Throughput (records/second)**
+
+Polars achieved significantly higher throughput than Dask due to its much
+shorter execution time over the same 3 million rows. Dask's throughput is
+limited by the task scheduling overhead per partition, even though partitions
+are processed in parallel, the coordination cost per partition reduces the
+effective records-per-second rate compared to Polars' unified execution model.
+
+**Key Takeaway**
+
+The right choice between Dask and Polars for parallel computing depends entirely
+on the workload:
+
+- Choose **Dask** when memory is the hard constraint — its lazy, partition-based
+  design allows aggregations over datasets that exceed available RAM without ever
+  materialising the full data.
+- Choose **Polars** when speed is the priority and the dataset fits in memory —
+  its Rust-native query optimiser and multi-core execution deliver the fastest
+  end-to-end performance with minimal configuration.
+
+  ---
 
 ### 📊 Visual Comparison
-![image](https://github.com/user-attachments/assets/155ef1d3-6c38-40f2-9765-0dcfbd27ceed)
+
+<img width="1389" height="495" alt="image" src="https://github.com/user-attachments/assets/906d2d5d-7db3-4c7b-a0c8-e8dfe0f45e08" />
 
 
+#### Summary Table — Strategy 5: Dask vs Polars
 
-### 🧠 Interpretation:
-The performance comparison between **Pandas**, **Dask**, and **Polars** reveals key differences in their execution behavior and efficiency:
+| Metric | Dask | Polars | Winner |
+|---|---|---|---|
+| **Execution Time (s)** | 95.38 | 4.03 |  Polars (~23× faster) |
+| **Memory Used (MB)** | 18.03 | 2,482.94 |  Dask (~137× less memory) |
+| **Avg CPU (%)** | > 100% | > 100% |  Both multi-core |
+| **Throughput (records/s)** | Lower | Higher |  Polars |
+| **Best For** | Memory-constrained aggregations | Speed-critical workloads | Depends on use case |
 
-* **Polars** outperforms both Pandas and Dask in every aspect. With the **lowest memory usage**, **fastest execution time (5.03s)**, and **highest throughput (190k records/sec)**, it is exceptionally well-optimized for fast and efficient data processing, especially with CSV files.
+---
+---
 
-* **Pandas** performs reasonably well, loading the data in **\~33 seconds** with a relatively high memory footprint. It is still a strong choice for datasets that fit into memory and for tasks requiring immediate results with minimal setup.
+### 📊 Part 3: Normal Load Performance Across Libraries
 
-* **Dask**, while designed for large-scale distributed processing, shows **significantly slower performance (75s)** and the **lowest throughput** among the three. This slower speed is largely due to the need to **fall back on the Python engine (`engine='python'`)** to handle malformed or inconsistent CSV rows in the dataset. This fallback is **much slower** than the default C engine, as it parses files in pure Python for robustness at the cost of speed.
+This section benchmarks a **full dataset load** (all 3 million rows, all 10
+columns) using four different Python libraries — Pandas, Polars, PyArrow, and
+Dask — to measure how each library performs at raw CSV loading on the same
+1.06 GB file.
 
-  > ⚠️ **Note**: Dask is still valuable when working with datasets that are **too large to fit into memory**, as it supports out-of-core processing and parallel computation. However, in this benchmark, the dataset had formatting issues (e.g., bad lines), which required extra handling and slowed down Dask significantly.
+---
+
+#### Analysis
+
+**Memory Usage**
+
+PyArrow consumed the most memory at **6,218.35 MB**, followed closely by Polars
+at **5,750.68 MB**. This is because both libraries load the full dataset into
+their respective in-memory formats — PyArrow into an Arrow Table before
+converting to Pandas via `.to_pandas()`, and Polars into its columnar Arrow-based
+DataFrame. The `.to_pandas()` conversion in PyArrow is particularly costly as it
+temporarily holds both the Arrow Table and the resulting Pandas DataFrame in
+memory simultaneously. Pandas used **3,377.45 MB**, which reflects its standard
+row-oriented in-memory footprint. Dask was the most memory-efficient at
+**1,704.67 MB**, as its partitioned approach limits how much data is held in RAM
+at any one time during the parallel read.
+
+**Execution Time**
+
+Polars was the fastest by a significant margin at **5.42 seconds**, nearly 3x
+faster than PyArrow (**16.27s**), 8x faster than Pandas (**45.12s**), and 9x
+faster than Dask (**51.42s**). Polars' speed advantage comes from its Rust-based
+multi-core CSV parser, which automatically parallelises file reading across all
+available CPU cores without any user configuration. PyArrow also uses
+multi-threaded I/O but is slower here due to the additional `.to_pandas()`
+conversion step after loading. Pandas is single-threaded and reads the file
+sequentially, while Dask's partition scheduling overhead makes it the slowest
+despite using multiple cores.
+
+**Throughput (records/second)**
+
+Polars achieved the highest throughput at **553,178 records/second**, more than
+3x higher than PyArrow (**184,413 records/s**), 8x higher than Pandas
+(**66,489 records/s**), and 9x higher than Dask (**58,345 records/s**). This
+directly reflects the execution time results, with Polars' unified multi-core
+execution engine processing rows far faster than any of the other three libraries.
+
+**CPU Utilisation**
+
+Polars had the highest CPU utilisation at **187.88%**, confirming that it
+actively engaged multiple cores simultaneously during loading. Dask followed at
+**133.71%** and PyArrow at **124.10%**, both also confirming multi-core usage.
+Pandas was the only single-threaded library, reflected in its near-baseline CPU
+usage of **95.05%**, barely above a single core's full utilisation.
+
+---
+### 📊 Visual Comparison
+<img width="1590" height="495" alt="image" src="https://github.com/user-attachments/assets/19c07c62-1b2b-4741-b1a1-92cb58199c68" />
+
+#### Summary Table — Full Load Performance Across Libraries
+
+| Library | Memory Used (MB) | Execution Time (s) | Throughput (records/s) | Avg CPU (%) | Verdict |
+|---|---|---|---|---|---|
+| **Pandas** | 3,377.45 | 45.12 | 66,489 | 95.05 |  Slowest, single-threaded |
+| **Polars** | 5,750.68 | 5.42 | 553,179 | 187.88 |  Fastest, highest throughput |
+| **PyArrow** | 6,218.35 | 16.27 | 184,413 | 124.10 |  Fast, but high memory from conversion |
+| **Dask** | 1,704.67 | 51.42 | 58,345 | 133.71 |  Most memory-efficient full load |
+
+---
+
+### 🧠 Interpretation
+
+Polars is the standout performer for a full CSV load, fastest execution
+(**5.42s**), highest throughput (**553,179 records/s**), and highest CPU
+utilisation (**187.88%**), all achieved automatically through its Rust-native
+multi-core parser with no manual configuration required.
+
+PyArrow, despite also being multi-threaded, consumed the most memory
+(**6,218.35 MB**) due to the `.to_pandas()` conversion step temporarily holding
+both the Arrow Table and the Pandas DataFrame in memory simultaneously, which
+also slowed it down to **16.27s**.
+
+Pandas performed as expected for a single-threaded baseline, moderate memory
+(**3,377.45 MB**) but slow execution (**45.12s**) with the lowest CPU usage
+(**95.05%**), confirming no parallelism was engaged during loading.
+
+Dask was the most memory-efficient at **1,704.67 MB** due to its partitioned
+loading approach, but its task scheduling overhead made it the slowest overall
+at **51.42s**, making it unsuitable as a general purpose full loader for datasets
+that comfortably fit in RAM.
+
+For a straightforward full CSV load on a 1.06 GB dataset, **Polars is the
+recommended library**. PyArrow is a viable alternative when Arrow-native
+pipelines are needed downstream. Dask should be reserved for datasets that
+genuinely exceed available RAM rather than used as a drop-in replacement for
+Pandas or Polars.
 
 ---
 
 ## 🧠 Task 5: Conclusion & Reflection
 
-### 🔹 Summary of Observations  
-Our exploration of big data handling techniques yielded several key insights into optimizing performance for large datasets.
+### 🔹 Summary of Observations
+
+Our exploration of big data handling techniques applied to the Amazon Books
+Reviews dataset (1.06 GB, 3 million rows) yielded several key insights into
+optimising performance under real memory and speed constraints.
 
 For **memory- and performance-efficient techniques**:
-* **Load Less Data** significantly reduced memory usage and improved loading times by focusing only on necessary columns.
-* **Chunking** allowed us to process the large dataset in manageable parts, preventing memory overload, though it resulted in higher execution time compared to selective loading.
-* **Data Type Optimization** proved to be the most effective strategy among the optimizations, achieving the lowest memory footprint and one of the fastest execution times by converting columns to more memory-efficient data types.
-* **Sampling** drastically reduced the dataset size, leading to lower memory usage and faster processing for exploratory analysis, though at the cost of working with a subset of the data.
-* **Parallel Processing with Dask** demonstrated its ability to handle larger-than-memory datasets by distributing computation, but its performance was significantly impacted by the need to use a slower Python engine for malformed lines in our specific dataset.
+
+- **Load Less Data** was the most immediately effective memory reduction strategy,
+  consuming only **396.42 MB** and completing in **20.65 seconds** by restricting
+  the CSV parser to 4 essential columns via `usecols`. Unselected columns never
+  entered RAM at all, making this the simplest and most practical optimisation
+  for column-focused analysis.
+
+- **Chunking** was designed as a memory-safety technique but proved
+  counterproductive for this dataset, with memory spiking to **2,999.67 MB** and
+  execution time reaching **43.89 seconds** due to the overhead of concatenating
+  30 individual chunk DataFrames via `pd.concat()`. It only becomes genuinely
+  beneficial when the dataset exceeds available RAM entirely.
+
+- **Data Type Optimisation** offered the best balance among the Pandas-based
+  strategies, achieving moderate memory usage (**424.60 MB**) and a reasonable
+  execution time (**30.27s**) while retaining all 6 selected columns. By
+  downcasting numerics to `float32`/`int32` and converting string columns to
+  `category`, it reduces long-term in-memory footprint without sacrificing
+  data completeness.
+
+- **Sampling** was the slowest strategy at **53.74 seconds** and still consumed
+  **2,851.59 MB** of memory, since the full dataset must be loaded into RAM before
+  `.sample()` can be applied. Despite returning only 10% of rows (300,000), it is
+  best reserved for rapid prototyping and exploratory analysis rather than
+  production pipelines.
+
+- **Parallel Processing with Dask** achieved the lowest memory footprint of all
+  strategies at just **18.03 MB** by computing only scalar aggregates without
+  ever materialising the full dataset. CPU utilisation of **137.13%** confirmed
+  genuine multi-core engagement. However, execution time was the highest at
+  **95.38 seconds**, reflecting the task scheduling overhead across ~44 partitions.
+
+- **Parallel Processing with Polars** was the fastest strategy overall at just
+  **4.03 seconds**, leveraging Rust-based multi-core lazy evaluation via
+  `scan_csv` and `.collect()`. It demonstrates that modern libraries can deliver
+  dramatically faster results with minimal configuration, though its memory usage
+  of **2,482.94 MB** reflects the cost of full result materialisation.
 
 When comparing **different libraries for full dataset loading**:
-* **Polars** emerged as the clear winner, exhibiting superior performance in terms of memory efficiency, execution speed, and throughput, making it an excellent choice for fast data processing.
-* **Pandas** provided a straightforward and reasonably performant solution for loading the full dataset, suitable when the data fits within available memory.
-* **Dask**, while powerful for distributed computing, showed the slowest performance due to issues with bad lines in the CSV requiring a less efficient parsing engine.
+
+- **Polars** emerged as the clear winner with the fastest execution time
+  (**5.42 seconds**) and highest throughput (**553,179 records/second**), making
+  it the most practical choice for full CSV loading when speed and efficiency
+  are the priority.
+
+- **PyArrow** was the second fastest (**16.27 seconds**) and also multi-threaded,
+  but consumed the most memory (**6,218.35 MB**) due to temporarily holding both
+  the Arrow Table and the converted Pandas DataFrame in memory simultaneously
+  during the `.to_pandas()` step.
+
+- **Pandas** provided a straightforward single-threaded baseline with moderate
+  memory usage (**3,377.45 MB**) and an execution time of **45.12 seconds**,
+  suitable when simplicity is more important than speed.
+
+- **Dask** was the most memory-efficient full loader at **1,704.67 MB** due to
+  its partitioned approach, but its task scheduling overhead made it the slowest
+  at **51.42 seconds**, making it unsuitable as a general-purpose full loader
+  for datasets that comfortably fit in RAM.
+
 ---
 
-### 🔹 Benefits & Limitations  
+### 🔹 Benefits & Limitations
+
 #### Part 1: Memory- and Performance-Efficient Techniques
 
-* **Load Less Data**:
-    * **Benefits**: Substantially reduces memory consumption and load times by only loading relevant columns.
-    * **Limitations**: Requires prior knowledge of which columns are essential for the analysis; not suitable if all columns are needed.
-* **Chunking**:
-    * **Benefits**: Enables processing of datasets larger than available memory; provides a way to handle data in batches.
-    * **Limitations**: Can be slower than loading the entire dataset at once due to overhead of reading and concatenating chunks; may require additional logic for processing across chunk boundaries.
-* **Data Type Optimization**:
-    * **Benefits**: Significantly reduces memory usage by fitting data into smaller, appropriate types (e.g., `float32` instead of `float64`).
-    * **Limitations**: Requires careful consideration of data ranges to avoid overflow or loss of precision; manual type mapping can be tedious for many columns.
-* **Sampling**:
-    * **Benefits**: Dramatically reduces processing time and memory for quick exploratory analysis or model prototyping; useful when full data is not needed.
-    * **Limitations**: Results are based on a subset and may not accurately represent the entire dataset; can miss rare patterns or outliers present in the full data.
-* **Dask Parallel Processing**:
-    * **Benefits**: Designed for out-of-core and parallel processing, making it ideal for datasets that exceed memory limits; scales well to multi-core machines or clusters.
-    * **Limitations**: Can incur overhead for scheduling tasks and managing distributed data; performance can degrade if data formatting issues require fallback to less efficient parsing engines.
+- **Load Less Data**:
+  - **Benefits**: Substantially reduces memory consumption and load times by only
+    loading relevant columns; requires no changes to the data or library, just
+    a single `usecols` parameter.
+  - **Limitations**: Requires prior knowledge of which columns are essential;
+    not suitable when the full dataset is needed for analysis.
+
+- **Chunking**:
+  - **Benefits**: Enables processing of datasets larger than available memory by
+    reading in manageable batches; provides a way to apply row-level
+    transformations per chunk.
+  - **Limitations**: Slower than a direct full load due to repeated chunk
+    allocation and `pd.concat()` overhead; peak memory can still spike during
+    the concatenation step, negating the memory benefit.
+
+- **Data Type Optimisation**:
+  - **Benefits**: Reduces long-term in-memory footprint without losing any rows
+    or columns; compatible with all downstream Pandas operations; can be applied
+    on top of any other loading strategy.
+  - **Limitations**: Requires manual identification and mapping of appropriate
+    types per column; risk of precision loss for numeric columns if types are
+    downcast too aggressively.
+
+- **Sampling**:
+  - **Benefits**: Dramatically reduces processing time and memory for exploratory
+    analysis and model prototyping; `random_state` ensures reproducibility across
+    runs.
+  - **Limitations**: The full dataset must still be loaded before sampling occurs,
+    so memory savings only apply after the initial load; results may not
+    accurately represent rare patterns or outliers in the full data.
+
+- **Parallel Processing (Dask)**:
+  - **Benefits**: Achieves the lowest possible memory footprint by computing only
+    aggregated results without materialising the full dataset; natively scales to
+    multi-core machines and datasets exceeding available RAM.
+  - **Limitations**: High task scheduling overhead makes it slow for simple
+    operations; explicit `dtype` specifications are required to prevent
+    partition-level type conflicts; throughput cannot be measured when returning
+    scalar aggregates rather than a DataFrame.
+
+- **Parallel Processing (Polars)**:
+  - **Benefits**: Fastest end-to-end execution of all strategies through
+    Rust-native multi-core parallelism and lazy query optimisation; requires
+    minimal configuration.
+  - **Limitations**: Full result materialisation via `.collect()` loads all rows
+    into RAM simultaneously, resulting in high memory usage; Polars' API differs
+    from Pandas in places, requiring a learning curve for existing Pandas users.
 
 #### Part 2: Loading Dataset with Different Libraries
 
-* **Pandas**:
-    * **Benefits**: Widely adopted, intuitive API, and excellent for in-memory data manipulation; robust for datasets that fit into RAM.
-    * **Limitations**: Can struggle with very large datasets that exceed available memory, leading to memory errors; single-threaded for most operations.
-* **Dask**:
-    * **Benefits**: Provides a familiar Pandas-like API for out-of-core and parallel computing; integrates well with the Python data science ecosystem.
-    * **Limitations**: Can be slower for smaller datasets due to parallelization overhead; performance is highly dependent on data cleanliness, as malformed data can force less efficient processing.
-* **Polars**:
-    * **Benefits**: Extremely fast and memory-efficient due to Rust backend and multi-threaded design; excels at eager execution for large datasets.
-    * **Limitations**: Newer library with a smaller community compared to Pandas; its API, while similar to Pandas, has differences that require a learning curve for existing Pandas users.
+- **Pandas**:
+  - **Benefits**: Widely adopted with an intuitive API; excellent compatibility
+    with the broader Python data science ecosystem; straightforward for datasets
+    that fit within available RAM.
+  - **Limitations**: Single-threaded for CSV parsing, making it the slowest
+    loader for large files; row-oriented storage is less memory-efficient than
+    columnar alternatives.
+
+- **Polars**:
+  - **Benefits**: Fastest full CSV loader in this benchmark at **5.42 seconds**
+    with the highest throughput (**553,179 records/s**); Rust-based multi-core
+    parallelism is automatic with no configuration required.
+  - **Limitations**: Higher memory usage than Dask for full loads; API
+    differences from Pandas require adjustment for teams already familiar with
+    the Pandas ecosystem.
+
+- **PyArrow**:
+  - **Benefits**: Highly optimised multi-threaded CSV reader with the Apache Arrow
+    columnar format; ideal for pipelines that feed into Parquet, Spark, or
+    DuckDB which natively speak the Arrow format.
+  - **Limitations**: The `.to_pandas()` conversion step temporarily doubles memory
+    consumption by holding both the Arrow Table and the Pandas DataFrame in RAM
+    simultaneously, making it the most memory-intensive library in this benchmark.
+
+- **Dask**:
+  - **Benefits**: Most memory-efficient full loader at **1,704.67 MB** due to
+    partitioned reading; familiar Pandas-like API with native support for
+    out-of-core and distributed computing.
+  - **Limitations**: Task scheduling overhead made it the slowest full loader at
+    **51.42 seconds**, even slower than single-threaded Pandas; best suited for
+    aggregation workloads rather than straightforward full loads.
+
 ---
-### 🔹 Reflection  
-Through this assignment, we gained a deeper understanding of the complexities involved in handling big data, particularly when faced with resource constraints. The most significant learning for us was that there isn't a one-size-fits-all solution; the best strategy depends heavily on the **dataset's characteristics**, the **available computational resources**, and the **specific analytical task**.
 
-For instance, we learned the critical importance of **proactive memory management** through techniques like selective column loading and data type optimization, which can significantly reduce memory footprint and speed up processing. The experience with Dask highlighted the trade-off between **robustness and speed** when dealing with imperfect data; while it can handle large-scale, out-of-core processing, data quality issues can severely impact its performance. Conversely, Polars demonstrated the power of modern data libraries designed for **speed and efficiency**, proving that significant performance gains are possible with the right tools.
+### 🔹 Reflection
 
-These insights will be incredibly useful in our future endeavors, especially when working on projects involving large-scale data. We now understand the importance of:
-1.  **Profiling and benchmarking**: Always measuring performance to identify bottlenecks and validate the effectiveness of chosen strategies.
-2.  **Strategic data loading**: Applying techniques like `usecols`, `chunksize`, and `dtype` optimization from the outset to avoid memory issues.
-3.  **Choosing the right tool**: Selecting libraries like Polars or Dask based on data size, memory constraints, and the need for parallelization.
-4.  **Data cleanliness**: Recognizing that data quality directly impacts processing efficiency, especially with tools designed for high performance.
+**Najma Shakirah**
 
-This assignment has equipped us with practical skills to approach big data challenges more effectively, ensuring efficient and scalable data handling in real-world scenarios.
+Working on the dataset description and library choices helped me understand why
+selecting the right tool matters before writing any code. Implementing Strategy 2
+(Chunking) and Strategy 3 (Data Type Optimisation) was eye-opening as I initially
+expected Chunking to be more memory-efficient, but the `pd.concat()` overhead
+caused memory to spike to nearly 3,000 MB. Data Type Optimisation proved more
+effective by simply downcasting column types to reduce memory while keeping all
+columns intact. Benchmarking Polars was the most impressive part, completing a
+full load in just **5.42 seconds** with **553,179 records/second**, reinforcing
+that modern libraries can outperform traditional tools by a significant margin
+with minimal configuration.
+
+---
+
+**Syarifah Dania**
+
+Handling the initial data loading and inspection gave me a solid foundation for
+understanding the dataset before any optimisation was applied. Implementing
+Strategy 1 (Load Less Data) reinforced that the most effective optimisation is
+often preventing unnecessary data from being loaded in the first place, with
+memory dropping to just **396.42 MB** by simply using `usecols`. Benchmarking
+PyArrow revealed an unexpected trade-off where the `.to_pandas()` conversion step
+pushed memory to **6,218.35 MB**, the highest of all libraries, teaching me that
+what happens after the initial load is just as important as the load itself.
+
+---
+
+**Nawwarah Auni**
+
+Implementing Strategy 4 (Sampling) taught me that the order of operations
+matters, as the full dataset still had to be loaded before `.sample()` could
+run, resulting in unexpectedly high memory usage of **2,851.59 MB**. Working on
+Strategy 5 with Dask and Polars was the most technically challenging part, where
+configuring Dask correctly with explicit `dtype` specifications and understanding
+lazy evaluation required a deeper grasp of how distributed frameworks manage data
+internally. Conducting the comparative analysis across all strategies reinforced
+that no single approach is universally optimal and that the right choice always
+depends on the specific constraints of the task.
 
 ---
 
