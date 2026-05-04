@@ -239,6 +239,39 @@ print("Average Delay:", total_delay / total_count)
 <img width="323" height="25" alt="image" src="https://github.com/user-attachments/assets/8b96fd12-5266-48be-a35b-f69ab60ef878" />
 
 
+
+**📚 Example 3: Cancelled Flights Ratio {er Year**
+
+**Code**:
+```python
+year_stats = {}
+
+for file in files:
+    year = file.split(".")[0]
+
+    total = 0
+    cancelled = 0
+
+    for chunk in pd.read_csv(file, usecols=["CANCELLED"], chunksize=100000):
+        total += len(chunk)
+        cancelled += chunk["CANCELLED"].sum()
+
+    year_stats[year] = cancelled / total
+
+print("Cancelled flights ratio per year: ", year_stats)
+```
+
+**Explanation**:  
+1. `total_delay` stores sum of all delays and `total_count` stores number of valid delay entries.
+2. The dataset is read in chunks with only "DEP_DELAY" column is loaded
+3. For each chunk:
+   - `.sum()` adds all delay values in that chunk
+   - `.count()` counts non-missing values
+4. Final average is computed using `total_delay`/`total_count`.
+
+**Output Summary**:
+<img width="323" height="25" alt="image" src="https://github.com/user-attachments/assets/8b96fd12-5266-48be-a35b-f69ab60ef878" />
+
 ### Task 3.3 : Data Type Optimisation
 ### Task 3.4 : Sampling
 **Consolidate and Measure Dataset** : Exports the fully combined DataFrame (df_all) into a single, consolidated CSV file to be used for subsequent processing. It then utilizes the os module to retrieve the physical file size on the disk, displaying the final megabytes alongside the total row and column counts for verification.
