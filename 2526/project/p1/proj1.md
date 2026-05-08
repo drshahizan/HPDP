@@ -82,7 +82,7 @@ By the end of this project, you will be able to:
 | Team | Website | Tools |  Open in GitHub |
 | ----- | ----- | ------ | ------ | 
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
-| Scrape Master | [Carsome.my](https://www.carsome.my/) | Beautiful Soup |  [![Open in GitHub](hi)](placeholder) |
+| Scrape Master | [Carousell.com.my](https://www.carousell.com.my/categories/computers-tech-602/?tab=marketplace) | Beautiful Soup |  [![Open in GitHub](hi)](placeholder) |
 | LazData | [lazada.com.my](https://www.lazada.com.my) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
 | WebMiner | [motortrader.com.my](https://www.motortrader.com.my/) | PlayWright | [![Open in GitHub](hi)](placeholder)
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
