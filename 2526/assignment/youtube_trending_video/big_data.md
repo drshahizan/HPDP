@@ -195,7 +195,7 @@ This table compares the time taken to load the optimized dataset and perform the
 
 ### 5.3 Critical Discussion
 
-The benchmark results clearly highlight the architectural differences and trade-offs between standard single-threaded processing and modern parallel processing frameworks.
+The benchmark results clearly point out the architectural differences and trade-offs between standard single-threaded processing and modern parallel processing frameworks.
 
 **Memory Optimization Findings:**
 Our baseline Pandas load consumed a massive 3,430.50 MB of RAM, threatening to crash the single-node environment. The most impactful strategy was "Load Less Data", which dropped memory usage down to 300.19 MB simply by excluding heavy, unneeded text columns. Data Type Optimisation further shaved off another 21 MB by downcasting integers. This proves that I/O filtration is the most critical first step in big data engineering before any computation even begins.
@@ -215,18 +215,17 @@ While **Dask** is designed for parallel computing, its execution time (26.12s) w
 ## 6. Conclusion and Reflection
 
 ### 6.1 Summary of Findings
+In this assignment, we clearly saw how normal tools like Pandas struggle when working with big data. For saving memory, the biggest lesson was actually the simplest: just load the columns you need. By using `usecols` (Strategy 1), we saved almost all of our RAM instantly. 
 
-This assignment highlighted the severe limitations of traditional data processing tools when applied to large datasets. The most impactful takeaway regarding memory optimization was that the simplest strategy—loading only necessary columns (`usecols`)—provided the greatest benefit, dropping our RAM usage from 3,430 MB down to just 300 MB. Regarding execution time, the architectural shift from single-threaded operations to parallel computing was transformative. While Dask provided steady distributed performance, Polars completely outclassed the competition (3.78 seconds) due to its Rust backend and lazy evaluation model, making it the clear choice for single-node data pipelines.
+For processing speed, we saw a huge difference when we stopped using just one processor core. Pandas was very slow because it does one thing at a time. Dask used multiple cores, but it had a lot of background setup that slowed it down on a single computer. The clear winner was **Polars**. Because it is built on Rust and uses "lazy evaluation" which planning the fastest route before running the code, it was incredibly fast. For a real-world pipeline on a single machine, Polars is the best choice.
 
 ### 6.2 Personal Reflection
+Honestly, the biggest surprise for me was seeing how much memory Pandas wastes by default. It literally assigns the largest possible size to every single number and piece of text. Before this, I only really cared about getting my code to run without errors. But now, I actually have to think about the computer's RAM limits.I learn how to use things like chunking and downcasting completely changed how I tackle big datasets. The biggest challenge was understanding that a tool like Dask is not automatically faster just because it is big data software. If I had to do this all over again, I definitely start with the Sampling strategy earlier. It is because testing logic on a 10% slice of the data first would have saved me so much time staring at the screen waiting for my code to finish loading.
 
-The most surprising aspect of this workflow was discovering how much memory standard Pandas wastes by defaulting to `int64` and `object` types. Downcasting data types and utilizing chunking forced a shift in mindset: instead of just writing code that works, we had to write code that respects the hardware limitations of the environment. Implementing Polars also shifted our perspective on query planning; explicitly separating the definition of a query from its execution (`.collect()`) feels much closer to how professional, scalable pipelines are built.
+### 6.3 The Importance of Scalability
+The strategies we used like chunking, changing data types, and using Polars worked perfectly for a 2 GB dataset on a single computer. However, if this dataset grew to 100 GB or 1 TB, our current setup would hit a wall. 
 
-### 6.3 The Importance of Scalability (10 GB to 1 TB+)
-
-While strategies like chunking and parallel processing using Polars are highly effective for a dataset of this size on a single machine, these approaches would eventually hit a ceiling. If this dataset scaled to 100 GB or 1 TB, a single Google Colab instance would fail regardless of optimization.
-
-At the terabyte scale, we would need to abandon single-node processing entirely and migrate to distributed cloud infrastructure. The data would likely need to be structured within a Medallion architecture (Bronze, Silver, Gold layers) to systematically clean and aggregate the massive influx of logs. To process this, we would transition to enterprise platforms like Google Cloud Platform (GCP) or Azure Databricks, utilizing distributed engines like Apache Spark or Dask clusters to spread the compute load across multiple virtual machines.
+At 1 TB, a single Google Colab instance would completely fail. Even chunking would take days to finish, and the hard drive would run out of space. At that massive scale, we have to stop using a single computer. We would need to move our data to cloud platforms like Google Cloud or AWS. To process it, we would need to upgrade to distributed systems like **Apache Spark**, which can split the massive dataset across hundreds of different computers working together at the exact same time.
 
 ---
 
