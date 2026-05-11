@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-# 🚗 mudah.my Web Scraper
+# 🏘️ mudah.my Web Scraper
 
 A Python-based web scraper developed to collect property listings from [mudah.my](https://www.mudah.my/) across all states in Malaysia. The scraper extracts relevant property information from each listing and stores the data into separate CSV files by state, which are later combined into a complete consolidated dataset.
 
