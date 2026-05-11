@@ -180,6 +180,7 @@ This table illustrates the impact of vertical scaling strategies applied to the 
 | **Baseline (All Columns, Default Types)** | 3,430.50 MB | 0.0% |
 | **Strategy 1 (Load Less Data)** | 300.19 MB | ~91.2% |
 | **Strategy 3 (Optimized Data Types)** | 279.18 MB | ~91.8% |
+<img width="1140" height="461" alt="image" src="../../../images/comparative.png" />
 
 **Table 2: Execution Time by Library**
 This table compares the time taken to load the optimized dataset and perform the aggregation across all three libraries.
@@ -220,7 +221,11 @@ In this assignment, we clearly saw how normal tools like Pandas struggle when wo
 For processing speed, we saw a huge difference when we stopped using just one processor core. Pandas was very slow because it does one thing at a time. Dask used multiple cores, but it had a lot of background setup that slowed it down on a single computer. The clear winner was **Polars**. Because it is built on Rust and uses "lazy evaluation" which planning the fastest route before running the code, it was incredibly fast. For a real-world pipeline on a single machine, Polars is the best choice.
 
 ### 6.2 Personal Reflection
+# Choh Jing Yi
 Honestly, the biggest surprise for me was seeing how much memory Pandas wastes by default. It literally assigns the largest possible size to every single number and piece of text. Before this, I only really cared about getting my code to run without errors. But now, I actually have to think about the computer's RAM limits.I learn how to use things like chunking and downcasting completely changed how I tackle big datasets. The biggest challenge was understanding that a tool like Dask is not automatically faster just because it is big data software. If I had to do this all over again, I definitely start with the Sampling strategy earlier. It is because testing logic on a 10% slice of the data first would have saved me so much time staring at the screen waiting for my code to finish loading.
+
+# Tan Zhi Ming
+Through this assignment, I have gained a profound understanding of the critical shift from theoretical data processing to the practical management of large-scale datasets, specifically through handling 1.57 GB of YouTube trending records. The most significant technical takeaway was the realization that memory is often a more immediate bottleneck than CPU speed; while the initial Pandas baseline consumed over 3.4 GB of RAM and risked system crashes, implementing vertical scaling strategies like Load Less Data and Data Type Optimization reduced the memory footprint by over 91%. Furthermore, the comparative analysis demonstrated the clear superiority of scalable libraries, with Polars executing tasks nearly twice as fast as Pandas by leveraging Rust-based multi-threading and lazy evaluation. This experience has reshaped my engineering mindset to prioritize "defensive loading" via usecols and early-stage Sampling for rapid prototyping. Looking ahead, while these tools successfully optimized our current data, the exploration of Dask highlighted that for datasets scaling beyond 100 GB, a transition to distributed computing and efficient storage formats like Parquet would be essential to maintain performance.
 
 ### 6.3 The Importance of Scalability
 The strategies we used like chunking, changing data types, and using Polars worked perfectly for a 2 GB dataset on a single computer. However, if this dataset grew to 100 GB or 1 TB, our current setup would hit a wall. 
