@@ -16,7 +16,7 @@
     <td>A23CS0183</td>
   </tr>
    <tr>
-    <td>Nawwarah Auni binti NazrudinNawarrah Auni
+    <td>Nawwarah Auni binti Nazrudin
 </td>
     <td>A23CS0143</td>
   </tr>
@@ -37,7 +37,7 @@
 
 In the era of big data, traditional processing tools often fail when handling large-scale datasets, leading to memory exhaustion and slow execution. This assignment focuses on mastering high-performance data handling techniques by transitioning from theory to practical implementation.  
 
-We utilize the Amazon Books Reviews dataset (approx. 2.9 GB), which is large enough to challenge the limits of standard libraries like Pandas. Our objective is to apply five key strategies which are loading selective data, chunking, data type optimization, sampling, and parallel processing—to ensure efficiency. By comparing Pandas against scalable libraries like PyArrows, Polars and Dask, we evaluate improvements in execution time and memory usage, preparing us for real-world data engineering challenges. 
+We utilize the Amazon Books Reviews dataset (approx. 2.9 GB), which is large enough to challenge the limits of standard libraries like Pandas. Our objective is to apply five key strategies which are loading selective data, chunking, data type optimization, sampling, and parallel processing to ensure efficiency. By comparing Pandas against scalable libraries like PyArrows, Polars and Dask, we evaluate improvements in execution time and memory usage, preparing us for real-world data engineering challenges. 
 
 ---
 
