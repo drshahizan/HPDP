@@ -1,0 +1,6 @@
+undetected-chromedriver==3.5.5
+selenium==4.18.1
+pandas==2.2.2
+beautifulsoup4==4.12.3
+setuptools>=68.0.0
+lxml==5.2.1
