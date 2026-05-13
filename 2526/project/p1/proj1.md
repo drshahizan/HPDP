@@ -84,7 +84,7 @@ By the end of this project, you will be able to:
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
 | Scrape Master | [Carousell.com.my](https://www.carousell.com.my/categories/computers-tech-602/?tab=marketplace) | Beautiful Soup |  [![Open in GitHub](hi)](placeholder) |
 | LazData | [lazada.com.my](https://www.lazada.com.my) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
-| WebMiner | [motortrader.com.my](https://www.motortrader.com.my/) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner/A1)
+| WebMiner | [carlist.my](https://www.carlist.my/) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner/A1)
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Shopping | [malaymail.com](https://www.malaymail.com/) | PlayWright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
 | temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
