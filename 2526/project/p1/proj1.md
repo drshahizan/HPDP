@@ -100,6 +100,7 @@ By the end of this project, you will be able to:
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | Scrape Master | Pandas | Multiprocessing | Polars | Carousell | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/optimized_pipeline.ipynb) |
+| scubscub | Pandas | Polars | PySpark | [BookXcess](https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]((https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing)) |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
