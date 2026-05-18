@@ -103,6 +103,7 @@ By the end of this project, you will be able to:
 | scubscub | Pandas | Polars | PySpark | [BookXcess](https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]((https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing)) |
 | Fast&Furious | Pandas | Polars | DuckDB | [BookXcess](https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Fast&Furious/p1/optimize_pipeline.ipynb)
 | WebMiner | Pandas | Multiprocessing | Polars | Carlist | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner/A1) |
+| Triple A | Pandas | Polars | PySpark | maukerja |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](TripleA/p1) |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
