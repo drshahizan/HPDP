@@ -1,4 +1,4 @@
-# 📘 Assignment 2: Mastering Big Data Handling
+# 📘 Project 1: Optimizing High Performance Data Processing for Large Scale Web Crawlers
 
 <table border="solid" align="center">
   <tr>
