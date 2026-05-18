@@ -587,7 +587,7 @@ This analysis helps to identify which strategy offers the best trade-off between
 | Use Chunking   | 15.97 | 217.97  |
 | Optimize Data Types | 17.8 | 580.79 |
 | Sampling   | 11.27 | 109.74  |
-| Parallel Processing with Polars | 12.08 | 338.77x  |
+| Parallel Processing with Polars | 12.08 | 338.77  |
 | Parallel Processing with Dask | 100.4 | 3523.78  |
 
 #### 📈 Visualisation
@@ -723,6 +723,7 @@ This experience helped improve my understanding of how different data processing
 Overall, this assignment strengthened my practical skills in handling big data and improved my ability to evaluate trade-offs between performance, memory usage, and scalability in real-world scenarios.
 
 **Chua Jia Lin:**
+
 From this assignment, I realized that simpler strategies can sometimes work better than more complex ones. At first, I thought advanced methods like parallel processing using scalable libraries such as Polars would perform the best, but the results showed that Load Less Data and Sampling actually gave better performance in terms of both speed and memory. This told me that reducing the amount of data being processed is most effective strategies.
 
 Besides, I was surprised that the Optimize Data Types strategy performed the worst among all Pandas-based strategies, with highest memory usage and slowest execution. This showed me that optimisation can add extra overhead if not applied carefully. Moreover, Chunking helped to reduce memory usage, but it increased the execution time, showing a trade-off between memory and speed.
