@@ -14,11 +14,16 @@ Through hands-on experience, students will explore data collection, cleaning, tr
 
 This project aims to develop students' technical skills in high-performance computing, critical thinking in system optimization, and collaboration in diverse teams—key competencies for data science professionals.
 
-📊 **Weightage**: 15% of total course assessment  
-🕓 Project Duration: 4 Weeks
-📅 **Submission Deadline**: **Friday, 16 May 2025**  
-📤 **Submission Format**: All final documents must be uploaded via e-learning and github  
-👥 **Assignment Type**: **4 students per group (Max)**. 
+| Item               | Details |
+| ------------------ | ------------------------------------------------------------------------ |
+| Document| [Assignment brief](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/IQA7ZdnzovyOToJrmnkiB1plAZo6bQ7A7flAbi6pvS8SHbk?e=lisYah)|
+| Project Type       | Group Project (Maximum **3 students per group**) |
+| Duration           | 4 Weeks |
+| Weightage          | 15% of total course assessment |
+| Submission Date    | **Monday, 25 May 2025** |
+| Submission Channel | e-Learning Portal, Turnitin, GitHub |
+
+👥 **Assignment Type**:
 > 📌 Each group must include students from **different genders, races, or backgrounds** to encourage diversity and collaboration across cultures and perspectives.
 
 ## 🧠 **What Is This Project About?**
@@ -43,16 +48,16 @@ By the end of this project, you will be able to:
 5. Evaluate your system’s performance and explain how it was improved.
 6. Present your work professionally through reports and presentations.
 
-## 📌 **Project Requirements**
+## 📌 Project Requirements
 
-### ✅ Minimum Technical Requirements:
+### ✅ Technical Requirements:
 - Crawl and collect **at least 100,000 records** from a single Malaysian website.
-- Store the data in **CSV, JSON, or a structured database**.
+- Store the data in **CSV, JSON, or database**.
 - Clean and process the data (e.g., remove duplicates, standardize fields).
-- Apply at least **three optimization techniques** to make your system faster and more efficient.
-- Compare **before vs after optimization** using performance metrics.
-
-### ✅ Deliverables (What You Must Submit):
+- Apply at least **two optimization methods** to make your system faster and more efficient.
+- Include performance comparison **(before vs after optimization)**
+  
+### ✅ Deliverables
 | No. | Item | Description |
 |-----|------|-------------|
 | 1 | **Final Report** | A complete document with background, methods, results, and discussion. Must be uploaded to Turnitin (PDF). |
@@ -61,92 +66,39 @@ By the end of this project, you will be able to:
 | 4 | **Performance Comparison** | Include charts or tables comparing performance before and after optimization. |
 | 5 | **Presentation Slides** | 10-minute group presentation explaining your project. |
 
-## 🌐 **Suggested Malaysian Websites for Crawling**
+## 🔗 Quick Access to Supporting Resources
+- 🌐 [Suggested Malaysian Websites for Crawling](p1_web.md)  
+- 🧭 [Step-by-Step Project Guide](p1_step.md)  
+- 🧾 [Assessment Rubric](p1_rubric.md)  
+- 🔗 [Recommended Repositories & Tools](p1_tools.md)  
+- ✅ [Checklist & Timeline Tracker](p1_checklist.md)  
+- 📄 [Sample Report Structure](p1_report.md)  
+- 📁 [GitHub Folder Submission Template](p1_github.md)
 
-Choose only **ONE** website from the list below. You must clearly explain what type of data you will extract and confirm that the website can provide at least **100,000 records**.
+## Submission
 
-| No. | Website | Domain | Example Data Fields |
-|-----|---------|--------|----------------------|
-| 1 | [JobStreet](https://www.jobstreet.com.my) | Job Search | Job title, company name, location, salary, job category |
-| 2 | [Lazada](https://www.lazada.com.my) | E-commerce | Product name, price, category, seller, ratings |
-| 3 | [Mudah.my](https://www.mudah.my) | Online Marketplace | Listing title, item type, price, region, seller |
-| 4 | [PropertyGuru](https://www.propertyguru.com.my) | Real Estate | Property title, price, location, property type |
-| 5 | [NST](https://www.nst.com.my) | News | Headline, publication date, section, article summary |
-| 6 | [SoyaCincau](https://soyacincau.com) | Tech Reviews | Article title, brand, topic, publication date |
-| 7 | [CARSOME](https://www.carsome.my) | Car Sales | Car model, year, price, mileage, dealer name |
-| 8 | [MyFutureJobs](https://www.myfuturejobs.gov.my) | Government Job Portal | Job title, employer, salary, sector, region |
-| 9 | [iProperty](https://www.iproperty.com.my) | Real Estate | Listing name, price, number of rooms, location |
+1. Web scraping
+   
+| Team | Website | Tools |  Open in GitHub |
+| ----- | ----- | ------ | ------ | 
+| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
+| Scrape Master | [Carousell.com.my](https://www.carousell.com.my/categories/computers-tech-602/?tab=marketplace) | Beautiful Soup |  [![Open in GitHub](hi)](placeholder) |
+| scubscub | [BookXcess](https://www.bookxcess.com/) | Beautiful soup| [![Open in GitHub](hi)](placeholder) |
+| WebMiner | [carlist.my](https://www.carlist.my/) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner/A1)
+| Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Shopping | [malaymail.com](https://www.malaymail.com/) | PlayWright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
+| temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Fast&Furious | [mudah.my](https://www.mudah.my/malaysia/properties-for-sale) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Reporter | [mphonline.com](https://mphonline.com/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Ayam Gepuk | [Edge Malaysia](https://theedgemalaysia.com/) | Selenium |  [![Open in GitHub](hi)](placeholder)
 
-> ✅ Each group must get **approval from your lecturer** before starting the crawling process.
 
-## 🧭 **Step-by-Step Project Guide**
+2. Performance Comparison
 
-### 📍 **Week 1: Planning & Setup**
-- Form a group of 4 (with diverse members).
-- Choose a target website and identify the data you want to collect.
-- Get lecturer approval.
-- Design your crawler’s architecture and processing plan.
-- Decide which libraries or frameworks to use (e.g., Scrapy, BeautifulSoup, Requests, Dask, Spark).
-
-### 📍 **Week 2: Crawler Development**
-- Build your web crawler to collect real-time data.
-- Respect robots.txt and do not overload the website.
-- Save data progressively to avoid loss.
-- Store in CSV, JSON, or a database.
-
-### 📍 **Week 3: Data Processing & Optimization**
-- Clean and transform your data (e.g., fix missing values, remove duplicates).
-- Apply at least **two optimization techniques** such as:
-  - `threading`, `asyncio`
-  - `multiprocessing`
-  - `Spark` or `Dask` for large-scale data
-- Record your performance (time, memory, CPU usage).
-
-### 📍 **Week 4: Reporting & Submission**
-- Create your final report and slides.
-- Compare your system’s performance before and after optimization.
-- Submit:
-  - ✅ Report (via Turnitin)
-  - ✅ Code (via GitHub/ZIP)
-  - ✅ Dataset (with minimum 100,000 records)
-  - ✅ Performance analysis and presentation slides
-
-## 📊 **Performance Evaluation Criteria**
-You must compare the following between your basic and optimized versions:
-- Total processing time (in seconds/minutes)
-- CPU and memory usage
-- Number of records processed per second (throughput)
-- Charts/graphs showing improvements
-
-## 🧾 **Assessment Rubric**
-
-| Area | Details | Weight |
-|------|---------|--------|
-| Problem Understanding | Clear objectives, dataset identification, ethical crawling | 10% |
-| System Design | Architecture planning, tool selection, modularity | 15% |
-| Crawler & Processing Implementation | Functional, efficient, and able to collect ≥100,000 records | 25% |
-| Optimization Techniques | Use of HPC methods and correctness of application | 20% |
-| Performance Evaluation | Metrics comparison, accuracy of results, charts | 10% |
-| Final Report | Clarity, completeness, professionalism | 10% |
-| Group Presentation | Teamwork, explanation, timing, Q&A | 10% |
-| **Total** |  | **100%** |
-
-## ❓ **Need Help?**
-
-Throughout the project, you may consult your lecturer during lab sessions or via email. If you encounter issues such as:
-- Website not responding
-- Incomplete data collection
-- Performance too slow
-
-→ You are **encouraged to troubleshoot first as a team**, then seek help with clear questions and examples.
-
-## 🔗 [Recommended Repositories & Tools](p1_tools.md)
-
-## ✅ [Student Project Checklist & Timeline Tracker](p1_checklist.md)
-
-## 🧾 **[Sample Report Structure (Final Report)](p1_report.md)**
-
-## 📁 **[GitHub Folder Template submission](p1_github.md)**
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
