@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group WebMiner - Web Scraping MotorTrader using BeautifulSoup
+  Group WebMiner - Web Scraping Carlist using BeautifulSoup
   <br>
 </h1>
 
