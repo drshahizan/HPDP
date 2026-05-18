@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Web Scraping using PlayWright
+  Web Scraping Big Pharmacy Website using Beautiful SOup
   <br>
 </h1>
 
@@ -9,8 +9,8 @@
     <th>Matric Number</th>
   </tr>
   <tr>
-    <td width=80%>Najma</td>
-    <td>A23CS</td>
+    <td width=80%>Najma Shakirah binti Shahrulzaman</td>
+    <td>A23CS0140</td>
   </tr>
   <tr>
     <td width=80%>Asyikin</td>
