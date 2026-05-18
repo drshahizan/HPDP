@@ -91,7 +91,7 @@ By the end of this project, you will be able to:
 | Fast&Furious | [mudah.my](https://www.mudah.my/malaysia/properties-for-sale) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Fast&Furious/p1)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](TripleA/p1)
 | Reporter | [mphonline.com](https://mphonline.com/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
-| Ayam Gepuk | [Edge Malaysia](https://theedgemalaysia.com/) | Selenium |  [![Open in GitHub](hi)](placeholder)
+| Ayam Gepuk | [Edge Malaysia](https://theedgemalaysia.com/) | Selenium |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](AyamGepuk/A1) |
 
 
 2. Performance Comparison
