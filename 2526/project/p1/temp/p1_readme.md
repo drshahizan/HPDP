@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group 10 - Web Scraping using BeautifulSoup
+  Web Scraping using PlayWright
   <br>
 </h1>
 
