@@ -83,7 +83,7 @@ By the end of this project, you will be able to:
 | ----- | ----- | ------ | ------ | 
 | Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](sample/A1) |
 | Scrape Master | [Carousell.com.my](https://www.carousell.com.my/categories/computers-tech-602/?tab=marketplace) | Beautiful Soup |  [![Open in GitHub](hi)](placeholder) |
-| scubscub | [BookXcess](https://www.bookxcess.com/) | Beautiful soup |  [![Open in GitHub]((https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github))](scubscub/A1) |
+| scubscub | [BookXcess](https://www.bookxcess.com/) | Beautiful soup |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](scubscub/p1) |
 | WebMiner | [carlist.my](https://www.carlist.my/) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner/A1)
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Shopping | [malaymail.com](https://www.malaymail.com/) | PlayWright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
