@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group WebMiner - Web Scraping Carlist using BeautifulSoup
+  Group WebMiner - Web Scraping Carlist using Playwright
   <br>
 </h1>
 
@@ -23,11 +23,11 @@
 </table>
 <br>
 <div align='center'>
-<img src='https://www.jeveuxetredatascientist.fr/wp-content/uploads/2022/06/BeautifulSoup.jpg' height=200 width=300 alt='beautiful soup'>
+<img src='https://www.google.com/imgres?q=Playwright&imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD5612AQFeUcKQu3LICg%2Farticle-cover_image-shrink_600_2000%2Farticle-cover_image-shrink_600_2000%2F0%2F1721876592322%3Fe%3D2147483647%26v%3Dbeta%26t%3D8Z-dMuFDmPsdNMVLvqDgbqtxAeEz4GWwHcaQQxLTzlc&imgrefurl=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fpros-cons-playwright-automation-framework-dmitry-loukine-weyoc&docid=TqugJVJlEJetfM&tbnid=lemDt1sIMfZ9oM&vet=12ahUKEwiz2v7h1cGUAxXqSGwGHeoCG_oQnPAOegQIFxAB..i&w=646&h=400&hcb=2&ved=2ahUKEwiz2v7h1cGUAxXqSGwGHeoCG_oQnPAOegQIFxAB' height=200 width=300 alt='playwright'>
 </div>
 <br>
 <p>
-  Beautiful Soup is a Python library that is used for web scraping. It allows you to parse HTML or XML documents into a readable, tree-like format, and then extract data from the tree based on its structure. With Beautiful Soup, you can easily navigate through the document, search for specific tags, and extract the text or attributes of those tags. It is often used in combination with other libraries, such as requests or Playwright, to programmatically access web pages and extract data from them. The website that we will be using is https://www.carlist.my/.
+  Playwright is a Python library that is used for web scraping. It allows you to parse HTML or XML documents into a readable, tree-like format, and then extract data from the tree based on its structure. With Beautiful Soup, you can easily navigate through the document, search for specific tags, and extract the text or attributes of those tags. It is often used in combination with other libraries, such as requests or Playwright, to programmatically access web pages and extract data from them. The website that we will be using is https://www.carlist.my/.
 
   This website is a premier automotive marketplace in Malaysia. It provides a comprehensive platform for buying and selling vehicles, featuring extensive catalogs for used, new, and reconditioned cars. The website includes detailed information about each vehicle listing, such as pricing, mileage, vehicle specifications, and seller locations. Additionally, the website provides automotive news, car reviews, and resources for buyers and dealerships. The platform is operated by Motor Trader, one of the leading automotive classifieds networks in the Malaysian market.  
 
