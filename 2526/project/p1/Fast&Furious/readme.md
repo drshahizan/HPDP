@@ -31,8 +31,8 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-| **Raw Dataset**              | Cleaned and raw data with URLs             | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)]() |
-| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)]() |
+| **Raw Dataset**              | Cleaned and raw data with URLs             | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](p1/data/raw_data.csv) |
+| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](p1/data/cleaned_data.csv) |
 | **Web Crawler Script**       | Python script to scrape mudah.my       | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/main_crawler.ipynb) |
 | **Data Cleaning Code**       | Script to clean and preprocess the data    | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/clean_data.ipynb) |
 | **Optimization Code**        | Performance-optimized transformation code  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/performances_after.ipynb) |
