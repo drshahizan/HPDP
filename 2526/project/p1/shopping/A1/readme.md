@@ -23,15 +23,15 @@
 </table>
 <br>
 <div align='center'>
-<img src='https://www.jeveuxetredatascientist.fr/wp-content/uploads/2022/06/BeautifulSoup.jpg' height=200 width=300 alt='beautiful soup'>
+<img width="285" height="177" alt="images" src="https://github.com/user-attachments/assets/4b848fcf-7587-4491-bd14-7b6cbcf567a1" />
 </div>
 <br>
 <p>
-  Beautiful Soup is a Python library that is used for web scraping. It allows you to parse the HTML or XML documents into a readable tree-like format, and then extract data from the tree based on its structure. With Beautiful Soup, you can easily navigate through the document, search for specific tags, and extract the text or attributes of those tags. It is often used in combination with other libraries such as requests to programmatically access web pages and extract data from them. The website that we will be using is from https://www.studymalaysia.com/education/top-stories/list-of-universities-in-malaysia.
+  Playwright is an open-source automation library developed by Microsoft, designed for end-to-end testing and web scraping across modern web applications. It supports multiple programming languages, including Python, Node.js, Java, and .NET, allowing developers to automate interactions across Chromium, Firefox, and WebKit browser engines. It provides robust features such as auto-waiting, network intercepting, and headless browser execution, making it a powerful tool for reliably capturing data from complex web architectures. The website that we will be using is from https://www.malaymail.com/.
   
-  This website is a resource for individuals interested in higher education in Malaysia. It provides a comprehensive list of universities in Malaysia, including both public and private institutions. The website also includes information about the universities' locations, programs offered, and contact information. Additionally, the website provides articles and news related to education and universities in Malaysia, as well as resources for students and parents. The website appears to be operated by StudyMalaysia Group, which is a provider of education and career guidance in Malaysia.
+  This website is a prominent Malaysian digital news portal that provides up-to-the-minute coverage of local and international news. It covers a wide range of topics, including national politics, business, lifestyle, sports and entertainment, catering to an English-speaking audience. The website serves as a rich resource for real-time information, opinion pieces and investigative journalism focused on Malaysian current affairs. 
   
-  We plan to obtain data from the website by extracting one of its tables, specifically the list of 20 Public Universities in Malaysia. By analyzing the website's code, we will locate the table and access it using the 'full boxed' class. We will then utilize the pandas library and the BeautifulSoup package to extract the information from the table in html format. Finally, we will convert the obtained data into a CSV file. In summary, we will efficiently retrieve various tables and contents from the website using these tools.
+  We plan to obtain data from the website by extracting the latest news articles from its main feed or specific category pages. By analyzing the website's dynamic DOM structure, we will use Playwright to wait for the JavaScript content to fully render, ensuring all headlines, publication dates and article URLs are accessible. We will then utilize appropriate CSS selectors or XPath expressions to locate the news grid and extract the relevant text and link attributes. Finally, we will process the gathered content and export it into a structured format of a CSV file for further analysis. In summary, we will efficiently retrieve dynamic news data from the website using these tools.
 </p>
 
 ### 📅 **Timeline & Checklist**
