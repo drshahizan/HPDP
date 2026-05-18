@@ -88,7 +88,7 @@ By the end of this project, you will be able to:
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Shopping | [malaymail.com](https://www.malaymail.com/) | PlayWright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
 | temp | [shopee.com.my](https://www.shopee.com) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
-| Fast&Furious | [mudah.my](https://www.mudah.my/malaysia/properties-for-sale) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
+| Fast&Furious | [mudah.my](https://www.mudah.my/malaysia/properties-for-sale) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Fast&Furious/p1)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](TripleA/p1)
 | Reporter | [mphonline.com](https://mphonline.com/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
 | Ayam Gepuk | [Edge Malaysia](https://theedgemalaysia.com/) | Selenium |  [![Open in GitHub](hi)](placeholder)
@@ -101,6 +101,7 @@ By the end of this project, you will be able to:
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
 | Scrape Master | Pandas | Multiprocessing | Polars | Carousell | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/optimized_pipeline.ipynb) |
 | scubscub | Pandas | Polars | PySpark | [BookXcess](https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]((https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing)) |
+| Fast&Furious | Pandas | Polars | DuckDB | [BookXcess](https://drive.google.com/drive/folders/16OOeB5IXHAxJWn6YZz7S5bBCfsmkp_xm?usp=sharing) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Fast&Furious/p1/optimize_pipeline.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
