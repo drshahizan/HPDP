@@ -99,6 +99,7 @@ By the end of this project, you will be able to:
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample1 | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](p1/sample/A2) |
+| Scrape Master | Pandas | Multiprocessing | Polars | Carousell | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/optimized_pipeline.ipynb) |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
