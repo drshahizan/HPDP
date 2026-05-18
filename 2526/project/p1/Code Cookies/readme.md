@@ -23,7 +23,6 @@
 </table>
 <br>
 <div align='center'>
-<img src='https://www.jeveuxetredatascientist.fr/wp-content/uploads/2022/06/BeautifulSoup.jpg' height=200 width=300 alt='beautiful soup'>
 </div>
 <br>
 <p>
