@@ -634,9 +634,9 @@ This analysis provides insight into the trade-offs between performance, memory e
 
 | Library | Execution Time (s) | Memory Usage (MiB) |
 |--------|------------------|-------------------|
-| Pandas | 1.96 | 217.97 |
-| Dask   | 2.77 | 92.85  |
-| Polars | 0.39 | 64.62  |
+| Pandas | 2.42 | 217.97 |
+| Dask   | 2.12 | 92.85  |
+| Polars | 0.31 | 64.62  |
 
 #### ⚙️ Processing Efficiency
 
