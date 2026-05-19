@@ -85,6 +85,9 @@ The database flows into **data metrics analysis**, then into **data visualizatio
 #### 5. Upload to GitHub
 The clean data and final outputs are pushed to **GitHub** for version control and sharing.
 
+![image](https://github.com/yAsmin241/HPDP-Project/blob/be65e200e2dd1e8ca15e09a66adc32aef974f11d/Architecture%20and%20Framwork.drawio.png)
+
+
 ## 🔗 Data Details
 
 
