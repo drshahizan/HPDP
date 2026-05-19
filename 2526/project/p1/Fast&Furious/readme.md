@@ -59,6 +59,31 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 ## 🛠️ System Architecture
 
 ## 🔧 Architecture of Tools and Frameworks Used
+#### Architecture Workflow:
+
+#### 1.  Data Collection
+Google Colab runs **BeautifulSoup** to scrape data from **mudah.my**, producing raw data.
+
+#### 2.  Data Cleaning
+The raw data is passed into **Pandas** for cleaning and transformation, producing clean data.
+
+#### 3.  Parallel Processing (Before & After Optimization)
+Three tools process the clean data in parallel:
+
+| Pipeline | Tool | Status | Output File |
+|----------|------|--------|-------------|
+| Baseline | Pandas | Before optimization | `pandas_baseline.csv` |
+| Optimized | Pandas | After optimization | `pandas_optimized.csv` |
+| Optimized | Polars | After optimization | `polars.csv` |
+| Optimized | DuckDB | After optimization | `duckdb.csv` |
+
+ All four CSV outputs are saved into a central database.
+
+#### 4. Analysis & Visualization
+The database flows into **data metrics analysis**, then into **data visualization** to show charts and graphs for insights.
+
+#### 5. Upload to GitHub
+The clean data and final outputs are pushed to **GitHub** for version control and sharing.
 
 ## 🔗 Data Details
 
