@@ -36,9 +36,8 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 | **Web Crawler Script**       | Python script to scrape mudah.my       | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/main_crawler.ipynb) |
 | **Data Cleaning Code**       | Script to clean and preprocess the data    | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/clean_data.ipynb) |
 | **Optimization Code**        | Performance-optimized transformation code  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/performances_after.ipynb) |
-| **Optimization Record Part 1** | Benchmark results part 1                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part1.csv) |
-| **Optimization Record Part 2** | Benchmark results part 2                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part2.csv) |
-| **Optimization Record Part 3** | Benchmark results part 3                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part3.csv) |
+| **Baseline Results** | Benchmark results using standard Pandas without optimization techniques | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_before.csv) |
+| **Optimized Results** | Benchmark results after applying Pandas optimized pipeline, Polars, and DuckDB | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after.csv) |
 | **Evaluation Chart**         | Visual comparison of optimization results  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p2/evaluation_charts.ipynb) |
 | **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/Final_Report.pdf) |
 | **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/PresentationSlide.pdf) |
@@ -49,11 +48,20 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 ## 📚 Libraries Used
 
 ### 🕸️ Web Scraping Libraries
-
+| Logo | Library | Description | 
+| :---: | :--- | :--- |  
+| <img height="22" src="https://github.com/user-attachments/assets/8679e166-5818-4a95-b8cf-eefc4da10179" alt="BeautifulSoup" /> | **`BeautifulSoup`** | Web scraping & HTML parsing | 
+| <img height="22" src="https://github.com/user-attachments/assets/559ec029-c0fe-4beb-b867-55f26e8dbc32" alt="requests" /> | **`requests`** | Sends HTTP requests to access web pages | 
+| <img height="22" src="https://github.com/user-attachments/assets/54613880-d844-4a00-93d7-492b7485a38b" alt="lxml" /> | **`lxml`** | Parse raw HTML strings into BeautifulSoup objects |
 
 ---
 ### ⚙️ Data Processing & Optimization Libraries
 
+| Method | Purpose |
+|-----|-----|
+| **Pandas Optimized** | Optimized DataFrame processing using vectorization and memory-efficient techniques. |
+| **Polars** | Fast parallel DataFrame processing with lower memory usage. |
+| **DuckDB** | High-speed SQL-based analytics for large datasets. |
 
 ---
 ## 🛠️ System Architecture
@@ -88,15 +96,40 @@ The clean data and final outputs are pushed to **GitHub** for version control an
 ![image](https://github.com/yAsmin241/HPDP-Project/blob/cdfd3a9f632e7e9e35931d36cfaeaf0391b13fba/Architecture%20and%20Framwork.drawio%20(2).png)
 
 
-## 🔗 Data Details
+## 📊 Dataset Overview
 
+This dataset contains property listings collected from various regions in Malaysia through web scraping from Mudah.my. The dataset includes key attributes such as property type, price, location, property size, number of bedrooms and bathrooms, seller information, and ownership details. It provides valuable insights for property buyers, sellers, and analysts interested in the Malaysian real estate market.
 
 ---
+## 🔗 Data Details
 
-## 📊 Dataset Overview
+- **Raw Dataset:** 102,486 rows and 17 columns. The dataset contains missing values in fields such as `bathrooms`, `bedrooms`, and `seller_name`.
+
+- **Cleaned Dataset:** 100,442 rows and 17 columns after data preprocessing. Cleaning steps include removing duplicate records and handling missing values.
+
+- Both datasets are stored in CSV file format for further processing and benchmarking.
+
 ---
 ## 📊 Data Description
 
+| Field Name | Expected Type | Sample Value | Description |
+|-----|-----|-----|-----|
+| `listing_id` | Text / Numeric | `114427893` | Unique identifier assigned to each property listing. |
+| `property_type` | Categorical | `Apartment for Sale` | Type or category of the property being listed. |
+| `description` | Text | `The Laguna in Langkawi...` | Detailed description of the property provided by the seller. |
+| `location` | Text | `Kluang` | District or area where the property is located. |
+| `state` | Categorical | `Johor` | State in Malaysia where the property is located. |
+| `price_rm` | Numeric | `550000` | Selling price of the property in Malaysian Ringgit (RM). |
+| `mortgage_est_rm` | Numeric | `2192.0` | Estimated monthly mortgage or loan repayment amount in RM. |
+| `land_title` | Categorical | `Non Bumi Lot` | Classification of land ownership or property title. |
+| `size_sqft` | Numeric | `1050.0` | Property size measured in square feet (sqft). |
+| `bedrooms` | Numeric | `2.0` | Number of bedrooms available in the property. |
+| `bathrooms` | Numeric | `2.0` | Number of bathrooms available in the property. |
+| `tenure` | Categorical | `Freehold` | Ownership tenure of the property, such as Freehold or Leasehold. |
+| `seller_type` | Categorical | `Private` | Type of seller offering the property, such as Private owner or Agent. |
+| `seller_name` | Text | `Lee` | Name of the seller or property agent. |
+| `url` | Text (URL) | `https://www.mudah.my/...` | Direct URL linking to the specific property listing page. |
+| `img_url` | Text (URL) | `https://cdn.rnudah.com/...` | Direct URL linking to the main image of the property listing. |
 ---
 ## 🚀 Performance Benchmark
 
