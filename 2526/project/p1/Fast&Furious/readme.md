@@ -72,10 +72,10 @@ Three tools process the clean data in parallel:
 
 | Pipeline | Tool | Status | Output File |
 |----------|------|--------|-------------|
-| Baseline | Pandas | Before optimization | `pandas_baseline.csv` |
-| Optimized | Pandas | After optimization | `pandas_optimized.csv` |
-| Optimized | Polars | After optimization | `polars.csv` |
-| Optimized | DuckDB | After optimization | `duckdb.csv` |
+| Baseline | Pandas | Before optimization | `performance_before.csv` |
+| Optimized | Pandas | After optimization | `performance_after.csv` |
+| Optimized | Polars | After optimization | `performance_after.csv` |
+| Optimized | DuckDB | After optimization | `performance_after.csv` |
 
  All four CSV outputs are saved into a central database.
 
@@ -85,7 +85,7 @@ The database flows into **data metrics analysis**, then into **data visualizatio
 #### 5. Upload to GitHub
 The clean data and final outputs are pushed to **GitHub** for version control and sharing.
 
-![image](https://github.com/yAsmin241/HPDP-Project/blob/be65e200e2dd1e8ca15e09a66adc32aef974f11d/Architecture%20and%20Framwork.drawio.png)
+![image](https://github.com/yAsmin241/HPDP-Project/blob/cdfd3a9f632e7e9e35931d36cfaeaf0391b13fba/Architecture%20and%20Framwork.drawio%20(2).png)
 
 
 ## 🔗 Data Details
