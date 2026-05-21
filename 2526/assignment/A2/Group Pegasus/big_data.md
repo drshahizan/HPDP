@@ -832,6 +832,8 @@ Dask was slower than expected in this experiment. Although Dask supports paralle
 
 ## 10. Conclusion and Reflection
 
+### 10.1 Conclusion
+
 This assignment demonstrated several practical strategies for handling a large dataset using Python. The Airbnb dataset was 1846.24 MB and contained 494,954 rows with 89 columns, making it suitable for testing big data handling techniques.
 
 The most effective memory-saving strategy was loading fewer columns. Reducing the dataset from 89 columns to 20 columns reduced memory usage from 649.52 MB to 138.69 MB for a 100,000-row sample. This shows that selecting only relevant columns is one of the simplest and most powerful methods for handling large datasets.
@@ -842,11 +844,31 @@ For full-dataset processing, Polars gave the best performance. It completed the 
 
 Dask was slower than Pandas in this experiment, but this does not mean Dask is weak. Dask is designed for larger and more distributed workloads. In this case, the overhead of Dask may have been too high compared to the size and complexity of the task.
 
-From this assignment, I learned that big data handling is not only about using powerful libraries. Simple decisions such as selecting fewer columns, choosing suitable data types, and processing data in chunks can have a major impact on performance. I also learned that different tools are suitable for different situations. Pandas is simple and familiar, Dask is useful for scalable and distributed processing, and Polars is very fast for local high-performance analysis.
+Overall, this project shows that handling big data is not only about choosing a powerful library. Simple strategies such as selecting fewer columns, optimising data types, using chunking, and sampling can significantly improve memory usage and processing efficiency.
 
-If the dataset were 10 GB, chunking, Dask, and Polars lazy processing would become more important. Pandas full loading would likely become impractical due to memory limits. If the dataset were 100 GB or 1 TB, a single-machine approach may no longer be enough. In that case, distributed systems such as Dask clusters, Apache Spark, or cloud-based data processing platforms would be more suitable.
+---
 
-Overall, this assignment helped me understand the importance of memory management, execution time measurement, and choosing the right tool for large-scale data processing.
+### 10.2 Individual Reflection: Lee Yin Shen
+
+Through this assignment, I learned that big data processing requires careful planning before loading and analysing the dataset. At first, I thought using a powerful library would be the main solution, but the results showed that basic strategies such as selecting only necessary columns can make a very large difference in memory usage.
+
+I also learned the importance of measuring performance instead of assuming which method is better. For example, Dask is designed for scalable processing, but in our experiment it was slower than Pandas and Polars because of task scheduling and partition overhead. This helped me understand that the best tool depends on the dataset size, processing task, and computing environment.
+
+Another important lesson was the value of data type optimisation. By changing suitable columns to smaller numeric types and categorical types, the dataset used less memory without removing data. This is useful for real-world data engineering work because memory efficiency can affect the stability and cost of data processing pipelines.
+
+Overall, this assignment helped me better understand how to handle large datasets in a practical way. It also gave me experience in comparing libraries based on actual execution time and memory usage rather than only theory.
+
+---
+
+### 10.3 Individual Reflection: Brendan Chia Yan Fei
+
+From this assignment, I learned how different big data handling techniques can be applied to a real-world dataset. Working with a dataset larger than 700 MB showed me that traditional data loading methods can become inefficient when the dataset grows larger.
+
+One of the most useful techniques I learned was chunking. Chunking makes it possible to process a large file without loading the entire dataset into memory at once. Although it may take more time to write and process, it is a safer approach when working in limited-memory environments such as Google Colab.
+
+I also learned how sampling can support faster development. By using a smaller sample of the dataset, we could test our analysis logic quickly before applying it to larger data. This is useful because it reduces waiting time and makes debugging easier.
+
+The comparison between Pandas, Dask, and Polars also helped me understand that each library has different strengths. Pandas is simple and familiar, Dask is suitable for larger or distributed workloads, and Polars is very fast for local processing. This assignment helped me see the importance of selecting the right tool based on the situation.
 
 ---
 
