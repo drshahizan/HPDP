@@ -100,40 +100,6 @@ Three genuinely-different HPC techniques are compared against a single-threaded 
 
 Charts and the full speed-up heatmap live in `p2/evaluation_charts.ipynb` and in the PNGs at the repo root (`fig_workload_time.png`, `fig_workload_throughput.png`, `fig_workload_memory.png`, `fig_workload_cpu.png`, `fig_speedup_heatmap.png`, `fig_workload_runs.png`).
 
-## How to reproduce
-
-### Prerequisites
-
-- Python 3.11 or 3.13
-- Java 11 or 17 with `JAVA_HOME` set (PySpark only)
-- Chrome installed (for the crawler)
-
-### Install
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate         # Windows
-# source .venv/bin/activate    # Linux/Mac
-pip install -r requirements.txt
-```
-
-### Run order
-
-1. `p1/main_crawler.ipynb`        — scrapes Carousell.com.my → `data/raw_data.csv`
-2. `p1/clean_data.ipynb`          — cleans the raw CSV → `data/cleaned_data.csv`
-3. `p1/optimize_pipeline.ipynb`   — benchmarks 5 operations × 4 libraries × 5 runs → `p2/performance_*.csv`
-4. `p2/evaluation_charts.ipynb`   — renders comparison charts and the speed-up heatmap → `fig_*.png`
-
-Each notebook is structured top-to-bottom; restart the kernel between major notebooks for clean memory measurements.
-
-## Ethical scraping
-
-The crawler honours `robots.txt`-style restraint through:
-
-- realistic per-request delays via `time.sleep` between page loads;
-- a bounded thread pool that limits concurrent requests to the target site;
-- progressive saving so a single run never holds the full dataset only in memory.
-
 ## Tools used
 
 | Category | Tools |
@@ -143,12 +109,6 @@ The crawler honours `robots.txt`-style restraint through:
 | HPC | `polars`, `multiprocessing`, `pyspark` |
 | Benchmarking | `psutil`, `tracemalloc`, `time.perf_counter` |
 | Visualisation | `matplotlib`, `seaborn` |
-
-## Known caveats
-
-- `tracemalloc` only sees Python-allocated memory, so **PySpark's JVM memory is under-reported** in the peak-memory chart. This is noted in the report's "Challenges and Limitations" section.
-- Multiprocessing pays a substantial fixed startup cost (`Pool` spawn) that dominates short workloads. It only wins on long-running CPU-bound tasks, which is why its speed-up numbers look modest on small operations.
-- Spark's CSV reader is configured with `multiLine=True, escape='"'` so multi-line quoted fields are parsed identically to Pandas/Polars; otherwise row counts diverge.
 
 ## License
 
