@@ -6,6 +6,7 @@
 | :--------- | :---------------------------------------- |
 | Course     | SECP3133 High Performance Data Processing |
 | Assignment | Assignment 2: Mastering Big Data Handling |
+| Group Name | **Group Pegasus**                         |
 | Member 1   | **LEE YIN SHEN - A23CS0236**              |
 | Member 2   | **BRENDAN CHIA YAN FEI - A23CS0211**      |
 
