@@ -7,7 +7,7 @@
 
 | Role | Name | Matric No. |
 |------|------|------------|
-| Group Leader & Data Engineer | _<fill in>_ | _<fill in>_ |
+| Group Leader & Data Engineer | MUHAMMAD ADAM BIN RAZALI | A23CS0116 |
 | HPC & Performance Specialist | _<fill in>_ | _<fill in>_ |
 | Analyst & Documentation Lead | _<fill in>_ | _<fill in>_ |
 
