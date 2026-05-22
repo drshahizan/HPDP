@@ -1,0 +1,11 @@
+curl_cffi
+beautifulsoup4
+lxml
+pandas
+dask[dataframe]
+payspark
+matplotlib
+seaborn
+psutil
+re
+concurrent.futures
