@@ -106,7 +106,7 @@ By the end of this project, you will be able to:
 | WebMiner | Pandas | Multiprocessing | Polars | [Carlist](https://docs.google.com/spreadsheets/d/123uM1o0tQV5Nj9cMUPmQ5wO1avEZHpWxVEibX0CXZvY/edit?usp=sharing)| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner/A1) |
 | Triple A | Pandas | Polars | PySpark | [maukerja](https://www.maukerja.my/) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](TripleA/p1) |
 | Shopping | Pandas | Polars | Dask | [MalayMail](https://drive.google.com/drive/folders/1pMf2enBFMddG2YiQPMS3pKv6JaO2KV48?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1) |
-| Reporter | Pandas | Dask | Pyarrow | [MphOnline](https://drive.google.com/drive/folders/1Ye0FgC_wnWsGIjdGMZ3JXwqVDOQcc9SQ?usp=drive_link) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Reporter) |
+| Reporter | Pandas | Dask | PySpark | [MphOnline](https://drive.google.com/drive/folders/1Ye0FgC_wnWsGIjdGMZ3JXwqVDOQcc9SQ?usp=drive_link) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Reporter) |
 | AyamGepuk | Pandas | Polars | Dask | [The Edge Malaysia](https://theedgemalaysia.com/) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](AyamGepuk) |
 
 ## Contribution 🛠️
