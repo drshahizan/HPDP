@@ -66,6 +66,29 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 ---
 ## 🛠️ System Architecture
 
+#### Architecture Workflow:
+
+#### 1. Network Layer 
+The entry point. Uses the internet and HTTP requests to reach external websites.
+
+#### 2. External Data Sources
+Targets Mudah.my as the data source for property listings.
+
+#### 3. Application Layer
+The core processing engine, split into 3 modules:
+
+- Web Scraper Module: Sends HTTP requests to Mudah.my, extracts listing data, and parses HTML using BeautifulSoup, saving the output as CSV
+- Data Cleaning Module: Removes duplicates, fixes missing values, and standardizes formatting to prep the data for analysis
+- Optimization Module: Processes the cleaned data using Pandas, Polars, and DuckDB to benchmark and compare their performance
+
+#### 4. Storage Layer
+Two Excel files act as checkpoints: a Raw Scraped Dataset (output of scraping) and a Cleaned Dataset (output of cleaning)
+
+#### 5. Presentation Layer
+Final output is a Performance Metric Chart Comparison, visualizing how Pandas, Polars, and DuckDB compare when processing the same dataset
+
+![image](p1/system_architecture.png)
+
 ## 🔧 Architecture of Tools and Frameworks Used
 #### Architecture Workflow:
 
