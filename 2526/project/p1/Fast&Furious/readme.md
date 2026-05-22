@@ -138,6 +138,7 @@ This dataset contains property listings collected from various regions in Malays
 ### 🕒 Total Processing Time (seconds)
 | Optimization Stage  | Run 1 | Run 2 | Run 3 | Average |
 | ------------------- | ----: | ----: | ----: | ------: |
+| Pandas Baseline |  11.20 |  4.19 |  4.62 |    6.67 |
 | Pandas Optimization |  3.73 |  5.05 |  3.93 |    4.24 |
 | Polars Optimization |  0.93 |  0.83 |  0.75 |    0.84 |
 | DuckDB Optimization |  1.33 |  1.02 |  1.29 |    1.21 |
@@ -146,6 +147,7 @@ This dataset contains property listings collected from various regions in Malays
 ### 🧠 CPU Usage (%)
 | Optimization Stage  | Run 1 | Run 2 | Run 3 | Average |
 | ------------------- | ----: | ----: | ----: | ------: |
+| Pandas Baseline |  47.0 |  91.7 |  97.4 |    78.7 |
 | Pandas Optimization | 100.0 |  98.4 | 100.0 |   99.47 |
 | Polars Optimization | 113.7 | 124.7 | 132.7 |  123.70 |
 | DuckDB Optimization | 107.2 | 136.4 | 110.3 |  117.97 |
@@ -155,6 +157,7 @@ This dataset contains property listings collected from various regions in Malays
 ### 💾 Memory Usage (MB)
 | Optimization Stage  |  Run 1 |  Run 2 |  Run 3 | Average |
 | ------------------- | -----: | -----: | -----: | ------: |
+| Pandas Baseline |  251.16 |  251.16 |  251.17 |  251.17 |
 | Pandas Optimization | 213.61 | 213.61 | 213.61 |  213.61 |
 | Polars Optimization |   0.09 |   0.04 |   0.04 |    0.06 |
 | DuckDB Optimization |   0.15 |   0.15 |   0.15 |    0.15 |
@@ -163,6 +166,7 @@ This dataset contains property listings collected from various regions in Malays
 ### ⚡ Throughput (records/second)
 | Optimization Stage  | Run 1 | Run 2 | Run 3 | Average |
 | ------------------- | ----: | ----: | ----: | ------: |
+| Pandas Baseline |  8970 |  23952 |  21738 |  18220 |
 | Pandas Optimization | 26930 | 19905 | 25544 |   24126 |
 | Polars Optimization | 58641 | 65582 | 73360 |   65861 |
 | DuckDB Optimization | 40965 | 53658 | 42470 |   45698 |
