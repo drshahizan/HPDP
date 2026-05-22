@@ -1,0 +1,13 @@
+Framework,Version,Run,Total_Time_sec,Avg_CPU_percent,Peak_Memory_MB,Throughput_rec_per_sec
+Pandas,Optimized,1,1.579,92.98,1109.0,119948.05
+Pandas,Optimized,2,1.5257,91.76,1188.26,124142.49
+Pandas,Optimized,3,1.5237,91.44,1332.43,124297.95
+Pandas,Optimized,Average,1.5428,92.06,1332.43,122796.16
+Dask,Optimized,1,1.5348,120.7,1409.62,123402.41
+Dask,Optimized,2,1.4061,116.8,1407.79,134693.32
+Dask,Optimized,3,1.4106,112.86,1415.54,134265.81
+Dask,Optimized,Average,1.4505,116.79,1415.54,130787.18
+PySpark,Optimized,1,0.3475,3.08,1118.42,545084.37
+PySpark,Optimized,2,0.3406,9.33,1210.47,556132.44
+PySpark,Optimized,3,0.361,9.93,1221.14,524622.46
+PySpark,Optimized,Average,0.3497,7.45,1221.14,541946.42
