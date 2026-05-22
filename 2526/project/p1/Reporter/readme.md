@@ -2,14 +2,17 @@
 
 <table border="solid" align="center">
   <tr>
+    <th>Role</th>
     <th>Name</th>
     <th>Matric Number</th>
   </tr>
   <tr>
+    <td>Group Leader & Data Engineer</td>
     <td>Muhammad Afiq Danial bin Rozaidie</td>
     <td>A23CS0117</td>
   </tr>
   <tr>
+    <td>HPC Specialist & Documentation Lead</td>
     <td>Ahmad Adib Zikri bin A.Mazlam</td>
     <td>A23CS0205</td>
   </tr>
