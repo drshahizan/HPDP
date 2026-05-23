@@ -13,8 +13,6 @@ Welcome to Project 2 of the High Performance Data Processing course. This projec
 
 In this project, each group will collect text data from Malaysian-relevant sources, classify the sentiment of that text, and process it through a scalable pipeline built with Apache Kafka and Apache Spark. The final insights will be stored and presented through interactive dashboards.
 
-This document is your official reference for Project 2. Read every section carefully before starting, and return to it throughout the four-week implementation period.
-
 ### 📋 Quick Facts
 
 | Item | Details |
