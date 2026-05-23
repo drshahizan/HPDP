@@ -1,0 +1,2 @@
+method,time_sec,time_min,time_max,cpu_percent,memory_mb,throughput_records_per_sec,rows_processed
+pandas_baseline,1.1751,0.9383,1.4605,66.43,39.38,10561.0,12010
