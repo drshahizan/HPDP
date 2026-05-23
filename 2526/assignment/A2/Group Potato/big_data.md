@@ -2,9 +2,11 @@
 
 ## Group Information
 
-- **Group Name:** Potato
-- **Members:** Lau Yee Wen, Chau Ying Jia
+**Group Name:** Potato  
 
+**Members:**  
+- Lau Yee Wen (A23CS0099)  
+- Chau Ying Jia (A23CS0213)
 ---
 
 ## 1. Dataset Description
