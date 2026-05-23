@@ -716,7 +716,7 @@ Peak Memory     : 4027.48 MiB
 ```
 
 #### Strategy 5 Results <br>
-**Explanation:** <br>
+**Discussion:** <br>
 **Polars** achieved the fastest total execution time at 13.52 seconds — approximately **4.5× faster than both Pandas and Dask**. <br>
 **Dask** consumed the least memory (1,715 MiB) by processing data in partitions rather than loading everything at once. <br>
 **Pandas** required the most memory (10,110 MiB) as it holds the entire dataset in RAM simultaneously.
@@ -741,7 +741,12 @@ This table shows how much RAM each library used when processing the full dataset
 | **Dask** | 1,715.29 | Processes data in partitions — lowest memory |
 | **Polars** | 4,027.48 | Lazy evaluation reduces unnecessary memory use |
 
-**Key takeaway:** Dask used the least memory because it never loads the whole file at once — it works on one partition at a time. Pandas used the most memory by far because it has to hold all 100 million rows in RAM before doing anything. Polars sits in the middle — it is smarter than Pandas but still needs to bring the data into memory during execution.
+**Comparison Charts** <br>
+The charts below visualise the execution time differences between the three libraries.
+![Comparison Charts](images/memory_usage_comparison.png)
+
+**Discussion:**  <br>
+Dask used the least memory because it never loads the whole file at once — it works on one partition at a time. Pandas used the most memory by far because it has to hold all 100 million rows in RAM before doing anything. Polars sits in the middle — it is smarter than Pandas but still needs to bring the data into memory during execution.
 
 ---
 
@@ -755,17 +760,12 @@ This table breaks down how long each library took to load the data and process i
 | **Dask** | 0.34 | 61.38 | 61.72 |
 | **Polars** | 0.08 | 13.44 | **13.52** ✅ |
 
-**Key takeaway:** Polars was the clear winner with a total time of just 13.52 seconds — about **4.5× faster** than both Pandas and Dask. Pandas had the slowest loading time (58.44s) because it reads the file sequentially with a single thread. Dask loaded almost instantly (0.34s) but its processing was slow (61.38s) because of the overhead involved in managing and scheduling many small partitions. Polars was fast at both stages.
+**Comparison Charts** <br>
+The charts below visualise the execution time differences between the three libraries.
+![Comparison Charts](images/execution_time_comparison.png)
 
----
-
-### 6.3 Comparison Charts
-
-The charts below visualise the differences between the three libraries.
-
-
-
-> 📊 The charts above show three views: total execution time, peak memory usage, and a breakdown of load vs processing time across all three libraries.
+**Discussion:**  <br>
+Polars was the clear winner with a total time of just 13.52 seconds about **4.5× faster** than both Pandas and Dask. Pandas had the slowest loading time (58.44s) because it reads the file sequentially with a single thread. Dask loaded almost instantly (0.34s) but its processing was slow (61.38s) because of the overhead involved in managing and scheduling many small partitions. Polars was fast at both stages.
 
 ---
 
@@ -803,13 +803,11 @@ The honest conclusion is that there is no single best library for every situatio
 
 ### 7.1 Summary of Key Observations
 
-This assignment gave us a hands-on work to understand how different three popular libraries can perform on the exact same task.
+This assignment gave us a hands-on work to understand how different three popular libraries can perform on the exact same task. The key lesson is that handling big data is not just about picking a powerful library. A lot of the improvement came from how we loaded the data like fewer columns, smaller data types, processing in chunks before any scalable library was even involved. Without the optimisations we applied (column selection and data type downcasting), Pandas would crashed straight away. Even after we fixed that, it still used over 10 GB of RAM. That is a real limitation in any environment with restricted memory, like the free tier of Google Colab.
 
-The biggest lesson is Pandas is not broken, it is just not built for 100 million rows. Without the optimisations we applied (column selection and data type downcasting), it crashed straight away. Even after we fixed that, it still used over 10 GB of RAM. That is a real limitation in any environment with restricted memory, like the free tier of Google Colab.
+Next, Dask could actually solved the memory problem pretty well using only 1,715 MiB by splitting the data into partitions. However on a single machine, the overhead of managing all those partitions meant it was no faster than Pandas in total time. Dask's real strength would show in a distributed setting, not here.
 
-Dask solved the memory problem pretty well using only 1,715 MiB by splitting the data into partitions. However on a single machine, the overhead of managing all those partitions meant it was no faster than Pandas in total time. Dask's real strength would show in a distributed setting, not here.
-
-Polars was the standout. It completed the same 100M-row aggregation in 13.52 seconds. It is about 4.5× faster than the other two libraries while keeping memory usage reasonable. Its lazy evaluation and rust-based engine made a visible difference in the actual numbers.
+On the other hand, Polars was the standout. It completed the same 100M-row aggregation in 13.52 seconds. It is about 4.5× faster than the other two libraries while keeping memory usage reasonable. Its lazy evaluation and rust-based engine made a visible difference in the actual numbers.
 
 Among all the big data strategies, **data type optimisation** had the single biggest impact. Downcasting columns from int64 to int8/int16/int32 cut memory usage by over 80%. It is a simple change with a huge payoff and it is something we would apply in any future data project.
 
@@ -823,6 +821,14 @@ Using Dask introduced me to the concept of parallel and distributed processing, 
 By comparing these libraries, I gained a better understanding of how to choose the appropriate tool based on the dataset size and system limitations. Overall, this assignment expanded my knowledge beyond basic data processing and improved my awareness of scalable solutions for big data handling.
 
 #### Chau Ying Jia
+
+Before this assignment, I always used Pandas for everything without really thinking about whether it was the right tool or not. It was just the library I knew, so I used it. This assignment was the first time I know what and how it does things and it amaze me that actually there are more fantantic tools to explore.
+
+The part that stuck with me the most was when Pandas crashed on the full dataset, I thought something was wrong with my code. However, actually I had not done anything wrong with the code, the problem was simply that Pandas was not built to handle data at this size. Seeing it fail made the whole idea of "big data handling" feel real instead of just theoretical.
+
+What surprised me was how much we could improve things before even switching to a different library. Cutting down the columns and adjusting the data types already saved over 80% of memory. I did not expect such a simple change to make that big of a difference.
+
+Between Dask and Polars, I found Polars more impressive since it finished the job nearly 4.5 times faster. Dask made sense by splitting work across partitions sounds powerful but in practice on a single machine it was actually slower. That taught me something I did not expect which is a tool being more advanced does not always mean it will be faster in every situation. There is no the best library to be used, it really depends on the environment and the scale of the data. 
 
 ### 7.3 Scalability Discussion
 
