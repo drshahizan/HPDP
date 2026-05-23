@@ -706,6 +706,9 @@ Total Time      : 13.5192s
 Peak Memory     : 4027.48 MiB
 ```
 
+#### Strategy 5 Results
+Polars achieved the fastest total execution time at 13.52 seconds — approximately **4.5× faster than both Pandas and Dask**. Dask consumed the least memory (1,715 MiB) by processing data in partitions rather than loading everything at once. Pandas required the most memory (10,110 MiB) as it holds the entire dataset in RAM simultaneously.
+
 ---
 
 ## 6. Comparative Analysis
@@ -714,11 +717,36 @@ The same aggregation task (average movie rating grouped by MovieId) was run acro
 
 ### Comparison Table
 
+```python
+comparison_data = {
+    "Library"             : ["Pandas", "Dask", "Polars"],
+    "Loading Time (s)"    : [round(pandas_load, 4),  round(dask_load, 4),  round(polars_load, 4)],
+    "Processing Time (s)" : [round(pandas_proc, 4),  round(dask_proc, 4),  round(polars_proc, 4)],
+    "Total Time (s)"      : [round(pandas_total, 4), round(dask_total, 4), round(polars_total, 4)],
+    "Peak Memory (MiB)"   : [round(mem_pandas_val, 2), round(mem_dask_val, 2), round(mem_polars_val, 2)]
+}
+ 
+comparison_df = pd.DataFrame(comparison_data)
+print("=== Full Comparison Table ===")
+print(comparison_df.to_string(index=False))
+comparison_df
+```
+**Output:**
+ 
+```
+=== Full Comparison Table ===
+ Library  Loading Time (s)  Processing Time (s)  Total Time (s)  Peak Memory (MiB)
+  Pandas           58.4377               2.6066         61.0443           10110.31
+    Dask            0.3375              61.3795         61.7170            1715.29
+  Polars            0.0765              13.4427         13.5192            4027.48
+```
+ 
 | Library | Loading Time (s) | Processing Time (s) | Total Time (s) | Peak Memory (MiB) |
 |---|---|---|---|---|
 | **Pandas** | 58.44 | 2.61 | 61.04 | 10,110.31 |
 | **Dask** | 0.34 | 61.38 | 61.72 | 1,715.29 |
 | **Polars** | 0.08 | 13.44 | 13.52 | 4,027.48 |
+ 
 
 ### Charts
 
@@ -746,6 +774,8 @@ Two chart types were produced:
 ---
 
 ## 7. Conclusion and Reflection
+
+xxxxxx
 
 ### Reflection on Learning
 
