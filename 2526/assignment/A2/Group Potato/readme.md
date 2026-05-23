@@ -1,55 +1,55 @@
-# SECP3133 Assignment 2 — Big Data Handling Report
+# Netflix Movie Ratings Analysis — Project Overview
 
-## Group Details
+## Group Information
 
-- **Group Name:** Potato
-- **Member 1:** Lau Yee Wen (A23CS0099)
-- **Member 2:** Chau Ying Jia (A23CS0213)
+### **Group Name: Potato**
+| Member | Matric Number |
+| :----- | :------------ |
+| Lau Yee Wen | A23CS0099 |
+| Chau Ying Jia | A23CS0213 |
 
 ## Project Files
 
-- `big_data.md` — main report with methodology, results, and reflection.
-- `big_data.ipynb` — executable Colab notebook containing code, outputs, and charts.
+| File | Description | Open |
+| --- | --- | --- |
+| `big_data.md` | Main Markdown report with methodology, results, and reflection | [View](big_data.md) |
+| `big_data.ipynb` | Executable Google Colab notebook with code, outputs, and charts | [Open](big_data.ipynb) |
 
 ## Project Summary
 
-This assignment explores the Netflix User Ratings dataset using three Python libraries:
+This project evaluates the Netflix User Ratings dataset using big data processing strategies. It compares a traditional Pandas baseline against scalable libraries such as Dask and Polars.
 
-- **Pandas** for the baseline workflow
-- **Dask** for partitioned and parallel dataframe processing
-- **Polars** for high-performance, Rust-backed computation
+The goal is to measure memory usage and execution time while demonstrating practical techniques for handling large datasets in Google Colab.
 
-The analysis focuses on practical big data strategies such as column selection, chunking, dtype optimisation, sampling, and scalable processing.
-
-## Dataset Details
+## Dataset Snapshot
 
 - **Dataset:** Netflix User Ratings
 - **Source:** https://www.kaggle.com/datasets/evanschreiner/netflix-movie-ratings
-- **Type:** CSV
+- **Domain:** Entertainment / Recommendation Systems
+- **Format:** CSV
 - **Size:** 2585.43 MB
 - **Rows:** 100,480,507
 - **Columns:** 4 (`CustId`, `MovieId`, `Rating`, `Date`)
 
-## What is Included
+## Key Techniques Used
 
-- A clean introduction and dataset summary.
-- A step-by-step inspection of the CSV file.
-- Five big data strategies with code and results:
-  - Load Less Data
-  - Chunking
-  - Data Type Optimisation
-  - Sampling
-  - Parallel/Scalable Processing
-- A comparative analysis of Pandas, Dask, and Polars.
-- A conclusion with reflection on scalability and tool choice.
+- **Load Less Data:** Read only the required columns to save memory.
+- **Chunking:** Process the dataset in smaller pieces to avoid out-of-memory errors.
+- **Data Type Optimisation:** Downcast numeric fields and convert date columns for lower footprint.
+- **Sampling:** Use a smaller subset for fast prototyping.
+- **Scalable Processing:** Compare Pandas, Dask, and Polars performance on the same aggregation task.
 
-## Notes for Running the Notebook
+## Running the Notebook
 
-- The notebook is intended for Google Colab.
-- Mount Google Drive before accessing the dataset.
-- Install any missing libraries at the top of the notebook if necessary.
+1. Open `big_data.ipynb` in Google Colab.
+2. Mount Google Drive.
+3. Verify the dataset path and file location.
+4. Run all cells from top to bottom.
 
-## Usage
+## Notes
 
-Open `big_data.md` to read the full report, and open `big_data.ipynb` to run the code and review the outputs.
+- The notebook is built for Google Colab.
+- The dataset should be available in Google Drive.
+- `big_data.md` contains the full written report.
+- `big_data.ipynb` contains the executable code and outputs.
 
