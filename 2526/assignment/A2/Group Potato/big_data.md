@@ -266,7 +266,7 @@ By loading only `CustId` and `Rating`, memory usage dropped by 80.7% immediately
 
 Chunking means reading a large file in small portions (called chunks) rather than loading it all at once. Each chunk is processed individually, then discarded before the next chunk is loaded.
 
-This allows us to work with files that are larger than available RAM — at any given moment, only one small chunk exists in memory.
+This allows us to work with files that are larger than available RAM at any given moment, only one small chunk exists in memory.
 
 **When to use it:** When you need to perform aggregation or filtering on a file too large to load in one go, especially in memory-limited environments like Google Colab's free tier.
 
@@ -330,7 +330,7 @@ regardless of the full dataset size.
 | **Total Time** | 68.09 seconds |
 | **Peak RAM Used** | 14.96 MB |
 
-At no point did the full dataset exist in memory. Only 100,000 rows were held in RAM at any one time, making this approach viable even if the dataset were 10× larger. The trade-off is speed — chunking is slower than a direct load because of the repeated read operations. However, it is the only viable method when dataset size exceeds available RAM.
+At no point did the full dataset exist in memory. Only 100,000 rows were held in RAM at any one time, making this approach viable even if the dataset were 10× larger. The trade-off is speed, chunking is slower than a direct load because of the repeated read operations. However, it is the only viable method when dataset size exceeds available RAM.
 
 ---
 
@@ -338,7 +338,7 @@ At no point did the full dataset exist in memory. Only 100,000 rows were held in
 
 When Pandas loads a CSV file, it automatically assigns default data types to each column. These defaults are often larger than necessary and waste memory.
 
-By downcasting each column to its smallest fitting type, we can reduce the dataset's memory footprint significantly — without losing any data or accuracy.
+By downcasting each column to its smallest fitting type, we can reduce the dataset's memory footprint significantly without losing any data or accuracy.
 
 **When to use it:** After initial inspection, once you know the value range of each column. Apply before any major processing so all subsequent operations benefit from the reduced memory.
 
@@ -464,11 +464,11 @@ Load time overhead: +0.3531s (due to type casting at load)
 
 **Memory Reduction: 81.9%**
 
-Data type optimisation reduced the DataFrame size from 39.58 MB to 7.15 MB — an 81.9% reduction — by downcasting each column to its smallest fitting type. The `Rating` column alone shrunk from 8 bytes per value (int64) to just 1 byte (int8), since ratings only range from 1 to 5.
+Data type optimisation reduced the DataFrame size from 39.58 MB to 7.15 MB, achieving an 81.9% reduction by downcasting each column to its smallest fitting type. The `Rating` column alone decreased from 8 bytes per value (int64) to just 1 byte (int8), since ratings only range from 1 to 5.
 
-**Note on load time:** The optimised load was slightly slower (+0.35 s) because Pandas performs additional work during loading — casting each column to the specified type and parsing the `Date` column into datetime64 format. This small upfront cost is worthwhile because all subsequent operations on the optimised DataFrame will be faster and consume significantly less memory.
+**Note on load time:** The optimised load was slightly slower by 0.35 seconds because Pandas performs additional work during loading. These include casting each column to the specified type and parsing the `Date` column into datetime64 format. This small upfront cost is worthwhile because all subsequent operations on the optimised DataFrame will be faster and consume significantly less memory.
 
-This trade-off is a key insight: data type optimisation is not about making loading faster — it is about reducing the long-term memory footprint so that downstream processing is more efficient and scalable.
+This trade-off is an important insight. Data type optimisation is not intended to improve loading speed. Instead, it focuses on reducing long term memory usage so that downstream processing becomes more efficient and scalable.
 
 ---
 
@@ -478,7 +478,7 @@ Sampling involves selecting a smaller, representative subset of the full dataset
 
 **When to use it:** During early exploration and code development. Once your pipeline is validated on the sample, apply it to the full dataset or process it via chunks.
 
-**Important:** Sampling is not a replacement for full processing — it is a development tool. Final results should always be validated against the complete data.
+**Important:** Sampling is not a replacement for full processing; it is a development tool. Final results should always be validated against the complete data.
 
 ```python
 import pandas as pd
@@ -573,9 +573,9 @@ In this strategy, we run the same aggregation operation (average movie rating gr
 
 Our first attempt was to load the full dataset using Pandas without any optimisation. This caused the Google Colab session to crash due to memory exhaustion.
 
-This is not a mistake — it is the core problem that this assignment exists to solve. Pandas loads the entire dataset into RAM at once. With a 2585 MB CSV file and Colab's limited free-tier RAM (~12 GB), the memory overhead of default int64 types caused an out-of-memory error.
+This is not a mistake. It is the core problem that this assignment exists to solve. Pandas loads the entire dataset into RAM at once. With a 2585 MB CSV file and Colab's limited free-tier RAM (~12 GB), the memory overhead of default int64 types caused an out-of-memory error.
 
-**Solution:** We combined Strategy 1 (load selected columns only) and Strategy 3 (optimised data types) to make the Pandas baseline viable. This represents a realistic scenario — in production, you would never load a large file with default settings.
+**Solution:** We combined Strategy 1 (load selected columns only) and Strategy 3 (optimised data types) to make the Pandas baseline viable. This reflects a realistic scenario, as large datasets should not be loaded using default settings in practical applications.
 
 ```python
 # Strategy 5: Parallel Processing — Pandas Baseline
@@ -747,6 +747,14 @@ Two chart types were produced:
 
 ### Reflection on Learning
 
+#### Lau Yee Wen
+Through this assignment, I was able to learn and explore new data processing libraries, specifically Dask and Polars, in addition to Pandas which I was already familiar with. This experience helped me understand that different libraries have different strengths when handling large-scale datasets.
+
+Using Dask introduced me to the concept of parallel and distributed processing, where large datasets can be split into smaller partitions and processed efficiently. Meanwhile, Polars showed me how modern data processing tools can achieve high performance through built-in optimisation and multi-threading.
+
+By comparing these libraries, I gained a better understanding of how to choose the appropriate tool based on the dataset size and system limitations. Overall, this assignment expanded my knowledge beyond basic data processing and improved my awareness of scalable solutions for big data handling.
+
+#### Chau Ying Jia
 ---
 
 ## References
