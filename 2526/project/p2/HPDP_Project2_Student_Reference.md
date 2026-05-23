@@ -7,11 +7,6 @@
 
 # 📄 Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka
 
-> **Student Reference Guide** — High Performance Data Processing (SECP3133)
-> Read this document fully before starting the project. It explains every requirement, deadline, and deliverable you need to know.
-
----
-
 ## 📑 Table of Contents
 
 1. [Course Information](#1-course-information)
