@@ -2,8 +2,8 @@
 
 ## Group Information
 * **Group Name:** TehOAis 
-* **Partner A:** Nurul Ika Syafiny Binti Azhar (Baseline & Polars Expert)
-* **Partner B:** Lubna Al Haani Binti Radzuan (Scalable Library 3 Expert)
+* **Partner A:** Nurul Ika Syafiny Binti Azhar 
+* **Partner B:** Lubna Al Haani Binti Radzuan 
 
 ## Project Overview
 This repository contains our big data processing benchmark analysis using the NYC Yellow Taxi Trip Dataset (~1.59 GB). We evaluate memory footprint limits and thread execution performance variations across alternative manipulation libraries.
