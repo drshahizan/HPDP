@@ -25,9 +25,9 @@ The pipeline is implemented across **four notebooks**, each owning one stage of 
 | Notebook | Description | Link |
 |---|---|---|
 | `data/raw_data.csv` | **Raw Data** | [Raw Data](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/data/raw_data.csv) |
-| `data/cleaned_data.csv` | **Clean Data | [Clean Data](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/data/clean_data.csv)
+| `data/cleaned_data.csv` | **Clean Data** | [Clean Data](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/data/clean_data.csv)
 | `p1/main_crawler.ipynb` | **Scrape** |[Scrape](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/main_crawler.ipynb) |
-| `p1/cleaned_data.ipynb` | **Clean** | [Clean](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/cleaned_data.ipynb) |
+| `p1/cleaned_data.ipynb` | **Clean and Transform** | [Clean](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/cleaned_data.ipynb) |
 | `p1/optimized_pipeline.ipynb` | **Benchmark** | [Benchmark](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/optimized_pipeline.ipynb) |
 | `p2/evaluation_charts.ipynb`   | **Visualise** | [Visualize](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p2/evaluation_charts.ipynb) |
 | `report/report.pdf`            | **Final Report** | [Report]() |
