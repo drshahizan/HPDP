@@ -5,10 +5,6 @@
 <a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-<p align="center">
-  <img src="P2%20HPDP%20info.png" height="500">
-</p>
-
 # 📄 Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka
 
 ## 1. Introduction
@@ -16,6 +12,10 @@
 Welcome to Project 2 of the High Performance Data Processing course. This project gives you a practical opportunity to design and build a real-time sentiment analysis pipeline using modern big data technologies. The activities are designed to connect classroom theory with industry-relevant data engineering practice.
 
 In this project, each group will collect text data from Malaysian-relevant sources, classify the sentiment of that text, and process it through a scalable pipeline built with Apache Kafka and Apache Spark. The final insights will be stored and presented through interactive dashboards.
+
+<p align="center">
+  <img src="P2%20HPDP%20info.png" height="500">
+</p>
 
 ### 📋 Quick Facts
 
