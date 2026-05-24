@@ -52,6 +52,7 @@
 
 ---
 ## 🛠️ System Architecture
+This chapter discusses the overall system architecture and workflow developed for the JobStreet web scraping project. It explains the system layers, tools, and frameworks used for web crawling, data processing, optimisation, and data analysis. In addition, the chapter outlines the responsibilities of each team member throughout the project development process.
 
 ## 🔧 Architecture of Tools and Frameworks Used
 
