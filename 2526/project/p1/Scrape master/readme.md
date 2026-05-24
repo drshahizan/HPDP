@@ -1,7 +1,4 @@
-# Optimizing High Performance Data Processing for Large-Scale Web Crawlers
-
-**Course:** High Performance Data Processing — Project 1
-**Submission date:** 25 May 2026
+# Scrape Master - Carousell
 
 ## Group members
 
@@ -24,7 +21,7 @@ Each operation is run **5 times per library** and averaged so the comparison is 
 ## Data
 
 | File | Rows | Columns |
-|---|---|---|---|
+|---|---|---|
 | `data/raw_data.csv` | 200,034 | 13 |
 | `data/cleaned_data.csv` | 198,429 | 12 |
 
@@ -41,6 +38,14 @@ Three HPC techniques are compared against a single-threaded Pandas baseline:
 | <img width="120" alt="Multiprocessing" src="https://github.com/user-attachments/assets/3c716e2a-963f-4fe2-ac84-5088977625a0" /> | Splits the DataFrame across all CPU cores using `multiprocessing.Pool`; each worker runs the same Pandas code in its own OS process to bypass the GIL |
 | <img width="120" alt="PySpark" src="https://github.com/user-attachments/assets/eacb9172-399a-4074-81ed-af8817c6e120" /> | Distributed DataFrame engine (`local[*]`) that compiles operations to a JVM execution plan with hash-join + broadcast-join + shuffle |
 
+
+## System Architecture
+
+<img width="1276" height="1233" alt="image13" src="https://github.com/user-attachments/assets/33947673-d64d-4153-8c97-4b014788d110" />
+
+## Tools and Framework Diagram
+
+<img width="1576" height="998" alt="image18" src="https://github.com/user-attachments/assets/14c6f03e-3858-4659-b7fa-7ded99d710f4" />
 
 ## Benchmarked operations
 
@@ -61,6 +66,21 @@ Three HPC techniques are compared against a single-threaded Pandas baseline:
 | HPC | `polars`, `multiprocessing`, `pyspark` |
 | Benchmarking | `psutil`, `tracemalloc`, `time.perf_counter` |
 | Visualisation | `matplotlib`, `seaborn` |
+
+## Conclusion — Best Library
+
+<p align="center"><img width="400" alt="Polars" src="https://github.com/user-attachments/assets/43f41c01-b465-4dd5-881d-53abaa12db4b" /></p>
+
+**Polars is the clear winner for the workload size and operation mix in this project.** It is the fastest library in **4 of the 5 operations**, including the heaviest one (Category Summary, where it is **~49× faster than Pandas**) and the text-search operation (Keyword Search, **~11× faster than Pandas**). It also keeps memory use comparable to or lower than the other libraries.
+
+| Operation               | Winner   | 
+|---|---|
+| Category Summary        | **Polars**  |
+| Find Popular Listings   | **Pandas**  | 
+| Top 10 per Category     | **Polars**  |
+| Keyword Search          | **Polars**  |
+| Add Seller Stats        | **Polars**  |
+
 
 ## License
 
