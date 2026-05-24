@@ -31,7 +31,7 @@
 
 Web scraping is an automated technique used to extract information from websites for analysis, research, or data collection purposes. In this project, web scraping was conducted using **BeautifulSoup**, a Python library commonly used for parsing HTML and extracting structured data from webpages. BeautifulSoup enables users to navigate webpage structures, identify HTML tags, and retrieve specific information efficiently.
 
-For this project, the selected website is **MPHOnline.com**, a Malaysian online bookstore that provides books, stationery, gifts, and educational materials through its e-commerce platform. The website serves as a rich source of publicly available product information, making it suitable for web scraping and dataset creation.
+For this project, the selected website is [**MPHOnline.com**](https://mphonline.com/), a Malaysian online bookstore that provides books, stationery, gifts, and educational materials through its e-commerce platform. The website serves as a rich source of publicly available product information, making it suitable for web scraping and dataset creation.
 
 ---
 
