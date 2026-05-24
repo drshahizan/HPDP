@@ -8,8 +8,8 @@
 | Role | Name | Matric No. |
 |------|------|------------|
 | Group Leader & Data Engineer | MUHAMMAD ADAM BIN RAZALI | A23CS0116 |
-| HPC & Performance Specialist | _<fill in>_ | _<fill in>_ |
-| Analyst & Documentation Lead | _<fill in>_ | _<fill in>_ |
+| HPC & Performance Specialist | AFIF SHAQIR IRFAN BIN ARQAM | A23CS0204 |
+| Analyst & Documentation Lead | PRAVINRAJ A/L SIVABATHI | A23CS0171 |
 
 ## Overview
 
@@ -36,7 +36,8 @@ Three genuinely-different HPC techniques are compared against a single-threaded 
 
 | Technique | Why it's different |
 |---|---|
-| **Polars** | Rust-backed columnar engine with SIMD and built-in multi-threading; vectorised operators bypass the Python interpreter entirely |
+| <img width="747" height="403" alt="image" src="https://github.com/user-attachments/assets/43f41c01-b465-4dd5-881d-53abaa12db4b" />
+ | Rust-backed columnar engine with SIMD and built-in multi-threading; vectorised operators bypass the Python interpreter entirely |
 | **Multiprocessing** | Splits the DataFrame across all CPU cores using `multiprocessing.Pool`; each worker runs the same Pandas code in its own OS process to bypass the GIL |
 | **PySpark** | Distributed DataFrame engine (`local[*]`) that compiles operations to a JVM execution plan with hash-join + broadcast-join + shuffle |
 
