@@ -200,3 +200,7 @@ This dataset contains property listings collected from various regions in Malays
 Overall, all optimized methods outperformed the Pandas baseline in terms of processing efficiency. Among the tested approaches, **Polars** achieved the best overall performance with the fastest execution time and highest throughput.
 
 🥇Therefore, **Polars can be considered the overall winner among the tested methods**.🥇
+
+<p align="center">
+  <img src="p1/polars.png" width="300px"/>
+</p>
