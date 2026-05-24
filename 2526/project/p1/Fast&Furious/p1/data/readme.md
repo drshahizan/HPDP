@@ -4,8 +4,8 @@
 
 | File | Description | Rows | Columns | Download |
 |------|-------------|------|---------|----------|
-| `raw_data.csv` | Original scraped property listings  | 102,486 | 17 | [Raw data](https://drive.google.com/file/d/1A0YiTg8SZ8HfrQQ3JWSWk3Kv6OpJMR-o/view?usp=sharing) |
-| `cleaned_data.csv` | Cleaned and processed version of the raw data | 100,442 | 17 | [Cleaned data](https://drive.google.com/file/d/1imW5nOKCgjbz1GPMQl2ccu5OAm_MUKUx/view?usp=sharing) |
+| `raw_data.csv` | Original scraped property listings  | 102,486 | 16 | [Raw data](https://drive.google.com/file/d/1A0YiTg8SZ8HfrQQ3JWSWk3Kv6OpJMR-o/view?usp=sharing) |
+| `cleaned_data.csv` | Cleaned and processed version of the raw data | 100,442 | 16 | [Cleaned data](https://drive.google.com/file/d/1imW5nOKCgjbz1GPMQl2ccu5OAm_MUKUx/view?usp=sharing) |
 
 ---
 
@@ -15,7 +15,7 @@ This dataset contains Malaysia property listings scraped from an online property
 
 - **Total raw records:** 102,486  
 - **Total cleaned records:** 100,442  
-- **Number of features:** 17  
+- **Number of features:** 16  
 - **Listing types:** Sale, Rent  
 - **Geographic coverage:** Multiple states in Malaysia  
 
@@ -28,8 +28,8 @@ This dataset contains Malaysia property listings scraped from an online property
 | Raw rows | 102,486 |
 | Cleaned rows | 100,442 |
 | Rows removed (duplicates) | 2,044 |
-| Columns before cleaning | 17 |
-| Columns after cleaning | 17 |
+| Columns before cleaning | 16 |
+| Columns after cleaning | 16 |
 
 **Key cleaning actions performed:**
 - Removed 2,044 duplicate rows
@@ -63,7 +63,6 @@ This dataset contains Malaysia property listings scraped from an online property
 | 14 | `seller_name` | String | Name of the seller/agent |
 | 15 | `url` | String | URL link to the original listing page |
 | 16 | `img_url` | String | URL link to the listing's image |
-| 17 | `listing_type` | String | Whether the listing is for `sale` or `rent` |
 
 ---
 
