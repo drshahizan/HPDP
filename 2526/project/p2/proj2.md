@@ -8,7 +8,7 @@
 # 📄 Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka
 
 <p align="center">
-  <img src="https://github.com/drshahizan/short-course/blob/main/workshop/26STTNF/images/26STTNF.jpeg" height="500">
+  <img src="P2%20HPDP%20info.png" height="500">
 </p>
 
 ## 1. Introduction
