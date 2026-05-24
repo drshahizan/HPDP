@@ -32,7 +32,7 @@ This dataset contains Malaysia property listings scraped from an online property
 | Columns after cleaning | 16 |
 
 **Key cleaning actions performed:**
-- Removed 2,044 duplicate rows
+- Removed 11,178 duplicate rows
 - Standardized column names (lowercase, underscores)
 - Stripped HTML tags from text fields (scraped data)
 - Validated and nullified broken/invalid URLs
