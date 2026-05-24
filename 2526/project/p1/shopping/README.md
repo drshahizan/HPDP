@@ -60,10 +60,11 @@
 
 ---
 ## 🛠️ System Architecture
-![SystemArchitecture-Page-1 drawio]()
-<br>
+<img src="https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/shopping/p1/System%20Architecture%20(1).png" width="500"/>
+
 ## 🔧 Architecture of Tools and Frameworks Used
-![SystemArchitecture-Page-2 drawio (1)]()
+
+<img src="https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/shopping/p1/Tools.drawio.png" width="500"/>
 
 ## 🔗 Data Details
 Original dataset containing **121,794** news articles collected. The dataset consists of **9 columns**. Raw data may contain duplicate records, encoding issues, missing values and inconsistent text formatting.
