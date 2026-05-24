@@ -21,32 +21,6 @@ This project builds a complete data pipeline that
 
 Each operation is run **5 times per library** and averaged so the comparison is not skewed by a single run.
 
-## Repository layout
-
-```
-hpdp_project_1/
-├── data/
-│   ├── raw_data.csv              # ~289k raw rows from Carousell.com.my
-│   └── cleaned_data.csv          # 198,429 cleaned rows (12 columns)
-├── p1/
-│   ├── main_crawler.ipynb        # Selenium + threaded crawler
-│   ├── clean_data.ipynb          # baseline pandas cleaning pipeline
-│   └── optimize_pipeline.ipynb   # 5 operations × 4 libraries × 5 runs benchmark
-├── p2/
-│   ├── performance_before.csv    # baseline (Pandas) metrics
-│   ├── performance_after.csv     # optimized (Polars / MP / PySpark) metrics
-│   └── evaluation_charts.ipynb   # bar charts + speedup heatmap + per-run variance
-├── report/
-│   ├── Final_Report.pdf
-│   └── Presentation_Slides.pptx
-├── cleaners.py                   # shared cleaning functions (4 engines)
-├── worker.py                     # multiprocessing chunk worker for cleaning
-├── workloads.py                  # the 5 benchmarked operations × 4 engines
-├── benchmark_utils.py            # benchmark harness (time / CPU / memory / throughput)
-├── README.md
-└── requirements.txt
-```
-
 ## Data
 
 | File | Rows | Columns | Notes |
@@ -75,30 +49,6 @@ Three genuinely-different HPC techniques are compared against a single-threaded 
 | 3 | **Top 10 per Category** | Pick the 10 most-liked listings inside each category (sort + window) |
 | 4 | **Keyword Search**      | Find listings whose title matches `gaming|laptop|phone|ssd|ram` (case-insensitive regex) |
 | 5 | **Add Seller Stats**    | Compute each seller's avg price / total listings / total likes and inner-join back to every row |
-
-## Key results (averaged over 5 runs)
-
-**Wall time (seconds):**
-
-| Operation | Pandas | Polars | Multiprocessing | PySpark |
-|---|---:|---:|---:|---:|
-| Category Summary        | 5.368 | **0.109** | 4.232 | 1.490 |
-| Find Popular Listings   | **0.023** | 0.083 | 2.088 | 1.168 |
-| Top 10 per Category     | 0.157 | **0.131** | 2.378 | 1.423 |
-| Keyword Search          | 0.954 | **0.087** | 2.203 | 1.425 |
-| Add Seller Stats        | 0.230 | **0.124** | 3.384 | 2.176 |
-
-**Speed-up vs Pandas baseline** (`>1` = faster than Pandas):
-
-| Operation | Polars | Multiprocessing | PySpark |
-|---|---:|---:|---:|
-| Category Summary        | **49.3×** | 1.27× | 3.60× |
-| Find Popular Listings   | 0.28× | 0.01× | 0.02× |
-| Top 10 per Category     | 1.20× | 0.07× | 0.11× |
-| Keyword Search          | **11.0×** | 0.43× | 0.67× |
-| Add Seller Stats        | 1.85× | 0.07× | 0.11× |
-
-Charts and the full speed-up heatmap live in `p2/evaluation_charts.ipynb` and in the PNGs at the repo root (`fig_workload_time.png`, `fig_workload_throughput.png`, `fig_workload_memory.png`, `fig_workload_cpu.png`, `fig_speedup_heatmap.png`, `fig_workload_runs.png`).
 
 ## Tools used
 
