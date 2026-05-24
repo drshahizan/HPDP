@@ -88,7 +88,9 @@ The database layer is responsible for storing and managing both raw and processe
 
 <img width="1088" height="991" alt="Gemini_Generated_Image_z0b925z0b925z0b9" src="https://github.com/user-attachments/assets/ca0e3300-68fa-4927-821f-b477c7b59a1a" />
 
+
 Figure 2 shows the overall workflow and system architecture of a web scraping and data analysis pipeline for JobStreet.com. The process begins with the Requests and BeautifulSoup libraries, which are used to scrape data from JobStreet.com. The scraped data is stored as Raw Data containing approximately 130,000 rows and is uploaded in GitHub. Then, the data is cleaned and processed using the pandas library to transform the dataset by removing duplicates, handling missing values, and standardising data types. The cleaned data is then processed in Google Colab, which provides a cloud runtime environment for handling large-scale datasets. Next, the data is optimised and analysed, where different libraries such as pandas, Polars, and DuckDB are tested and compared to evaluate optimisation performance. Finally, the processed data is stored in a database which is then used for data analysis. Data analysis is handled by analysing and comparing processing time, CPU usage, memory usage, and throughput. Data visualisation such as charts and graphical outputs are used to present the analysis.
+
 
 
 | Member Name                        | Task                                                                               | 
