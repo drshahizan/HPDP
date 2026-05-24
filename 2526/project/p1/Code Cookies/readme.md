@@ -88,7 +88,7 @@ The database layer is responsible for storing and managing both raw and processe
 
 ### 2.2 Architecture of Tools and Frameworks Used
 
-<img width="800" height="600" alt="Gemini_Generated_Image_z0b925z0b925z0b9" src="https://github.com/user-attachments/assets/ca0e3300-68fa-4927-821f-b477c7b59a1a" />
+<img width="700" height="650" alt="Gemini_Generated_Image_z0b925z0b925z0b9" src="https://github.com/user-attachments/assets/ca0e3300-68fa-4927-821f-b477c7b59a1a" />
 
 <br>
 <br>
