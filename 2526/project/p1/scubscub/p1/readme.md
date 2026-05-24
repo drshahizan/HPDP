@@ -27,11 +27,7 @@
 <div align='center'>
   <img src='https://www.jeveuxetredatascientist.fr/wp-content/uploads/2022/06/BeautifulSoup.jpg' height=90 alt='BeautifulSoup'>
   &nbsp;&nbsp;&nbsp;
-  <img src='https://pandas.pydata.org/static/img/pandas.svg' height=90 alt='pandas'>
-  &nbsp;&nbsp;&nbsp;
   <img src='https://curl.se/logo/curl-logo.svg' height=90 alt='curl_cffi'>
-  &nbsp;&nbsp;&nbsp;
-  <img src='https://www.python.org/static/community_logos/python-logo-master-v3-TM.png' height=90 alt='Python'>
 </div>
 
 <br>
