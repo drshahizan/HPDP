@@ -4,7 +4,7 @@
 
 | File | Description | Rows | Columns | Download |
 |------|-------------|------|---------|----------|
-| `raw_data.csv` | Original scraped property listings  | 102,486 | 16 | [Raw data](https://drive.google.com/file/d/1ChZQvgmhdtkBeFkbFYOfcypWMZR9Rn7X/view?usp=drive_link) |
+| `raw_data.csv` | Original scraped property listings  | 111,620 | 16 | [Raw data](https://drive.google.com/file/d/1ChZQvgmhdtkBeFkbFYOfcypWMZR9Rn7X/view?usp=drive_link) |
 | `cleaned_data.csv` | Cleaned and processed version of the raw data | 100,442 | 16 | [Cleaned data](https://drive.google.com/file/d/1zyY6UdG1mjZ_joEZJAkjhC06SJzkmqWq/view?usp=drive_link) |
 
 ---
@@ -13,7 +13,7 @@
 
 This dataset contains Malaysia property listings scraped from an online property platform which is Mudah.my. It covers both **sale** and **rental** property listings across various states. Each record represents a single property listing and includes details such as pricing, size, location, property type, and seller information.
 
-- **Total raw records:** 102,486  
+- **Total raw records:** 111,620  
 - **Total cleaned records:** 100,442  
 - **Number of features:** 16  
 - **Listing types:** Sale, Rent  
@@ -25,9 +25,9 @@ This dataset contains Malaysia property listings scraped from an online property
 
 | Metric | Value |
 |--------|-------|
-| Raw rows | 102,486 |
+| Raw rows | 111,620 |
 | Cleaned rows | 100,442 |
-| Rows removed (duplicates) | 2,044 |
+| Rows removed (duplicates) | 11,178|
 | Columns before cleaning | 16 |
 | Columns after cleaning | 16 |
 
@@ -83,7 +83,7 @@ Two separate CSV files (`data_sale.csv` and `data_rent.csv`) were loaded and com
 All column names converted to lowercase with underscores, and special characters removed.
 
 **Step 4 — Remove Duplicate Rows**  
-Exact duplicate rows were identified and removed (2,044 rows dropped).
+Exact duplicate rows were identified and removed (11,178 rows dropped).
 
 **Step 5 — Strip Whitespace & Normalize Text**  
 All string columns were stripped of leading/trailing whitespace and multiple internal spaces were collapsed to a single space.
