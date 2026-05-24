@@ -4,8 +4,8 @@
 
 | File | Description | Rows | Columns | Download |
 |------|-------------|------|---------|----------|
-| `raw_data.csv` | Original scraped property listings  | 102,486 | 16 | [Raw data](https://drive.google.com/file/d/1A0YiTg8SZ8HfrQQ3JWSWk3Kv6OpJMR-o/view?usp=sharing) |
-| `cleaned_data.csv` | Cleaned and processed version of the raw data | 100,442 | 16 | [Cleaned data](https://drive.google.com/file/d/1imW5nOKCgjbz1GPMQl2ccu5OAm_MUKUx/view?usp=sharing) |
+| `raw_data.csv` | Original scraped property listings  | 102,486 | 16 | [Raw data](https://drive.google.com/file/d/1ChZQvgmhdtkBeFkbFYOfcypWMZR9Rn7X/view?usp=drive_link) |
+| `cleaned_data.csv` | Cleaned and processed version of the raw data | 100,442 | 16 | [Cleaned data](https://drive.google.com/file/d/1zyY6UdG1mjZ_joEZJAkjhC06SJzkmqWq/view?usp=drive_link) |
 
 ---
 
