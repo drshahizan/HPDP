@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Group ? - News Analysis
+  Ayam Gepuk - News Analysis
   <br>
 </h1>
 
