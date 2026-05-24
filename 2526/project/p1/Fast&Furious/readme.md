@@ -31,8 +31,8 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
-| **Raw Dataset**              | Cleaned and raw data with URLs             | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](p1/data/raw_data.csv) |
-| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](p1/data/cleaned_data.csv) |
+| **Raw Dataset**              | Cleaned and raw data with URLs             | [![Download](https://drive.google.com/file/d/1A0YiTg8SZ8HfrQQ3JWSWk3Kv6OpJMR-o/view?usp=drive_link) |
+| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://drive.google.com/file/d/1imW5nOKCgjbz1GPMQl2ccu5OAm_MUKUx/view?usp=drive_link) |
 | **Web Crawler Script**       | Python script to scrape mudah.my       | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/main_crawler.ipynb) |
 | **Data Cleaning Code**       | Script to clean and preprocess the data    | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/clean_data.ipynb) |
 | **Optimization Code**        | Performance-optimized transformation code  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p1/performances_after.ipynb) |
@@ -126,9 +126,9 @@ This dataset contains property listings collected from various regions in Malays
 ---
 ## 🔗 Data Details
 
-- **Raw Dataset:** 102,486 rows and 17 columns. The dataset contains missing values in fields such as `bathrooms`, `bedrooms`, and `seller_name`.
+- **Raw Dataset:** 102,486 rows and 16 columns. The dataset contains missing values in fields such as `bathrooms`, `bedrooms`, and `seller_name`.
 
-- **Cleaned Dataset:** 100,442 rows and 17 columns after data preprocessing. Cleaning steps include removing duplicate records and handling missing values.
+- **Cleaned Dataset:** 100,442 rows and 16 columns after data preprocessing. Cleaning steps include removing duplicate records and handling missing values.
 
 - Both datasets are stored in CSV file format for further processing and benchmarking.
 
