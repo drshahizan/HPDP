@@ -17,6 +17,7 @@ In this project, each group will collect text data from Malaysian-relevant sourc
 
 | Item | Details |
 |------|---------|
+| Document| [Assignment brief](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/IQA7ZdnzovyOToJrmnkiB1plAZo6bQ7A7flAbi6pvS8SHbk?e=lisYah)|
 | 📊 **Weightage** | 15% of total course assessment |
 | 🕓 **Project Duration** | 4 Weeks |
 | 📅 **Submission Deadline** | **Friday, 26 June 2026, 11:59 PM (MST)** |
