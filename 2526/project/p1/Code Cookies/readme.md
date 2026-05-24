@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Web Scraping Big Pharmacy Website using Beautiful Soup
+  Web Scraping Jobstreet using Beautiful Soup
   <br>
 </h1>
 
