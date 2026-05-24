@@ -56,7 +56,7 @@ This chapter discusses the overall system architecture and workflow developed fo
 
 ### 2.1 System Arcitecture
 
-<img width="1065" height="1297" alt="ChatGPT Image May 24, 2026, 11_28_44 PM" src="https://github.com/user-attachments/assets/2feacf96-1dee-4d05-869c-988114da7eb6" />
+<img width="600" height="800" alt="ChatGPT Image May 24, 2026, 11_28_44 PM" src="https://github.com/user-attachments/assets/2feacf96-1dee-4d05-869c-988114da7eb6" />
 
 1. Network Layer
 
