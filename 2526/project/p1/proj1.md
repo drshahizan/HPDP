@@ -86,7 +86,7 @@ By the end of this project, you will be able to:
 | scubscub | [BookXcess](https://www.bookxcess.com/) | Beautiful soup |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](scubscub/p1) |
 | WebMiner | [carlist.my](https://www.carlist.my/) | PlayWright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner)
 | Ziyaad | [iproperty.com.my](https://www.iproperty.com.my/) | Beautiful Soup | [![Open in GitHub](hi)](placeholder)
-| Shopping | [malaymail.com](https://www.malaymail.com/) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
+| Shopping | [malaymail.com](https://www.malaymail.com/) | Playwright | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](shopping/A1)
 | Code Cookies | [bigpharmacy.com.my](https://bigpharmacy.com.my/) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Code%20Cookies/readme.md)
 | Fast&Furious | [mudah.my](https://www.mudah.my/malaysia/properties-for-sale) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Fast&Furious/p1)
 | triple A | [maukerja.my](https://www.maukerja.my) | Beautiful Soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](TripleA/p1)
