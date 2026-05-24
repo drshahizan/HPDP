@@ -95,7 +95,7 @@ Register your group and update your submission link in the table below. The **Sa
 
 | Team | Data Source | Tools | Open in GitHub |
 |------|-------------|-------|----------------|
-| Sample | [StudyMalaysia.com](https://www.studymalaysia.com) | BeautifulSoup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2425/project/p2) |
+| Sample | [Youtube](https://www.youtube.com/results?search_query=travelling+in+malaysia) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](MasterData) |
 | Group A |  |  | _Add your link_ |
 | Group B |  |  | _Add your link_ |
 | Group C |  |  | _Add your link_ |
