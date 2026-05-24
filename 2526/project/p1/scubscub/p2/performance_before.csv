@@ -1,0 +1,25 @@
+operation,library,run,execution_time_sec,cpu_initial_percent,cpu_final_percent,memory_used_mb,throughput_rows_per_sec
+Filter High Discount Books,Pandas,1,0.035973,24.1,18.1,67.279,4101921.0
+Filter High Discount Books,Pandas,2,0.024698,20.0,11.4,67.279,5974589.0
+Filter High Discount Books,Pandas,3,0.023769,16.4,10.8,67.279,6207976.0
+Filter High Discount Books,Pandas,average,0.028147,20.17,13.43,67.279,5242493.0
+GroupBy Publisher Aggregation,Pandas,1,0.020558,15.7,10.1,0.459,7177748.0
+GroupBy Publisher Aggregation,Pandas,2,0.01517,7.4,10.1,0.459,9726833.0
+GroupBy Publisher Aggregation,Pandas,3,0.015126,7.5,7.6,0.459,9755514.0
+GroupBy Publisher Aggregation,Pandas,average,0.016951,10.2,9.27,0.459,8704888.0
+String Extract Price Tier,Pandas,1,0.082518,5.7,14.1,1.408,1788194.0
+String Extract Price Tier,Pandas,2,0.074464,11.6,6.6,1.408,1981612.0
+String Extract Price Tier,Pandas,3,0.071572,10.9,4.3,1.408,2061681.0
+String Extract Price Tier,Pandas,average,0.076184,9.4,8.33,1.408,1936853.0
+Calculate Savings,Pandas,1,0.003805,10.0,13.5,170.487,38775950.0
+Calculate Savings,Pandas,2,0.003482,10.8,7.2,170.487,42373719.0
+Calculate Savings,Pandas,3,0.003497,13.2,10.5,170.487,42190770.0
+Calculate Savings,Pandas,average,0.003595,11.33,10.4,170.487,41044960.0
+Sort by Discount and Price,Pandas,1,0.080402,15.4,5.6,169.485,1835241.0
+Sort by Discount and Price,Pandas,2,0.077813,8.2,12.6,169.485,1896325.0
+Sort by Discount and Price,Pandas,3,0.078732,10.2,11.8,169.485,1874188.0
+Sort by Discount and Price,Pandas,average,0.078982,11.27,10.0,169.485,1868242.0
+Top Authors by Average Discount,Pandas,1,0.049873,10.1,8.3,0.0,2958675.0
+Top Authors by Average Discount,Pandas,2,0.045633,17.5,16.7,0.0,3233560.0
+Top Authors by Average Discount,Pandas,3,0.045072,18.0,6.4,0.0,3273821.0
+Top Authors by Average Discount,Pandas,average,0.046859,15.2,10.47,0.0,3148947.0

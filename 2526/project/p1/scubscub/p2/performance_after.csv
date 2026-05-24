@@ -1,0 +1,73 @@
+operation,library,run,execution_time_sec,cpu_initial_percent,cpu_final_percent,memory_used_mb,throughput_rows_per_sec
+Filter High Discount Books,Pandas,1,0.035973,24.1,18.1,67.279,4101921.0
+Filter High Discount Books,Pandas,2,0.024698,20.0,11.4,67.279,5974589.0
+Filter High Discount Books,Pandas,3,0.023769,16.4,10.8,67.279,6207976.0
+Filter High Discount Books,Pandas,average,0.028147,20.17,13.43,67.279,5242493.0
+GroupBy Publisher Aggregation,Pandas,1,0.020558,15.7,10.1,0.459,7177748.0
+GroupBy Publisher Aggregation,Pandas,2,0.01517,7.4,10.1,0.459,9726833.0
+GroupBy Publisher Aggregation,Pandas,3,0.015126,7.5,7.6,0.459,9755514.0
+GroupBy Publisher Aggregation,Pandas,average,0.016951,10.2,9.27,0.459,8704888.0
+String Extract Price Tier,Pandas,1,0.082518,5.7,14.1,1.408,1788194.0
+String Extract Price Tier,Pandas,2,0.074464,11.6,6.6,1.408,1981612.0
+String Extract Price Tier,Pandas,3,0.071572,10.9,4.3,1.408,2061681.0
+String Extract Price Tier,Pandas,average,0.076184,9.4,8.33,1.408,1936853.0
+Calculate Savings,Pandas,1,0.003805,10.0,13.5,170.487,38775950.0
+Calculate Savings,Pandas,2,0.003482,10.8,7.2,170.487,42373719.0
+Calculate Savings,Pandas,3,0.003497,13.2,10.5,170.487,42190770.0
+Calculate Savings,Pandas,average,0.003595,11.33,10.4,170.487,41044960.0
+Sort by Discount and Price,Pandas,1,0.080402,15.4,5.6,169.485,1835241.0
+Sort by Discount and Price,Pandas,2,0.077813,8.2,12.6,169.485,1896325.0
+Sort by Discount and Price,Pandas,3,0.078732,10.2,11.8,169.485,1874188.0
+Sort by Discount and Price,Pandas,average,0.078982,11.27,10.0,169.485,1868242.0
+Top Authors by Average Discount,Pandas,1,0.049873,10.1,8.3,0.0,2958675.0
+Top Authors by Average Discount,Pandas,2,0.045633,17.5,16.7,0.0,3233560.0
+Top Authors by Average Discount,Pandas,3,0.045072,18.0,6.4,0.0,3273821.0
+Top Authors by Average Discount,Pandas,average,0.046859,15.2,10.47,0.0,3148947.0
+Filter High Discount Books,Polars,1,0.012996,23.0,22.5,63.327,11354371.0
+Filter High Discount Books,Polars,2,0.00466,31.7,12.9,63.327,31666846.0
+Filter High Discount Books,Polars,3,0.003293,4.5,3.3,63.327,44805514.0
+Filter High Discount Books,Polars,average,0.006983,19.73,12.9,63.327,21131335.0
+GroupBy Publisher Aggregation,Polars,1,0.006897,2.0,2.0,0.343,21396070.0
+GroupBy Publisher Aggregation,Polars,2,0.006719,10.5,5.8,0.343,21960650.0
+GroupBy Publisher Aggregation,Polars,3,0.007031,7.4,16.5,0.343,20988265.0
+GroupBy Publisher Aggregation,Polars,average,0.006882,6.63,8.1,0.343,21440943.0
+String Extract Price Tier,Polars,1,0.006832,21.0,14.4,0.264,21598384.0
+String Extract Price Tier,Polars,2,0.004248,8.3,6.3,0.264,34735058.0
+String Extract Price Tier,Polars,3,0.004431,11.0,8.2,0.264,33299032.0
+String Extract Price Tier,Polars,average,0.00517,13.43,9.63,0.264,28538807.0
+Calculate Savings,Polars,1,0.005001,8.0,6.6,161.464,29503339.0
+Calculate Savings,Polars,2,0.003569,12.2,7.3,161.464,41339721.0
+Calculate Savings,Polars,3,0.003155,7.6,10.2,161.464,46771055.0
+Calculate Savings,Polars,average,0.003909,9.27,8.03,161.464,37752458.0
+Sort by Discount and Price,Polars,1,0.013434,12.2,8.2,159.212,10983840.0
+Sort by Discount and Price,Polars,2,0.013453,7.2,9.8,159.212,10968082.0
+Sort by Discount and Price,Polars,3,0.01228,6.6,5.9,159.212,12015830.0
+Sort by Discount and Price,Polars,average,0.013056,8.67,7.97,159.212,11301988.0
+Top Authors by Average Discount,Polars,1,0.015934,8.8,12.3,0.001,9260459.0
+Top Authors by Average Discount,Polars,2,0.015557,9.7,9.8,0.001,9484869.0
+Top Authors by Average Discount,Polars,3,0.017174,5.7,8.0,0.001,8592191.0
+Top Authors by Average Discount,Polars,average,0.016222,8.07,10.03,0.001,9096371.0
+Filter High Discount Books,PyArrow,1,0.083206,19.9,18.0,63.97,1773402.0
+Filter High Discount Books,PyArrow,2,0.049334,15.0,13.2,63.97,2990982.0
+Filter High Discount Books,PyArrow,3,0.053001,11.9,8.0,63.97,2784082.0
+Filter High Discount Books,PyArrow,average,0.061847,15.6,13.07,63.97,2385854.0
+GroupBy Publisher Aggregation,PyArrow,1,0.054037,19.2,22.0,0.419,2730710.0
+GroupBy Publisher Aggregation,PyArrow,2,0.004499,16.4,8.5,0.419,32797955.0
+GroupBy Publisher Aggregation,PyArrow,3,0.004763,13.6,11.2,0.419,30983307.0
+GroupBy Publisher Aggregation,PyArrow,average,0.021099,16.4,13.9,0.419,6993491.0
+String Extract Price Tier,PyArrow,1,0.026309,8.6,9.6,0.827,5608608.0
+String Extract Price Tier,PyArrow,2,0.024549,6.9,8.4,0.827,6010778.0
+String Extract Price Tier,PyArrow,3,0.022878,4.5,4.9,0.827,6449636.0
+String Extract Price Tier,PyArrow,average,0.024579,6.67,7.63,0.827,6003450.0
+Calculate Savings,PyArrow,1,0.002835,4.7,4.7,163.047,52057859.0
+Calculate Savings,PyArrow,2,0.002916,8.1,17.4,163.047,50602881.0
+Calculate Savings,PyArrow,3,0.002981,17.2,12.7,163.047,49494516.0
+Calculate Savings,PyArrow,average,0.002911,10.0,11.6,163.047,50696764.0
+Sort by Discount and Price,PyArrow,1,0.158307,7.1,18.0,160.883,932103.0
+Sort by Discount and Price,PyArrow,2,0.18935,12.4,14.9,160.883,779286.0
+Sort by Discount and Price,PyArrow,3,0.200999,11.3,18.2,160.883,734125.0
+Sort by Discount and Price,PyArrow,average,0.182885,10.27,17.03,160.883,806834.0
+Top Authors by Average Discount,PyArrow,1,0.040331,7.8,3.9,0.001,3658674.0
+Top Authors by Average Discount,PyArrow,2,0.016219,14.4,12.9,0.001,9097904.0
+Top Authors by Average Discount,PyArrow,3,0.019905,22.9,8.4,0.001,7413261.0
+Top Authors by Average Discount,PyArrow,average,0.025485,15.03,8.4,0.001,5790032.0
