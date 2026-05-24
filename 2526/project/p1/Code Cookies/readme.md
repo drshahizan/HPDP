@@ -17,8 +17,8 @@
     <td>A23CS</td>
   </tr>
   <tr>
-    <td width=80%>Harini</td>
-    <td>A23CS</td>
+    <td width=80%>Harini A/P Sangaran</td>
+    <td>A23CS0081</td>
   </tr>
 </table>
 <br>
