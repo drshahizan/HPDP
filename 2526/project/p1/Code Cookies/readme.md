@@ -51,8 +51,10 @@
 
 
 ---
-## 🛠️ System Architecture
+## 2.0 System Design & Architecture
 This chapter discusses the overall system architecture and workflow developed for the JobStreet web scraping project. It explains the system layers, tools, and frameworks used for web crawling, data processing, optimisation, and data analysis. In addition, the chapter outlines the responsibilities of each team member throughout the project development process.
+
+### 2.1 System Arcitecture
 
 <img width="1065" height="1297" alt="ChatGPT Image May 24, 2026, 11_28_44 PM" src="https://github.com/user-attachments/assets/2feacf96-1dee-4d05-869c-988114da7eb6" />
 
@@ -84,7 +86,7 @@ The integration layer acts as the bridge between system components to ensure int
 The database layer is responsible for storing and managing both raw and processed data collected from JobStreet.com. The Main Database stores cleaned and transformed datasets for further analysis and visualisation. Google Colab is utilised as a cloud-based environment to host datasets and support large-scale processing activities. The API Endpoint provides controlled access to stored data for external services or future system expansion. This layer ensures organised data management, efficient retrieval and reliable storage of large datasets generated through the web scraping process.
 
 
-## 🔧 Architecture of Tools and Frameworks Used
+### 2.2 Architecture of Tools and Frameworks Used
 
 <img width="1088" height="991" alt="Gemini_Generated_Image_z0b925z0b925z0b9" src="https://github.com/user-attachments/assets/ca0e3300-68fa-4927-821f-b477c7b59a1a" />
 
@@ -95,17 +97,192 @@ Figure 2 shows the overall workflow and system architecture of a web scraping an
 
 <br>
 
+### 2.3 Roles of Team Members
+
 | Member Name                        | Task                                                                               | 
 |------------------------------------|------------------------------------------------------------------------------------|
 | Najma Shakirah Binti Shahrulzaman  | Data cleaning, Documentation for Introduction, Data Processing and Conclusion      |
 | Nurul Asyikin Binti Khairul Anuar  | Data Optimization using Pandas, Polars, DuckDB, Documentation for Optimization Techniques, Performance Evaluation and Challenges and Limitations  |
 | Harini A/P Sangaran                | Web crawling, Documentation for System Design and Architecture and Data Collection |
 
-
-## 🔗 Data Details
-
-
 ---
+
+## 3.0 Data Collection
+This chapter explains the methodology used to collect job listing data from JobStreet.com through web scraping techniques. It describes the crawling process, pagination handling, retry mechanisms, and rate-limiting strategies implemented during data extraction. The chapter also presents the dataset collected and discusses the ethical considerations followed throughout the scraping process.
+
+### 3.1 Crawling method 
+A synchronous web crawler was developed using Python to scrape job listings from Jobstreet Malaysia and Jobstreet Singapore across various countries which are Malaysia, Singapore, Indonesia, Thailand and Philippines. The crawler performs a keyword-based page-by-page extraction process using Python libraries such as requests, BeautifulSoup, time, random, and pandas. The crawler operates sequentially without asynchronous processing or multiprocessing. 
+
+### 3.1.1 Synchronous Architecture 
+The crawler uses a synchronous crawling architecture where each request and extraction process is completed before moving to the next page. The synchronous workflow consists of several stages. The crawler begins with a predefined keyword and country combination. A request URL is dynamically generated using the keyword slug and page number. Then, a HTTP GET request is issued to retrieve the HTML content of the page. The crawler waits for the response before continuing to the next step. If the request fails, a retry mechanism retries the request up to three times before skipping the page. Once a successful response is received, the HTML content is parsed using BeautifulSoup. Relevant job attributes such as country, job title, company name, salary, location, posted date, employment type, and URL are extracted. Then, the extracted records are appended into a list and periodically saved into a CSV file. Finally, the crawler proceeds to the next page after completing extraction for the current page. This sequential crawling strategy ensures execution and easier debugging while minimizing excessive request rates that may lead to HTTP 403 rate-limiting errors.
+
+### 3.1.2 Pagination
+Pagination was implemented through iterative page navigation. The crawler starts from page 1 and continuously increments the page number until multiple consecutive empty pages are encountered.
+
+```python
+keyword_slug = (
+    keyword
+    .replace(" ", "-")
+    .lower()
+)
+
+url = (
+    f"{domain}/"
+    f"{keyword_slug}-jobs"
+    f"?page={page}"
+)
+```
+
+The keywords used to crawl data from jobstreet.com are python, java, software engineer, data analyst, cloud engineer, accounting, finance, marketing, healthcare and so on. This keyword-based pagination allows the web crawler to bypass pagination limitations commonly found in generic search pages and allows collection of a larger number of job listings.
+
+The crawling process stops automatically when three consecutive pages return zero job listings.
+
+```python
+if count == 0:
+
+    consecutive_empty += 1
+
+    if (
+        consecutive_empty
+        >= MAX_EMPTY_PAGES
+    ):
+
+        break
+```
+
+### 3.1.3 Rate Limiting and Retry Logic
+To minimize server overload and reduce the risk of request blocking, the crawler incorporates rate-limiting and retry mechanisms. The crawler uses randomized delays between requests:
+
+```python
+time.sleep(
+    random.uniform(
+        SLEEP_MIN,
+        SLEEP_MAX
+    )
+)
+```
+
+The delay range is configured as:
+
+```python
+SLEEP_MIN = 2
+SLEEP_MAX = 5
+```
+
+This creates human-like browsing intervals and helps reduce aggressive traffic patterns. Moreover, a retry mechanism is implemented to handle temporary failures such as connection errors, timeouts, or HTTP 403 responses. If a request fails, the crawler retries up to three times before abandoning the page. Failed attempts are logged for monitoring purposes. To further reduce blocking risks, the crawler pauses for 60 seconds after every 100 pages.
+
+```python
+for attempt in range(1, MAX_RETRIES + 1):
+
+    try:
+
+        response = requests.get(
+            url,
+            headers=get_headers(),
+            timeout=30
+        )
+
+        if response.status_code == 200:
+
+            return response.text
+
+MAX_RETRIES = 3
+
+if page % 100 == 0:
+
+    time.sleep(60)
+```
+
+### 3.1.4 Sequential Data Fetch and Parsing
+After receiving the HTML response, the crawler parses the page using BeautifulSoup. Then, the crawler locates all job cards using soup.find_all().
+
+```python
+soup = BeautifulSoup(
+    html,
+    "html.parser"
+)
+
+job_cards = soup.find_all("article")
+```
+
+For every job card identified, the crawler extracts several structured fields which are Country, Job title, Company name, Location, Salary, Posted date, Employment type and URL.
+
+Example extraction logic :
+
+```python
+title_tag = card.find(
+    "a",
+    attrs={
+        "data-automation":
+        "jobTitle"
+    }
+)
+
+title = title_tag.get_text(
+    strip=True
+)
+
+Salary extraction:
+
+salary_tag = card.find(
+    attrs={
+        "data-automation":
+        "job-card-salary"
+    }
+)
+
+Company extraction:
+
+company_tag = card.find(
+    attrs={
+        "data-automation":
+        "advertiser-name"
+    }
+)
+```
+
+Each extracted record is appended into a Python list :
+
+```python
+jobs.append({
+
+    "Country": country,
+    "Keyword": keyword,
+    "Title": title,
+    "Company": company,
+    "Location": location,
+    "Salary": salary,
+    "Posted": posted,
+    "Employment Type": employment,
+    "URL": link
+})
+```
+
+The accumulated data is periodically converted into a pandas DataFrame and exported into CSV format. Duplicate job listings are removed using URL-based deduplication.
+
+```python
+df = df.drop_duplicates(
+    subset=["URL"]
+)
+```
+
+### Number of Records Collected
+After executing the full crawl across multiple countries and keywords, the crawler successfully collects thousands of job listings from JobStreet platforms across Southeast Asia. The crawler extracted job listings from Malaysia, Singapore, Indonesia, Thailand and Philippines. All extracted listings were saved into CSV format for preprocessing and further analysis.
+
+<br>
+
+| Data                      | Description                                       | 
+|---------------------------|---------------------------------------------------|
+| Country                   | Country where the job is listed                   |
+| Title                     | Job title or role name                            |
+| Company                   | Company or employer name                          |
+| Location                  | Job location or city                              |
+| Salary                    | Salary information if available                   |
+| Posted                    | Job posting date                                  |
+| Employment_type           | Type of employment such as full-time or contract  | 
+| URL                       | Direct link to the job listing                    |
+
+
 
 ## 📊 Dataset Overview
 ---
