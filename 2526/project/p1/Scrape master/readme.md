@@ -15,7 +15,7 @@
 
 This project builds a complete data pipeline that
 
-1. **crawls** ~200,000 product listings from the Malaysian marketplace **Carousell.com.my**,
+1. **crawls** 200,034 product listings from the Malaysian marketplace **Carousell.com.my**,
 2. **cleans and standardises** the raw scrape into a structured dataset, and
 3. **benchmarks five data-processing operations** across four libraries — **Pandas, Polars, Multiprocessing, and PySpark** — to quantify the speed-up delivered by each optimisation technique.
 
@@ -23,27 +23,28 @@ Each operation is run **5 times per library** and averaged so the comparison is 
 
 ## Data
 
-| File | Rows | Columns | Notes |
+| File | Rows | Columns |
 |---|---|---|---|
-| `data/raw_data.csv` | ~289,000 lines (~209k logical records) | 13 | Direct scrape output |
-| `data/cleaned_data.csv` | 198,429 | 12 | Deduped, normalised, typed |
+| `data/raw_data.csv` | 200,034 | 13 |
+| `data/cleaned_data.csv` | 198,429 | 12 |
 
 **Columns after cleaning:** `listing_id, product, price, condition, seller, time_posted, likes, listing_url, source_url, category, buyer_protection, delivery_info, posted_at`
 
 ## Optimization techniques
 
-Three genuinely-different HPC techniques are compared against a single-threaded Pandas baseline:
+Three HPC techniques are compared against a single-threaded Pandas baseline:
 
-| Technique | Why it's different |
+| Technique | Description |
 |---|---|
-| <img width="747" height="403" alt="image" src="https://github.com/user-attachments/assets/43f41c01-b465-4dd5-881d-53abaa12db4b" />
- | Rust-backed columnar engine with SIMD and built-in multi-threading; vectorised operators bypass the Python interpreter entirely |
-| **Multiprocessing** | Splits the DataFrame across all CPU cores using `multiprocessing.Pool`; each worker runs the same Pandas code in its own OS process to bypass the GIL |
-| **PySpark** | Distributed DataFrame engine (`local[*]`) that compiles operations to a JVM execution plan with hash-join + broadcast-join + shuffle |
+| <img width="120" alt="Pandas" src="https://github.com/user-attachments/assets/f5ca61ec-3504-431e-9ffb-361b03e49af9" /> | (Baseline) Traditional single-threaded Python DataFrame library; easy to use and highly compatible with the data science ecosystem, but limited by the Global Interpreter Lock (GIL) for CPU-bound workloads |
+| <img width="120" alt="Polars" src="https://github.com/user-attachments/assets/43f41c01-b465-4dd5-881d-53abaa12db4b" /> | Rust-backed columnar engine with SIMD and built-in multi-threading; vectorised operators bypass the Python interpreter entirely |
+| <img width="120" alt="Multiprocessing" src="https://github.com/user-attachments/assets/3c716e2a-963f-4fe2-ac84-5088977625a0" /> | Splits the DataFrame across all CPU cores using `multiprocessing.Pool`; each worker runs the same Pandas code in its own OS process to bypass the GIL |
+| <img width="120" alt="PySpark" src="https://github.com/user-attachments/assets/eacb9172-399a-4074-81ed-af8817c6e120" /> | Distributed DataFrame engine (`local[*]`) that compiles operations to a JVM execution plan with hash-join + broadcast-join + shuffle |
+
 
 ## Benchmarked operations
 
-| # | Operation | What it does |
+| # | Operation | Description |
 |---|---|---|
 | 1 | **Category Summary**    | Group by `category × condition`; compute 13 aggregations including mean / median / p25 / p75 / p90 / std of price, mean / max / sum of likes, unique sellers, unique products |
 | 2 | **Find Popular Listings** | Filter to listings priced RM100–RM10,000 with at least 5 likes and condition `brand new` or `like new` |
