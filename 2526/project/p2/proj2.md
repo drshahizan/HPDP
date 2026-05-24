@@ -7,6 +7,10 @@
 
 # 📄 Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka
 
+<p align="center">
+  <img src="https://github.com/drshahizan/short-course/blob/main/workshop/26STTNF/images/26STTNF.jpeg" height="500">
+</p>
+
 ## 1. Introduction
 
 Welcome to Project 2 of the High Performance Data Processing course. This project gives you a practical opportunity to design and build a real-time sentiment analysis pipeline using modern big data technologies. The activities are designed to connect classroom theory with industry-relevant data engineering practice.
