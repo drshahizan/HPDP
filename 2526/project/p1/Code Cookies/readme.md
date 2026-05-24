@@ -282,7 +282,39 @@ After executing the full crawl across multiple countries and keywords, the crawl
 | Employment_type           | Type of employment such as full-time or contract  | 
 | URL                       | Direct link to the job listing                    |
 
+<br>
 
+### 3.3 Ethical Considerations
+Ethical compliance was considered throughout the scraping process to ensure responsible data collection.
+
+### 3.3.1 Respecting Server Load
+Several measures were implemented to minimize impact on the target servers which are : 
+- Randomized request delays were used between requests.
+- Long cooldown intervals were introduced after every 100 pages.
+- The crawler uses synchronous execution instead of aggressive parallel crawling.
+- Retry limits prevent excessive repeated requests.
+
+### 3.3.2 Data Scope and Privacy
+Only publicly accessible job listings were collected. The crawler did not require login authentication, did not access hidden APIs, did not scrape personal user information and did not collect sensitive data such as phone numbers, emails, or IP addresses. The extracted information consisted only of publicly displayed job advertisement content.
+
+### 3.3.3 Legal Review and Transparency
+The crawler used a custom browser header to identify itself as a standard web client. The scraping activity was conducted strictly for academic and educational purposes. Data collection was limited to publicly available information and was not redistributed commercially. The resulting dataset was used solely for coursework, analytics, and research-related activities within the project scope.
+
+```python
+headers = {
+
+    "User-Agent":
+    random.choice(USER_AGENTS),
+
+    "Accept-Language":
+    "en-US,en;q=0.9",
+
+    "Referer":
+    "https://www.google.com/"
+}
+```
+
+---
 
 ## 📊 Dataset Overview
 ---
