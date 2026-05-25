@@ -32,7 +32,7 @@ The pipeline is implemented across **four notebooks**, each owning one stage of 
 | `p1/optimized_pipeline.ipynb` | **Benchmark** | [Benchmark](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p1/optimized_pipeline.ipynb) |
 | `p2/evaluation_charts.ipynb`   | **Visualise** | [Visualize](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/p2/evaluation_charts.ipynb) |
 | `report/report.pdf`            | **Final Report** | [Report](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/report/final_report.pdf) |
-| `Presentation Slides.pptx` | **Presentation** | [Presentation Slides](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/HPC%20Presentation%20Slides.pptx) |
+| `HPC Presentation Slides.pptx` | **Presentation** | [Presentation Slides](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/Scrape%20master/HPC%20Presentation%20Slides.pptx) |
 
 
 
