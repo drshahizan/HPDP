@@ -151,6 +151,13 @@ These measurements help compare how efficiently each method performed under simi
 <img width="620" height="367" alt="memory footprint chart" src="https://github.com/user-attachments/assets/807cd5fa-b4ef-4edf-9091-18fa152d6bd0" />
 
 ---
+## 📈 Performance Comparison between Libraries
+<img width="582" height="393" alt="Total Processing Time Chart" src="https://github.com/user-attachments/assets/43a8e711-4908-459b-b989-e44808cd8e55" />
+<img width="576" height="393" alt="Peak Memory Usage Chart" src="https://github.com/user-attachments/assets/9fddb04b-0520-4615-b07a-6e680c1b897f" />
+<img width="576" height="401" alt="Average CPU Usage Chart" src="https://github.com/user-attachments/assets/a210d82e-7119-415f-b20a-9c077d1a4a75" />
+<img width="584" height="392" alt="Throughput Chart" src="https://github.com/user-attachments/assets/ca7682c9-1209-4839-8d98-1518736d7da6" />
+
+---
 
 ## ✅ Conclusion
 The benchmark results clearly demonstrate the impact of different data processing architectures on pipeline efficiency:
