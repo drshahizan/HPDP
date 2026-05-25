@@ -32,9 +32,6 @@
 | **Web Crawler Script** | Python script to scrape Edge Malaysia and The Sun | [Click Here](p1/main_crawler.ipynb) |
 | **Data Cleaning Code** | Script to clean and preprocess the data | [Click Here](p1/clean_data.ipynb) |
 | **Optimization Code** | Benchmark pipeline for Pandas, Dask, and Polars | [Click Here](2526/project/p1/AyamGepuk/p1/Optimization.ipynb) |
-| **Performance Before Optimization** | The performance metrics before optimization | [Click Here](p2/performance_before.csv) |
-| **Performance After Optimization** | The performance metrics after optimization | [Click Here](p2/performance_after.csv) |
-| **Evaluation Chart** | Visual comparison of optimization results | [Click Here](p2/evaluation_charts.ipynb) |
 | **Google Colab Notebook** | Full project notebook on Google Colab | [Click Here](https://colab.research.google.com/drive/13Qil79Rb99kBmJA5-DcrDE2fPYp0KmJb) |
 | **Project Report** | Final documentation | [Click Here](report/Final_Report.pdf) |
 | **Presentation Slides** | Presentation slides for project presentation | [Click Here](report/Presentation_Slides.pptx) |
