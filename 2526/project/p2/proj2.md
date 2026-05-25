@@ -101,7 +101,7 @@ Register your group and update your submission link in the table below. The **Sa
 |------|-------------|-------|----------------|
 | Sample | [Youtube](https://www.youtube.com/results?search_query=travelling+in+malaysia) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](MasterData) |
 | Group A |  |  | _Add your link_ |
-| zoltraak | Google Play Store Review (Goverment App) | Beautiful soup | _Add your link_ |
+| zoltraak | Google Play Store Review (Goverment App) | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)] |
 | Group C |  |  | _Add your link_ |
 
 ## 🔗 Supporting Resources
