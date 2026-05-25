@@ -49,8 +49,7 @@
 | Week 3 | Apply optimization (Multiprocessing and Polars) | HPC Specialist | ✅ |
 | Week 3 | Benchmark performance (before vs after) | Evaluator | ✅ |
 | Week 4 | Compile results, charts, and graphs | HPC Specialist | ✅ |
-| Week 4 | Write final report | All (shared) | ☐ |
-| Week 4 | Submit report to Turnitin | Group Leader | ☐ |
-| Week 4 | Submit code, dataset, and slides | All | ☐ |
-| Week 4 | Present final project (10 minutes) | All | ☐ |
+| Week 4 | Write final report | All (shared) | ✅ |
+| Week 4 | Submit report to Turnitin | Group Leader | ✅ |
+| Week 4 | Submit code, dataset, and slides | All | ✅ |
 
