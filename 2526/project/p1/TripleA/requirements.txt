@@ -1,0 +1,8 @@
+beautifulsoup4
+requests
+pandas
+polars
+pyspark
+matplotlib
+seaborn
+psutil
