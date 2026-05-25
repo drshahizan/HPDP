@@ -119,6 +119,28 @@ Every file uses the same friendly column names: `Library, [Run #,] Time (s), CPU
 | Benchmarking | `psutil`, `tracemalloc`, `time.perf_counter` |
 | Visualisation | `matplotlib`, `seaborn` |
 
+## Key results (averaged over 5 runs)
+
+**Wall time (seconds):**
+
+| Operation | Pandas | Polars | Multiprocessing | PySpark |
+|---|---:|---:|---:|---:|
+| Category Summary        | 5.368 | **0.109** | 4.232 | 1.490 |
+| Find Popular Listings   | **0.023** | 0.083 | 2.088 | 1.168 |
+| Top 10 per Category     | 0.157 | **0.131** | 2.378 | 1.423 |
+| Keyword Search          | 0.954 | **0.087** | 2.203 | 1.425 |
+| Add Seller Stats        | 0.230 | **0.124** | 3.384 | 2.176 |
+
+**Speed-up vs Pandas baseline** (`>1` = faster than Pandas):
+
+| Operation | Polars | Multiprocessing | PySpark |
+|---|---:|---:|---:|
+| Category Summary        | **49.3×** | 1.27× | 3.60× |
+| Find Popular Listings   | 0.28× | 0.01× | 0.02× |
+| Top 10 per Category     | 1.20× | 0.07× | 0.11× |
+| Keyword Search          | **11.0×** | 0.43× | 0.67× |
+| Add Seller Stats        | 1.85× | 0.07× | 0.11× |
+
 ## Conclusion — Best Library
 
 <p align="center"><img width="400" alt="Polars" src="https://github.com/user-attachments/assets/43f41c01-b465-4dd5-881d-53abaa12db4b" /></p>
