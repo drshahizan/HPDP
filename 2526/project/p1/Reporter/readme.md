@@ -33,7 +33,7 @@
 | **Performance After Optimization** | Performance metrics result after optimization | [After Optimization](p2/performance_after.csv) |
 | **Evaluation Chart** | Visualization of the results | [Chart](p2/evaluation_charts.ipynb) |
 | **Project Report** | Final documentation | [Report](report/Final_Report.pdf) |
-| **Turnitin Report** | Plagiarism checking using Turnitin | [Turnitin](report/Final_Report_Turnitin.pdf) |
+| **Turnitin Report** | Plagiarism checking using Turnitin | [Turnitin](report/Final_Report_turnitin.pdf) |
 | **Presentation Slides** | Slides presentation of the project | [Slides](report/Presentation_Slides.pptx) |
 
 </div>
