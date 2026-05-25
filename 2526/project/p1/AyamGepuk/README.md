@@ -46,7 +46,7 @@
 ### 1.1 Background of the Project
 Online news platforms have become an important source of information on a wide range of topics including business, finance, politics, social issues, and events happening around the world. With the increasing availability of public data on news websites, web scraping is a powerful tool to automate the collection of large volumes of content for purposes such as sentiment analysis, trend detection, and content archiving.
 
-This project uses web scraping techniques to extract news articles from two established Malaysian online news portals — **Edge Malaysia** and **The Sun** — by leveraging a high-performance asynchronous scraping pipeline. The end goal is to gather at least 100,000 news article records for further data processing and performance benchmarking.
+This project uses web scraping techniques to extract news articles from two established Malaysian online news portals  **Edge Malaysia** and **The Sun**  by leveraging a high-performance asynchronous scraping pipeline. The end goal is to gather at least 100,000 news article records for further data processing and performance benchmarking.
 
 ### 1.2 Objectives
 - To develop a web scraper capable of collecting over 100,000 news article records from two target websites.
@@ -58,8 +58,8 @@ This project uses web scraping techniques to extract news articles from two esta
 
 ### 1.3 Target Website and Data
 The websites targeted for this web scraping project are:
-- **Edge Malaysia** (`https://theedgemalaysia.com`) — a leading Malaysian financial and business news portal, scraped via its internal category API.
-- **The Sun** (`https://thesun.my`) — a Malaysian daily newspaper, scraped via its WordPress REST API.
+- **Edge Malaysia** (`https://theedgemalaysia.com`), a leading Malaysian financial and business news portal, scraped via its internal category API.
+- **The Sun** (`https://thesun.my`), a Malaysian daily newspaper, scraped via its WordPress REST API.
 
 The specific data fields extracted from each article are:
 - **article_id:** A unique identifier prefixed with `EDGE_` or `SUN_` depending on source.
@@ -76,7 +76,7 @@ The specific data fields extracted from each article are:
 ## 2.0 System Design & Architecture
 
 ### 2.1 Description of Architecture
-This system architecture illustrates the workflow of the web scraping and data preprocessing pipeline that extracts, cleans, and stores structured news data from Edge Malaysia and The Sun. The system follows a **Data Flow Architecture Pattern** where data moves through a linear sequence of stages — Input, Intermediate Processing, and Output. The architecture consists of:
+This system architecture illustrates the workflow of the web scraping and data preprocessing pipeline that extracts, cleans, and stores structured news data from Edge Malaysia and The Sun. The system follows a **Data Flow Architecture Pattern** where data moves through a linear sequence of stages such as Input, Intermediate Processing, and Output. The architecture consists of:
 
 **1. Web Pages / APIs**<br/>
 The system begins with requests to the Edge Malaysia category API and The Sun WordPress REST API. These endpoints serve as the seed inputs to the respective scrapers.
@@ -116,7 +116,7 @@ The final cleaned and benchmarked dataset is saved in CSV format, ready for down
 
 ## 3.0 Data Collection
 ### 3.1 Crawling Method (Pagination, Rate-Limiting, Async)
-Data collection was performed using two custom-built asynchronous scrapers — one for Edge Malaysia and one for The Sun — both implemented with `asyncio` and `aiohttp`.
+Data collection was performed using two custom-built asynchronous scrapers, one for Edge Malaysia and one for The Sun, both implemented with `asyncio` and `aiohttp`.
 
 **Edge Malaysia Scraper:**
 - Targets the internal REST API endpoint: `https://theedgemalaysia.com/api/loadMoreCategories?offset={offset}&categories={category}&limit={limit}`
@@ -131,16 +131,16 @@ Data collection was performed using two custom-built asynchronous scrapers — o
 - Up to **10 concurrent requests** to respect the server's stricter limits
 
 **Common strategies:**
-- Timestamps are normalized at extraction time — UNIX milliseconds (The Edge) and ISO strings (The Sun) are both converted to a standardized `D/M/YYYY H:MM:SS AM/PM` format
+- Timestamps are normalized at extraction time, UNIX milliseconds (The Edge) and ISO strings (The Sun) are both converted to a standardized `D/M/YYYY H:MM:SS AM/PM` format
 - HTML tags are stripped and HTML entities decoded using `re.sub` and `html.unescape()` during extraction
 
 ### 3.2 Number of Records Collected
 
 | Source | Records Collected |
 |--------|------------------|
-| Edge Malaysia | 93,249 unique records |
+| Edge Malaysia | 93,378 unique records |
 | The Sun | 7,500 unique records |
-| **Final Master Dataset (after deduplication)** | **100,749 unique records** |
+| **Final Master Dataset (after deduplication)** | **100,887 unique records** |
 
 Edge Malaysia was scraped across **44 categories** including corporate, economy, malaysia, world, politics, court, markets, stocks, lifestyle, tech, property, sports, education, automotive, features, and more. Total scraping time for The Edge was approximately **365 seconds**.
 
@@ -196,7 +196,7 @@ master_df.to_csv("FINAL_MASTER_100K.csv", index=False)
 ### 4.3 Transformation and Formatting
 
 **Timestamp Normalization:**<br/>
-The Edge provides UNIX millisecond timestamps; The Sun provides ISO 8601 strings. Both are converted to a consistent format (`D/M/YYYY H:MM:SS AM/PM`):
+The Edge provides UNIX millisecond timestamps, The Sun provides ISO 8601 strings. Both are converted to a consistent format (`D/M/YYYY H:MM:SS AM/PM`):
 
 ```python
 # The Edge — UNIX milliseconds
@@ -225,9 +225,9 @@ This project benchmarks three data processing libraries on the same 5-task ETL p
 
 | Library | Explanation |
 |---------|-------------|
-| **Pandas** | The industry-standard Python data library. Uses **eager execution** — loads the entire dataset into RAM at once and processes operations sequentially on a **single thread**. Susceptible to memory bottlenecks on large datasets. Used as the **baseline**. |
+| **Pandas** | The industry-standard Python data library. Uses **eager execution**, loads the entire dataset into RAM at once and processes operations sequentially on a **single thread**. Susceptible to memory bottlenecks on large datasets. Used as the **baseline**. |
 | **Dask** | A parallel computing library that scales Pandas workflows. Constructs a **directed acyclic graph (DAG)** of deferred tasks and executes them in parallel across multiple CPU cores via its task scheduler. Designed for **out-of-core (larger-than-RAM)** datasets. |
-| **Polars** | A modern high-performance DataFrame library built in **Rust**. Uses **lazy evaluation** with query optimization (e.g. projection pushdown), and natively parallelizes execution across all CPU cores — bypassing Python's GIL. |
+| **Polars** | A modern high-performance DataFrame library built in **Rust**. Uses **lazy evaluation** with query optimization (e.g. projection pushdown), and natively parallelizes execution across all CPU cores, bypassing Python's GIL. |
 
 ### 5.2 Benchmark Pipeline (5 Tasks)
 The same pipeline is implemented identically in each library:
@@ -326,19 +326,19 @@ The baseline pipeline (Pandas) operates on a single thread with eager execution.
 | **Polars**  | **0.0987**     | **1.89**         | **180.53**   | **1,019,718**       |
 
 ### 6.4 Charts and Graphs
-To visually summarize the performance differences between Pandas, Dask, and Polars, a series of bar charts were generated based on the averaged performance metrics. *(Insert generated charts here)*
+To visually summarize the performance differences between Pandas, Dask, and Polars, a series of bar charts were generated based on the averaged performance metrics as shown in Figure 5. 
 
 #### 1. Comparison of Execution Time
-Polars completed the pipeline in under **0.1 seconds** on average — approximately **17× faster** than Pandas and **15× faster** than Dask. Dask recorded a modest improvement over Pandas.
+Polars completed the pipeline in under **0.1 seconds** on average, approximately **17× faster** than Pandas and **15× faster** than Dask. Dask recorded a modest improvement over Pandas.
 
 #### 2. Comparison of Memory Usage
 Polars used the least memory (~1.89 MB average), attributed to its lazy evaluation engine and projection pushdown which avoids loading unnecessary data into RAM. Dask also performed well (~7.48 MB) by processing data in partitions. Pandas consumed the most RAM (~33.94 MB) as it loads the entire dataset eagerly.
 
 #### 3. Comparison of CPU Utilization
-Polars achieved CPU utilization exceeding **180%**, demonstrating effective use of multi-core parallelism via its Rust engine — bypassing Python's Global Interpreter Lock (GIL). Pandas and Dask both stayed near 100%, indicating single-core or lightly parallel execution.
+Polars achieved CPU utilization exceeding **180%**, demonstrating effective use of multi-core parallelism via its Rust engine, bypassing Python's Global Interpreter Lock (GIL). Pandas and Dask both stayed near 100%, indicating single-core or lightly parallel execution.
 
 #### 4. Comparison of Throughput
-Polars processed over **1 million rows per second**, compared to ~69,661 rows/s for Dask and ~60,509 rows/s for Pandas — a **16.9× improvement** over the Pandas baseline.
+Polars processed over **1 million rows per second**, compared to ~69,661 rows/s for Dask and ~60,509 rows/s for Pandas, a **16.9× improvement** over the Pandas baseline.
 
 ## 7.0 Challenges & Limitations
 
@@ -354,9 +354,9 @@ Polars processed over **1 million rows per second**, compared to ~69,661 rows/s 
 
 ## 8.0 Conclusion & Future Work
 ### 8.1 Summary of Findings
-This project successfully designed and built a high-performance asynchronous web scraping pipeline using `asyncio` and `aiohttp` to collect over **100,000 news article records** from Edge Malaysia and The Sun. The Edge Malaysia scraper leveraged its internal category API across 44 categories, while The Sun scraper used the WordPress REST API — collecting 93,249 and 7,500 records respectively within minutes.
+This project successfully designed and built a high-performance asynchronous web scraping pipeline using `asyncio` and `aiohttp` to collect over **100,000 news article records** from Edge Malaysia and The Sun. The Edge Malaysia scraper leveraged its internal category API across 44 categories, while The Sun scraper used the WordPress REST API, collecting 93,249 and 7,500 records respectively within minutes.
 
-After merging, deduplication, and cleaning, the master dataset (`FINAL_MASTER_100K.csv`) was used as the benchmark input for comparing three data processing libraries. Pandas served as the single-threaded eager baseline. Dask offered modest improvement through parallel task scheduling, with lower memory consumption (~7.48 MB vs ~33.94 MB). Polars delivered exceptional results — processing over 1 million rows per second at under 0.1 seconds, using minimal memory and achieving 180%+ CPU utilization through its native Rust multi-threading engine. The results confirm that choosing the right processing library has a dramatic impact on performance at scale.
+After merging, deduplication, and cleaning, the master dataset (`FINAL_MASTER_100K.csv`) was used as the benchmark input for comparing three data processing libraries. Pandas served as the single-threaded eager baseline. Dask offered modest improvement through parallel task scheduling, with lower memory consumption (~7.48 MB vs ~33.94 MB). Polars delivered exceptional results, processing over 1 million rows per second at under 0.1 seconds, using minimal memory and achieving 180%+ CPU utilization through its native Rust multi-threading engine. The results confirm that choosing the right processing library has a dramatic impact on performance at scale.
 
 ### 8.2 What Could Be Improved
 
@@ -373,48 +373,35 @@ Deploying scrapers across multiple machines or cloud workers simultaneously woul
 If the Colab session times out mid-scrape, all progress is lost. Implementing periodic checkpoint saves (e.g., every 10,000 records) would ensure long-running scrapes are resilient to interruptions.
 
 * **Benchmark on larger datasets**<br/>
-The 100,000-row dataset did not fully expose Dask's strengths. Testing all three libraries on datasets of 1M+ rows — or datasets exceeding available RAM — would provide a more comprehensive picture of Dask's distributed computing advantage.
+The 100,000-row dataset did not fully expose Dask's strengths. Testing all three libraries on datasets of 1M+ rows or datasets exceeding available RAM  would provide a more comprehensive picture of Dask's distributed computing advantage.
 
 ## References
-- IBM. (2024, July 9). HPC. Ibm.com. https://www.ibm.com/think/topics/hpc
-- NetApp. (n.d.). What Is High-Performance Computing (HPC)? How It Works | NetApp. Www.netapp.com. https://www.netapp.com/data-storage/high-performance-computing/what-is-hpc/
-- Perez, M. (2019, August 6). What is Web Scraping and What is it Used For? | ParseHub. ParseHub Blog. https://www.parsehub.com/blog/what-is-web-scraping/
-- Wikipedia Contributors. (2019, October 4). Web scraping. Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Web_scraping
-- Polars Documentation. (n.d.). User Guide. https://docs.pola.rs/
-- Dask Documentation. (n.d.). Dask — Scale the Python tools you love. https://docs.dask.org/
+- Dask. (n.d.). Dask: Scale the Python tools you love. https://docs.dask.org/
+- IBM. (2024, July 9). HPC. IBM. https://www.ibm.com/think/topics/hpc
+- NetApp. (n.d.). What is high-performance computing (HPC)? How it works. NetApp. https://www.netapp.com/data-storage/high-performance-computing/what-is-hpc/
+- Perez, M. (2019, August 6). What is web scraping and what is it used for? ParseHub Blog. https://www.parsehub.com/blog/what-is-web-scraping/
+- Polars. (n.d.). User guide. https://docs.pola.rs/
+- Rocklin, M. (2015). Dask: Parallel computation with blocked algorithms and task scheduling. Proceedings of the 14th Python in Science Conference (SciPy 2015), 130–136. -- https://doi.org/10.25080/Majora-7b98e3ed-013
+- VanderPlas, J. (2016). Python data science handbook: Essential tools for working with data. O'Reilly Media. https://jakevdp.github.io/PythonDataScienceHandbook/
+- Wikipedia contributors. (2019, October 4). Web scraping. Wikipedia. https://en.wikipedia.org/wiki/Web_scraping
 
 ## Appendices
-
-### 📂 Web Scraper Source Code
-
-| Figure | Description | Preview |
-|--------|-------------|---------|
-| **Figure 1** | The Edge Scraper — Configuration & Helpers | *(Insert screenshot)* |
-| **Figure 2** | The Edge Scraper — Main async crawler loop | *(Insert screenshot)* |
-| **Figure 3** | The Sun Scraper — Async fetcher and data mapping | *(Insert screenshot)* |
-| **Figure 4** | Data Merge, Cleaning, and Final CSV Export | *(Insert screenshot)* |
-
----
 
 ### 📊 Performance Benchmark Code
 
 | Figure | Description | Preview |
 |--------|-------------|---------|
-| **Figure 5** | Pandas Benchmark Pipeline | *(Insert screenshot)* |
-| **Figure 6** | Dask Benchmark Pipeline | *(Insert screenshot)* |
-| **Figure 7** | Polars Lazy Benchmark Pipeline | *(Insert screenshot)* |
-| **Figure 8** | Benchmark Execution Engine & Results Tables | *(Insert screenshot)* |
+| **Figure 1** | Pandas Benchmark Pipeline | <img width="1053" height="439" alt="image" src="https://github.com/user-attachments/assets/b5943d20-4dd3-4de1-b5ee-0bbab6cde09f" /> |
+| **Figure 2** | Dask Benchmark Pipeline | <img width="1058" height="459" alt="image" src="https://github.com/user-attachments/assets/edaa92d2-2e9c-4db1-bdf0-d0b224cc22f0" /> |
+| **Figure 3** | Polars Lazy Benchmark Pipeline | <img width="927" height="586" alt="image" src="https://github.com/user-attachments/assets/a812fc0f-5fdc-4834-adb4-cc427461ab4a" /> |
+| **Figure 4** | Benchmark Execution Engine & Results Tables | <img width="585" height="725" alt="image" src="https://github.com/user-attachments/assets/b08a371a-7da0-4cd7-9a0b-f3dee301fa40" /> |
 
 ---
 
 ### 📈 Performance Evaluation Charts
-
 | Figure | Description | Preview |
 |--------|-------------|---------|
-| **Figure 9** | Execution Time Comparison (Pandas vs Dask vs Polars) | *(Insert chart)* |
-| **Figure 10** | Memory Usage Comparison | *(Insert chart)* |
-| **Figure 11** | CPU Utilization Comparison | *(Insert chart)* |
-| **Figure 12** | Throughput Comparison | *(Insert chart)* |
+| **Figure 5** | Performance Benchmark | <img width="595" height="526" alt="image" src="https://github.com/user-attachments/assets/235982a5-edac-419b-8644-ff990bd41a4d" /> |
 
 ---
 
@@ -422,6 +409,6 @@ The 100,000-row dataset did not fully expose Dask's strengths. Testing all three
 
 | Figure | Description | Preview |
 |--------|-------------|---------|
-| **Figure 13** | The Edge Scraper Terminal Output (93,249 records, 365s) | *(Insert screenshot)* |
-| **Figure 14** | The Sun Scraper Output Preview (7,500 records) | *(Insert screenshot)* |
-| **Figure 15** | Final Master Dataset Preview (100,749 records) | *(Insert screenshot)* |
+| **Figure 6** | The Edge Scraper Terminal Output (93,378 records, 365s) | <img width="329" height="68" alt="image" src="https://github.com/user-attachments/assets/4321f532-98c0-4722-91a7-938f4b35b03f" /> |
+| **Figure 7** | The Sun Scraper Output Preview (7,500 records) | <img width="379" height="52" alt="image" src="https://github.com/user-attachments/assets/07ae8040-7a61-41ee-a786-2ed69c870bbe" /> |
+| **Figure 8** | Final Master Dataset Preview (100,887 records) | <img width="402" height="79" alt="image" src="https://github.com/user-attachments/assets/e3629056-1b14-469a-8c5c-ea2a3fe2458a" /> |
