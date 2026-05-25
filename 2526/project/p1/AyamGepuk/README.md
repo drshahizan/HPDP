@@ -99,7 +99,6 @@ The final cleaned and benchmarked dataset is saved in CSV format, ready for down
 ### 2.2 Tools and Frameworks Used
 * asyncio
 * aiohttp
-* BeautifulSoup (HTML parsing)
 * Pandas
 * Dask
 * Polars
