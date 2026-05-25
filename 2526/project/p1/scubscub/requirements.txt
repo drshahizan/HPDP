@@ -1,1 +1,11 @@
-
+beautifulsoup4
+curl_cffi
+lxml
+pandas
+polars
+pyarrow
+matplotlib
+numpy
+psutil
+rich
+requests
