@@ -35,8 +35,8 @@
 | **Optimization Record Dask** | Benchmark results Dask                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)]() |
 | **Optimization Record Polars** | Benchmark results Polars                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)]() |
 | **Evaluation Chart Code**         | Visual comparison of optimization results  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)]() |
-| **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)]() |
-| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)]() |
+| **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](https://github.com/user-attachments/files/28208096/HPDP.Report.P1.pdf) |
+| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](https://github.com/user-attachments/files/28208123/HPDP.Project.1.pdf) |
 
 
 ---
@@ -145,13 +145,23 @@ These measurements help compare how efficiently each method performed under simi
 | Dask | 799.0 | 820.0 | 796.0 | 832.0 | 808.0 | **811.0**    |
 | Polars | 11336.0 | 24952.0 | 20796.0 | 26020.0 | 27244.0 | **22069.6**    |
 
+### 📈 Performance Visualizations
+<img width="619" height="371" alt="execution time chart" src="https://github.com/user-attachments/assets/61303384-3603-4899-b7cd-3015663b2f6f" />
+
+<img width="620" height="367" alt="memory footprint chart" src="https://github.com/user-attachments/assets/807cd5fa-b4ef-4edf-9091-18fa152d6bd0" />
 
 ---
 
 ## ✅ Conclusion
+The benchmark results clearly demonstrate the impact of different data processing architectures on pipeline efficiency:
+
+- **Pandas (The Baseline):** Pandas delivered a solid, reliable baseline, processing the dataset in an average of 25.6 seconds with a throughput of 4,813 records/second. Because it relies on single-threaded execution, its CPU utilization was the lowest (~59.8%), and it maintained the lowest memory footprint (2,239 MB).
+- **Dask (The Overhead Penalty):** Dask performed significantly slower than the baseline, averaging 152.3 seconds with a throughput of only 811 records/second. While Dask successfully utilized more CPU cores (70.18%), the ~120,000-row dataset was not large enough to benefit from its distributed architecture. The massive scheduling overhead required to partition the data and manage the parallel workers severely bottlenecked the execution speed.
+- **Polars (The Speed Multiplier):** Polars drastically outperformed both frameworks. By leveraging its Rust-based engine, lazy evaluation, and Apache Arrow memory format, Polars parallelized the workload perfectly. It processed the entire dataset in just 6.2 seconds, achieving a massive throughput of over 22,069 records/second (a 358% speed increase over Pandas). While this high-speed parallelization resulted in the highest peak memory usage (~6,022 MB), the trade-off was exceptionally worthwhile for the sheer processing speed gained.
 
 ## 🥇 Winner
 <p align="center">
-  <img src="" width="300px"/>
+  <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars-logo-dark.svg" width="300px"/>
 </p>
 
+**Polars** is the definitive winner for this pipeline. It maximized our hardware's multi-threading capabilities, sidestepped the single-core limitations of Pandas, and avoided the heavy task-graph overhead of Dask, proving to be the ultimate high-performance solution for medium-to-large web-scraped datasets.
