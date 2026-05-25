@@ -1,0 +1,4 @@
+Optimization Stage,Total Jobs,Total Full Time Jobs,Total Contract Jobs,Salary Disclosed Jobs,Expiring Jobs,Average Days Ago,Most Common Country,Most Common Industry,Total Processing Time (seconds),CPU Usage (%),Memory Usage (MB),Throughput (records/second)
+Pandas Optimization,113007.0,101609.0,9444.0,48869.0,14831.0,14.48,Malaysia,Unknown,0.84,49.91,469.48,134836.55
+Polars Optimization,113007.0,101609.0,9444.0,48869.0,14831.0,14.48,Malaysia,Unknown,0.17,94.37,468.85,653052.27
+DuckDB Optimization,113007.0,101609.0,9444.0,48869.0,14831.0,14.48,Malaysia,Unknown,0.22,67.88,441.19,506297.07
