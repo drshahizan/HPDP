@@ -91,6 +91,21 @@ Three HPC techniques are compared against a single-threaded Pandas baseline:
 | 4 | **Keyword Search**      | Find listings whose title matches `gaming|laptop|phone|ssd|ram` (case-insensitive regex) |
 | 5 | **Add Seller Stats**    | Compute each seller's avg price / total listings / total likes and inner-join back to every row |
 
+## Benchmark result files (`p2/`)
+
+The benchmark stage writes six CSV files into the `p2/` folder. The master file contains every run; the five per-operation files are split-and-averaged views of the master file for easier scanning.
+
+| File | Brief description | Link |
+|---|---|---|
+| `performance_comparison.csv`                            | **Master file.** Every metric for every (operation × library × run) — 120 rows total. Includes `Speedup vs Pandas` per row and a `Winner` flag on the average rows only. | [p2/performance_comparison.csv](p2/performance_comparison.csv) |
+| `performance_comparison_categorysummary.csv`            | **Category Summary** operation only. One row per library showing the average over 5 runs. | [p2/performance_comparison_categorysummary.csv](p2/performance_comparison_categorysummary.csv) |
+| `performance_comparison_findpopularlistings.csv`        | **Find Popular Listings** operation only. One row per library showing the average over 5 runs. | [p2/performance_comparison_findpopularlistings.csv](p2/performance_comparison_findpopularlistings.csv) |
+| `performance_comparison_top10percategory.csv`           | **Top 10 per Category** operation only. One row per library showing the average over 5 runs. | [p2/performance_comparison_top10percategory.csv](p2/performance_comparison_top10percategory.csv) |
+| `performance_comparison_keywordsearch.csv`              | **Keyword Search** operation only. One row per library showing the average over 5 runs. | [p2/performance_comparison_keywordsearch.csv](p2/performance_comparison_keywordsearch.csv) |
+| `performance_comparison_addsellerstats.csv`             | **Add Seller Stats** operation only. One row per library showing the average over 5 runs. | [p2/performance_comparison_addsellerstats.csv](p2/performance_comparison_addsellerstats.csv) |
+
+Every file uses the same friendly column names: `Library, [Run #,] Time (s), CPU (%), Peak Memory (MB), Process Memory (MB), Records Returned, Throughput, Speedup vs Pandas, Winner`. (`Run #` and `Operation` only appear in the master file.)
+
 ## Tools used
 
 | Category | Tools |
