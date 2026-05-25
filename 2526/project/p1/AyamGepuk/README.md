@@ -35,7 +35,7 @@
 | **Google Colab Notebook** | Full project notebook on Google Colab | [Click Here](https://colab.research.google.com/drive/13Qil79Rb99kBmJA5-DcrDE2fPYp0KmJb#scrollTo=AKfiHYBx-XLt) |
 | **Project Report** | Final documentation | [Click Here](report/Final_Report.pdf) |
 | **Presentation Slides** | Presentation slides for project presentation | [Click Here](report/Presentation_Slides.pptx) |
-| **TurnitIn Report** | TurnItIn generated report | [Click Here](report/Turnitin_Report.pdf) |
+| **TurnitIn Report** | TurnItIn generated report | [Click Here](report/REPORT%20PROJECT%201%20(AyamGepuk)%20turnitin.pdf.pdf) |
 
 </div>
 
