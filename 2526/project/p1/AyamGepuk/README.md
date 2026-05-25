@@ -26,8 +26,8 @@
 
 | File Name | Description | Link |
 |-----------|-------------|------|
-| **Raw Dataset (The Edge)** | Raw scraped data from Edge Malaysia | [Click Here](data/theedge.csv) |
-| **Raw Dataset (The Sun)** | Raw scraped data from The Sun | [Click Here](data/thesun.csv) |
+| **Raw Dataset (The Edge)** | Raw scraped data from Edge Malaysia | [Click Here]([data/theedge.csv](https://github.com/drshahizan/HPDP/tree/main/2526/project/p1/AyamGepuk/data)) |
+| **Raw Dataset (The Sun)** | Raw scraped data from The Sun | [Click Here]([data/thesun.csv](https://github.com/drshahizan/HPDP/tree/main/2526/project/p1/AyamGepuk/data)) |
 | **Master Dataset** | Final merged and deduplicated 100k dataset | [Click Here](data/FINAL_MASTER_100K.csv) |
 | **Web Crawler Script** | Python script to scrape Edge Malaysia and The Sun | [Click Here](p1/main_crawler.ipynb) |
 | **Data Cleaning Code** | Script to clean and preprocess the data | [Click Here](p1/clean_data.ipynb) |
