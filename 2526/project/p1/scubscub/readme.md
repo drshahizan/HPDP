@@ -74,6 +74,7 @@ scubscub/
 ├── report/
 │   ├── Final_Report.pdf
 │   ├── Final_Report_Turnitin.pdf
+|   ├── Presentation_Slides.pdf
 │   └── readme.md
 ├── system_architecture_diagram.jpg
 ├── tools_diagram.jpg
