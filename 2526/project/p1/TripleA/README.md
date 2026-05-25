@@ -133,7 +133,7 @@ The pipeline was executed in the following order:
 - Throughput (records/second)
 
 ### Benchmarking Results:
-![Benchmarking results](/p2/evaluation_charts.png)
+![Benchmarking results](/2526/project/p1/TripleA/p2/evaluation_charts.png)
 
 ### Benchmarking Summary
 Polars achieved the best overall performance in terms of execution time and throughput, making it highly efficient for single-machine data processing tasks.
