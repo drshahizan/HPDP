@@ -36,7 +36,7 @@
 | **Optimization Record Polars** | Benchmark results Polars                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/shopping/p2/polars_performance_results.csv) |
 | **Evaluation Chart Code**         | Visual comparison of optimization results  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](https://github.com/drshahizan/HPDP/blob/main/2526/project/p1/shopping/p1/Evaluation_Chart_Code.ipynb) |
 | **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](https://github.com/user-attachments/files/28208096/HPDP.Report.P1.pdf) |
-| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](https://github.com/user-attachments/files/28208123/HPDP.Project.1.pdf) |
+| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](https://github.com/user-attachments/files/28209967/HPDP.Project.1.pdf) |
 
 
 ---
