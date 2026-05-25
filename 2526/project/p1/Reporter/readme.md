@@ -19,6 +19,26 @@
   </tr>
 </table>
 
+---
+<div align="center">
+
+| File Name | Description | Link |
+|-----------|-------------|------|
+| **Main Crawler Code** | Python code to scrape website MPH Online | [Main Crawler](p1/main_crawler.ipynb) |
+| **Raw Dataset** | Raw scraped data from MPH Online | [Raw Data](https://drive.google.com/file/d/18bMkYv0Q5B81KXNs7UL1wIqU1HQ7Iz6-/view?usp=sharing) |
+| **Data Cleaning Code** | Pyhton code to clean and transform the data | [Data Cleaning Code](p1/clean_data.ipynb) |
+| **Cleaned Dataset** | Cleaned data that ready to optimized | [Clean Data](https://drive.google.com/file/d/1nvqXP4Z70_AZ4FhHlRMd-yTmoCLWPtW9/view?usp=sharing) |
+| **Optimization Code** | Benchmark pipeline using Pandas, Dask, and PySpark | [Optimization](p1/optimize_pipeline.ipynb) |
+| **Performance Before Optimization** | Performance metrics result before optimization | [Before Optimization](p2/performance_before.csv) |
+| **Performance After Optimization** | Performance metrics result after optimization | [After Optimization](p2/performance_after.csv) |
+| **Evaluation Chart** | Visualization of the results | [Chart](p2/evaluation_charts.ipynb) |
+| **Project Report** | Final documentation | [Report](report/Final_Report.pdf) |
+| **Turnitin Report** | Plagiarism checking using Turnitin | [Turnitin](report/Turnitin_Report.pdf) |
+| **Presentation Slides** | Slides presentation of the project | [Slides](report/Presentation_Slides.pptx) |
+
+</div>
+
+---
 <br>
 <div align='center'>
 <img src='https://www.jeveuxetredatascientist.fr/wp-content/uploads/2022/06/BeautifulSoup.jpg' height=200 width=300 alt='beautiful soup'>
