@@ -26,16 +26,25 @@
 </div>
 <br>
 
+# 🧑‍💼 JobStreet Web Scraper
+A Python-based web scraper that extracts job listings from [JobStreet](https://my.jobstreet.com) and saves the data into a structured CSV file. Built for simplicity, performance, and reliability.
+
 ---
 ## 📂 Project Files
 
 | File Name                     | Description                                | Link |
 |------------------------------|--------------------------------------------|------|
 | **Raw Dataset**              | Cleaned and raw data with URLs             | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](https://drive.google.com/file/d/1IsDhWyV1s5ZEcNX4ONSvjBH_eqpXPRZY/view?usp=sharing) |
-| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](https://drive.google.com/file/d/11sVRLCCxbumTktiDYij8E4axO3FkLfOF/view?usp=sharing)|
+| **Clean Dataset**            | Preprocessed data ready for use            | [![Download](https://img.shields.io/badge/Download-Drive-blue?logo=google-drive)](https://drive.google.com/file/d/1FmOO3mK-c3hRDBe1oIGbE_tUcESGrYoX/view?usp=sharing)|
 | **Web Crawler Script**       | Python script to scrape jobstreet       | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](https://colab.research.google.com/drive/1PzGcCcfSxBqYafEWA6kZEVeAabeE_byP?usp=sharing) |
-| **Data Cleaning Code**       | Script to clean and preprocess the data    | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](https://colab.research.google.com/drive/1hx2PhnfCMEx_uqwpPN5txIJrtMdq-P7l?usp=sharing) |
+| **Data Cleaning Code**       | Script to clean and preprocess the data    | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](https://colab.research.google.com/drive/1tIe-Q0jlvSyZicJ7WO13ljf6XXxrgdzF?usp=sharing) |
 | **Optimization Code**        | Performance-optimized transformation code  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](https://colab.research.google.com/drive/10s659IqvQ9ZlJiorg3izsnTkEVfCnfjS?usp=sharing) |
+| **Optimization Record Part 1** | Benchmark results part 1                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part1.csv) |
+| **Optimization Record Part 2** | Benchmark results part 2                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part2.csv) |
+| **Optimization Record Part 3** | Benchmark results part 3                 | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after_part3.csv) |
+| **Evaluation Chart**         | Visual comparison of optimization results  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p2/evaluation_charts.ipynb) |
+| **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/Final_Report.pdf) |
+| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/PresentationSlide.pdf) |
 
 
 
@@ -46,8 +55,10 @@
 ### 🕸️ Web Scraping Libraries
 
 
----
-### ⚙️ Data Processing & Optimization Libraries
+| Library | Description |
+|--------|-------------|
+| <img src="https://github.com/user-attachments/assets/0e15833e-c5f8-4976-afbe-03a8125beca1" width="48"/> `BeautifulSoup` | Web scraping & HTML parsing |
+| <img src="https://github.com/user-attachments/assets/db6ed60d-ea8d-4cad-afc5-3c4de59eaaf7" width="48"/> `requests` | Sends HTTP requests to access web pages |
 
 
 ---
@@ -315,10 +326,51 @@ headers = {
 ```
 
 ---
+## 4.0 Data Processing
+
+```mermaid
+flowchart TD
+    A[📂 Load Raw Dataset\n122,767 rows · 9 columns] --> B[🔍 Initial Inspection\nData types · Missing values · Duplicates]
+    B --> C[🏷️ Standardise Column Names\nLowercase + underscores]
+    C --> D[🗑️ Remove Duplicates\n9,760 rows removed → 113,007 remaining]
+    D --> E[✂️ Normalise Text Fields\nStrip whitespace · Remove non-printable chars · Title case]
+    E --> F[❓ Handle Missing Values\nIndustry 23.32% · Employment Type 0.31% → fill with 'Unknown']
+    F --> G[💰 Normalise Salary Column\nConvert n/a · tbd · '-' → NaN\nAdd salary_disclosed flag]
+    G --> H[🔢 Parse Salary Strings\nExtract salary_min · salary_max\nsalary_currency · salary_period\nAcross 6 currencies]
+    H --> I[📅 Parse Posted Column\nConvert relative dates → days_ago\nAdd is_expiring flag]
+    I --> J[🔗 Validate URLs\nKeep rows starting with 'http']
+    J --> K[✅ Save Cleaned Dataset\n113,007 rows · 16 columns]
+
+    style A fill:#1E293B,color:#fff
+    style K fill:#15803D,color:#fff
+    style D fill:#B45309,color:#fff
+    style G fill:#1D4ED8,color:#fff
+    style H fill:#1D4ED8,color:#fff
+```
 
 ## 📊 Dataset Overview
----
+This dataset contains job listings from JobStreet across five Southeast Asian countries — Malaysia, Singapore, Indonesia, Philippines and Thailand. The dataset includes key attributes such as job title, company name, location, salary, employment type, and industry. It provides valuable insights for job seekers, employers, and analysts interested in the labour market across Southeast Asia.
+
 ## 📊 Data Description
+
+| Column Name        | Description                                                              |
+|--------------------|--------------------------------------------------------------------------|
+| `country`          | Country where the job is listed                                          |
+| `title`            | Job title or role name                                                   |
+| `company`          | Company or employer name                                                 |
+| `location`         | City or locality where the job is based                                  |
+| `salary`           | Raw salary string retained as reference for parsed salary columns        |
+| `posted`           | Raw relative posting date retained as reference for parsed date columns  |
+| `employment_type`  | Type of employment such as Full Time, Contract or Part Time              |
+| `industry`         | Industry sector of the job listing                                       |
+| `url`              | Direct link to the job listing on JobStreet                              |
+| `salary_disclosed` | Boolean flag — True if employer published a salary, False if withheld    |
+| `salary_min`       | Lower bound of salary range parsed from raw salary string                |
+| `salary_max`       | Upper bound of salary range parsed from raw salary string                |
+| `salary_currency`  | Currency code detected from salary string — MYR, SGD, IDR, PHP, THB, USD|
+| `salary_period`    | Pay period parsed from salary string — monthly, yearly or hourly        |
+| `days_ago`         | Number of days since the job was posted                                  |
+| `is_expiring`      | Boolean flag — True if the listing is marked as expiring soon            |
 
 ---
 ## 🚀 Performance Benchmark
@@ -441,3 +493,8 @@ DuckDB also showed strong performance with low memory consumption and fast analy
 Although Pandas recorded slower execution speed and lower throughput, it remains useful for data preprocessing, cleaning and smaller-scale analysis because of its simplicity, flexibility and extensive community support.
 
 Overall, the benchmark results indicate that Polars is the most suitable optimisation technique for this project because it provides the best balance between processing speed, scalability and high-volume data processing performance.
+
+## 🥇 Winner
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6bbc160f-7b0e-47d9-9d90-0a8453cc2115" width="300px"/>
+</p>
