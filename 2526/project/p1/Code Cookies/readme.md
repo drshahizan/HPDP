@@ -13,8 +13,8 @@
     <td>A23CS0140</td>
   </tr>
   <tr>
-    <td width=80%>Asyikin</td>
-    <td>A23CS</td>
+    <td width=80%>Nurul Asyikin Binti Khairul Anuar</td>
+    <td>A23CS0162</td>
   </tr>
   <tr>
     <td width=80%>Harini A/P Sangaran</td>
@@ -323,19 +323,121 @@ headers = {
 ---
 ## 🚀 Performance Benchmark
 
+This section compares the performance of three optimisation techniques which are Pandas, Polars and DuckDB when processing the cleaned JobStreet dataset. The comparison focuses on processing time, CPU usage, memory usage and throughput performance.
+
+To ensure a fair comparison, all techniques used the same dataset and workflow. Each optimisation technique was executed three times and the average result was calculated for evaluation.
+
+<br>
+
+<div align="center">
+
+| Optimization Technique | Description |
+|---|---|
+| **Pandas** | Pandas was used because it is one of the most commonly used Python libraries for data cleaning and preprocessing. It provides dataframe functions that make the dataset easier to manage and analyse. |
+| **Polars** | Polars was tested to compare its performance with Pandas since it supports parallel processing and faster dataframe operations. It was used to evaluate whether it could process large datasets more efficiently. |
+| **DuckDB** | DuckDB was used to perform SQL-based analysis directly on the CSV dataset without setting up a separate database server. It was selected to evaluate its query performance and memory efficiency during large-scale data processing. |
+
+</div>
+
+<br>
+
+
 ---
 
 ### 🕒 Total Processing Time (seconds)
+
+The processing time benchmark measures the total execution time required to load, clean and analyse the dataset for each optimisation technique. Lower processing time indicates better performance efficiency.
+
+<br>
+
+<div align="center">
+
+| Optimization Technique | Run 1 | Run 2 | Run 3 | Average |
+|---|---|---|---|---|
+| **Pandas** | 0.7013 | 0.6072 | 0.6084 | 0.64 |
+| **Polars** | 0.1452 | 0.1441 | 0.1421 | 0.14 |
+| **DuckDB** | 0.2067 | 0.2016 | 0.2042 | 0.20 |
+
+</div>
+
+<br>
+
+Based on the benchmark results, Polars achieved the fastest processing time, followed by DuckDB. Pandas recorded the slowest execution time because it performs operations sequentially and requires more overhead when processing large datasets.
 
 ---
 
 ### 🧠 CPU Usage (%)
 
+CPU usage measures the percentage of processor resources consumed during execution. Higher CPU usage may indicate better utilisation of parallel processing capabilities.
+
+<br>
+
+<div align="center">
+
+| Optimization Technique | Run 1 | Run 2 | Run 3 | Average |
+|---|---|---|---|---|
+| **Pandas** | 49.91 | 49.91 | 50.95 | 50.09 |
+| **Polars** | 92.97 | 97.18 | 95.01 | 95.06 |
+| **DuckDB** | 70.16 | 69.44 | 71.01 | 70.20 |
+
+</div>
+
+<br>
+
+Polars utilised the highest CPU resources because it uses parallel execution and multi-threaded dataframe operations internally. DuckDB also showed high CPU utilisation due to vectorised query execution. Pandas recorded the lowest CPU usage because most operations were executed sequentially.
+
 ---
 
 ### 💾 Memory Usage (MB)
+
+Memory usage measures the amount of RAM consumed during data processing operations. Lower memory consumption indicates better memory efficiency.
+
+<br>
+
+<div align="center">
+
+| Optimization Technique | Run 1 | Run 2 | Run 3 | Average |
+|---|---|---|---|---|
+| **Pandas** | 812.00 | 818.52 | 818.53 | 816.35 |
+| **Polars** | 817.89 | 817.90 | 817.90 | 817.90 |
+| **DuckDB** | 787.23 | 787.05 | 787.11 | 787.13 |
+
+</div>
+
+<br>
+
+DuckDB recorded the lowest memory usage among all optimisation techniques because it performs efficient in-memory query execution and avoids unnecessary dataframe duplication. Pandas and Polars consumed more memory due to dataframe allocation during processing operations.
 
 ---
 
 ### ⚡ Throughput (records/second)
 
+Throughput measures the number of records processed per second during execution. Higher throughput indicates better processing performance.
+
+<br>
+
+<div align="center">
+
+| Optimization Technique | Run 1 | Run 2 | Run 3 | Average |
+|---|---|---|---|---|
+| **Pandas** | 170728.51 | 185623.50 | 184172.75 | 180174.92 |
+| **Polars** | 766843.09 | 805061.70 | 820782.91 | 797562.56 |
+| **DuckDB** | 523918.85 | 587682.25 | 576896.56 | 562832.55 |
+
+</div>
+
+<br>
+
+Polars achieved the highest throughput performance, followed by DuckDB. Pandas processed significantly fewer records per second because of its slower execution model. The results show that Polars and DuckDB are more suitable for large-scale analytical workloads and high-volume data processing tasks.
+
+---
+
+## 📌 Conclusion on Optimization Techniques
+
+Based on the benchmark evaluation, Polars demonstrated the best overall performance among the three optimisation techniques tested. Polars achieved the fastest processing time and the highest throughput due to its parallel execution architecture and efficient columnar memory processing. These characteristics allow Polars to handle large-scale datasets more efficiently compared to other dataframe libraries.
+
+DuckDB also showed strong performance with low memory consumption and fast analytical query execution. Its SQL-based processing capabilities make it highly suitable for analytical workloads and large-scale data querying tasks.
+
+Although Pandas recorded slower execution speed and lower throughput, it remains useful for data preprocessing, cleaning and smaller-scale analysis because of its simplicity, flexibility and extensive community support.
+
+Overall, the benchmark results indicate that Polars is the most suitable optimisation technique for this project because it provides the best balance between processing speed, scalability and high-volume data processing performance.
