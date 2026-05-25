@@ -15,6 +15,7 @@ This project builds a complete data pipeline that
 1. **crawls** 200,034 product listings from the Malaysian marketplace **Carousell.com.my**,
 2. **cleans and standardises** the raw scrape into a structured dataset, and
 3. **benchmarks five data-processing operations** across four libraries — **Pandas, Polars, Multiprocessing, and PySpark**.
+4. **Execution order** - main_crawler.pdf, cleaned_data.ipynb, optimized_pipeline.ipynb, evaluation_charts.ipynb
 
 Each operation is run **5 times per library** and averaged so the comparison is not skewed by a single run.
 
