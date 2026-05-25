@@ -22,7 +22,7 @@ This folder holds the project's written deliverables: the final report (PDF) and
 
 The final report follows the structure recommended in 7.3 of the assignment brief.
 
-| § | Section | What it covers |
+| # | Section | What it covers |
 |---|---|---|
 | 1  | **Introduction**                       | Background, motivation, target website (Carousell.com.my), and a one-paragraph summary of what the project produced |
 | 2  | **Project Objectives**                 | Four numbered objectives covering crawling, cleaning, HPC techniques, and quantitative evaluation |
