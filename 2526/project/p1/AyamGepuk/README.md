@@ -53,7 +53,7 @@ This project uses web scraping techniques to extract news articles from two esta
 - To extract specific data elements such as article ID, title, author, source, summary, link, and publication date.
 - To store the extracted data in a structured CSV format for processing and performance analysis.
 - To clean and preprocess the merged dataset to ensure data quality.
-- To compare three data processing libraries — Pandas, Dask, and Polars — across multiple performance metrics.
+- To compare three data processing libraries, Pandas, Dask, and Polars across multiple performance metrics.
 - To optimize the data processing pipeline and evaluate performance improvements.
 
 ### 1.3 Target Website and Data
