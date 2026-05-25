@@ -10,4 +10,5 @@ The report covers the project background, target website ([BookXcess](https://ww
 |------|-------------|
 | `Final_Report.pdf` | The final report. |
 | `Final_Report_Turnitin.pdf` | The final report submitted to Turnitin. |
+| `Presentation_Slides.pdf` | The presentation slides. |
 
