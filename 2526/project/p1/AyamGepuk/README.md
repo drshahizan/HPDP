@@ -26,14 +26,11 @@
 
 | File Name | Description | Link |
 |-----------|-------------|------|
-| **Raw Dataset (The Edge)** | Raw scraped data from Edge Malaysia | [Click Here]([data/theedge.csv](https://github.com/drshahizan/HPDP/tree/main/2526/project/p1/AyamGepuk/data)) |
-| **Raw Dataset (The Sun)** | Raw scraped data from The Sun | [Click Here]([data/thesun.csv](https://github.com/drshahizan/HPDP/tree/main/2526/project/p1/AyamGepuk/data)) |
-| **Master Dataset** | Final merged and deduplicated 100k dataset | [Click Here](data/FINAL_MASTER_100K.csv) |
-| **Web Crawler Script** | Python script to scrape Edge Malaysia and The Sun | [Click Here](p1/main_crawler.ipynb) |
-| **Data Cleaning Code** | Script to clean and preprocess the data | [Click Here](p1/clean_data.ipynb) |
+| **Raw Dataset (The Edge and The Sun)** | Raw scraped data from Edge Malaysia | [Click Here]([data/Theedgeandthesun.zip]) |
+| **Master Dataset** | Final merged and deduplicated 100k dataset | [Click Here](data/FINAL_MASTER_100K.zip) |
 | **Optimization Code** | Benchmark pipeline for Pandas, Dask, and Polars | [Click Here](p1/Optimization.ipynb) |
 | **Google Colab Notebook** | Full project notebook on Google Colab | [Click Here](https://colab.research.google.com/drive/13Qil79Rb99kBmJA5-DcrDE2fPYp0KmJb#scrollTo=AKfiHYBx-XLt) |
-| **Project Report** | Final documentation | [Click Here](report/Final_Report.pdf) |
+| **Project Report** | Final documentation | [Click Here](report/REPORT%20PROJECT%201%20AYAM%20GEPUK.pdf) |
 | **Presentation Slides** | Presentation slides for project presentation | [Click Here](report/Presentation_Slides.pptx) |
 | **TurnitIn Report** | TurnItIn generated report | [Click Here](report/REPORT%20PROJECT%201%20(AyamGepuk)%20turnitin.pdf.pdf) |
 
