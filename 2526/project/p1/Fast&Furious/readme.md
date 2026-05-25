@@ -40,7 +40,7 @@ A Python-based web scraper developed to collect property listings from [mudah.my
 | **Optimized Results** | Benchmark results after applying Pandas optimized pipeline, Polars, and DuckDB | [![Open](https://img.shields.io/badge/View-CSV-orange?logo=csv)](p2/performance_after.csv) |
 | **Evaluation Chart**         | Visual comparison of optimization results  | [![Open](https://img.shields.io/badge/View-Code-green?logo=jupyter)](p2/evaluation_charts.ipynb) |
 | **Project Report**           | Final detailed documentation               | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/Final_Report.pdf) |
-| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/Presentation_Slide.pdf) |
+| **Presentation Slides**      | Slides for project presentation            | [![Download](https://img.shields.io/badge/Download-PDF-red?logo=adobe-acrobat-reader)](report/Presentation_Slides.pdf) |
 
 
 ---
