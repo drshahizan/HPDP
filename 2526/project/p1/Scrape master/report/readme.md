@@ -20,7 +20,7 @@ This folder holds the project's written deliverables: the final report (PDF) and
 
 ## Report structure
 
-The final report follows the structure recommended in §7.3 of the assignment brief.
+The final report follows the structure recommended in 7.3 of the assignment brief.
 
 | § | Section | What it covers |
 |---|---|---|
