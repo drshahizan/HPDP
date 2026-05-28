@@ -84,10 +84,10 @@ The main objective is to compare traditional data processing using **Pandas** wi
 ## Charts
 
 ### Execution Time Comparison
-![Execution Time Comparison](comparison_chart.png)
+![Execution Time Comparison](execution_chart.png)
 
 ### Memory Usage Comparison
-![Memory Usage Comparison](comparison_chart.png)
+![Memory Usage Comparison](memory_usage_chart.png)
 
 
 ## Running the Notebook
