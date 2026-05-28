@@ -230,7 +230,7 @@ Only these columns were loaded from the CSV:
 `month`, `op_unique_carrier`, `origin`, `dest`, `dep_delay`, `arr_delay`
 
 #### **Output:**
-![Strategy 1 output](images/Strategy_1.png)
+![Strategy 1 output](images/Strategy1.png)
 
 **Performance Insight:** Dropping the other 29 unneeded columns allowed the dataset to load much faster and kept the peak RAM footprint significantly lower than the full baseline load.
 
@@ -449,7 +449,7 @@ Dask enables parallel processing by breaking large datasets into smaller block p
 
 ## 📊 **5.1: Evaluation of Big Data Handling Strategies**
 
-### **5.1.1 Performance Metric Summary Table**
+### **5.1.1 Performance Metric Summary Table and Visuals**
 
 | Evaluation Strategy | Execution Time (s) | Peak Memory Usage (MB) | Execution Speedup (vs. Baseline) | Memory Reduction % (vs. Baseline) |
 | :--- | :---: | :---: | :---: | :---: |
