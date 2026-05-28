@@ -1,5 +1,12 @@
 # Flight Delay Dataset 2024 — Big Data Analysis
 
+## Project Information
+
+| Item | Details |
+| :--- | :--- |
+| Course | SECP3133 High Performance Data Processing |
+| Assignment | Assignment 2: Mastering Big Data Handling |
+
 ## Group Information
 
 ### **Group Name: Duoletgo**
@@ -15,12 +22,14 @@
 | :--- | :--- | :--- |
 | `big_data_md.ipynb` | Main report with methodology, results and reflection | [View](big_data_md.ipynb) |
 | `big_data.ipynb` | Executable Google Colab notebook with code, outputs and charts | [Open](big_data.ipynb) |
+| `README.md`| Project overview and summary |
+| `comparison_chart.png` | Execution time and memory usage comparison charts |
 
 ## Project Summary
 
-This project evaluates the Flight Delay Dataset 2024 using big data processing strategies. It compares a traditional Pandas baseline against scalable libraries such as Dask and Polars.
+This project focuses on handling and analysing a large flight delay dataset using different big data processing strategies. The dataset contains domestic US flight performance records including departure and arrival times, delays, cancellations, and airline carrier information for the full year of 2024.
 
-The goal is to measure memory usage and execution time while demonstrating practical techniques for handling large datasets in Google Colab.
+The main objective is to compare traditional data processing using **Pandas** with scalable data processing libraries such as **Dask** and **Polars**. The comparison focuses on memory usage, execution time, and ease of processing.
 
 ## Dataset Snapshot
 
@@ -39,6 +48,47 @@ The goal is to measure memory usage and execution time while demonstrating pract
 - **Data Type Optimisation:** Downcast numeric fields and convert columns for lower memory footprint.
 - **Sampling:** Use a smaller subset for fast prototyping and exploratory analysis.
 - **Scalable Processing:** Compare Pandas, Dask, and Polars performance on the same aggregation task.
+
+## Libraries Used
+
+| Library | Purpose |
+| :--- | :--- |
+| Pandas | Baseline library for traditional data loading, inspection and processing |
+| Dask | Scalable library for parallel and partition-based processing |
+| Polars | High-performance dataframe library with Rust-based execution engine |
+
+---
+
+## Key Results
+
+### Strategy Performance
+
+| Strategy | Execution Time | Peak Memory |
+| :--- | ---: | ---: |
+| Pandas Baseline | 37.21s | 6,185.09 MB |
+| Load Less Data | 8.03s | 659.67 MB |
+| Chunking | 5.45s | 12.28 MB |
+| Data Type Optimisation | 14.98s | 696.87 MB |
+| Sampling (10%) | 0.55s | 151.23 MB |
+
+### Library Comparison
+
+| Library | Execution Time | Peak Memory |
+| :--- | ---: | ---: |
+| Pandas | 37.21s | 6,185.09 MB |
+| Dask | 155.13s | 843.41 MB |
+| Polars | 12.78s | 0.02 MB* |
+
+*Polars memory not fully captured by `tracemalloc` — managed internally by Rust runtime.
+
+## Charts
+
+### Execution Time Comparison
+![Execution Time Comparison](comparison_chart.png)
+
+### Memory Usage Comparison
+![Memory Usage Comparison](comparison_chart.png)
+
 
 ## Running the Notebook
 
