@@ -340,7 +340,7 @@ Figure 2 presents exploratory analysis performed on a 5% random sample of the da
 
 **Discussion**
 
-Figure 3 compares the execution time required by Pandas, Dask, and Polars to perform the same analytical workflow. Polars achieved the fastest execution time at 0.81 seconds, followed by Dask at 2.10 seconds, while Pandas required 3.51 seconds. The results indicate that modern scalable libraries can significantly improve performance when processing large datasets. Polars particularly benefits from its Rust-based execution engine, multithreading capabilities, and query optimisation techniques.
+Figure 3 compares the execution time required by Pandas, Dask, and Polars to perform the same analytical workflow.The results indicate that modern scalable libraries can significantly improve performance when processing large datasets. Polars particularly benefits from its Rust-based execution engine, multithreading capabilities, and query optimisation techniques.
 
 ---
 
@@ -350,7 +350,7 @@ Figure 3 compares the execution time required by Pandas, Dask, and Polars to per
 
 **Discussion**
 
-Figure 4 compares the peak memory consumption of Pandas, Dask, and Polars during execution. Pandas consumed the highest amount of memory at 871.30 MB, while Dask reduced memory usage to 569.77 MB through partitioned processing. Polars demonstrated the most efficient memory utilisation at only 358.99 MB. These results highlight the importance of selecting appropriate processing frameworks when working with large-scale datasets, as efficient memory management directly impacts scalability and system stability.
+Figure 4 compares the peak memory consumption of Pandas, Dask, and Polars during execution. Polars demonstrated the most efficient memory utilisation at only 358.99 MB. These results highlight the importance of selecting appropriate processing frameworks when working with large-scale datasets, as efficient memory management directly impacts scalability and system stability.
 
 ---
 
