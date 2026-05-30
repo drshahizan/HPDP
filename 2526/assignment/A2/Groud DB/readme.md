@@ -1,8 +1,12 @@
 # SECP3133 Assignment 2 — Big Data Handling
 
 ## Group Members
-- [Ainnurnabila] (A23CS)
-- [Dayang Farah Farzana binti Abang Idham] (A23CS0071)
+| Name | Matric No |
+|------|-------------|
+| Ainnurnabila | A23CS |
+| Dayang Farah Farzana binti Abang Idham | A23CS0071 |
+
+
 
 ## Dataset
 California Google Local Reviews (~12 GB JSON)
