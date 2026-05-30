@@ -314,8 +314,43 @@ To objectively measure performance, we executed a benchmark workflow:
 
 ## 5.2 Visualizations
 
+### Figure 1: Memory Usage Before and After Data Type Optimisation
+
+![Memory Usage Before and After Data Type Optimisation](strategy3_dtype_optimisation.png)
+
+**Discussion**
+
+Figure 1 illustrates the memory consumption of each column before and after applying data type optimisation. Significant reductions can be observed in categorical columns such as `FL_DATE`, `OP_CARRIER`, `ORIGIN`, and `DEST`, where memory usage decreased dramatically after conversion to more efficient data types. Numerical columns also benefited from integer and float downcasting. Overall, the optimisation strategy reduced the dataset's memory footprint substantially, demonstrating that proper data type selection is a simple yet highly effective technique for handling large datasets.
+
+---
+
+### Figure 2: Exploratory Data Analysis on 5% Sample Dataset
+
+![Exploratory Data Analysis on Sample Dataset](strategy4_sample_eda.png)
+
+**Discussion**
+
+Figure 2 presents exploratory analysis performed on a 5% random sample of the dataset, containing approximately 321,467 rows. The departure delay distribution shows that most flights experienced minimal delays, while a smaller number of flights encountered significant delays, resulting in a right-skewed distribution. The cancellation rate analysis highlights variations among airline carriers, indicating differences in operational reliability. Average arrival delay comparisons further reveal performance differences between carriers. Additionally, the busiest origin airports identified in the sample include ATL, ORD, and DFW, which are consistent with major aviation hubs in the United States. These findings demonstrate that sampling can greatly reduce processing time while preserving meaningful statistical patterns for analysis.
+
+---
+
+### Figure 3: Execution Time Comparison Between Libraries
+
 ![Execution Time Comparison](execution_time_comparison.png)
+
+**Discussion**
+
+Figure 3 compares the execution time required by Pandas, Dask, and Polars to perform the same analytical workflow. Polars achieved the fastest execution time at 0.81 seconds, followed by Dask at 2.10 seconds, while Pandas required 3.51 seconds. The results indicate that modern scalable libraries can significantly improve performance when processing large datasets. Polars particularly benefits from its Rust-based execution engine, multithreading capabilities, and query optimisation techniques.
+
+---
+
+### Figure 4: Peak Memory Usage Comparison Between Libraries
+
 ![Peak Memory Usage Comparison](memory_usage_comparison.png)
+
+**Discussion**
+
+Figure 4 compares the peak memory consumption of Pandas, Dask, and Polars during execution. Pandas consumed the highest amount of memory at 871.30 MB, while Dask reduced memory usage to 569.77 MB through partitioned processing. Polars demonstrated the most efficient memory utilisation at only 358.99 MB. These results highlight the importance of selecting appropriate processing frameworks when working with large-scale datasets, as efficient memory management directly impacts scalability and system stability.
 
 ---
 
