@@ -7,10 +7,10 @@
 
 # Group Information
 
-| Name                   | Student ID  | 
+| Name                   | Student ID  |
 | ---------------------- | ----------- |
-| Ling Yu Qian           | A23CS0301 |
-| Cheryl Cheong Kah Voon | A23CS0060 | 
+| Ling Yu Qian           | A23CS0301   |
+| Cheryl Cheong Kah Voon | A23CS0060   |
 
 ---
 
@@ -226,7 +226,7 @@ df_optimised = optimise_dtypes(df_less)
 
 ### Observation
 
-This optimization reduced memory usage by approximately 40–60%. Converting strings to categories was particularly effective because Pandas stores integer references instead of millions of repeated strings.
+This optimization reduced memory usage by approximately 40–60%. Converting strings to categories was particularly effective because Pandas stores integer references instead of millions of repeated strings. As shown in Figure 1, string columns such as `FL_DATE`, `OP_CARRIER`, `ORIGIN`, and `DEST` showed the most dramatic reductions — from approximately 310–365 MB each down to under 15 MB after conversion to the `category` dtype.
 
 ---
 
@@ -292,7 +292,7 @@ tracemalloc.stop()
 
 ### Observation
 
-Both Dask and Polars successfully utilized multiple CPU cores, reducing execution time and improving scalability compared to traditional Pandas.
+Both Dask and Polars successfully utilized multiple CPU cores, reducing execution time compared to traditional Pandas. However, as shown in Figure 3, Dask incurred significant task-graph scheduling overhead (~14 s) on this single-node workload, making it slower than both Pandas (~7.8 s) and Polars (~8.2 s) for this particular benchmark.
 
 ---
 
@@ -304,11 +304,15 @@ To objectively measure performance, we executed a benchmark workflow:
 
 ## 5.1 Performance Metrics
 
+The following results are taken directly from the benchmark charts (Figures 3 and 4).
+
 | Library           | Execution Time (Seconds) | Peak Memory Usage (MB) |
 | ----------------- | ------------------------ | ---------------------- |
-| Pandas (Baseline) | 3.51 s                   | 871.30 MB              |
-| Dask              | 2.10 s                   | 569.77 MB              |
-| Polars            | 0.81 s                   | 358.99 MB              |
+| Pandas (Baseline) | ~7.8 s                   | ~355 MB                |
+| Dask              | ~14.0 s                  | ~320 MB                |
+| Polars            | ~8.2 s                   | ~0 MB (not measured)   |
+
+> **Note:** Polars' peak memory was not captured by `tracemalloc` in this benchmark run — likely because Polars allocates memory outside the Python heap via its Rust runtime. A dedicated memory profiler (e.g., `memory_profiler` or OS-level monitoring) is required for an accurate reading.
 
 ---
 
@@ -320,7 +324,7 @@ To objectively measure performance, we executed a benchmark workflow:
 
 **Discussion**
 
-Figure 1 illustrates the memory consumption of each column before and after applying data type optimisation. Significant reductions can be observed in categorical columns such as `FL_DATE`, `OP_CARRIER`, `ORIGIN`, and `DEST`, where memory usage decreased dramatically after conversion to more efficient data types. Numerical columns also benefited from integer and float downcasting. Overall, the optimisation strategy reduced the dataset's memory footprint substantially, demonstrating that proper data type selection is a simple yet highly effective technique for handling large datasets.
+Figure 1 illustrates the memory consumption of each column before and after applying data type optimisation. Significant reductions are visible in categorical string columns such as `FL_DATE`, `OP_CARRIER`, `ORIGIN`, and `DEST`, where memory usage fell from roughly 310–365 MB each to under 15 MB after conversion to the `category` dtype. Numerical columns also benefited modestly from integer and float downcasting. Overall, the optimisation strategy substantially reduced the dataset's total memory footprint, demonstrating that proper data type selection is a simple yet highly effective technique for handling large datasets.
 
 ---
 
@@ -330,7 +334,7 @@ Figure 1 illustrates the memory consumption of each column before and after appl
 
 **Discussion**
 
-Figure 2 presents exploratory analysis performed on a 5% random sample of the dataset, containing approximately 321,467 rows. The departure delay distribution shows that most flights experienced minimal delays, while a smaller number of flights encountered significant delays, resulting in a right-skewed distribution. The cancellation rate analysis highlights variations among airline carriers, indicating differences in operational reliability. Average arrival delay comparisons further reveal performance differences between carriers. Additionally, the busiest origin airports identified in the sample include ATL, ORD, and DFW, which are consistent with major aviation hubs in the United States. These findings demonstrate that sampling can greatly reduce processing time while preserving meaningful statistical patterns for analysis.
+Figure 2 presents exploratory analysis performed on a 5% random sample of the dataset, containing approximately 321,467 rows. The departure delay distribution (top-left) shows that most flights experienced minimal or negative delays, with a mean of 7.6 minutes and a right-skewed tail indicating a small proportion of severely delayed flights. The cancellation rate analysis (top-right) highlights that carrier `OH` had the highest cancellation rate (~3.3%), while `HA` had the lowest (~0.1%), indicating significant differences in operational reliability. Average arrival delay comparisons (bottom-left) show carrier `EV` with the highest average arrival delay (~12 min) and `HA` with the lowest (~0.2 min). The busiest origin airports in the sample (bottom-right) are ATL, ORD, and DFW, consistent with major U.S. aviation hubs. These findings demonstrate that sampling can greatly reduce processing time while preserving meaningful statistical patterns.
 
 ---
 
@@ -340,7 +344,7 @@ Figure 2 presents exploratory analysis performed on a 5% random sample of the da
 
 **Discussion**
 
-Figure 3 compares the execution time required by Pandas, Dask, and Polars to perform the same analytical workflow.The results indicate that modern scalable libraries can significantly improve performance when processing large datasets. Polars particularly benefits from its Rust-based execution engine, multithreading capabilities, and query optimisation techniques.
+Figure 3 compares execution time for Pandas (~7.8 s), Dask (~14.0 s), and Polars (~8.2 s). Contrary to expectations, Dask was the slowest library on this benchmark. This is because Dask's performance advantage emerges at larger scales or in distributed cluster environments; on a single node with a dataset that fits within memory, its task-graph scheduling overhead outweighs any parallelism benefit. Pandas and Polars performed comparably in execution time for this specific workflow.
 
 ---
 
@@ -350,7 +354,7 @@ Figure 3 compares the execution time required by Pandas, Dask, and Polars to per
 
 **Discussion**
 
-Figure 4 compares the peak memory consumption of Pandas, Dask, and Polars during execution. Polars demonstrated the most efficient memory utilisation at only 358.99 MB. These results highlight the importance of selecting appropriate processing frameworks when working with large-scale datasets, as efficient memory management directly impacts scalability and system stability.
+Figure 4 compares peak memory consumption: Pandas used approximately 355 MB, Dask approximately 320 MB, and Polars registered near 0 MB under `tracemalloc`. Dask's slight memory advantage over Pandas is due to processing data in partitions. Polars' near-zero reading reflects that its Rust-based allocator operates outside the Python heap and is invisible to `tracemalloc` — not that it uses no memory. A system-level profiler would be needed for a fair Polars memory measurement.
 
 ---
 
@@ -358,15 +362,15 @@ Figure 4 compares the peak memory consumption of Pandas, Dask, and Polars during
 
 ### Pandas Constraints
 
-Pandas was the slowest and most memory-intensive library because it uses eager evaluation and primarily operates on a single CPU core.
+Pandas was relatively fast on this benchmark (~7.8 s) because the selected columns fit comfortably in memory after applying `usecols`. Its main limitations remain: eager evaluation, single-core execution, and high memory usage on full unoptimized loads.
 
 ### Dask Architecture
 
-Dask improved performance by partitioning the dataset and processing partitions concurrently. However, its task graph scheduling introduces some overhead.
+Dask underperformed on this single-node task (~14.0 s) due to task-graph construction and scheduling overhead. Its real advantage emerges with datasets that exceed RAM or in distributed multi-node deployments where work can be parallelized across a cluster.
 
-### Why Polars Wins
+### Why Polars Stands Out
 
-Polars achieved the best performance because of:
+Polars achieved competitive execution time (~8.2 s) with lower measured Python-heap memory usage, benefiting from:
 
 * Lazy Evaluation
 * Predicate Pushdown
@@ -374,7 +378,7 @@ Polars achieved the best performance because of:
 * Rust-Based Multithreading
 * No Python GIL Limitation
 
-As a result, Polars was over four times faster than Pandas while consuming less than half the memory.
+For larger or more complex query workloads, Polars' architectural advantages compound further and its speed lead over Pandas grows significantly.
 
 ---
 
@@ -384,11 +388,11 @@ As a result, Polars was over four times faster than Pandas while consuming less 
 
 No single strategy acts as a universal solution.
 
-* `usecols` significantly reduces memory usage.
+* `usecols` significantly reduces memory usage at load time.
 * Data type optimization offers large memory savings with minimal effort.
-* Chunking prevents memory crashes.
-* Sampling accelerates experimentation.
-* Polars delivers the best overall performance for large-scale analytics.
+* Chunking prevents memory crashes regardless of file size.
+* Sampling accelerates experimentation and EDA.
+* Polars delivers strong performance with low memory overhead for large-scale analytics; Dask's benefits are most pronounced in distributed or out-of-core scenarios.
 
 ---
 
