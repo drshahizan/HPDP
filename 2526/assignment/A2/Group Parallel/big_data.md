@@ -258,7 +258,47 @@ The sample reduced the working dataset from 6.4 million rows to approximately 32
 
 ### Explanation
 
-Standard Pandas operates on a single CPU core. Dask and Polars enable parallel execution across multiple CPU cores.
+Standard Pandas operates on a single CPU core. Dask and Polars enable parallel execution across multiple CPU cores by different mechanisms:
+
+| Library | Parallelism Mechanism |
+| ------- | --------------------- |
+| Dask    | Breaks DataFrame into partitions; schedules tasks on a local multi-core scheduler |
+| Polars  | Rust-based work-stealing thread pool; lazy query optimizer with predicate pushdown |
+
+We implement the **same benchmark task** with both libraries: load the CSV, select columns, group by carrier, and compute mean departure delay.
+
+### Dask Implementation
+
+```python
+import dask.dataframe as dd
+import multiprocessing
+
+print(f'CPU Cores Available: {multiprocessing.cpu_count()}')
+
+tracemalloc.start()
+t0 = time.time()
+
+dask_df = dd.read_csv(
+    DATA_PATH_SINGLE,
+    usecols=['OP_CARRIER', 'DEP_DELAY']
+)
+
+dask_result = (
+    dask_df.groupby('OP_CARRIER')['DEP_DELAY']
+    .mean()
+    .compute()
+    .sort_values(ascending=False)
+)
+
+dask_time = time.time() - t0
+_, peak = tracemalloc.get_traced_memory()
+tracemalloc.stop()
+dask_mem = peak / (1024 ** 2)
+
+print(f'[Dask] Execution time : {dask_time:.2f} s')
+print(f'[Dask] Peak memory    : {dask_mem:.2f} MB')
+print(dask_result)
+```
 
 ### Polars Implementation
 
@@ -284,15 +324,18 @@ polars_result = (
 )
 
 polars_time = time.time() - t0
-
 _, peak = tracemalloc.get_traced_memory()
-
 tracemalloc.stop()
+polars_mem = peak / (1024 ** 2)
+
+print(f'[Polars] Execution time : {polars_time:.2f} s')
+print(f'[Polars] Peak memory    : {polars_mem:.2f} MB')
+print(polars_result)
 ```
 
 ### Observation
 
-Both Dask and Polars successfully utilized multiple CPU cores, reducing execution time compared to traditional Pandas. However, as shown in Figure 3, Dask incurred significant task-graph scheduling overhead (~14 s) on this single-node workload, making it slower than both Pandas (~7.8 s) and Polars (~8.2 s) for this particular benchmark.
+Both Dask and Polars successfully utilized multiple CPU cores. However, as shown in Figure 3, Dask incurred significant task-graph scheduling overhead (~14 s) on this single-node workload, making it slower than both Pandas (~7.8 s) and Polars (~8.2 s) for this particular benchmark. Dask's real advantage emerges in distributed or out-of-core scenarios where data exceeds available RAM. Polars' Rust-based execution and lazy evaluation make it consistently fast even on single-node tasks.
 
 ---
 
