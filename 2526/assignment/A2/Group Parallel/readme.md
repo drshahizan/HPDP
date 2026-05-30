@@ -6,17 +6,17 @@
 ---
 
 ## 👥 Group Information
-| Name | Student ID | GitHub Profile |
-| :--- | :--- | :--- |
-| Ling Yu Qian | [Insert ID] | [@YourGitHubHandle](https://github.com/YourGitHubHandle) |
-| Cheryl Cheong Kah Voon | [Insert ID] | [@PartnerGitHubHandle](https://github.com/PartnerGitHubHandle) |
+| Name | Student ID | 
+| :--- | :--- |
+| Ling Yu Qian | A23CS0301 | 
+| Cheryl Cheong Kah Voon | A23CS0060 | 
 
 ---
 
 ## 📋 Official Submission Table
-| Team | Library 1 | Library 2 | Library 3 | Dataset | Open in GitHub |
+| Team | Library 1 | Library 2 | Library 3 | Dataset | 
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Group Parallel** | Pandas (Compulsory) | Dask | Polars | Airline Delay Analysis (Kaggle) | [![GitHub Badge](https://img.shields.io/badge/GitHub-View_Folder-181717?logo=github)](https://github.com/[your-username]/[course-repo]/tree/main/bdm/[your_group]) |
+| **Group Parallel** | Pandas (Compulsory) | Dask | Polars | Airline Delay Analysis (Kaggle) |
 
 ---
 
