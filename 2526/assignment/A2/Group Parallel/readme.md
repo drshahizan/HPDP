@@ -15,7 +15,7 @@
 
 ## 📋 Official Submission Table
 | Team | Library 1 | Library 2 | Library 3 | Dataset | 
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | 
 | **Group Parallel** | Pandas (Compulsory) | Dask | Polars | Airline Delay Analysis (Kaggle) |
 
 ---
