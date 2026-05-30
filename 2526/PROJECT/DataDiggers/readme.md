@@ -1,6 +1,6 @@
 # Group Details (DataDiggers)
 
-WEBSITE: [New Straits Times (NST)](https://www.nst.com.my/)
+WEBSITE: [BERNAMA](https://www.bernama.com/en/)
 
 Group Members:
 
