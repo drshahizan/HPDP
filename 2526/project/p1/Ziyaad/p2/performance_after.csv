@@ -1,0 +1,3 @@
+strategy,time_sec,avg_cpu_pct,peak_mem_mb,throughput_rps
+Multiprocessing (7 threads),0.4451,17.83,327.03,224685.27
+Dask (28 partitions),9.7354,76.24,543.15,10271.81

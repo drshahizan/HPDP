@@ -1,0 +1,2 @@
+strategy,time_sec,avg_cpu_pct,peak_mem_mb,throughput_rps
+Baseline (Pandas),0.2093,16.05,308.27,477675.36

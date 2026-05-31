@@ -1,0 +1,4 @@
+strategy,time_sec,avg_cpu_pct,peak_mem_mb,throughput_rps,speedup_x
+Baseline (Pandas),0.2093,16.05,308.27,477675.36,1.0
+Multiprocessing (7 threads),0.4451,17.83,327.03,224685.27,0.47
+Dask (28 partitions),9.7354,76.24,543.15,10271.81,0.02
