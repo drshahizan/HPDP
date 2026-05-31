@@ -32,16 +32,16 @@
 
 ## Strategies Implemented
 
-| Strategy | Description | Person |
-|----------|-------------|--------|
-| Pandas Baseline | Load 2M rows with default Pandas settings. Records load time and peak memory as reference. | Person 1 |
-| Strategy 1: Load Less Data | Load only 4 of 8 columns using column selection. Reduces memory at point of loading. | Person 1 |
-| Strategy 2: Chunking | Read file in 100,000-row chunks. Filters high-rated reviews (≥4) per chunk without loading full file. | Person 1 |
-| Strategy 3: Data Type Optimisation | Downcast `rating` to int8, `time` to int32, `gmap_id` to category. Reduces in-memory footprint. | Person 1 |
-| Dask | Convert DataFrame to Dask with 4 partitions. Uses lazy evaluation and parallel computation. | Person 1 |
-| Strategy 4: Sampling | Load 100,000 rows using Polars read_ndjson() with n_rows. Reduces time and memory by processing only a small subset for prototyping. | Person 2 |
-| Strategy 5: Parallel Processing | Use Polars scan_ndjson() with lazy evaluation and predicate pushdown. Automatically parallelises across all CPU cores before collecting results. | Person 2 |
-| Polars | Load 2M rows using Polars lazy API with column selection and filtering. Benchmarked against Pandas and Dask for speed and memory comparison. | Person 2 |
+| Strategy | Description | 
+|----------|-------------|
+| Pandas Baseline | Load 2M rows with default Pandas settings. Records load time and peak memory as reference. | 
+| Strategy 1: Load Less Data | Load only 4 of 8 columns using column selection. Reduces memory at point of loading. | 
+| Strategy 2: Chunking | Read file in 100,000-row chunks. Filters high-rated reviews (≥4) per chunk without loading full file. | 
+| Strategy 3: Data Type Optimisation | Downcast `rating` to int8, `time` to int32, `gmap_id` to category. Reduces in-memory footprint. | 
+| Dask | Convert DataFrame to Dask with 4 partitions. Uses lazy evaluation and parallel computation. | 
+| Strategy 4: Sampling | Load 100,000 rows using Polars read_ndjson() with n_rows. Reduces time and memory by processing only a small subset for prototyping. | 
+| Strategy 5: Parallel Processing | Use Polars scan_ndjson() with lazy evaluation and predicate pushdown. Automatically parallelises across all CPU cores before collecting results. | 
+| Polars | Load 2M rows using Polars lazy API with column selection and filtering. Benchmarked against Pandas and Dask for speed and memory comparison. | 
 
 ---
 
@@ -54,7 +54,7 @@
 | Strategy 2: Chunking | 142.92 | 564.77 |
 | Strategy 3: dtype Optimisation | — | 282.85 |
 | Dask | 56.16 | 1298.07 |
-| Polars | 91.8 | [Dayang] |
+| Polars | 91.8 | 0.19 |
 
 ---
 
