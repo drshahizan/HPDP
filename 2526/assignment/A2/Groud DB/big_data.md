@@ -70,8 +70,8 @@ df_sample.head()
 
 **Output screenshot:**
 
-> 📷 *<img width="1454" height="561" alt="image" src="https://github.com/user-attachments/assets/0802f259-30a4-4714-911a-32ee13a559c5" />
-*
+> <img width="1454" height="561" alt="image" src="https://github.com/user-attachments/assets/0802f259-30a4-4714-911a-32ee13a559c5" />
+
 
 ---
 
@@ -253,8 +253,8 @@ print(df_sample_pl.head(5))
 
 **Output screenshot:**
 
-> 📷 *<img width="1011" height="375" alt="image" src="https://github.com/user-attachments/assets/7000f91c-65f6-4336-a542-17df0a29dbc2" />
-*
+> <img width="1011" height="375" alt="image" src="https://github.com/user-attachments/assets/7000f91c-65f6-4336-a542-17df0a29dbc2" />
+
 
 **Explanation:**
 Sampling is ideal during the development phase — when writing and testing code, there is no need to wait for the full dataset to load each time. Polars' `read_ndjson()` with `n_rows=100_000` reads only the first 100,000 rows, making the operation nearly instant. The trade-off is that the sample may not perfectly represent rare patterns in the full dataset, so sampling should be replaced with full processing in the final pipeline. Polars also uses significantly less memory than Pandas for the same operation due to its columnar memory format.
@@ -294,8 +294,8 @@ print(df_polars.head(5))
 
 **Output screenshot:**
 
-> 📷 *[<img width="929" height="360" alt="image" src="https://github.com/user-attachments/assets/21b11595-620e-4019-a116-1c2c8663d1d1" />
-*
+> <img width="929" height="360" alt="image" src="https://github.com/user-attachments/assets/21b11595-620e-4019-a116-1c2c8663d1d1" />
+
 
 **Explanation:**
 Polars uses **lazy evaluation** via `scan_ndjson()` — rather than immediately loading data, it first builds an optimised query plan combining the `.select()`, `.filter()`, and `.limit()` operations into a single efficient pass. When `.collect()` is called, the plan executes in parallel across all available CPU cores. Polars is written in **Rust** with fully vectorised operations, meaning it avoids Python overhead entirely during computation. This results in dramatically faster execution and lower memory usage compared to Pandas, which is single-threaded and processes operations sequentially.
@@ -314,13 +314,13 @@ Polars uses **lazy evaluation** via `scan_ndjson()` — rather than immediately 
 
 **Chart — Execution Time Comparison:**
 
-> 📷 *<img width="367" height="288" alt="image" src="https://github.com/user-attachments/assets/27a37e15-e82b-4914-b1e4-e4cb00a1b3c4" />
-*
+> <img width="367" height="288" alt="image" src="https://github.com/user-attachments/assets/27a37e15-e82b-4914-b1e4-e4cb00a1b3c4" />
+
 
 **Chart — Peak Memory Comparison:**
 
-> 📷 *<img width="356" height="275" alt="image" src="https://github.com/user-attachments/assets/71da018e-44d3-4608-9bc2-eb421cb77bf1" />
-*
+> <img width="356" height="275" alt="image" src="https://github.com/user-attachments/assets/71da018e-44d3-4608-9bc2-eb421cb77bf1" />
+
 
 ### Discussion
 
