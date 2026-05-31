@@ -367,7 +367,7 @@ The strategies used in this assignment handle an 11.65 GB dataset on a single Go
 | 50 GB – 1 TB | Dask (distributed across multiple machines) |
 | 1 TB+ | Apache Spark, Google BigQuery, or cloud-native solutions |
 
-At 1 TB, even Dask on a single machine would struggle. The natural next step is **distributed computing** — frameworks like Apache Spark split data across a cluster of machines, where each node processes its partition independently. Cloud platforms like Google BigQuery or AWS Athena go further by abstracting the infrastructure entirely, allowing SQL-like queries on petabyte-scale datasets without managing any hardware.
+At 1 TB, even Dask on a single machine would struggle. The natural next step is **distributed computing** - frameworks like Apache Spark split data across a cluster of machines, where each node processes its partition independently. Cloud platforms like Google BigQuery or AWS Athena go further by abstracting the infrastructure entirely, allowing SQL-like queries on petabyte-scale datasets without managing any hardware.
 
 This assignment established the foundation: understanding why tools have limits, and knowing when to reach for the next level of the stack.
 
