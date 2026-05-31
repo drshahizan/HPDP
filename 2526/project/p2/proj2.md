@@ -103,6 +103,8 @@ Register your group and update your submission link in the table below. The **Sa
 | Shopping | Google Map Review  | selenium | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Shopping) |
 | Zoltraak | Youtube | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)] |
 | Group C |  |  | _Add your link_ |
+| WebMiner | Twitter | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)] |
+
 
 ## 🔗 Supporting Resources
 
