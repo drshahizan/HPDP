@@ -7,8 +7,8 @@
 
 | Name | Matric No | Role |
 |------|-----------|------|
-| Ain Nurnabila binti Mohd Azhar | [ A23CS0207] | Dataset, Pandas Baseline, Dask, Strategies 1–3 |
-| Dayang Farah Farzana | [A23CS0071] | Polars, Strategies 4–5, Comparative Analysis, Report |
+| Ain Nurnabila binti Mohd Azhar | A23CS0207 | Dataset, Pandas Baseline, Dask, Strategies 1–3 |
+| Dayang Farah Farzana | A23CS0071 | Polars, Strategies 4–5, Comparative Analysis, Report |
 
 ---
 
