@@ -4,7 +4,7 @@
 
 | Name | Matric No |
 |------|-------------|
-| Ainnurnabila | A23CS0207 |
+| Ain Nurnabila binti Mohd Azhar | A23CS0207 |
 | Dayang Farah Farzana binti Abang Idham | A23CS0071 |
 
 ---
