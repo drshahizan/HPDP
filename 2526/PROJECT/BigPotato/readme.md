@@ -1,4 +1,4 @@
-# Group Details (DataDiggers)
+# Group Details （BigPotato）
 
 WEBSITE: [LAZADA](https://www.lazada.com.my/)
 
