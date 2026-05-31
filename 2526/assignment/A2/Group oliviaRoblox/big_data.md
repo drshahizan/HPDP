@@ -142,7 +142,8 @@ print(f"Memory reduction : {round((baseline_memory - s1_memory) / baseline_memor
 
 **Output screenshot:**
 
-> 📷 *[Insert screenshot of Strategy 1 output here]*
+> <img width="456" height="141" alt="image" src="https://github.com/user-attachments/assets/a0858caa-aac1-49b6-8762-9e01535c6339" />
+
 
 **Explanation:**
 By specifying only the 4 columns required (`rating`, `text`, `gmap_id`, `time`) instead of all 6, we reduce the amount of data held in memory. However, since Pandas reads the entire file before column selection, the peak memory reduction is modest compared to other strategies. This strategy is most effective when the dataset has many columns but only a few are needed.
@@ -185,7 +186,8 @@ print(f"Memory reduction : {round((baseline_memory - s2_memory) / baseline_memor
 
 **Output screenshot:**
 
-> 📷 *[Insert screenshot of Strategy 2 output here]*
+> <img width="553" height="168" alt="image" src="https://github.com/user-attachments/assets/352ce110-cdb3-4508-aacc-e6afb14ec8a7" />
+
 
 **Explanation:**
 Chunking is the most impactful single strategy for memory reduction. By processing only 100,000 rows at a time, the peak memory dropped from 4490 MB to 564 MB — an 87% reduction. Only one chunk exists in memory at any point, and it is discarded before the next chunk loads. This allows processing of files far larger than available RAM.
@@ -215,7 +217,8 @@ print(df_s3.dtypes)
 
 **Output screenshot:**
 
-> 📷 *[Insert screenshot of Strategy 3 output here]*
+> <img width="436" height="275" alt="image" src="https://github.com/user-attachments/assets/0b416df0-23f6-483f-a6e2-0608d40e8657" />
+
 
 **Explanation:**
 Pandas assigns `int64` by default to all integer columns, even when values are small. By downcasting `rating` to `int8` (values 1–5 fit in 8 bits), converting `gmap_id` to `category` (avoids storing repeated strings), and `time` to `int32`, memory reduced from the loaded size to 282 MB. This strategy is applied after loading and benefits all subsequent operations.
@@ -325,17 +328,17 @@ Polars uses **lazy evaluation** via `scan_ndjson()` — rather than immediately 
 ### Discussion
 
 **Why is Pandas slow?**
-Pandas is single-threaded and loads the entire dataset into memory at once as a Python object. For a 11.65 GB file, this is unsustainable — it caused a `MemoryError` on a full load and took 266 seconds even for just 2 million rows. Pandas was not designed for datasets that exceed available RAM.
+Pandas is single-threaded and loads the entire dataset into memory at once as a Python object. For a 11.65 GB file, this is unsustainable - it caused a `MemoryError` on a full load and took 266 seconds even for just 2 million rows. Pandas was not designed for datasets that exceed available RAM.
 
 **Why is Dask faster and lighter?**
 Dask mirrors the Pandas API but operates on data partitioned into smaller chunks processed in parallel. By setting `blocksize=10_000_000`, Dask processes 10 MB blocks across multiple cores simultaneously. It also supports lazy evaluation — operations are only executed when explicitly computed. This explains its 4.8× speedup and 71% memory reduction over Pandas.
 
 **Why is Polars the most efficient?**
 Polars is written in Rust and built from the ground up for performance. It uses:
-- **Lazy evaluation** — `scan_ndjson()` builds an optimised query plan before touching any data
-- **Predicate pushdown** — the `.filter()` is applied during reading, not after, so fewer rows are ever loaded into memory
-- **Columnar memory format** — data is stored column-by-column (Apache Arrow format), making operations like selecting and filtering extremely cache-efficient
-- **True parallelism** — all CPU cores are used with no Python GIL overhead
+- **Lazy evaluation** - `scan_ndjson()` builds an optimised query plan before touching any data
+- **Predicate pushdown** - the `.filter()` is applied during reading, not after, so fewer rows are ever loaded into memory
+- **Columnar memory format** - data is stored column-by-column (Apache Arrow format), making operations like selecting and filtering extremely cache-efficient
+- **True parallelism** - all CPU cores are used with no Python GIL overhead
 
 **Which library would you choose for production?**
 For single-machine workloads on datasets up to ~50 GB, Polars is the best choice due to its speed and low memory footprint. Dask is preferable when the dataset must be distributed across multiple machines or when Pandas-compatible syntax is required. Pandas remains useful for small datasets and quick prototyping where performance is not a concern.
@@ -371,6 +374,3 @@ At 1 TB, even Dask on a single machine would struggle. The natural next step is 
 
 This assignment established the foundation: understanding why tools have limits, and knowing when to reach for the next level of the stack.
 
----
-
-*Report prepared for SECP3133 High Performance Data Processing — Assignment 2*
