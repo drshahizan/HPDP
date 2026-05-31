@@ -1,6 +1,6 @@
 # Group Details （BigPotato）
 
-WEBSITE: [LAZADA](https://www.lazada.com.my/)
+WEBSITE: [ New Straits Times (NST)](https://www.nst.com.my/)
 
 Group Members:
 
