@@ -1,6 +1,6 @@
 # Group Details （BigPotato）
 
-WEBSITE: [ Jobstreet)](https://my.jobstreet.com/)
+WEBSITE: [ Jobstreet ](https://my.jobstreet.com/)
 
 Group Members:
 
