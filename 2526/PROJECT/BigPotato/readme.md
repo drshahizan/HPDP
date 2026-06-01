@@ -1,6 +1,6 @@
 # Group Details （BigPotato）
 
-WEBSITE: [ New Straits Times (NST)](https://www.nst.com.my/)
+WEBSITE: [ Jobstreet)](https://my.jobstreet.com/)
 
 Group Members:
 
