@@ -14,7 +14,7 @@ Below is the structured metadata of the dataset:
 *   Source URL: Kaggle - NYC Yellow Taxi Trip Data   
 *   File Size: ~1.59 GB (Uncompressed CSV), which satisfies the hard threshold of > 700 MB.  
 *   Domain: Transportation / Urban Logistics
-*   Approximate Number of Records: ~10.9 million rows.
+*   Approximate Number of Records: 1048576 million rows.
 *   Kaggle Link: https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data
 
 
