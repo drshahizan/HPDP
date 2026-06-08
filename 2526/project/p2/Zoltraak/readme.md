@@ -17,8 +17,8 @@
     <td>A23CS0117</td>
   </tr>
   <tr>
-    <td width=80%></td>
-    <td></td>
+    <td width=80%>AHMAD ADIB ZIKRI BIN A.MAZLAM</td>
+    <td>A23CS0205</td>
   </tr>
 </table>
 
