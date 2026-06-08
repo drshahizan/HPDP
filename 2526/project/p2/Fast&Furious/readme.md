@@ -95,7 +95,6 @@ The primary goals of this project are:
 
 ## ⚙️ System Architecture
 
-The project is built around a three-tier architecture that facilitates a seamless flow of data from ingestion to visualization.
 
 
 ### Workflow Diagram
@@ -112,21 +111,11 @@ The project is built around a three-tier architecture that facilitates a seamles
 
 ### Installation and Setup
 
-1.  **Clone the repository:**
-    
-
-2.  **Create a `.env` file** in the root directory and add your Reddit API credentials:
-   
-
-3.  **Build and start the Docker containers:**
     
 
 ### Running the Pipeline
 
-1.  **Start the Kafka producer** to begin streaming Reddit comments:
-    
 
-2.  **Submit the Spark streaming job** to start processing the data:
     
 
 ### Accessing the Dashboard
