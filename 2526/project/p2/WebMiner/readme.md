@@ -7,18 +7,22 @@
   <tr>
     <th>Name</th>
     <th>Matric Number</th>
+    <th>Role</th>
   </tr>
   <tr>
     <td width=80%>NG YU HIN</td>
     <td>A23CS0116</td>
+    <td>Group Leader and Data Engineer</td>
   </tr>
   <tr>
     <td width=80%>MUHAMMAD SYAHMI FARIS BIN RUSLI</td>
     <td>A23CS0118</td>
+    <td>NLP and Model Engineer</td>
   </tr>
   <tr>
     <td width=80%>AFIF SHAQIR IRFAN BIN ARQAM</td>
     <td>A23CS0204</td>
+    <td>Pipeline and Visualization Engineer</td>
   </tr>
 </table>
 
