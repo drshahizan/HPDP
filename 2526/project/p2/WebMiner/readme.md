@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Web Miner - Real-Time Sentiment on Twitter's Reviews in Google Play App
+  Web Miner - Real-Time Sentiment on Grab's Reviews in Google Play App
   <br>
 </h1>
 
