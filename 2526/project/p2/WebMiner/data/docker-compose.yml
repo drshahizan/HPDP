@@ -1,0 +1,80 @@
+import pandas as pd
+import json
+import time
+import tkinter as tk
+from tkinter import filedialog
+from kafka import KafkaProducer
+
+print("Starting Data Injector...")
+
+# 1. VISUAL FILE PICKER (Bypasses the "Cannot Load" pathing errors)
+root = tk.Tk()
+root.withdraw() # Hide the ugly background window
+root.attributes('-topmost', True) # Force pop-up to the front of your screen
+
+print("📂 A window has opened. Please select the CSV file you downloaded...")
+csv_path = filedialog.askopenfilename(
+    title="Select your Dataset CSV", 
+    filetypes=[("CSV Files", "*.csv")]
+)
+
+if not csv_path:
+    print("❌ No file selected. Exiting.")
+    exit()
+
+print(f"✅ Successfully located file: {csv_path}")
+
+# 2. Connect to Kafka
+try:
+    producer = KafkaProducer(
+        bootstrap_servers=['127.0.0.1:9092'],
+        api_version=(3, 0, 0),
+        value_serializer=lambda v: json.dumps(v).encode('utf-8')
+    )
+    print("🤖 Connected to Kafka Broker.")
+except Exception as e:
+    print(f"❌ Error connecting to Kafka: {e}")
+    exit()
+
+# 3. Load the Real Data
+print("⏳ Loading massive dataset into memory...")
+df = pd.read_csv(csv_path)
+
+# Auto-detect the text and score columns (since Kaggle datasets name them differently)
+text_col = next((col for col in df.columns if col.lower() in ['review', 'text', 'content', 'review_text']), None)
+score_col = next((col for col in df.columns if col.lower() in ['rating', 'score', 'star', 'stars']), None)
+
+if not text_col:
+    print(f"❌ Could not find a text column. Your columns are: {list(df.columns)}")
+    print("Please rename your text column in the CSV to 'text' and try again.")
+    exit()
+
+# Drop empty reviews and grab exactly 20,000 real records
+df = df.dropna(subset=[text_col])
+df = df.head(20000)
+print(f"✅ Loaded {len(df)} REAL records.")
+
+# 4. Stream to Kafka
+print("🚀 Commencing high-speed data injection into Kafka topic 'tweets'...")
+sent_count = 0
+
+for index, row in df.iterrows():
+    # If the dataset doesn't have a rating, default to 3
+    score = int(row[score_col]) if score_col and pd.notna(row[score_col]) else 3
+    
+    payload = {
+        "user": f"Real_User_{index}",
+        "score": score,
+        "text": str(row[text_col]).replace('\n', ' ')
+    }
+    
+    producer.send('tweets', value=payload)
+    sent_count += 1
+    
+    if sent_count % 1000 == 0:
+        print(f"   -> Streamed {sent_count} / 20000 real records...")
+        
+    time.sleep(0.002) # Fast micro-delay
+
+producer.flush()
+print("\n🏁 INJECTION COMPLETE! 20,000 records sent to Spark.")
