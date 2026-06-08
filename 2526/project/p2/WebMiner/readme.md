@@ -37,31 +37,31 @@
   <tr>
     <td>Report</td>
     <td align="center">
-      <a href="reports/final_report.pdf"><img src="" width=24px height=23px></a>
+      <a href="reports/final_report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Presentation Slides</td>
     <td align="center">
-      <a href="reports/presentation_slides.pptx"><img src="" width=25px height=23px？</a>
+      <a href="reports/presentation_slides.pptx"><img src="https://github.com/user-attachments/assets/c09e2ce5-80ce-4236-9508-c65d1f079cda" width=25px height=23px？</a>
     </td>
   </tr>
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href="https://youtu.be/ZazzZO4Dkg8"><img src="" width=25px height=23px></a>
+      <a href="https://youtu.be/ZazzZO4Dkg8"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Raw Data</td>
     <td align="center">
-      <a href="data/raw_data.csv"><img src="" width=25px height=23px></a>
+      <a href="data/raw_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Cleaned Data</td>
     <td align="center">
-      <a href="data/cleaned_data.csv"><img src="" width=25px height=23px？</a>
+      <a href="data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px？</a>
     </td>
   </tr>
   <tr>
