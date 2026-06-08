@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Scrape Master - Real-Time Sentiment on FoodPanda's Reviews in Google Play App
+  Web Miner - Real-Time Sentiment on Twitter's Reviews in Google Play App
   <br>
 </h1>
 
