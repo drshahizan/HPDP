@@ -7,18 +7,22 @@
   <tr>
     <th>Name</th>
     <th>Matric Number</th>
+    <th>Role</th>
   </tr>
   <tr>
     <td width=80%>Najma Shakirah binti Shahrulzaman</td>
     <td>A23CS0140</td>
+    <td>Group Leader & Pipeline Engineer</td>
   </tr>
   <tr>
     <td width=80%>Nurul Asyikin Binti Khairul Anuar</td>
     <td>A23CS0162</td>
+    <td>NLP Model & Visualization Engineer</td>
   </tr>
   <tr>
     <td width=80%>Harini A/P Sangaran</td>
     <td>A23CS0081</td>
+    <td>Data & NLP Engineer</td>
   </tr>
 </table>
 
