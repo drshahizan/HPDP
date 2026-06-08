@@ -7,18 +7,22 @@
   <tr>
     <th>Name</th>
     <th>Matric Number</th>
+    <th>Role</th>
   </tr>
   <tr>
     <td width=80%>Goe Jie Ying</td>
     <td> A23CS0224 </td>
+    <td> Group Leader, NLP & Model Engineer </td>
   </tr>
   <tr>
     <td width=80%> Nawwarah Auni binti Nazrudin </td>
     <td> A23CS0143 </td>
+    <td> Data Engineer </td>
   </tr>
   <tr>
     <td width=80%> Yasmin Batrisyia Binti Zahiruddin </td>
     <td> A23CS0201 </td>
+    <td> Pipeline & Visualization Engineer </td>
   </tr>
 </table>
 
@@ -46,7 +50,7 @@
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href="" width=25px height=23px></a>
+      <a href="https://youtu.be/EY0r6jGFGqY?si=8LtOilehTcim6CJN"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
