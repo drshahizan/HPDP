@@ -7,9 +7,9 @@
 
 | Name | Student ID | Role / Responsibilities |
 | :--- | :--- | :--- |
-| TEH RU QIAN | A23CS0191 | Group Leader / [Role] |
-| TAN YI YA | A23CS0187 | Data & NLP Engineer / [Role] |
-| NURUL ADRIANA BINTI KAMAL JEFRI  | A23CS0258 | Pipeline & Visualization Engineer / [Role] |
+| TEH RU QIAN | A23CS0191 | Data Cleaner |
+| TAN YI YA | A23CS0187 | Web Scarpper / Machine Learning Engineer |
+| NURUL ADRIANA BINTI KAMAL JEFRI  | A23CS0258 | Machine Learning Engineer |
 
 ---
 
@@ -40,7 +40,7 @@ Our pipeline consists of five primary stages:
 | **Data Scraping** | Selenium | Automates browser interaction to extract dynamic Google Map reviews. |
 | **Message Broker** | Apache Kafka | Streams text data from our scraper into the processing layer. |
 | **Data Processing** | Apache Spark | Processes data streams in parallel and applies sentiment models. |
-| **NLP & ML** | [NLTK / spaCy / Hugging Face] | Text preprocessing, feature extraction, and model training. |
+| **NLP & ML** | [NLTK / spaCy / Hugging Face Bert] | Text preprocessing, feature extraction, and model training. |
 | **Data Storage** | [Elasticsearch / Apache Druid] | Stores classified results for rapid querying. |
 | **Visualization** | [Kibana / Apache Superset] | Interactive dashboarding for sentiment trends. |
 
