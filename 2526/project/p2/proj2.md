@@ -101,7 +101,7 @@ Register your group and update your submission link in the table below. The **Sa
 |------|-------------|-------|----------------|
 | Sample | [Youtube](https://www.youtube.com/results?search_query=travelling+in+malaysia) | Beautiful soup| [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](MasterData) |
 | Shopping | Google Map Review  | selenium | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Shopping) |
-| Ciypher | Youtube | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Zoltraak) |
+| Ciypher | Youtube (Cost living) | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Zoltraak) |
 | Vollzanbel | Google Play Review (Bank App) | Google Play Scraper | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](Vollzanbel) |
 | WebMiner | Google Play Review (Grab) | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](WebMiner) |
 | Triple A | YouTube (Malaysian Food) | Beautiful soup | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/TripleA) |
