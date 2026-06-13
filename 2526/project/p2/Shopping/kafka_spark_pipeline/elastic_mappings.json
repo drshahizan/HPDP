@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "refresh_interval": "1s"
+  },
+  "mappings": {
+    "properties": {
+      "review_id":            { "type": "integer" },
+      "review_text":          { "type": "text", "analyzer": "english",
+                                "fields": { "keyword": { "type": "keyword", "ignore_above": 512 } } },
+      "true_label":           { "type": "keyword" },
+      "predicted_sentiment":  { "type": "keyword" },
+      "is_correct":           { "type": "keyword" },
+      "pipeline_version":     { "type": "keyword" },
+      "source_timestamp":     { "type": "date", "format": "strict_date_optional_time||epoch_millis" },
+      "processed_at":         { "type": "date", "format": "strict_date_optional_time||epoch_millis" },
+      "kafka_offset":         { "type": "long" },
+      "kafka_partition":      { "type": "integer" },
+      "kafka_ingest_time":    { "type": "date", "format": "strict_date_optional_time||epoch_millis" }
+    }
+  }
+}
