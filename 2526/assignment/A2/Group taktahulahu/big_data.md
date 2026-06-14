@@ -482,7 +482,7 @@ display(library_table)
 
 **Trade-off:** The core trade-off is performance vs simplicity. Polars wins on speed and memory efficiency, Pandas wins on ease of use and ecosystem, and Dask is best suited for truly out-of-memory workloads — not for datasets like this one.
 
-## Conclusion
+## 6. Conclusion
 
 This assignment explored five big data handling strategies applied to the Amazon Product dataset (~1.6 GB). Each strategy targeted a different bottleneck — whether it was reducing the amount of data loaded, managing memory through chunking, optimising data types, shrinking the dataset through sampling, or leveraging parallel processing libraries.
 
@@ -501,25 +501,12 @@ Working on the first half of this assignment gave me a better understanding of h
 Implementing Strategy 1 (Load Less Data) and Strategy 2 (Chunking) showed me that even basic Pandas techniques can make a big difference before turning to more complex tools. Strategy 3 (Data Type Optimisation) was the most eye-opening for me — I did not expect that simply changing `int64` to `uint8` could cut memory usage so significantly. This assignment made me more conscious of writing memory-efficient code from the start rather than as an afterthought.
 
 ---
-## 6. Conclusion and Reflection
-
-This assignment explored five big data handling strategies applied to the Amazon Product dataset (~1.6 GB). Each strategy targeted a different bottleneck whether it was reducing the amount of data loaded, managing memory through chunking, optimising data types, shrinking the dataset through sampling or leveraging parallel processing libraries.
-
-Among all strategies, Sampling was the fastest due to the sheer reduction in data volume, while Data Type Optimisation offered memory savings with no data loss. For parallel processing, Polars proved to be the most efficient library overall which outperform both Pandas and Dask in speed and memory usage thanks to its Rust-based engine and lazy evaluation design. Dask, while suitable for truly out-of-memory workloads, showed overhead costs that made it less competitive when the dataset fits in RAM.
-
-> Overall, no single strategy is universally best. The right approach depends on the size of the data, the task at hand, and the available resources. Combining strategies such as loading less data and then downcasting types, would likely yield the best real-world performance.
-
----
-
-### Safiya Nursyahadah binti Masnoor (A23CS0176)
-
-Through this assignment, I learned that small decisions like choosing which columns to load or adjusting data types can make a big difference when working with large datasets. Strategies 1 to 3 showed me that even basic Pandas techniques can significantly reduce memory usage and it made me more aware of writing efficient code from the start.
-
----
 
 ### Farra Nurzahin binti Zaharil Anuar (A23CS0079)
 
-This assignment taught me that choosing the right tool matters as much as writing correct code. Implementing Polars for the first time and seeing how much faster it performed compared to Pandas and Dask pushed me to understand the reasons behind the numbers and not just report them. The critical discussion was the hardest but most valuable part and it changed how I think about picking libraries for data tasks.
+My part of the assignment covered the more advanced strategies — Sampling, parallel processing with Dask and Polars, and the full comparative analysis between libraries. Before this, I had heard of Polars but never actually used it. Implementing it and seeing how much faster it ran compared to Pandas was genuinely surprising, and understanding *why* — lazy evaluation, Rust backend, columnar storage — made the result feel meaningful rather than just a number on a table.
+
+Writing the comparative analysis also pushed me to think beyond just reporting results. The critical discussion section required me to explain the architectural reasons behind each library's performance, which was challenging but also the most valuable part of the assignment. It changed how I think about choosing tools — it is not just about what works, but about understanding *why* one tool fits a problem better than another. I also learned how to structure a technical report on GitHub, which is a skill I will carry forward into future projects.
 
 ---
 
