@@ -496,17 +496,13 @@ Among all strategies, Sampling was the fastest due to the sheer reduction in dat
 
 ### Safiya Nursyahadah binti Masnoor (A23CS0176)
 
-Working on the first half of this assignment gave me a better understanding of how much impact small decisions can have when handling large datasets. Setting up the dataset from Kaggle and doing the initial inspection made me realise how easy it is to overlook things like column data types — something that seems minor but can waste hundreds of megabytes of memory on a million-row dataset.
-
-Implementing Strategy 1 (Load Less Data) and Strategy 2 (Chunking) showed me that even basic Pandas techniques can make a big difference before turning to more complex tools. Strategy 3 (Data Type Optimisation) was the most eye-opening for me — I did not expect that simply changing `int64` to `uint8` could cut memory usage so significantly. This assignment made me more conscious of writing memory-efficient code from the start rather than as an afterthought.
+Through this assignment, I gained a much better understanding of how to handle large datasets efficiently using Python. Working on the dataset setup, initial inspection and the first three strategies taught me that performance improvements do not always require complex tools. Sometimes loading only the columns you need or adjusting data types is enough to make a significant difference. I was surprised by how much memory could be saved just by downcasting `int64` to a smaller type across a million rows. This experience made me realise the importance of understanding your data before writing any code and it has made me more careful and intentional about memory usage in my future work.
 
 ---
 
 ### Farra Nurzahin binti Zaharil Anuar (A23CS0079)
 
-My part of the assignment covered the more advanced strategies — Sampling, parallel processing with Dask and Polars, and the full comparative analysis between libraries. Before this, I had heard of Polars but never actually used it. Implementing it and seeing how much faster it ran compared to Pandas was genuinely surprising, and understanding *why* — lazy evaluation, Rust backend, columnar storage — made the result feel meaningful rather than just a number on a table.
-
-Writing the comparative analysis also pushed me to think beyond just reporting results. The critical discussion section required me to explain the architectural reasons behind each library's performance, which was challenging but also the most valuable part of the assignment. It changed how I think about choosing tools — it is not just about what works, but about understanding *why* one tool fits a problem better than another. I also learned how to structure a technical report on GitHub, which is a skill I will carry forward into future projects.
+Working on the more advanced parts of this assignment including Sampling, parallel processing with Dask and Polars and the comparative analysis, gave me a new perspective on how data tools are designed and why they perform differently. Understanding concepts like lazy evaluation, columnar storage and multi-threading made the numbers feel meaningful rather than just results on a table. The critical discussion was the most challenging part, as it required me to explain architectural differences clearly but it was also the most valuable. This assignment changed how I approach tool selection. I now think about why a tool fits a problem not just whether it works.
 
 ---
 
