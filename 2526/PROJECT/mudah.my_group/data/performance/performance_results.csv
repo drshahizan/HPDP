@@ -1,0 +1,3 @@
+Method,Pages_Crawled,Records_Collected,Total_Time_Seconds,Throughput_Records_Per_Second,Memory_Usage_MB,CPU_Usage_Percent
+Baseline Sequential,50,2000,91.24,21.92,38.36,1.5
+Optimized Async,50,2000,7.5,266.6,39.67,5.3
