@@ -287,50 +287,6 @@ Downcasting reduces the number of bytes used to store each value. An `int64` col
 
 ---
 
-### Strategy 3: Data Type Optimisation
-
-Pandas assigns default data types when reading CSVs, which are often wasteful. `PRODUCT_ID` and `PRODUCT_TYPE_ID` are stored as `int64` by default, but their values fit within smaller unsigned integer types. `PRODUCT_LENGTH` defaults to `float64` when `float32` precision is sufficient.
-
-```python
-def optimize_data_types(df_input):
-    df_opt = df_input.copy()
-
-    df_opt['PRODUCT_ID'] = pd.to_numeric(df_opt['PRODUCT_ID'], downcast='unsigned')
-    df_opt['PRODUCT_TYPE_ID'] = pd.to_numeric(df_opt['PRODUCT_TYPE_ID'], downcast='unsigned')
-    df_opt['PRODUCT_LENGTH'] = pd.to_numeric(df_opt['PRODUCT_LENGTH'], downcast='float')
-
-    return df_opt
-
-performance_opt, df_optimized = measure_performance(
-    optimize_data_types,
-    description="Data Type Optimization (Downcasting)",
-    df_input=df
-)
-
-display(pd.DataFrame([performance_opt]))
-
-print("\nFinal Optimised Data Types:")
-display(df_optimized.dtypes.to_frame(name='New Data Type'))
-```
-
-**Output Screenshot:**
-
-![Strategy 3 Output]()
-
-**Type changes applied:**
-
-| Column            | Before  | After             | Reason                                                            |
-| ----------------- | ------- | ----------------- | ----------------------------------------------------------------- |
-| `PRODUCT_ID`      | int64   | uint32 or smaller | Product IDs are non-negative and fit within 32-bit unsigned range |
-| `PRODUCT_TYPE_ID` | int64   | uint32 or smaller | Category IDs are non-negative and small in range                  |
-| `PRODUCT_LENGTH`  | float64 | float32           | Physical dimensions do not require double precision               |
-
-**Explanation:**
-
-Downcasting reduces the number of bytes used to store each value. An `int64` column uses 8 bytes per value; downcasting to `uint8` or `uint16` reduces this to 1–2 bytes, cutting memory by up to 75% for that column. `float64` to `float32` halves the per-value storage from 8 bytes to 4 bytes. Applied across one million rows, these reductions translate to hundreds of megabytes of savings. This strategy should be applied after initial inspection, once the value ranges of each column are understood, so that all subsequent operations benefit from the reduced memory footprint.
-
----
-
 ### Strategy 4: Sampling
 
 Instead of processing the full dataset, a representative 5% random sample is drawn using `df.sample(frac=0.05)`. This drastically reduces the number of rows in memory while still preserving the statistical distribution of the data.
