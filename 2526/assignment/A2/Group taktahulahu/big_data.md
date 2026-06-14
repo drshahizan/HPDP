@@ -287,3 +287,218 @@ Downcasting reduces the number of bytes used to store each value. An `int64` col
 
 ---
 
+### Strategy 3: Data Type Optimisation
+
+Pandas assigns default data types when reading CSVs, which are often wasteful. `PRODUCT_ID` and `PRODUCT_TYPE_ID` are stored as `int64` by default, but their values fit within smaller unsigned integer types. `PRODUCT_LENGTH` defaults to `float64` when `float32` precision is sufficient.
+
+```python
+def optimize_data_types(df_input):
+    df_opt = df_input.copy()
+
+    df_opt['PRODUCT_ID'] = pd.to_numeric(df_opt['PRODUCT_ID'], downcast='unsigned')
+    df_opt['PRODUCT_TYPE_ID'] = pd.to_numeric(df_opt['PRODUCT_TYPE_ID'], downcast='unsigned')
+    df_opt['PRODUCT_LENGTH'] = pd.to_numeric(df_opt['PRODUCT_LENGTH'], downcast='float')
+
+    return df_opt
+
+performance_opt, df_optimized = measure_performance(
+    optimize_data_types,
+    description="Data Type Optimization (Downcasting)",
+    df_input=df
+)
+
+display(pd.DataFrame([performance_opt]))
+
+print("\nFinal Optimised Data Types:")
+display(df_optimized.dtypes.to_frame(name='New Data Type'))
+```
+
+**Output Screenshot:**
+
+![Strategy 3 Output]()
+
+**Type changes applied:**
+
+| Column            | Before  | After             | Reason                                                            |
+| ----------------- | ------- | ----------------- | ----------------------------------------------------------------- |
+| `PRODUCT_ID`      | int64   | uint32 or smaller | Product IDs are non-negative and fit within 32-bit unsigned range |
+| `PRODUCT_TYPE_ID` | int64   | uint32 or smaller | Category IDs are non-negative and small in range                  |
+| `PRODUCT_LENGTH`  | float64 | float32           | Physical dimensions do not require double precision               |
+
+**Explanation:**
+
+Downcasting reduces the number of bytes used to store each value. An `int64` column uses 8 bytes per value; downcasting to `uint8` or `uint16` reduces this to 1–2 bytes, cutting memory by up to 75% for that column. `float64` to `float32` halves the per-value storage from 8 bytes to 4 bytes. Applied across one million rows, these reductions translate to hundreds of megabytes of savings. This strategy should be applied after initial inspection, once the value ranges of each column are understood, so that all subsequent operations benefit from the reduced memory footprint.
+
+---
+
+### Strategy 4: Sampling
+
+Instead of processing the full dataset, a representative 5% random sample is drawn using `df.sample(frac=0.05)`. This drastically reduces the number of rows in memory while still preserving the statistical distribution of the data.
+
+```python
+def run_sampling(df_input):
+    return df_input.sample(frac=0.05, random_state=42)
+
+performance_sampling, df_sample = measure_performance(
+    run_sampling,
+    description="Sampling (5% of Dataset)",
+    df_input=df
+)
+
+display(pd.DataFrame([performance_sampling]))
+print(f"Original Row Count : {len(df):,}")
+print(f"Sampled Row Count  : {len(df_sample):,}")
+print(f"Rows removed       : {len(df) - len(df_sample):,} ({(1 - len(df_sample)/len(df))*100:.0f}% reduction)")
+```
+
+**Output Screenshot:**
+
+![Strategy 4 Output]()
+
+**Explanation:**
+
+Sampling is useful for exploratory analysis, prototyping, and model development where working with the full dataset is unnecessary. By randomly selecting 5% of rows with a fixed `random_state`, the sample is reproducible and representative. The trade-off is that sampling introduces a loss of information — rare events or minority categories may be underrepresented or missing entirely. It is not suitable for tasks that require complete data, such as full aggregations or reporting, but significantly speeds up iteration during the development phase.
+
+---
+
+### Strategy 5: Parallel Processing with Dask and Polars
+
+Two parallel processing libraries are applied to the same groupby aggregation task to compare their performance against Pandas.
+
+#### Strategy 5a: Dask
+
+Dask splits the CSV into partitions and processes them in parallel using a lazy task graph, only computing when `.compute()` is called.
+
+```python
+def run_dask_parallel(file_path):
+    ddf = dd.read_csv(file_path, low_memory=False, assume_missing=True)
+
+    result = (
+        ddf
+        .groupby("PRODUCT_TYPE_ID")["PRODUCT_LENGTH"]
+        .mean()
+        .reset_index()
+        .compute()
+        .sort_values("PRODUCT_LENGTH", ascending=False)
+    )
+    return result
+
+performance_dask, result_dask = measure_performance(
+    run_dask_parallel,
+    description="Strategy 5: Parallel Processing (Dask)",
+    file_path="product_amazon_data.csv"
+)
+
+display(pd.DataFrame([performance_dask]))
+```
+
+**Output Screenshot:**
+
+![Strategy 5a Dask Output]()
+
+#### Strategy 5b: Polars
+
+Polars uses lazy evaluation via `scan_csv`, builds an optimised query plan, and executes it with `.collect()` using all available CPU cores.
+
+```python
+def run_polars_parallel(file_path):
+    result = (
+        pl.scan_csv(file_path, infer_schema_length=10000)
+        .group_by("PRODUCT_TYPE_ID")
+        .agg(pl.col("PRODUCT_LENGTH").mean().alias("PRODUCT_LENGTH"))
+        .sort("PRODUCT_LENGTH", descending=True)
+        .collect()
+        .to_pandas()
+    )
+    return result
+
+performance_polars, result_polars = measure_performance(
+    run_polars_parallel,
+    description="Strategy 5: Parallel Processing (Polars)",
+    file_path="product_amazon_data.csv"
+)
+
+display(pd.DataFrame([performance_polars]))
+```
+
+**Output Screenshot:**
+
+![Strategy 5b Polars Output]()
+
+**Explanation:**
+
+Both Dask and Polars use parallelism to speed up processing, but in different ways. Dask partitions the data and distributes work across threads, making it ideal for datasets too large to fit in RAM. Polars, built in Rust, processes data in-memory using all CPU cores with a columnar format and lazy execution, making it significantly faster when the data fits in memory. For this dataset, Polars outperforms Dask because the coordination overhead of Dask's task scheduler adds cost that Polars avoids entirely.
+
+---
+
+## Comparison Between Strategies
+
+The chart below compares all five strategies across four metrics: execution time, memory usage, average CPU usage, and throughput.
+
+```python
+all_strategies = pd.DataFrame([
+    performance_less_data,
+    performance_chunking,
+    performance_opt,
+    performance_sampling,
+    performance_dask,
+    performance_polars,
+])
+
+all_strategies["Label"] = [
+    "S1: Load\nLess Data",
+    "S2: Chunking",
+    "S3: Type\nOptimise",
+    "S4: Sampling",
+    "S5: Dask",
+    "S5: Polars",
+]
+```
+
+**Output Screenshot:**
+
+![Strategies Comparison Chart]()
+
+---
+
+## Comparison Between Libraries (Pandas vs. Dask vs. Polars)
+
+Each library was benchmarked over 3 runs on the same groupby aggregation task. Load time, process time, total time, and peak memory were averaged across runs to ensure fair comparison.
+
+```python
+library_table = pd.DataFrame({
+    "Library"              : ["Pandas", "Dask", "Polars"],
+    "Avg Load Time (s)"    : [metrics_pandas["Avg Load Time (s)"],
+                              metrics_dask["Avg Load Time (s)"],
+                              metrics_polars["Avg Load Time (s)"]],
+    "Avg Process Time (s)" : [metrics_pandas["Avg Process Time (s)"],
+                              metrics_dask["Avg Process Time (s)"],
+                              metrics_polars["Avg Process Time (s)"]],
+    "Avg Total Time (s)"   : [metrics_pandas["Avg Total Time (s)"],
+                              metrics_dask["Avg Total Time (s)"],
+                              metrics_polars["Avg Total Time (s)"]],
+    "Peak Memory (MB)"     : [metrics_pandas["Peak Memory (MB)"],
+                              metrics_dask["Peak Memory (MB)"],
+                              metrics_polars["Peak Memory (MB)"]],
+})
+
+display(library_table)
+```
+
+**Output Screenshot:**
+
+![Library Comparison Table]()
+
+**Output Screenshot:**
+
+![Library Comparison Chart]()
+
+### Critical Discussion
+
+**Why Polars is fastest:** Polars uses lazy evaluation — it builds a query plan first and only reads the data it needs when `.collect()` is called. It is also built in Rust with multi-threading by default, using all CPU cores automatically. Combined with columnar Arrow memory storage, this makes both loading and processing significantly faster than the other libraries.
+
+**Why Pandas is slowest:** Pandas loads the entire file into memory at once and runs on a single thread. It cannot take advantage of multiple CPU cores, which becomes a clear bottleneck on large datasets. That said, Pandas remains the easiest to use and has the widest ecosystem support, making it a reasonable choice for smaller data.
+
+**Why Dask falls in between:** Dask is designed for data that is too large to fit in RAM, splitting work into chunks processed in parallel. However, this coordination has overhead. Since the Amazon dataset fits in memory, Dask's chunking mechanism adds cost rather than benefit — making it slower than Polars and only marginally better than Pandas here.
+
+**Trade-off:** The core trade-off is performance vs simplicity. Polars wins on speed and memory efficiency, Pandas wins on ease of use and ecosystem, and Dask is best suited for truly out-of-memory workloads — not for datasets like this one.
