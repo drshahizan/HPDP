@@ -287,4 +287,3 @@ Downcasting reduces the number of bytes used to store each value. An `int64` col
 
 ---
 
-*Strategies 4 and 5, Comparative Analysis, Conclusion, and Reflection are covered by Dayang Farah Farzana (A23CS0071).*
