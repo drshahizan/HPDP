@@ -12,7 +12,7 @@
 
 ---
 
-## Dataset Description
+## 1. Dataset Description
 
 | Field | Details |
 |-------|---------|
@@ -26,6 +26,24 @@
 | **Columns Used** | `PRODUCT_ID`, `TITLE`, `PRODUCT_TYPE_ID`, `PRODUCT_LENGTH` |
 
 This dataset contains Amazon product listings including product IDs, titles, product type classifications, and physical product dimensions. It represents large-scale cloud-based analytics and e-commerce fulfilment data. The size of the dataset makes it an ideal candidate for big data handling techniques, as loading it naively with Pandas causes excessive memory consumption on standard hardware.
+
+---
+
+## 2. Library Choices
+
+In this assignment, we used three Python libraries to handle and process the Amazon Product dataset.
+
+### 2.1 Pandas (Library 1 – Compulsory)
+
+Pandas is the most widely used data processing library in Python. It loads the entire dataset into memory at once and runs on a single CPU core. We used it as our **baseline**, meaning all other strategies are compared against how Pandas performs by default.
+
+### 2.2 Dask (Library 2 – Scalable)
+
+Dask is designed to handle datasets that are too large to fit in RAM. It splits the data into smaller chunks and processes them in parallel across multiple CPU cores. Dask does not run immediately, it builds a plan first and only executes when `.compute()` is called. We chose it to see how a chunk-based parallel approach compares to Pandas on a large dataset.
+
+### 2.3 Polars (Library 3 – Scalable)
+
+Polars is a newer and much faster alternative to Pandas. It is built in Rust and uses all CPU cores automatically without any extra setup. Like Dask, it is lazy by default. It only reads the data it actually needs. We chose it to test whether a modern high-performance library could outperform both Pandas and Dask on the same task.
 
 ---
 
@@ -70,7 +88,7 @@ print(f"File size: {os.path.getsize(FILE_PATH) / (1024**2):.2f} MB")
 ```
 ---
 
-## Task 2: Load and Inspect Data
+## 3. Data Loading and Inspection
 
 Initial inspection was performed by loading the full dataset using Pandas with `low_memory=False` to correctly infer column types. A basic inspection was then carried out to understand the structure of the dataset before applying any strategies.
 
@@ -178,11 +196,11 @@ def measure_performance(func, description="", *args, **kwargs):
 
 ---
 
-## Task 3: Big Data Handling Strategies
+## 4. Big Data Handling Strategies
 
 ---
 
-### Strategy 1: Load Less Data
+### 4.1 Load Less Data
 
 Instead of reading all columns from the CSV, we use the `usecols` parameter to load only the 4 columns required for analysis. This prevents unnecessary data from ever entering memory.
 
@@ -211,7 +229,7 @@ By specifying only the 4 columns required using `usecols`, Pandas skips parsing 
 
 ---
 
-### Strategy 2: Chunking
+### 4.2 Chunking
 
 Instead of loading the entire dataset in a single operation, we use `chunksize=100,000` to process the file in smaller portions. Each chunk is loaded, processed, and concatenated into a final DataFrame.
 
@@ -243,7 +261,7 @@ Chunking ensures that only 100,000 rows occupy RAM at any given moment. Each chu
 
 ---
 
-### Strategy 3: Data Type Optimisation
+### 4.3 Data Type Optimisation
 
 Pandas assigns default data types when reading CSVs, which are often wasteful. `PRODUCT_ID` and `PRODUCT_TYPE_ID` are stored as `int64` by default, but their values fit within smaller unsigned integer types. `PRODUCT_LENGTH` defaults to `float64` when `float32` precision is sufficient.
 
@@ -287,7 +305,7 @@ Downcasting reduces the number of bytes used to store each value. An `int64` col
 
 ---
 
-### Strategy 4: Sampling
+### 4.4 Sampling
 
 Instead of processing the full dataset, a representative 5% random sample is drawn using `df.sample(frac=0.05)`. This drastically reduces the number of rows in memory while still preserving the statistical distribution of the data.
 
@@ -317,11 +335,11 @@ Sampling is useful for exploratory analysis, prototyping, and model development 
 
 ---
 
-### Strategy 5: Parallel Processing with Dask and Polars
+### 4.5 Parallel Processing with Dask and Polars
 
 Two parallel processing libraries are applied to the same groupby aggregation task to compare their performance against Pandas.
 
-#### Strategy 5a: Dask
+#### 4.5a: Dask
 
 Dask splits the CSV into partitions and processes them in parallel using a lazy task graph, only computing when `.compute()` is called.
 
@@ -352,7 +370,7 @@ display(pd.DataFrame([performance_dask]))
 
 <img width="1209" height="99" alt="image" src="https://github.com/user-attachments/assets/5fefae5a-5e25-4122-b210-1dbc78e3cb27" />
 
-#### Strategy 5b: Polars
+#### 4.5b: Polars
 
 Polars uses lazy evaluation via `scan_csv`, builds an optimised query plan, and executes it with `.collect()` using all available CPU cores.
 
@@ -387,8 +405,9 @@ display(pd.DataFrame([performance_polars]))
 Both Dask and Polars use parallelism to speed up processing, but in different ways. Dask partitions the data and distributes work across threads, making it ideal for datasets too large to fit in RAM. Polars, built in Rust, processes data in-memory using all CPU cores with a columnar format and lazy execution, making it significantly faster when the data fits in memory. For this dataset, Polars outperforms Dask because the coordination overhead of Dask's task scheduler adds cost that Polars avoids entirely.
 
 ---
+# 5.0 Comparative Analysis
 
-## Comparison Between Strategies
+## 5.1 Comparison Between Strategies
 
 The chart below compares all five strategies across four metrics: execution time, memory usage, average CPU usage, and throughput.
 
@@ -419,7 +438,7 @@ all_strategies["Label"] = [
 
 ---
 
-## Comparison Between Libraries (Pandas vs. Dask vs. Polars)
+## 5.2 Comparison Between Libraries (Pandas vs. Dask vs. Polars)
 
 Each library was benchmarked over 3 runs on the same groupby aggregation task. Load time, process time, total time, and peak memory were averaged across runs to ensure fair comparison.
 
@@ -450,10 +469,10 @@ display(library_table)
 
 **Output Screenshot:**
 
-![Library Comparison Chart](<img width="1168" height="832" alt="image" src="https://github.com/user-attachments/assets/e38f25b4-8649-4408-9a3f-d13bf45b97c9" />
-)
+<img width="1168" height="832" alt="image" src="https://github.com/user-attachments/assets/e38f25b4-8649-4408-9a3f-d13bf45b97c9" />
 
-### Critical Discussion
+
+### 5.3 Critical Discussion
 
 **Why Polars is fastest:** Polars uses lazy evaluation — it builds a query plan first and only reads the data it needs when `.collect()` is called. It is also built in Rust with multi-threading by default, using all CPU cores automatically. Combined with columnar Arrow memory storage, this makes both loading and processing significantly faster than the other libraries.
 
@@ -462,3 +481,48 @@ display(library_table)
 **Why Dask falls in between:** Dask is designed for data that is too large to fit in RAM, splitting work into chunks processed in parallel. However, this coordination has overhead. Since the Amazon dataset fits in memory, Dask's chunking mechanism adds cost rather than benefit — making it slower than Polars and only marginally better than Pandas here.
 
 **Trade-off:** The core trade-off is performance vs simplicity. Polars wins on speed and memory efficiency, Pandas wins on ease of use and ecosystem, and Dask is best suited for truly out-of-memory workloads — not for datasets like this one.
+
+## Conclusion
+
+This assignment explored five big data handling strategies applied to the Amazon Product dataset (~1.6 GB). Each strategy targeted a different bottleneck — whether it was reducing the amount of data loaded, managing memory through chunking, optimising data types, shrinking the dataset through sampling, or leveraging parallel processing libraries.
+
+Among all strategies, Sampling was the fastest due to the sheer reduction in data volume, while Data Type Optimisation offered memory savings with no data loss. For parallel processing, Polars proved to be the most efficient library overall — outperforming both Pandas and Dask in speed and memory usage thanks to its Rust-based engine and lazy evaluation design. Dask, while suitable for truly out-of-memory workloads, showed overhead costs that made it less competitive when the dataset fits in RAM.
+
+> Overall, no single strategy is universally best. The right approach depends on the size of the data, the task at hand, and the available resources. Combining strategies — such as loading less data and then downcasting types — would likely yield the best real-world performance.
+
+---
+
+## Reflection
+
+### Safiya Nursyahadah binti Masnoor (A23CS0176)
+
+Working on the first half of this assignment gave me a better understanding of how much impact small decisions can have when handling large datasets. Setting up the dataset from Kaggle and doing the initial inspection made me realise how easy it is to overlook things like column data types — something that seems minor but can waste hundreds of megabytes of memory on a million-row dataset.
+
+Implementing Strategy 1 (Load Less Data) and Strategy 2 (Chunking) showed me that even basic Pandas techniques can make a big difference before turning to more complex tools. Strategy 3 (Data Type Optimisation) was the most eye-opening for me — I did not expect that simply changing `int64` to `uint8` could cut memory usage so significantly. This assignment made me more conscious of writing memory-efficient code from the start rather than as an afterthought.
+
+---
+## 6. Conclusion and Reflection
+
+This assignment explored five big data handling strategies applied to the Amazon Product dataset (~1.6 GB). Each strategy targeted a different bottleneck whether it was reducing the amount of data loaded, managing memory through chunking, optimising data types, shrinking the dataset through sampling or leveraging parallel processing libraries.
+
+Among all strategies, Sampling was the fastest due to the sheer reduction in data volume, while Data Type Optimisation offered memory savings with no data loss. For parallel processing, Polars proved to be the most efficient library overall which outperform both Pandas and Dask in speed and memory usage thanks to its Rust-based engine and lazy evaluation design. Dask, while suitable for truly out-of-memory workloads, showed overhead costs that made it less competitive when the dataset fits in RAM.
+
+> Overall, no single strategy is universally best. The right approach depends on the size of the data, the task at hand, and the available resources. Combining strategies such as loading less data and then downcasting types, would likely yield the best real-world performance.
+
+---
+
+### Safiya Nursyahadah binti Masnoor (A23CS0176)
+
+Through this assignment, I learned that small decisions like choosing which columns to load or adjusting data types can make a big difference when working with large datasets. Strategies 1 to 3 showed me that even basic Pandas techniques can significantly reduce memory usage and it made me more aware of writing efficient code from the start.
+
+---
+
+### Farra Nurzahin binti Zaharil Anuar (A23CS0079)
+
+This assignment taught me that choosing the right tool matters as much as writing correct code. Implementing Polars for the first time and seeing how much faster it performed compared to Pandas and Dask pushed me to understand the reasons behind the numbers and not just report them. The critical discussion was the hardest but most valuable part and it changed how I think about picking libraries for data tasks.
+
+---
+
+## References
+
+1. Amazon Product Dataset. Kaggle. Retrieved from: https://www.kaggle.com/datasets/piyushjain16/amazon-product-data
