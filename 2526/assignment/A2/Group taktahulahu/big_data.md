@@ -309,7 +309,7 @@ print(f"Rows removed       : {len(df) - len(df_sample):,} ({(1 - len(df_sample)/
 
 **Output Screenshot:**
 
-![Strategy 4 Output](<img width="1114" height="166" alt="image" src="https://github.com/user-attachments/assets/0f52a6ee-89a9-4673-ad9e-f8de25368e5a" />)
+<img width="1114" height="166" alt="image" src="https://github.com/user-attachments/assets/0f52a6ee-89a9-4673-ad9e-f8de25368e5a" />
 
 **Explanation:**
 
@@ -350,7 +350,7 @@ display(pd.DataFrame([performance_dask]))
 
 **Output Screenshot:**
 
-![Strategy 5a Dask Output](<img width="1209" height="99" alt="image" src="https://github.com/user-attachments/assets/5fefae5a-5e25-4122-b210-1dbc78e3cb27" />)
+<img width="1209" height="99" alt="image" src="https://github.com/user-attachments/assets/5fefae5a-5e25-4122-b210-1dbc78e3cb27" />
 
 #### Strategy 5b: Polars
 
@@ -379,8 +379,8 @@ display(pd.DataFrame([performance_polars]))
 
 **Output Screenshot:**
 
-![Strategy 5b Polars Output](<img width="1219" height="100" alt="image" src="https://github.com/user-attachments/assets/da9fa70b-e236-48dc-9823-9ad9f924a517" />
-)
+<img width="1219" height="100" alt="image" src="https://github.com/user-attachments/assets/da9fa70b-e236-48dc-9823-9ad9f924a517" />
+
 
 **Explanation:**
 
@@ -414,8 +414,8 @@ all_strategies["Label"] = [
 
 **Output Screenshot:**
 
-![Strategies Comparison Chart](<img width="880" height="623" alt="image" src="https://github.com/user-attachments/assets/66539391-e918-41dc-838c-d846c1bc088a" />
-)
+<img width="880" height="623" alt="image" src="https://github.com/user-attachments/assets/66539391-e918-41dc-838c-d846c1bc088a" />
+
 
 ---
 
@@ -445,8 +445,8 @@ display(library_table)
 
 **Output Screenshot:**
 
-![Library Comparison Table](<img width="889" height="199" alt="image" src="https://github.com/user-attachments/assets/033cc0b1-4a17-4010-b33f-7c9324065a91" />
-)
+<img width="889" height="199" alt="image" src="https://github.com/user-attachments/assets/033cc0b1-4a17-4010-b33f-7c9324065a91" />
+
 
 **Output Screenshot:**
 
