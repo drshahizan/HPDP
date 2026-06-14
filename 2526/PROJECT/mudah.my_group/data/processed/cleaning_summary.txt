@@ -1,0 +1,9 @@
+Mudah.my Dataset Cleaning Summary
+========================================
+Initial raw rows: 120257
+Duplicate Property_ID rows removed: 13409
+Invalid price/size rows removed: 1
+Unreasonable value rows removed: 5444
+Total rows removed: 18854
+Final cleaned rows: 101403
+Final columns: 13

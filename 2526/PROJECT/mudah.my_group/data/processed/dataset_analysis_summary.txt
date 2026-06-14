@@ -1,0 +1,11 @@
+Mudah.my Cleaned Dataset Analysis Summary
+==================================================
+Total Cleaned Records: 101403
+Total Columns: 13
+Unique Property IDs: 101403
+Average Price RM: 957280.47
+Median Price RM: 430000.0
+Average Size sqft: 22406.74
+Median Size sqft: 13780.0
+Total Regions: 14
+Total Property Types: 66
