@@ -557,6 +557,39 @@ No single strategy is universally best. The correct approach depends on the cons
 - **Development speed:** sampling — build on 5%, deploy on 100%
 - **All situations:** `usecols` — there is no reason not to use it
 
+## Which Strategy Should You Use?
+
+No single strategy is universally best. The right choice depends on the problem you are trying to solve.
+
+### When Memory is the Constraint
+Use **Chunking** as the first line of defense for out-of-core processing. It allows datasets larger than available RAM to be processed in small batches. Combine it with **Data Type Optimization** to further reduce the memory footprint of loaded data.
+
+**Recommended:** Chunking + Data Type Optimization
+
+### When Speed is the Constraint
+For high-performance analytics on a single machine, use **Polars**. Its Rust-based execution engine, lazy evaluation, and automatic multi-core processing provide excellent performance with low memory usage.
+
+For workloads that need to scale across multiple machines or clusters, use **Dask**, which distributes computation across partitions and worker nodes.
+
+**Recommended:** Polars (single-node) | Dask (distributed)
+
+### When Development Speed is the Constraint
+Use **Sampling** during development and experimentation. Building and testing logic on a 5% sample dramatically reduces execution time while preserving the overall characteristics of the dataset. Once validated, the same pipeline can be executed on the full dataset.
+
+**Recommended:** Sampling (develop on 5%, deploy on 100%)
+
+### In All Situations
+Always use **Load Less Data (`usecols`)** whenever possible. Unused columns should be excluded during parsing rather than loaded and discarded later. This reduces memory consumption and often improves execution speed with almost no additional effort.
+
+**Recommended:** `usecols` for every large dataset
+
+### Final Recommendation
+- Need to fit large data into memory? → **Chunking + Data Type Optimization**
+- Need the fastest analytics on one machine? → **Polars**
+- Need to scale across multiple machines? → **Dask**
+- Need rapid prototyping and experimentation? → **Sampling**
+- Working with any large dataset? → **Always use `usecols`**
+  
 ## 6.2 Personal Reflection
 
 ### Ling Yu Qian
