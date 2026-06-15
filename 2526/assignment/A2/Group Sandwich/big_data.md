@@ -285,7 +285,7 @@ The following results were collected from three benchmark runs. Lower execution 
 |---|---:|---:|---:|---|
 | Pandas | 9.671 | **340.352** | **347.371** | Best memory efficiency |
 | Dask | 10.618 | 672.445 | 687.837 | Best scalability direction |
-| Polars | **1.695** | 734.286 | 749.777 | **🏆 Best speed / recommended for this workload** |
+| Polars | **1.695** | 734.286 | 749.777 | **Best speed / recommended for this workload** |
 
 **Main highlight:** For this benchmark workload, **Polars is the best choice when execution speed is the main priority** because it completed the task in only **1.695 seconds**. However, **Pandas is the best choice for memory efficiency** because it recorded the lowest RAM change and the lowest peak RAM increase.
 
@@ -317,7 +317,7 @@ For big data processing, execution speed is often more important because large d
 |---|---:|---|
 | Pandas | 58.76 | Good memory usage, but slower execution |
 | Dask | 33.26 | More suitable for larger distributed workloads, not the fastest here |
-| Polars | **73.17** | **🏆 Best overall for this benchmark when speed is prioritised** |
+| Polars | **73.17** | **Best overall for this benchmark when speed is prioritised** |
 
 Using this speed-weighted comparison, **Polars becomes the best overall library for this workload**. This is because its execution time is much faster than Pandas and Dask, even though it uses more memory.
 
