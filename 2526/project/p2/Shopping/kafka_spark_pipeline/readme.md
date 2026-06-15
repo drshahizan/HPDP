@@ -9,7 +9,8 @@
 kafka_spark_pipeline/
 ├── docker-compose.yml          ← starts all services
 ├── producer.py                 ← streams data to Kafka
-├── cnn_stream_consumer.py      ← CNN inference → Elasticsearch
+├── cnn_stream_consumer.py      ← CNN inference → Elasticsearch (streaming)
+├── cnn_batch_consumer.py       ← CNN inference → Elasticsearch (batch)
 ├── setup_index.py              ← creates Elasticsearch index
 ├── elastic_mappings.json       ← Elasticsearch schema
 ├── spark_consumer.py           ← Spark version (reference)
