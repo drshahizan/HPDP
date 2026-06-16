@@ -98,6 +98,10 @@ Three libraries were selected for this assignment: **Pandas** as the baseline li
 
 <br>
 
+**Pandas (Baseline Library)**
+
+Pandas is selected as the compulsory baseline library as it is the most widely used data processing library in Python. It provides a simple and familiar API for loading, inspecting, and processing structured data. However, Pandas loads the entire dataset into RAM at once using a single thread, making it memory-intensive and slow for large datasets exceeding available system RAM.
+
 **Dask (Scalable Library 1)**
 
 Dask was selected because it extends Pandas with parallel and distributed computing capabilities. Dask uses lazy evaluation — it builds a task graph without loading data immediately, only executing when `.compute()` is called. This allows it to process datasets larger than available RAM by splitting them into partitions across multiple CPU cores, making it suitable for large-scale distributed workloads.
@@ -455,9 +459,9 @@ Dask enables parallel processing by breaking large datasets into smaller block p
 | :--- | :---: | :---: | :---: | :---: |
 | **Pandas Baseline** | 49.41 | 6,185.09 | *Reference* | *Reference* |
 | **1. Load Less Data** | 14.70 | 659.68 | ~3.36x Faster | 89.34 |
-| **2. Chunking** | 11.65 | 12.28 | ~4.24x Faster | 99.80 |
+| **2. Chunking** | 11.65 | **12.28** | ~4.24x Faster | **99.80** |
 | **3. Data Type Optimisation** | 28.47 | 696.89 | ~1.74x Faster | 88.73 |
-| **4. Sampling** | 1.82 | 248.45 | ~27.15x Faster | 95.98 |
+| **4. Sampling** | **1.82** | 248.45 | **~27.15x Faster** | 95.98 |
 | **5. Parallel Processing**| 155.13 | 843.41 | 0.32x Slower | 86.36 |
 
 ![execution chart](images/exe.png)
@@ -551,14 +555,14 @@ Execution time measures how long each library takes to fully load and process th
 
 <br>
 
-####**Performance Insight:**
+#### **Performance Insight:**
 Polars was the fastest library at **12.78 seconds**, outperforming even the Pandas baseline by nearly 3x. This is attributed to Polars' Rust-based engine and multi-threaded query execution which processes column data in parallel without any Python overhead. Dask was significantly slower at **155.13 seconds** due to the coordination overhead of splitting the dataset into 20 partitions and managing parallel workers on Google Colab's limited CPU environment. On a production-grade multi-core server, Dask's performance would improve substantially
 
 
 ### 🔍 **5.2.3 Critical Discussion**
 
 #### **Why is Polars the Fastest?**
-Polars is built entirely in **Rust**, a systems programming language that executes at near-machine-code speed with zero garbage collection overhead. Unlike Pandas, which processes data through Python's interpreter one operation at a time, Polars uses a **vectorized columnar execution engine** that processes entire columns simultaneously using SIMD (Single Instruction Multiple Data) CPU instructions. This architectural difference explains the nearly 3x speed advantage over Pandas on a 7-million-row dataset.
+Polars is built entirely in **Rust**, a systems programming language that executes at near-machine-code speed with zero garbage collection overhead. Unlike Pandas, which processes data through Python's interpreter one operation at a time, Polars uses a **vectorized columnar execution engine** that processes entire columns simultaneously using SIMD (Single Instruction Multiple Data) CPU instructions. This architectural difference explains the nearly 3x speed advantage over Pandas on a 7-million-row dataset. As discussed in Section 5.2.1, Polars' actual memory consumption is estimated to be higher than Dask in absolute terms. However, this reveals an important insight — **higher memory consumption does not necessarily translate to slower performance**. Its Rust-based vectorised execution engine enables substantially faster processing, demonstrating that memory usage and execution speed are independent metrics that must be evaluated separately.
 
 #### **Why is Dask Slower on Colab?**
 Dask's parallel framework is designed for **distributed computing environments** with many CPU cores or multiple machines. On Google Colab, which provides limited CPU resources (typically 2 cores), the overhead of splitting the dataset into 20 partitions, scheduling tasks across workers and merging results outweighs the benefit of parallelism. In a real production environment with 16–32 CPU cores, Dask would likely outperform both Pandas and Polars on this dataset size.
