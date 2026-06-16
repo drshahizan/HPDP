@@ -519,7 +519,18 @@ Memory usage is one of the most critical metrics when evaluating big data librar
 
 
 #### **Performance Insight:**
-Pandas consumed the most memory at **6,185.09 MB**, nearly loading the entire dataset into RAM at once. Dask significantly reduced this to **843.41 MB** by lazily partitioning the dataset across 20 blocks and processing them without fully materializing the whole file in memory. Polars, while unmeasurable via `tracemalloc`, is architecturally designed to use Apache Arrow columnar memory format which is highly memory-efficient by nature.
+Pandas consumed the most memory at **6,185.09 MB**, nearly loading the entire dataset into RAM at once. Dask significantly reduced this to **843.41 MB** by lazily partitioning the dataset across 20 blocks. Polars reported 0.02 MB via `tracemalloc`, however this does not reflect actual RAM usage — Polars manages memory through its Rust runtime which is invisible to Python's memory tracker.
+
+According to JetBrains (2024), Pandas generally requires around 5 to 10 times the dataset size in RAM, whereas Polars typically requires only 2 to 4 times. For the 1.22 GB Flight Delay Dataset, Polars is therefore estimated to consume approximately 2,440–4,880 MB of memory during processing. Although this estimated usage may exceed Dask's measured memory consumption of 843.41 MB, it remains considerably lower than that of Pandas. In addition, Polars can reduce peak memory usage by up to 50% during complex operations through its lazy execution mechanism, which avoids creating unnecessary intermediate DataFrames.
+
+> **References:**
+
+> - JetBrains PyCharm Blog (2024): https://blog.jetbrains.com/pycharm/2024/07/polars-vs-pandas/
+
+> - TildAlice Benchmark (2026): https://tildalice.io/pandas-polars-dask-10m-rows-benchmark/
+
+> - Polars Official Benchmark: https://pola.rs/posts/benchmarks/
+
 
 
 ### 📊 **5.2.2 Execution Time**
