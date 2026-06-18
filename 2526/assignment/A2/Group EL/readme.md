@@ -12,8 +12,8 @@
 
 | File Name         | Explanation                                                                                                   | Link                                                                                                                                 |
 |----------|-------------|---------------|
-| `big_data.md`     | Main report with explanations, code snippets, tables | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/BingChiling/big_data.md) |
-| `big_data.ipynb`  | Full Colab notebook with working code | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/blob/main/2425/assignment/A2/bdm/BingChiling/big_data.ipynb) |
+| `big_data.md`     | Main report with explanations, code snippets, tables | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)]([2526/assignment/A2/Group EL/big_data.ipynb](https://github.com/sean-seah/HPDP/blob/main/2526/assignment/A2/Group%20EL/big_data.ipynb)) |
+| `big_data.ipynb`  | Full Colab notebook with working code | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/sean-seah/HPDP/blob/main/2526/assignment/A2/Group%20EL/big_data.md) |
 
 ## 📊 Dataset Overview
 -   Name: IMDb Review Dataset
