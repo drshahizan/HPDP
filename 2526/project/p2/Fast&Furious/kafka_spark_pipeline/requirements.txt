@@ -1,0 +1,17 @@
+# Host Python environment for the producer + Spark streaming job.
+# Install with:  pip install -r requirements.txt
+#
+# NOTE: torch + transformers are only needed if the BEST model is
+# XLM-RoBERTa. If you stream with the Logistic Regression model
+# (recommended for a smooth live demo — see README), you can comment
+# those two lines out and the pipeline still runs.
+
+pyspark==3.5.1
+kafka-python==2.0.2
+elasticsearch==7.17.9
+pandas
+numpy
+scikit-learn
+joblib
+transformers
+torch
