@@ -47,6 +47,9 @@ INDEX_MAPPING = {
             "predicted_sentiment": {
                 "type": "keyword"
             },
+            "predicted_label": {
+                "type": "integer"
+            },
             "is_correct": {
                 "type": "keyword"
             },
@@ -60,6 +63,12 @@ INDEX_MAPPING = {
             "processed_at": {
                 "type":   "date",
                 "format": "strict_date_optional_time||epoch_millis"
+            },
+            "throughput_rps": {
+                "type": "float"
+            },
+            "batch_size": {
+                "type": "integer"
             },
             "kafka_offset": {
                 "type": "long"

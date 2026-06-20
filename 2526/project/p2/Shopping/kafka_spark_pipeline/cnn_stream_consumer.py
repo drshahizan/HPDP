@@ -44,7 +44,9 @@ TOKENIZER_PATH = "models/cnn_tokenizer.pkl"
 MAX_LEN        = 128
 BATCH_SIZE     = 10   # process 10 messages then write to ES
 
-LABEL_NAMES = {0: "Negative", 1: "Neutral", 2: "Positive"}
+LABEL_NAMES  = {0: "Negative", 1: "Neutral", 2: "Positive"}
+# CNN outputs class 0/1/2; remap to -1/0/1 to match the dataset's label scale
+LABEL_TO_INT = {0: -1, 1: 0, 2: 1}
 
 
 def load_models():
@@ -61,12 +63,14 @@ def load_models():
 
 
 def predict_batch(texts, model, tokenizer):
-    """Run CNN inference on a batch of texts."""
+    """Run CNN inference; returns (label_strings, label_ints) where ints are -1/0/1."""
     seqs   = tokenizer.texts_to_sequences(texts)
     padded = pad_sequences(seqs, maxlen=MAX_LEN, padding="post", truncating="post")
     probs  = model.predict(padded, verbose=0)
     preds  = np.argmax(probs, axis=1)
-    return [LABEL_NAMES.get(int(p), "Unknown") for p in preds]
+    labels     = [LABEL_NAMES.get(int(p), "Unknown") for p in preds]
+    int_labels = [LABEL_TO_INT.get(int(p), 0)        for p in preds]
+    return labels, int_labels
 
 
 def write_to_elasticsearch(records):
@@ -137,27 +141,30 @@ def main():
 
             # Process when batch is full
             if len(batch_texts) >= BATCH_SIZE:
-                predictions = predict_batch(batch_texts, model, tokenizer)
+                predictions, int_preds = predict_batch(batch_texts, model, tokenizer)
+
+                total_processed += len(batch_texts)
+                elapsed    = time.time() - start_time
+                throughput = total_processed / elapsed if elapsed > 0 else 0
 
                 es_records = []
-                for rec, pred in zip(batch_records, predictions):
+                for rec, pred, pred_int in zip(batch_records, predictions, int_preds):
                     rec["predicted_sentiment"] = pred
+                    rec["predicted_label"]     = pred_int          # -1 / 0 / 1
                     rec["is_correct"]          = str(pred == rec["true_label"])
                     rec["pipeline_version"]    = "cnn_v1"
                     rec["processed_at"]        = datetime.now(timezone.utc).isoformat()
+                    rec["throughput_rps"]      = round(throughput, 2)
+                    rec["batch_size"]          = len(batch_texts)
                     es_records.append(rec)
 
-                    # Print to console
                     log.info(
-                        f"  [{pred:8s}] (true={rec['true_label']:8s}) "
+                        f"  [{pred:8s}|{pred_int:+d}] (true={rec['true_label']:8s}) "
                         f"correct={rec['is_correct']:5s} | "
-                        f"{review_text[:50]}"
+                        f"{rec['review_text'][:50]}"
                     )
 
                 write_to_elasticsearch(es_records)
-                total_processed += len(batch_texts)
-                elapsed = time.time() - start_time
-                throughput = total_processed / elapsed if elapsed > 0 else 0
                 log.info(f"Total processed: {total_processed} | Throughput: {throughput:.1f} records/sec")
 
                 batch_texts   = []
@@ -169,20 +176,26 @@ def main():
     finally:
         # Process remaining records
         if batch_texts:
-            predictions = predict_batch(batch_texts, model, tokenizer)
+            predictions, int_preds = predict_batch(batch_texts, model, tokenizer)
+            total_processed += len(batch_texts)
+            elapsed    = time.time() - start_time
+            throughput = total_processed / elapsed if elapsed > 0 else 0
             es_records = []
-            for rec, pred in zip(batch_records, predictions):
+            for rec, pred, pred_int in zip(batch_records, predictions, int_preds):
                 rec["predicted_sentiment"] = pred
+                rec["predicted_label"]     = pred_int
                 rec["is_correct"]          = str(pred == rec["true_label"])
                 rec["pipeline_version"]    = "cnn_v1"
                 rec["processed_at"]        = datetime.now(timezone.utc).isoformat()
+                rec["throughput_rps"]      = round(throughput, 2)
+                rec["batch_size"]          = len(batch_texts)
                 es_records.append(rec)
             write_to_elasticsearch(es_records)
-            total_processed += len(batch_texts)
 
         elapsed = time.time() - start_time
+        rps = total_processed / elapsed if elapsed > 0 else 0
         log.info(f"Done. Total: {total_processed} records in {elapsed:.1f}s "
-                 f"({total_processed/elapsed:.1f} records/sec)")
+                 f"({rps:.1f} records/sec)")
         consumer.close()
 
 
