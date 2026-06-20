@@ -43,18 +43,19 @@ X = pad_sequences(sequences, maxlen=100)
 # 7. Run Model Evaluation
 print("Running batch predictions...")
 predictions = model.predict(X)
-predicted_labels = np.argmax(predictions, axis=1)
+predicted_indices = np.argmax(predictions, axis=1)
 
-# Map predictions back to the dataset format (-1, 0, 1) if necessary,
-# but assuming standard indices match your labels:
-pdf['predicted_label'] = predicted_labels
+# Map the model's softmax class indices (0,1,2) back to the actual
+# sentiment scale used in the dataset (-1 = negative, 0 = neutral, 1 = positive).
+index_to_label = {0: -1, 1: 0, 2: 1}
+pdf['predicted_label'] = [index_to_label[i] for i in predicted_indices]
 
 # 8. Complete Metrics Computations
 end_time = time.time()
 processing_time = end_time - start_time
 throughput = record_count / processing_time
 
-# Accuracy check: compare 'sentiment' column against 'predicted_label'
+# Accuracy check: compare 'label' column against 'predicted_label' (both on -1/0/1 scale now)
 accuracy = accuracy_score(pdf['label'], pdf['predicted_label'])
 cpu_usage = psutil.cpu_percent(interval=0.5)
 memory_usage = psutil.virtual_memory().percent
