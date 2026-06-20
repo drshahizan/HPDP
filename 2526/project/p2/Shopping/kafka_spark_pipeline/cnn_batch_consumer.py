@@ -69,6 +69,12 @@ pdf = pdf.rename(columns={'label': 'actual_label'})
 print("Storing documents in local Elasticsearch...")
 es = Elasticsearch(["http://localhost:9200"])
 
+# Clear out previous run's data so document counts and metrics
+# don't accumulate / duplicate across repeated runs.
+print("Clearing previous run's indices (if they exist)...")
+es.indices.delete(index="sentiment_batch", ignore_unavailable=True)
+es.indices.delete(index="performance_metrics", ignore_unavailable=True)
+
 # Push Batch metrics
 metrics_doc = {
     "mode": "batch",
@@ -76,11 +82,13 @@ metrics_doc = {
     "throughput": float(throughput),
     "accuracy": float(accuracy),
     "cpu_usage": float(cpu_usage),
-    "memory_usage": float(memory_usage)
+    "memory_usage": float(memory_usage),
+    "timestamp": datetime.now().isoformat()
 }
 es.index(index="performance_metrics", document=metrics_doc)
 
 # Bulk send the data rows
+print("Indexing row-level predictions...")
 for index, row in pdf.iterrows():
     doc = {
         "text": str(row['clean_review']),
@@ -89,7 +97,7 @@ for index, row in pdf.iterrows():
         "mode": row['mode'],
         "timestamp": row['timestamp'].isoformat()
     }
-    es.index(index="sentiment_batch", document=doc)
+    es.index(index="sentiment_batch", id=index, document=doc)
 
 print("\nBatch Processing Successfully Finished!")
 print(f"Throughput achieved: {throughput:.2f} rows/sec")
