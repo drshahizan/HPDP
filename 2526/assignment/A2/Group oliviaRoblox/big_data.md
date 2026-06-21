@@ -359,8 +359,11 @@ This assignment demonstrated that Pandas alone is insufficient for large-scale d
 ### Reflection
 
 Working through this assignment changed how we think about "big data" - it's not just a buzzword, it's a real constraint that breaks tools we use every day without a second thought. Hitting a MemoryError on the full 11.65 GB file was the moment it stopped being theoretical. Pandas is the library most of us default to for any tabular task, but watching it take 266 seconds and 4.5 GB of RAM just to load 2 million rows made it obvious why production systems don't rely on it alone at scale.
+
     The biggest surprise was how much of the performance gain came from when work is done, not just how. Strategies like chunking and predicate pushdown succeed by avoiding unnecessary work in the first place - filtering rows before they're fully materialized in memory, rather than loading everything and discarding what isn't needed afterward. Polars' lazy evaluation model made this especially clear: building a query plan with .select() and .filter() before calling .collect() let the engine optimize the entire pipeline in one pass, rather than executing each operation eagerly and wastefully.
+    
     This assignment also reinforced that there's no single "best" tool - only trade-offs suited to context. Pandas remains convenient for quick, small-scale exploration. Dask offers a familiar API once you're ready to scale across machines. Polars delivers the best raw performance on a single machine but requires learning a new syntax and mental model. Choosing the right tool for a given dataset size and team's familiarity is itself a skill, separate from knowing how each library works individually.
+    
     Finally, working in a team split by library (Pandas/Dask vs. Polars) showed us how differently the same problem can be approached depending on the tool's design philosophy  and how valuable it is to compare notes rather than work in isolation.
 
 
