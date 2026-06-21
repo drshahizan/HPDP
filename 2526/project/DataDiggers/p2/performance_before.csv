@@ -1,0 +1,2 @@
+technique,total_time_sec,records_processed,throughput_rec_per_sec,memory_mb
+Baseline (Single-threaded),1.4045581817626953,101212,72059.6706595527,-29.08984375
