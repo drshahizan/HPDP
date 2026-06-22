@@ -18,39 +18,31 @@ kafka_spark_pipeline/
 ├── requirements.txt            ← Python dependencies
 ├── readme.md                   ← this file
 ├── data/
-│   └── cleaned_data.csv        ← cleaned Malaysian reviews dataset
+│   └── cleaned_data.csv         ← cleaned Malaysian reviews dataset
 └── models/
-    ├── best_cnn_sentiment.keras ← trained CNN model
-    └── cnn_tokenizer.pkl        ← CNN tokenizer
+    ├── best_cnn_sentiment.keras  ← trained CNN model
+    └── cnn_tokenizer.pkl         ← CNN tokenizer
 ```
 
 ---
 
 ## Prerequisites
 
-Before starting, make sure you have:
+Make sure you have all of these before starting:
 
-- **Docker Desktop** installed and running → https://www.docker.com/products/docker-desktop
-- **Python 3.10+** installed → https://www.python.org/downloads
-- **Anaconda** (recommended) → https://www.anaconda.com/download
-- At least **6GB RAM** available
-- The `models/` folder with both model files (get from group member)
+- **Docker Desktop** installed and running
+- **Python 3.10+** installed
+- At least **6 GB RAM** free
+- The `models/` folder with both model files (get from Ru Qian)
 
 ---
 
 ## Step 1 — Install Python Dependencies
 
-Open terminal/PowerShell in the `kafka_spark_pipeline/` folder:
+Open a terminal in the `kafka_spark_pipeline/` folder and run:
 
 ```bash
-pip install kafka-python-ng pandas numpy scikit-learn requests tensorflow
-```
-
-Or using conda:
-
-```bash
-conda install -c conda-forge pandas numpy scikit-learn requests
-pip install kafka-python-ng tensorflow
+pip install kafka-python-ng pandas numpy requests tensorflow
 ```
 
 ---
@@ -58,48 +50,34 @@ pip install kafka-python-ng tensorflow
 ## Step 2 — Start Docker Services
 
 ```bash
-docker-compose up -d
+docker compose up -d zookeeper kafka kafka-init elasticsearch kibana
 ```
 
 This starts 5 services:
 
-| Service       | URL                   | Purpose                  |
-|---------------|-----------------------|--------------------------|
-| Zookeeper     | localhost:2181        | Kafka dependency         |
-| Kafka         | localhost:9092        | Message broker           |
-| Elasticsearch | http://localhost:9200 | Stores sentiment results |
-| Kibana        | http://localhost:5601 | Dashboard UI             |
-| Spark Master  | http://localhost:8082 | Spark Web UI             |
+| Service       | URL                    | Purpose                        |
+|---------------|------------------------|--------------------------------|
+| Zookeeper     | localhost:2181         | Kafka dependency               |
+| Kafka         | localhost:9092         | Message broker                 |
+| kafka-init    | —                      | Auto-creates `sentiment-stream` topic |
+| Elasticsearch | http://localhost:9200  | Stores sentiment results       |
+| Kibana        | http://localhost:5601  | Dashboard & visualization UI   |
 
-Wait **60 seconds** for all services to fully start.
-
-Verify Elasticsearch is ready:
+Wait **60 seconds** for all services to fully start, then verify Elasticsearch is ready:
 
 ```bash
 curl http://localhost:9200/_cluster/health
 ```
 
-Should show `"status":"yellow"` or `"status":"green"`.
+Expected: `"status":"yellow"` or `"status":"green"`.
+
+> The Kafka topic `sentiment-stream` is created automatically by `kafka-init`. You do not need to create it manually.
 
 ---
 
-## Step 3 — Create Kafka Topic
+## Step 3 — Create Elasticsearch Index
 
-```bash
-docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic sentiment-stream --partitions 3 --replication-factor 1
-```
-
-Verify topic was created:
-
-```bash
-docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --list
-```
-
-Should show `sentiment-stream`.
-
----
-
-## Step 4 — Create Elasticsearch Index
+Run this **once** before starting the pipeline:
 
 ```bash
 python setup_index.py
@@ -109,16 +87,16 @@ Expected output:
 ```
 Elasticsearch is up
 Index 'sentiment_results' created successfully.
-ES setup complete.
+ES setup complete. You can now start the consumer.
 ```
 
 ---
 
-## Step 5 — Run the Pipeline
+## Step 4 — Run the Pipeline
 
-You need **two terminals** open at the same time.
+You need **3 terminals** open at the same time, all in the `kafka_spark_pipeline/` folder.
 
-### Terminal 1 — Start CNN Consumer
+### Terminal 1 — Start CNN Streaming Consumer
 
 ```bash
 python cnn_stream_consumer.py
@@ -133,83 +111,97 @@ Now run producer.py in another terminal
 ### Terminal 2 — Start Kafka Producer
 
 ```bash
-python producer.py --data data/cleaned_data.csv --delay 0.5
+python producer.py --data data/cleaned_data.csv --delay 0.3
 ```
 
-You will see messages being sent:
+Optional flags:
+```bash
+--delay 0.5     # slow down (default: 0.3s between messages)
+--loop          # keep streaming the dataset on repeat
+```
+
+### What you should see
+
+**Terminal 2 (Producer):**
 ```
 [PRODUCER] INFO — Sent 50 messages so far...
 [PRODUCER] INFO — Sent 100 messages so far...
 ```
 
-And in Terminal 1 you will see CNN predictions:
+**Terminal 1 (Consumer):**
 ```
-[CNN-CONSUMER] INFO — [Positive ] (true=Positive ) correct=True  | batu cave unforgettable blend...
-[CNN-CONSUMER] INFO — [Negative ] (true=Negative ) correct=True  | terrible experience food cold...
+[CNN-CONSUMER] INFO — [Positive |+1] (true=Positive ) correct=True  | batu cave unforgettable blend...
+[CNN-CONSUMER] INFO — [Negative |-1] (true=Negative ) correct=True  | terrible experience food cold...
 [CNN-CONSUMER] INFO — Written 10 records to Elasticsearch.
+[CNN-CONSUMER] INFO — Total processed: 10 | Throughput: 3.2 records/sec
+```
+
+Each record written to Elasticsearch contains:
+
+| Field                | Type    | Description                              |
+|----------------------|---------|------------------------------------------|
+| `review_id`          | integer | Unique review ID                         |
+| `review_text`        | text    | Original review text                     |
+| `true_label`         | keyword | Ground truth: Negative / Neutral / Positive |
+| `predicted_sentiment`| keyword | CNN prediction: Negative / Neutral / Positive |
+| `predicted_label`    | integer | CNN prediction as integer: **-1 / 0 / 1** |
+| `is_correct`         | keyword | `"True"` or `"False"`                   |
+| `throughput_rps`     | float   | Records processed per second             |
+| `batch_size`         | integer | Batch size when this record was written  |
+| `pipeline_version`   | keyword | `"cnn_v1"`                              |
+| `processed_at`       | date    | Timestamp when CNN processed this record |
+| `source_timestamp`   | date    | Timestamp when producer sent the message |
+
+---
+
+## Step 5 — Verify Data in Elasticsearch
+
+Check total documents stored:
+
+```bash
+curl http://localhost:9200/sentiment_results/_count
+```
+
+Browse actual records (returns first 10):
+
+```
+http://localhost:9200/sentiment_results/_search?pretty
+```
+
+Check sentiment distribution:
+
+```bash
+curl -X POST "http://localhost:9200/sentiment_results/_search?pretty" -H "Content-Type: application/json" -d "{\"size\":0,\"aggs\":{\"sentiments\":{\"terms\":{\"field\":\"predicted_sentiment\"}}}}"
 ```
 
 ---
 
 ## Step 6 — Build Kibana Dashboard
 
-1. Open **http://localhost:5601** in your browser
-2. Go to **Menu → Stack Management → Index Patterns**
-3. Click **Create index pattern**
-4. Enter `sentiment_results` → Next
-5. Select `processed_at` as the time field → Create
+Open **http://localhost:5601** in your browser.
 
-Then go to **Menu → Dashboard → Create Dashboard** and add these visualizations:
+### 6.1 — Create a Data View
 
-### Visualization 1 — Sentiment Distribution (Pie Chart)
-- Create visualization → Pie
-- Field: `predicted_sentiment`
-- This shows % of Positive / Neutral / Negative
+1. Go to **Menu (☰) → Management → Stack Management**
+2. Under Kibana, click **Data Views**
+3. Click **Create data view**
+4. Name: `sentiment_results`
+5. Index pattern: `sentiment_results`
+6. Timestamp field: `processed_at`
+7. Click **Save data view to Kibana**
 
-### Visualization 2 — Sentiment Over Time (Line Chart)
-- Create visualization → Line
-- X-axis: `processed_at` (date histogram)
-- Y-axis: Count
-- Split series by: `predicted_sentiment`
+## Step 7 — Stop Everything
 
-### Visualization 3 — Accuracy Metric
-- Create visualization → Metric
-- Filter: `is_correct: "True"`
-- Shows total correct predictions
-
-### Visualization 4 — Recent Reviews Table
-- Create visualization → Data Table
-- Columns: `review_text`, `predicted_sentiment`, `true_label`, `is_correct`, `processed_at`
-
----
-
-## Step 7 — Verify Data in Elasticsearch
-
-Check total documents indexed:
+Press `Ctrl+C` in both terminals, then stop Docker:
 
 ```bash
-curl http://localhost:9200/sentiment_results/_count
+docker compose down
 ```
 
-Check sentiment distribution:
+To also delete all Elasticsearch stored data:
 
 ```bash
-curl -X POST "http://localhost:9200/sentiment_results/_search?pretty" -H "Content-Type: application/json" -d "{\"size\":0,\"aggs\":{\"sentiment_counts\":{\"terms\":{\"field\":\"predicted_sentiment\"}}}}"
-```
-
----
-
-## Stop Everything
-
-```bash
-# Press Ctrl+C in both terminals first, then:
-docker-compose down
-```
-
-To also delete Elasticsearch data:
-
-```bash
-docker-compose down -v
+docker compose down -v
 ```
 
 ---
@@ -218,12 +210,13 @@ docker-compose down -v
 
 | Problem | Fix |
 |---|---|
-| `docker-compose up` fails | Make sure Docker Desktop is running |
-| Kafka not ready | Wait 30 more seconds and retry |
-| `NoBrokersAvailable` error | Check `docker ps` — kafka container must be running |
-| ES connection refused | Run `curl http://localhost:9200` to check |
-| Model file not found | Make sure `models/` folder has both `.keras` and `.pkl` files |
-| Port already in use | Run `docker-compose down` then `docker-compose up -d` again |
+| Docker containers don't appear | Make sure Docker Desktop is running, then retry `docker compose up -d` |
+| `NoBrokersAvailable` error | Wait 30 more seconds — Kafka takes time to start |
+| `index_not_found_exception` in ES | Run `python setup_index.py` first |
+| Model file not found | Ensure `models/best_cnn_sentiment.keras` and `models/cnn_tokenizer.pkl` exist |
+| Kibana shows no data | Check consumer is running and has written records: `curl http://localhost:9200/sentiment_results/_count` |
+| Port already in use | Run `docker compose down` then `docker compose up -d` again |
+| ES returns connection refused | Wait longer — ES takes ~45s to boot |
 
 ---
 
@@ -232,26 +225,37 @@ docker-compose down -v
 ```
 cleaned_data.csv
       ↓
- producer.py          (Kafka Producer)
+ producer.py              (Kafka Producer — streams reviews row by row)
       ↓
- Kafka Topic          (sentiment-stream)
+ Kafka Topic              (sentiment-stream, 3 partitions)
       ↓
-cnn_stream_consumer.py (CNN Model Inference)
+cnn_stream_consumer.py    (CNN inference, batches of 10)
       ↓
- Elasticsearch        (sentiment_results index)
+ Elasticsearch            (index: sentiment_results)
       ↓
-   Kibana             (Dashboard & Visualization)
+   Kibana                 (Dashboard at http://localhost:5601)
 ```
+
+---
+
+## Label Scale Reference
+
+The dataset uses **-1 / 0 / 1** labels. The CNN model outputs class indices **0 / 1 / 2**, which are remapped to match:
+
+| Dataset label | Meaning  | CNN class | `predicted_label` in ES |
+|---------------|----------|-----------|--------------------------|
+| -1            | Negative | 0         | -1                       |
+|  0            | Neutral  | 1         |  0                       |
+|  1            | Positive | 2         |  1                       |
 
 ---
 
 ## Technologies Used
 
-| Technology | Role |
-|---|---|
-| Apache Kafka | Real-time message streaming |
-| CNN (TensorFlow/Keras) | Sentiment classification model |
-| Elasticsearch | Storage and fast querying |
-| Kibana | Dashboard and visualization |
-| Apache Spark | Batch processing and pipeline reference |
-| Docker | Container orchestration |
+| Technology       | Role                                  |
+|------------------|---------------------------------------|
+| Apache Kafka     | Real-time message streaming           |
+| CNN (TensorFlow) | Sentiment classification model        |
+| Elasticsearch    | Storage and fast querying             |
+| Kibana           | Dashboard and visualization           |
+| Docker           | Container orchestration for services  |
