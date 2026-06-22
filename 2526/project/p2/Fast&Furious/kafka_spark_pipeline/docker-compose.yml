@@ -1,0 +1,61 @@
+# =====================================================================
+# Real-Time Sentiment Analysis — Infrastructure
+# Brings up Kafka + Zookeeper + Elasticsearch + Kibana in one command.
+#
+# Spark itself does NOT run in Docker here — you run spark_streaming.py
+# on your host machine (where torch/transformers live). It connects to
+# Kafka on localhost:9092 and Elasticsearch on localhost:9200.
+#
+#   Start :  docker compose up -d
+#   Stop  :  docker compose down
+#   Logs  :  docker compose logs -f kafka
+# =====================================================================
+
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.3
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.3
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"     # host apps (producer + spark) connect here
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      # Two listeners: one for containers (29092), one for your host (9092).
+      # This is THE common Kafka-in-Docker gotcha — get advertised
+      # listeners wrong and the host cannot connect.
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:29092,PLAINTEXT_HOST://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.18
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false      # no auth — fine for a local student project
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m    # keep memory modest for laptops
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.18
+    container_name: kibana
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"     # open the dashboard at http://localhost:5601

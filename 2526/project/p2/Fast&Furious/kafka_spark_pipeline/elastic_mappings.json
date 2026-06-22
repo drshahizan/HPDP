@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "properties": {
+      "id":              { "type": "keyword" },
+      "text":            { "type": "text" },
+      "sentiment":       { "type": "keyword" },
+      "true_sentiment":  { "type": "keyword" },
+      "confidence":      { "type": "float" },
+      "@timestamp":      { "type": "date" }
+    }
+  }
+}
