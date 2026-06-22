@@ -159,27 +159,8 @@ And in Terminal 1 you will see CNN predictions:
 4. Enter `sentiment_results` → Next
 5. Select `processed_at` as the time field → Create
 
-Then go to **Menu → Dashboard → Create Dashboard** and add these visualizations:
+Then go to **Menu → Dashboard → Create Dashboard**
 
-### Visualization 1 — Sentiment Distribution (Pie Chart)
-- Create visualization → Pie
-- Field: `predicted_sentiment`
-- This shows % of Positive / Neutral / Negative
-
-### Visualization 2 — Sentiment Over Time (Line Chart)
-- Create visualization → Line
-- X-axis: `processed_at` (date histogram)
-- Y-axis: Count
-- Split series by: `predicted_sentiment`
-
-### Visualization 3 — Accuracy Metric
-- Create visualization → Metric
-- Filter: `is_correct: "True"`
-- Shows total correct predictions
-
-### Visualization 4 — Recent Reviews Table
-- Create visualization → Data Table
-- Columns: `review_text`, `predicted_sentiment`, `true_label`, `is_correct`, `processed_at`
 
 ---
 
