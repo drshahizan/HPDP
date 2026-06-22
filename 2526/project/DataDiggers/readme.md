@@ -19,10 +19,10 @@ Use this checklist to ensure your group stays on track throughout the 4-week pro
 |------|------|------------------------|:-----------:|
 | Week 1 | Form a diverse group (4 members) | All | ✅ 23/5 |
 | Week 1 | Choose a Malaysian website & get approval | All | ✅ 29/5 |
-| Week 1 | Identify target data fields (≥100,000 records) | Firzana | ✅ 29/5 |
-| Week 1 | Design system architecture (crawler + pipeline) | Architect | ✅ 2/6 |
-| Week 2 | Develop and test web crawler (initial batch) | Coder | ✅ 2/6 |
-| Week 2 | Begin collecting real data (progressive storage) | All | ✅ 8/6 |
+| Week 1 | Identify target data fields (≥100,000 records) | All | ✅ 29/5 |
+| Week 1 | Design system architecture (crawler + pipeline) | Ika & Hani | ✅ 2/6 |
+| Week 2 | Develop and test web crawler (initial batch) | Ika & Hani | ✅ 2/6 |
+| Week 2 | Begin collecting real data (progressive storage) | Ika & Hani | ✅ 8/6 |
 | Week 3 | Process and clean dataset (remove duplicates, standardize) | Firzana | ✅ 12/6 |
 | Week 3 | Apply optimization (threading, Spark, Dask, etc.) | HPC Specialist | ✅ 12/6 |
 | Week 3 | Benchmark performance (before vs after) | Evaluator | ✅ 12/6 |
