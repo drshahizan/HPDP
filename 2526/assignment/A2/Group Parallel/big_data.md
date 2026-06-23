@@ -30,6 +30,26 @@ For this assignment, we selected a comprehensive aviation dataset to test our bi
 
 The dataset is large enough to demonstrate all five handling strategies meaningfully: raw Pandas loading alone consumes nearly 2.1 GB of RAM, which immediately justifies every optimisation we apply.
 
+### Data Dictionary
+
+Below is the optimised schema and description of the 13 columns selected for the analysis. Data types have been downcast (e.g., using `category`, `float32`, and `int8`) to reduce the memory footprint from the initial 2.1 GB RAM.
+
+| # | Column Name | Data Type | Description |
+| :-: | :--- | :--- | :--- |
+| 1 | `FL_DATE` | `category` | Flight date (YYYY-MM-DD), converted to category to optimize storage. |
+| 2 | `OP_CARRIER` | `category` | Unique carrier code (e.g., AA, DL, WN). |
+| 3 | `ORIGIN` | `category` | Origin airport IATA code (e.g., JFK, LAX). |
+| 4 | `DEST` | `category` | Destination airport IATA code (e.g., ORD, SFO). |
+| 5 | `DEP_DELAY` | `float32` | Departure delay in minutes (negative value indicates early departure). |
+| 6 | `ARR_DELAY` | `float32` | Arrival delay in minutes (negative value indicates early arrival). |
+| 7 | `CANCELLED` | `int8` | Flight cancellation indicator (1 = Cancelled, 0 = Not Cancelled). |
+| 8 | `DIVERTED` | `int8` | Flight diverted indicator (1 = Diverted, 0 = Not Diverted). |
+| 9 | `CARRIER_DELAY` | `float32` | Delay caused by the airline carrier in minutes (e.g., maintenance, crew). |
+| 10 | `WEATHER_DELAY` | `float32` | Delay caused by significant meteorological conditions in minutes. |
+| 11 | `NAS_DELAY` | `float32` | National Airspace System delay in minutes (e.g., heavy airport traffic, air traffic control). |
+| 12 | `SECURITY_DELAY` | `float32` | Delay caused by security breach, evacuation, or screening re-boarding in minutes. |
+| 13 | `LATE_AIRCRAFT_DELAY` | `float32` | Delay caused by the late arrival of the same aircraft from a previous flight in minutes. |
+
 ---
 
 # 2. Library Choices
