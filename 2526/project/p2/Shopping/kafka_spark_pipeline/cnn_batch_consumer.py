@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import psutil
 from datetime import datetime
+from pyspark.sql import SparkSession
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.metrics import accuracy_score
@@ -11,14 +12,22 @@ from elasticsearch import Elasticsearch
 
 print("Starting Batch Pipeline initialization...")
 
-# 1. Start the Performance Clock
+# 1. Initialize Local Spark Session
+spark = SparkSession.builder \
+    .appName("Batch Sentiment Analysis") \
+    .getOrCreate()
+
+# 2. Start the Performance Clock
 start_time = time.time()
 
-# 2. Read Your Cleaned Data (pandas directly — no Spark needed)
+# 3. Read Your Cleaned Data
 print("Loading cleaned_data.csv...")
-pdf = pd.read_csv("data/cleaned_data.csv")
-record_count = len(pdf)
+df = spark.read.csv("data/cleaned_data.csv", header=True, inferSchema=True)
+record_count = df.count()
 print(f"Loaded {record_count} rows.")
+
+# 4. Convert to Pandas for TensorFlow Compatibility
+pdf = df.toPandas()
 
 # 5. Load your Saved Colab Assets
 print("Loading CNN Model and Tokenizer from Colab download...")
