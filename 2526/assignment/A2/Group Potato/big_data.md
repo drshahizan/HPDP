@@ -736,27 +736,70 @@ Peak Memory     : 4027.48 MiB
 Polars delivers the fastest speed, Dask provides optimal memory efficiency through partitioned processing whereas Pandas remains the slowest and most resource-intensive option.
 
 ---
-
 ### 5.6 Strategy Comparison Summary
 
-| Strategy | Main Purpose | How It Works | Best Used When | Advantage | Limitation |
-|---|---|---|---|---|---|
-| **Strategy 1: Load Less Data** | Reduce memory usage during data loading | Only selected columns are loaded using `usecols` | Only certain columns are needed for analysis | Simple and gives immediate memory reduction | Not useful if all columns are required |
-| **Strategy 2: Chunking** | Process large files without loading everything into RAM | The dataset is read and processed in smaller chunks | The dataset is too large to fit into memory | Very low memory usage | Slower because the file is read repeatedly in parts |
-| **Strategy 3: Data Type Optimisation** | Reduce memory usage by changing data types | Large default data types are downcast to smaller suitable types | Column value ranges are known | Huge memory saving without removing data | May add slight loading overhead due to type conversion |
-| **Strategy 4: Sampling** | Speed up development and testing | A smaller random subset of data is selected | Testing code, logic, or visualisations before full processing | Fast and requires less memory | Sample results may not fully represent the complete dataset |
-| **Strategy 5: Parallel Processing** | Improve scalability and processing performance | Dask and Polars use partitioning, lazy execution, or multi-threading | Processing very large datasets or comparing scalable libraries | Can handle larger data and improve performance | Performance depends on library, hardware, and environment |
+| Strategy | Purpose | Main Advantage | Main Limitation |
+|---|---|---|---|
+| **Load Less Data** | Load only required columns | Reduces memory usage and improves loading speed | Not suitable when all columns are needed |
+| **Chunking** | Process data in smaller portions | Very low memory usage and supports large datasets | Slower due to repeated file reading |
+| **Data Type Optimisation** | Reduce memory footprint through smaller data types | Significant memory reduction without losing information | May introduce minor conversion overhead |
+| **Sampling** | Use a representative subset for testing | Fast execution and lower memory consumption | Results may not fully represent the complete dataset |
+| **Parallel Processing** | Improve scalability using multiple cores or partitions | Handles larger workloads more efficiently | Performance depends on library, hardware, and workload characteristics |
 
-Overall, each strategy solves a different big data challenge. Loading less data and data type optimisation are the most practical first steps because they immediately reduce memory usage. Chunking is useful when the full dataset cannot fit into RAM, while sampling helps during early development. Parallel processing with scalable libraries such as Dask and Polars provides better options for handling large datasets more efficiently.
+Overall, each strategy addresses a different big data challenge. Load Less Data and Data Type Optimisation are effective first-step optimisations because they immediately reduce memory consumption. Chunking is useful when the dataset exceeds available memory, while Sampling supports rapid experimentation during development. Parallel Processing provides additional scalability for large analytical workloads through libraries such as Dask and Polars.
 
 ---
 
 ## 6. Comparative Analysis
 
+## 6.1 Strategy Performance Comparison
+
+To evaluate the effectiveness of each big data handling strategy, the execution time and memory usage were compared against the Pandas baseline.
+
+### Strategy Comparison Table
+
+| Evaluation Strategy | Execution Time (s) | Peak Memory Usage (MB) |
+|---|---:|---:|
+| Pandas Baseline | 0.65 | 54.63 |
+| 1. Load Less Data | 0.22 | 16.08 |
+| 2. Chunking | 72.55 | 14.96 |
+| 3. Data Type Optimisation | 0.89 | 35.08 |
+| 4. Sampling | 0.01 | 2.79 |
+| 5. Parallel Processing (Dask) | 64.44 | 1735.06 |
+
+> **Note:** The comparison is based on the measured results from each strategy. Some strategies were tested on representative samples due to memory limitations, while chunking and Dask were applied to the full dataset. Therefore, the results should be interpreted as practical observations rather than a perfectly equal benchmark.
+
+### Execution Time Comparison
+
+![Execution Time Comparison](strategy_execution_time_comparison.png)
+
+### Peak Memory Usage Comparison
+
+![Peak Memory Usage Comparison](strategy_memory_usage_comparison.png)
+
+### Discussion
+
+The results demonstrate that different strategies optimise different aspects of the processing workflow.
+
+Sampling achieved the fastest execution time and lowest memory consumption because only a small subset of the dataset was processed. This makes it highly suitable for experimentation and rapid prototyping. However, sampled data may not fully represent the complete dataset and should not be used for final analytical conclusions.
+
+Load Less Data also performed well by reducing unnecessary data loading. Excluding unused columns lowered memory consumption and improved execution efficiency with minimal implementation effort.
+
+Chunking achieved very low memory usage because only a portion of the dataset was loaded into memory at any given time. Although execution time increased due to repeated file reading operations, chunking enabled processing of the entire dataset without exhausting available memory.
+
+Data Type Optimisation reduced memory consumption significantly by replacing default data types with smaller alternatives. This strategy improved memory efficiency while preserving the integrity of the dataset.
+
+Parallel Processing using Dask introduced additional scheduling and partition management overhead, resulting in longer execution time for this workload. Nevertheless, Dask remains valuable for distributed processing environments and datasets that exceed the memory limits of a single machine.
+
+Overall, no single strategy is universally superior. Each strategy addresses a different big data challenge, and combining multiple techniques often provides the best balance between performance, memory efficiency, and scalability.
+
+---
+
+## 6.2 Library Comparison (Pandas vs Dask vs Polars)
 To compare all three libraries fairly, we ran the same task on each one: calculating the average movie rating grouped by `MovieId` across the full 100 million row dataset. We measured memory usage, loading time, and processing time separately for each library.
 
 
-### 6.1 Memory Usage
+### Memory Usage
 
 This table shows how much RAM each library used when processing the full dataset.
 
@@ -775,7 +818,7 @@ Dask used the least memory because it never loads the whole file at once — it 
 
 ---
 
-### 6.2 Execution Time
+### Execution Time
 
 This table breaks down how long each library took to load the data and process it.
 
