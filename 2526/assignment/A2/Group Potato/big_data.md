@@ -771,11 +771,11 @@ To evaluate the effectiveness of each big data handling strategy, the execution 
 
 ### Execution Time Comparison
 
-![Execution Time Comparison](strategy_execution_time_comparison.png)
+![Execution Time Comparison](images/strategy_execution_time_comparison.png)
 
 ### Peak Memory Usage Comparison
 
-![Peak Memory Usage Comparison](strategy_memory_usage_comparison.png)
+![Peak Memory Usage Comparison](images/strategy_memory_usage_comparison.png)
 
 ### Discussion
 
