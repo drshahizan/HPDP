@@ -68,13 +68,13 @@
   <tr>
     <td>Jupyter Notebook for Preprocessing</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Fast%26Furious/notebooks/02_preprocessing.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Jupyter Notebook for Model Training</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Fast%26Furious/notebooks/model_training.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
 </table>
