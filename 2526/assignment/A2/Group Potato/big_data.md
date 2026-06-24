@@ -23,12 +23,12 @@
 
 ### Data Dictionary
 
-| Column | Description | Data Type | Example | Purpose |
-|---|---|---|---|---|
-| **CustId** | A unique identifier for each Netflix customer who gave a rating. | Integer | 1488844 | Used to identify which customer provided the rating. |
-| **Rating** | The rating score given by the customer for a movie. The value ranges from 1 to 5. | Integer | 3 | Used to measure user satisfaction and calculate average movie ratings. |
-| **Date** | The date when the customer rating was recorded. | Date / Object before optimisation | 2005-09-06 | Used for time-based analysis, such as rating trends over time. |
-| **MovieId** | A unique identifier for each movie in the Netflix dataset. | Integer | 1 | Used to group ratings by movie and calculate movie-level statistics. |
+| Column Name | Data Type | Description |
+|---|---|---|
+| `CustId` | int64 | Unique customer identifier for each user |
+| `Rating` | int64 | Rating value given by the user, ranging from 1 to 5 |
+| `Date` | object | Date on which the rating was recorded |
+| `MovieId` | int64 | Unique identifier for each movie |
 
 This dataset contains over 100 million Netflix user ratings. Each record captures a customer ID, the movie they rated, the rating they gave (1–5), and the date of the rating. Its scale and diversity of column types make it ideal for evaluating big data handling strategies.
 
