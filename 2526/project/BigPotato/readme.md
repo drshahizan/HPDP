@@ -244,8 +244,11 @@ BigPotato/
 ## 🎓 Course Information
 
 **Course:** SECP3133 High Performance Data Processing
+
 **Lecturer:** Dr. Seah Choon Sean
+
 **Faculty:** Faculty of Computing, Universiti Teknologi Malaysia
+
 **Semester:** Semester 2 2025/2026
 
 ---
