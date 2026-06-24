@@ -9,7 +9,7 @@
     <th>Matric Number</th>
   </tr>
   <tr>
-    <td width=80%>DMUHAMMAD NAIM BIN ABDULLAH</td>
+    <td width=80%>MUHAMMAD NAIM BIN ABDULLAH</td>
     <td>A23CS0138</td>
   </tr>
   <tr>
