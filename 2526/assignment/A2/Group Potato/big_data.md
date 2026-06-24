@@ -755,7 +755,6 @@ Overall, each strategy solves a different big data challenge. Loading less data 
 
 To compare all three libraries fairly, we ran the same task on each one: calculating the average movie rating grouped by `MovieId` across the full 100 million row dataset. We measured memory usage, loading time, and processing time separately for each library.
 
----
 
 ### 6.1 Memory Usage
 
