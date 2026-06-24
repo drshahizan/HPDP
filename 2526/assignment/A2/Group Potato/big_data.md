@@ -21,6 +21,15 @@
 | **Total Records** | 100,480,507 rows |
 | **Number of Columns** | 4 (CustId, Rating, Date, MovieId) |
 
+### Data Dictionary
+
+| Column | Description | Data Type | Example | Purpose |
+|---|---|---|---|---|
+| **CustId** | A unique identifier for each Netflix customer who gave a rating. | Integer | 1488844 | Used to identify which customer provided the rating. |
+| **Rating** | The rating score given by the customer for a movie. The value ranges from 1 to 5. | Integer | 3 | Used to measure user satisfaction and calculate average movie ratings. |
+| **Date** | The date when the customer rating was recorded. | Date / Object before optimisation | 2005-09-06 | Used for time-based analysis, such as rating trends over time. |
+| **MovieId** | A unique identifier for each movie in the Netflix dataset. | Integer | 1 | Used to group ratings by movie and calculate movie-level statistics. |
+
 This dataset contains over 100 million Netflix user ratings. Each record captures a customer ID, the movie they rated, the rating they gave (1–5), and the date of the rating. Its scale and diversity of column types make it ideal for evaluating big data handling strategies.
 
 ---
@@ -32,6 +41,9 @@ This dataset contains over 100 million Netflix user ratings. Each record capture
 | **Pandas** (Library 1) | Baseline — single-threaded, in-memory data processing |
 | **Dask** (Library 2) | Scalable — partitioned, parallel processing for out-of-memory datasets |
 | **Polars** (Library 3) | Scalable — Rust-based engine with lazy evaluation and multi-threading |
+
+**Why Pandas?**  
+Pandas is used as the baseline library because it is simple, widely used, and easy to understand for data analysis in Python. It provides a familiar DataFrame structure and many built-in functions for loading, filtering, grouping, and summarising data. In this assignment, Pandas is useful for showing the normal in-memory processing approach before comparing it with more scalable libraries such as Dask and Polars. However, because Pandas loads the full dataset into RAM, it may face memory limitations when handling very large datasets.
 
 **Why Dask?**
 Dask mirrors the Pandas API but splits data into partitions and processes them in parallel across CPU cores. It is well suited for datasets that exceed available RAM and supports distributed computing, making it a natural upgrade path from Pandas for very large-scale workloads.
