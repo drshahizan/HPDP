@@ -581,8 +581,6 @@ Memory saving     : 17.16 MB
 **Discussion:** <br>
 The sample processed 4.4 times faster with significantly lower memory usage. However, results from the sample may differ slightly from the full dataset — rare movies with very few ratings may not appear in the sample at all. For this dataset, sampling is most useful during the development phase when testing groupby logic, visualisations, or filtering conditions. Final conclusions should always be drawn from the full dataset.
 
-Overall, data type optimisation is not mainly used to improve loading speed. Instead, it is used to reduce long-term memory usage so that downstream processing becomes more efficient.
-
 ---
 
 ### 5.5 Strategy 5: Parallel Processing with Scalable Libraries
@@ -828,7 +826,7 @@ This table shows how much RAM each library used when processing the full dataset
 | **Polars** | 4,067.52 | Lazy evaluation reduces unnecessary memory use |
 
 **Comparison Charts** <br>
-The charts below visualise the execution time differences between the three libraries.
+The chart below visualises the memory usage differences between the three libraries.
 ![Comparison Charts](images/memory_usage_comparison.png)
 
 **Discussion:**  <br>
@@ -892,7 +890,7 @@ Dask successfully reduced memory usage to 1,735.06 MiB by processing the dataset
 
 Polars was the strongest performer in terms of speed. It completed the same full-dataset aggregation in 14.4207 seconds, making it approximately 4.95× faster than Pandas and 4.47× faster than Dask while maintaining reasonable memory usage.
 
-### Reflection on Learning
+### 7.2 Reflection on Learning
 
 #### Lau Yee Wen
 Through this assignment, I was able to learn and explore new data processing libraries, specifically Dask and Polars, in addition to Pandas which I was already familiar with. This experience helped me understand that different libraries have different strengths when handling large-scale datasets.
