@@ -768,7 +768,7 @@ Overall, each strategy addresses a different big data challenge. Load Less Data 
 
 ## 6. Comparative Analysis
 
-## 6.1 Strategy Performance Comparison
+### 6.1 Strategy Performance Comparison
 
 To evaluate the effectiveness of each big data handling strategy, the execution time and memory usage were compared against the Pandas baseline.
 
@@ -811,7 +811,7 @@ Overall, no single strategy is universally superior. Each strategy addresses a d
 
 ---
 
-## 6.2 Library Comparison (Pandas vs Dask vs Polars)
+### 6.2 Library Comparison (Pandas vs Dask vs Polars)
 To compare all three libraries fairly, we ran the same task on each one: calculating the average movie rating grouped by `MovieId` across the full 100 million row dataset. We measured memory usage, loading time, and processing time separately for each library.
 
 
@@ -830,7 +830,7 @@ The chart below visualises the memory usage differences between the three librar
 ![Comparison Charts](images/memory_usage_comparison.png)
 
 **Discussion:**  <br>
-Dask used the least memory because it never loads the whole file at once — it works on one partition at a time. Pandas used the most memory by far because it has to hold all 100 million rows in RAM before doing anything. Polars sits in the middle — it is smarter than Pandas but still needs to bring the data into memory during execution.
+Dask used the least memory because it never loads the whole file at once — it works on one partition at a time. Pandas used the most memory by far because it has to hold all 100 million rows in RAM before doing anything. Polars sits in the middle because its lazy execution reduces unnecessary work, but it still requires memory during the actual execution stage.
 
 ---
 
