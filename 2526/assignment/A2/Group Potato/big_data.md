@@ -737,6 +737,20 @@ Polars delivers the fastest speed, Dask provides optimal memory efficiency throu
 
 ---
 
+### 5.6 Strategy Comparison Summary
+
+| Strategy | Main Purpose | How It Works | Best Used When | Advantage | Limitation |
+|---|---|---|---|---|---|
+| **Strategy 1: Load Less Data** | Reduce memory usage during data loading | Only selected columns are loaded using `usecols` | Only certain columns are needed for analysis | Simple and gives immediate memory reduction | Not useful if all columns are required |
+| **Strategy 2: Chunking** | Process large files without loading everything into RAM | The dataset is read and processed in smaller chunks | The dataset is too large to fit into memory | Very low memory usage | Slower because the file is read repeatedly in parts |
+| **Strategy 3: Data Type Optimisation** | Reduce memory usage by changing data types | Large default data types are downcast to smaller suitable types | Column value ranges are known | Huge memory saving without removing data | May add slight loading overhead due to type conversion |
+| **Strategy 4: Sampling** | Speed up development and testing | A smaller random subset of data is selected | Testing code, logic, or visualisations before full processing | Fast and requires less memory | Sample results may not fully represent the complete dataset |
+| **Strategy 5: Parallel Processing** | Improve scalability and processing performance | Dask and Polars use partitioning, lazy execution, or multi-threading | Processing very large datasets or comparing scalable libraries | Can handle larger data and improve performance | Performance depends on library, hardware, and environment |
+
+Overall, each strategy solves a different big data challenge. Loading less data and data type optimisation are the most practical first steps because they immediately reduce memory usage. Chunking is useful when the full dataset cannot fit into RAM, while sampling helps during early development. Parallel processing with scalable libraries such as Dask and Polars provides better options for handling large datasets more efficiently.
+
+---
+
 ## 6. Comparative Analysis
 
 To compare all three libraries fairly, we ran the same task on each one: calculating the average movie rating grouped by `MovieId` across the full 100 million row dataset. We measured memory usage, loading time, and processing time separately for each library.
