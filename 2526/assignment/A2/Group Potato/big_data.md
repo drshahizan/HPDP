@@ -43,7 +43,7 @@ This dataset contains over 100 million Netflix user ratings. Each record capture
 | **Polars** (Library 3) | Scalable — Rust-based engine with lazy evaluation and multi-threading |
 
 **Why Pandas?**  
-Pandas is used as the baseline library because it is simple, widely used, and easy to understand for data analysis in Python. It provides a familiar DataFrame structure and many built-in functions for loading, filtering, grouping, and summarising data. In this assignment, Pandas is useful for showing the normal in-memory processing approach before comparing it with more scalable libraries such as Dask and Polars. However, because Pandas loads the full dataset into RAM, it may face memory limitations when handling very large datasets.
+Pandas is used as the baseline library because it is simple, familiar, and widely used for Python data analysis. It helps show the normal in-memory processing approach before comparing it with more scalable libraries such as Dask and Polars.
 
 **Why Dask?**
 Dask mirrors the Pandas API but splits data into partitions and processes them in parallel across CPU cores. It is well suited for datasets that exceed available RAM and supports distributed computing, making it a natural upgrade path from Pandas for very large-scale workloads.
