@@ -469,6 +469,7 @@ Memory reduced    : 81.9%
 Load time overhead: +0.3008s (due to type casting at load)
 ```
 
+
 #### Strategy 3 Results
 
 | Metric | Before Optimisation | After Optimisation |
@@ -484,11 +485,14 @@ Load time overhead: +0.3008s (due to type casting at load)
 **Discussion:** <br>
 **Memory Reduction: 81.9%**
 
-Data type optimisation reduced the DataFrame size from 39.58 MB to 7.15 MB, achieving an 81.9% reduction by downcasting each column to its smallest fitting type. The `Rating` column alone decreased from 8 bytes per value (int64) to just 1 byte (int8), since ratings only range from 1 to 5.
+Data type optimisation reduced the DataFrame size from 39.58 MB to 7.15 MB, achieving an 81.9% reduction by downcasting each column to its smallest suitable data type. The `Rating` column alone decreased from 8 bytes per value (`int64`) to just 1 byte (`int8`), since ratings only range from 1 to 5.
 
-**Note on load time:** The optimised load was slightly slower by 0.3008 seconds because Pandas performs additional work during loading. These include casting each column to the specified type and parsing the `Date` column into datetime64 format. This small upfront cost is worthwhile because all subsequent operations on the optimised DataFrame will be faster and consume significantly less memory.
+**Note on load time:**  
+The optimised load was slightly slower by 0.3008 seconds because Pandas performs additional work during loading. This includes casting each column to the specified data type and parsing the `Date` column into `datetime64` format.
 
-This trade-off is an important insight. Data type optimisation is not intended to improve loading speed. Instead, it focuses on reducing long term memory usage so that downstream processing becomes more efficient and scalable.
+This small upfront cost is worthwhile because all subsequent operations on the optimised DataFrame will consume significantly less memory and become more scalable.
+
+Overall, data type optimisation is not mainly used to improve loading speed. Instead, it is used to reduce long-term memory usage so that downstream processing becomes more efficient.
 
 ---
 
@@ -558,10 +562,10 @@ print(f"Memory saving     : {mem_full - mem_sample:.2f} MB")
 
 ```
 === Performance Comparison ===
-Full data    — Time: 0.0241s | Peak RAM: 19.95 MB
-Sampled data — Time: 0.0043s | Peak RAM: 2.79 MB
+Full data    — Time: 0.0237s | Peak RAM: 19.95 MB
+Sampled data — Time: 0.0054s | Peak RAM: 2.79 MB
 
-Speed improvement : 5.6x faster
+Speed improvement : 4.4x faster
 Memory saving     : 17.16 MB
 ```
 
@@ -577,26 +581,30 @@ Memory saving     : 17.16 MB
 **Discussion:** <br>
 The sample processed 4.4 times faster with significantly lower memory usage. However, results from the sample may differ slightly from the full dataset — rare movies with very few ratings may not appear in the sample at all. For this dataset, sampling is most useful during the development phase when testing groupby logic, visualisations, or filtering conditions. Final conclusions should always be drawn from the full dataset.
 
+Overall, data type optimisation is not mainly used to improve loading speed. Instead, it is used to reduce long-term memory usage so that downstream processing becomes more efficient.
+
 ---
 
 ### 5.5 Strategy 5: Parallel Processing with Scalable Libraries
 
 **Explanation:** <br>
-Standard Pandas operations are single-threaded — they use only one CPU core at a time, leaving the rest of the processor idle. Scalable libraries solve this by distributing work across multiple cores simultaneously.
+Standard Pandas operations are mainly single-threaded, meaning they typically use only one CPU core at a time. Scalable libraries solve this limitation by distributing work across partitions or using multi-threaded execution.
 
-In this strategy, we run the same aggregation operation (average movie rating grouped by MovieId) across all three libraries and measure each one.
+In this strategy, the same aggregation operation was executed using Pandas, Dask, and Polars.
+
+**Operation tested:** Calculate the average movie rating grouped by `MovieId`.
 
 | Library | Approach |
 |---|---|
-| **Pandas** | Single-threaded, loads full data into RAM |
-| **Dask** | Breaks data into partitions, processes in parallel |
-| **Polars** | Rust-based engine, vectorised + multi-threaded |
+| **Pandas** | Single-machine, in-memory dataframe processing |
+| **Dask** | Partitioned dataframe processing with lazy execution |
+| **Polars** | Rust-based lazy execution with multi-threading |
 
 #### Pandas — Initial Attempt and Why It Failed
 
 Our first attempt was to load the full dataset using Pandas without any optimisation. This caused the Google Colab session to crash due to memory exhaustion.
 
-This is not a mistake. It is the core problem that this assignment exists to solve. Pandas loads the entire dataset into RAM at once. With a 2585 MB CSV file and Colab's limited free-tier RAM (~12 GB), the memory overhead of default int64 types caused an out-of-memory error.
+This is not a mistake. It is the core problem that this assignment exists to solve. Pandas loads the entire dataset into RAM at once. With a 2585 MB CSV file and Colab's limited free-tier RAM, the memory overhead of default data types caused an out-of-memory issue.
 
 **Solution:** We combined Strategy 1 (load selected columns only) and Strategy 3 (optimised data types) to make the Pandas baseline viable. This reflects a realistic scenario, as large datasets should not be loaded using default settings in practical applications.
 
@@ -635,12 +643,12 @@ print(f"Peak Memory     : {mem_pandas_val:.2f} MiB")
 
 **Output:**
 
-```
+```text
 === PANDAS ===
-Load Time       : 58.4377s
-Processing Time : 2.6066s
-Total Time      : 61.0443s
-Peak Memory     : 10110.31 MiB
+Load Time       : 68.0615s
+Processing Time : 3.2745s
+Total Time      : 71.3360s
+Peak Memory     : 10144.82 MiB
 ```
 
 ```python
@@ -674,12 +682,12 @@ print(f"Peak Memory     : {mem_dask_val:.2f} MiB")
 
 **Output:**
 
-```
+```text
 === DASK ===
-Load Time       : 0.3375s
-Processing Time : 61.3795s
-Total Time      : 61.7170s
-Peak Memory     : 1715.29 MiB
+Load Time       : 0.2712s
+Processing Time : 64.1650s
+Total Time      : 64.4362s
+Peak Memory     : 1735.06 MiB
 ```
 
 ```python
@@ -719,23 +727,33 @@ print(f"Peak Memory     : {mem_polars_val:.2f} MiB")
 
 **Output:**
 
-```
+```text
 === POLARS ===
-Load Time       : 0.0765s
-Processing Time : 13.4427s
-Total Time      : 13.5192s
-Peak Memory     : 4027.48 MiB
+Load Time       : 0.0716s
+Processing Time : 14.3490s
+Total Time      : 14.4207s
+Peak Memory     : 4067.52 MiB
 ```
 
-#### Strategy 5 Results <br>
-**Discussion:** <br>
-**Polars** achieved the fastest total execution time at 13.52 seconds — approximately **4.5× faster than both Pandas and Dask**. <br>
-**Dask** consumed the least memory (1,715 MiB) by processing data in partitions rather than loading everything at once. <br>
-**Pandas** required the most memory (10,110 MiB) as it holds the entire dataset in RAM simultaneously.
+#### Strategy 5 Results
 
-Polars delivers the fastest speed, Dask provides optimal memory efficiency through partitioned processing whereas Pandas remains the slowest and most resource-intensive option.
+| Library | Loading Time (s) | Processing Time (s) | Total Time (s) | Peak Memory (MiB) |
+|---|---:|---:|---:|---:|
+| **Pandas** | 68.0615 | 3.2745 | 71.3360 | 10,144.82 |
+| **Dask** | 0.2712 | 64.1650 | 64.4362 | 1,735.06 |
+| **Polars** | 0.0716 | 14.3490 | **14.4207** | 4,067.52 |
+
+**Discussion:** <br>
+**Polars** achieved the fastest total execution time at **14.4207 seconds**. It was approximately **4.95× faster than Pandas** and **4.47× faster than Dask**.
+
+**Dask** consumed the least memory at **1,735.06 MiB** because it processed the dataset in partitions rather than loading everything into memory at once.
+
+**Pandas** required the most memory at **10,144.82 MiB** because it loaded the dataset directly into RAM.
+
+Overall, Polars delivered the best execution speed, Dask provided the best memory efficiency, and Pandas remained the most memory-intensive option.
 
 ---
+
 ### 5.6 Strategy Comparison Summary
 
 | Strategy | Purpose | Main Advantage | Main Limitation |
@@ -836,22 +854,15 @@ The charts below visualise the execution time differences between the three libr
 Polars was the clear winner with a total time of 14.4207 seconds. It was approximately 4.95× faster than Pandas and 4.47× faster than Dask. Pandas had the slowest loading time because it reads the file directly into memory. Dask loaded almost instantly due to lazy evaluation, but its processing stage took longer because of scheduling and partition management overhead. Polars was fast overall because its lazy scan and Rust-based execution engine efficiently optimised the aggregation task.
 
 ---
-
 ### 6.3 Critical Discussion of Findings
 
-Looking at the numbers alone is not enough, we need to understand why each library behaved the way it did.
+Looking at the numbers alone is not enough. It is important to understand why each library behaved the way it did.
 
-<br>
+**Pandas** loads the dataset directly into RAM before processing. For a 2,585 MB CSV file with over 100 million rows, this creates a heavy memory burden. Without the column selection and data type optimisations applied in Strategies 1 and 3, Pandas could not process the full dataset reliably in Google Colab. Even after optimisation, Pandas still used **10,144.82 MiB** of memory, which shows the limitation of in-memory processing for large-scale datasets.
 
-**Pandas** loads the entire dataset into RAM before doing any work. For a 2,585 MB file with default int64 types, this means all 100 million rows have to exist in memory at the same time. Without the column selection and data type optimisations we applied in Strategies 1 and 3, Pandas crashed completely. Even with those fixes, it still used over 10,000 MiB which is about more than 5× what Dask needed. This shows that Pandas was simply not designed for datasets at this scale.
+**Dask's** `read_csv` is lazy. It does not actually read the file immediately. Instead, Dask creates a task graph and performs the real computation only when `.compute()` is called. This explains why Dask had a very short loading time of **0.2712 seconds**, but a much longer processing time of **64.1650 seconds**. Although Dask was not the fastest in this single-machine environment, it used the lowest memory at **1,735.06 MiB**, making it suitable for large or distributed workloads.
 
-<br>
-
-**Dask's** `read_csv` is lazy. It does not actually read the file when you call it. It only scans the headers and builds a plan. The real work happens when you call `.compute()`. That is why loading appears near-instant (0.34s) but processing takes a long time (61.38s). The 61 seconds comes from Dask having to schedule and coordinate 1,000+ partitions across the CPU. On a single machine with limited cores (like Google Colab), this coordination overhead actually slows things down. Dask's real advantage comes out in distributed environments across many machines or with much larger datasets that truly cannot fit into RAM at all.
-
-<br>
-
-**Polars** is written in Rust, which is a lower-level language than Python and runs much closer to the hardware. When we called `scan_csv`, Polars also worked lazily. However before executing, its built-in query optimiser decided the most efficient way to run the aggregation. On top of that, Polars used SIMD (Single Instruction Multiple Data) vectorisation, which processes multiple data values in a single CPU operation. All of this means Polars can do in 13 seconds what takes Pandas and Dask over a minute.
+**Polars** is written in Rust and uses a lazy execution engine. When `scan_csv()` was used, Polars was able to optimise the query plan before executing the aggregation. Its built-in multi-threading and efficient execution engine allowed it to complete the same full-dataset aggregation in **14.4207 seconds**, making it the fastest library in this experiment.
 
 <br>
 
@@ -859,11 +870,13 @@ Looking at the numbers alone is not enough, we need to understand why each libra
 
 | Library | Ease of Use | Handles Full Dataset | Best Use Case |
 |---|---|---|---|
-| **Pandas** | Easiest | Only with optimisation applied | Small to medium datasets (<1 GB), prototyping |
-| **Dask** | Moderate | Yes | Very large or distributed datasets that exceed RAM |
-| **Polars** | Moderate | Yes | Fast single-machine processing of large datasets |
+| **Pandas** | Easiest | Only with optimisation applied | Small to medium datasets and quick prototyping |
+| **Dask** | Moderate | Yes | Very large or distributed datasets that exceed memory limits |
+| **Polars** | Moderate | Yes | Fast single-machine processing of large analytical workloads |
+
 <br>
-The honest conclusion is that there is no single best library for every situation. Pandas is the easiest to use and perfectly fine for smaller data. Dask is choosed when data is too big to fit on one machine. Polars is the best option when you need speed on a single machine with a large dataset which is exactly the situation we had here.
+
+The conclusion is that there is no single best library for every situation. Pandas is easy to use and suitable for smaller datasets. Dask is preferred when the dataset is too large to fit into the memory of a single machine or when distributed processing is required. Polars is the best option in this experiment because it provided the fastest processing speed on a single machine while still maintaining reasonable memory usage.
 
 ---
 
