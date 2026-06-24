@@ -243,7 +243,7 @@ BigPotato/
 
 ## 🎓 Course Information
 
-**Course:** SECP3133 High Performance Data Processing
+**Course:** SECP3133 High Performance Data Processing Section 2
 
 **Lecturer:** Dr. Seah Choon Sean
 
