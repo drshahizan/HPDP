@@ -1,4 +1,3 @@
-````markdown
 # Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers
 
 ## Team Information
