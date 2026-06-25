@@ -145,7 +145,7 @@ Performance metrics collected:
 # Repository Structure
 
 ```text
-Project1/
+Phase1/
 │
 ├── data/
 │   ├── raw_data.json
@@ -159,11 +159,9 @@ Project1/
 │   ├── optimize_pipeline.ipynb
 │   └── evaluation_charts.ipynb
 │
-├── report/
-│   └── Final_Report.pdf
+├── HPDP Project1.pdf
 │
-├── slides/
-│   └── Presentation_Slides.pdf
+├── Presentation_Slides.pdf
 │
 └── README.md
 ```
