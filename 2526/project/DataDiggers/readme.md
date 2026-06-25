@@ -1,4 +1,6 @@
-# Group Details (DataDiggers)
+# Project 1 - Optimizing High-Performance Data Processing for Large-Scale Web Crawlers
+
+## Group Name: DataDiggers
 
 WEBSITE: [BERNAMA](https://www.bernama.com/en/)
 
