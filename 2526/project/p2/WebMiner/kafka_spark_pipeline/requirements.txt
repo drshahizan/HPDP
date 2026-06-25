@@ -1,0 +1,32 @@
+# ── Notebook runner ───────────────────────────────────────────
+papermill==2.5.0
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# ── Data & NLP (notebooks 01–05) ──────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+nltk==3.8.1
+matplotlib==3.8.4
+seaborn==0.13.2
+wordcloud==1.9.3
+plotly==5.21.0
+
+# ── Deep learning (notebook 03 — LSTM) ───────────────────────
+tensorflow==2.16.1          # or torch if LSTM notebook uses PyTorch
+keras==3.3.3
+
+# ── Transformers (notebook 04 — DistilBERT) ───────────────────
+transformers>=4.41.0        # 4.41+ renames evaluation_strategy to eval_strategy
+torch==2.3.0                # CPU-only; remove if GPU version installed separately
+datasets==2.19.1
+
+# ── Pipeline — Kafka ──────────────────────────────────────────
+kafka-python==2.0.2
+
+# ── Pipeline — Spark ──────────────────────────────────────────
+pyspark==3.4.2              # 3.5.x dropped stable Java 8 support
+
+# ── Pipeline — Elasticsearch ──────────────────────────────────
+elasticsearch==8.13.0
