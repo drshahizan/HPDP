@@ -65,15 +65,15 @@
     </td>
   </tr>
   <tr>
-    <td>Preprocess & Train Model (Model 1)</td>
+    <td>Preprocess & Train Model (Naive Bayes)</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="https://colab.research.google.com/drive/18O7z_diG7hXtPDPdvRMw9BPMm7f9i8t1?usp=sharing#scrollTo=Model_1_Naive_Bayes"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
-    <td>Preprocess & Train Model (Model 2)</td>
+    <td>Preprocess & Train Model (LSTM)</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="https://colab.research.google.com/drive/18O7z_diG7hXtPDPdvRMw9BPMm7f9i8t1?usp=sharing#scrollTo=Model_2_LSTM"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
