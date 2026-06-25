@@ -226,8 +226,28 @@ The raw review text collected from the Google Play Store was preprocessed throug
 ---
 
 ### 3.0 Sentiment Model Development
+This project developed a sentiment analysis model to classify Foodpanda customer reviews based on their opinions. Two different machine learning approaches were implemented and compared, which are Naive Bayes and LSTM Neural Network. The purpose of developing these models is to identify whether customer feedback shows positive, negative, or neutral sentiment.
 
 #### 3.1 Model Choice
+Two models were selected for sentiment classification:
+
+##### 1. Naive Bayes Classifier (Scikit-learn)
+
+Naive Bayes was selected as the baseline machine learning model because it is simple, fast, and commonly used for text classification problems.
+
+Before training, the review text was converted into numerical features using TF-IDF (Term Frequency-Inverse Document Frequency). TF-IDF helps the model identify important words from customer reviews by giving higher weight to meaningful words.
+
+The extracted features were then trained using the Multinomial Naive Bayes classifier to predict the sentiment category.
+
+##### 2. Long Short-Term Memory (LSTM) Neural Network (TensorFlow/Keras)
+
+LSTM was selected as the deep learning model because it can learn the sequence and relationship between words in a sentence.
+
+Unlike traditional machine learning methods, LSTM is able to capture patterns from the order of words in customer reviews.
+
+For this model, Review text was converted into sequences using Tokenizer, the sequences were padded into a fixed length, and the model used an Embedding layer, LSTM layer, Dropout layer, and Dense output layer for sentiment prediction.
+
+Both models were trained and evaluated to compare their performance in classifying customer sentiments.
 
 #### 3.2 Training Process
 
