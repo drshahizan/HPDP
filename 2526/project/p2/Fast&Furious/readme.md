@@ -82,14 +82,24 @@
 ---
 
 ## 📌 Introduction
+In the digital era, online platforms such as YouTube and social media have become important channels for people to express opinions on social issues, products, services, and government policies. These user-generated comments provide valuable insights into public sentiment and perception. Sentiment analysis, a Natural Language Processing (NLP) technique, is used to classify text into categories such as positive, negative, or neutral and is widely adopted by organizations and governments for data-driven decision making.
 
+With the introduction of Malaysia’s BUDI95 fuel subsidy policy, public discussions on YouTube have increased significantly, resulting in a large volume of continuously generated comments. This makes manual analysis inefficient and highlights the need for automated solutions. Although sentiment analysis models can classify opinions, many existing systems focus only on model development and ignore real-time processing requirements. In addition, performance may vary due to data complexity, multilingual content, and informal language commonly found in social media.
+
+To address these challenges, this project develops a real-time sentiment analysis pipeline using Apache Kafka and Apache Spark. YouTube comments related to the fuel subsidy policy are collected through web scraping, preprocessed using NLP techniques, and classified using both machine learning and transformer-based models. The results are then stored in Elasticsearch and visualized using Kibana, enabling real-time sentiment monitoring and analysis.
 
 ---
 
 ## 🎯 Objectives
 
 The primary goals of this project are:
-
+- To collect YouTube comments related to Malaysia’s fuel subsidy policies using web scraping techniques.  
+- To preprocess and clean textual data using Natural Language Processing techniques, including tokenization and stop-word removal.  
+- To develop and evaluate sentiment classification models using machine learning and transformer-based approaches.  
+- To compare model performance using evaluation metrics such as Accuracy, Precision, Recall, and F1-Score.  
+- To implement a real-time sentiment analysis pipeline using Apache Kafka and Apache Spark Structured Streaming.  
+- To store sentiment classification results in Elasticsearch and visualize the outputs using Kibana dashboards.  
+- To compare the performance of batch processing and streaming processing approaches.  
 
 ---
 
