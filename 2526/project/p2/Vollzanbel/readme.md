@@ -431,14 +431,13 @@ compared **Logistic Regression and LSTM**, and deployed the best model (Logistic
 
 ### 8.0 References
 
-1. Course: High Performance Data Processing (SECP3133), 2025/2026 Sem 2 &mdash; Project 2 Brief.
-2. CardiffNLP &mdash; `twitter-roberta-base-sentiment-latest`,
+1. CardiffNLP &mdash; `twitter-roberta-base-sentiment-latest`,
    https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest
-3. Apache Kafka &mdash; https://kafka.apache.org/
-4. Apache Spark (Structured Streaming) &mdash; https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
-5. Elasticsearch & Kibana &mdash; https://www.elastic.co/
-6. scikit-learn &mdash; https://scikit-learn.org/ &nbsp;|&nbsp; PyTorch &mdash; https://pytorch.org/
-7. `google-play-scraper` &mdash; https://pypi.org/project/google-play-scraper/
+2. Apache Kafka &mdash; https://kafka.apache.org/
+3. Apache Spark (Structured Streaming) &mdash; https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
+4. Elasticsearch & Kibana &mdash; https://www.elastic.co/
+5. scikit-learn &mdash; https://scikit-learn.org/ &nbsp;|&nbsp; PyTorch &mdash; https://pytorch.org/
+6. `google-play-scraper` &mdash; https://pypi.org/project/google-play-scraper/
 
 ---
 ### 9.0 Appendix
