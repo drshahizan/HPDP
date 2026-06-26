@@ -334,6 +334,143 @@ The entire compiled code is attached below :
 
 The raw Foodpanda review dataset was preprocessed using several Natural Language Processing (NLP) techniques to improve the quality and consistency of the text before training the sentiment classification models. The preprocessing process involved loading the dataset, cleaning the review text, tokenizing the words, removing stopwords, applying stemming and lemmatization, assigning sentiment labels, and exporting the processed dataset.
 
+The preprocessing script begins by importing the required Python libraries and loading the raw review dataset collected during the data acquisition stage.
+
+```python
+import pandas as pd
+import re
+import nltk
+import os
+
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+df = pd.read_csv("data/foodpanda_malaysia_reviews_raw.csv")
+```
+
+The required NLTK resources are downloaded before preprocessing.
+
+```python
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("omw-1.4")
+```
+
+ The code below ensures reviews without textual content are removed to ensure that only valid reviews are processed.
+
+```python
+TEXT_COLUMN = "review_text"
+df = df[df[TEXT_COLUMN].notna()]
+```
+
+Next, before preprocessing begins, the stopword list, stemmer, and lemmatizer are initialized.
+
+```python
+stop_words = set(stopwords.words("english"))
+stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
+```
+
+These components perform different NLP tasks :
+- **Stopwords** - Removes common English words (e.g., the, is, and)
+- **Porter Stemmer** - Reduces words to their root form
+- **WordNet Lemmatizer** - Converts words into their dictionary base form
+
+Then, the review text is standardized by converting all characters to lowercase, removing URLs, punctuation, numbers, special characters, and extra whitespace. This step standardizes the review text and removes unnecessary information that may negatively affect model performance.
+
+```python
+def clean_text(text):
+    text = str(text).lower()
+    text = re.sub(r"http\S+|www\S+", " ", text)
+    text = re.sub(r"[^a-zA-Z\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+```
+
+After cleaning, each review is split into individual words (tokens). Common English stopwords are removed, followed by stemming and lemmatization to reduce vocabulary size while preserving semantic meaning.
+
+```python
+def preprocess_text(text):
+
+    cleaned = clean_text(text)
+
+    tokens = cleaned.split()
+
+    tokens = [
+        word for word in tokens
+        if word not in stop_words and len(word) > 2
+    ]
+
+    stemmed_tokens = [stemmer.stem(word) for word in tokens]
+
+    lemmatized_tokens = [
+        lemmatizer.lemmatize(word)
+        for word in tokens
+    ]
+
+    return pd.Series({
+        "cleaned_text": cleaned,
+        "tokens": " ".join(tokens),
+        "stemmed_text": " ".join(stemmed_tokens),
+        "lemmatized_text": " ".join(lemmatized_tokens)
+    })
+```
+
+The preprocessing function is then applied to every review in the dataset.
+
+```python
+processed = df[TEXT_COLUMN].apply(preprocess_text)
+df = pd.concat([df, processed], axis=1)
+```
+
+An example of the transformation is shown below :
+
+| Stage | Output |
+|-------|--------|
+| **Original** | `The delivery was very fast!` |
+| **Cleaned** | `the delivery was very fast` |
+| **Tokens** | `["the", "delivery", "was", "very", "fast"]` |
+| **Stopwords Removed** | `["delivery", "fast"]` |
+| **Stemmed** | `deliver fast` |
+| **Lemmatized** | `delivery fast` |
+
+Since Google Play reviews do not provide sentiment labels, the review ratings are used to generate the target classes for supervised learning. As per the code, reviews with 1 or 2 stars are labelled as negative, reviews with 3 stars are labelled as neutral and reviews with 4 or 5 stars are labelled as positive.
+
+```python
+def label_sentiment(rating):
+
+    rating = int(rating)
+
+    if rating <= 2:
+        return "negative"
+
+    elif rating == 3:
+        return "neutral"
+
+    else:
+        return "positive"
+```
+
+To improve data quality, duplicate reviews are removed based on the lemmatized review text. Reviews with insufficient textual information are also excluded.
+
+```python
+df = df.drop_duplicates(subset=["lemmatized_text"])
+
+df = df[df["lemmatized_text"].str.len() > 5]
+```
+
+Finally, the processed dataset is exported as a CSV file.
+
+```python
+df.to_csv(
+    "data/foodpanda_reviews_preprocessed.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+```
+
+The resulting dataset, **foodpanda_reviews_preprocessed.csv**, contains the original review information together with the cleaned text, tokenized words, stemmed text, lemmatized text, and sentiment labels. This dataset serves as the input for the subsequent sentiment model development stage.
+
 #### 2.3 Tools
 
 Several open-source tools and libraries were used throughout the implementation of the project. Each technology performs a specific role within the sentiment analysis pipeline. The tools and its purposes are attached in the table below.
