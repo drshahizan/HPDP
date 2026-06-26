@@ -37,7 +37,7 @@
   <tr>
     <td>Report</td>
     <td align="center">
-      <a href="reports/HPDP_Project2.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
+      <a href="reports/HPDP_Project2_final_report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
