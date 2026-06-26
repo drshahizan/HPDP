@@ -336,10 +336,6 @@ The entire compiled code is attached below :
 
 Several open-source tools and libraries were used throughout the implementation of the project. Each technology performs a specific role within the sentiment analysis pipeline. The tools and its purposes are attached in the table below.
 
-## 🛠️ Tools and Technologies
-
-The following tools and technologies were used throughout the development of the real-time sentiment analysis pipeline.
-
 | Tool | Purpose |
 |------|---------|
 | **Python** | Primary programming language used for implementing the data scraping, preprocessing, machine learning models, Kafka producer, and Spark streaming applications. |
