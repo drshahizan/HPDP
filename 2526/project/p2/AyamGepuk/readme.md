@@ -71,7 +71,7 @@
   <tr>
     <td>Preprocess & Train Model (Model 2)</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="notebooks/Preprocess_%26_Train_Model_Naive_Bayes.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
