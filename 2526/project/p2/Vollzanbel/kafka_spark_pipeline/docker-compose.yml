@@ -1,0 +1,80 @@
+# HPDP Project 2 — real-time sentiment pipeline
+# Services: Kafka (KRaft) -> Spark Structured Streaming -> Elasticsearch -> Kibana
+#
+#   docker compose up -d kafka elasticsearch kibana   # start infra
+#   python producer.py                                # stream reviews (run on host)
+#   docker compose up spark                            # start the streaming classifier
+#
+services:
+  kafka:
+    image: apache/kafka:3.7.0
+    container_name: hpdp-kafka
+    ports:
+      - "9092:9092"            # host access (producer.py runs on host)
+    environment:
+      - KAFKA_NODE_ID=0
+      - KAFKA_PROCESS_ROLES=controller,broker
+      - KAFKA_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
+      - KAFKA_LISTENERS=PLAINTEXT://:29092,CONTROLLER://:9093,EXTERNAL://:9092
+      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:29092,EXTERNAL://localhost:9092
+      - KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
+      - KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER
+      - KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT
+      - KAFKA_AUTO_CREATE_TOPICS_ENABLE=true
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    container_name: hpdp-elasticsearch
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.13.4
+    container_name: hpdp-kibana
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  spark:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: hpdp-spark
+    depends_on:
+      kafka:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      - KAFKA_BOOTSTRAP=kafka:29092
+      - KAFKA_TOPIC=reviews
+      - ELASTIC_HOST=http://elasticsearch:9200
+      - ES_INDEX=sentiment_reviews
+    volumes:
+      - ../models:/app/models:ro              # trained model + vectorizer
+      - ./:/app/pipeline                       # spark_streaming.py, metrics out
+    command: >
+      spark-submit
+      --master local[*]
+      --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1
+      --conf spark.jars.ivy=/tmp/.ivy2
+      --conf spark.sql.shuffle.partitions=4
+      /app/pipeline/spark_streaming.py

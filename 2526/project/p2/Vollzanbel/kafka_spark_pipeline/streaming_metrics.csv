@@ -1,0 +1,5 @@
+batch_id,num_records,process_sec,throughput_rec_per_sec,avg_latency_sec,batch_accuracy
+6,32,1.1149,28.7,2.5844,0.9688
+7,6071,2.0896,2905.4,3.1381,0.9349
+8,7245,1.6529,4383.3,4.1642,0.9459
+9,3534,1.158,3051.8,5.4524,0.9437

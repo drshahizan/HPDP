@@ -1,0 +1,31 @@
+# HPDP Project 2 — Real-Time Sentiment Analysis
+# Python dependencies. Install with:
+#     pip install -r requirements.txt
+# (the project itself was developed with uv: `uv sync`)
+
+# --- Data & machine learning ---
+pandas==3.0.3
+numpy==2.5.0
+scipy==1.18.0
+scikit-learn==1.9.0
+joblib==1.5.3
+
+# --- Deep learning (LSTM model) ---
+torch==2.12.1
+
+# --- Sentiment labelling (pretrained model, preprocessing stage) ---
+transformers==5.12.1
+
+# --- Visualization ---
+matplotlib==3.11.0
+seaborn==0.13.2
+
+# --- Notebook / model training ---
+ipykernel==7.3.0
+jupyter==1.1.1
+nbformat==5.10.4
+nbconvert==7.17.1
+
+# --- Streaming pipeline ---
+kafka-python==3.0.5
+elasticsearch==8.13.1

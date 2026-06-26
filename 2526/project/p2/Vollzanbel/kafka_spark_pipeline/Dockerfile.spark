@@ -1,0 +1,14 @@
+# Spark image with the Python libraries needed to run the saved scikit-learn
+# model inside the Structured Streaming job.
+FROM bitnamilegacy/spark:3.5.1
+
+USER root
+# Pin scikit-learn to the training version so the pickled model unpickles cleanly.
+RUN pip install --no-cache-dir \
+        "scikit-learn==1.9.0" \
+        "scipy" \
+        "numpy" \
+        "pandas" \
+        "joblib" \
+        "elasticsearch==8.13.1"
+USER 1001
