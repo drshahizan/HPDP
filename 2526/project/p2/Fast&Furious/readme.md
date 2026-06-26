@@ -38,7 +38,7 @@
   <tr>
     <td>Report</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Fast%26Furious/reports/Final_Report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href="https://youtu.be/EY0r6jGFGqY?si=8LtOilehTcim6CJN"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+      <a href=""><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
@@ -76,6 +76,15 @@
     <td align="center">
       <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Fast%26Furious/notebooks/model_training.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
+  </tr>
+    <tr>
+    <td>Kafka Spark Pipeline</td>
+    <td align="center">
+      <a href="https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Fast%26Furious/kafka_spark_pipeline"><img width=24px alt="image" src="https://github.com/user-attachments/assets/94653bd8-d182-4344-add6-e579077b2299" />
+
+</a>
+    </td>
+
   </tr>
 </table>
 
