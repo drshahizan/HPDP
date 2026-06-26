@@ -1,7 +1,11 @@
 <h1 align="center"> 
-  TripleA - Malaysian Food Real Time Sentiment Analysis
+  TripleA - Real-Time Malaysian Food Sentiment Analysis Using Apache Spark and Kafka
   <br>
 </h1>
+
+<p align="center">
+Real-time sentiment analysis of Malaysian food-related YouTube comments using Apache Kafka, Apache Spark Structured Streaming and a deep learning LSTM model.
+</p>
 
 <table align="center">
   <tr>
@@ -23,106 +27,122 @@
 </table>
 <br>
 
----
+# Project Overview
+This project develops a real-time sentiment analysis system for Malaysian food-related YouTube comments. The project consists of three main stages:
 
-### Links for related documents:
-<table>
-  <tr>
-    <th>Documents</th>
-    <th>Links</th>
-  </tr>
-  <tr>
-    <td>Report</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Presentation Slides</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/c09e2ce5-80ce-4236-9508-c65d1f079cda" width=25px height=23px？</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Presentation Video</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Raw Data</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Cleaned Data</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px？</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Preprocess & Train Model using LSTM</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Preprocess & Train Model using Naive Bayes</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Preprocess & Train Model using Hugging Face Transformer</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Full and Complete Code in our Repository</td>
-    <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/2e0abbaa-3b7f-450f-92f6-41fd0e6e4dad" width=24px height=23px></a>
-    </td>
-  </tr>
-</table>
+1. **Data Acquisition and Preprocessing**
+   - Collect comments from YouTube using the YouTube Data API.
+   - Clean, filter, translate and automatically label the collected comments.
 
----
+2. **Sentiment Model Development**
+   - Train and evaluate sentiment classification models.
+   - Select the best-performing model for deployment.
 
-## Table of Contents
+3. **Sentiment Analysis Pipelines**
+   - **Streaming Pipeline** using Apache Kafka and Apache Spark Structured Streaming.
+   - **Batch Pipeline** for offline processing and performance comparison.
 
-### 1.0 Introduction
-- [1.1 Background](#11-background)
-- [1.2 Objectives](#12-objectives)
-- [1.3 Scope](#13-scope)
+# Project Architecture
+![Project Architecture](/report/project_architecture.png)
 
-### 2.0 Data Acquisition & Preprocessing
-- [2.1 Sources](#21-sources)
-- [2.2 Tools](#22-tools)
-- [2.3 Cleaning Steps](#23-cleaning-steps)
+# Tools and Frameworks
 
-### 3.0 Sentiment Model Development
-- [3.1 Model Choice](#31-model-choice)
-- [3.2 Training Process](#32-training-process)
-- [3.3 Evaluation](#33-evaluation)
+| Purpose | Framework / Library |
+|---------|---------------------|
+| Programming Language | Python |
+| Data Collection | YouTube Data API |
+| Data Processing | Pandas |
+| Natural Language Processing | TensorFlow, Keras |
+| Automatic Labelling | Hugging Face Transformers |
+| Streaming Platform | Apache Kafka |
+| Stream Processing | Apache Spark Structured Streaming |
+| Search & Storage | Elasticsearch |
+| Dashboard | Kibana |
+| Containerisation | Docker |
+| Version Control | GitHub |
 
-### 4.0 Apache System Architecture
-- [4.0 Apache System Architecture](#40-apache-system-architecture)
-  
-### 5.0 Analysis & Results
-- [5.1 Key Findings](#51-key-findings)
-- [5.2 Visualizations](#52-visualizations)
-- [5.3 Insights](#53-insights)
 
-### 6.0 Optimisation & Comparison
-- [6.0 Optimisation & Comparison](#60-optimisation--comparison)
+# Project Structure
+📁 TripleA  
+│  
+├── 📁 data/  
+│   ├── 📄 [latest_malaysia_food_comments.csv](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/TripleA/data/latest_malaysia_food_comments.csv) - Food comments collected via YouTube API    
+│   ├── 📄 [labeled_comments_clean.csv](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/data/labeled_comments_clean.csv) - Cleaned labelled comments    
+│  
+├── 📁 notebooks/  
+│   ├── 📓 [data_collection.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebooks/data_collection.ipynb) - Collects raw comments from YouTube    
+│   ├── 📓 [preprocess_training_data.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebooks/description_crawler.ipynb) - Preprocess and labels the collected comments     
+│   ├── 📓 [model_training.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebook/model_training.ipynb) - Trains two sentiment models and selects the best performing model             
+│  
+├── 📁 kafka_spark_pipeline/  
+│   ├── 📄 [docker-compose.yml](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/docker-compose.yml)  
+│   ├── 📄 [model_loader.py](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/model_loader.py)    
+│   ├── 📄 [stream_producer.py](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/stream_producer.py)    
+│   ├── 📄 [stream_spark.py](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/stream_spark.py)    
+│   ├── 📄 [batch_scrape.py](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/batch_scrape.py)    
+│   ├── 📄 [batch_sentiment.py](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/batch_sentiment.py)    
+│  
+├── 📁 report/  
+│   └── 📄 [Final_Report.pdf](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/report/Final_Report.pdf)  
+│  
+├── 📄 README.md  
+└── 📄 requirements.txt  
 
-### 7.0 Conclusion & Future Work
-- [7.0 Conclusion & Future Work](#70-conclusion--future-work)
+# Execution Flow
+The project was executed in the following order:
 
-### 8.0 References
-- [8.0 References](#80-references)
+```mermaid
+flowchart LR
+A[data_collection.ipynb]
+-->B[preprocess_training_data.ipynb]
+-->C[model_training.ipynb]
+-->D[docker-compose.yml]
+-->E[stream_spark.py]
+-->F[stream_producer.py]
+```
 
-### 9.0 Appendix
-- [9.0 Appendix](#90-appendix)
----
+# Data Acquisition and Preprocessing
+| Description | Value |
+|------------|------:|
+| Raw Comments Collected | 37,932 |
+| Comments After Cleaning | 32,368 |
+| High-Confidence Labelled Comments | 25,315 |
+| Final Food-related Dataset | 9,037 |
+
+# Sentiment Model Development
+| Model | Accuracy | Precision | Recall | F1-Score |
+|------|---------:|----------:|-------:|---------:|
+| Naive Bayes | 0.6911 | 0.6865 | 0.6911 | 0.6833 |
+| **LSTM** | **0.7311** | **0.7283** | **0.7311** | **0.7276** |
+
+Best model selected: LSTM
+
+# Streaming Pipeline
+
+```mermaid
+flowchart LR
+
+A[YouTube API]
+-->B[Kafka Producer]
+-->C[Kafka Topic]
+-->D[Spark Structured Streaming]
+-->E[Language Detection]
+-->F[Translation]
+-->G[LSTM Prediction]
+-->H[Elasticsearch]
+-->I[Kibana Dashboard]
+```
+
+# Batch Pipeline
+
+```mermaid
+flowchart LR
+
+A[YouTube API]
+-->B[CSV File]
+-->C[Language Detection]
+-->D[Translation]
+-->E[LSTM Prediction]
+-->F[Elasticsearch]
+-->G[Kibana Dashboard]
+```
