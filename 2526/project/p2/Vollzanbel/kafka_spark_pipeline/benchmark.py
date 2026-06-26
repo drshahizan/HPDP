@@ -31,7 +31,7 @@ def run_batch():
     id2label = {int(k): v for k, v in
                 json.loads((MODELS / "label_map.json").read_text())["id2label"].items()}
 
-    df = pd.read_csv(ROOT / "cleaned_data.csv")
+    df = pd.read_csv(ROOT / "data" / "cleaned_data.csv")
     df = df[df["cleaned_text"].notna()].copy()
     texts = df["cleaned_text"].tolist()
 

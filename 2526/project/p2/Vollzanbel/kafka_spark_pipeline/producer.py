@@ -17,7 +17,7 @@ import pandas as pd
 from kafka import KafkaProducer
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "cleaned_data.csv"
+DATA = ROOT / "data" / "cleaned_data.csv"
 
 FIELDS = ["review_id", "app_name", "cleaned_text", "rating",
           "review_date", "sentiment_label"]  # sentiment_label = ground truth, for accuracy checks
