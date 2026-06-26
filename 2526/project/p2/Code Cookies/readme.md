@@ -931,19 +931,32 @@ Overall, the project demonstrates how machine learning, real-time data streaming
 
 ### 8.0 References
 
+Apache Kafka. (n.d.). *Apache Kafka documentation*. Apache Software Foundation. Retrieved June 26, 2026, from https://kafka.apache.org/documentation/
+
+Apache Spark. (n.d.). *Structured Streaming programming guide*. Apache Software Foundation. Retrieved June 26, 2026, from https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
+
+Docker. (n.d.). *What is Docker?* Docker Docs. Retrieved June 26, 2026, from https://docs.docker.com/get-started/docker-overview/
+
+Elastic. (n.d.). *Dashboards*. Elastic Docs. Retrieved June 26, 2026, from https://www.elastic.co/docs/explore-analyze/dashboards
+
+Google Play Scraper. (n.d.). *google-play-scraper*. PyPI. Retrieved June 26, 2026, from https://pypi.org/project/google-play-scraper/
+
 ---
 
 ### 9.0 Appendix
 
 <img width="1077" height="528" alt="image" src="https://github.com/user-attachments/assets/0d3eea23-2ee0-4aef-ba9d-85da64a065d1" />
+
 Appendix A: Foodpanda Customer Review Sentiment Dashboard
 
 <img width="380" height="651" alt="image" src="https://github.com/user-attachments/assets/d26bd81f-f2c9-4a4e-a361-0078a92bac8e" />
 <img width="745" height="267" alt="image" src="https://github.com/user-attachments/assets/2dfc91ea-467e-46b7-8b2d-12766edd31f3" />
+
 Appendix B: Foodpanda Reviews Data Collection Code
 
 <img width="385" height="603" alt="image" src="https://github.com/user-attachments/assets/bf256ab7-6fe5-4a69-b766-c19470642f6e" />
 <img width="558" height="422" alt="image" src="https://github.com/user-attachments/assets/b457452e-6864-4a5f-b047-b7683368f78d" />
+
 Appendix C: Foodpanda Reviews Data Preprocessing Code
 
 
