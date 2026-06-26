@@ -162,38 +162,25 @@ The scope of this project includes the following components:
 
 #### 2.1 Sources
 
-Reviews were collected from the official **TNG eWallet listing on the Google Play Store** using the `google-play-scraper` Python library. The scraper was configured to target English-language reviews from Malaysian users (`lang='en'`, `country='my'`), sorted by newest first.
+The dataset used in this project consists of customer reviews collected from the official Foodpanda application available on the Google Play Store. Foodpanda was selected because it is one of the most widely used food delivery platforms in Malaysia, with a large number of active users who continuously provide feedback regarding their service experiences. The reviews were collected using the google-play-scraper Python library, which provides access to publicly available Google Play reviews without requiring the official Google Play API. The scraper was configured to retrieve English-language reviews from the Malaysian Google Play Store by specifying the language parameter as English (lang='en') and the country parameter as Malaysia (country='my'). To obtain a representative dataset for machine learning and streaming experiments, the scraper repeatedly retrieved reviews in batches of 200 records until approximately 100,000 reviews were collected. 
 
-**App Details:**
+**Step 1: Import Required Libraries**
 
-| Field | Value |
-|---|---|
-| App Name | TNG eWallet |
-| App ID | `my.com.tngdigital.ewallet` |
-| Platform | Google Play Store |
-| Region | Malaysia (`country='my'`) |
-| Language | English (`lang='en'`) |
-| Target Volume | Up to 50,000 reviews (historical bulk load) |
-| Kafka Topic | `tng_reviews` |
+The implementation begins by importing the required Python libraries.
 
-**Data Collection Strategy:**
+```python
+from google_play_scraper import reviews, Sort
+import pandas as pd
+import time
+import os
+```
 
-The Kafka producer (`kafka_producer.py`) operates in two phases:
+The purpose of each library is described below.
 
-- **Phase 1 – Bulk Historical Load:** Fetches up to 50,000 of the most recent reviews in batches of 1,000, deduplicating by `reviewId` and saving to `tng_raw_data.csv` while simultaneously publishing each review to the Kafka topic.
-- **Phase 2 – Real-Time Monitoring:** After the bulk load completes, the producer polls for the latest 50 reviews every 15 seconds, forwarding any new unseen reviews to Kafka in real time.
-
-Each review record contains the following fields:
-
-| Field | Description |
-|---|---|
-| `app_id` | App package identifier |
-| `review_id` | Unique review ID (used for deduplication) |
-| `username` | Reviewer's display name |
-| `score` | Star rating (1–5) |
-| `content` | Review text |
-| `timestamp` | Date and time of the review |
-| `thumbsUpCount` | Number of helpful votes |
+- **google_play_scraper** - Retrieves reviews from the Google Play Store.
+- **pandas** - Stores and manipulates the collected review data in tabular format.
+- **time** - Introduces delays between requests to prevent sending continuous requests to the Google Play servers.
+- **os** - Creates the output directory automatically if it does not already exist.
 
 #### 2.2 Tools
 
