@@ -164,8 +164,6 @@ The scope of this project includes the following components:
 
 The dataset used in this project consists of customer reviews collected from the official Foodpanda application available on the Google Play Store. Foodpanda was selected because it is one of the most widely used food delivery platforms in Malaysia, with a large number of active users who continuously provide feedback regarding their service experiences. The reviews were collected using the google-play-scraper Python library, which provides access to publicly available Google Play reviews without requiring the official Google Play API. The scraper was configured to retrieve English-language reviews from the Malaysian Google Play Store by specifying the language parameter as English (lang='en') and the country parameter as Malaysia (country='my'). To obtain a representative dataset for machine learning and streaming experiments, the scraper repeatedly retrieved reviews in batches of 200 records until approximately 100,000 reviews were collected. 
 
-**Step 1: Import Required Libraries**
-
 The implementation begins by importing the required Python libraries.
 
 ```python
