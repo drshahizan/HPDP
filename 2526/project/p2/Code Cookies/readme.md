@@ -349,19 +349,6 @@ Several open-source tools and libraries were used throughout the implementation 
 | **Elasticsearch** | Search and analytics engine used to store the predicted sentiment results for fast querying and visualization. |
 | **Kibana** | Data visualization platform used to create interactive dashboards for monitoring sentiment trends and streaming analytics. |
 
-#### 2.3 Cleaning Steps
-
-The raw review text collected from the Google Play Store was preprocessed through the following steps:
-
-- **Lowercasing** – All review text converted to lowercase for consistency
-- **Noise Removal** – Removed URLs, HTML tags, special characters, punctuation, and numeric digits
-- **Emoji Handling** – Emojis stripped from review text (or optionally converted to descriptive tokens)
-- **Tokenization** – Review content split into individual word tokens
-- **Stopword Removal** – Common English stopwords (e.g. *the*, *is*, *and*) removed using NLTK's stopword list
-- **Lemmatization** – Words reduced to their base dictionary form using spaCy (e.g. *running* → *run*, *payments* → *payment*)
-- **Short Review Filtering** – Reviews with fewer than 3 meaningful tokens after cleaning were excluded
-- **Sentiment Labelling** – Star ratings were used as a proxy for initial labelling (1–2 stars → negative, 3 stars → neutral, 4–5 stars → positive), with Hugging Face transformer model predictions used to verify and correct borderline cases
-
 ---
 
 ### 3.0 Sentiment Model Development
