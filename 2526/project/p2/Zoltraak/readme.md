@@ -33,7 +33,7 @@
   <tr>
     <td>Report</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Zoltraak/reports"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@
   <tr>
     <td>Raw Data</td>
       <td align="center">
-        <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Zoltraak/youtube_comments_OTFQhyEHymE.csv">
+        <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Zoltraak/data/raw_data/raw_data.csv">
           <img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591/" width="25px" height="23px">
         </a>
       </td>
@@ -65,13 +65,13 @@
   <tr>
     <td>Preprocess & Train Model (Model 1)</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Zoltraak/data/raw_data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Preprocess & Train Model (Model 2)</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Zoltraak/notebook"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
