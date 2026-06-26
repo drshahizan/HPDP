@@ -244,6 +244,14 @@ all_reviews.extend(result)
 print(f"Collected: {len(all_reviews)} reviews")
 ```
 
+Example output:
+
+Collected: 200 reviews
+Collected: 400 reviews
+Collected: 600 reviews
+...
+Collected: 100000 reviews
+
 Google Play provides a continuation token only when more reviews are available. If no continuation token is returned, the scraper terminates because all accessible reviews have already been collected. The code for this function is attached below.
 
 ```python
@@ -274,7 +282,7 @@ df = pd.DataFrame([{
 } for r in all_reviews])
 ```
 
-The collected attributes are summarised in Table 1
+The collected attributes are summarised in table below.
 
 | Field | Description |
 |-------|-------------|
@@ -287,6 +295,17 @@ The collected attributes are summarised in Table 1
 | `country` | Country of the Google Play Store (Malaysia) |
 | `source` | Source platform (Google Play Store) |
 | `app_name` | Application name (Foodpanda) |
+
+Then, duplicate reviews are removed based on the review ID and reviews without textual content are discarded. This ensures that only valid review text is retained for the preprocessing stage. The python code is attached below. 
+
+```pythpn
+df = df.drop_duplicates(subset=["review_id"])
+df = df[df["review_text"].notna()]
+```
+
+
+
+
 
 
 #### 2.2 Tools
