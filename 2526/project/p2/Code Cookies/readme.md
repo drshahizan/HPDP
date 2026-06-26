@@ -137,15 +137,13 @@ To classify customer opinions, two machine learning models, namely Naive Bayes a
 
 #### 1.2 Objectives
 
-The main objectives of this project are:
+The objectives of this project are:
 
-- ✅ Build a **real-time sentiment analysis pipeline** focused on Google Play reviews of the TNG eWallet app
-- ⚙️ Use **Apache Kafka** for real-time data ingestion and streaming
-- 🔄 Use **Apache Spark Structured Streaming** for real-time sentiment classification
-- 🗃️ Store processed results in **Elasticsearch**
-- 📊 Visualize sentiment trends using **Kibana dashboards**
-- 🧠 Train and compare at least **two sentiment classification models** to classify reviews as **positive**, **neutral**, or **negative**
-- 📈 Compare **batch processing** vs **streaming mode** in terms of throughput, accuracy, and resource usage
+1. To collect approximately 100,000 Malaysian Foodpanda Google Play reviews using the google-play-scraper library.
+2. To preprocess the collected review text using Natural Language Processing (NLP) techniques, including text cleaning, tokenization, stopword removal, stemming, and lemmatization.
+3. To develop and compare two sentiment classification models, namely Naive Bayes and LSTM, for classifying reviews into positive, neutral, and negative sentiment.
+4. To implement a real-time streaming pipeline using Apache Kafka and Apache Spark Structured Streaming for continuous sentiment prediction.
+5. To store the predicted sentiment results for visualization and analysis.
 
 #### 1.3 Scope
 
