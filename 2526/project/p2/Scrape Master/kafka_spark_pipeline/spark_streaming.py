@@ -37,10 +37,10 @@ process. foreachBatch lets us:
 ────────────────────────────────────────────────────────────────────────────────
  Usage
 ────────────────────────────────────────────────────────────────────────────────
-  python pipeline/spark_streaming.py
-  python pipeline/spark_streaming.py --starting-offsets earliest
-  python pipeline/spark_streaming.py --single-model       # skip ensemble
-  python pipeline/spark_streaming.py --verbose            # show all Spark logs
+  python kafka_spark_pipeline/spark_streaming.py
+  python kafka_spark_pipeline/spark_streaming.py --starting-offsets earliest
+  python kafka_spark_pipeline/spark_streaming.py --single-model       # skip ensemble
+  python kafka_spark_pipeline/spark_streaming.py --verbose            # show all Spark logs
 
   By default the script runs in "quiet mode" — only our own startup banner and
   one [batch N] line per micro-batch are printed. Spark/JVM/transformers chatter
@@ -71,6 +71,13 @@ if _QUIET:
     os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
     os.environ.setdefault("HF_HUB_DISABLE_PROGRESS_BARS", "1")
     os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
+# Spark 4.1.1 on Windows has a regression where the driver/executor BlockManager
+# RPC handshake leaves idWithoutTopologyInfo null, then the heartbeater throws a
+# NullPointerException every 10 s and the streaming query can't progress.
+# Pinning the driver to loopback (both the advertised host and the bind address)
+# makes the handshake deterministic and works around the bug.
+os.environ.setdefault("SPARK_LOCAL_IP", "127.0.0.1")
 
 import joblib
 import numpy as np
@@ -388,6 +395,18 @@ def main() -> int:
         .config("spark.sql.session.timeZone", "UTC")
         .config("spark.sql.shuffle.partitions", "4")
         .config("spark.ui.showConsoleProgress", "false")
+        # Disable the Spark Web UI entirely. We don't use it for the demo, and
+        # leaving it enabled means every relaunch fights stale JVMs for one of
+        # ports 4040-4055 (16 retries). When all 16 are taken Spark crashes.
+        .config("spark.ui.enabled", "false")
+        # ── Spark 4.1.1 BlockManager NPE workaround (Windows) ───────────
+        # Force the driver to advertise and bind on loopback so the local
+        # executor's heartbeat RPC reaches a deterministic endpoint.
+        .config("spark.driver.host",        "127.0.0.1")
+        .config("spark.driver.bindAddress", "127.0.0.1")
+        .config("spark.blockManager.port",  "0")
+        .config("spark.network.timeout",    "600s")
+        .config("spark.executor.heartbeatInterval", "30s")
     )
     if jars_csv:
         # Local JARs path — no Ivy noise on startup

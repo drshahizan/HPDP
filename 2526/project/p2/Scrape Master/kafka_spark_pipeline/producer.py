@@ -17,11 +17,11 @@ models/best_model_info.json without extra preprocessing.
 ────────────────────────────────────────────────────────────────────────────────
  Usage
 ────────────────────────────────────────────────────────────────────────────────
-  python pipeline/producer.py                 # default: 50 msg/s, all rows
-  python pipeline/producer.py --rate 200      # faster
-  python pipeline/producer.py --limit 500     # smoke-test mode
-  python pipeline/producer.py --loop          # loop forever (good for demos)
-  python pipeline/producer.py --topic foo     # custom topic
+  python kafka_spark_pipeline/producer.py                 # default: 50 msg/s, all rows
+  python kafka_spark_pipeline/producer.py --rate 200      # faster
+  python kafka_spark_pipeline/producer.py --limit 500     # smoke-test mode
+  python kafka_spark_pipeline/producer.py --loop          # loop forever (good for demos)
+  python kafka_spark_pipeline/producer.py --topic foo     # custom topic
 
   Override the broker with KAFKA_BOOTSTRAP=host:port (default localhost:9092).
 ================================================================================
@@ -57,7 +57,7 @@ except ImportError:
 # ── Configuration ───────────────────────────────────────────────────────────
 DEFAULT_TOPIC     = "youtube-comments-raw"
 DEFAULT_BOOTSTRAP = os.environ.get("KAFKA_BOOTSTRAP", "localhost:9092")
-DEFAULT_CSV       = Path(__file__).resolve().parent.parent / "cleaned_data.csv"
+DEFAULT_CSV       = Path(__file__).resolve().parent.parent / "data" / "cleaned_data.csv"
 
 # Columns sent downstream. Everything else in the CSV is dropped to keep the
 # message small (Kafka throughput is bytes-per-second).
