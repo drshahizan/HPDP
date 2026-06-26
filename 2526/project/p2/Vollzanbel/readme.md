@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Group:</b> Vollzanbel &nbsp;&middot;&nbsp; <b>Contact:</b> alifptn1234@gmail.com</p>
+<p align="center"><b>Group:</b> Vollzanbel &nbsp;&middot;&nbsp;</p>
 
 ---
 
