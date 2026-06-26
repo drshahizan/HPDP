@@ -63,10 +63,10 @@
     </td>
   </tr>
   <tr>
-    <td>Preprocess & Train Model (Model 1)</td>
-    <td align="center">
-      <a href="2526/project/p2/AyamGepuk/notebooks/Preprocess_&_Train_Model_LSTM.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width="24" height="23"></a>
-    </td>
+  <td>Preprocess & Train Model (Model 1)</td>
+  <td align="center">
+    <a href="2526/project/p2/AyamGepuk/notebooks/Preprocess_%26_Train_Model_LSTM.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width="24" height="23"></a>
+  </td>
 </tr>
   <tr>
     <td>Preprocess & Train Model (Model 2)</td>
