@@ -161,6 +161,7 @@ This project covers the following key components:
 The textual dataset used for the baseline training and downstream streaming emulation originates directly from public user logs on the Google Play Store. The application under analysis is the official AirAsia mobile app. To generate sufficient data variety and capture micro-trends, seasonal booking surges, and historical release stability, approximately 40,000 rows of user reviews were requested. The raw inputs capture vital attributes such as the user review text, the reviewer's star rating, app version, and timestamp metadata. 
 
 Sources for scrapping
+
 https://play.google.com/store/apps/details?id=com.airasia.mobile&hl=en
 
 
@@ -191,10 +192,9 @@ Raw user reviews on app stores are highly unformatted and contain noise. To clea
 
 Two models were selected to classify AirAsia reviews as positive, neutral, or negative : 
  
-Naive Bayes Classifier : 
+- Naive Bayes Classifier : 
 very fast, lightweight, and resource efficient probabilistic model ideal for low-latency live streaming 
-
-LSTM Neural Network : 
+- LSTM Neural Network : 
 A deep learning model that captures word order and long term context, which is good for understanding complex or mixed user feedback for example praising the price but complaining about the app.
 
 #### 3.2 Training Process
@@ -276,6 +276,17 @@ As a future enhancement, This pipeline can be scaled widely by integrating other
 
 ### 8.0 References
 
+- Apache Software Foundation. (n.d.). Apache Kafka Architecture Documentation. Retrieved from https://kafka.apache.org/
+
+- Apache Software Foundation. (n.d.). Spark Structured Streaming Programming Guide. Retrieved from https://spark.apache.org/
+
+- Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.
+
+- Chollet, F. (2015). Keras: Deep Learning for Humans. Retrieved from https://keras.io/
+
+- Honnibal, M., & Montani, I. (2017). spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing.
+
+- Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
 
 
 ---
