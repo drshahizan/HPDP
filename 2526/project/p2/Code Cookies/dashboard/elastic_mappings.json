@@ -1,0 +1,80 @@
+{
+  "foodpanda_word_freq" : {
+    "mappings" : {
+      "_meta" : {
+        "created_by" : "file-data-visualizer"
+      },
+      "properties" : {
+        "@timestamp" : {
+          "type" : "date"
+        },
+        "frequency" : {
+          "type" : "long"
+        },
+        "month_label" : {
+          "type" : "keyword"
+        },
+        "rating" : {
+          "type" : "long"
+        },
+        "review_month" : {
+          "type" : "date",
+          "format" : "iso8601"
+        },
+        "sentiment" : {
+          "type" : "keyword"
+        },
+        "total_frequency" : {
+          "type" : "long"
+        },
+        "word" : {
+          "type" : "keyword"
+        }
+      }
+    }
+  },
+  "foodpanda_streaming_reviews" : {
+    "mappings" : {
+      "properties" : {
+        "batch_id" : {
+          "type" : "long"
+        },
+        "confidence" : {
+          "type" : "float"
+        },
+        "processed_at" : {
+          "type" : "date"
+        },
+        "rating" : {
+          "type" : "float"
+        },
+        "replied_at" : {
+          "type" : "date",
+          "ignore_malformed" : true
+        },
+        "reply" : {
+          "type" : "text"
+        },
+        "review_date" : {
+          "type" : "date",
+          "ignore_malformed" : true
+        },
+        "review_id" : {
+          "type" : "keyword"
+        },
+        "review_text" : {
+          "type" : "text"
+        },
+        "sentiment" : {
+          "type" : "keyword"
+        },
+        "thumbs_up" : {
+          "type" : "integer"
+        },
+        "username" : {
+          "type" : "keyword"
+        }
+      }
+    }
+  }
+}
