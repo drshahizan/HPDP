@@ -269,12 +269,15 @@ The dashboard includes:
 
 ## 📊 Results
 
-The analysis of the Reddit comments yielded several key insights:
-
+The analysis of the BUDI95 comments yielded several key insights:
+- Insight 1 (Sentiment Distribution): Public sentiment toward BUDI95 is predominantly negative 
+- Insight 2 (Sentiment Metrics): The volume and scale of sentiment is confirmed by absolute counts
+- Insight 3 (Confidence Distribution): Model confidence is moderate and reflects a balanced three class classifier
+- Insight 4 (Sentiment over Time): Sentiment data was ingested successfully in real time 
 
 
 ### Kibana Dashboard
-
+![Kibana Dashboard](https://github.com/drshahizan/HPDP/blob/f8c9d628a5d001bdbf328e95d70fd0edacedd888/2526/project/p2/Fast%26Furious/Dashboard%20BUDI95.png)
 
 ---
 
