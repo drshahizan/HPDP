@@ -94,9 +94,9 @@
 - [1.3 Scope](#13-scope)
 
 ### 2.0 Data Acquisition & Preprocessing
-- [2.1 Sources](#21-sources)
-- [2.2 Tools](#22-tools)
-- [2.3 Cleaning Steps](#23-cleaning-steps)
+- [2.1 Data Collection](#21-data-collection)
+- [2.2 Data Preprocessing](#22-data-preprocessing)
+- [2.3 Tools Used](#23-tools-used)
 
 ### 3.0 Sentiment Model Development
 - [3.1 Model Choice](#31-model-choice)
@@ -328,6 +328,65 @@ Total reviews saved: 100000
 
 The entire compiled code is attached below :
 
+```python
+from google_play_scraper import reviews, Sort
+import pandas as pd
+import time
+import os
+
+os.makedirs("data", exist_ok=True)
+
+APP_ID = "com.global.foodpanda.android"
+TARGET_REVIEWS = 100000
+
+all_reviews = []
+continuation_token = None
+
+while len(all_reviews) < TARGET_REVIEWS:
+    result, continuation_token = reviews(
+        APP_ID,
+        lang="en",
+        country="my",
+        sort=Sort.NEWEST,
+        count=200,
+        continuation_token=continuation_token
+    )
+
+    if not result:
+        print("No more reviews available.")
+        break
+
+    all_reviews.extend(result)
+
+    print(f"Collected: {len(all_reviews)} reviews")
+
+    if continuation_token is None:
+        print("Reached the end of available reviews.")
+        break
+
+    time.sleep(1)
+
+df = pd.DataFrame([{
+    "review_id": r.get("reviewId"),
+    "review_text": r.get("content"),
+    "rating": r.get("score"),
+    "review_date": r.get("at"),
+    "thumbs_up": r.get("thumbsUpCount"),
+    "app_version": r.get("reviewCreatedVersion"),
+    "country": "Malaysia",
+    "source": "Google Play",
+    "app_name": "Foodpanda"
+} for r in all_reviews])
+
+df = df.drop_duplicates(subset=["review_id"])
+df = df[df["review_text"].notna()]
+
+df.to_csv("data/foodpanda_malaysia_reviews_raw.csv", index=False, encoding="utf-8-sig")
+
+print("Finished scraping.")
+print("Total reviews saved:", len(df))
+```
+
 ---
 
 #### 2.2 Data Preprocessing
@@ -471,7 +530,84 @@ df.to_csv(
 
 The resulting dataset, **foodpanda_reviews_preprocessed.csv**, contains the original review information together with the cleaned text, tokenized words, stemmed text, lemmatized text, and sentiment labels. This dataset serves as the input for the subsequent sentiment model development stage.
 
-#### 2.3 Tools
+The entire compiled code is attached below :
+
+```python
+import pandas as pd
+import re
+import nltk
+import os
+
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+os.makedirs("data", exist_ok=True)
+
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("omw-1.4")
+
+df = pd.read_csv("data/foodpanda_malaysia_reviews_raw.csv")
+
+TEXT_COLUMN = "review_text"
+df = df[df[TEXT_COLUMN].notna()]
+
+stop_words = set(stopwords.words("english"))
+stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
+
+def label_sentiment(rating):
+    rating = int(rating)
+    if rating <= 2:
+        return "negative"
+    elif rating == 3:
+        return "neutral"
+    else:
+        return "positive"
+
+def clean_text(text):
+    text = str(text).lower()
+    text = re.sub(r"http\S+|www\S+", " ", text)
+    text = re.sub(r"[^a-zA-Z\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def preprocess_text(text):
+    cleaned = clean_text(text)
+    tokens = cleaned.split()
+
+    tokens = [
+        word for word in tokens
+        if word not in stop_words and len(word) > 2
+    ]
+
+    stemmed_tokens = [stemmer.stem(word) for word in tokens]
+    lemmatized_tokens = [lemmatizer.lemmatize(word) for word in tokens]
+
+    return pd.Series({
+        "cleaned_text": cleaned,
+        "tokens": " ".join(tokens),
+        "stemmed_text": " ".join(stemmed_tokens),
+        "lemmatized_text": " ".join(lemmatized_tokens)
+    })
+
+processed = df[TEXT_COLUMN].apply(preprocess_text)
+df = pd.concat([df, processed], axis=1)
+
+df["sentiment"] = df["rating"].apply(label_sentiment)
+
+df = df.drop_duplicates(subset=["lemmatized_text"])
+df = df[df["lemmatized_text"].str.len() > 5]
+
+df.to_csv("data/foodpanda_reviews_preprocessed.csv", index=False, encoding="utf-8-sig")
+
+print("Preprocessing completed.")
+print("Total records after preprocessing:", len(df))
+print(df["sentiment"].value_counts())
+print(df[["review_text", "cleaned_text", "lemmatized_text", "sentiment"]].head())
+```
+
+#### 2.3 Tools Used
 
 The tools and technologies used throughout the development of the proposed sentiment analysis pipeline are summarized in table below.
 
