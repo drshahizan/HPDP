@@ -141,8 +141,6 @@ The primary goals of this project are:
 - `kafka_spark_pipeline/`: Python scripts for streaming YouTube comments through Apache Kafka and classifying them in real time using Apache Spark.
 - `dashboard/`: Kibana dashboard export file for visualising real-time sentiment results.
 - `reports/`: Final project report documenting the full system development and findings.
-- `dashboard.png`: Screenshot of the Kibana sentiment monitoring dashboard.
-- `pipeline_architecture.png`: Overview diagram of the end-to-end system architecture.
 
 ---
 
