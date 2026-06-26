@@ -1,0 +1,26 @@
+{
+  "youtube_sentiment_index": {
+    "mappings": {
+      "properties": {
+        "comment": {
+          "type": "text"
+        },
+        "event_time": {
+          "type": "date"
+        },
+        "predicted_sentiment": {
+          "type": "keyword"
+        },
+        "true_sentiment": {
+          "type": "keyword"
+        },
+        "user": {
+          "type": "keyword"
+        },
+        "video_id": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
