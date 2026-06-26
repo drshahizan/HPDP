@@ -612,10 +612,10 @@ The tools and technologies used throughout the development of the proposed senti
 | **Category** | **Tools Used** | **Description** |
 |--------------|----------------|-----------------|
 | **Data Collection** | Google Play Scraper | Scrapes Foodpanda user reviews from the Malaysian Google Play Store. |
-| **Data Preprocessing** | Python, Pandas, NLTK, Regular Expressions | Cleans and preprocesses review text through lowercasing, noise removal, tokenization, stopword removal, stemming, and lemmatization. |
-| **Feature Extraction** | Scikit-learn (TF-IDF Vectorizer) | Converts textual reviews into numerical feature vectors for model training. |
-| **Machine Learning Model** | Scikit-learn (Multinomial Naïve Bayes) | Trains a traditional machine learning model for sentiment classification. |
-| **Deep Learning Model** | TensorFlow / Keras (LSTM) | Develops and trains a Long Short-Term Memory (LSTM) model for sentiment prediction. |
+| **Data Preprocessing** | Python, Pandas, NLTK | Cleans and preprocesses review text through lowercasing, noise removal, tokenization, stopword removal, stemming, and lemmatization. |
+| **Feature Extraction** | TF-IDF Vectorizer | Converts textual reviews into numerical feature vectors for model training. |
+| **Machine Learning Model** | Naive Bayes | Trains a traditional machine learning model for sentiment classification. |
+| **Deep Learning Model** | LSTM | Develops and trains a Long Short-Term Memory (LSTM) model for sentiment prediction. |
 | **Streaming & Processing** | Apache Kafka, Apache Spark Structured Streaming (PySpark) | Streams review data in real time and performs continuous sentiment prediction. |
 | **Data Storage** | Elasticsearch | Stores and indexes predicted sentiment results for efficient retrieval. |
 | **Data Visualization** | Kibana | Visualizes sentiment distributions, trends, and analytics through interactive dashboards. |
