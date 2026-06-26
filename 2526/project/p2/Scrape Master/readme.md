@@ -138,5 +138,6 @@ End-to-end streaming throughput, measured over the full Kafka → Spark → Elas
 
 <div align="center">
  <img width="1894" height="800" alt="Screenshot 2026-06-25 180524" src="https://github.com/user-attachments/assets/5f73107e-eff7-4c9a-9c63-38c3fe55e46d" />
+  <img width="1891" height="581" alt="Screenshot 2026-06-26 211417" src="https://github.com/user-attachments/assets/f44724cd-352f-45f5-a338-611bc7bbcd2c" />
   <em>Full dashboard — 6 KPI cards on top, 4 interactive visualisations below.</em>
 </div>
