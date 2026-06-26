@@ -252,8 +252,41 @@ if continuation_token is None:
     break
 ```
 
+A one-second delay is then inserted after each iteration. This delay reduces the frequency of requests sent to the Google Play Store, improving stability and reducing the likelihood of temporary connection issues.
 
+```python
+time.sleep(1)
+```
 
+After all reviews have been collected, the data is converted into a Pandas DataFrame. Instead of storing the complete review object, only the relevant attributes required for sentiment analysis are extracted.
+
+```python
+df = pd.DataFrame([{
+    "review_id": r.get("reviewId"),
+    "review_text": r.get("content"),
+    "rating": r.get("score"),
+    "review_date": r.get("at"),
+    "thumbs_up": r.get("thumbsUpCount"),
+    "app_version": r.get("reviewCreatedVersion"),
+    "country": "Malaysia",
+    "source": "Google Play",
+    "app_name": "Foodpanda"
+} for r in all_reviews])
+```
+
+The collected attributes are summarised in Table 1
+
+| Field | Description |
+|-------|-------------|
+| `review_id` | Unique identifier assigned to each review |
+| `review_text` | Review text written by the user |
+| `rating` | User rating ranging from 1 to 5 stars |
+| `review_date` | Date and time when the review was posted |
+| `thumbs_up` | Number of users who marked the review as helpful |
+| `app_version` | Version of the Foodpanda application used by the reviewer |
+| `country` | Country of the Google Play Store (Malaysia) |
+| `source` | Source platform (Google Play Store) |
+| `app_name` | Application name (Foodpanda) |
 
 
 #### 2.2 Tools
