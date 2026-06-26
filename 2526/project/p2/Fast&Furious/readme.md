@@ -113,11 +113,18 @@ The primary goals of this project are:
 ---
 
 ## ⚙️ System Architecture
+The architecture of this project uses three major technologies in the Apache ecosystem, which are Apache Kafka, Apache Spark, and Elasticsearch. These components work along to produce a robust pipeline for streaming data, real-time processing and finally provide a dashboard. This section explains each component's roles and how they work together. 
+
+The system consist of three major parts: 
+
+- Apache Kafka: Acts as the high throughput, fault-tolerant message broker. It decouples the data source form processing engine, receiving incoming YouTube comments sequentially and hosting them in  a distributed queue topic. 
+- Apache Spark: Used Spark Structured Streaming to ingest micro-batches of data from Kafka in real time. It works by performing JSON schema parsing, deserialization, and coordinate inference through a deep learning sentiment model to enrich the raw stream. 
+- Elasticsearch: Serves as the distributed search and analytics engine. It receives the enriched JSON documents (contains the original text, metadata, predicted sentiment labels, and confidence scores) via bulk indexing, making the data instantly queryable for downstream dashboards. 
 
 
 
 ### Workflow Diagram
-
+![Workflow Diagram](https://github.com/yAsmin241/HPDP-Project/blob/ea0da0a38f5bed46af0482b77fbae91141716793/System%20architecture%20p2.drawio.png)
 
 
 ---
@@ -125,20 +132,127 @@ The primary goals of this project are:
 ## 🚀 Getting Started
 
 ### Prerequisites
+- **Docker Desktop** — for Kafka, Zookeeper, Elasticsearch, Kibana
+- **Python 3.11** — required (PySpark 3.5.1 is not compatible with Python 3.12/3.13)
+- **Java 11 or 17** — required by PySpark (`java -version` to check)
+- **`saved_models/`** — folder from the model training notebook (LR, NB, XLM-RoBERTa weights)
 
-
+---
 
 ### Installation and Setup
-
+**1. Clone the repository:**
+```bash
+git clone https://github.com/drshahizan/HPDP
+cd HPDP/2425/project/p2/Fast&Furious/kafka_spark_pipeline
+```
+ 
+**2. Create a Python 3.11 virtual environment and activate it:**
+```powershell
+# Windows PowerShell
+py -3.11 -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+```bash
+# Mac/Linux
+python3.11 -m venv venv
+source venv/bin/activate
+```
+ 
+If PowerShell blocks the activation script, run this first:
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+ 
+**3. Install Python dependencies:**
+```bash
+pip install -r requirements.txt
+```
+ 
+**4. Place required files:**
+- Copy the `saved_models/` folder into `kafka_spark_pipeline/`
+- Copy `youtube_comments_cleaned_roberta.csv` into `kafka_spark_pipeline/`
+  
+**5. Start the Docker infrastructure:**
+```bash
+docker compose up -d
+```
+ 
+Wait ~30 seconds, then verify all four containers are running:
+```bash
+docker compose ps
+```
+ 
+Confirm services are healthy:
+- Elasticsearch: `http://localhost:9200` → should return JSON with `"You Know, for Search"`
+- Kibana: `http://localhost:5601` → should show the Kibana home screen
+**6. Fix Windows Spark environment** (required on Windows):
+```powershell
+Remove-Item Env:\SPARK_HOME -ErrorAction SilentlyContinue
+$env:PATH = "C:\hadoop\bin;" + $env:PATH
+```
+ 
+> **Note for Windows users:** Spark requires `winutils.exe` and `hadoop.dll` in `C:\hadoop\bin`. Download the Hadoop 3.3.5 pair from [cdarlint/winutils](https://github.com/cdarlint/winutils/tree/master/hadoop-3.3.5/bin) if not already present.
+ 
+---
     
-
 ### Running the Pipeline
+#### Option A — One-click startup (Windows PowerShell, recommended)
+ 
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\start_demo.ps1
+```
+ 
+Wait for:
+```
+Streaming from topic 'youtube-comments' -> index 'sentiment-results'.
+Start the producer in another terminal. Ctrl-C to stop.
+```
+ 
+#### Option B — Manual startup
+ 
+```powershell
+python setup_index.py --index sentiment-results --recreate
+docker exec kafka kafka-topics --create --topic youtube-comments --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+Remove-Item -Recurse -Force _chk_sentiment -ErrorAction SilentlyContinue
+$env:MODEL_OVERRIDE="lr"
+python spark_streaming.py
+```
+ 
+#### Stream the data (second terminal)
+ 
+```powershell
+.\venv\Scripts\Activate.ps1
+python kafka_producer.py --delay 0
+```
+ 
+Expected Spark output:
+```
+[sentiment_model] loaded 'sklearn' (classical) from saved_models
+[batch 1]  200 records |  3.798s |    52.7 rec/s -> ES
+[batch 2] 3149 records |  0.175s | 17998.9 rec/s -> ES
+```
+ 
+#### Verify data
+```
+http://localhost:9200/sentiment-results/_count
+```
+Should return `"count": 3349`.
 
-
-    
+---
 
 ### Accessing the Dashboard
-
+1. Open `http://localhost:5601`
+2. Navigate to **☰ menu → Dashboard**
+3. Open **Malaysian YouTube Sentiment Dashboard**
+4. Set the time range to **Today** if panels appear empty
+To import the dashboard from file:
+- **☰ → Stack Management → Saved Objects → Import** → select `dashboard/kibana_visualizations.json`
+The dashboard includes:
+- **Sentiment Distribution** — pie chart (56.11% negative, 30.31% neutral, 13.59% positive)
+- **Sentiment Metrics** — absolute counts (1,879 / 1,015 / 455)
+- **Confidence Distribution** — histogram of model prediction confidence
+- **Sentiment Over Time** — time-series by sentiment class
 
 
 ---
