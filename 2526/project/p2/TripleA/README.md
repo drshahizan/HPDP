@@ -146,3 +146,11 @@ A[YouTube API]
 -->F[Elasticsearch]
 -->G[Kibana Dashboard]
 ```
+# Sentiment Visualisation
+
+<p align="center">
+  <img src="report/hpdp_kibana.jpg" width="100%">
+</p>
+
+<p align="center">
+</p>
