@@ -205,6 +205,31 @@ A deep learning model that captures word order and long term context, which is g
 
 #### 3.3 Evaluation
 
+Naive Bayes : 
+
+- validation set  
+<img width="717" height="340" alt="NBV" src="https://github.com/user-attachments/assets/0e9042fe-00bc-4d78-9ca2-1302b13a6cd3" />
+
+<img width="750" height="600" alt="nb_confusion_validation" src="https://github.com/user-attachments/assets/a4d0ce2b-ff93-4a1b-b227-fb637f1f12b5" />
+
+- testing set 
+<img width="693" height="346" alt="NVT" src="https://github.com/user-attachments/assets/406bd104-142b-4090-b374-bf744c433d72" />
+
+<img width="750" height="600" alt="nb_confusion_test" src="https://github.com/user-attachments/assets/58f01dcd-293f-4f6f-9443-af08a8ecbedd" />
+
+
+LSTM : 
+
+- validation set
+<img width="633" height="341" alt="LV" src="https://github.com/user-attachments/assets/f8f8e16d-3127-4e32-97dc-46fa2e43bcef" />
+
+<img width="750" height="600" alt="lstm_confusion_validation" src="https://github.com/user-attachments/assets/21abeb1a-334b-4ce4-8b77-35199bf40acc" />
+
+
+- testing set 
+<img width="667" height="343" alt="LT" src="https://github.com/user-attachments/assets/75f274b7-a4fb-46dd-a629-67917afd9e02" />
+
+<img width="750" height="600" alt="lstm_confusion_test" src="https://github.com/user-attachments/assets/39443cb0-18af-4146-b802-c28b73a13ae0" />
 
 
 ---
@@ -248,6 +273,16 @@ Using Matplotlip and Seaborn to create an interactive dashboard that show what u
 
 #### 5.1 Key Findings
 
+The sentiment analysis pipeline successfully processed 40,000 AirAsia Google Play Store reviews scraped from the Malaysian region. The raw dataset comprised reviews spanning multiple languages across 43 unique language codes. Following language detection, 27,206 English reviews were retained and subjected to the full NLP preprocessing pipeline. After noise removal, emoji filtering, and non-Latin script exclusion, the final cleaned dataset consisted of 27,197 reviews, with 12,803 multilingual and low-quality entries removed.
+
+The final cleaned dataset exhibited a class-imbalanced sentiment distribution, with 17,260 negative reviews (63.5%), 8,439 positive reviews (31.0%), and 1,498 neutral reviews (5.5%). This distribution reflects a genuine skew in user behaviour on app stores, where dissatisfied users tend to leave reviews more frequently than satisfied ones. To address this imbalance during training, RandomOverSampler was applied exclusively to the training set, balancing all three classes to 12,081 samples each, while the validation and test sets were left untouched to ensure unbiased evaluation.
+
+The dataset was split into 19,037 training samples (70%), 5,440 test samples (20%), and 2,720 validation samples (10%). Two models were trained and evaluated on this split.
+Among the two trained models, Naive Bayes outperformed LSTM across all key metrics on the test set. Naive Bayes achieved a test accuracy of 83.42%, precision of 87.59%, recall of 83.42%, and an F1 score of 85.23%. The LSTM model achieved a test accuracy of 74.54%, precision of 88.01%, recall of 74.54%, and an F1 score of 79.90%. Both models showed consistent performance between their validation and test evaluations, indicating stable generalisation without significant overfitting.
+
+A notable weakness across both models was the poor classification performance on the neutral class. Naive Bayes achieved a neutral class F1 score of 0.25 on the test set, while LSTM achieved 0.19. This is attributable to the severe underrepresentation of neutral reviews and the linguistic ambiguity of 3-star reviews, which frequently contain mixed positive and negative language that is difficult to distinguish from either extreme class.
+
+Based on these results, Naive Bayes was selected as the deployed model for the Kafka and Spark streaming pipeline due to its higher overall accuracy, lower inference latency, and better suitability for real-time classification at scale.
 
 
 #### 5.2 Visualizations
@@ -256,12 +291,35 @@ Using Matplotlip and Seaborn to create an interactive dashboard that show what u
 
 #### 5.3 Insights
 
+Several meaningful insights were derived from the pipeline output:
+- App stability is the primary driver of negative sentiment. The high frequency of crash-related and performance-related terms in negative reviews indicates that technical issues, particularly app crashes during flight check-in and boarding pass retrieval, represent the most significant pain points for AirAsia users.
+- Positive sentiment is concentrated around core booking functionality. Users who leave positive reviews consistently highlight the convenience of the booking and flight management features, suggesting that while the primary use case is well-received, peripheral features such as payment processing and customer support require improvement.
+- Neutral sentiment remains rare and linguistically ambiguous. The low volume and mixed content of 3-star reviews poses an ongoing challenge for ternary sentiment classifiers. Future work incorporating aspect-based sentiment analysis could decompose mixed feedback into more specific issue categories.
+- The overall sentiment trend shows no significant improvement in user satisfaction during the observation period. Negative reviews consistently exceeded 60% of the cleaned dataset, suggesting that recurring technical and operational issues have not been resolved at a pace that meaningfully improves aggregate user sentiment.
+
 
 
 ---
 
 ### 6.0 Optimisation & Comparison
 
+A controlled comparison was performed between the batch processing and streaming processing to assess the performance of the pipeline under various operating conditions on a subset of the cleaned dataset containing 500 reviews, to which a trained Naive Bayes model was applied.
+
+### 6.1 Processing Time
+
+Batch mode processed 500 reviews in 0.0303 seconds by vectorizing all records simultaneously through a single TF-IDF matrix transformation. The same volume took 1.4729 seconds when it was processed as it arrived from the Kafka topic, using the streaming mode. This is about 48.6 times, which seems reasonable due to the overhead of each individual TF-IDF call and the Spark micro-batch scheduling for streaming mode.
+
+### 6.2 Throughput
+
+Processing of large historical datasets in a single pass was significantly more efficient when using batch mode at 16,480 records per second. The performance of streaming mode was 339.5 records per second, although much lower, it's more than enough for a real-time inference where reviews are continuously received as individual events.
+
+### 6.3 Accuracy and Consistency
+
+The same classification accuracy of 89.60% was obtained for both of the modes. This means the serialized Naive Bayes model preserves complete classification consistency, no matter the processing mode, and no degradation due to Kafka and the Spark streaming layer. This is significant result as it shows that the integration of pipeline does not affect the reliability of the model.
+
+### 6.4 Resource Usage
+
+In both batch and streaming modes, the 500-record sample run resulted in a memory delta of 0.00 MB, signifying there was no measurable additional memory overhead at this scale for either mode. For larger production deployments, it would be expected that the peak memory footprint of batch mode would be higher due to full matrix materialisation, while streaming mode would have a lower stable memory footprint per micro-batch.
 
 
 ---
