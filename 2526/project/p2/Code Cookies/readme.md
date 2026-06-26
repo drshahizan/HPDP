@@ -647,6 +647,10 @@ The confusion matrix was also analysed to observe the number of correctly and in
 
 ### 4.0 Apache System Architecture
 
+<img width="1692" height="930" alt="ChatGPT Image Jun 26, 2026, 09_06_04 PM" src="https://github.com/user-attachments/assets/29509d78-bbb3-426e-99e1-ecf74bda4e55" />
+
+Figure above illustrates the overall architecture of the proposed real-time sentiment analysis system. The pipeline begins by collecting Foodpanda reviews from the Malaysian Google Play Store using google-play-scraper. The collected reviews are then preprocessed using Python, Pandas, and NLTK, where text cleaning, tokenization, stopword removal, stemming, and lemmatization are performed before sentiment labels are assigned. Next, the preprocessed reviews are transformed into numerical features using TF-IDF and used to train two sentiment classification models: LSTM and Naive Bayes. After evaluating both models, the best-performing model is selected for deployment. Although the LSTM model achieved higher classification performance than Naive Bayes model during the training and evaluation stage, the Naive Bayes model was selected for deployment in the real-time streaming pipeline. as it has significantly lower computational and memory requirements, enabling more stable execution within the available hardware resources. For real-time processing, the review data is streamed through Apache Kafka, where Apache Spark Structured Streaming continuously accepts incoming reviews and performs real-time sentiment prediction using the deployed model. The prediction results are stored in Elasticsearch and visualized through interactive Kibana dashboards. All major services are deployed using Docker, providing a consistent and portable execution environment.
+
 ---
 
 ### 5.0 Analysis & Results
