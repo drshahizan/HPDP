@@ -287,7 +287,22 @@ Based on these results, Naive Bayes was selected as the deployed model for the K
 
 #### 5.2 Visualizations
 
+There is total of 5 insights that have been visualized : 
 
+- Chart Sentiment Distribution
+  <img width="888" height="455" alt="image" src="https://github.com/user-attachments/assets/f7b2c3dd-e951-4412-9498-7ee6b4edd9a3" />
+
+- Chart WordClouds
+   <img width="2685" height="691" alt="chart_wordclouds" src="https://github.com/user-attachments/assets/45b32941-72f1-4985-bc5c-68c2e9ad344b" />
+
+- Chart Model Comparison 
+  <img width="922" height="503" alt="image" src="https://github.com/user-attachments/assets/a5983049-798c-4dae-97c1-9fa7278cefcf" />
+
+- Chart Batch vs Streaming
+  <img width="891" height="365" alt="image" src="https://github.com/user-attachments/assets/242a92cc-545e-4dde-88a3-f137f79054c2" />
+
+- Chart Sentiment over time 
+<img width="922" height="386" alt="image" src="https://github.com/user-attachments/assets/2c8d83c5-adf9-46ca-a0f1-d0b638413d19" />
 
 #### 5.3 Insights
 
