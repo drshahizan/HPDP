@@ -41,8 +41,7 @@ By leveraging modern big data technologies, this project bridges the gap between
   <tr>
     <td>Report</td>
     <td align="center">
-      <a href="[SECP3133_Project2_Shopping_Report.pdf](https://github.com/user-attachments/files/29385035/SECP3133_Project2_Shopping_Report.pdf)
-"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Shopping/reports/SECP3133_Project2_Shopping_Report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
