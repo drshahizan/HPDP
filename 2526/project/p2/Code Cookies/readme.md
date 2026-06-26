@@ -914,6 +914,19 @@ Docker provided benefits to the pipeline and made deployment more consistent, po
 
 ### 7.0 Conclusion & Future Work
 
+### Conclusion
+This project successfully developed a real-time sentiment analysis system for FoodPanda customer reviews using Apache Kafka, Apache Spark, Elasticsearch, and Kibana. The system is capable of collecting, processing, classifying, and visualizing customer feedback in real time.
+
+Two sentiment classification models were evaluated, which are the **Multinomial Naive Bayes (MNB)** and **Long Short-Term Memory (LSTM)**. Based on the experimental results, the LSTM model achieved the best performance with an **accuracy of 87.00%** and a **weighted F1-score of 0.8530**. The Kibana dashboard provided valuable insights into customer sentiment distribution, rating trends, review activity, and frequently mentioned keywords.
+
+Overall, the project demonstrates how machine learning, real-time data streaming, and interactive dashboards can be integrated to support data-driven decision-making and improve customer experience.
+
+### Future Work
+- Expand the dataset with more recent customer reviews.
+- Increase the number of neutral reviews to improve classification balance.
+- Evaluate more advanced deep learning models and transformer-based approaches.
+- Enhance the dashboard with additional visualizations such as monthly sentiment trends.
+- Support multilingual sentiment analysis for a wider range of customer feedback.
 ---
 
 ### 8.0 References
