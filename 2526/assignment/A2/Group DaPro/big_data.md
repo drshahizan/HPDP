@@ -71,14 +71,15 @@ print(df_less_data.head())
 * **Before (Naive Approach):** Ingesting the entire row width with default configuration settings. This method aggressively wastes memory allocations by fetching and holding unnecessary high-frequency sensor vectors (like tri-axial gyroscope metrics) in RAM when only specific target metrics are needed.
 * **After (Optimized Approach):** Restricting the initial file extraction loop strictly to the required core analytical features (`bookingID`, `second`, `Speed`, and `Accuracy`) using the explicit `usecols` parameter.
 
-**Comparison Table**
+#### Tabular Comparison
 
-| Metaphoric State | Ingested Features Count | Frame Vector Dimensions | Primary Architectural Vector |
-|------------------|------------------------|------------------------|------------------------------|
-| **Before (Naive)** | 11 columns | 1,613,554 rows × 11 columns | High memory footprint from unneeded sensor dimensions. |
-| **After (Optimized)** | 4 columns | 1,613,554 rows × 4 columns | **Over 60%** memory footprint reduction achieved instantly. |
+| Library | Execution Time (s) - Before | Execution Time (s) - After | Peak Memory (MB) - Before | Peak Memory (MB) - After |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dask** | 4.412328 | 2.495122 | 432.995342 | 264.886818 |
+| **Pandas** | 3.061557 | 1.890649 | 270.924459 | 24.716231 |
+| **Polars** | 0.420988 | 0.452174 | 0.026937 | 0.004724 |
 
-**Conclusion:** Loading all 11 features when only a few are needed wastes memory and slows processing. By limiting the columns, we immediately reduced the memory footprint by over 60%.
+![Tabular Comparison Load Less Data](images/Load_less_data.png)
 
 ### 5.2 Chunking
 We processed the file in smaller, manageable portions using the `chunksize=100000` parameter in Pandas to sequentially find the overall maximum speed.
@@ -100,14 +101,15 @@ for i, chunk in enumerate(pd.read_csv(Part0, chunksize=chunk_size)):
 * **Before Chunking:** Attempting to execute an open-ended pd.read_csv(Part0) over a massive sequence. This attempts to stack millions of observations into active hardware cache simultaneously, sparking immediate RAM spikes and fatal Out-Of-Memory (OOM) kernel panics.
 * **After Chunking:** Initializing a streaming iteration engine using the chunksize=100000 parameter. This boundaries active memory consumption by loading, aggregating, and dumping miniature row blocks sequentially to discover global analytical metrics.
 
-**Comparison Table**
+#### Tabular Comparison
 
-| Processing Setup (Chunking) | Working Rows in RAM Concurrently | Engine Pipeline Strategy | Execution Stability Status |
-|------------------|----------------------------------|--------------------------|----------------------------|
-| **Before** | 1,613,554 rows | Eager Bulk Ingestion | High Risk of Fatal Colab Kernel Crash |
-| **After** | 100,000 rows max | Stream Segmented Vector Loop | 100% Stable and Successful Aggregation |
+| Library | Execution Time (s) - Before | Execution Time (s) - After | Peak Memory (MB) - Before | Peak Memory (MB) - After |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dask** | 2.596314 | 1.956628 | 402.798461 | 114.240214 |
+| **Pandas** | 3.253819 | 2.322162 | 24.716640 | 3.139168 |
+| **Polars** | 0.429638 | 0.477195 | 0.042641 | 0.008253 |
 
-**Conclusion:** Chunking allows us to bypass the RAM limit entirely by holding only a fraction of the data in memory at any given time. We successfully looped through 1,613,554 rows in a single partition without memory errors.
+![Tabular Comparison Chunking](images/Chunking.png)
 
 ### 5.3 Data Type Optimisation
 Pandas defaults to `float64` and `int64`. We created a dictionary to downcast these standard types to `float32` and `int32` upon loading.
@@ -134,14 +136,15 @@ df_opt = pd.read_csv(Part0, dtype=optimised_dtypes)
 
 * **After Optimization:** Enforcing a highly granular parsing schema dictionary downcasting high-decimal features into 32-bit floating values (float32), effectively optimizing cell storage footprint.
 
-**Comparison Table**
-| Allocation Blueprint | Continuous Decimals Numerical Precision | Memory Footprint (Single Partition) | Active RAM Savings |
-|----------------------|------------------------------------------|-------------------------------------|-------------------|
-| **Before Optimization** | Default Double-Precision 64-Bit (float64) | ~141.20 MB | Baseline Benchmark |
-| **After Optimization** | Single-Precision 32-Bit Map (float32) | 73.86 MB | Slashed allocation size by ~48% |
+#### Tabular Comparison
 
-
-**Conclusion:** Optimising data types is critical for managing RAM constraints. Downcasting reduced the single partition's memory size to 73.86 MB, enabling faster operations and a significantly lower risk of out-of-memory errors during larger processing jobs.
+| Library | Execution Time (s) - Before | Execution Time (s) - After | Peak Memory (MB) - Before | Peak Memory (MB) - After |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dask** | 2.961694 | 25.613102 | 387.528790 | 467.621682 |
+| **Pandas** | 3.183662 | 27.775020 | 270.925004 | 572.539649 |
+| **Polars** | 0.434361 | 0.476184 | 0.004699 | 0.008414 |
+		
+![Tabular Comparison Data Type Optimisation](images/Data_type_optimisation.png)
 
 ### 5.4 Sampling
 We used a custom `skiprows` logic utilizing Python's `random`module to sample roughly 5% of the data directly during the read process, resulting in an 80,637-row DataFrame.
@@ -157,13 +160,15 @@ df_sampled = pd.read_csv(
 
 * **After Sampling:** Incorporating a clean, runtime disk-level skip gate utilizing Python’s built-in random engine inside the skiprows conditional hook. Rows are evaluated and rejected on-the-fly while streaming from disk.
 
-**Comparison Table**
-| Subsetting Architecture | Data Aggregation Ingestion Point | Materialized Frame Layout | Engineering Deployment Intent |
-|--------------------------|----------------------------------|---------------------------|-------------------------------|
-| **Before Sampling** | Post-Ingestion Frame Invalidation | Fails before rendering | Highly unstable over scale |
-| **After Sampling** | Disk I/O Inline Filter Gateway | ~80,637 rows × 11 columns | Lightweight prototyping & ultra-fast EDA |
+#### Tabular Comparison
 
-**Conclusion:** Sampling allows for rapid exploratory data analysis (EDA) and fast pipeline prototyping. By skipping rows during the load phase itself, we completely avoid the memory spike associated with loading the whole file just to call the `.sample()` method afterward.
+| Library | Execution Time (s) - Before | Execution Time (s) - After | Peak Memory (MB) - Before | Peak Memory (MB) - After |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dask** | 3.331129 | 2.400775 | 264.650281 | 264.914060 |
+| **Pandas** | 1.915939 | 3.259459 | 24.716189 | 1.582697 |
+| **Polars** | 0.390911 | 0.453180 | 0.004808 | 0.004784 |
+
+![Tabular Comparison Sampling](images/Sampling.png)
 
 ### 5.5 Parallel Processing
 We use the scalable libraries (Dask and Polars) to execute a mean calculation across all dataset partitions simultaneously.
