@@ -43,7 +43,7 @@ This project develops a real-time sentiment analysis system for Malaysian food-r
    - **Batch Pipeline** for offline processing and performance comparison.
 
 # Project Architecture
-![Project Architecture](/report/project_architecture.png)
+![Project Architecture](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/report/architecture-diagram.png)
 
 # Tools and Frameworks
 
@@ -71,8 +71,8 @@ This project develops a real-time sentiment analysis system for Malaysian food-r
 │  
 ├── 📁 notebooks/  
 │   ├── 📓 [data_collection.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebooks/data_collection.ipynb) - Collects raw comments from YouTube    
-│   ├── 📓 [preprocess_training_data.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebooks/description_crawler.ipynb) - Preprocess and labels the collected comments     
-│   ├── 📓 [model_training.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebook/model_training.ipynb) - Trains two sentiment models and selects the best performing model             
+│   ├── 📓 [preprocess_training_data.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebooks/preprocess_training_data.ipynb) - Preprocess and labels the collected comments     
+│   ├── 📓 [model_training.ipynb](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/notebooks/model_training.ipynb) - Trains two sentiment models and selects the best performing model             
 │  
 ├── 📁 kafka_spark_pipeline/  
 │   ├── 📄 [docker-compose.yml](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/kafka_spark_pipeline/docker-compose.yml)  
