@@ -158,14 +158,29 @@ This project covers the following key components:
 
 #### 2.1 Sources
 
+The textual dataset used for the baseline training and downstream streaming emulation originates directly from public user logs on the Google Play Store. The application under analysis is the official AirAsia mobile app. To generate sufficient data variety and capture micro-trends, seasonal booking surges, and historical release stability, approximately 40,000 rows of user reviews were requested. The raw inputs capture vital attributes such as the user review text, the reviewer's star rating, app version, and timestamp metadata. 
+
+Sources for scrapping
+https://play.google.com/store/apps/details?id=com.airasia.mobile&hl=en
 
 
 #### 2.2 Tools
 
+- Google Play Scraper: Collects user reviews directly from the Google Play Store.
+- Python Frameworks Cleans the data and saves trained models.
+- Apache Kafka: Streams the collected reviews in real time.
+- Apache Spark Structured Streaming: Processes the live data stream instantly and reliably.
+- NLP Libraries : Cleans and prepares the review text by breaking down words and finding their root forms.
 
 
 #### 2.3 Cleaning Steps
 
+Raw user reviews on app stores are highly unformatted and contain noise. To clean the data before model ingestion, the text was processed through an automated NLP pipeline containing these steps:
+1. Case Normalization: Converted all review text strings to lowercase to enforce feature uniformity.
+2. Noise and Character Filtering: Filtered out emojis, non-ASCII characters, app symbols, hyper-text markup links, and punctuation marks using regular expressions.
+3. Tokenization: Split text blocks into individual semantic tokens or words via NLTK word splitters.
+4. Stopword Elimination: Filtered out standard English stopwords like ”the”, “is” that contain zero unique contextual sentiment weights.
+5. Lemmatization: Applied spaCy’s morphological processor (en_core_web_sm) to reduce inflectional word variants to their canonical root forms
 
 
 ---
@@ -174,11 +189,19 @@ This project covers the following key components:
 
 #### 3.1 Model Choice
 
+Two models were selected to classify AirAsia reviews as positive, neutral, or negative : 
+ 
+Naive Bayes Classifier : 
+very fast, lightweight, and resource efficient probabilistic model ideal for low-latency live streaming 
 
+LSTM Neural Network : 
+A deep learning model that captures word order and long term context, which is good for understanding complex or mixed user feedback for example praising the price but complaining about the app.
 
 #### 3.2 Training Process
 
-
+- The cleaned dataset (25000 comments) was split into 70% training, 20% testing and 10 % evaluate sets
+- Naive Bayes : The text was converted into numerical features using TF-IDF Vectorizer and trained using Scikit-Learn.
+- LSTM : Text was converted into padded integer sequences, passed through an Embedding layer, a spatial dropout layer, an LSTM layer, and a dense output layer with softmax activation. 
 
 #### 3.3 Evaluation
 
@@ -188,6 +211,35 @@ This project covers the following key components:
 
 ### 4.0 Apache System Architecture
 
+The System has been divided into 2 pipelines which is Batch Processing (Historical Collection & Optimization) and Real Time Processing ( Live Streaming Ingestion & Inference Engines). 
+
+Batch Processing 
+
+- Ingestion and Labeling : 
+Scrapes user reviews of the AirAsia Apps from the app store page and saves it as CSV files.
+
+- Feature Extraction and Training :
+Cleans the review text using NLP techniques and trains both model which is Naive Bayes and LSTM models.
+ 
+- Asset Packaging : 
+Saves the final trained models and components into storage so it can be used later by the streaming engine.
+
+Streaming Processing 
+
+- Collecting Live Data : 
+Apache Kafka collect new user reviews in real time exactly as they are posted
+
+- Reading the Stream : 
+Apache Spark connect to Kafka so it can read the incoming reviews instantly
+
+- Analyzing Sentiment :
+Spark sends the text to the trained AI models and it will classify if the review is positive, neutral or negative.
+
+- Stream Sinks :
+The prediction are saved in two place which in SQLite and CSV file 	
+
+- Visualization :
+Using Matplotlip and Seaborn to create an interactive dashboard that show what users are saying about the app over time 
 
 
 ---
@@ -216,7 +268,9 @@ This project covers the following key components:
 
 ### 7.0 Conclusion & Future Work
 
+The data pipeline uses the Google Play Scrapper to extract customer reviews from the Google Play store. The data is then cleaned and structured for serialization utilizing foundational Python frameworks, including Pandas, NumPy, and Pickle. Apache Kafka is then being used to handle the real-time data flow while Apache Spark is structured streaming that makes the process to be faster and more reliable. Finally, NLP libraries like NLTK and spaCy will handle the underlying text preparation by breaking down review sentences into individual tokens and reducing words to their base grammatical forms. 
 
+As a future enhancement, This pipeline can be scaled widely by integrating others platform to get more data such as Apple App Store APIs to ingest iOS user feedback alongside the existing Android stream. Furthermore, implementing Aspect-Based Sentiment Analysis (ABSA) within the Spark streaming layer will allow the pipeline to automatically separate software bugs from broader airline operational complaints, yielding much more specific, actionable insights. 
 
 ---
 
