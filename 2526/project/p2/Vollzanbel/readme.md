@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Group:</b> Vollzanbel &nbsp;&middot;&nbsp;</p>
+<p align="center"><b>Group:</b> Vollzanbel</p>
 
 ---
 
