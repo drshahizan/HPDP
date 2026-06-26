@@ -227,7 +227,7 @@ result, continuation_token = reviews(
 )
 ```
 
-**APP_ID** specifies the Foodpanda application. 
+**APP_ID** specifies the Foodpanda application. **lang = "en"** retrieves English language reviews only whereas **country = "my"** retrieves reviews from Malaysia Google Play Store only. **sort=Sort.NEWEST** prioritizes collecting the newest reviews first whereas **count = 200** ensures 200 reviews are retrieved per API call. Lastly, **continuation_token** will proceed the next batch of reviews retrieval from where it ended.
 
 #### 2.2 Tools
 
