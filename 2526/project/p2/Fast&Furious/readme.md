@@ -10,17 +10,17 @@
     <th>Role</th>
   </tr>
   <tr>
-    <td width=80%>Goe Jie Ying</td>
+    <td>Goe Jie Ying</td>
     <td> A23CS0224 </td>
     <td> Group Leader, NLP & Model Engineer </td>
   </tr>
   <tr>
-    <td width=80%> Nawwarah Auni binti Nazrudin </td>
+    <td> Nawwarah Auni binti Nazrudin </td>
     <td> A23CS0143 </td>
     <td> Data Engineer </td>
   </tr>
   <tr>
-    <td width=80%> Yasmin Batrisyia Binti Zahiruddin </td>
+    <td> Yasmin Batrisyia Binti Zahiruddin </td>
     <td> A23CS0201 </td>
     <td> Pipeline & Visualization Engineer </td>
   </tr>
@@ -157,12 +157,23 @@ The analysis of the Reddit comments yielded several key insights:
 
 ## 🛠️ Optimization and Comparison
 
-
-
 ### Model Comparison
 
-| Model       | Accuracy    | Precision (Pos/Neg/Neu) | Recall (Pos/Neg/Neu)   | F1-Score (Pos/Neg/Neu) |
+| Model | Accuracy | Precision (Neg / Neu / Pos) | Recall (Neg / Neu / Pos) | F1-Score (Neg / Neu / Pos) |
+|---|---|---|---|---|
+| Multinomial Naive Bayes | 0.6388 | 0.68 / 0.53 / 0.37 | 0.86 / 0.38 / 0.09 | 0.76 / 0.44 / 0.14 |
+| Logistic Regression | 0.6373 | 0.75 / 0.49 / 0.36 | 0.75 / 0.53 / 0.30 | 0.75 / 0.51 / 0.33 |
+| XLM-RoBERTa ⭐ | **0.7403** | **0.81 / 0.66 / 0.53** | **0.83 / 0.65 / 0.47** | **0.82 / 0.66 / 0.50** |    
 
+Naive Bayes achieved the lowest performance with a weighted F1 of 0.5987,
+struggling heavily on the positive class (F1 = 0.14) due to its tendency
+to over-predict the dominant negative class. Logistic Regression improved
+slightly to a weighted F1 of 0.6357 through balanced class weighting, with
+notable gains on the neutral and positive classes. XLM-RoBERTa outperformed
+both classical models with a weighted F1 of 0.7381 and accuracy of 74.03%,
+benefiting from its multilingual pretraining on 100 languages including Malay,
+which allowed it to handle code-switched Manglish comments more effectively
+than TF-IDF-based approaches.
 
 
 ---
