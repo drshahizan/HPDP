@@ -629,156 +629,119 @@ The tools and technologies used throughout the development of the proposed senti
 
 ### 3.0 Sentiment Model Development
 
-This project developed a sentiment analysis model to classify Foodpanda customer reviews into three categories: positive, neutral, and negative.
-
-Two different machine learning approaches were implemented and compared:
-- Naive Bayes Classifier
-- Long Short-Term Memory (LSTM) Neural Network
-
-The objective is to identify customer opinions from review text and evaluate the performance of different sentiment classification approaches.
+This project evaluates two sentiment classification approaches on FoodPanda customer reviews: a traditional machine learning model (**Multinomial Naive Bayes**) and a deep learning model (**Long Short-Term Memory (LSTM)**). Both models were trained using the same preprocessed dataset and evaluated using identical testing data to ensure a fair comparison.
 
 
 
-#### 3.1 Model Choice
+#### 3.1 Model Selection
 
-Two models were selected for sentiment classification:
+##### 1. Multinomial Naive Bayes (Scikit-learn)
 
-##### 1. Naive Bayes Classifier (Scikit-learn)
+Multinomial Naive Bayes was selected as a baseline model due to its simplicity, computational efficiency, and strong performance in text classification tasks. Review text was transformed into numerical representations using **TF-IDF Vectorization** before classification.
 
-Naive Bayes was selected as a baseline machine learning model because it is simple, fast, and suitable for text classification tasks. The review text was converted into numerical features using TF-IDF Vectorization before being classified using the Multinomial Naive Bayes algorithm.
+**Advantages**
+- Fast training and inference
+- Low computational requirements
+- Effective for sparse text features
 
+##### 2. Long Short-Term Memory (LSTM) (TensorFlow/Keras)
 
+LSTM was selected because it can capture contextual and sequential relationships between words, making it suitable for sentiment analysis tasks involving natural language.
 
-##### 2. Long Short-Term Memory (LSTM) Neural Network (TensorFlow/Keras)
+The model architecture consists of:
+- Embedding Layer
+- LSTM Layer
+- Dropout Layer
+- Dense Output Layer
 
-LSTM was selected as a deep learning model because it can learn the sequence and relationship between words in customer reviews. The text data was converted into sequences using Tokenizer and padded into a fixed length before being trained using an Embedding layer, LSTM layer, Dropout layer, and Dense output layer.
-
-Both models were trained and evaluated to compare their performance in sentiment classification.
+**Advantages**
+- Learns contextual information from text
+- Handles sequential dependencies effectively
+- Generally achieves higher performance than traditional models
 
 
 
 #### 3.2 Training Process
 
-Before training, the dataset was prepared by selecting the review text (`lemmatized_text`) as the input feature and sentiment label as the output.
+##### Dataset Preparation
 
-The following preprocessing steps were performed:
+The preprocessed dataset was prepared before training.
 
-- Removed missing review text data.
-- Converted sentiment labels into numerical values using Label Encoder.
+**Input Feature**
+- `lemmatized_text`
 
-<div align="center">
+**Target Label**
+- `sentiment`
 
-<table>
-  <tr>
-    <th>Sentiment</th>
-    <th>Label</th>
-  </tr>
-  <tr>
-    <td>Negative</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td>Neutral</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Positive</td>
-    <td>2</td>
-  </tr>
-</table>
+**Preprocessing Steps**
+- Removed records with missing review text
+- Encoded sentiment labels into numerical values
+- Split dataset into training and testing sets (80:20 ratio)
+- Applied stratified sampling to preserve class distribution
 
-</div>
+##### Sentiment Label Encoding
 
-
-- Split the dataset into training and testing sets using an 80:20 ratio.
-- Stratified splitting was applied to maintain the sentiment distribution.
+| Sentiment | Encoded Label |
+|------------|------------|
+| Negative | 0 |
+| Neutral | 1 |
+| Positive | 2 |
 
 
 
-##### Naive Bayes Training
+##### Multinomial Naive Bayes Configuration
 
-**Preprocessing**
-- Text data was transformed into numerical features using TF-IDF Vectorizer.
+| Parameter | Value |
+|------------|------------|
+| Feature Extraction | TF-IDF |
+| Maximum Features | 5,000 |
+| Algorithm | Multinomial Naive Bayes |
 
-**Training**
-- The extracted TF-IDF features were used to train the Multinomial Naive Bayes classifier.
-
-**Configuration**
-<div align="center">
-
-<table>
-<tr><th>Parameter</th><th>Value</th></tr>
-<tr><td>Feature Extraction</td><td>TF-IDF</td></tr>
-<tr><td>Maximum Features</td><td>5000</td></tr>
-<tr><td>Algorithm</td><td>Multinomial Naive Bayes</td></tr>
-</table>
-
-</div>
-
-##### LSTM Training
-
-**Preprocessing**
-- Text data was converted into sequences using Tokenizer.
-- Padding was applied to make all input sequences have the same length.
-
-**Training**
-- The processed sequences were trained using an LSTM neural network to learn patterns from customer reviews.
-
-**Configuration**
-
-<div align="center">
-
-<table>
-<tr><th>Parameter</th><th>Value</th></tr>
-<tr><td>Vocabulary Size</td><td>10000</td></tr>
-<tr><td>Sequence Length</td><td>100</td></tr>
-<tr><td>Embedding Dimension</td><td>128</td></tr>
-<tr><td>LSTM Units</td><td>64</td></tr>
-<tr><td>Batch Size</td><td>64</td></tr>
-<tr><td>Optimizer</td><td>Adam</td></tr>
-<tr><td>Epochs</td><td>10</td></tr>
-</table>
-
-</div>
-
-Early stopping was applied during training to reduce overfitting.
+Review text was converted into TF-IDF vectors and used to train the Multinomial Naive Bayes classifier.
 
 
 
-#### 3.3 Evaluation
+##### LSTM Configuration
 
-The performance of both models was evaluated using:
+| Parameter | Value |
+|------------|------------|
+| Vocabulary Size | 10,000 |
+| Sequence Length | 100 |
+| Embedding Dimension | 128 |
+| LSTM Units | 64 |
+| Batch Size | 64 |
+| Optimizer | Adam |
+| Epochs | 10 |
+
+Review text was tokenized, converted into sequences, and padded to a fixed length before training. Early stopping was applied to reduce overfitting.
+
+
+
+#### 3.3 Model Evaluation
+
+The models were evaluated using:
 
 - Accuracy
-- Weighted F1-score
+- Precision
+- Recall
+- Weighted F1-Score
 - Classification Report
 - Confusion Matrix
 
-The results were compared to determine which model provides better sentiment classification performance.
+##### Performance Comparison
 
-<div align="center">
+| Model | Accuracy | Weighted F1-Score |
+|---------|---------|---------|
+| Multinomial Naive Bayes | 84.62% | 0.8241 |
+| LSTM | 87.00% | 0.8530 |
 
-<table>
-  <tr>
-    <th>Model</th>
-    <th>Accuracy</th>
-    <th>Weighted F1-score</th>
-  </tr>
-  <tr>
-    <td>Naive Bayes</td>
-    <td>84.62%</td>
-    <td>82.41%</td>
-  </tr>
-  <tr>
-    <td>LSTM</td>
-    <td>87.00%</td>
-    <td>85.30%</td>
-  </tr>
-</table>
+##### Key Findings
 
-</div>
+- LSTM achieved the highest overall performance with **87.00% accuracy** and a **0.8530 weighted F1-score**.
+- Both models performed well on negative and positive reviews.
+- Performance on the neutral class was lower due to class imbalance in the dataset.
+- LSTM demonstrated stronger contextual understanding compared to the traditional Naive Bayes approach.
 
-The confusion matrix was also analysed to observe the number of correctly and incorrectly classified sentiment predictions for each class.
 
 ---
 
