@@ -56,19 +56,19 @@
   <tr>
     <td>Raw Data</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+      <a href="https://drive.google.com/file/d/19TiWEuIOY_1NO8Z1GXZfswDU_zTDC-4v/view?usp=drive_link"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Cleaned Data</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+      <a href="https://drive.google.com/file/d/1r4nbZrxtFcHoTkCA69CgFVmgUQV5AIQQ/view?usp=drive_link"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Jupyter Notebook for Preprocessing</td>
     <td align="center">
-      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Fast%26Furious/notebooks/02_preprocessing.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="notebooks/02_Preprocessing.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
