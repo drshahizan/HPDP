@@ -2,16 +2,16 @@
 
 **Course:** SECP3133 High Performance Data Processing
 **Semester:** 2025/2026, Semester 2
-**Deadline:** Friday, 26 June 2026, 11:59 PM (MYT)
+**Deadline:** -
 
 ## Group Members
 
 | Name | Matric No. | Role |
 |---|---|---|
-| [Member 1 name] | [matric] | Data & NLP Engineer (Acquisition + Preprocessing) |
-| [Member 2 name] | [matric] | Model Engineer (Sentiment Classification) |
-| [Member 3 name] | [matric] | Pipeline Engineer (Kafka + Spark + Storage) |
-| Bella (Ain Nurnabila Binti Mohd Azhar) | A23CS0207 | Visualization & Reporting Engineer |
+| DAYANG | A23CS | Data & NLP Engineer (Acquisition + Preprocessing) |
+| FARRA | A23CS | Model Engineer (Sentiment Classification) |
+| SAFIYA | A23CS | Pipeline Engineer (Kafka + Spark + Storage) |
+| AIN NURNABILA BINTI MOHD AZHAR | A23CS0207 | Visualization & Reporting Engineer |
 
 ## Project Summary
 
@@ -20,28 +20,6 @@ Real-time sentiment analysis pipeline on Malaysian-relevant text data, using:
 - **Spark Structured Streaming** for parallel processing and model inference
 - **Elasticsearch / Apache Druid** for storage
 - **Kibana / Apache Superset** for visualization
-
-## Repository Structure
-
-```
-P2/[your_group]/
-├── README.md
-├── data/
-│   ├── raw_data/
-│   └── cleaned_data.csv
-├── notebooks/
-│   └── preprocessing.ipynb
-├── model_training.ipynb
-├── kafka_spark_pipeline/
-│   ├── spark_streaming.py
-│   ├── dashboard/
-│   └── elastic_mappings.json
-├── kibana_visualizations.json
-├── reports/
-│   └── final_report.pdf
-├── presentation_slides.pptx
-└── requirements.txt
-```
 
 ## Status
 
@@ -57,6 +35,4 @@ P2/[your_group]/
 - [ ] Final report compiled
 - [ ] Presentation slides finalized
 
-## Contact
 
-For questions about this submission, contact: [group contact email]
