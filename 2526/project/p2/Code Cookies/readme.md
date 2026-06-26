@@ -88,40 +88,43 @@
 
 ## Table of Contents
 
-### 1.0 Introduction
-- [1.1 Background](#11-background)
-- [1.2 Objectives](#12-objectives)
-- [1.3 Scope](#13-scope)
+* [1.0 Introduction](#10-introduction)
 
-### 2.0 Data Acquisition & Preprocessing
-- [2.1 Data Collection](#21-data-collection)
-- [2.2 Data Preprocessing](#22-data-preprocessing)
-- [2.3 Tools Used](#23-tools-used)
+  * [1.1 Background](#11-background)
+  * [1.2 Objectives](#12-objectives)
+  * [1.3 Scope](#13-scope)
 
-### 3.0 Sentiment Model Development
-- [3.1 Model Choice](#31-model-choice)
-- [3.2 Training Process](#32-training-process)
-- [3.3 Evaluation](#33-evaluation)
+* [2.0 Data Acquisition & Preprocessing](#20-data-acquisition--preprocessing)
 
-### 4.0 Apache System Architecture
-- [4.0 Apache System Architecture](#40-apache-system-architecture)
+  * [2.1 Data Collection](#21-data-collection)
+  * [2.2 Data Preprocessing](#22-data-preprocessing)
+  * [2.3 Tools Used](#23-tools-used)
 
-### 5.0 Analysis & Results
-- [5.1 Key Findings](#51-key-findings)
-- [5.2 Visualizations](#52-visualizations)
-- [5.3 Insights](#53-insights)
+* [3.0 Sentiment Model Development](#30-sentiment-model-development)
 
-### 6.0 Optimisation & Comparison
-- [6.0 Optimisation & Comparison](#60-optimisation--comparison)
+  * [3.1 Model Choice](#31-model-choice)
+  * [3.2 Training Process](#32-training-process)
+  * [3.3 Evaluation](#33-evaluation)
 
-### 7.0 Conclusion & Future Work
-- [7.0 Conclusion & Future Work](#70-conclusion--future-work)
+* [4.0 Apache System Architecture](#40-apache-system-architecture)
 
-### 8.0 References
-- [8.0 References](#80-references)
+* [5.0 Analysis & Results](#50-analysis--results)
 
-### 9.0 Appendix
-- [9.0 Appendix](#90-appendix)
+  * [5.1 Dashboard Overview](#51-dashboard-overview)
+  * [5.2 Key Insights and Recommendations](#52-key-insights-and-recommendations)
+
+* [6.0 Optimisation & Comparison](#60-optimisation--comparison)
+
+* [7.0 Conclusion & Future Work](#70-conclusion--future-work)
+
+  * [Conclusion](#conclusion)
+  * [Future Work](#future-work)
+
+* [8.0 References](#80-references)
+
+* [9.0 Appendix](#90-appendix)
+
+
 
 ---
 
@@ -880,13 +883,13 @@ The models were assessed using **Accuracy** and **Weighted F1-Score**.
   
 ---
 
-## 6.2 Pipeline Architecture Optimization
+### 6.2 Pipeline Architecture Optimization
 
 The pipeline for sentiment analysis uses Kafka, Spark, ElasticSearch and Kibana. During the development of this project, several issues were encountered and optimizations were applied to resolve these issues.
 
 ---
 
-### 6.2.1 Kafka Producer Optimization
+#### 6.2.1 Kafka Producer Optimization
 
 The first problem that arose is that the Kafka producer could not connect to Kafka broker. This is because the Kafka producer was configured to send the reviews to localhost:9092, and the Kafka broker was not running or was not configured. So, the producer responded with a NoBrokersAvailable error.
 
@@ -905,7 +908,7 @@ These optimisations ensured that the Kafka producer can be run smoothly and coul
 
 ---
 
-### 6.2.2 Spark Streaming Consumer Optimization
+#### 6.2.2 Spark Streaming Consumer Optimization
 
 Spark component is used to read incoming real-time reviews from Kafka. The Spark streaming subscribes to `foodpanda_reviews` topic and reads the review data as a stream. An optimization that was applied to the Spark script is the use of `forEachBatch`. This enables the streaming data to be processed in small batches with the trained machine-learning model. This will enhance processing efficiency for continuous review streaming.
 
@@ -922,7 +925,7 @@ This optimization helped Spark to process incoming Foodpanda reviews from real-t
 
 ---
 
-### 6.2.3 Elasticsearch and Kibana Optimization
+#### 6.2.3 Elasticsearch and Kibana Optimization
 
 The processed sentiment results were stored and indexed into Elasticsearch and the dashboard visualisation was done using Kibana. Connectivity problems were observed when trying to connect to Elasticsearch with security authentication enabled during development. This led to the Python client generating an authentication error since it was trying to connect without any username and password.
 
@@ -937,7 +940,7 @@ Initially, CSV files were used to create dashboards in Kibana, but this was not 
 
 ---
 
-### 6.2.4 Docker Deployment Optimization
+#### 6.2.4 Docker Deployment Optimization
 
 Components in the pipeline such as Elasticsearch, Kibana and Kafka were isolated in containers to simplify setup using Docker. This reduced dependency since each of the services could be installed on its own with a different environment required. This also prevents version conflicts between local Java, Kafka, Elasticsearch and Kibana installations.
 
