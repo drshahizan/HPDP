@@ -49,7 +49,7 @@ A Kafka → Spark → Elasticsearch → Kibana pipeline that listens to Malay/En
 |---|---|---|---|
 | 1 | *Muhammad Afiq Danish bin Mohd Hazni* | *A23CS0118* | Group Leader & Data Engineer |
 | 2 | *Muhammad Adam bin Razali* | *A23CS0116* | NLP & Model Engineer |
-| 3 | *PRAVINRAJ A/L SIVABATHI* | *A23CS* | Pipeline & Visualization Engineer |
+| 3 | *PRAVINRAJ A/L SIVABATHI* | *A23CS0171* | Pipeline & Visualization Engineer |
 
 ---
 
