@@ -229,6 +229,33 @@ result, continuation_token = reviews(
 
 **APP_ID** specifies the Foodpanda application. **lang = "en"** retrieves English language reviews only whereas **country = "my"** retrieves reviews from Malaysia Google Play Store only. **sort=Sort.NEWEST** prioritizes collecting the newest reviews first whereas **count = 200** ensures 200 reviews are retrieved per API call. Lastly, **continuation_token** will proceed the next batch of reviews retrieval from where it ended.
 
+After each request, the scraper checks whether any reviews were returned. If no reviews are returned, the loop terminates because there are no additional reviews available for collection. The code for this function is attached below.
+
+```python
+if not result:
+    print("No more reviews available.")
+    break
+```
+
+Once all the reviews are successfully retrieved, they are appended to the master list. The total number of collected reviews is then displayed from time to time for every API call to 8ndicate that the code is running correctly.
+
+```python
+all_reviews.extend(result)
+print(f"Collected: {len(all_reviews)} reviews")
+```
+
+Google Play provides a continuation token only when more reviews are available. If no continuation token is returned, the scraper terminates because all accessible reviews have already been collected. The code for this function is attached below.
+
+```python
+if continuation_token is None:
+    print("Reached the end of available reviews.")
+    break
+```
+
+
+
+
+
 #### 2.2 Tools
 
 - **`google-play-scraper`** – Python library for extracting app reviews from the Google Play Store
