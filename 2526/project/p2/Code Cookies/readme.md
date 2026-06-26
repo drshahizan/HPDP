@@ -303,9 +303,30 @@ df = df.drop_duplicates(subset=["review_id"])
 df = df[df["review_text"].notna()]
 ```
 
+The final dataset is then exported as a CSV file.
+
+```python
+df.to_csv(
+    "data/foodpanda_malaysia_reviews_raw.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+```
+
+Finally, the scraper displays the total number of collected reviews.
+
+```python
+print("Finished scraping.")
+print("Total reviews saved:", len(df))
+```
+
+Example:
+
+Finished scraping.
+Total reviews saved: 100000
 
 
-
+The entire compiled code is attached below :
 
 
 #### 2.2 Tools
