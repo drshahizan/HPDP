@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sentiment Dashboard Prototype</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+  :root {
+    --navy-900: #0a1628;
+    --navy-800: #0f2240;
+    --navy-700: #16315c;
+    --gold-500: #d4af37;
+    --gold-300: #e8c96a;
+    --positive: #4caf91;
+    --negative: #d4636b;
+    --neutral: #8b96ab;
+    --text-soft: #c9d4e8;
+    --text-faint: #7e8caa;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--navy-900);
+    background-image:
+      radial-gradient(circle at 15% 10%, rgba(212,175,55,0.06), transparent 40%),
+      radial-gradient(circle at 85% 90%, rgba(212,175,55,0.04), transparent 40%);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: var(--text-soft);
+    padding: 32px 24px 48px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .header .eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold-500);
+    text-transform: uppercase;
+  }
+  .header h1 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #f4ead0;
+    margin: 6px 0 4px;
+    letter-spacing: 0.5px;
+  }
+  .header .sub {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color: var(--text-faint);
+  }
+
+  .status-banner {
+    max-width: 760px;
+    margin: 18px auto 28px;
+    border: 1px solid rgba(212,175,55,0.35);
+    background: rgba(212,175,55,0.06);
+    padding: 10px 16px;
+    border-radius: 2px;
+    font-family: 'Courier New', monospace;
+    font-size: 11.5px;
+    color: var(--gold-300);
+    text-align: center;
+    letter-spacing: 0.3px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  @media (max-width: 800px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: linear-gradient(180deg, var(--navy-800), var(--navy-700));
+    border: 1px solid rgba(212,175,55,0.18);
+    border-radius: 3px;
+    padding: 18px 20px 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 2px;
+    background: linear-gradient(90deg, var(--gold-500), transparent);
+  }
+  .panel-title {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold-500);
+    margin: 0 0 14px;
+  }
+  .full-width { grid-column: 1 / -1; }
+
+  canvas { max-height: 280px; }
+
+  .stat-row {
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+  }
+  .stat {
+    flex: 1;
+    text-align: center;
+    border: 1px solid rgba(212,175,55,0.15);
+    padding: 10px 6px;
+    border-radius: 2px;
+  }
+  .stat .num { font-size: 22px; color: #f4ead0; font-family: 'Georgia', serif; }
+  .stat.positive .num { color: var(--positive); }
+  .stat.negative .num { color: var(--negative); }
+  .stat.neutral .num { color: var(--neutral); }
+  .stat .lbl { font-family: 'Courier New', monospace; font-size: 9.5px; color: var(--text-faint); letter-spacing: 1px; margin-top: 4px; }
+
+  .wordcloud {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px 14px;
+    min-height: 200px;
+    padding: 10px;
+  }
+  .wordcloud span {
+    font-family: 'Georgia', serif;
+    line-height: 1;
+  }
+  .wc-positive span { color: var(--positive); }
+  .wc-negative span { color: var(--negative); }
+
+  .wc-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .wc-col-label {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 6px;
+    opacity: 0.8;
+  }
+
+  .footer-note {
+    max-width: 1100px;
+    margin: 28px auto 0;
+    font-family: 'Courier New', monospace;
+    font-size: 10.5px;
+    color: var(--text-faint);
+    text-align: center;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">Bronze → Silver → Gold → Curated</div>
+  <h1>Real-Time Sentiment Dashboard</h1>
+  <div class="sub">SECP3133 · Project 2 · Prototype build</div>
+</div>
+
+<div class="status-banner" id="statusBanner">Loading mock dataset...</div>
+
+<div class="grid">
+
+  <div class="panel">
+    <p class="panel-title">Sentiment Distribution</p>
+    <canvas id="pieChart"></canvas>
+    <div class="stat-row" id="statRow"></div>
+  </div>
+
+  <div class="panel">
+    <p class="panel-title">Sentiment Over Time</p>
+    <canvas id="lineChart"></canvas>
+  </div>
+
+  <div class="panel full-width">
+    <p class="panel-title">Frequent Terms by Sentiment</p>
+    <div class="wc-cols">
+      <div>
+        <div class="wc-col-label" style="color: var(--positive);">POSITIVE</div>
+        <div class="wordcloud wc-positive" id="wcPositive"></div>
+      </div>
+      <div>
+        <div class="wc-col-label" style="color: var(--negative);">NEGATIVE</div>
+        <div class="wordcloud wc-negative" id="wcNegative"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer-note">
+  PROTOTYPE — running on synthetic mock data (1,500 rows) generated for design/testing purposes.<br>
+  Swap data source to Member 1's cleaned_data.csv / Elasticsearch query once the real pipeline is live.
+</div>
+
+<script>
+const STOPWORDS = new Set(["the","was","is","very","with","and","to","of","for","my","i","a","an","it","this","that","not","worth","total","be","will","have","had","has","one","week","everyone","everyone's","than","than","at","in","on","experience","product","item","really","also","but"]);
+
+function wordFreq(texts) {
+  const freq = {};
+  texts.forEach(t => {
+    t.toLowerCase().split(/[^a-z']+/).forEach(w => {
+      if (w.length > 2 && !STOPWORDS.has(w)) {
+        freq[w] = (freq[w] || 0) + 1;
+      }
+    });
+  });
+  return Object.entries(freq).sort((a,b) => b[1]-a[1]).slice(0, 14);
+}
+
+function renderWordCloud(containerId, freqPairs, baseColor) {
+  const el = document.getElementById(containerId);
+  const maxCount = freqPairs[0] ? freqPairs[0][1] : 1;
+  freqPairs.forEach(([word, count]) => {
+    const size = 13 + (count / maxCount) * 22;
+    const span = document.createElement('span');
+    span.textContent = word;
+    span.style.fontSize = size + 'px';
+    span.style.opacity = (0.55 + (count / maxCount) * 0.45).toFixed(2);
+    el.appendChild(span);
+  });
+}
+
+function loadMockCSV() {
+  // Inline mock CSV (mirrors data/mock_cleaned_data.csv structure: text, created_at, sentiment, source)
+  return fetch('https://raw.githubusercontent.com/anthropics/sample-data/main/none.csv')
+    .catch(() => null);
+}
+
+// Self-contained mock data (no external fetch needed for the prototype)
+const MOCK_DATA = (() => {
+  const positive = ["the service was really fast and friendly very happy with my order","love this product so much will definitely buy again","amazing quality for the price highly recommend to everyone","best experience i've had with online shopping in malaysia","delivery was quick and packaging was excellent"];
+  const negative = ["very disappointed with the quality not worth the money","delivery took too long and item arrived damaged","customer service was rude and unhelpful","product stopped working after one week total waste","worst experience ever will not be ordering again"];
+  const neutral = ["the item arrived as described nothing special","average product does what it says","delivery was on time packaging was okay","price is reasonable for what you get","no major issues would consider buying again"];
+  const rows = [];
+  const start = new Date(2026,4,1).getTime();
+  const dayMs = 24*60*60*1000;
+  for (let i=0;i<1500;i++) {
+    const r = Math.random();
+    let sentiment, pool;
+    if (r < 0.45) { sentiment='positive'; pool=positive; }
+    else if (r < 0.75) { sentiment='negative'; pool=negative; }
+    else { sentiment='neutral'; pool=neutral; }
+    const text = pool[Math.floor(Math.random()*pool.length)];
+    const day = Math.floor(Math.random()*55);
+    rows.push({ text, sentiment, created_at: new Date(start + day*dayMs) });
+  }
+  return rows;
+})();
+
+function build() {
+  document.getElementById('statusBanner').textContent =
+    `PROTOTYPE MODE — ${MOCK_DATA.length.toLocaleString()} synthetic rows loaded. Replace with real cleaned_data.csv when ready.`;
+
+  const counts = { positive: 0, negative: 0, neutral: 0 };
+  MOCK_DATA.forEach(r => counts[r.sentiment]++);
+
+  // Stat row
+  const statRow = document.getElementById('statRow');
+  ['positive','neutral','negative'].forEach(s => {
+    const pct = ((counts[s]/MOCK_DATA.length)*100).toFixed(1);
+    const div = document.createElement('div');
+    div.className = 'stat ' + s;
+    div.innerHTML = `<div class="num">${pct}%</div><div class="lbl">${s.toUpperCase()}</div>`;
+    statRow.appendChild(div);
+  });
+
+  // Pie chart
+  new Chart(document.getElementById('pieChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Positive', 'Negative', 'Neutral'],
+      datasets: [{
+        data: [counts.positive, counts.negative, counts.neutral],
+        backgroundColor: ['#4caf91', '#d4636b', '#8b96ab'],
+        borderColor: '#0f2240',
+        borderWidth: 3,
+      }]
+    },
+    options: {
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#c9d4e8', font: { family: 'Courier New', size: 11 } } }
+      }
+    }
+  });
+
+  // Line chart — sentiment over time (weekly buckets)
+  const weekly = {};
+  MOCK_DATA.forEach(r => {
+    const wk = new Date(r.created_at);
+    wk.setDate(wk.getDate() - wk.getDay());
+    const key = wk.toISOString().slice(0,10);
+    if (!weekly[key]) weekly[key] = { positive: 0, negative: 0, neutral: 0 };
+    weekly[key][r.sentiment]++;
+  });
+  const weekKeys = Object.keys(weekly).sort();
+
+  new Chart(document.getElementById('lineChart'), {
+    type: 'line',
+    data: {
+      labels: weekKeys,
+      datasets: [
+        { label: 'Positive', data: weekKeys.map(k => weekly[k].positive), borderColor: '#4caf91', backgroundColor: 'transparent', tension: 0.3 },
+        { label: 'Negative', data: weekKeys.map(k => weekly[k].negative), borderColor: '#d4636b', backgroundColor: 'transparent', tension: 0.3 },
+        { label: 'Neutral', data: weekKeys.map(k => weekly[k].neutral), borderColor: '#8b96ab', backgroundColor: 'transparent', tension: 0.3 },
+      ]
+    },
+    options: {
+      scales: {
+        x: { ticks: { color: '#7e8caa', font: { size: 9 } }, grid: { color: 'rgba(212,175,55,0.08)' } },
+        y: { ticks: { color: '#7e8caa', font: { size: 9 } }, grid: { color: 'rgba(212,175,55,0.08)' } }
+      },
+      plugins: { legend: { labels: { color: '#c9d4e8', font: { family: 'Courier New', size: 10 } } } }
+    }
+  });
+
+  // Word clouds
+  const posTexts = MOCK_DATA.filter(r => r.sentiment === 'positive').map(r => r.text);
+  const negTexts = MOCK_DATA.filter(r => r.sentiment === 'negative').map(r => r.text);
+  renderWordCloud('wcPositive', wordFreq(posTexts), '#4caf91');
+  renderWordCloud('wcNegative', wordFreq(negTexts), '#d4636b');
+}
+
+build();
+</script>
+</body>
+</html>
