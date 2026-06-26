@@ -135,8 +135,14 @@ The primary goals of this project are:
 ---
 
 ## 📂 File Descriptions
-
-
+- `README.md`: This file.
+- `data/`: Raw and cleaned YouTube comments collected from 16 videos related to Malaysia's BUDI95 fuel subsidy policy.
+- `notebooks/`: Google Colab notebooks covering the full pipeline from scraping to sentiment labelling and model training.
+- `kafka_spark_pipeline/`: Python scripts for streaming YouTube comments through Apache Kafka and classifying them in real time using Apache Spark.
+- `dashboard/`: Kibana dashboard export file for visualising real-time sentiment results.
+- `reports/`: Final project report documenting the full system development and findings.
+- `dashboard.png`: Screenshot of the Kibana sentiment monitoring dashboard.
+- `pipeline_architecture.png`: Overview diagram of the end-to-end system architecture.
 
 ---
 
@@ -164,11 +170,14 @@ The analysis of the Reddit comments yielded several key insights:
 ---
 
 ## 🏋️ Conclusion
-
-
+This project built a real-time sentiment analysis pipeline for YouTube comments on Malaysia's BUDI95 fuel subsidy policy. A total of 3,448 comments were collected from 16 YouTube videos, preprocessed using NLP techniques, and labelled using XLM-RoBERTa. Among the three models evaluated, XLM-RoBERTa performed best with a weighted F1-score of 0.7381 and accuracy of 74.03%. Sentiment analysis revealed that 61.5% of public comments were negative, which reflects strong public dissatisfaction toward the policy. The pipeline was integrated with Apache Kafka, Spark Structured Streaming, Elasticsearch, and Kibana for real-time monitoring. It achieves 81.19% classification accuracy in both batch and streaming modes.
 
 ---
 
 ## 🚀 Future Work
 
-
+- Expand data collection to other platforms such as X (Twitter), Facebook, and Threads for a more complete picture of public opinion
+- Build a more comprehensive Malay slang dictionary and improve language detection specifically for Manglish text
+- Add emoji sentiment mapping to retain emotional signals that are currently removed during preprocessing
+- Explore stronger multilingual models such as XLM-RoBERTa-Large or mBERT fine-tuned on a larger Malaysian social media corpus to improve performance, especially on the minority positive class
+- Deploy XLM-RoBERTa directly in the streaming pipeline on GPU-backed infrastructure for higher accuracy in real-time classification
