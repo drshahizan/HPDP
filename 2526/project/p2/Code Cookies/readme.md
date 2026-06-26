@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  Code Cookies - Real-Time Sentiment Pipeline on Google Play Reviews of Popular Malaysian Apps
+  Code Cookies - Real-Time Sentiment Pipeline on Google Play Reviews of FoodPanda Apps
   <br>
 </h1>
 
@@ -10,17 +10,17 @@
     <th>Role</th>
   </tr>
   <tr>
-    <td width=80%>Najma Shakirah binti Shahrulzaman</td>
+    <td width=40%>Najma Shakirah binti Shahrulzaman</td>
     <td>A23CS0140</td>
     <td>Group Leader & Pipeline Engineer</td>
   </tr>
   <tr>
-    <td width=80%>Nurul Asyikin Binti Khairul Anuar</td>
+    <td width=40%>Nurul Asyikin Binti Khairul Anuar</td>
     <td>A23CS0162</td>
     <td>NLP Model & Visualization Engineer</td>
   </tr>
   <tr>
-    <td width=80%>Harini A/P Sangaran</td>
+    <td width=40%>Harini A/P Sangaran</td>
     <td>A23CS0081</td>
     <td>Data & NLP Engineer</td>
   </tr>
@@ -788,12 +788,50 @@ Figure above illustrates the overall architecture of the proposed real-time sent
 ---
 
 ### 5.0 Analysis & Results
+This section explains about all the analysis charts in the FoodPanda Customer Review Sentiment dashboard that was created using ElasticSearch and Kibana after real-time streaming and sentiment classification using Kafka and Spark. The full dashboard is shown in Appendix A. The purpose of this dashboard is to understand customer review patterns, review rating distribution and sentiment trends.
 
-#### 5.1 Key Findings
+#### 5.1 Dashboard Overview
+Figure 5.1 shows the total reviews from the FoodPanda App which is 16,962 reviews after the real-time streaming is conducted. The metric card displays the total reviews by counting the number of records in the Kibana data view.
 
-#### 5.2 Visualizations
+<img width="307" height="262" alt="image" src="https://github.com/user-attachments/assets/9c7709ff-dbb6-4d13-ab4a-483eea12813c" />
 
-#### 5.3 Insights
+Figure 5.1 Total Reviews Metric Card
+
+Figure 5.2 shows the average star rating of the FoodPanda App reviews. It shows a value of 2.445 out of 5 which means that the overall customer rating is low. Since the value is also below the midpoint of 3, this suggests that FoodPanda customers’ feedback lean towards dissatisfaction. This finding is supported by the sentiment distribution displayed in Figure 5.3 where negative reviews make up the majority of the reviews.
+
+<img width="312" height="270" alt="Screenshot 2026-06-26 171312" src="https://github.com/user-attachments/assets/cb4ef459-feed-4c5b-a3f1-45d16e5f1dba" />
+
+Figure 5.2 Average Star Rating Metric Card
+
+Figure 5.3 displays a bar chart that shows the review distribution by star rating. The chart shows that the highest total reviews recorded have 1 star rating indicating that most customers gave very low ratings and are dissatisfied with the app and service. Then it is followed by 5-star reviews which shows that some customers still had positive experiences. However, 2-star, 3-star and 4-star ratings have lower total reviews with 3 stars being the lowest at 516 total reviews. The patterns shows that the customer reviews are strongly divided between very negative and very positive experience, but negative reviews are more dominant across all reviews.
+
+<img width="712" height="460" alt="Screenshot 2026-06-26 171328" src="https://github.com/user-attachments/assets/b6d10cdf-f8bf-4e23-b0ef-c4666906a153" />
+
+Figure 5.3 Review Distribution by Star Rating
+
+Figure 5.4 is a pie chart that illustrates the sentiment distribution of all recorded FoodPanda reviews. The pie chart shows that 68.96% of all reviews are negative while 31.04% are positive reviews. The result suggests that many customers expressed dissatisfaction in their review.
+
+<img width="542" height="456" alt="Screenshot 2026-06-26 171421" src="https://github.com/user-attachments/assets/87b8f91a-3340-408a-88df-91827ade9a5a" />
+
+Figure 5.4 Sentiment Distribution Across All FoodPanda Reviews
+
+Figure 5.5 is a line chart that illustrates the daily review trend by both negative and positive sentiment. It displays the recorded daily total reviews in the past year. Based on the trend, negative reviews are consistently higher than positive reviews throughout the one year period. There are noticeable spikes in negative reviews around April to June of 2026 which may indicate periods where customers experienced more service-related issues. The positive review remains lower and stable compared to the negative review trend.
+
+<img width="1013" height="487" alt="Screenshot 2026-06-26 172220" src="https://github.com/user-attachments/assets/7b61c272-2796-427c-b6a8-703d4ffaa8a0" />
+
+Figure 5.5 Daily Review Trend by Sentiment
+
+Figure 5.6 shows a tag cloud that displays the top 25 most frequent keywords mentioned in the FoodPanda reviews. The largest shown keywords are cancel, payment, refund, time and hour. These keywords suggest that the most common customer issues are related to order cancellation, payment problems, refund requests, and long waiting times. The tag cloud helps in identifying the main complaint topics that appear repeatedly in reviews.
+
+<img width="862" height="495" alt="Screenshot 2026-06-26 171503" src="https://github.com/user-attachments/assets/c20e84e0-5074-4778-8162-3efd7fdebf4a" />
+
+Figure 5.6 Top 25 Most Frequent Keywords in Reviews
+
+#### 5.2 Key Insights and Recommendations
+The Foodpanda Customer Review Sentiment dashboard shows that customer dissatisfaction is mainly related to service and operational issues. This can be seen from the low average star rating, a lot of 1-star reviews, and the fact that most of its reviews were negative, which shows that there were issues that many users faced when using the Foodpanda app. Furthermore, the keyword analysis indicates that the primary issues are order cancellation, payment issues, refund issues, and long wait times. The daily sentiment trend also indicates that negative sentiment is always higher than positive sentiment, suggesting that dissatisfaction is not confined to a particular window, but rather is a persistent concern.
+
+From these key insights gained, there are things that Foodpanda needs to do to improve the process of service recovery and customer support. Focus should be on minimizing the number of orders that are cancelled, processing refunds faster, ensuring the reliability of payment processing, and offering quicker responses via customer support channels. The dashboard will also serve as a monitoring tool that will help the company to identify any sudden surge in negative reviews, and take appropriate action in order to respond swiftly before the situation escalates into something bigger. In conclusion, the analysis results indicate that increasing the operational reliability and addressing complaints can decrease negative sentiment and enhance customer satisfaction.
+
 
 ---
 
