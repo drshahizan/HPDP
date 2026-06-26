@@ -69,6 +69,9 @@ Label distribution after cleaning: **42.5 % neutral**, **30.9 % negative**, **26
 
 ## 🧠 Architecture
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/81300529-43cc-4a3e-aa80-67da9080e849" />
+
+
 ---
 
 ## 🧰 Technology used
