@@ -1,0 +1,3 @@
+Mode,Reviews,Total Time (s),Throughput (rev/s)
+Batch,9979,0.201,49685.6
+Streaming (Kafka+Spark),3000,4.98,635.5
