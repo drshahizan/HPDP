@@ -350,3 +350,9 @@ As a future enhancement, This pipeline can be scaled widely by integrating other
 ---
 
 ### 9.0 Appendix
+
+- Air Asia Apps in the Google Play Store
+  <img width="821" height="559" alt="image" src="https://github.com/user-attachments/assets/92ae8389-9a59-4856-8ad2-5f32290e06da" />
+
+- Rating and Revire in the AirAsia apps
+ <br> <img width="529" height="677" alt="image" src="https://github.com/user-attachments/assets/9a7641b1-fa15-4720-8d73-1d65e6f543ad" />
