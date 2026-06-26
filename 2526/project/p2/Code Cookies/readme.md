@@ -837,6 +837,79 @@ From these key insights gained, there are things that Foodpanda needs to do to i
 
 ### 6.0 Optimisation & Comparison
 
+## 6.2 Pipeline Architecture Optimization
+
+The pipeline for sentiment analysis uses Kafka, Spark, ElasticSearch and Kibana. During the development of this project, several issues were encountered and optimizations were applied to resolve these issues.
+
+---
+
+### 6.2.1 Kafka Producer Optimization
+
+The first problem that arose is that the Kafka producer could not connect to Kafka broker. This is because the Kafka producer was configured to send the reviews to localhost:9092, and the Kafka broker was not running or was not configured. So, the producer responded with a NoBrokersAvailable error.
+
+The problem was resolved by making sure that Kafka was started correctly before the producer. The Kafka storage was also formatted as Kafka 4.x requires KRaft storage configuration to run the server. Once Kafka was successfully started, the new topic `foodpanda_reviews` was created. This enabled the producer to push review messages out on a continuous basis to the Kafka topic.
+
+**Table 6.2 Kafka Producer Optimization Comparison**
+
+| Problem | Cause | Optimization |
+|---|---|---|
+| NoBrokersAvailable error | Kafka broker was not running on localhost:9092 | Start Kafka before running the producer |
+| Kafka server failed to start | Kafka storage was not formatted | Format Kafka KRaft storage before starting the server |
+| Topic not found | Kafka topic had not been created | Create the `foodpanda_reviews` topic before streaming |
+| Duplicate or repeated testing issues | Producer was run multiple times during testing | Limit the number of reviews sent during testing to control the data flow |
+
+These optimisations ensured that the Kafka producer can be run smoothly and could stream Foodpanda reviews into the Kafka topic successfully.
+
+---
+
+### 6.2.2 Spark Streaming Consumer Optimization
+
+Spark component is used to read incoming real-time reviews from Kafka. The Spark streaming subscribes to `foodpanda_reviews` topic and reads the review data as a stream. An optimization that was applied to the Spark script is the use of `forEachBatch`. This enables the streaming data to be processed in small batches with the trained machine-learning model. This will enhance processing efficiency for continuous review streaming.
+
+Another optimization was the implementation of checkpointing using `checkpointLocation`. Checkpointing will allow the streaming job to recover from failure and resume its processing from the last checkpoint rather than from the start.
+
+**Table 6.3 Spark Streaming Optimizations Comparison**
+
+| Problem | Cause | Optimization |
+|---|---|---|
+| Kafka server failed to start | Model prediction was originally more suitable for batch data | Use `foreachBatch` to apply the model on each micro-batch |
+| Risk of stream failure or restart | Streaming applications may stop due to errors | Use checkpointing to allow recovery from the last processed state |
+
+This optimization helped Spark to process incoming Foodpanda reviews from real-time Kafka messages more reliably and prepare the sentiment results for dashboard visualisation.
+
+---
+
+### 6.2.3 Elasticsearch and Kibana Optimization
+
+The processed sentiment results were stored and indexed into Elasticsearch and the dashboard visualisation was done using Kibana. Connectivity problems were observed when trying to connect to Elasticsearch with security authentication enabled during development. This led to the Python client generating an authentication error since it was trying to connect without any username and password.
+
+Initially, CSV files were used to create dashboards in Kibana, but this was not suitable for the real-time nature of the pipeline that needed continuous update. The data obtained from streaming is stored in an index called `foodpanda_streaming_reviews`. A data view `foodpanda_reviews` was created and can then be used for creating charts.
+
+**Table 6.4 Elasticsearch and Kibana Optimizations Comparison**
+
+| Problem | Cause | Optimization |
+|---|---|---|
+| Python could not connect to Elasticsearch | Elasticsearch security required authentication | Disable security for local development or provide username and password |
+| Dashboard needed updated results | Static CSV upload did not support continuous updates | Store streaming prediction results in Elasticsearch for Kibana visualisation |
+
+---
+
+### 6.2.4 Docker Deployment Optimization
+
+Components in the pipeline such as Elasticsearch, Kibana and Kafka were isolated in containers to simplify setup using Docker. This reduced dependency since each of the services could be installed on its own with a different environment required. This also prevents version conflicts between local Java, Kafka, Elasticsearch and Kibana installations.
+
+**Table 6.5 Docker Optimizations Comparison**
+
+| Aspect | Before Docker | After Docker |
+|---|---|---|
+| Service setup | Manual installation required per machine | Each service runs in its own isolated container |
+| Version management | Risk of version conflicts across local installations | Each container uses a fixed, compatible version |
+| Port configuration | Manual checking and configuration required | Ports are mapped clearly, such as 9200 for Elasticsearch and 9092 for Kafka |
+| Deployment consistency | May behave differently on different machines | Same container setup can be reused |
+| Troubleshooting | Harder to identify environment-related issues | Easier to restart, remove, or recreate containers |
+
+Docker provided benefits to the pipeline and made deployment more consistent, portable, and easy to manage. It helped to eliminate configuration issues and help the project parts run in a more controlled environment. This optimisation enables a seamless flow of information between Kafka, Spark Streaming, Elasticsearch and Kibana, particularly for real-time sentiment analysis and dashboard visualization.
+
 ---
 
 ### 7.0 Conclusion & Future Work
@@ -848,3 +921,19 @@ From these key insights gained, there are things that Foodpanda needs to do to i
 ---
 
 ### 9.0 Appendix
+
+<img width="1077" height="528" alt="image" src="https://github.com/user-attachments/assets/0d3eea23-2ee0-4aef-ba9d-85da64a065d1" />
+Appendix A: Foodpanda Customer Review Sentiment Dashboard
+
+<img width="380" height="651" alt="image" src="https://github.com/user-attachments/assets/d26bd81f-f2c9-4a4e-a361-0078a92bac8e" />
+<img width="745" height="267" alt="image" src="https://github.com/user-attachments/assets/2dfc91ea-467e-46b7-8b2d-12766edd31f3" />
+Appendix B: Foodpanda Reviews Data Collection Code
+
+<img width="385" height="603" alt="image" src="https://github.com/user-attachments/assets/bf256ab7-6fe5-4a69-b766-c19470642f6e" />
+<img width="558" height="422" alt="image" src="https://github.com/user-attachments/assets/b457452e-6864-4a5f-b047-b7683368f78d" />
+Appendix C: Foodpanda Reviews Data Preprocessing Code
+
+
+
+
+
