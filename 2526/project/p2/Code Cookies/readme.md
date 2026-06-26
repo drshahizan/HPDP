@@ -147,14 +147,14 @@ The objectives of this project are:
 
 #### 1.3 Scope
 
-This project involves the following components:
+The scope of this project includes the following components:
 
-- Collecting English-language reviews of the TNG eWallet app from the **Google Play Store** (Malaysian region) using the `google-play-scraper` Python library
-- Cleaning and preprocessing review text using **NLP techniques** including tokenization, stopword removal, and lemmatization
-- Training and evaluating at least two sentiment models and selecting the best performer for deployment
-- Developing a real-time data pipeline using **Apache Kafka** (producer) and **Apache Spark Structured Streaming** (consumer)
-- Storing classified output in **Elasticsearch** and presenting live insights through **Kibana dashboards**
-- Comparing pipeline and model performance under **batch** and **streaming** conditions
+1. Collecting approximately 100,000 Foodpanda reviews from the Malaysian Google Play Store using the google-play-scraper Python library.
+2. Performing data preprocessing using Natural Language Processing (NLP) techniques including lowercasing, noise removal, tokenization, stopword removal, stemming, and lemmatization.
+3. Labelling sentiment classes based on review ratings, where ratings of one and two stars represent negative sentiment, three stars represent neutral sentiment, and four to five stars represent positive sentiment.
+4. Training and evaluating two machine learning algorithms which are Naive Bayes and LSTM.
+5. Deploying the best-performing model within an Apache Kafka and Apache Spark Structured Streaming pipeline to perform real-time sentiment classification.
+6. Storing the classified output for visualization and comparing system performance between batch processing and streaming processing.
 
 ---
 
