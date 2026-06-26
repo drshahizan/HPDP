@@ -1,0 +1,34 @@
+{
+  "_comment": "Elasticsearch index template applied to the youtube_sentiment* index pattern. Mirrors the MAPPING dict in es_setup.py.",
+  "index_patterns": ["youtube_sentiment*"],
+  "priority": 100,
+  "template": {
+    "settings": {
+      "number_of_shards":   1,
+      "number_of_replicas": 0,
+      "refresh_interval":   "1s"
+    },
+    "mappings": {
+      "properties": {
+        "comment_id":      {"type": "keyword"},
+        "video_id":        {"type": "keyword"},
+        "video_title":     {"type": "keyword",
+                            "fields": {"text": {"type": "text"}}},
+        "comment_text":    {"type": "text"},
+        "clean_text":      {"type": "text"},
+        "tokens":          {"type": "text"},
+        "like_count":      {"type": "integer"},
+        "reply_count":     {"type": "integer"},
+        "published_at":    {"type": "date"},
+        "ingested_at":     {"type": "date"},
+        "processed_at":    {"type": "date"},
+        "sentiment_label": {"type": "keyword"},
+        "sentiment_score": {"type": "float"},
+        "model_used":      {"type": "keyword"},
+        "prob_negative":   {"type": "float"},
+        "prob_neutral":    {"type": "float"},
+        "prob_positive":   {"type": "float"}
+      }
+    }
+  }
+}
