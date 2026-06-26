@@ -1,0 +1,35 @@
+# Data Processing
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# NLP
+nltk
+beautifulsoup4
+langdetect
+deep-translator
+
+# Machine Learning
+scikit-learn
+tensorflow
+
+# Transformer Models
+torch
+transformers
+accelerate
+
+# YouTube API
+google-api-python-client
+
+# Streaming
+kafka-python
+pyspark
+
+# Search & Analytics
+elasticsearch
+
+# Utilities
+tqdm
