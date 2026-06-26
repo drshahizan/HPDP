@@ -65,19 +65,19 @@
     </td>
   </tr>
   <tr>
-    <td>Preprocess & Train Model using LSTM</td>
-    <td align="center">
-      <a href="notebooks/03_model_lstm.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
-    </td>
-  </tr>
-  <tr>
     <td>Preprocess & Train Model using Naive Bayes</td>
     <td align="center">
       <a href="notebooks/02_model_naive_bayes.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
-    <td>Preprocess & Train Model using Hugging Face Transformer</td>
+    <td>Preprocess & Train Model using LSTM</td>
+    <td align="center">
+      <a href="notebooks/03_model_lstm.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Preprocess & Train Model using DistilBERT</td>
     <td align="center">
       <a href="notebooks/04_model_distilbert.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
