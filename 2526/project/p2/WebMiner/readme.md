@@ -37,7 +37,7 @@
   <tr>
     <td>Report</td>
     <td align="center">
-      <a href="reports/final_report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
+      <a href="reports/HPDP Project 2 Report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
@@ -61,31 +61,31 @@
   <tr>
     <td>Cleaned Data</td>
     <td align="center">
-      <a href="data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px？</a>
+      <a href="data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Preprocess & Train Model using LSTM</td>
     <td align="center">
-      <a href="https://colab.research.google.com/drive/1N-RZTtoYd0g6aEhUH-EVTlpkRKovmuAZ"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="notebooks/03_model_lstm.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Preprocess & Train Model using Naive Bayes</td>
     <td align="center">
-      <a href="https://colab.research.google.com/drive/1Pt8wSSp1jPMiAmz5RFHJEpMDg9fg7AIM"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="notebooks/02_model_naive_bayes.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Preprocess & Train Model using Hugging Face Transformer</td>
     <td align="center">
-      <a href="https://colab.research.google.com/drive/1Ajvl97Zyhu3OOvTMZvtNitdvxUFXszfr"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
+      <a href="notebooks/04_model_distilbert.ipynb"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Full and Complete Code in our Repository</td>
     <td align="center">
-      <a href="https://github.com/Jesslyn19/Youtube_SentimentAnalysis"><img src="https://github.com/user-attachments/assets/2e0abbaa-3b7f-450f-92f6-41fd0e6e4dad" width=24px height=23px></a>
+      <a href=""><img src="https://github.com/user-attachments/assets/2e0abbaa-3b7f-450f-92f6-41fd0e6e4dad" width=24px height=23px></a>
     </td>
   </tr>
 </table>
