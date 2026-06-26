@@ -59,17 +59,11 @@
   <tr>
     <td>Cleaned Data</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Zoltraak/data/raw_data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
-    <td>Preprocess & Train Model (Model 1)</td>
-    <td align="center">
-      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Zoltraak/data/raw_data/cleaned_data.csv"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Preprocess & Train Model (Model 2)</td>
+    <td>Preprocess & Train Model</td>
     <td align="center">
       <a href="https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Zoltraak/notebook"><img src="https://github.com/user-attachments/assets/928d0405-924d-4464-81f1-bb4a1bd963b1" width=24px height=23px></a>
     </td>
