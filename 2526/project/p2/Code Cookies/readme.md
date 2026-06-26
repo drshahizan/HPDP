@@ -332,6 +332,8 @@ The entire compiled code is attached below :
 
 #### 2.2 Data Preprocessing
 
+The raw Foodpanda review dataset was preprocessed using several Natural Language Processing (NLP) techniques to improve the quality and consistency of the text before training the sentiment classification models. The preprocessing process involved loading the dataset, cleaning the review text, tokenizing the words, removing stopwords, applying stemming and lemmatization, assigning sentiment labels, and exporting the processed dataset.
+
 #### 2.3 Tools
 
 Several open-source tools and libraries were used throughout the implementation of the project. Each technology performs a specific role within the sentiment analysis pipeline. The tools and its purposes are attached in the table below.
