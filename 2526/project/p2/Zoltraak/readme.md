@@ -78,7 +78,7 @@
 
 ---
 
-# 📊 YouTube Comment Sentiment Analysis: Malaysia Cost of Living
+# 📊 YouTube Comment Sentiment Analysis: Cost of Living in Malaysia
 
 ## 📖 Project Overview
 This project applies a high-performance data processing approach to capture and understand public sentiment regarding the cost of living, inflation, and lifestyle in Malaysia. By extracting and analyzing spontaneous audience feedback from six selected YouTube videos, the system classifies public opinion into positive, negative, and neutral sentiments. 
