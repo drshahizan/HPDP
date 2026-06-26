@@ -235,6 +235,7 @@ LSTM :
 ---
 
 ### 4.0 Apache System Architecture
+<img width="1101" height="458" alt="image" src="https://github.com/user-attachments/assets/971b2b64-9241-4de2-ab8f-588cdef82ab7" />
 
 The System has been divided into 2 pipelines which is Batch Processing (Historical Collection & Optimization) and Real Time Processing ( Live Streaming Ingestion & Inference Engines). 
 
