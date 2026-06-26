@@ -473,20 +473,20 @@ The resulting dataset, **foodpanda_reviews_preprocessed.csv**, contains the orig
 
 #### 2.3 Tools
 
-Several open-source tools and libraries were used throughout the implementation of the project. Each technology performs a specific role within the sentiment analysis pipeline. The tools and its purposes are attached in the table below.
+The tools and technologies used throughout the development of the proposed sentiment analysis pipeline are summarized in table below.
 
-| Tool | Purpose |
-|------|---------|
-| **Python** | Primary programming language used for implementing the data scraping, preprocessing, machine learning models, Kafka producer, and Spark streaming applications. |
-| **google-play-scraper** | Python library used to scrape user reviews from the Google Play Store without requiring the official Google Play API. |
-| **Pandas** | Data manipulation library used for loading, cleaning, transforming, and exporting review datasets in CSV format. |
-| **NLTK (Natural Language Toolkit)** | NLP library used for text preprocessing tasks including tokenization, stopword removal, stemming, and lemmatization. |
-| **Scikit-learn** | Machine learning library used for feature extraction (TF-IDF), model training, evaluation, and performance comparison. |
-| **Joblib** | Used to serialize and save the trained machine learning model and TF-IDF vectorizer for deployment in the streaming pipeline. |
-| **Apache Kafka** | Distributed event streaming platform used to ingest and stream review data in real time. |
-| **Apache Spark Structured Streaming** | Real-time stream processing engine that consumes reviews from Kafka and performs sentiment prediction using the trained model. |
-| **Elasticsearch** | Search and analytics engine used to store the predicted sentiment results for fast querying and visualization. |
-| **Kibana** | Data visualization platform used to create interactive dashboards for monitoring sentiment trends and streaming analytics. |
+| **Category** | **Tools Used** | **Description** |
+|--------------|----------------|-----------------|
+| **Data Collection** | Google Play Scraper | Scrapes Foodpanda user reviews from the Malaysian Google Play Store. |
+| **Data Preprocessing** | Python, Pandas, NLTK, Regular Expressions | Cleans and preprocesses review text through lowercasing, noise removal, tokenization, stopword removal, stemming, and lemmatization. |
+| **Feature Extraction** | Scikit-learn (TF-IDF Vectorizer) | Converts textual reviews into numerical feature vectors for model training. |
+| **Machine Learning Model** | Scikit-learn (Multinomial Naïve Bayes) | Trains a traditional machine learning model for sentiment classification. |
+| **Deep Learning Model** | TensorFlow / Keras (LSTM) | Develops and trains a Long Short-Term Memory (LSTM) model for sentiment prediction. |
+| **Streaming & Processing** | Apache Kafka, Apache Spark Structured Streaming (PySpark) | Streams review data in real time and performs continuous sentiment prediction. |
+| **Data Storage** | Elasticsearch | Stores and indexes predicted sentiment results for efficient retrieval. |
+| **Data Visualization** | Kibana | Visualizes sentiment distributions, trends, and analytics through interactive dashboards. |
+| **Deployment** | Docker | Containerizes and manages the services used in the streaming pipeline. |
+| **Development Environment** | Python, Google Colab, Jupyter Notebook | Used for data preprocessing, model development, experimentation, and testing. |
 
 ---
 
