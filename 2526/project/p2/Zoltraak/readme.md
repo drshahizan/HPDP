@@ -84,131 +84,32 @@
 
 ---
 
-## Table of Contents
-
-### 1.0 Introduction
-- [1.1 Background](#11-background)
-- [1.2 Objectives](#12-objectives)
-- [1.3 Scope](#13-scope)
-
-### 2.0 Data Acquisition & Preprocessing
-- [2.1 Sources](#21-sources)
-- [2.2 Tools](#22-tools)
-- [2.3 Cleaning Steps](#23-cleaning-steps)
-
-### 3.0 Sentiment Model Development
-- [3.1 Model Choice](#31-model-choice)
-- [3.2 Training Process](#32-training-process)
-- [3.3 Evaluation](#33-evaluation)
-
-### 4.0 Apache System Architecture
-- [4.0 Apache System Architecture](#40-apache-system-architecture)
-
-### 5.0 Analysis & Results
-- [5.1 Key Findings](#51-key-findings)
-- [5.2 Visualizations](#52-visualizations)
-- [5.3 Insights](#53-insights)
-
-### 6.0 Optimisation & Comparison
-- [6.0 Optimisation & Comparison](#60-optimisation--comparison)
-
-### 7.0 Conclusion & Future Work
-- [7.0 Conclusion & Future Work](#70-conclusion--future-work)
-
-### 8.0 References
-- [8.0 References](#80-references)
-
-### 9.0 Appendix
-- [9.0 Appendix](#90-appendix)
-
----
-
-### 1.0 Introduction
-
-#### 1.1 Background
-
-
-
-#### 1.2 Objectives
-
-
-
-#### 1.3 Scope
-
-
-
----
-
-### 2.0 Data Acquisition & Preprocessing
-
-#### 2.1 Sources
-
-
-
-#### 2.2 Tools
-
-
-
-#### 2.3 Cleaning Steps
-
-
-
----
-
-### 3.0 Sentiment Model Development
-
-#### 3.1 Model Choice
-
-
-
-#### 3.2 Training Process
-
-
-
-#### 3.3 Evaluation
-
-
-
----
-
-### 4.0 Apache System Architecture
-
-
-
----
-
-### 5.0 Analysis & Results
-
-#### 5.1 Key Findings
-
-
-
-#### 5.2 Visualizations
-
-
-
-#### 5.3 Insights
-
-
-
----
-
-### 6.0 Optimisation & Comparison
-
-
-
----
-
-### 7.0 Conclusion & Future Work
-
-
-
----
-
-### 8.0 References
-
-
-
----
-
-### 9.0 Appendix
+# 📊 YouTube Comment Sentiment Analysis: Malaysia Cost of Living
+
+## 📖 Project Overview
+This project applies a high-performance data processing approach to capture and understand public sentiment regarding the cost of living, inflation, and lifestyle in Malaysia[cite: 1]. By extracting and analyzing spontaneous audience feedback from six selected YouTube videos, the system classifies public opinion into positive, negative, and neutral sentiments[cite: 1]. 
+
+## 🏗️ System Architecture
+The end-to-end pipeline follows a Lambda-style streaming architecture to handle both batch and real-time workloads[cite: 1]:
+* **Data Source**: Collects unstructured YouTube comments using the YouTube Data API v3[cite: 1].
+* **Ingestion Layer**: Uses Apache Kafka as a central message broker to receive incoming comment messages[cite: 1].
+* **Processing Layer**: Utilizes Apache Spark Structured Streaming to process micro-batches, clean text, extract features, and classify sentiment[cite: 1].
+* **Storage Layer**: Stores the classified text, sentiment labels, and timestamps in Elasticsearch[cite: 1].
+* **Visualization Layer**: Presents interactive findings, such as sentiment distribution and word clouds, via Kibana dashboards[cite: 1].
+
+## 🧠 Machine Learning Models
+To classify the unstructured text, the project compared two different machine learning models[cite: 1]:
+* **Support Vector Machine (SVM)**: Selected as the primary deployment model because it achieved a superior overall accuracy of 82.18%[cite: 1].
+* **Long Short-Term Memory (LSTM)**: Achieved a lower accuracy of 79.51% and showed signs of overfitting by epoch 5 during training[cite: 1].
+
+## ⚡ Batch vs. Streaming Performance
+The system was benchmarked on 4,470 YouTube comments to compare historical (batch) and real-time (streaming) capabilities[cite: 1]:
+* **Batch Mode**: Processed the dataset 4.6 times faster with a throughput of over 3,000 records per second[cite: 1]. 
+* **Streaming Mode**: Achieved a throughput of about 675 records per second, which is lower due to the overhead of transforming and classifying one comment at a time[cite: 1].
+* **Accuracy**: Processing modes introduced no model degradation, with batch mode scoring 0.923 and streaming mode scoring 0.908[cite: 1].
+
+## 📈 Key Findings
+The pipeline successfully processed a total of 22,360 records to reveal the following sentiment distribution[cite: 1]:
+* **Positive Sentiment (48.68%)**: The majority of comments expressed favorable views about Malaysia as a travel destination and place of residence[cite: 1].
+* **Neutral Sentiment (42.37%)**: Formed a large body of informational or observational commentary that did not lean emotionally in either direction[cite: 1].
+* **Negative Sentiment (8.94%)**: Critical or unfavorable opinions were relatively rare in the dataset[cite: 1].
