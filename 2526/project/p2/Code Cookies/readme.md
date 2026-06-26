@@ -836,6 +836,49 @@ From these key insights gained, there are things that Foodpanda needs to do to i
 ---
 
 ### 6.0 Optimisation & Comparison
+### 6.1 Model Comparison
+Two sentiment classification models were developed and evaluated using the same preprocessed FoodPanda review dataset:
+
+- **Multinomial Naive Bayes (MNB)**
+- **Long Short-Term Memory (LSTM)**
+
+The models were assessed using **Accuracy** and **Weighted F1-Score**.
+
+### Overall Performance Comparison
+
+| Model | Accuracy | Weighted F1-Score |
+|---------|---------|---------|
+| Multinomial Naive Bayes | 84.62% | 0.8241 |
+| LSTM | **87.00%** | **0.8530** |
+
+### Multinomial Naive Bayes Results
+
+| Sentiment | Precision | Recall | F1-Score | Support |
+|------------|------------|------------|------------|------------|
+| Negative | 0.83 | 0.97 | 0.89 | 7,984 |
+| Neutral | 0.00 | 0.00 | 0.00 | 522 |
+| Positive | 0.89 | 0.71 | 0.79 | 3,952 |
+
+**Accuracy:** 84.62%
+
+### LSTM Results
+
+| Sentiment | Precision | Recall | F1-Score | Support |
+|------------|------------|------------|------------|------------|
+| Negative | 0.89 | 0.94 | 0.91 | 7,984 |
+| Neutral | 0.14 | 0.01 | 0.02 | 522 |
+| Positive | 0.85 | 0.84 | 0.84 | 3,952 |
+
+**Accuracy:** 87.00%
+
+### Key Findings
+
+- The **LSTM model outperformed Multinomial Naive Bayes**, achieving the highest accuracy (**87.00%**) and weighted F1-score (**0.8530**).
+- Both models performed well in classifying **negative** and **positive** reviews.
+- Performance on the **neutral** class was relatively low due to the limited number of neutral reviews available in the dataset.
+- The results indicate that deep learning approaches such as **LSTM** are more effective for sentiment classification on FoodPanda customer reviews.
+  
+---
 
 ## 6.2 Pipeline Architecture Optimization
 
