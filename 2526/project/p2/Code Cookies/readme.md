@@ -160,7 +160,7 @@ The scope of this project includes the following components:
 
 ### 2.0 Data Acquisition & Preprocessing
 
-#### 2.1 Sources
+#### 2.1 Data Collection
 
 The dataset used in this project consists of customer reviews collected from the official Foodpanda application available on the Google Play Store. Foodpanda was selected because it is one of the most widely used food delivery platforms in Malaysia, with a large number of active users who continuously provide feedback regarding their service experiences. The reviews were collected using the google-play-scraper Python library, which provides access to publicly available Google Play reviews without requiring the official Google Play API. The scraper was configured to retrieve English-language reviews from the Malaysian Google Play Store by specifying the language parameter as English (lang='en') and the country parameter as Malaysia (country='my'). To obtain a representative dataset for machine learning and streaming experiments, the scraper repeatedly retrieved reviews in batches of 200 records until approximately 100,000 reviews were collected. 
 
@@ -328,19 +328,30 @@ Total reviews saved: 100000
 
 The entire compiled code is attached below :
 
+---
 
-#### 2.2 Tools
+#### 2.2 Data Preprocessing
 
-- **`google-play-scraper`** – Python library for extracting app reviews from the Google Play Store
-- **Apache Kafka** – Real-time data streaming and message queuing
-- **Python** – Scripting, data collection, and preprocessing
-- **Pandas** – Data handling and CSV management
-- **Google Colab / Jupyter Notebook** – Model training and experimentation
-- **NLTK** – Tokenization, stopword removal, and stemming
-- **spaCy** – Lemmatization and linguistic preprocessing
-- **Hugging Face Transformers** – Pre-trained transformer model for labelling and inference
-- **scikit-learn** – Machine learning model training and evaluation
-- **Docker** – Containerised deployment of Kafka and related services
+#### 2.3 Tools
+
+Several open-source tools and libraries were used throughout the implementation of the project. Each technology performs a specific role within the sentiment analysis pipeline. The tools and its purposes are attached in the table below.
+
+## 🛠️ Tools and Technologies
+
+The following tools and technologies were used throughout the development of the real-time sentiment analysis pipeline.
+
+| Tool | Purpose |
+|------|---------|
+| **Python** | Primary programming language used for implementing the data scraping, preprocessing, machine learning models, Kafka producer, and Spark streaming applications. |
+| **google-play-scraper** | Python library used to scrape user reviews from the Google Play Store without requiring the official Google Play API. |
+| **Pandas** | Data manipulation library used for loading, cleaning, transforming, and exporting review datasets in CSV format. |
+| **NLTK (Natural Language Toolkit)** | NLP library used for text preprocessing tasks including tokenization, stopword removal, stemming, and lemmatization. |
+| **Scikit-learn** | Machine learning library used for feature extraction (TF-IDF), model training, evaluation, and performance comparison. |
+| **Joblib** | Used to serialize and save the trained machine learning model and TF-IDF vectorizer for deployment in the streaming pipeline. |
+| **Apache Kafka** | Distributed event streaming platform used to ingest and stream review data in real time. |
+| **Apache Spark Structured Streaming** | Real-time stream processing engine that consumes reviews from Kafka and performs sentiment prediction using the trained model. |
+| **Elasticsearch** | Search and analytics engine used to store the predicted sentiment results for fast querying and visualization. |
+| **Kibana** | Data visualization platform used to create interactive dashboards for monitoring sentiment trends and streaming analytics. |
 
 #### 2.3 Cleaning Steps
 
