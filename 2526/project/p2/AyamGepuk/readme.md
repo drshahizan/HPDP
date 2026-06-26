@@ -127,14 +127,29 @@
 
 #### 1.1 Background
 
+Recently, the aviation and travel sector has turned to or using digital platforms to optimize their operation and also customer relations. As the leading low-cost carrier in the region, AirAsia depends heavily on its mobile app for bookings, check-ins, updates, and support. Because of this, mobile app reviews are more than just a personal feedback; they provide valuable information that reflects real-time public sentiment, customer satisfaction and operational issues.
 
+This project deploys an end-to-end, live sentiment analysis pipeline that ingests, processes, and evaluates user feedback for the AirAsia mobile app. By observing the trends in feedback, stakeholders can dynamically identify system bugs, user interface bottlenecks, and operational failures as they occur. To handle the high volume and velocity of incoming review streams, the system utilizes a high-performance big data architecture powered by Apache technologies for data ingestion, cleaning, sentiment scoring, and persistent storage.
 
 #### 1.2 Objectives
+
+The main objectives of this project are:
+- To build a production-ready, real-time sentiment analysis data pipeline focused on user feedback for the AirAsia mobile application.
+- To implement an Apache Kafka messaging cluster to stream raw Google Play Store reviews reliably and concurrently.
+- To leverage Apache Spark Structured Streaming for low-latency streaming ingestion and real-time distributed execution of machine learning models.
+- To use Elasticsearch for storing processed results. 
+- To visualize sentiment trends using Kibana dashboards.
+- To classify comments into positive, neutral, or negative sentiments using multiple machine learning models. 
 
 
 
 #### 1.3 Scope
 
+This project covers the following key components:
+- Ingesting a dataset of approximately 40,000 historic and active mobile reviews of the AirAsia application directly from the Google Play Store.
+- Structuring text normalization techniques using Natural Language Processing (NLP) tools to clean unstructured review scripts.
+- Implementing and serializing a statistical machine learning classifier (Naive Bayes) and a Deep Learning Sequence model (LSTM) to run concurrent comparative   sentiment inference.
+- Displaying real-time sentiment results through a Kibana dashboard. 
 
 
 ---
