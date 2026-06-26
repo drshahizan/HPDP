@@ -8,9 +8,9 @@
 
 | Name | Matric No. | Role |
 |---|---|---|
-| DAYANG | A23CS | Data & NLP Engineer (Acquisition + Preprocessing) |
-| FARRA | A23CS | Model Engineer (Sentiment Classification) |
-| SAFIYA | A23CS | Pipeline Engineer (Kafka + Spark + Storage) |
+| DAYANG FARAH FARZANA BINTI ABANG IDHAM | A23CS0071 | Data & NLP Engineer (Acquisition + Preprocessing) |
+| FARRA NURZAHIN BINTI ZAHARIL ANUAR | A23CS0079 | Model Engineer (Sentiment Classification) |
+| SAFIYA NURSYAHADAH BINTI MASNOOR | A23CS0176 | Pipeline Engineer (Kafka + Spark + Storage) |
 | AIN NURNABILA BINTI MOHD AZHAR | A23CS0207 | Visualization & Reporting Engineer |
 
 ## Project Summary
