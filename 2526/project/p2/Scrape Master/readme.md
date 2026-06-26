@@ -45,7 +45,7 @@ A Kafka → Spark → Elasticsearch → Kibana pipeline that listens to Malay/En
 
 ## 👥 Team
 
- # | Name | Matric No | Primary Role |
+| # | Name | Matric No | Primary Role |
 |---|---|---|---|
 | 1 | *Muhammad Afiq Danish bin Mohd Hazni** | *A23C0118* | Data & NLP Engineer · Report compilation |
 | 2 | *Muhammad Adam bin Razali* | *A23CS0116* | NLP & Model Engineer |
