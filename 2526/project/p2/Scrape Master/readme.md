@@ -27,17 +27,17 @@ A Kafka → Spark → Elasticsearch → Kibana pipeline that listens to Malay/En
 
 | Artefact | Link |
 |---|---|
-| 📄 Final Report (PDF) | [`reports/final_report.pdf`](reports/final_report.pdf) |
+| 📄 Final Report (PDF) | [`reports/final_report.pdf`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/reports/final_report.pdf) |
 | 📄 Turnitin Submission | [`reports/Turnitin_FinalProject.pdf`](reports/Turnitin_FinalProject.pdf) |
 | 🎞️ Presentation Slides | [`reports/presentation_slides.pptx`](reports/presentation_slides.pptx) |
 | 🎬 Demo Video | *(to be added)* |
-| 🗃️ Raw YouTube Comments | [`data/raw_data/youtube_comments_raw.csv`](data/raw_data/youtube_comments_raw.csv) |
-| 🧹 Cleaned + Pseudo-labelled Data | [`data/cleaned_data.csv`](data/cleaned_data.csv) |
-| 🛠️ Preprocessing Notebook | [`notebooks/preprocessing.ipynb`](notebooks/preprocessing.ipynb) |
-| 🧠 Model Training Notebook | [`model_training.ipynb`](model_training.ipynb) |
-| ⚡ Kafka × Spark Pipeline | [`kafka_spark_pipeline/`](kafka_spark_pipeline) |
-| 📊 Kibana Dashboard Provisioner | [`kafka_spark_pipeline/kibana_setup.py`](kafka_spark_pipeline/kibana_setup.py) |
-| 📈 Report Figures | [`reports/figures/`](reports/figures) |
+| 🗃️ Raw YouTube Comments | [`data/raw_data/youtube_comments_raw.csv`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/data/raw_data/youtube_comments_raw.csv) |
+| 🧹 Cleaned + Pseudo-labelled Data | [`data/cleaned_data.csv`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/data/cleaned_data.csv) |
+| 🛠️ Preprocessing Notebook | [`notebooks/preprocessing.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/notebooks/preprocessing.ipynb) |
+| 🧠 Model Training Notebook | [`model_training.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/model_training.ipynb) |
+| ⚡ Kafka × Spark Pipeline | [`kafka_spark_pipeline/`](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Scrape%20Master/kafka_spark_pipeline) |
+| 📊 Kibana Dashboard Provisioner | [`kafka_spark_pipeline/kibana_setup.py`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/kibana_setup.py) |
+| 📈 Report Figures | [`reports/figures/`](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/Scrape%20Master/kafka_spark_pipeline/figures) |
 
 </div>
 
