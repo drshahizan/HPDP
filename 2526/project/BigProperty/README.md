@@ -76,7 +76,7 @@ Performance metrics are sampled over **3 independent execution runs per model** 
 
 ## 📁 Repository Folder Structure
 ```text
-p1/[your_group_name]/
+p1/BigProperty/
 │
 ├── data/
 │   ├── raw_data.json                 # Unprocessed initial crawled text lines
