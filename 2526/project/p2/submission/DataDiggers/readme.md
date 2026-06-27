@@ -35,7 +35,9 @@ HPDP/2526/project/p2/submission/DataDiggers/
 │   └── model/                      # hands off to pipeline engineer to start their job
 │       └── naive_bayes_model.pkl
 │       └── tfidf_vectorizer.pkl
-│       └── label_encoder.pkl    
+│       └── label_encoder.pkl   
+│       └── lstm_tokenizer.pkl      # in case for comparison
+│       └── lstm_model.h5           # in case for comparison
 ├── kafka_spark_pipeline/
 │   ├── spark_streaming.py
 │   ├── dashboard/
