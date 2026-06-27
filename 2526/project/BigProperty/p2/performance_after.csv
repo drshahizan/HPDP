@@ -1,0 +1,9 @@
+Architecture,Latency (s),Memory (MB),CPU Load (%),Throughput (records/s)
+Tech 1 (MP Pool) (Run 1),14.7859,34.01,97.9,6425.33
+Tech 1 (MP Pool) (Run 2),14.6427,33.52,97.9,6488.16
+Tech 1 (MP Pool) (Run 3),13.8718,33.52,98.1,6848.73
+Tech 1 (MP Pool) (AVERAGE),14.4334,33.68,98.0,6582.22
+Tech 2 (Hybrid Vectorized) (Run 1),0.7142,38.62,65.9,133020.05
+Tech 2 (Hybrid Vectorized) (Run 2),0.7721,38.62,69.7,123044.76
+Tech 2 (Hybrid Vectorized) (Run 3),1.347,38.62,94.8,70528.35
+Tech 2 (Hybrid Vectorized) (AVERAGE),0.9445,38.62,76.8,100591.87

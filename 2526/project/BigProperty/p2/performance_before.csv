@@ -1,0 +1,5 @@
+Architecture,Latency (s),Memory (MB),CPU Load (%),Throughput (records/s)
+Baseline (Sequential) (Run 1),16.9709,26.32,72.0,5598.06
+Baseline (Sequential) (Run 2),13.8935,26.32,59.7,6838.02
+Baseline (Sequential) (Run 3),13.5234,26.32,59.5,7025.14
+Baseline (Sequential) (AVERAGE),14.7959,26.32,63.7,6420.95
