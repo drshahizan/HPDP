@@ -5,7 +5,7 @@
 | Name | Matric Number | Role
 |------|------|------|
 | NUR FIRZANA BINTI BADRUS HISHAM | A23CS0156 | Data Engineer |
-| NURAISYAH |  | Model Engineer |
+| NURAISYAH BINTI MOHD ZIKRE | A23CS0160 | Model Engineer |
 | HAANI |  |  Pipeline Engineer |
 | IKA |  | Visualization & Performance Engineer |
 
@@ -30,7 +30,12 @@ HPDP/2526/project/p2/submission/DataDiggers/
 │   └── lemmatize.ipynb         # 5th step
 │   └── scrape_reviews.ipynb    # 1st step
 │   └── tokenize_review.ipynb   # 4th step
-├── model_training.ipynb
+├── model_training/
+│   └── model_training.ipynb
+│   └── model/                      # hands off to pipeline engineer to start their job
+│       └── naive_bayes_model.pkl
+│       └── tfidf_vectorizer.pkl
+│       └── label_encoder.pkl    
 ├── kafka_spark_pipeline/
 │   ├── spark_streaming.py
 │   ├── dashboard/
