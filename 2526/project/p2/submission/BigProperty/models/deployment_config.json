@@ -1,0 +1,13 @@
+{
+    "selected_model": "Naive Bayes",
+    "selection_metric": "Weighted F1 Score",
+    "selected_f1_score": 0.8644082423888153,
+    "vectorizer": "TF-IDF",
+    "model_file": "best_model.pkl",
+    "vectorizer_file": "best_tfidf_vectorizer.pkl",
+    "classes": [
+        "Negative",
+        "Neutral",
+        "Positive"
+    ]
+}
