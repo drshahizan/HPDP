@@ -1,7 +1,0 @@
-pandas==2.2.3
-numpy==2.2.6
-scikit-learn==1.6.1
-joblib==1.4.2
-kafka-python-ng
-pyspark==3.5.1
-elasticsearch==8.13.2
