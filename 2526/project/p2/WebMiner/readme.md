@@ -246,7 +246,7 @@ Alternatively, run the automated PowerShell script to execute all phases:
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href="https://youtu.be/ZazzZO4Dkg8"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+      <a href="https://youtu.be/ZazzZO4Dkg8"><img src="https://youtu.be/1J1JNMmALB8?si=46Mf428CB1L6xruX" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
