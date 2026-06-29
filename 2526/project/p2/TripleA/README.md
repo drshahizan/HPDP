@@ -62,7 +62,7 @@ Real-time sentiment analysis of Malaysian food-related YouTube comments using Ap
   <tr>
     <td>Cleaned Data</td>
     <td align="center">
-      <a href="data/abeled_comments_clean.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+      <a href="data/labeled_comments_clean.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
