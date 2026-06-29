@@ -27,7 +27,7 @@
 | 10 | Lam Yoke Yu | | | |
 | 11 | Mohamed Alif Fathi Bin Abdul Latif | | | |
 | 12 | Muhammad Adam Bin Razali | | | |
-| 13 | Muhammad Afiq Danial Bin Rozaidie | | | |
+| 13 | Muhammad Afiq Danial Bin Rozaidie | <a href="https://www.credly.com/badges/00c4b4ab-826a-44fe-8f50-9ce806a81edf/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/733c3621-b760-4415-a363-cc75d0743841/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/32e157b0-23d3-48be-b57d-fe89c6754834/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 14 | Muhammad Afiq Danish Bin Mohd Hazni | | | |
 | 15 | Muhammad Naim Bin Abdullah | | | |
 | 16 | Muhammad Syahmi Faris Bin Rusli | <a href="https://www.credly.com/earner/earned/badge/bf1cb86f-be33-4fe7-871f-d09c415891ab"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/earner/earned/badge/2cd9543b-1803-4a0d-b6d6-11427acaa06a"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/earner/earned/badge/b1b0859b-2788-4390-9a7e-123bb07c77ec"><img src="../images/badge3.png" width="24px" height="24px"></a> |
