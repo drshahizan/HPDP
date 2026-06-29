@@ -30,7 +30,7 @@ A Kafka → Spark → Elasticsearch → Kibana pipeline that listens to Malay/En
 | 📄 Final Report (PDF) | [`reports/final_report.pdf`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/reports/final_report.pdf) |
 | 📄 Turnitin Submission | [`reports/Turnitin_FinalProject.pdf`](reports/Turnitin_FinalProject.pdf) |
 | 🎞️ Presentation Slides | [`Project 2 Real Time Sentiment Analysis using Apache Spark and Kafka.pdf`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/Project%202%20Real%20Time%20Sentiment%20Analysis%20using%20Apache%20Spark%20and%20Kafka.pdf) |
-| 🎬 Demo Video | *(to be added)* |
+| 🎬 Demo Video | [`Presentation Video`](https://youtu.be/clqZITLb75k)|
 | 🗃️ Raw YouTube Comments | [`data/raw_data/youtube_comments_raw.csv`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/data/raw_data/youtube_comments_raw.csv) |
 | 🧹 Cleaned + Pseudo-labelled Data | [`data/cleaned_data.csv`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/data/cleaned_data.csv) |
 | 🛠️ Preprocessing Notebook | [`notebooks/preprocessing.ipynb`](https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Scrape%20Master/notebooks/preprocessing.ipynb) |
