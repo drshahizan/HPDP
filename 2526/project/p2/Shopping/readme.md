@@ -47,13 +47,13 @@ By leveraging modern big data technologies, this project bridges the gap between
   <tr>
     <td>Presentation Slides</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/c09e2ce5-80ce-4236-9508-c65d1f079cda" width=25px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Shopping/presentation/HPDP%20Project%202.pdf"><img src="https://github.com/user-attachments/assets/c09e2ce5-80ce-4236-9508-c65d1f079cda" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+      <a href="https://youtu.be/vsETzrBvX10?si=tm5av_0PrVOTcl4q"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
