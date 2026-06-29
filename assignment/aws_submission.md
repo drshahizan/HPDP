@@ -30,7 +30,7 @@
 | 13 | Muhammad Afiq Danial Bin Rozaidie | | | |
 | 14 | Muhammad Afiq Danish Bin Mohd Hazni | | | |
 | 15 | Muhammad Naim Bin Abdullah | | | |
-| 16 | Muhammad Syahmi Faris Bin Rusli | | | <a href="https://www.credly.com/earner/earned/badge/b1b0859b-2788-4390-9a7e-123bb07c77ec"><img src="../images/badge3.png" width="24px" height="24px"></a> |
+| 16 | Muhammad Syahmi Faris Bin Rusli | <a href="https://www.credly.com/earner/earned/badge/bf1cb86f-be33-4fe7-871f-d09c415891ab"><img src="../images/badge1.png" width="24px" height="24px"></a> | | <a href="https://www.credly.com/earner/earned/badge/b1b0859b-2788-4390-9a7e-123bb07c77ec"><img src="../images/badge3.png" width="24px" height="24px"></a> |
 | 17 | Nabil Aflah Boo Binti Mohd Yosuf Boo Yong Chong | | | |
 | 18 | Najma Shakirah Binti Shahrulzaman | | | |
 | 19 | Nawwarah Auni Binti Nazrudin | | | |
