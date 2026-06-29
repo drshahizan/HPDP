@@ -20,7 +20,7 @@
 | 3 | Ahmad Ziyaad Bin Mohd Abbas | | | |
 | 4 | Anis Safiyya Binti Janai | | | |
 | 5 | Choh Jing Yi | | | |
-| 6 | Dheshieghan A/L Saravana Moorthy | | | |
+| 6 | Dheshieghan A/L Saravana Moorthy |<a href="https://www.credly.com/badges/fd57777f-0d40-47f3-8f9a-6d97f128b5a9/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/e413f422-fdbd-44b5-a725-aa47eda152dd/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/248d9f06-a019-4784-bc25-f76d260f5130/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 7 | Goe Jie Ying |<a href="https://www.credly.com/badges/933e2ca2-d694-4cef-b0b0-7ebb53a846d4/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/3e9b4fa0-3290-4864-89b2-0e70c0bbecde/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/6f9c96a0-4620-454c-8077-cb154993cce1/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 8 | Harini A/P Sangaran | | | |
 | 9 | Iman Abadi Bin Mohd Nizwan | | | |
