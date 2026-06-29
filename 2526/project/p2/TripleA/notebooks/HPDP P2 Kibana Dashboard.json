@@ -1,0 +1,727 @@
+{
+  "filters": [
+    {
+      "disabled": false,
+      "data_view_id": "20021e45-d35b-4daa-899d-52c4e1c7673e",
+      "type": "condition",
+      "condition": {
+        "field": "comment.keyword",
+        "operator": "exists"
+      }
+    },
+    {
+      "disabled": false,
+      "data_view_id": "20021e45-d35b-4daa-899d-52c4e1c7673e",
+      "type": "condition",
+      "condition": {
+        "field": "confidence",
+        "operator": "exists"
+      }
+    }
+  ],
+  "options": {
+    "hide_panel_titles": false,
+    "hide_panel_borders": false,
+    "use_margins": true,
+    "auto_apply_filters": true,
+    "sync_colors": false,
+    "sync_cursor": true,
+    "sync_tooltips": false
+  },
+  "query": {
+    "expression": "",
+    "language": "kql"
+  },
+  "title": "HPDP P2 Dashboard",
+  "panels": [
+    {
+      "grid": {
+        "y": 0,
+        "x": 0,
+        "w": 7,
+        "h": 3
+      },
+      "config": {
+        "data_source": {
+          "type": "data_view_reference",
+          "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+        },
+        "type": "metric",
+        "sampling": 1,
+        "ignore_global_filters": false,
+        "metrics": [
+          {
+            "type": "primary",
+            "operation": "count",
+            "field": "comment.keyword",
+            "empty_as_null": true,
+            "label": "Total Comments",
+            "color": {
+              "type": "auto"
+            }
+          }
+        ],
+        "styling": {
+          "primary": {
+            "position": "bottom",
+            "labels": {
+              "alignment": "left"
+            },
+            "value": {
+              "sizing": "auto",
+              "alignment": "right"
+            }
+          }
+        }
+      },
+      "id": "c10044d4-b73d-49af-ad58-3864a2463804",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 0,
+        "x": 7,
+        "w": 8,
+        "h": 3
+      },
+      "config": {
+        "data_source": {
+          "type": "data_view_reference",
+          "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+        },
+        "type": "metric",
+        "sampling": 1,
+        "ignore_global_filters": false,
+        "metrics": [
+          {
+            "type": "primary",
+            "operation": "average",
+            "field": "confidence",
+            "color": {
+              "type": "auto"
+            }
+          }
+        ],
+        "styling": {
+          "primary": {
+            "position": "bottom",
+            "labels": {
+              "alignment": "left"
+            },
+            "value": {
+              "sizing": "auto",
+              "alignment": "right"
+            }
+          }
+        }
+      },
+      "id": "3a07ce47-a784-4683-819f-b9215647d8cb",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 3,
+        "x": 0,
+        "w": 15,
+        "h": 6
+      },
+      "config": {
+        "type": "pie",
+        "metrics": [
+          {
+            "operation": "count",
+            "empty_as_null": true
+          }
+        ],
+        "group_by": [
+          {
+            "operation": "terms",
+            "fields": [
+              "label.keyword"
+            ],
+            "label": "Sentiment Distribution",
+            "limit": 9,
+            "other_bucket": {
+              "include_documents_without_field": false
+            },
+            "rank_by": {
+              "type": "metric",
+              "metric_index": 0,
+              "direction": "desc"
+            },
+            "color": {
+              "mode": "categorical",
+              "palette": "severity",
+              "mapping": []
+            }
+          }
+        ],
+        "data_source": {
+          "type": "data_view_reference",
+          "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+        },
+        "legend": {
+          "visibility": "auto",
+          "nested": false
+        },
+        "styling": {
+          "labels": {
+            "visible": true,
+            "position": "outside"
+          },
+          "values": {
+            "visible": true,
+            "mode": "percentage"
+          }
+        },
+        "sampling": 1,
+        "ignore_global_filters": false
+      },
+      "id": "b6d124fc-1c15-4a6b-93d1-a41a1129e4e0",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 0,
+        "x": 15,
+        "w": 10,
+        "h": 10
+      },
+      "config": {
+        "type": "xy",
+        "layers": [
+          {
+            "type": "bar_stacked",
+            "data_source": {
+              "type": "data_view_reference",
+              "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+            },
+            "sampling": 1,
+            "ignore_global_filters": false,
+            "x": {
+              "operation": "terms",
+              "fields": [
+                "mode.keyword"
+              ],
+              "label": "Batch vs Streaming Records",
+              "limit": 9,
+              "other_bucket": {
+                "include_documents_without_field": false
+              },
+              "rank_by": {
+                "type": "metric",
+                "metric_index": 0,
+                "direction": "desc"
+              }
+            },
+            "y": [
+              {
+                "operation": "count",
+                "empty_as_null": true,
+                "color": {
+                  "type": "auto"
+                }
+              }
+            ]
+          }
+        ],
+        "axis": {
+          "x": {
+            "title": {
+              "visible": true
+            },
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "fit",
+              "rounding": false
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          },
+          "y": {
+            "title": {
+              "visible": true
+            },
+            "scale": "linear",
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "full",
+              "rounding": true
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          }
+        },
+        "styling": {
+          "overlays": {
+            "partial_buckets": {
+              "visible": false
+            },
+            "current_time_marker": {
+              "visible": false
+            }
+          },
+          "bars": {
+            "minimum_height": 1,
+            "data_labels": {
+              "visible": false
+            }
+          }
+        },
+        "legend": {
+          "placement": "outside",
+          "position": "bottom",
+          "layout": {
+            "type": "list"
+          },
+          "visibility": "visible"
+        }
+      },
+      "id": "507856d5-c7e7-4940-8bf5-6598de734be9",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 0,
+        "x": 25,
+        "w": 8,
+        "h": 10
+      },
+      "config": {
+        "type": "xy",
+        "layers": [
+          {
+            "type": "bar_stacked",
+            "data_source": {
+              "type": "data_view_reference",
+              "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+            },
+            "sampling": 1,
+            "ignore_global_filters": false,
+            "x": {
+              "operation": "terms",
+              "fields": [
+                "label.keyword"
+              ],
+              "label": "Sentiment Label",
+              "limit": 9,
+              "other_bucket": {
+                "include_documents_without_field": false
+              },
+              "rank_by": {
+                "type": "metric",
+                "metric_index": 0,
+                "direction": "desc"
+              }
+            },
+            "y": [
+              {
+                "operation": "average",
+                "field": "confidence",
+                "color": {
+                  "type": "static",
+                  "color": "#61a2ff"
+                }
+              }
+            ]
+          }
+        ],
+        "axis": {
+          "x": {
+            "title": {
+              "visible": true
+            },
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "fit",
+              "rounding": false
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          },
+          "y": {
+            "title": {
+              "visible": true
+            },
+            "scale": "linear",
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "full",
+              "rounding": true
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          }
+        },
+        "styling": {
+          "overlays": {
+            "partial_buckets": {
+              "visible": false
+            },
+            "current_time_marker": {
+              "visible": false
+            }
+          },
+          "bars": {
+            "minimum_height": 1,
+            "data_labels": {
+              "visible": false
+            }
+          }
+        },
+        "legend": {
+          "placement": "outside",
+          "position": "bottom",
+          "layout": {
+            "type": "list"
+          },
+          "visibility": "visible"
+        }
+      },
+      "id": "addcab12-c7bc-4b2a-af5f-85f17b4a660a",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 0,
+        "x": 33,
+        "w": 14,
+        "h": 10
+      },
+      "config": {
+        "type": "xy",
+        "layers": [
+          {
+            "type": "bar_stacked",
+            "data_source": {
+              "type": "data_view_reference",
+              "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+            },
+            "sampling": 1,
+            "ignore_global_filters": false,
+            "x": {
+              "operation": "date_histogram",
+              "field": "timestamp",
+              "suggested_interval": "d",
+              "use_original_time_range": false,
+              "include_empty_rows": true,
+              "drop_partial_intervals": false
+            },
+            "y": [
+              {
+                "operation": "count",
+                "empty_as_null": true
+              }
+            ],
+            "breakdown_by": {
+              "operation": "terms",
+              "fields": [
+                "mode.keyword"
+              ],
+              "limit": 9,
+              "other_bucket": {
+                "include_documents_without_field": false
+              },
+              "rank_by": {
+                "type": "metric",
+                "metric_index": 0,
+                "direction": "desc"
+              },
+              "aggregate_first": true,
+              "color": {
+                "mode": "categorical",
+                "palette": "default",
+                "mapping": []
+              }
+            }
+          }
+        ],
+        "axis": {
+          "x": {
+            "title": {
+              "visible": false
+            },
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "fit",
+              "rounding": false
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          },
+          "y": {
+            "title": {
+              "visible": true
+            },
+            "scale": "linear",
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "full",
+              "rounding": true
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          }
+        },
+        "styling": {
+          "overlays": {
+            "partial_buckets": {
+              "visible": false
+            },
+            "current_time_marker": {
+              "visible": false
+            }
+          },
+          "bars": {
+            "minimum_height": 1,
+            "data_labels": {
+              "visible": false
+            }
+          }
+        },
+        "legend": {
+          "placement": "outside",
+          "position": "bottom",
+          "layout": {
+            "type": "list"
+          },
+          "visibility": "visible"
+        }
+      },
+      "id": "0423dc9b-5650-4ad5-b962-8aeb34c6ebcc",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 10,
+        "x": 15,
+        "w": 32,
+        "h": 6
+      },
+      "config": {
+        "type": "data_table",
+        "data_source": {
+          "type": "data_view_reference",
+          "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+        },
+        "sampling": 1,
+        "ignore_global_filters": false,
+        "metrics": [
+          {
+            "operation": "count",
+            "empty_as_null": true,
+            "label": "comments"
+          }
+        ],
+        "rows": [
+          {
+            "operation": "terms",
+            "fields": [
+              "video_id.keyword"
+            ],
+            "label": "Video ID",
+            "limit": 99,
+            "other_bucket": {
+              "include_documents_without_field": false
+            },
+            "rank_by": {
+              "type": "metric",
+              "metric_index": 0,
+              "direction": "desc"
+            }
+          }
+        ],
+        "split_metrics_by": [
+          {
+            "operation": "terms",
+            "fields": [
+              "label.keyword"
+            ],
+            "limit": 9,
+            "other_bucket": {
+              "include_documents_without_field": false
+            },
+            "rank_by": {
+              "type": "metric",
+              "metric_index": 0,
+              "direction": "desc"
+            }
+          }
+        ],
+        "styling": {
+          "row_numbers": {
+            "visible": true
+          }
+        }
+      },
+      "id": "dc3eec5b-6611-42d2-a3d9-359e704f0f7b",
+      "type": "vis"
+    },
+    {
+      "grid": {
+        "y": 9,
+        "x": 0,
+        "w": 15,
+        "h": 9
+      },
+      "config": {
+        "type": "xy",
+        "layers": [
+          {
+            "type": "bar_stacked",
+            "data_source": {
+              "type": "data_view_reference",
+              "ref_id": "20021e45-d35b-4daa-899d-52c4e1c7673e"
+            },
+            "sampling": 1,
+            "ignore_global_filters": false,
+            "x": {
+              "operation": "terms",
+              "fields": [
+                "video_id.keyword"
+              ],
+              "label": "Sentiment by Video",
+              "limit": 30,
+              "other_bucket": {
+                "include_documents_without_field": false
+              },
+              "rank_by": {
+                "type": "metric",
+                "metric_index": 0,
+                "direction": "desc"
+              }
+            },
+            "y": [
+              {
+                "operation": "count",
+                "empty_as_null": true
+              }
+            ],
+            "breakdown_by": {
+              "operation": "terms",
+              "fields": [
+                "label.keyword"
+              ],
+              "limit": 9,
+              "other_bucket": {
+                "include_documents_without_field": false
+              },
+              "rank_by": {
+                "type": "metric",
+                "metric_index": 0,
+                "direction": "desc"
+              },
+              "color": {
+                "mode": "categorical",
+                "palette": "elastic_brand_2023",
+                "mapping": []
+              }
+            }
+          }
+        ],
+        "axis": {
+          "x": {
+            "title": {
+              "visible": true
+            },
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "fit",
+              "rounding": false
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          },
+          "y": {
+            "title": {
+              "visible": true
+            },
+            "scale": "linear",
+            "ticks": {
+              "visible": true
+            },
+            "grid": {
+              "visible": true
+            },
+            "domain": {
+              "type": "full",
+              "rounding": true
+            },
+            "labels": {
+              "orientation": "horizontal"
+            }
+          }
+        },
+        "styling": {
+          "overlays": {
+            "partial_buckets": {
+              "visible": false
+            },
+            "current_time_marker": {
+              "visible": false
+            }
+          },
+          "bars": {
+            "minimum_height": 1,
+            "data_labels": {
+              "visible": false
+            }
+          }
+        },
+        "legend": {
+          "placement": "outside",
+          "position": "bottom",
+          "layout": {
+            "type": "list"
+          },
+          "visibility": "visible"
+        }
+      },
+      "id": "e83c6190-855e-442b-91f0-62aa0518a7e4",
+      "type": "vis"
+    }
+  ],
+  "pinned_panels": []
+}
