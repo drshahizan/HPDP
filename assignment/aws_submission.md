@@ -25,7 +25,7 @@
 | 8 | Harini A/P Sangaran | | | |
 | 9 | Iman Abadi Bin Mohd Nizwan | | | |
 | 10 | Lam Yoke Yu | | | |
-| 11 | Mohamed Alif Fathi Bin Abdul Latif | | | |
+| 11 | Mohamed Alif Fathi Bin Abdul Latif | <a href="https://www.credly.com/badges/96ebafbd-2c5f-4e47-ad0f-432407d5d622/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/a4da600a-562b-4271-94c1-d9783619a023/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/b699cc3e-1e94-4476-879c-a3f7f459c81c/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a> |
 | 12 | Muhammad Adam Bin Razali | | | |
 | 13 | Muhammad Afiq Danial Bin Rozaidie | <a href="https://www.credly.com/badges/00c4b4ab-826a-44fe-8f50-9ce806a81edf/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/733c3621-b760-4415-a363-cc75d0743841/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/32e157b0-23d3-48be-b57d-fe89c6754834/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 14 | Muhammad Afiq Danish Bin Mohd Hazni | | | |
