@@ -44,13 +44,13 @@
   <tr>
     <td>Presentation Slides</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=25px height=23px></a>
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/Fast%26Furious/reports/Presentation%20Slide%20Project%202.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href=""><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+      <a href="https://youtu.be/jYBXWRavGbg"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
