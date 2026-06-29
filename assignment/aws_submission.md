@@ -15,7 +15,7 @@
 | No  | Name  | Cloud Foundations | Cloud Architecting | Cloud Data Pipeline Builder | 
 | ---: | ------------- | :-------------: | :-------------: | :-------------: | 
 | 0   | ADAM WAFII BIN AZUAR                      | <a href="https://www.credly.com/badges/4bc350fe-4dac-48eb-8ffa-123835bacef4/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/f0cceb63-764c-49a5-8358-45a1921fe550/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/8dfc05e1-c725-4c91-9bbc-8b74e4655b9b/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
-| 1 | Afif Shaqir Irfan Bin Arqam | | | |
+| 1 | Afif Shaqir Irfan Bin Arqam | <a href="https://www.credly.com/badges/d0ddd0f8-86bf-4007-bbc3-55a720995135/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | | |
 | 2 | Ahmad Adib Zikri Bin A. Mazlam | | | |
 | 3 | Ahmad Ziyaad Bin Mohd Abbas | | | |
 | 4 | Anis Safiyya Binti Janai | | | |
