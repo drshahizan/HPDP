@@ -21,7 +21,7 @@
 | 4 | Anis Safiyya Binti Janai | | | |
 | 5 | Choh Jing Yi | | | |
 | 6 | Dheshieghan A/L Saravana Moorthy | | | |
-| 7 | Goe Jie Ying | | | |
+| 7 | Goe Jie Ying |<a href="https://www.credly.com/badges/933e2ca2-d694-4cef-b0b0-7ebb53a846d4/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/3e9b4fa0-3290-4864-89b2-0e70c0bbecde/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/6f9c96a0-4620-454c-8077-cb154993cce1/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 8 | Harini A/P Sangaran | | | |
 | 9 | Iman Abadi Bin Mohd Nizwan | | | |
 | 10 | Lam Yoke Yu | | | |
