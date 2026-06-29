@@ -27,6 +27,54 @@ Real-time sentiment analysis of Malaysian food-related YouTube comments using Ap
 </table>
 <br>
 
+---
+
+### Links for related documents:
+<table>
+  <tr>
+    <th>Documents</th>
+    <th>Links</th>
+  </tr>
+  <tr>
+    <td>Report</td>
+    <td align="center">
+      <a href="report/Final_Report.pdf"><img src="https://github.com/user-attachments/assets/4f5391d9-f205-4dd6-8c08-1f8307bd55bf" width=24px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Presentation Slides</td>
+    <td align="center">
+      <a href="https://github.com/drshahizan/HPDP/blob/main/2526/project/p2/TripleA/report/Slide%20Presentation.pdf"><img src="https://github.com/user-attachments/assets/c09e2ce5-80ce-4236-9508-c65d1f079cda" width=25px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Presentation Video</td>
+    <td align="center">
+      <a href="https://youtu.be/qMyeEO1wCUg"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Raw Data</td>
+    <td align="center">
+      <a href="data/latest_malaysia_food_comments.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Cleaned Data</td>
+    <td align="center">
+      <a href="data/abeled_comments_clean.csv"><img src="https://github.com/user-attachments/assets/3ee1c27e-9bd6-4b2e-b54b-7fd597879591" width=25px height=23px></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Full and Complete Code in our Repository</td>
+    <td align="center">
+      <a href=""><img src="https://github.com/user-attachments/assets/2e0abbaa-3b7f-450f-92f6-41fd0e6e4dad" width=24px height=23px></a>
+    </td>
+  </tr>
+</table>
+
+---
+
 # Project Overview
 This project develops a real-time sentiment analysis system for Malaysian food-related YouTube comments. The project consists of three main stages:
 
