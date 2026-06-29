@@ -40,7 +40,7 @@
 | 23 | Pravinraj A/L Sivabathi | | | |
 | 24 | Syarifah Dania Binti Syed Abu Bakar | | | |
 | 25 | Tan Yi Ya | | | |
-| 26 | Teh Ru Qian | | | |
+| 26 | Teh Ru Qian | <a href="https://www.credly.com/badges/61b96350-904e-4010-b3f3-03ae4fcbb18e/public_url"><img src="../images/badge1.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/757e0a49-8001-4628-a66f-443d34613759/public_url"><img src="../images/badge2.png" width="24px" height="24px"></a> | <a href="https://www.credly.com/badges/be6d20aa-4255-4118-8b9e-f50564e38699/public_url"><img src="../images/badge3.png" width="24px" height="24px"></a>|
 | 27 | Woo Cheng Shuan | | | |
 | 28 | Yasmin Batrisyia Binti Zahiruddin | | | |
 
