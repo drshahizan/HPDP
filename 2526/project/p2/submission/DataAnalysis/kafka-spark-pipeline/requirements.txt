@@ -1,0 +1,7 @@
+# Python dependencies for the streaming pipeline
+kafka-python==2.0.2
+pandas==2.2.2
+joblib==1.4.2
+scikit-learn==1.5.1
+pyspark==3.5.1
+elasticsearch==8.14.0
