@@ -17,20 +17,20 @@ HPDP/2526/project/p2/submission/DataDiggers/
 ├── readme.md
 ├── data/
 │   ├── raw_data/
-│   |   └── cleaned_step1.csv
-│   |   └── labeled_reviews.csv
-│   |   └── lemmatized.csv
-│   |   └── raw_reviews.csv
+│   |   ├── cleaned_step1.csv
+│   |   ├── labeled_reviews.csv
+│   |   ├── lemmatized.csv
+│   |   ├── raw_reviews.csv
 │   |   └── tokenized.csv
 │   └── cleaned_data.csv        # hands off to model engineer to start their job
 |
 ├── data_cleaning/              # DATA ENGINEER FOLDER
-│   └── clean_text.ipynb        # 3rd step
-│   └── export_dataset.ipynb    # 6th step
-│   └── label_data.ipynb        # 2nd step
-│   └── lemmatize.ipynb         # 5th step
-│   └── scrape_reviews.ipynb    # 1st step
-│   └── tokenize_review.ipynb   # 4th step
+│   ├── clean_text.ipynb        # step 3
+│   ├── export_dataset.ipynb    # step 6
+│   ├── label_data.ipynb        # step 2
+│   ├── lemmatize.ipynb         # step 5
+│   ├── scrape_reviews.ipynb    # step 1
+│   └── tokenize_review.ipynb   # step 4
 |
 ├── model_training/
 │   └── model_training.ipynb
@@ -43,8 +43,8 @@ HPDP/2526/project/p2/submission/DataDiggers/
 |
 ├── kafka_spark_pipeline/
 │   ├── spark_streaming.py
-│   ├── dashboard/
-│   └── elastic_mappings.json
+|   └── dashboard/
+│       └── elastic_mappings.json
 |
 ├── kibana_visualizations.json
 |
