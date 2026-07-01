@@ -14,7 +14,7 @@
 
 ```
 HPDP/2526/project/p2/submission/DataDiggers/
-├── README.md
+├── readme.md
 ├── data/
 │   ├── raw_data/
 │   |   └── cleaned_step1.csv
@@ -23,6 +23,7 @@ HPDP/2526/project/p2/submission/DataDiggers/
 │   |   └── raw_reviews.csv
 │   |   └── tokenized.csv
 │   └── cleaned_data.csv        # hands off to model engineer to start their job
+|
 ├── data_cleaning/              # DATA ENGINEER FOLDER
 │   └── clean_text.ipynb        # 3rd step
 │   └── export_dataset.ipynb    # 6th step
@@ -30,6 +31,7 @@ HPDP/2526/project/p2/submission/DataDiggers/
 │   └── lemmatize.ipynb         # 5th step
 │   └── scrape_reviews.ipynb    # 1st step
 │   └── tokenize_review.ipynb   # 4th step
+|
 ├── model_training/
 │   └── model_training.ipynb
 │   └── model/                      # hands off to pipeline engineer to start their job
@@ -38,13 +40,17 @@ HPDP/2526/project/p2/submission/DataDiggers/
 │       └── label_encoder.pkl   
 │       └── lstm_tokenizer.pkl      # in case for comparison
 │       └── lstm_model.h5           # in case for comparison
+|
 ├── kafka_spark_pipeline/
 │   ├── spark_streaming.py
 │   ├── dashboard/
 │   └── elastic_mappings.json
+|
 ├── kibana_visualizations.json
+|
 ├── reports/
 │   └── final_report.pdf
+|
 ├── presentation_slides.pdf
 └── requirements.txt
 ```
