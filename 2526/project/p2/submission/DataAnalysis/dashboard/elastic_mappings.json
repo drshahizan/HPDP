@@ -1,0 +1,30 @@
+{
+    "mappings": {
+        "properties": {
+            "provider": {
+                "type": "keyword"
+            },
+            "cleaned_content": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "score": {
+                "type": "integer"
+            },
+            "predicted_sentiment": {
+                "type": "keyword"
+            },
+            "review_date": {
+                "type": "date"
+            },
+            "match": {
+                "type": "boolean"
+            }
+        }
+    }
+}
