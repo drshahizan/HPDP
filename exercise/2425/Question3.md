@@ -7,51 +7,29 @@
 
 # QUESTION 3 \[20 MARKS\]
 
-In 2024, **Kuala Lumpur City Hall (DBKL)** launched an initiative to
-analyze traffic congestion and urban mobility using data collected from
-**Global Positioning System (GPS)** devices installed in more than
-**3,000 buses and ride-hailing vehicles**.
+In 2024, the Kuala Lumpur City Hall (DBKL) launched an initiative to analyze traffic congestion and urban mobility using data collected from Global Positioning System (GPS) devices installed in over 3,000 buses and ride-hailing vehicles. The dataset, stored in Google Drive, exceeds 2 GB and includes columns such as timestamps, coordinates, speed, route IDs, and traffic condition flags.
 
-The dataset is stored in **Google Drive**, exceeds **2 GB**, and
-contains:
+You are appointed as the lead data scientist for this project. Your task is to process this large dataset efficiently using Python, with emphasis on memory optimization, chunked loading, and intelligent sampling to derive useful insights. The data is stored in `/content/drive/My Drive/kl_traffic/gps_data.csv`.
 
--   Timestamps
--   Coordinates
--   Speed
--   Route IDs
--   Traffic condition flags
+Write a Python code for:
 
-Dataset location:
+a) Import the required Python libraries. Load the dataset from Google Drive and display the first 5 rows. (4 marks)
 
-``` text
-/content/drive/MyDrive/kl_traffic/gps_data.csv
-```
+b) Perform data type conversion based on the following Table 1: (6 marks)
 
-## Questions
+Table 1: Type Conversion
 
-### a) Import the required Python libraries. Load the dataset from Google Drive and display the first **five (5)** rows.
+| No. | Column Type | New Data Type |
+|:---:|-------------|---------------|
+| i. | `float64` | `float32` |
+| ii. | `int64` | `int16` |
+| iii. | `object` (timestamp) | `datetime64` |
 
-**(4 marks)**
+c) Load the GPS data in chunks of 5,000,000 rows and combine them into a single DataFrame. (5 marks)
 
-### b) Perform data type conversion according to the table below.
-
-**(6 marks)**
-
-   No.  Original Data Type   New Data Type
-  ----- -------------------- ---------------
-    i   float64              float32
-   ii   int64                int16
-   iii  object (timestamp)   datetime64
+d) Extract a stratified random sample of 10% from the dataset based on `route_id`, and display its first few rows. (5 marks)
 
 
-### c) Load the GPS dataset in **chunks of 5,000,000 rows** and combine them into a single DataFrame.
-
-**(5 marks)**
-
-
-### d) Extract a **10% stratified random sample** based on `route_id` and display the first few rows.
-
-**(5 marks)**
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
