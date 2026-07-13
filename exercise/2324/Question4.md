@@ -15,33 +15,16 @@ performance degradation.
 
 The incident timeline is summarized below.
 
-  -----------------------------------------------------------------------
-  Time                       Activity
-  -------------------------- --------------------------------------------
-  **9:00 AM**                Unexpected surge in demand for cloud
-                             services.
-
-  **9:15 AM**                Users report slow response times and
-                             intermittent outages.
-
-  **9:30 AM**                Monitoring systems detect unusually high
-                             data traffic and server load.
-
-  **10:00 AM**               Technical teams optimize server capacity and
-                             allocate additional resources.
-
-  **10:30 AM**               Temporary service outage disrupts data
-                             processing and storage services.
-
-  **11:00 AM**               Clients express concerns regarding service
-                             reliability.
-
-  **12:00 PM**               Public statement released acknowledging the
-                             incident and recovery efforts.
-
-  **1:00 PM**                Services gradually return to normal and an
-                             internal investigation begins.
-  -----------------------------------------------------------------------
+| **Time** | **Activity** |
+|-----------|--------------|
+| **9:00 AM** | Unexpected surge in demand for cloud services. |
+| **9:15 AM** | Users report slow response times and intermittent outages. |
+| **9:30 AM** | Monitoring systems detect unusually high data traffic and server load. |
+| **10:00 AM** | Technical teams optimize server capacity and allocate additional resources. |
+| **10:30 AM** | Temporary service outage disrupts data processing and storage services. |
+| **11:00 AM** | Clients express concerns regarding service reliability. |
+| **12:00 PM** | Public statement released acknowledging the incident and recovery efforts. |
+| **1:00 PM** | Services gradually return to normal, and an internal investigation begins. |
 
 You have been appointed to the technical task force responsible for
 redesigning the platform. Your solution should overcome the limitations
