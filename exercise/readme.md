@@ -48,11 +48,11 @@ Practice using complete examination papers under actual examination conditions.
 **Semester I 2023/2024**
 | Question | Description |
 |:------:|-------------|
-| MCQ | [Multiple Choice Questions](Exercise1/Part1_MCQ.md) |
-|  1 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
-|  2 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
-|  3 | [Question 3 – MSO Automotive: Smart Manufacturing Case Study](Exercise1/Question3.md) |
-|  4 | [Question 4 – Cloud Service Provider Performance Crisis](Exercise1/Question4.md) |
+| MCQ | [Multiple Choice Questions](2324/MCQ.md) |
+|  1 | [Question 1 – Crop Yield Prediction using Google Colab](2324/Question1.md) |
+|  2 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](2324/Question2.md) |
+|  3 | [Question 3 – MSO Automotive: Smart Manufacturing Case Study](2324/Question3.md) |
+|  4 | [Question 4 – Cloud Service Provider Performance Crisis](2324/Question4.md) |
 
 
 **Semester II 2024/2025**
