@@ -20,17 +20,11 @@ and support personalized treatment planning.
 
 ## Questions
 
-### a) What are the benefits of **in-memory analytics** in a medical emergency context?
+a) What are the benefits of **in-memory analytics** in a medical emergency context? (6 marks)
 
-**(6 marks)**
+b) Compare **in-memory analytics** and **disk-based analytics** in terms of **latency** and **cost** for hospital applications. (6 marks)
 
-### b) Compare **in-memory analytics** and **disk-based analytics** in terms of **latency** and **cost** for hospital applications.
-
-**(6 marks)**
-
-### c) Design a simple **High Performance Computing (HPC) data pipeline** from patient data collection to treatment recommendation.
-
-**(8 marks)**
+c) Design a simple **High Performance Computing (HPC) data pipeline** from patient data collection to treatment recommendation. (8 marks)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
