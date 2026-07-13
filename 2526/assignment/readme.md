@@ -7,6 +7,8 @@
 
 # Assignment
 
+## 📘 [AWS Course](https://github.com/drshahizan/HPDP/blob/main/assignment/aws_submission.md)
+
 ## 📘 [Assignment 1: Academic Writing](ass1.md)
 This assignment is designed to develop students' skills in academic writing and critical analysis. Students are required to write a short academic paper based on a selected topic, demonstrating their ability to research, evaluate, and present information in a structured and scholarly format. The assignment encourages independent learning, proper citation practices, and the use of digital tools to support academic work. It also aims to cultivate discipline in managing writing processes through log book documentation.
 
