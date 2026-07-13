@@ -26,7 +26,7 @@ Before attending the first lecture, make sure you've completed all the essential
   
 - 💡 **[Lab](./2526/lab)**: Engage with exercises designed to complement your coursework and enhance learning.
   
-- 🎯 **[Exercise Repository](./2526/exercise/)**: Practice with past final examination questions and real-world HPDP case studies.
+- 🎯 **[Exercise Repository](exercise/)**: Practice with past final examination questions and real-world HPDP case studies.
 
 - ❓ **[Quiz](./2425/quiz)**: Test your knowledge and track your progress through quizzes.
 
