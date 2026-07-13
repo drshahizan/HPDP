@@ -7,17 +7,9 @@
 
 # QUESTION 2 \[20 MARKS\]
 
-Malaysia's healthcare system generates and stores vast amounts of data
-related to **patient records, medical diagnoses, and treatment
-outcomes**. The increasing volume of healthcare data creates significant
-challenges for efficient data management and analysis.
+Malaysia's healthcare system generates and stores vast amounts of data related to patient records, medical diagnoses, and treatment outcomes. The increasing volume of healthcare data poses challenges in terms of efficient data management and analysis. The use of **Pandas**, a popular data manipulation library in Python, may encounter memory issues when dealing with large healthcare datasets.
 
-While **Pandas** is a popular Python library for data manipulation, it
-may encounter memory limitations when processing very large healthcare
-datasets. As a Data Science expert, you have been assigned to recommend
-suitable solutions for handling these large datasets.
-
-Answer the following questions.
+You have been assigned as a **Data Science expert** to assist the ministry in addressing these challenges. Please respond to the following questions:
 
 a) Pandas struggles with handling large datasets efficiently due to memory limitations. Explain **THREE (3)** techniques that can reduce memory usage when working with large datasets in Pandas.(6 marks)
 
