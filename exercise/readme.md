@@ -58,11 +58,11 @@ Practice using complete examination papers under actual examination conditions.
 **Semester II 2024/2025**
 | Part | Description |
 |------|-------------|
-| 📄 | [Part 1 – Multiple Choice Questions](Exercise2/Part1_MCQ.md) |
-| 📄 | [Question 1 – Twitter Sentiment Analysis using Apache Spark](Exercise2/Question1.md) |
-| 📄 | [Question 2 – HPC for Genomic Healthcare](Exercise2/Question2.md) |
-| 📄 | [Question 3 – GPS Traffic Data Processing using Python](Exercise2/Question3.md) |
-| 📄 | [Question 4 – ShopAsia.my High Performance Data Processing Case Study](Exercise2/Question4.md) |
+| MCQ | [Multiple Choice Questions](Exercise2/Part1_MCQ.md) |
+| 1 | [Question 1 – Twitter Sentiment Analysis using Apache Spark](Exercise2/Question1.md) |
+| 2 | [Question 2 – HPC for Genomic Healthcare](Exercise2/Question2.md) |
+| 3 | [Question 3 – GPS Traffic Data Processing using Python](Exercise2/Question3.md) |
+| 4 | [Question 4 – ShopAsia.my High Performance Data Processing Case Study](Exercise2/Question4.md) |
 
 
 ## Contribution 🛠️
