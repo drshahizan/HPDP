@@ -49,10 +49,10 @@ Practice using complete examination papers under actual examination conditions.
 | Question | Description |
 |:------:|-------------|
 | MCQ | [Multiple Choice Questions](2324/MCQ.md) |
-|  1 | [Question 1 – Crop Yield Prediction using Google Colab](2324/Question1.md) |
-|  2 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](2324/Question2.md) |
-|  3 | [Question 3 – MSO Automotive: Smart Manufacturing Case Study](2324/Question3.md) |
-|  4 | [Question 4 – Cloud Service Provider Performance Crisis](2324/Question4.md) |
+|  1 | [Crop Yield Prediction using Google Colab](2324/Question1.md) |
+|  2 | [Pandas Memory Optimization and Large Dataset Processing](2324/Question2.md) |
+|  3 | [MSO Automotive: Smart Manufacturing Case Study](2324/Question3.md) |
+|  4 | [Cloud Service Provider Performance Crisis](2324/Question4.md) |
 
 
 **Semester II 2024/2025**
