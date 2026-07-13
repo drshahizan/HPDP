@@ -35,17 +35,11 @@ visualized through live dashboards.
 
 ## Questions
 
-### a) What are **stream processing** and **batch processing**?
+a) What are **stream processing** and **batch processing**? (6 marks)
 
-**(6 marks)**
+b) Identify **THREE (3)** main functional requirements and **THREE (3)** main non-functional requirements for the proposed system. (6 marks)
 
-### b) Identify **THREE (3)** main functional requirements and **THREE (3)** main non-functional requirements for the proposed system.
-
-**(6 marks)**
-
-### c) Design a suitable **system architecture** for the proposed system.
-
-**(8 marks)**
+c) Design a suitable **system architecture** for the proposed system. (8 marks)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
