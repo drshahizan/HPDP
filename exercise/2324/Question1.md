@@ -7,6 +7,37 @@
 
 # QUESTION 1 \[20 MARKS\]
 
+In this case study, Nurul, a skilled Data Scientist in Malaysia, is working to improve crop yield predictions for Evergreen Farms in 2023. She's using Google Colab and Google Drive to handle a large dataset named `crop_data.csv`, which is more than **1 GB** in size and stored in a specific location on Google Drive:
+
+```text
+/content/drive/My Drive/agri_datasets/crop_data.csv
+```
+
+To make the data processing more efficient, Nurul uses a smart strategy. She optimizes how the data is stored in the computer's memory, making numerical data use less space and giving appropriate labels to different types of data. The first step is to explore the data using statistical measures, distribution plots, and correlation matrices, which helps her understand the data better.
+
+Managing such a big dataset can be tricky, so Nurul uses a method called **chunked loading**. This means she breaks the data into smaller chunks, works on each part separately, and then puts everything back together for a thorough analysis. To make sure her findings are reliable, Nurul takes a **random 15% sample** of the data, ensuring that the information she gathers is still meaningful.
+
+By using these smart techniques, Nurul greatly improves Evergreen Farms' ability to predict crop yields.
+
+Based on the case study, provide answers to the following questions. **Answers must be in the form of Python code.**
+
+a) Import the necessary Python libraries. Then, read the dataset from Google Drive and display the first few rows of the dataset. (4 marks)
+
+b) Write the code to perform data type conversion based on the information in **Table 1**. (6 marks)
+
+**Table 1. Convert Data Type of the Columns**
+
+| No. | Existing Data Type | New Data Type |
+|:---:|--------------------|---------------|
+| i | `float64` | `float16` |
+| ii | `int64` | `int16` |
+| iii | `datetime64` | `datetime16` |
+
+c) Write the code to load a large dataset in chunks and perform merging. (5 marks)
+
+d) Write the code to implement random sampling with a sample size of **15%** of the total dataset. Then, display the initial rows of the random sample.(5 marks)
+
+===
 In this case study, **Nurul**, a skilled Data Scientist in Malaysia, is
 working to improve crop yield predictions for **Evergreen Farms** in
 2023. She is using **Google Colab** and **Google Drive** to process a
