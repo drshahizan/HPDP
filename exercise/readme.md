@@ -49,10 +49,10 @@ Practice using complete examination papers under actual examination conditions.
 | Part | Description |
 |------|-------------|
 | <img src="../images/question.svg" width="24px"></a> | [Part 1 – Multiple Choice Questions](Exercise1/Part1_MCQ.md) |
-| 📄 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
-| 📄 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
-| 📄 | [Question 3 – MSO Automotive: Smart Manufacturing Case Study](Exercise1/Question3.md) |
-| 📄 | [Question 4 – Cloud Service Provider Performance Crisis](Exercise1/Question4.md) |
+| <img src="../images/question.svg" width="24px"></a> 1 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
+| <img src="../images/question.svg" width="24px"></a> 2| [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
+| <img src="../images/question.svg" width="24px"></a> 3| [Question 3 – MSO Automotive: Smart Manufacturing Case Study](Exercise1/Question3.md) |
+| <img src="../images/question.svg" width="24px"></a> 4| [Question 4 – Cloud Service Provider Performance Crisis](Exercise1/Question4.md) |
 
 
 **Semester II 2024/2025**
