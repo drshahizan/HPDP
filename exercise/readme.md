@@ -45,6 +45,25 @@ Practice using complete examination papers under actual examination conditions.
 | **Semester I 2023/2024** | <a href="./exercise/Exercise1/Part1_MCQ.md"><img src="../images/question.svg" width="24px"></a> | <a href="./exercise/Exercise1/Question1.md"><img src="../images/question.svg" width="24px"></a> | 
 | **Semester II 2024/2025** | <a href="./exercise/Exercise2/Part1_MCQ.md"><img src="../images/question.svg" width="24px"></a> | <a href="./exercise/Exercise2/Question1.md"><img src="../images/question.svg" width="24px"></a> | 
 
+**Semester I 2023/2024**
+| Part | Description |
+|------|-------------|
+| <img src="../images/question.svg" width="24px"></a> | [Part 1 – Multiple Choice Questions](Exercise1/Part1_MCQ.md) |
+| 📄 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
+| 📄 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
+| 📄 | [Question 3 – MSO Automotive: Smart Manufacturing Case Study](Exercise1/Question3.md) |
+| 📄 | [Question 4 – Cloud Service Provider Performance Crisis](Exercise1/Question4.md) |
+
+
+**Semester II 2024/2025**
+| Part | Description |
+|------|-------------|
+| 📄 | [Part 1 – Multiple Choice Questions](Exercise2/Part1_MCQ.md) |
+| 📄 | [Question 1 – Twitter Sentiment Analysis using Apache Spark](Exercise2/Question1.md) |
+| 📄 | [Question 2 – HPC for Genomic Healthcare](Exercise2/Question2.md) |
+| 📄 | [Question 3 – GPS Traffic Data Processing using Python](Exercise2/Question3.md) |
+| 📄 | [Question 4 – ShopAsia.my High Performance Data Processing Case Study](Exercise2/Question4.md) |
+
 
 ## Contribution 🛠️
 
