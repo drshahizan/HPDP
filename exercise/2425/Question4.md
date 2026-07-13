@@ -7,52 +7,30 @@
 
 # QUESTION 4 \[20 MARKS\]
 
-In **November 2024**, a major Malaysian eCommerce platform,
-**ShopAsia.my**, experienced a performance crisis during the **11.11
-Mega Sale**. The hybrid cloud platform suffered from slow data
-retrieval, delays in order processing, and intermittent outages during
-peak traffic hours.
+## QUESTION 4 [20 MARKS]
 
-## Timeline
+In November 2024, a major Malaysian eCommerce platform (ShopAsia.my) experienced a performance crisis during the 11.11 Mega Sale. The platform, hosted on a hybrid cloud infrastructure, suffered slow data retrieval, delays in order processing, and intermittent outages during peak traffic hours. This resulted in customer dissatisfaction and millions in potential losses. A post-mortem report (Table 2) revealed critical events that occurred throughout the incident.
 
-  -----------------------------------------------------------------------
-  Time              Event Description
-  ----------------- -----------------------------------------------------
-  10:00 AM          Surge begins with **250K concurrent users**
+**Table 2: Timeline of the 11.11 Data Surge Incident**
 
-  10:15 AM          Server response time exceeds **5 seconds**
+| Time | Event Description |
+|------|-------------------|
+| 10:00 AM | Surge begins with 250K concurrent users. |
+| 10:15 AM | Server response time spikes beyond 5 seconds. |
+| 10:30 AM | Product database fails to respond under load. |
+| 11:00 AM | Users report failed checkouts and payment errors. |
+| 12:00 PM | Tech team implements vertical scaling and cache flushes. |
+| 1:00 PM | Platform performance gradually stabilizes. |
 
-  10:30 AM          Product database fails to respond under heavy load
+You are part of the High Performance Data Processing (HPDP) strategy team assigned to redesign the platform to support scalable, resilient, high-speed data processing under peak loads.
 
-  11:00 AM          Users report failed checkouts and payment errors
+a) Identify **TWO** major performance bottlenecks observed during the incident.(3 marks)
 
-  12:00 PM          Technical team implements vertical scaling and cache
-                    flushing
+b) Based answer in a), explain how they affected the data processing pipeline. (3 marks)
 
-  1:00 PM           Platform performance gradually stabilizes
-  -----------------------------------------------------------------------
+c) Suggest a high-performance data processing strategy to enable horizontal scalability, fast data retrieval, and system resilience during similar traffic spikes. (6 marks)
 
-## Questions
-
-### a) Identify **TWO (2)** major performance bottlenecks observed during the incident.
-
-**(3 marks)**
-
-### b) Based on your answer in **(a)**, explain how these bottlenecks affected the data processing pipeline.
-
-**(3 marks)**
-
-### c) Propose a **High Performance Data Processing (HPDP)** strategy that enables:
-
--   Horizontal scalability
--   Fast data retrieval
--   System resilience during traffic spikes
-
-**(6 marks)**
-
-### d) Design and describe a modern **system architecture** for the new version of **ShopAsia.my**. Explain how your proposed architecture addresses the identified bottlenecks.
-
-**(8 marks)**
+d) Propose a modern system architecture (draw and describe) for the new version of ShopAsia.my’s platform. Highlight how it addresses the identified bottlenecks. (8 marks)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
