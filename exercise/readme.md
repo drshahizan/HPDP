@@ -46,13 +46,13 @@ Practice using complete examination papers under actual examination conditions.
 | **Semester II 2024/2025** | <a href="./exercise/Exercise2/Part1_MCQ.md"><img src="../images/question.svg" width="24px"></a> | <a href="./exercise/Exercise2/Question1.md"><img src="../images/question.svg" width="24px"></a> | 
 
 **Semester I 2023/2024**
-| Part | Description |
+| Question | Description |
 |------|-------------|
-| <img src="../images/question.svg" width="24px"></a> | [Part 1 – Multiple Choice Questions](Exercise1/Part1_MCQ.md) |
-| <img src="../images/question.svg" width="24px"></a> 1 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
-| <img src="../images/question.svg" width="24px"></a> 2| [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
-| <img src="../images/question.svg" width="24px"></a> 3| [Question 3 – MSO Automotive: Smart Manufacturing Case Study](Exercise1/Question3.md) |
-| <img src="../images/question.svg" width="24px"></a> 4| [Question 4 – Cloud Service Provider Performance Crisis](Exercise1/Question4.md) |
+| MCQ | [Multiple Choice Questions](Exercise1/Part1_MCQ.md) |
+|  1 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
+|  2 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
+|  3 | [Question 3 – MSO Automotive: Smart Manufacturing Case Study](Exercise1/Question3.md) |
+|  4 | [Question 4 – Cloud Service Provider Performance Crisis](Exercise1/Question4.md) |
 
 
 **Semester II 2024/2025**
