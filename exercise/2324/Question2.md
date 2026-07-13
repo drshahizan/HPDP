@@ -19,20 +19,16 @@ suitable solutions for handling these large datasets.
 
 Answer the following questions.
 
-## a) Pandas struggles with handling large datasets efficiently due to memory limitations.
+a) Pandas struggles with handling large datasets efficiently due to memory limitations. Explain **THREE (3)** techniques that can reduce memory usage when working with large datasets in Pandas.(6 marks)
 
-Explain **THREE (3)** techniques that can reduce memory usage when
-working with large datasets in Pandas.
+b) Describe **THREE (3)** alternatives to Pandas for managing large datasets. Evaluate how these alternatives perform when processing large datasets compared with Pandas. (6 marks)
 
-**(6 marks)**
+c) Describe **FOUR (4)** functions that can be used as benchmarking tools to compare the performance of different libraries for processing large datasets. (8 marks)
 
-## b) Describe **THREE (3)** alternatives to Pandas for managing large datasets.
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
 
-Evaluate how these alternatives perform when processing large datasets
-compared with Pandas.
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-**(6 marks)**
-
-## c) Describe **FOUR (4)** functions that can be used as benchmarking tools to compare the performance of different libraries for processing large datasets.
-
-**(8 marks)**
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
