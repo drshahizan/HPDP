@@ -7,7 +7,6 @@
 
 # QUESTION 4 \[20 MARKS\]
 
-## QUESTION 4 [20 MARKS]
 
 In November 2024, a major Malaysian eCommerce platform (ShopAsia.my) experienced a performance crisis during the 11.11 Mega Sale. The platform, hosted on a hybrid cloud infrastructure, suffered slow data retrieval, delays in order processing, and intermittent outages during peak traffic hours. This resulted in customer dissatisfaction and millions in potential losses. A post-mortem report (Table 2) revealed critical events that occurred throughout the incident.
 
