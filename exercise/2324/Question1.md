@@ -44,3 +44,11 @@ b) Write the Python code to perform the following data type conversions. (6 mark
 c) Write the Python code to load the large dataset in **chunks** and merge all chunks into a single DataFrame. (5 marks)
 
 d) Write the Python code to perform **random sampling** by selecting **15%** of the dataset. Display the first few rows of the sampled dataset. (5 marks)
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
