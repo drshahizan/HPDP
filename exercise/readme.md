@@ -47,7 +47,7 @@ Practice using complete examination papers under actual examination conditions.
 
 **Semester I 2023/2024**
 | Question | Description |
-|------|-------------|
+|:------:|-------------|
 | MCQ | [Multiple Choice Questions](Exercise1/Part1_MCQ.md) |
 |  1 | [Question 1 – Crop Yield Prediction using Google Colab](Exercise1/Question1.md) |
 |  2 | [Question 2 – Pandas Memory Optimization and Large Dataset Processing](Exercise1/Question2.md) |
