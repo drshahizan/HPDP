@@ -59,10 +59,10 @@ Practice using complete examination papers under actual examination conditions.
 | Part | Description |
 |------|-------------|
 | MCQ | [Multiple Choice Questions](2425/Part1_MCQ.md) |
-| 1 | [Question 1 – Twitter Sentiment Analysis using Apache Spark](2425/Question1.md) |
-| 2 | [Question 2 – HPC for Genomic Healthcare](2425/Question2.md) |
-| 3 | [Question 3 – GPS Traffic Data Processing using Python](2425/Question3.md) |
-| 4 | [Question 4 – ShopAsia.my High Performance Data Processing Case Study](2425/Question4.md) |
+| 1 | [Twitter Sentiment Analysis using Apache Spark](2425/Question1.md) |
+| 2 | [HPC for Genomic Healthcare](2425/Question2.md) |
+| 3 | [GPS Traffic Data Processing using Python](2425/Question3.md) |
+| 4 | [ShopAsia.my High Performance Data Processing Case Study](2425/Question4.md) |
 
 
 ## Contribution 🛠️
