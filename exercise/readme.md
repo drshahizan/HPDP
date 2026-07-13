@@ -58,7 +58,7 @@ Practice using complete examination papers under actual examination conditions.
 **Semester II 2024/2025**
 | Part | Description |
 |------|-------------|
-| MCQ | [Multiple Choice Questions](2425/Part1_MCQ.md) |
+| MCQ | [Multiple Choice Questions](2425/MCQ.md) |
 | 1 | [Twitter Sentiment Analysis using Apache Spark](2425/Question1.md) |
 | 2 | [HPC for Genomic Healthcare](2425/Question2.md) |
 | 3 | [GPS Traffic Data Processing using Python](2425/Question3.md) |
