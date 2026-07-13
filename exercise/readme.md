@@ -40,11 +40,6 @@ This section provides a collection of exercises to strengthen your understanding
 
 Practice using complete examination papers under actual examination conditions.
 
-| Academic Session | MCQ | Structured Questions | 
-| :--------------: | :--: | :------------------: |
-| **Semester I 2023/2024** | <a href="./exercise/Exercise1/Part1_MCQ.md"><img src="../images/question.svg" width="24px"></a> | <a href="./exercise/Exercise1/Question1.md"><img src="../images/question.svg" width="24px"></a> | 
-| **Semester II 2024/2025** | <a href="./exercise/Exercise2/Part1_MCQ.md"><img src="../images/question.svg" width="24px"></a> | <a href="./exercise/Exercise2/Question1.md"><img src="../images/question.svg" width="24px"></a> | 
-
 **Semester I 2023/2024**
 | Question | Description |
 |:------:|-------------|
