@@ -159,6 +159,7 @@ bdm/your_group/
 | group6 | Pandas | Dask | Polars | [NYC Yellow Taxi Trip Data](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data) | |
 | scubaa | Pandas | Dask | PyArrow | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2526/assignment/A2/bdm/scubaa) |
 | OnePlayer | Pandas | Dask | Polars | [Cell Towers Worldwide: Location Data by Continent](https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2526/assignment/A2/bdm/OnePlayer) |
+| Ziyaad | Pandas | Dask | Polars | [US Accidents (2016 - 2023)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/HPDP/tree/main/2526/assignment/A2/bdm/Ziyaad) |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
