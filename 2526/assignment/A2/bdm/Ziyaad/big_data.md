@@ -6,16 +6,10 @@
     <th>Matric Number</th>
   </tr>
   <tr>
-    <td>[Your Name]</td>
-    <td>[Matric Number]</td>
-  </tr>
-  <tr>
-    <td>[Your Name]</td>
-    <td>[Matric Number]</td>
+    <td>AHMAD ZIYAAD BIN MOHD ABBAS</td>
+    <td>A23CS0206</td>
   </tr>
 </table>
-
-> ✏️ *Replace the placeholders above with your actual names and matric numbers before submitting.*
 
 ---
 
