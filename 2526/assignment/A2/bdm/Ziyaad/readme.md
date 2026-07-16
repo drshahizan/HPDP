@@ -1,10 +1,7 @@
 # 📘 Big Data Management Assignment: Mastering Big Data Handling
 
 **Group Members**:
-- Student 1: *[Your Name], [Matric Number]*
-- Student 2: *[Your Name], [Matric Number]*
-
-> ✏️ *Replace the placeholders above with your actual names and matric numbers before submitting.*
+- Student 1: Ahmad Ziyaad bin Mohd Abbas, A23CS0206
 
 ---
 
