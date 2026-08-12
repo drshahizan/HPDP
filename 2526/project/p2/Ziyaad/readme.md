@@ -37,7 +37,7 @@
   <tr>
     <td>Presentation Video</td>
     <td align="center">
-      <a href="<!-- FILL: YOUTUBE LINK -->"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
+      <a href="https://youtu.be/6O4vTOLs8eI"><img src="https://github.com/user-attachments/assets/2dec74b1-9d2d-4cec-ae38-a57f7ac1711c" width=25px height=23px></a>
     </td>
   </tr>
   <tr>
